@@ -5,7 +5,7 @@ import styles from './page111112.module.scss'
 const Page111112 = () => (
   <div className={styles.wrapper}>
     <video className={styles.image7} muted loop autoPlay>
-      <source src='./magazine/2/images/111_112/video1.mov' type='video/mp4' />
+      <source src='./magazine/2/images/111_112/video1.mp4' type='video/mp4' />
     </video>
     <div className={styles.image1} />
     <img src='./magazine/2/images/111_112/image1.gif' className={styles.image2} />
@@ -15,7 +15,7 @@ const Page111112 = () => (
     <img src='./magazine/2/images/111_112/image5.png' className={styles.image6} />
     {/* <img src="./magazine/1/105_106/image6.png" className={styles.image7} /> */}
     <video className={styles.image7} muted loop autoPlay>
-      <source src='./magazine/2/images/111_112/video1.mov' type='video/mp4' />
+      <source src='./magazine/2/images/111_112/video1.mp4' type='video/mp4' />
     </video>
     <p className={styles.text1}>Nike Adapt BB</p>
     <Link href='https://marcellobaldari.artstation.com/'><a className={styles.text2}>
