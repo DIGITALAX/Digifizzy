@@ -1,0 +1,123 @@
+[
+  {
+    "name": "Phoebe Heess",
+    "image": "/magazine/9/realm-avatars/realm_phoebe.png",
+    "borderColor": "linear-gradient(136.5deg, #FFFFFF 0%, #949494 48%, #2B230F 102.4%)",
+    "designerId": "Phoebe Heess",
+    "document": "https://phoebe-heess.gitbook.io/phoebe-heess/web3-patrons",
+    "tags": ["sportswear", "monochrome", "interoperability"]
+  },
+  {
+    "name": "Alana",
+    "image": "/magazine/9/realm-avatars/realm_alana.png",
+    "borderColor": "linear-gradient(136.5deg, #EB00FF 0%, #4D0241 48%, #DA0069 102.4%)",
+    "designerId": "Alana the Web3 Girl",
+    "oldDesignerId": "Alana",
+    "document": "https://alanatheweb3girl.gitbook.io/alanatheweb3girl/patrons",
+    "tags": ["digi models", "digital", "DeFi", "interoperability"]
+  },
+  {
+    "name": "TECHN0M0RPH",
+    "image": "/magazine/9/realm-avatars/realm_techno.png",
+    "borderColor": "linear-gradient(136.5deg, #5C7676 0%, #322820 48%, #88725C 102.4%)",
+    "designerId": "TECHN0M0RPH",
+    "document": "https://technomorph.gitbook.io/technomorph/web3-patrons",
+    "tags": ["digital", "monochrome", "fashiontech"]
+  },
+  {
+    "name": "Keeping Distance",
+    "image": "/magazine/9/realm-avatars/realm_kd.png",
+    "borderColor": "linear-gradient(136.5deg, #00F0FF 0%, #0D00A5 48%, #E66B65 102.4%)",
+    "designerId": "Keeping Distance",
+    "document": "https://keepingdistanceweb3.gitbook.io/keeping-distance/realm-analytics/web3-patrons",
+    "tags": ["phygital", "sustainability", "alignment", "luxury"]
+  },
+  {
+    "name": "Progression",
+    "image": "/magazine/9/realm-avatars/realm_progression.png",
+    "borderColor": "linear-gradient(136.5deg, #1D1D1C 0%, #4B4A48 48%, #13010A 102.4%)",
+    "designerId": "Progression",
+    "document": "https://progression-realm.gitbook.io/welcome-to-progression/",
+    "tags": ["media", "advertising", "communication"]
+  },
+  {
+    "name": "Plug Life",
+    "image": "/magazine/9/realm-avatars/realm_plug.png",
+    "borderColor": "linear-gradient(136.5deg, #56E3FF 0%, #E4556C 48%, #9FE38E 102.4%)",
+    "designerId": "Plug Life",
+    "document": "https://pluglife.gitbook.io/plug-life/",
+    "tags": ["sex posititive", "interoperability", "kinky"]
+  },
+  {
+    "name": "ALTERRAGE",
+    "image": "/magazine/9/realm-avatars/realm_alter.png",
+    "borderColor": "linear-gradient(136.5deg, #FF7A00 0%, #874100 48%, #AA7A00 102.4%)",
+    "designerId": "ALTERRAGE",
+    "document": "https://alterrage.gitbook.io/alterrage/",
+    "tags": ["phygital", "url", "luxury", "activisim", "circularity"]
+  },
+  {
+    "name": "RAW Apparel",
+    "image": "/magazine/9/realm-avatars/realm_raw.png",
+    "borderColor": "linear-gradient(136.5deg, #5D9C41 0%, #008705 48%, #35392B 102.4%)",
+    "designerId": "RAW Apparel",
+    "document": "https://raw-apparel.gitbook.io/internal-wiki/",
+    "tags": ["phygital", "education", "interoperability"]
+  },
+  {
+    "name": "STABIYA",
+    "image": "/magazine/9/realm-avatars/realm_stabiya.png",
+    "borderColor": "linear-gradient(136.5deg, #FEE92A 0%, #E31A27 48%, #FFFFFF 102.4%)",
+    "designerId": "STABIYA",
+    "document": "https://stabiys-1.gitbook.io/untitled/",
+    "tags": ["digital", "samizdat", "interoperability"]
+  },
+  {
+    "name": "Random Variable",
+    "image": "/magazine/9/realm-avatars/realm_random.png",
+    "borderColor": "linear-gradient(136.5deg, #31BA29 0%, #305F27 48%, #262626 102.4%)",
+    "designerId": "Random Variable",
+    "document": "https://randoiable.gitbook.io/random-variable/",
+    "tags": ["phygital", "industrial", "circularity"]
+  },
+  {
+    "name": "F₃Manifesto",
+    "image": "/magazine/9/realm-avatars/realm_manifesto.png",
+    "borderColor": "linear-gradient(136.5deg, #FFEF62 0%, #4E4AFF 102.4%)",
+    "designerId": "F₃Manifesto",
+    "document": "https://digitalax.gitbook.io/f-manifesto/",
+    "tags": ["digifizzy", "IP freedom", "web2 antithesis"]
+  },
+  {
+    "name": "Oli3D Fashion Design Studio",
+    "image": "/magazine/9/realm-avatars/realm_oli.png",
+    "borderColor": "linear-gradient(136.5deg, #29B1BA 0%, #9A9A9A 102.4%)",
+    "designerId": "Oli3D Fashion Design Studio",
+    "document": "https://oli3d.gitbook.io/oli3d-fashion-design-studio/",
+    "tags": ["digital", "interoperability", "sustainability"]
+  },
+  {
+    "name": "AVA3D",
+    "image": "/magazine/9/realm-avatars/realm_ava.png",
+    "borderColor": "linear-gradient(136.5deg, #0D349A 0%, #AE8073 48%, #C6AF86 102.4%)",
+    "designerId": "AVA3D",
+    "document": "https://ava-designers.gitbook.io/ava3ddesigners/",
+    "tags": ["phygital", "cultural", "sustainability"]
+  },
+  {
+    "name": "Midwest Misfit",
+    "image": "/magazine/9/realm-avatars/midwest_realm.png",
+    "borderColor": "linear-gradient(136.5deg, #FFE900 0%, #616161 48%, #1C150D 102.4%)",
+    "designerId": "Midwest Misfit",
+    "document": "https://midwest-misfit.gitbook.io/midwest-misfit/",
+    "tags": ["digi models", "digital fashion", "interoperability"]
+  },
+  {
+    "name": "ENKI Digital Fashion",
+    "image": "/magazine/9/realm-avatars/enki_realm.png",
+    "borderColor": "linear-gradient(136.5deg, #1072B5 0%, #616161 48%, #1C150D 102.4%)",
+    "designerId": "ENKI Digital Fashion",
+    "document": "https://enki-digital-fashion.gitbook.io/enki-digital-fashion/",
+    "tags": ["digital fashion", "interoperability", "circularity"]
+  }
+]

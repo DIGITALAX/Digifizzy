@@ -1,0 +1,256 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  color: white;
+  display: flex;
+  position: relative;
+  background-color: #000000;
+
+  .image1 {
+    position: absolute;
+    width: 544px;
+    height: 544px;
+    left: 1491px;
+    top: -163px;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 1731px;
+    top: 265px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 178px;
+    height: 178px;
+    left: 1612px;
+    top: 302px;    
+  }
+
+  .image4 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 1768px;
+    top: 377px;
+  }
+
+  .image5 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 1815px;
+    top: 310px;
+  }
+
+  .image6 {
+    position: absolute;
+    width: 544px;
+    height: 544px;
+    left: 960px;
+    top: 831px;    
+  }
+
+  .image7 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 960px;
+    top: 1072px;
+  }
+
+  .image8 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 1034px;
+    top: 1130px;
+  }
+
+  .image9 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 983px;
+    top: 1213px;
+  }
+
+  .image10 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 983px;
+    top: 1304px;
+  }
+
+  .image11 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 1034px;
+    top: 1385px;
+  }
+
+  .image12 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 987px;
+    top: 1452px;    
+  }
+
+  .image13 {
+    position: absolute;
+    width: 178px;
+    height: 178px;
+    left: 1081px;
+    top: 1296px;
+    
+  }
+
+  .image14 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 1200px;
+    top: 1259px;
+  }
+
+  .image15 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 1237px;
+    top: 1371px;
+  }
+
+  .image16 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 1284px;
+    top: 1304px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 432px;
+    height: 500px;
+    left: 69px;
+    top: -106px;
+    
+    font-family: Chickens Lovers;
+    font-size: 100px;
+    line-height: 100%;
+    -webkit-text-stroke: 3px #80FF44;
+    text-shadow: 20px 20px 20px #20D7FF;
+    color: transparent;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 432px;
+    height: 500px;
+    left: 501px;
+    top: -106px;
+    
+    font-family: Chickens Lovers;
+    font-size: 100px;
+    line-height: 100%;
+    -webkit-text-stroke: 3px #FF4471;
+    text-shadow: 20px 20px 20px #20D7FF;
+    color: transparent;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 432px;
+    height: 500px;
+    left: 69px;
+    top: 445px;
+    
+    font-family: Chickens Lovers;
+    font-size: 100px;
+    line-height: 100%;
+    -webkit-text-stroke: 3px #44BCFF;
+    text-shadow: 20px 20px 20px #20D7FF;
+    color: transparent;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 432px;
+    height: 500px;
+    left: 528px;
+    top: 443px;
+    
+    font-family: Chickens Lovers;
+    font-size: 100px;
+    line-height: 100%;
+    -webkit-text-stroke: 3px #CE44FF;
+    text-shadow: 20px 20px 20px #20D7FF;
+    color: transparent;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 432px;
+    height: 500px;
+    left: 69px;
+    top: 996px;
+    
+    font-family: Chickens Lovers;
+    font-size: 100px;
+    line-height: 100%;
+    -webkit-text-stroke: 3px #FFEC44;
+    text-shadow: 20px 20px 20px #20D7FF;
+    color: transparent;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 432px;
+    height: 500px;
+    left: 528px;
+    top: 994px;
+    
+    font-family: Chickens Lovers;
+    font-size: 100px;
+    line-height: 100%;
+    -webkit-text-stroke: 3px #FF8744;
+    text-shadow: 20px 20px 20px #20D7FF;
+    color: transparent;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 417px;
+    height: 822px;
+    left: 1055px;
+    top: 43px;
+    
+    font-family: Redressed;
+    font-size: 35px;
+    line-height: 41px;
+    
+    color: #FFFFFF;
+  }
+
+  .text8 {
+    position: absolute;
+    width: 341px;
+    height: 822px;
+    left: 1534px;
+    top: 601px;
+    
+    font-family: Redressed;
+    font-size: 35px;
+    line-height: 41px;
+    
+    color: #FFFFFF;
+  }
+}

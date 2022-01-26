@@ -1,0 +1,78 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: radial-gradient(50% 50% at 50% 50%, #000000 70.83%, #6B8A53 86.98%, #8DA7E9 93.75%, #000000 100%);
+
+  .image1 {
+    position: absolute;
+    width: 259px;
+    height: 440px;
+    left: 54px;
+    top: 40px;        
+  }
+
+  .image2 {
+    position: absolute;
+    width: 259px;
+    height: 440px;
+    left: 54px;
+    top: 504px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 413px;
+    height: 702px;
+    left: 1601px;
+    top: 911px;    
+  }
+
+  .image4 {
+    position: absolute;
+    width: 595px;
+    height: 793px;
+    left: 25.22px;
+    top: 879px;
+    
+    transform-origin: 0 0;
+    transform: rotate(20deg);
+  }
+
+  .image5 {
+    position: absolute;
+    width: 595px;
+    height: 793px;
+    left: 1865.8px;
+    top: 610.93px;
+    
+    transform-origin: 0 0;
+    transform: rotate(-140deg);
+  }
+
+  .text1 {
+    position: absolute;
+    width: 412px;
+    height: 989px;
+    left: 503px;
+    top: 198px;
+    
+    font-family: Sniglet;
+    font-size: 23px;
+    line-height: 100%;
+    color: #93B0FF;        
+  }
+
+  .text2 {
+    position: absolute;
+    width: 412px;
+    height: 1035px;
+    left: 1052px;
+    top: 198px;
+    
+    font-family: Sniglet;
+    font-size: 23px;
+    line-height: 100%;
+    color: #93B0FF;    
+  }
+}

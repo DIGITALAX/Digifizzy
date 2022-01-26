@@ -1,0 +1,89 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  display: flex;
+  position: relative;
+  background: #FD96FF;
+  color: white;
+
+  .image1 {
+    position: absolute;
+    width: 394.78px;
+    height: 668.96px;
+    left: 29px;
+    top: 21px;    
+  }
+
+  .image2 {
+    position: absolute;
+    width: 394.78px;
+    height: 668.96px;
+    left: 29px;
+    top: 779px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 394.78px;
+    height: 668.96px;
+    left: 1626px;
+    top: 248px;    
+  }
+
+  .image4 {
+    position: absolute;
+    width: 394.78px;
+    height: 668.96px;
+    left: 1603px;
+    top: 964px;    
+  }
+
+  .image5 {
+    position: absolute;
+    width: 678px;
+    height: 578px;
+    left: 1048px;
+    top: 1148px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 440px;
+    height: 1258px;
+    left: 458px;
+    top: 43px;
+    
+    font-family: Bowlby One SC;
+    font-size: 30px;
+    line-height: 100%;
+    
+    color: #FFFFFF;        
+  }
+
+  .text2 {
+    position: absolute;
+    width: 793px;
+    height: 446px;
+    left: 1048px;
+    top: 42px;
+    
+    font-family: Bowlby One SC;
+    font-size: 30px;
+    line-height: 100%;
+    color: #FFFFFF;    
+  }
+
+  .text3 {
+    position: absolute;
+    width: 492px;
+    height: 626px;
+    left: 1048px;
+    top: 330px;
+    
+    font-family: Bowlby One SC;
+    font-size: 30px;
+    line-height: 100%;
+    color: #FFFFFF;    
+  }
+}

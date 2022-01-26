@@ -1,0 +1,97 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: black;
+
+  .leftBackground {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+    object-fit: cover;
+  }
+
+  .rightBackground {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
+    top: 0px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 279px;
+    height: 37px;
+    left: 645px;
+    top: 1298px;
+
+    font-family: Stint Ultra Expanded;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+    text-align: right;
+
+    color: #ffffff;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 220px;
+    height: 70px;
+    left: 709px;
+    top: 1403px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 100%;
+    /* identical to box height, or 70px */
+
+    color: #ffffff;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 847px;
+    height: 936px;
+    left: 1017px;
+    top: 72px;
+    
+    font-family: Africa;    
+    font-size: 100px;
+    line-height: 110%;
+    color: #FFFFFF;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 580px;
+    height: 232px;
+    left: 1713px;
+    top: 1045px;
+    
+    font-family: Africa;
+    font-size: 30px;
+    line-height: 110%;
+    color: #FFFFFF;
+  }
+
+  a {
+    div {
+      cursor: pointer;
+      transition: 0.3s all;
+
+      &:hover {
+        transition: 0.3s all;
+        transform: scale(1.1);
+      }
+    }
+  }
+}

@@ -1,0 +1,436 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: black;
+
+  .kiwi1 {
+    position: absolute;
+    width: 300px;
+    height: 333px;
+    left: 0px;
+    top: 0px;
+        
+  }
+
+  .kiwi2 {
+    position: absolute;
+    width: 300px;
+    height: 333px;
+    left: 0px;
+    top: 333px;
+  }
+
+  .kiwi3 {
+    position: absolute;
+    width: 300px;
+    height: 333px;
+    left: 0px;
+    top: 666px;
+  }
+
+  .kiwi4 {
+    position: absolute;
+    width: 300px;
+    height: 333px;
+    left: 0px;
+    top: 999px;
+  }
+
+  .kiwi5 {
+    position: absolute;
+    width: 300px;
+    height: 333px;
+    left: 0px;
+    top: 1332px;
+  }
+
+  .kiwi6 {
+    position: absolute;
+    width: 300px;
+    height: 333px;
+    left: 300px;
+    top: 0px;    
+  }
+
+  .kiwi7 {
+    position: absolute;
+    width: 300px;
+    height: 333px;
+    left: 300px;
+    top: 333px;
+    
+  }
+
+  .kiwi8 {
+    position: absolute;
+    width: 300px;
+    height: 333px;
+    left: 300px;
+    top: 666px;
+  }
+
+  .kiwi9 {
+    position: absolute;
+    width: 300px;
+    height: 333px;
+    left: 300px;
+    top: 999px;
+  }
+
+  .kiwi10 {
+    position: absolute;
+    width: 300px;
+    height: 333px;
+    left: 300px;
+    top: 1332px;
+  }
+
+  .kiwi11 {
+    position: absolute;
+    width: 300px;
+    height: 333px;
+    left: 600px;
+    top: 0px;        
+  }
+
+  .kiwi12 {
+    position: absolute;
+    width: 300px;
+    height: 333px;
+    left: 600px;
+    top: 333px;
+  }
+
+  .kiwi13 {
+    position: absolute;
+    width: 300px;
+    height: 333px;
+    left: 600px;
+    top: 666px;
+  }
+
+  .kiwi14 {
+    position: absolute;
+    width: 300px;
+    height: 333px;
+    left: 600px;
+    top: 999px;
+  }
+
+  .kiwi15 {
+    position: absolute;
+    width: 300px;
+    height: 333px;
+    left: 600px;
+    top: 1332px;
+  }
+
+  .kiwi16 {
+    position: absolute;
+    width: 300px;
+    height: 333px;
+    left: 900px;
+    top: 0px;        
+  }
+
+  .kiwi17 {
+    position: absolute;
+    width: 300px;
+    height: 333px;
+    left: 900px;
+    top: 333px;
+  }
+
+  .kiwi18 {
+    position: absolute;
+    width: 300px;
+    height: 333px;
+    left: 900px;
+    top: 666px;
+    
+  }
+
+  .kiwi19 {
+    position: absolute;
+    width: 300px;
+    height: 333px;
+    left: 900px;
+    top: 999px;
+  }
+
+  .kiwi20 {
+    position: absolute;
+    width: 300px;
+    height: 333px;
+    left: 900px;
+    top: 1332px;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 960px;
+    height: 1499px;
+    left: 960px;
+    top: 0px;
+    
+    background: #000000;    
+  }
+
+  .heart1 {
+    position: absolute;
+    width: 567px;
+    height: 495px;
+    left: 393px;
+    top: 607px;        
+  }
+
+  .heart2 {
+    position: absolute;
+    width: 567px;
+    height: 495px;
+    left: -27px;
+    top: 1004px;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 960px;
+    height: 433px;
+    left: 960px;
+    top: -97px;        
+  }
+
+  .image2 {
+    position: absolute;
+    width: 960px;
+    height: 433px;
+    left: 1920px;
+    top: 1493px;
+    
+    transform-origin: 0 0;
+    transform: rotate(-180deg)
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 1408px;
+    top: -109px;
+    
+    background: #FFFCFC;    
+  }
+
+  .rect3 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 1408px;
+    top: 52px;
+    
+    background: #FFFCFC;
+  }
+
+  .rect4 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 1408px;
+    top: 227px;
+    
+    background: #FFFCFC;
+  }
+
+  .rect5 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 1408px;
+    top: 402px;
+    
+    background: #FFFCFC;
+  }
+
+  .rect6 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 1408px;
+    top: 577px;
+    
+    background: #FFFCFC;
+  }
+
+  .rect7 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 1408px;
+    top: 752px;
+    
+    background: #FFFCFC;    
+  }
+
+  .rect8 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 1408px;
+    top: 927px;
+    
+    background: #FFFCFC;
+  }
+
+  .rect9 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 1408px;
+    top: 1102px;
+    
+    background: #FFFCFC;
+  }
+
+  .rect10 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 1408px;
+    top: 1277px;
+    
+    background: #FFFCFC;
+  }
+
+  .rect11 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 1408px;
+    top: 1452px;
+    
+    background: #FFFCFC;
+  }
+
+  .rect12 {
+    position: absolute;
+    width: 778px;
+    height: 376px;
+    left: 64px;
+    top: 39px;
+    
+    background: rgba(175, 255, 4, 0.88);    
+  }
+
+  .rect13 {
+    position: absolute;
+    width: 285px;
+    height: 510px;
+    left: 64px;
+    top: 445px;
+    
+    background: rgba(175, 255, 4, 0.88);
+  }
+
+  .rect14 {
+    position: absolute;
+    width: 285px;
+    height: 331px;
+    left: 583px;
+    top: 1135px;
+    
+    background: rgba(175, 255, 4, 0.88);
+  }
+
+  .text1 {
+    position: absolute;
+    width: 716px;
+    height: 311px;
+    left: 95px;
+    top: 82px;
+    
+    font-family: Boogaloo;
+    font-size: 25px;
+    line-height: 120.53%;
+    color: #000000;        
+  }
+
+  .text2 {
+    position: absolute;
+    width: 233px;
+    height: 460px;
+    left: 95px;
+    top: 462px;
+    
+    font-family: Boogaloo;
+    font-size: 25px;
+    line-height: 120.53%;    
+    color: #000000;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 233px;
+    height: 245px;
+    left: 617px;
+    top: 1147px;
+    
+    font-family: Boogaloo;
+    font-size: 25px;
+    line-height: 120.53%;
+    color: #000000;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 1345px;
+    height: 237px;
+    left: 992px;
+    top: 1385px;
+    
+    font-family: Chalkboard;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 140px;
+    line-height: 100%;
+    text-align: center;
+    
+    color: #FFFFFF;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+  }
+
+  .text5 {
+    position: absolute;
+    width: 179px;
+    height: 1121px;
+    left: 1166px;
+    top: 183px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 120.53%;
+    /* or 24px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 307px;
+    height: 1091px;
+    left: 1536px;
+    top: 170px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 120.53%;
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+}

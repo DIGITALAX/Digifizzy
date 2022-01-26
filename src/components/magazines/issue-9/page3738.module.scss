@@ -1,0 +1,410 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  .video1 {
+    position: absolute;
+    width: 920px;
+    height: 548px;
+    left: 500px;
+    top: 474px;
+    object-fit: contain;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+    
+    background: radial-gradient(64.7% 64.7% at 50% 50%, transparent 49.390%, #1C17D1 64.59%, #A0C7AB 85.84%, #7FCED7 100%);    
+  }
+
+  .text1 {
+    position: absolute;
+    width: 826px;
+    height: 109px;
+    left: 69px;
+    top: 37px;
+    
+    font-family: Krona One;
+    font-size: 40px;
+    line-height: 50px;
+    color: #00FFFF;    
+  }
+
+  .text2 {
+    position: absolute;
+    width: 826px;
+    height: 156px;
+    left: 69px;
+    top: 152px;
+    
+    font-family: Krona One;
+    font-size: 25px;
+    line-height: 40px;
+    color: #00FFFF;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 745px;
+    height: 102px;
+    left: 69px;
+    top: 458px;
+    
+    font-family: Krona One;
+    font-size: 15px;
+    line-height: 25px;
+    color: #00FFFF;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 445px;
+    height: 109px;
+    left: 69px;
+    top: 608px;
+    
+    font-family: Krona One;
+    font-size: 50px;
+    line-height: 50px;
+    color: #00FFFF;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 860px;
+    height: 155px;
+    left: 69px;
+    top: 916px;
+    
+    font-family: Krona One;
+    font-size: 20px;
+    line-height: 25px;
+    color: #00FFFF;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 826px;
+    height: 101px;
+    left: 69px;
+    top: 1100px;
+
+    font-family: Krona One;
+    font-size: 25px;
+    line-height: 40px;
+    color: #00FFFF;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 860px;
+    height: 155px;
+    left: 69px;
+    top: 1236px;
+    
+    font-family: Krona One;
+    font-size: 20px;
+    line-height: 25px;
+    color: #00FFFF;
+  }
+
+  .text8 {
+    position: absolute;
+    width: 878px;
+    height: 346px;
+    left: 1024px;
+    top: 256px;
+    
+    font-family: Krona One;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FAFF00;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 453px;
+    height: 215px;
+    left: 1467px;
+    top: 628px;
+    
+    font-family: Krona One;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FAFF00;
+  }
+
+  .text10 {
+    position: absolute;
+    width: 453px;
+    height: 215px;
+    left: 1467px;
+    top: 763px;
+    
+    font-family: Krona One;
+    font-size: 25px;
+    line-height: 35px;
+    text-decoration-line: underline;
+    color: #FAFF00;
+  }
+
+  .text11 {
+    position: absolute;
+    width: 876px;
+    height: 469px;
+    left: 1024px;
+    top: 899px;
+    
+    font-family: Krona One;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FAFF00;
+
+    a {
+      color: #FAFF00;
+      text-decoration: underline;
+    }
+  }
+
+  .textPW3R1 {
+    position: absolute;
+    width: 607px;
+    height: 85px;
+    left: 975px;
+    top: 214px;
+    
+    font-family: Krona One;
+    font-size: 50px;
+    line-height: 85px;
+    color: #FAFF00;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);    
+  }
+
+  .textPW3R2 {
+    position: absolute;
+    width: 607px;
+    height: 85px;
+    left: 1060px;
+    top: 0px;
+    
+    font-family: Krona One;
+    font-size: 50px;
+    line-height: 85px;
+    color: #FAFF00;
+  }
+
+  .textPW3R3 {
+    position: absolute;
+    width: 607px;
+    height: 85px;
+    left: 1284px;
+    top: 0px;
+    
+    font-family: Krona One;
+    font-size: 50px;
+    line-height: 85px;
+    color: #FAFF00;
+  }
+
+  .textPW3R4 {
+    position: absolute;
+    width: 607px;
+    height: 85px;
+    left: 1506px;
+    top: 0px;
+    
+    font-family: Krona One;
+    
+    font-size: 50px;
+    line-height: 85px;
+
+    color: #FAFF00;
+  }
+
+  .textPW3R5 {
+    position: absolute;
+    width: 607px;
+    height: 85px;
+    left: 1732px;
+    top: 0px;
+    
+    font-family: Krona One;
+    
+    font-size: 50px;
+    line-height: 85px;
+
+    color: #FAFF00;    
+  }
+
+  .textPW3R6 {
+    position: absolute;
+    width: 607px;
+    height: 85px;
+    left: 1060px;
+    top: 61px;
+    
+    font-family: Krona One;
+    
+    font-size: 50px;
+    line-height: 85px;
+
+    color: #FAFF00;
+  }
+
+  .textPW3R7 {
+    position: absolute;
+    width: 607px;
+    height: 85px;
+    left: 1284px;
+    top: 61px;
+    
+    font-family: Krona One;
+    
+    font-size: 50px;
+    line-height: 85px;
+
+    color: #FAFF00;
+  }
+
+  .textPW3R8 {
+    position: absolute;
+    width: 607px;
+    height: 85px;
+    left: 1506px;
+    top: 61px;
+    
+    font-family: Krona One;
+    
+    font-size: 50px;
+    line-height: 85px;
+
+    color: #FAFF00;
+  }
+
+  .textPW3R9 {
+    position: absolute;
+    width: 607px;
+    height: 85px;
+    left: 1732px;
+    top: 61px;
+    
+    font-family: Krona One;
+    
+    font-size: 50px;
+    line-height: 85px;
+
+    color: #FAFF00;    
+  }
+
+  .textPW3R10 {
+    position: absolute;
+    width: 507px;
+    height: 85px;
+    left: 977px;
+    top: 1527px;
+    
+    font-family: Krona One;
+    
+    font-size: 50px;
+    line-height: 85px;
+
+    color: #FAFF00;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+  }
+
+  .textPW3R11 {
+    position: absolute;
+    width: 607px;
+    height: 85px;
+    left: 1062px;
+    top: 1410px;
+    
+    font-family: Krona One;
+    
+    font-size: 50px;
+    line-height: 85px;
+
+    color: #FAFF00;
+  }
+
+  .textPW3R12 {
+    position: absolute;
+    width: 607px;
+    height: 85px;
+    left: 1286px;
+    top: 1410px;
+    
+    font-family: Krona One;
+    
+    font-size: 50px;
+    line-height: 85px;
+
+    color: #FAFF00;
+  }
+
+  .textPW3R13 {
+    position: absolute;
+    width: 607px;
+    height: 85px;
+    left: 1508px;
+    top: 1410px;
+    
+    font-family: Krona One;
+    
+    font-size: 50px;
+    line-height: 85px;
+
+    color: #FAFF00;
+  }
+
+  .textPW3R14 {
+    position: absolute;
+    width: 607px;
+    height: 85px;
+    left: 1734px;
+    top: 1410px;
+    
+    font-family: Krona One;
+    
+    font-size: 50px;
+    line-height: 85px;
+
+    color: #FAFF00;
+  }
+
+  .text12 {
+    position: absolute;
+    width: 976px;
+    height: 85px;
+    left: 995px;
+    top: 146px;
+    
+    font-family: Krona One;
+    font-size: 70px;
+    line-height: 85px;
+    text-align: center;
+    
+    color: #FAFF00;        
+  }
+
+  .text13 {
+    position: absolute;
+    width: 976px;
+    height: 85px;
+    left: 995px;
+    top: 1325px;
+    
+    font-family: Krona One;
+    font-size: 70px;
+    line-height: 85px;
+    text-align: center;
+    
+    color: #FAFF00;
+  }
+}

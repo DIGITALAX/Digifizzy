@@ -1,0 +1,145 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: #313653;
+
+  .imageBackground {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 846px;
+    height: 105px;
+    left: 28px;
+    top: 36px;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease;
+    }
+  }
+
+  .image2 {
+    position: absolute;
+    width: 227px;
+    height: 227px;
+    left: 698px;
+    top: 198px;
+    transition: transform 0.3s ease;
+    img {
+      border-radius: 200px;
+    }
+
+    &:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease;
+    }
+  }
+
+  .image3 {
+    position: absolute;
+    width: 571px;
+    height: 180px;
+    left: 204px;
+    top: 317px;
+  }
+
+  .play {
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    left: 50px;
+    top: 365px;
+    cursor: pointer;
+
+    transition: transform 0.3s ease;
+    img {
+      border-radius: 200px;
+    }
+
+    &:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease;
+    }
+  }
+
+  .text1 {
+    position: absolute;
+    width: 557px;
+    height: 156px;
+    left: 173px;
+    top: 209px;
+
+    font-family: Ponnala;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 40px;
+    /* or 67% */
+
+    color: #ffffff;
+
+    -webkit-text-stroke: 2px #000000;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 429.99px;
+    height: 62px;
+    left: 491px;
+    top: 499.41px;
+
+    font-family: Forum;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+
+    color: #ffffff;
+
+    // -webkit-text-stroke: 1px #000000;
+  text-shadow: -1px -1px black, -1px 1px black, 1px -1px black, 1px 1px black;
+    transform: rotate(-10deg);
+  }
+
+  .text3 {
+    position: absolute;
+    width: 591px;
+    height: 62px;
+    left: 990px;
+    top: 57px;
+
+    font-family: Forum;
+    font-size: 70px;
+    line-height: 40px;
+    color: #ffffff;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 877px;
+    height: 272px;
+    left: 990px;
+    top: 161px;
+
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    /* or 100% */
+
+    color: #ffffff;
+
+    -webkit-text-stroke: 0.2px #000000;
+  }
+}

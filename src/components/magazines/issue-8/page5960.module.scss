@@ -1,0 +1,375 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: black;
+
+  .back {
+    position: absolute;
+    left: 0px;
+    width: 1920px;
+    top: 0;
+    height: 1497px;
+  }
+
+  .link1 {
+    position: absolute;
+    width: 946px;
+    height: 160px;
+    left: 967px;
+    top: -20px;
+
+    font-family: Dokdo;
+    font-size: 60px;
+    line-height: 60px;
+    /* or 100% */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+
+    -webkit-text-stroke: 1px #ff30ea;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .image1 {
+    position: absolute;
+    width: 191px;
+    height: 223px;
+    left: 1692px;
+    top: 129px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 655px;
+    height: 139px;
+    left: 1003px;
+    top: 129px;
+
+    font-family: Germania One;
+    font-size: 35px;
+    line-height: 30px;
+    color: #ffffff;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .text2 {
+    position: absolute;
+    width: 608px;
+    height: 139px;
+    left: 1276px;
+    top: 356px;
+
+    font-family: Germania One;
+    font-size: 35px;
+    line-height: 30px;
+    color: #ffffff;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .text3 {
+    position: absolute;
+    width: 608px;
+    height: 139px;
+    left: 1295px;
+    top: 1029px;
+
+    font-family: Germania One;
+    font-size: 35px;
+    line-height: 30px;
+    color: #ffffff;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .inkText1 {
+    position: absolute;
+    width: 604px;
+    height: 421px;
+    left: 1229px;
+    top: 523px;
+    
+    font-family: Geo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 30px;
+    color: #FFBFBF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+  }
+
+  .inkText2 {
+    position: absolute;
+    width: 604px;
+    height: 40px;
+    left: 1557px;
+    top: 523px;
+    
+    font-family: Geo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 30px;
+    color: #FFBFBF;    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .inkText3 {
+    position: absolute;
+    width: 604px;
+    height: 421px;
+    left: 983px;
+    top: 574px;
+    
+    font-family: Geo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 30px;
+    /* or 67% */
+    
+    
+    color: #FFBFBF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .inkText4 {
+    position: absolute;
+    width: 604px;
+    height: 421px;
+    left: 1305px;
+    top: 574px;
+    
+    font-family: Geo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 30px;
+    /* or 67% */
+    
+    
+    color: #FFBFBF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+  }
+
+  .inkText5 {
+    position: absolute;
+    width: 604px;
+    height: 421px;
+    left: 1627px;
+    top: 574px;
+    
+    font-family: Geo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 30px;
+    /* or 67% */
+    
+    
+    color: #FFBFBF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+  }
+
+  .inkText6 {
+    position: absolute;
+    width: 604px;
+    height: 40px;
+    left: 965px;
+    top: 623px;
+    
+    font-family: Geo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 30px;
+    color: #FFBFBF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .inkText7 {
+    position: absolute;
+    width: 604px;
+    height: 40px;
+    left: 1255px;
+    top: 623px;
+    
+    font-family: Geo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 30px;
+    color: #FFBFBF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .inkText8 {
+    position: absolute;
+    width: 604px;
+    height: 40px;
+    left: 1581px;
+    top: 623px;
+    
+    font-family: Geo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 30px;
+    color: #FFBFBF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .play1 {
+    position: absolute;
+    left: 52.24%;
+    right: 36.51%;
+    top: 23.18%;
+    bottom: 62.39%;
+    cursor: pointer;
+  }
+
+  .play2 {
+    position: absolute;
+    left: 86.82%;
+    right: 1.93%;
+    top: 47.9%;
+    bottom: 37.68%;
+    cursor: pointer;
+  }
+
+  .wrenchText1 {
+    position: absolute;
+    width: 604px;
+    height: 40px;
+    left: 1198px;
+    top: 859px;
+    
+    font-family: Geo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 30px;
+    color: #FFBFBF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+  }
+
+  .wrenchText2 {
+    position: absolute;
+    width: 604px;
+    height: 40px;
+    left: 1439px;
+    top: 859px;
+    
+    font-family: Geo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 30px;
+    color: #FFBFBF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .wrenchText3 {
+    position: absolute;
+    width: 604px;
+    height: 40px;
+    left: 1713px;
+    top: 867px;
+    
+    font-family: Geo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 30px;
+    /* or 67% */
+    
+    
+    color: #FFBFBF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .wrenchText4 {
+    position: absolute;
+    width: 604px;
+    height: 40px;
+    left: 1055px;
+    top: 924px;
+    
+    font-family: Geo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 30px;
+    color: #FFBFBF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .wrenchText5 {
+    position: absolute;
+    width: 604px;
+    height: 40px;
+    left: 1280px;
+    top: 924px;
+    
+    font-family: Geo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 30px;
+    color: #FFBFBF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .wrenchText6 {
+    position: absolute;
+    width: 604px;
+    height: 40px;
+    left: 1515px;
+    top: 924px;
+    
+    font-family: Geo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 30px;
+    color: #FFBFBF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .wrenchText7 {
+    position: absolute;
+    width: 604px;
+    height: 40px;
+    left: 1754px;
+    top: 924px;
+    
+    font-family: Geo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 30px;
+    color: #FFBFBF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}

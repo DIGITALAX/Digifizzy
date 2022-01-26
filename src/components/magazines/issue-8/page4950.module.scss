@@ -1,0 +1,98 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+
+  .back {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 574px;
+    height: 1376px;
+    left: 50px;
+    top: 51px;
+
+    background: rgba(77, 0, 137, 0.47);
+    border: 3px solid #ffffff;
+    box-sizing: border-box;
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 574px;
+    height: 1376px;
+    left: 673px;
+    top: 51px;
+
+    background: rgba(77, 0, 137, 0.47);
+    border: 3px solid #ffffff;
+    box-sizing: border-box;
+  }
+
+  .rect3 {
+    position: absolute;
+    width: 574px;
+    height: 1376px;
+    left: 1296px;
+    top: 51px;
+
+    background: rgba(77, 0, 137, 0.47);
+    border: 3px solid #ffffff;
+    box-sizing: border-box;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 500px;
+    height: 1068px;
+    left: 87px;
+    top: 89px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 40px;
+    color: #ffffff;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 500px;
+    height: 1371px;
+    left: 710px;
+    top: 78px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+
+    color: #ffffff;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 500px;
+    height: 1311px;
+    left: 1333px;
+    top: 81px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+
+    color: #ffffff;
+  }
+}

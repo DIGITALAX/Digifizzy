@@ -1,0 +1,611 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: white;
+
+  .line1 {
+    position: absolute;
+    width: 1346px;
+    height: 9px;
+    left: 0px;
+    top: 174px;
+    background-color: #000000;
+  }
+
+  .line2 {
+    position: absolute;
+    width: 1349px;
+    height: 9px;
+    left: -3px;
+    top: 191px;
+    background-color: #000000;
+  }
+
+  .line3 {
+    position: absolute;
+    width: 642px;
+    height: 9px;
+    left: 713px;
+    top: 44px;
+    background-color: #000000;
+  }
+
+  .line4 {
+    position: absolute;
+    width: 642px;
+    height: 9px;
+    left: 713px;
+    top: 59px;
+    background-color: #000000;
+  }
+
+  .line5 {
+    position: absolute;
+    width: 642px;
+    height: 9px;
+    left: 713px;
+    top: 75px;
+    background-color: #000000;
+  }
+
+  .line6 {
+    position: absolute;
+    width: 642px;
+    height: 9px;
+    left: 713px;
+    top: 91px;
+    background-color: #000000;
+  }
+
+  .line7 {
+    position: absolute;
+    width: 713px;
+    height: 9px;
+    left: 0px;
+    top: 613px;
+    background-color: #000000;
+  }
+
+  .line8 {
+    position: absolute;
+    width: 1207px;
+    height: 9px;
+    left: 713px;
+    top: 1227px;
+    background-color: #000000;
+  }
+
+  .line9 {
+    position: absolute;
+    width: 1497px;
+    height: 9px;
+    left: 704px;
+    top: 1497px;
+    background-color: #000000;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+  }
+
+  .line10 {
+    position: absolute;
+    width: 1028px;
+    height: 9px;
+    left: 1346px;
+    top: 1228px;
+    
+    background-color: #000000;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);    
+  }
+
+  .line11 {
+    position: absolute;
+    width: 200px;
+    height: 9px;
+    left: 1354px;
+    top: 0px;
+    
+    background-color: #000000;
+    transform-origin: 0 0;
+    transform: rotate(90deg);    
+  }
+
+  .line12 {
+    position: absolute;
+    width: 272px;
+    height: 9px;
+    left: 1391px;
+    top: 1230px;
+
+    background-color: #000000;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 713px;
+    height: 174px;
+    left: 0px;
+    top: 174px;
+    
+    background: #FF35DF;
+    transform-origin: 0 0;
+    transform: matrix(1, 0, 0, -1, 0, 0);    
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 633px;
+    height: 27px;
+    left: 713px;
+    top: 0px;
+    
+    background: #503E00;    
+  }
+
+  .rect3 {
+    position: absolute;
+    width: 633px;
+    height: 74px;
+    left: 713px;
+    top: 100px;
+    
+    background: #3AFF42;
+  }
+
+  .rect4 {
+    position: absolute;
+    width: 56px;
+    height: 296px;
+    left: 1215px;
+    top: 200px;
+    
+    background: #3AFF42;    
+  }
+
+  .rect5 {
+    position: absolute;
+    width: 687px;
+    height: 269px;
+    left: 704px;
+    top: 1228px;
+    
+    background: #FFC700;    
+  }
+
+  .rect6 {
+    position: absolute;
+    width: 633px;
+    height: 305px;
+    left: 1346px;
+    top: 923px;
+    
+    background: #BE8DB7;
+  }
+
+  .video1 {
+    position: absolute;
+    width: 526px;
+    height: 400px;
+    left: 20px;
+    top: 204px;
+    object-fit: cover;
+  }
+
+  .video2 {
+    position: absolute;
+    width: 659px;
+    height: 724px;
+    left: 20px;
+    top: 630px;
+    object-fit: cover;
+  }
+
+  .gradient {
+    animation-duration: 1.8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #9c9c9c;
+    background: linear-gradient(to right, #9c9c9c 8%, #f4f4f4 38%, #9c9c9c 54%);
+    background-size: 1000px 640px;
+    
+    // position: relative;
+  }
+
+  @keyframes placeHolderShimmer{
+    0%{
+      background-position: -468px 0
+    }
+    100%{
+      background-position: 468px 0
+    }
+  }
+
+  .image1 {
+    position: absolute;
+    width: 600px;
+    height: 708px;
+    left: 727px;
+    top: 495px;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 533px;
+    height: 683px;
+    left: 1370px;
+    top: 13px;
+    overflow: hidden;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 211px;
+    height: 149px;
+    left: 1370px;
+    top: 950px;    
+  }
+
+  .image4 {
+    position: absolute;
+    width: 211px;
+    height: 149px;
+    left: 1593px;
+    top: 946px;
+  }
+
+  .image5 {
+    position: absolute;
+    width: 211px;
+    height: 149px;
+    left: 1808px;
+    top: 943px;
+  }
+
+  .image6 {
+    position: absolute;
+    width: 211px;
+    height: 149px;
+    left: 1374px;
+    top: 1068px;
+  }
+
+  .image7 {
+    position: absolute;
+    width: 211px;
+    height: 149px;
+    left: 1596px;
+    top: 1077px;
+  }
+
+  .image8 {
+    position: absolute;
+    width: 211px;
+    height: 149px;
+    left: 1807px;
+    top: 1077px;    
+  }
+
+  .text1 {
+    position: absolute;
+    width: 511px;
+    height: 151px;
+    left: -66px;
+    top: 12px;
+    
+    font-family: Artypa;
+    font-size: 60px;
+    line-height: 78px;
+    text-align: center;
+    
+    color: #FFFFFF;    
+  }
+
+  .text2 {
+    position: absolute;
+    width: 164px;
+    height: 20px;
+    left: 559px;
+    top: 226px;
+    
+    font-family: Imprima;
+    font-size: 20px;
+    line-height: 120.53%;
+    color: #000000;    
+  }
+
+  .text3 {
+    position: absolute;
+    width: 348px;
+    height: 168px;
+    left: 553px;
+    top: 589px;
+    
+    font-family: Arthure;
+    font-size: 70px;
+    line-height: 120.53%;
+    color: #000000;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);    
+  }
+
+  .text4 {
+    position: absolute;
+    width: 348px;
+    height: 108px;
+    left: 598px;
+    top: 593px;
+    
+    font-family: Arthure;
+    font-size: 90px;
+    line-height: 120.53%;
+    color: #856800;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+  }
+
+  .text5 {
+    position: absolute;
+    width: 270px;
+    height: 108px;
+    left: 727px;
+    top: 217px;
+    
+    font-family: "Honey and Raspberries";
+    font-size: 80px;
+    line-height: 120.53%;
+    color: #FF0060;    
+  }
+
+  .text6 {
+    position: absolute;
+    width: 270px;
+    height: 108px;
+    left: 727px;
+    top: 386px;
+    
+    font-family: "Honey and Raspberries";
+    font-size: 80px;
+    line-height: 120.53%;
+    color: #FF0060;    
+  }
+
+  .text7 {
+    position: absolute;
+    width: 315px;
+    height: 266px;
+    left: 903px;
+    top: 223px;
+    
+    font-family: Hiragino Mincho ProN;
+    font-size: 110px;
+    line-height: 120.53%;
+    color: #000000;    
+  }
+
+  .text8 {
+    position: absolute;
+    width: 164px;
+    height: 20px;
+    left: 1291px;
+    top: 464px;
+    
+    font-family: Imprima;
+    font-size: 20px;
+    line-height: 120.53%;
+    color: #000000;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+  }
+
+  .text9 {
+    position: absolute;
+    width: 455px;
+    height: 70px;
+    left: 12px;
+    top: 1371px;
+    
+    font-family: Lemon;
+    font-size: 40px;
+    line-height: 120.53%;
+    color: #A02A22;
+  }
+
+  .text10 {
+    position: absolute;
+    width: 197px;
+    height: 20px;
+    left: -49px;
+    top: 1431px;
+    
+    font-family: Imprima;
+    font-size: 20px;
+    line-height: 120.53%;
+    text-align: right;
+    color: #000000;    
+  }
+
+  .text11 {
+    position: absolute;
+    width: 455px;
+    height: 70px;
+    left: 239px;
+    top: 1427px;
+    
+    font-family: Lemon;
+    font-size: 40px;
+    line-height: 120.53%;
+    color: #D6A165;    
+  }
+
+  .text12 {
+    position: absolute;
+    width: 280px;
+    height: 121px;
+    left: 761px;
+    top: 1247px;
+    
+    font-family: Arthure;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 120.53%;
+    /* identical to box height, or 121px */
+    
+    
+    color: #000000;
+  }
+
+  .text13 {
+    position: absolute;
+    width: 280px;
+    height: 121px;
+    left: 1075px;
+    top: 1247px;
+    
+    font-family: Arthure;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 120.53%;
+    /* identical to box height, or 121px */
+    
+    
+    color: #000000;
+    
+  }
+
+  .text14 {
+    position: absolute;
+    width: 280px;
+    height: 121px;
+    left: 761px;
+    top: 1357px;
+    
+    font-family: Arthure;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 120.53%;
+    /* identical to box height, or 121px */
+    
+    
+    color: #000000;
+    
+  }
+
+  .text15 {
+    position: absolute;
+    width: 280px;
+    height: 121px;
+    left: 1075px;
+    top: 1357px;
+    
+    font-family: Arthure;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 120.53%;
+    /* identical to box height, or 121px */
+    
+    
+    color: #000000;
+  }
+
+  .text16 {
+    position: absolute;
+    width: 421px;
+    height: 58px;
+    left: 1370px;
+    top: 719px;
+
+    font-family: Maker Van;
+    font-size: 50px;
+    line-height: 120.53%;
+    color: #00B2FF;
+  }
+
+  .text17 {
+    position: absolute;
+    width: 164px;
+    height: 20px;
+    left: 1764px;
+    top: 729px;
+    
+    font-family: Imprima;
+    font-size: 20px;
+    line-height: 120.53%;
+    color: #000000;
+  }
+
+  .text18 {
+    position: absolute;
+    width: 439px;
+    height: 72px;
+    left: 1364px;
+    top: 855px;
+    
+    font-family: Geostar Fill;
+    font-size: 30px;
+    line-height: 120.53%;
+    color: #000000;
+  }
+
+  .text19 {
+    position: absolute;
+    width: 1018px;
+    height: 84px;
+    left: 1434px;
+    top: 1228px;
+    
+    font-family: Maker Van;
+    font-size: 60px;
+    line-height: 120.53%;
+    color: #000000;
+  }
+
+  .text20 {
+    position: absolute;
+    width: 1018px;
+    height: 84px;
+    left: 1434px;
+    top: 1293px;
+    
+    font-family: Maker Van;
+    font-size: 60px;
+    line-height: 120.53%;
+    color: #000000;
+  }
+
+  .text21 {
+    position: absolute;
+    width: 1018px;
+    height: 84px;
+    left: 1434px;
+    top: 1361px;
+    
+    font-family: Maker Van;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 120.53%;
+    color: #000000;
+  }
+
+  .text22 {
+    position: absolute;
+    width: 1018px;
+    height: 84px;
+    left: 1434px;
+    top: 1418px;
+    
+    font-family: Maker Van;
+    font-size: 60px;
+    line-height: 120.53%;
+    color: #000000;    
+  }
+}

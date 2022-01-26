@@ -1,0 +1,65 @@
+@import '../../../assets/scss/helpers/grid.scss';
+
+.wrapper {
+  margin: auto;
+  position: relative;
+  // background-image: url('../../../../public/images/metaverse/profile-bg.jpg');
+  // background-size: fill;
+  background: #0A0A0A;
+  padding: 150px 1rem 100px;
+  min-height: 800px;
+
+  @include sm-width {
+    padding: 170px 0 120px;
+    width: unset;
+  }
+
+  .returnButton {
+    width: 154px;
+    height: 41px;
+    
+    background: #FFFFFF;
+    color: #000000;
+    border: none;    
+    margin-left: 10%;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    transition: 0.3s all;
+    &:hover {
+      transform: scale(1.1);
+      transition: 0.3s all;
+    }
+  }
+
+  .digitalChangingRoom {
+    margin-top: 50px;
+  }
+
+  .loader {
+    margin: auto;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .notValidUser {
+    margin: auto;
+    color: white;
+    text-align: center;
+
+    font-family: Gilroy;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+  }
+}

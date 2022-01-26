@@ -1,0 +1,183 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: #000000;
+  color: white;
+
+  .video1 {
+    position: absolute;
+    width: 960px;
+    height: 406px;
+    left: 0px;
+    top: 0px;
+    object-fit: cover;    
+  }
+
+  .text1 {
+    position: absolute;
+    width: 1307px;
+    height: 401px;
+    left: -173px;
+    top: 294px;
+    
+    font-family: Bebas Neue;
+    font-size: 80px;
+    line-height: 180px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;    
+  }
+
+  .text2 {
+    position: absolute;
+    width: 872px;
+    height: 53px;
+    left: 44px;
+    top: 555px;
+    
+    font-family: Fira Sans Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: #E6BF00;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 637px;
+    height: 57px;
+    left: 41px;
+    top: 653px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 160%;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 872px;
+    height: 741px;
+    left: 44px;
+    top: 725px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 160%;
+    color: #FFFFFF;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 872px;
+    height: 741px;
+    left: 44px;
+    top: 1075px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 120%;
+    color: #FFFFFF;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 609px;
+    height: 140px;
+    left: 258px;
+    top: 1265px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 160%;
+
+    a {
+      color: white;
+      text-decoration: underline;
+    }
+  }
+
+  .text7 {
+    position: absolute;
+    width: 548px;
+    height: 741px;
+    left: 1325px;
+    top: 55px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 160%;
+    color: #FFFFFF;    
+  }
+
+  .image1 {
+    position: absolute;
+    width: 749px;
+    height: 749px;
+    left: 809px;
+    top: -47px;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 851px;
+    height: 825px;
+    right: 0;
+    bottom: 0;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 165px;
+    height: 165px;
+    left: 44px;
+    top: 1266px;    
+  }
+
+  .textButton {
+    position: absolute;
+    width: 160px;
+    height: 44px;
+    left: 1355px;
+    top: 685px;
+    
+    background: #000000;
+    border: 2px solid #FFFFFF;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 160%;
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      background: #FFFFFF;
+      color: #000000;
+    }
+  }
+}

@@ -1,0 +1,158 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  color: white;
+  display: flex;
+  position: relative;
+  background-color: #000000;
+
+  .image1 {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0;
+    top: 0;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 464px;
+    height: 1346px;
+    left: 0px;
+    top: 144px;    
+  }
+
+  .image3 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1685px;
+    top: 1125px;    
+  }
+
+  .playButton1 {
+    position: absolute;
+    width: 378px;
+    height: 378px;
+    left: 1477px;
+    top: 737px;
+    
+    background: #FFAD62;
+    border: 10px solid #00A3FF;
+    border-radius: 50%;
+
+    cursor: pointer;
+    transition: 0.3s all;
+
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
+  }
+
+  .imageBack {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .imagePlay {
+    position: absolute;
+    width: 186px;
+    height: 205px;
+
+    left: 110px;
+    top: 78px;
+  }
+  
+  .imagePause {
+    position: absolute;
+    width: 149px;
+    height: 221px;
+    left: 105px;
+    top: 70px;
+  }
+
+  .gradient {
+    animation-duration: 1.8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #9c9c9c;
+    background: linear-gradient(to right, #9c9c9c 8%, #f4f4f4 38%, #9c9c9c 54%);
+    background-size: 1000px 640px;
+    
+    position: relative;     
+  }
+
+  @keyframes placeHolderShimmer{
+    0%{
+      background-position: -468px 0
+    }
+    100%{
+      background-position: 468px 0
+    }
+  }
+
+  .text1 {
+    position: absolute;
+    width: 533px;
+    height: 115px;
+    left: 1351px;
+    top: 144px;
+    
+    font-family: DigitalRiver;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 115px;
+    /* identical to box height */
+    
+    
+    color: #FFD337;
+        
+  }
+
+  .text2 {
+    position: absolute;
+    width: 533px;
+    height: 115px;
+    left: 1351px;
+    top: 233px;
+    
+    font-family: DigitalRiver;
+    font-size: 100px;
+    line-height: 115px;
+    color: #FFD337;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 633px;
+    height: 183px;
+    left: 1251px;
+    top: 348px;
+    
+    font-family: DigitalRiver;
+    font-size: 50px;
+    line-height: 58px;
+    color: #D11CFE;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 950px;
+    height: 115px;
+    left: 912px;
+    top: 1332px;
+    
+    font-family: DigitalRiver;
+    font-size: 100px;
+    line-height: 115px;
+    color: #FF7337;
+  }
+}

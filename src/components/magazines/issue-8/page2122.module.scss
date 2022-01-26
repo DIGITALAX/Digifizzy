@@ -1,0 +1,319 @@
+@import './styles.module.scss';
+@import url('https://fonts.googleapis.com/css2?family=Tangerine');
+
+.wrapper {
+  @include magazineWrapper();
+  color: black;
+  display: flex;
+  position: relative;
+
+  .image1 {
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;    
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 824px;
+    height: 342px;
+    left: 47px;
+    top: 339px;
+    
+    background: rgba(255, 255, 255, 0.85);
+    border: 10px solid #009231;    
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 824px;
+    height: 292px;
+    left: 47px;
+    top: 710px;
+    
+    background: rgba(255, 255, 255, 0.85);
+    border: 10px solid #009231;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 275px;
+    height: 289px;
+    left: 1645px;
+    top: -235px;    
+  }
+
+  .image3 {
+    position: absolute;
+    width: 275px;
+    height: 289px;
+    left: 1645px;
+    top: 50px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 275px;
+    height: 289px;
+    left: 1645px;
+    top: 341px;    
+  }
+
+  .image5 {
+    position: absolute;
+    width: 275px;
+    height: 289px;
+    left: 1645px;
+    top: 630px;    
+  }
+
+  .image6 {
+    position: absolute;
+    width: 275px;
+    height: 289px;
+    left: 1645px;
+    top: 919px;
+  }
+
+  .image7 {
+    position: absolute;
+    width: 275px;
+    height: 289px;
+    left: 1645px;
+    top: 1208px;
+  }
+
+  .image8 {
+    position: absolute;
+    width: 406px;
+    height: 295px;
+    left: 17px;
+    top: 0px;
+    
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(0.9);
+    }
+  }
+
+  .whiteArrow1 {
+    position: absolute;
+    width: 158px;
+    height: 158px;
+    left: 1190px;
+    top: -90px;    
+  }
+
+  .whiteArrow2 {
+    position: absolute;
+    width: 158px;
+    height: 158px;
+    left: 1190px;
+    top: 110px;
+  }
+
+  .whiteArrow3 {
+    position: absolute;
+    width: 158px;
+    height: 158px;
+    left: 1190px;
+    top: 310px;
+  }
+
+  .whiteArrow4 {
+    position: absolute;
+    width: 158px;
+    height: 158px;
+    left: 1190px;
+    top: 510px;    
+  }
+
+  .whiteArrow5 {
+    position: absolute;
+    width: 158px;
+    height: 158px;
+    left: 1348px;
+    top: 1288px;
+    
+    transform-origin: 0 0;
+    transform: rotate(-180deg);
+  }
+
+  .whiteArrow6 {
+    position: absolute;
+    width: 158px;
+    height: 158px;
+    left: 1348px;
+    top: 1488px;
+    
+    transform-origin: 0 0;
+    transform: rotate(-180deg);
+  }
+
+  .greyArrow1 {
+    position: absolute;
+    width: 158px;
+    height: 158px;
+    left: 1134px;
+    top: -90px;    
+  }
+
+  .greyArrow2 {
+    position: absolute;
+    width: 158px;
+    height: 158px;
+    left: 1134px;
+    top: 110px;
+  }
+
+  .greyArrow3 {
+    position: absolute;
+    width: 158px;
+    height: 158px;
+    left: 1134px;
+    top: 310px;
+  }
+
+  .greyArrow4 {
+    position: absolute;
+    width: 158px;
+    height: 158px;
+    left: 1134px;
+    top: 510px;    
+  }
+
+  .greyArrow5 {
+    position: absolute;
+    width: 158px;
+    height: 158px;
+    left: 1404px;
+    top: 1288px;
+    
+    transform-origin: 0 0;
+    transform: rotate(-180deg);
+  }
+
+  .greyArrow6 {
+    position: absolute;
+    width: 158px;
+    height: 158px;
+    left: 1404px;
+    top: 1488px;
+    
+    transform-origin: 0 0;
+    transform: rotate(-180deg);
+  }
+
+  .image9 {
+    position: absolute;
+    width: 237px;
+    height: 237px;
+    left: 1360px;
+    top: 474px;    
+  }
+
+  .text1 {
+    position: absolute;
+    width: 395px;
+    height: 184px;
+    left: 459px;
+    top: 61px;
+    
+    font-family: Cherry Bomb;
+    font-size: 40px;
+    line-height: 100%;
+    color: #F15433;
+    -webkit-text-stroke: 1px #FF0000; 
+  }
+
+  .text2 {
+    position: absolute;
+    width: 225px;
+    height: 328px;
+    left: 1381px;
+    top: 736px;
+    
+    font-family: Cherry Bomb;
+    font-size: 30px;
+    line-height: 100%;
+    color: #F15433;
+    -webkit-text-stroke: 1px #FF0000; 
+  }
+
+  .text3 {
+    position: absolute;
+    width: 732px;
+    height: 252px;
+    left: 93px;
+    top: 376px;
+    
+    font-family: Cherry Bomb;
+    font-size: 45px;
+    line-height: 100%;
+    color: #F15433;
+    -webkit-text-stroke: 1px #FF0000; 
+  }
+
+  .text4 {
+    position: absolute;
+    width: 732px;
+    height: 224px;
+    left: 93px;
+    top: 748px;
+    
+    font-family: Cherry Bomb;
+    font-size: 30px;
+    line-height: 100%;
+    color: #F15433;
+    -webkit-text-stroke: 1px #FF0000; 
+  }
+
+
+  .playButton1 {
+    position: absolute;
+    width: 378px;
+    height: 378px;
+    left: 982px;
+    top: 710px;
+    
+    background: #000000;
+    border: 10px solid #FF9900;
+    border-radius: 50%;
+
+    cursor: pointer;
+    transition: 0.3s all;
+
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
+  }
+
+  .imageBack {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .imagePlay {
+    position: absolute;
+    width: 186px;
+    height: 205px;
+
+    left: 110px;
+    top: 78px;
+  }
+  
+  .imagePause {
+    position: absolute;
+    width: 149px;
+    height: 221px;
+    left: 105px;
+    top: 70px;
+  }
+
+}

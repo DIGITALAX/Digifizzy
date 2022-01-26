@@ -1,0 +1,128 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+
+  background-color: #FF0000;
+
+  .rect1 {
+    position: absolute;
+    width: 1121px;
+    height: 875px;
+    left: 613px;
+    top: -1px;
+    
+    background: #00D1FF;    
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 600px;
+    height: 571px;
+    left: 910px;
+    top: -1px;
+    
+    background: #00CF53;
+  }
+
+  .rect3 {
+    position: absolute;
+    width: 1920px;
+    height: 98px;
+    left: 0px;
+    top: 1399px;
+    
+    background: #FFDE32;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 254px;
+    height: 254px;
+    left: 677px;
+    top: 16px;        
+  }
+
+  .image2 {
+    position: absolute;
+    width: 254px;
+    height: 254px;
+    left: 677px;
+    top: 279px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 254px;
+    height: 254px;
+    left: 677px;
+    top: 544px;
+    
+  }
+
+  .image4 {
+    position: absolute;
+    width: 920px;
+    height: 621px;
+    right: 0px;
+    bottom: 0px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 377px;
+    height: 50px;
+    left: 24px;
+    top: 16px;
+    
+    font-family: Headland One;
+    font-size: 50px;
+    line-height: 100%;
+    color: #FFF500;
+
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
+  }
+
+  .text2 {
+    position: absolute;
+    width: 562px;
+    height: 795px;
+    left: 24px;
+    top: 79px;
+    
+    font-family: Headland One;
+    font-size: 19px;
+    line-height: 100%;
+    color: #FFF500;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 907px;
+    height: 439px;
+    left: 24px;
+    top: 899px;
+    
+    font-family: Headland One;
+    font-size: 19px;
+    line-height: 100%;
+    color: #FFF500;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 700px;
+    height: 868px;
+    left: 1000px;
+    top: 20px;
+    
+    font-family: Headland One;
+    font-size: 17px;
+    line-height: 100%;
+    color: #000000;
+  }
+}

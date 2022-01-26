@@ -1,0 +1,171 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: #FEF201;
+
+  .imageBackground {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 620px;
+    height: 239px;
+    left: 17px;
+    top: 0px;
+    
+    font-family: Rose Cake - Personal Use;
+    font-size: 120px;
+    line-height: 100%;
+    color: #D80000;    
+  }
+
+  .text2 {
+    position: absolute;
+    width: 620px;
+    height: 239px;
+    left: 603px;
+    top: 29px;
+    
+    font-family: Rose Cake - Personal Use;
+    font-size: 120px;
+    line-height: 100%;
+    color: #D80000;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 620px;
+    height: 239px;
+    left: -155px;
+    top: 252px;
+    
+    font-family: Rose Cake - Personal Use;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 120px;
+    line-height: 100%;
+    color: #D80000;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 620px;
+    height: 239px;
+    left: 428px;
+    top: 286px;
+    
+    font-family: Rose Cake - Personal Use;
+    font-size: 120px;
+    line-height: 100%;
+    color: #D80000;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 620px;
+    height: 239px;
+    left: -115px;
+    top: 525px;
+    
+    font-family: Rose Cake - Personal Use;
+    font-size: 120px;
+    line-height: 100%;
+    text-align: center;
+    
+    color: #D80000;
+  }
+
+  .rect1 {
+    position: absolute;
+    left: 960px;
+    top: 0px;
+    width: 960px;
+    height: 1497px;
+    background-color: #FEF201;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 620px;
+    height: 375px;
+    left: 29px;
+    top: 1088px;
+    
+    font-family: CF Punk Fashion PERSONAL;
+    font-size: 120px;
+    line-height: 100%;
+    color: #D80000;    
+  }
+
+  .text7 {
+    position: absolute;
+    width: 984px;
+    height: 148px;
+    left: 991px;
+    top: -28px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 200px;
+    color: #FF6767;    
+  }
+
+  .text8 {
+    position: absolute;
+    width: 568px;
+    height: 137px;
+    left: 1448px;
+    top: 32px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 200px;
+    color: #FF6767;    
+  }
+
+  .image1 {
+    position: absolute;
+    width: 960px;
+    height: 194px;
+    left: 960px;
+    top: 102px;    
+  }
+
+  .text9 {
+    position: absolute;
+    width: 890px;
+    height: 100px;
+    left: 1004px;
+    top: 319px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FF6767;    
+  }
+
+  .text10 {
+    position: absolute;
+    width: 890px;
+    height: 1005px;
+    left: 1004px;
+    top: 425px;
+    
+    font-family: Inter;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FF6767;
+  }
+}

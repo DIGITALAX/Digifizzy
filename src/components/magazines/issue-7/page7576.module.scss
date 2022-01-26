@@ -1,0 +1,107 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: #EEF1EA;
+
+  .imageBackground {
+    position: absolute;
+    width: 874px;
+    height: 1350px;
+    left: 0;
+    bottom: 0;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 793px;
+    height: 200px;
+    left: 134px;
+    top: 39px;
+    
+    font-family: Headland One;
+    font-size: 100px;
+    line-height: 100%;
+    color: #FF4D00;        
+  }
+
+  .text2 {
+    position: absolute;
+    width: 155px;
+    height: 30px;
+    left: 626px;
+    top: 261px;
+    
+    font-family: Headland One;
+    font-size: 30px;
+    line-height: 100%;
+    color: #FF4D00;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 376px;
+    height: 1350px;
+    left: 1050px;
+    top: 73px;
+    
+    font-family: Times New Roman;
+    font-size: 25px;
+    line-height: 100%;
+
+    background: url('/magazine/7/images/7576_image4.jpg');
+    background-size: 1500px 1600px;
+    background-position: 950px 0px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 376px;
+    height: 1350px;
+    left: 1478px;
+    top: 73px;
+    
+    font-family: Times New Roman;
+    font-size: 25px;
+    line-height: 100%;
+
+    background: url('/magazine/7/images/7576_image4.jpg');
+    background-size: 1500px 1600px;
+    background-position: 950px 0px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 441px;
+    height: 228px;
+    left: 74px;
+    top: 466.83px;
+    
+    transform-origin: 0 0;
+    transform: rotate(-20deg);    
+  }
+
+  .image2 {
+    position: absolute;
+    width: 441px;
+    height: 228px;
+    left: 471px;
+    top: 668px;
+    transform-origin: 0 0;
+    transform: rotate(30deg);
+  }
+
+  .image3 {
+    position: absolute;
+    width: 405.84px;
+    height: 228px;
+    left: 124px;
+    top: 1172.38px;
+    transform-origin: 0 0;
+    transform: rotate(-12deg);
+  }
+}

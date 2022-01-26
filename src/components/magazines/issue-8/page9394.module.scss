@@ -1,0 +1,319 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();    
+  background: black;
+
+  .rect1 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 448px;
+    top: -109px;
+    
+    background: #FFFCFC;
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 448px;
+    top: 52px;
+    
+    background: #FFFCFC;
+  }
+
+  .rect3 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 448px;
+    top: 227px;
+    
+    background: #FFFCFC;
+  }
+
+  .rect4 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 448px;
+    top: 402px;
+    
+    background: #FFFCFC;
+  }
+
+  .rect5 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 448px;
+    top: 577px;
+    
+    background: #FFFCFC;
+  }
+
+  .rect6 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 448px;
+    top: 752px;
+    
+    background: #FFFCFC;
+  }
+
+  .rect7 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 448px;
+    top: 927px;
+    
+    background: #FFFCFC;
+  }
+
+  .rect8 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 448px;
+    top: 1102px;
+    
+    background: #FFFCFC;
+  }
+
+  .rect9 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 448px;
+    top: 1277px;
+    
+    background: #FFFCFC;
+  }
+
+  .rect10 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 448px;
+    top: 1452px;
+    
+    background: #FFFCFC;
+  }
+
+  .rect11 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 1408px;
+    top: -109px;
+    
+    background: #FFFCFC;
+  }
+
+  .rect12 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 1408px;
+    top: 52px;
+    
+    background: #FFFCFC;
+  }
+
+  .rect13 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 1408px;
+    top: 227px;
+    
+    background: #FFFCFC;
+  }
+
+  .rect14 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 1408px;
+    top: 402px;
+    
+    background: #FFFCFC;
+  }
+
+  .rect15 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 1408px;
+    top: 577px;
+    
+    background: #FFFCFC;
+  }
+
+  .rect16 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 1408px;
+    top: 752px;
+    
+    background: #FFFCFC;
+  }
+
+  .rect17 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 1408px;
+    top: 927px;
+    
+    background: #FFFCFC;
+  }
+
+  .rect18 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 1408px;
+    top: 1102px;
+    
+    background: #FFFCFC;
+  }
+
+  .rect19 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 1408px;
+    top: 1277px;
+    
+    background: #FFFCFC;
+  }
+
+  .rect20 {
+    position: absolute;
+    width: 64px;
+    height: 134px;
+    left: 1408px;
+    top: 1452px;
+    
+    background: #FFFCFC;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 960px;
+    height: 433px;
+    left: 0px;
+    top: -97px;    
+  }
+
+  .image2 {
+    position: absolute;
+    width: 960px;
+    height: 433px;
+    left: 960px;
+    top: -97px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 960px;
+    height: 433px;
+    left: 948px;
+    top: 1493px;
+    transform-origin: 0 0;
+    transform: rotate(-180deg);
+  }
+
+  .image4 {
+    position: absolute;
+    width: 960px;
+    height: 433px;
+    left: 1908px;
+    top: 1493px;
+    transform-origin: 0 0;
+    transform: rotate(-180deg);
+  }
+
+  .image5 {
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    left: 809px;
+    top: -115px;    
+  }
+
+  .image6 {
+    position: absolute;
+    width: 398px;
+    height: 299px;
+    left: 851px;
+    top: 377px;
+  }
+
+  .image7 {
+    position: absolute;
+    width: 254px;
+    height: 191px;
+    left: 1186px;
+    top: 412px;
+  }
+
+  .image8 {
+    position: absolute;
+    width: 1074px;
+    height: 807px;
+    left: 712px;
+    top: 535px;    
+  }
+
+  .text1 {
+    position: absolute;
+    width: 307px;
+    height: 1091px;
+    left: 57px;
+    top: 175px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 120.53%;
+    text-align: center;
+    
+    color: #FFFFFF;    
+  }
+
+  .text2 {
+    position: absolute;
+    width: 307px;
+    height: 1091px;
+    left: 585px;
+    top: 175px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 120.53%;
+    text-align: center;
+    
+    color: #FFFFFF;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 307px;
+    height: 1091px;
+    left: 1556px;
+    top: 197px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    line-height: 120.53%;
+    text-align: center;
+    
+    color: #FFFFFF;
+  }
+}

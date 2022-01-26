@@ -1,0 +1,396 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+
+  .imageBackground {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;    
+  }
+
+  .image1 {
+    position: absolute;
+    width: 680px;
+    height: 680px;
+    left: 0px;
+    top: -31px;    
+  }
+
+  .image2 {
+    position: absolute;
+    width: 680px;
+    height: 680px;
+    left: 680px;
+    top: -31px;    
+  }
+
+  .image3 {
+    position: absolute;
+    width: 680px;
+    height: 680px;
+    left: 1360px;
+    top: -31px;    
+  }
+
+  .image4 {
+    position: absolute;
+    width: 680px;
+    height: 680px;
+    left: 0px;
+    top: 426px;
+  }
+
+  .image5 {
+    position: absolute;
+    width: 680px;
+    height: 680px;
+    left: 680px;
+    top: 426px;    
+  }
+
+  .image6 {
+    position: absolute;
+    width: 680px;
+    height: 680px;
+    left: 1360px;
+    top: 426px;    
+  }
+
+  .image7 {
+    position: absolute;
+    width: 680px;
+    height: 680px;
+    left: 0px;
+    top: 882px;
+  }
+
+  .image8 {
+    position: absolute;
+    width: 680px;
+    height: 680px;
+    left: 680px;
+    top: 882px;
+  }
+
+  .image9 {
+    position: absolute;
+    width: 680px;
+    height: 680px;
+    left: 1360px;
+    top: 882px;
+  }
+
+  .image10 {
+    position: absolute;
+    width: 238px;
+    height: 238px;
+    left: 1634px;
+    top: 30px;
+    
+    transition: 0.3s all;
+    cursor: pointer;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
+  }
+
+  h1 {
+    position: absolute;
+    width: 465px;
+    height: 100px;
+    left: 1149px;
+    top: 30px;
+    
+    font-family: PLAYPULL;
+    font-size: 100px;
+    line-height: 100%;
+    color: #FFDD66;    
+  }
+
+  .text1 {
+    position: absolute;
+    width: 640px;
+    height: 100px;
+    left: 32px;
+    top: 30px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 100%;
+    color: #FFFFFF;
+
+    span {
+      font-weight: 700;
+    }
+
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
+  }
+
+  .text2 {
+    position: absolute;
+    width: 580px;
+    height: 20px;
+    left: 136px;
+    top: 171px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    
+    color: #FFFFFF;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 593px;
+    height: 220px;
+    left: 49px;
+    top: 204px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    
+    color: #FFDD66;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 580px;
+    height: 20px;
+    left: 150px;
+    top: 466px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    
+    color: #FFFFFF;
+    
+  }
+
+  .text5 {
+    position: absolute;
+    width: 626px;
+    height: 620px;
+    left: 49px;
+    top: 500px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    
+    color: #FFDD66;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 580px;
+    height: 20px;
+    left: 163px;
+    top: 1126px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    
+    color: #FFFFFF;    
+  }
+
+  .text7 {
+    position: absolute;
+    width: 654px;
+    height: 320px;
+    left: 49px;
+    top: 1158px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    
+    color: #FFDD66;
+  }
+
+  .text8 {
+    position: absolute;
+    width: 580px;
+    height: 20px;
+    left: 857px;
+    top: 170px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    
+    color: #FFFFFF;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 585px;
+    height: 520px;
+    left: 741px;
+    top: 200px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    
+    color: #FFDD66;
+  }
+
+  .text10 {
+    position: absolute;
+    width: 580px;
+    height: 20px;
+    left: 857px;
+    top: 753px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    
+    color: #FFFFFF;
+  }
+
+  .text11 {
+    position: absolute;
+    width: 585px;
+    height: 180px;
+    left: 741px;
+    top: 780px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    
+    color: #FFDD66;    
+  }
+
+  .text12 {
+    position: absolute;
+    width: 580px;
+    height: 20px;
+    left: 857px;
+    top: 982px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    
+    color: #FFFFFF;
+  }
+
+  .text13 {
+    position: absolute;
+    width: 619px;
+    height: 460px;
+    left: 741px;
+    top: 1014px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    
+    color: #FFDD66;
+  }
+
+  .text14 {
+    position: absolute;
+    width: 580px;
+    height: 20px;
+    left: 1508px;
+    top: 315px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    
+    color: #FFFFFF;
+    
+  }
+
+  .text15 {
+    position: absolute;
+    width: 501px;
+    height: 380px;
+    left: 1392px;
+    top: 345px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    
+    color: #FFDD66;
+  }
+
+  .text16 {
+    position: absolute;
+    width: 580px;
+    height: 20px;
+    left: 1508px;
+    top: 795px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    
+    color: #FFFFFF;
+  }
+
+  .text17 {
+    position: absolute;
+    width: 501px;
+    height: 520px;
+    left: 1392px;
+    top: 825px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    
+    color: #FFDD66;
+  }
+}

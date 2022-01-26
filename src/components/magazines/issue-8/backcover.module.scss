@@ -1,0 +1,21 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+
+  .imageBackground {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 256px;
+    height: 316px;
+    left: 39px;
+    top: 1117px;
+  }
+}

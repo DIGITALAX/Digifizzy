@@ -1,0 +1,186 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+
+  .video1 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+    object-fit: cover;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
+    top: 0px;
+    background-color: #832A7A;
+  }
+
+
+  .text1 {
+    position: absolute;
+    width: 946px;
+    height: 160px;
+    left: 14px;
+    top: 48px;
+
+    font-family: DJB Emilys Garden;
+    font-size: 100px;
+    line-height: 85px;
+    color: #ffffff;
+
+    -webkit-text-stroke: 1px #00ecd0;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 891px;
+    height: 92px;
+    left: 41px;
+    top: 184px;
+
+    font-family: Inter;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: #ffffff;
+
+    -webkit-text-stroke: 0.5px #00ecd0;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 336px;
+    height: 92px;
+    left: 571px;
+    top: 253px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 85px;
+    /* or 170% */
+
+    text-align: right;
+
+    color: #ffffff;
+
+    -webkit-text-stroke: 1px #00ecd0;
+  }
+
+
+  .text4 {
+    position: absolute;
+    width: 883px;
+    height: 431px;
+    left: 25px;
+    top: 324px;
+
+    font-family: Inter;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: right;
+
+    color: #ffffff;
+
+    -webkit-text-stroke: 0.3px #00ecd0;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 580px;
+    height: 312px;
+    left: 323px;
+    top: 753px;
+
+    font-family: Inter;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: right;
+
+    color: #ffffff;
+
+    -webkit-text-stroke: 0.3px #00ecd0;
+  }
+
+
+  .text6 {
+    position: absolute;
+    width: 726px;
+    height: 261px;
+    left: 30px;
+    top: 1065px;
+
+    font-family: Inter;
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+
+    -webkit-text-stroke: 0.3px #00ecd0;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 925px;
+    height: 160px;
+    left: 0px;
+    top: 1387px;
+
+    font-family: DJB Emilys Garden;
+    font-size: 100px;
+    line-height: 85px;
+    color: #ffffff;
+
+    -webkit-text-stroke: 1px #00ecd0;
+  }
+
+
+  .image1 {
+    position: absolute;
+    width: 302px;
+    height: 314px;
+    left: 13px;
+    top: 721px;    
+  }
+
+  .image2 {
+    position: absolute;
+    width: 302px;
+    height: 314px;
+    left: 786px;
+    top: 1065px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 109px;
+    height: 113px;
+    left: 813px;
+    top: 1377px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
+    top: 0px;
+  }
+
+}

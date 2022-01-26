@@ -1,0 +1,108 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  color: #000;
+  background: #44A997;
+
+  .image1 {
+    position: absolute;
+    width: 211px;
+    height: 1497px;
+    left: -19px;
+    top: 0px;    
+  }
+
+  .image2 {
+    position: absolute;
+    width: 211px;
+    height: 1497px;
+    left: 1744px;
+    top: 0px;    
+  }
+
+  .line1 {
+    position: absolute;
+    width: 1360px;
+    height: 1px;
+    left: 549px;
+    top: 63px;
+    background-color: #000000;
+    transform-origin: 0 0;
+    transform: rotate(90deg);    
+  }
+
+  .line2 {
+    position: absolute;
+    width: 1524px;
+    height: 1px;
+    left: 960px;
+    top: 0px;
+    background-color: #000000;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+  }
+
+  .line3 {
+    position: absolute;
+    width: 1360px;
+    height: 1px;
+    left: 1355px;
+    top: 63px;
+    background-color: #000000;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+  }
+
+  .text1 {
+    position: absolute;
+    width: 226px;
+    height: 1363px;
+    left: 255px;
+    top: 69px;
+    
+    font-family: Sofadi One;
+    font-size: 28px;
+    line-height: 22px;
+    color: #000000;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 226px;
+    height: 1363px;
+    left: 635px;
+    top: 72px;
+    
+    font-family: Sofadi One;
+    font-size: 30px;
+    line-height: 23px;
+    color: #000000;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 226px;
+    height: 1363px;
+    left: 1046px;
+    top: 72px;
+    
+    font-family: Sofadi One;
+    font-size: 36px;
+    line-height: 28px;
+    color: #000000;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 226px;
+    height: 1363px;
+    left: 1439px;
+    top: 69px;
+    
+    font-family: Sofadi One;
+    font-size: 36px;
+    line-height: 28px;
+    color: #000000;    
+  }
+}

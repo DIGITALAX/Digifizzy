@@ -1,0 +1,236 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  
+  .imageBackground1 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .video1 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
+    top: 0px;
+    object-fit: cover;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.5);    
+  }
+
+  .text1 {
+    position: absolute;
+    width: 505px;
+    height: 117px;
+    left: 33px;
+    top: 40px;
+    
+    font-family: PLAYPULL;
+    font-size: 130px;
+    line-height: 100%;
+    color: #3F2FFF;
+
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
+  }
+
+  .text2 {
+    position: absolute;
+    width: 678px;
+    height: 218px;
+    left: 41px;
+    top: 184px;
+    
+    font-family: PLAYPULL;
+    font-size: 100px;
+    line-height: 80%;
+    color: #8E84FF;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 946px;
+    height: 160px;
+    left: 974px;
+    top: 48px;
+    
+    font-family: DJB Emilys Garden;
+    font-size: 100px;
+    line-height: 85px;
+    color: #FFFFFF;
+    
+    -webkit-text-stroke: 1px #FF0000;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 891px;
+    height: 92px;
+    left: 1001px;
+    top: 184px;
+    
+    font-family: Inter;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    -webkit-text-stroke: 0.5px #FF0000;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 336px;
+    height: 92px;
+    left: 1531px;
+    top: 257px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 85px;
+    text-align: right;
+    
+    color: #FFFFFF;
+    
+    -webkit-text-stroke: 1px #C600BE;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 883px;
+    height: 431px;
+    left: 985px;
+    top: 328px;
+    
+    font-family: Inter;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: right;
+    color: #FFFFFF;
+    -webkit-text-stroke: 0.3px #FF0000;
+    
+  }
+
+  .text7 {
+    position: absolute;
+    width: 580px;
+    height: 312px;
+    left: 1283px;
+    top: 757px;
+    
+    font-family: Inter;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: right;
+    
+    color: #FFFFFF;
+    
+    -webkit-text-stroke: 0.3px #FF0000;
+  }
+
+  .text8 {
+    position: absolute;
+    width: 726px;
+    height: 261px;
+    left: 990px;
+    top: 1069px;
+    
+    font-family: Inter;
+    font-size: 17px;
+    line-height: 30px;
+    color: #FFFFFF;
+    
+    -webkit-text-stroke: 0.3px #FF0000;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 925px;
+    height: 160px;
+    left: 960px;
+    top: 1391px;
+    
+    font-family: DJB Emilys Garden;
+    font-size: 100px;
+    line-height: 85px;
+    color: #FFFFFF;
+    
+    -webkit-text-stroke: 1px #FF0000;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 291px;
+    height: 291px;
+    left: 972px;
+    top: 757px;        
+  }
+
+  .image2 {
+    position: absolute;
+    width: 166px;
+    height: 166px;
+    left: 1732px;
+    top: 1069px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 166px;
+    height: 166px;
+    left: 1732px;
+    top: 1247px;    
+  }
+  
+  .playButton1 {
+    position: absolute;
+    width: 245px;
+    height: 245px;
+    left: 678px;
+    top: 115px;
+    
+    background: #FF6896;
+    border: 10px solid #000000;
+
+    cursor: pointer;
+    transition: 0.3s all;
+
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
+  }
+
+  .imagePlay {
+    position: absolute;
+    width: 152px;
+    height: 173px;
+    left: 40px;
+    top: 30px;
+  }
+  
+  .imagePause {
+    position: absolute;
+    width: 129px;
+    height: 163px;
+    left: 50px;
+    top: 30px;
+  }
+}

@@ -1,0 +1,142 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: linear-gradient(180deg, #00E0FF 0%, #0719BA 100%);
+
+  .image1 {
+    position: absolute;
+    width: 2005px;
+    height: 1309px;
+    left: -85px;
+    top: 0px;    
+  }
+
+  .text1 {
+    position: absolute;
+    width: 313px;
+    height: 466px;
+    left: 27px;
+    top: 748px;
+    
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    
+    color: #000000;    
+  }
+
+  .text2 {
+    position: absolute;
+    width: 505px;
+    height: 38px;
+    left: 27px;
+    top: 1217px;
+    
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    
+    color: #000000;    
+  }
+
+  .text3 {
+    position: absolute;
+    width: 908px;
+    height: 185px;
+    left: 27px;
+    top: 1309px;
+    
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    
+    color: #000000;    
+  }
+
+  .text4 {
+    position: absolute;
+    width: 880px;
+    height: 185px;
+    left: 987px;
+    top: 23px;
+    
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    
+    color: #000000;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 722px;
+    height: 109px;
+    left: 987px;
+    top: 199px;
+    
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    
+    color: #000000;    
+  }
+
+  .text6 {
+    position: absolute;
+    width: 485px;
+    height: 185px;
+    left: 1040px;
+    top: 299px;
+    
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    
+    color: #000000;    
+  }
+
+  .text7 {
+    position: absolute;
+    width: 596px;
+    height: 64px;
+    left: 1018px;
+    top: 1255px;
+    
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    
+    color: #000000;    
+  }
+
+  .text8 {
+    position: absolute;
+    width: 880px;
+    height: 156px;
+    left: 1018px;
+    top: 1321px;
+    
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    
+    color: #000000;    
+  }
+}

@@ -1,0 +1,582 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: #000000;
+
+  .imageBackground1 {
+    position: absolute;
+    width: 960px;
+    height: 526px;
+    left: 0px;
+    top: 0px;    
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 960px;
+    height: 971px;
+    left: 0px;
+    top: 526px;
+    
+    background: linear-gradient(180deg, #181035 0%, #7B57FF 100%);    
+  }
+
+  .imageBackground2 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
+    top: 0px;
+  }
+
+  .imageStars1 {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 14px;
+    top: 857px;        
+  }
+
+  .imageStars2 {
+    position: absolute;
+    width: 147px;
+    height: 147px;
+    left: 14px;
+    top: 889px;
+    
+  }
+
+  .imageStars3 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 5px;
+    top: 1031px;
+  }
+
+  .imageStars4 {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 146px;
+    top: 1012px;
+    
+  }
+
+  .imageStars5 {
+    position: absolute;
+    width: 242px;
+    height: 242px;
+    left: -8px;
+    top: 1055px;
+    
+  }
+
+  .imageStars6 {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 10px;
+    top: 1293px;
+        
+  }
+
+  .imageStars7 {
+    position: absolute;
+    width: 154px;
+    height: 154px;
+    left: -8px;
+    top: 1343px;
+  }
+
+  .imageStars8 {
+    position: absolute;
+    width: 147px;
+    height: 147px;
+    left: 161px;
+    top: 1273px;
+    
+  }
+
+  .imageStars9 {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 161px;
+    top: 1429px;
+  }
+
+  .imageStars10 {
+    position: absolute;
+    width: 71px;
+    height: 71px;
+    left: 211px;
+    top: 1434px;
+  }
+
+  .shadowText1 {
+    position: absolute;
+    width: 524px;
+    height: 180px;
+    left: -2px;
+    top: 1299.99px;
+    
+    font-family: Rubik One;
+    font-size: 50px;
+    line-height: 120%;
+    color: rgba(157, 196, 255, 0.5);
+    transform-origin: 0 0;
+    transform: rotate(-10deg);    
+  }
+
+  .shadowText2 {
+    position: absolute;
+    width: 524px;
+    height: 180px;
+    left: 294px;
+    top: 1319.99px;
+    
+    font-family: Rubik One;
+    font-size: 50px;
+    line-height: 120%;
+    color: rgba(157, 196, 255, 0.5);
+    transform-origin: 0 0;
+    transform: rotate(-10deg);
+  }
+
+  .shadowText3 {
+    position: absolute;
+    width: 524px;
+    height: 180px;
+    left: 218px;
+    top: 1398.99px;
+    
+    font-family: Rubik One;
+    font-size: 50px;
+    line-height: 120%;
+    color: rgba(157, 196, 255, 0.5);
+    transform-origin: 0 0;
+    transform: rotate(-10deg);
+  }
+
+  .shadowText4 {
+    position: absolute;
+    width: 524px;
+    height: 180px;
+    left: 55px;
+    top: 1491.99px;
+    
+    font-family: Rubik One;
+    font-size: 50px;
+    line-height: 120%;
+    color: rgba(157, 196, 255, 0.5);
+    transform-origin: 0 0;
+    transform: rotate(-10deg);
+  }
+
+  .shadowText5 {
+    position: absolute;
+    width: 524px;
+    height: 180px;
+    left: 251px;
+    top: 1519.99px;
+    
+    font-family: Rubik One;
+    font-size: 50px;
+    line-height: 120%;
+    color: rgba(157, 196, 255, 0.5);
+    transform-origin: 0 0;
+    transform: rotate(-10deg);
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 152px;
+    height: 26px;
+    left: -3px;
+    top: 28px;
+    
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000000;
+    padding-left: 8px;
+
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: translate(10px, 0);
+    }
+  }
+
+  .rect3 {
+    position: absolute;
+    width: 152px;
+    height: 26px;
+    left: -3px;
+    top: 61px;
+    
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 110%;
+    color: #000000;
+    padding-left: 8px;
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: translate(10px, 0);
+    }
+  }
+
+  .rect4 {
+    position: absolute;
+    width: 152px;
+    height: 26px;
+    left: -3px;
+    top: 94px;
+    
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000000;
+    padding-left: 8px;
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: translate(10px, 0);
+    }
+  }
+
+  .rect5 {
+    position: absolute;
+    width: 152px;
+    height: 26px;
+    left: -3px;
+    top: 127px;
+    
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000000;
+    padding-left: 8px;
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: translate(10px, 0);
+    }
+  }
+
+  .text1 {
+    position: absolute;
+    width: 584px;
+    height: 233px;
+    left: 340px;
+    top: 605px;
+    
+    font-family: Rubik One;
+    font-size: 70px;
+    line-height: 120%;
+    color: rgba(181, 255, 219, 0.3);
+  }
+
+  .text2 {
+    position: absolute;
+    width: 584px;
+    height: 233px;
+    left: 352px;
+    top: 624px;
+    
+    font-family: Rubik One;
+    font-size: 70px;
+    line-height: 120%;
+    color: #B5FFDB;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 524px;
+    height: 180px;
+    left: 389px;
+    top: 1011.99px;
+    
+    font-family: Rubik One;
+    font-size: 50px;
+    line-height: 120%;
+    color: rgba(255, 255, 255, 0.5);
+    -webkit-text-stroke: 1px #FF003D;
+  
+    transform-origin: 0 0;
+    transform: rotate(-10deg);
+  }
+
+  .text4 {
+    position: absolute;
+    width: 331px;
+    height: 72px;
+    left: 1062px;
+    top: 605px;
+    
+    font-family: Sail;
+    font-size: 60px;
+    line-height: 100%;
+    color: #00068A;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 331px;
+    height: 72px;
+    left: 1314px;
+    top: 781px;
+    
+    font-family: Sail;
+    font-size: 60px;
+    line-height: 100%;
+    color: #00068A;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 769px;
+    height: 129px;
+    left: 1004px;
+    top: 1109px;
+    
+    font-family: ROMANUS;
+    font-size: 65px;
+    line-height: 100%;
+    color: #B5FFDB;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 769px;
+    height: 129px;
+    left: 1004px;
+    top: 1254px;
+    
+    font-family: ROMANUS;
+    font-size: 65px;
+    line-height: 100%;
+    color: #B5FFDB;
+
+    a {
+      color: #B5FFDB;
+      text-decoration: underline;
+    }
+  }
+
+  .text8 {
+    position: absolute;
+    width: 848px;
+    height: 100px;
+    left: 1250px;
+    top: 1392px;
+    
+    font-family: ROMANUS;
+    font-size: 100px;
+    line-height: 100%;
+    color: #FF31EA;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 600.32px;
+    height: 583.12px;
+    left: 90px;
+    top: 1350px;
+    
+    transform-origin: 0 0;
+    transform: rotate(-80deg)
+    // transform: matrix(0.17, -0.98, -0.98, -0.17, 0, 0);
+  }
+
+  .image3 {
+    position: absolute;
+    width: 272px;
+    height: 272px;
+    left: 688px;
+    top: 1225px;    
+  }
+
+  .imageCircle1 {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    left: 1710px;
+    top: -173px;        
+  }
+
+  .imageCircle2 {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    left: 1710px;
+    top: 40px;    
+  }
+
+  .imageCircle3 {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    left: 1710px;
+    top: 253px;
+  }
+
+  .imageCircle4 {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    left: 1710px;
+    top: 463px;
+  }
+
+  .imageCircle5 {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    left: 1710px;
+    top: 676px;    
+  }
+
+  .imageCircle6 {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    left: 1710px;
+    top: 889px;
+    
+  }
+
+  .imageCircle7 {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    left: 1710px;
+    top: 1102px;
+  }
+
+  .imageCircle8 {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    left: 1710px;
+    top: 1312px;    
+  }
+
+  .image4 {
+    position: absolute;
+    width: 239px;
+    height: 239px;
+    left: 1078px;
+    top: 366px;
+    cursor: pointer;
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
+  }
+
+  .image5 {
+    position: absolute;
+    width: 239px;
+    height: 239px;
+    left: 1314px;
+    top: 533px;
+    cursor: pointer;
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
+  }
+
+  .playButton1 {
+    position: absolute;
+    width: 224px;
+    height: 224px;
+    left: 79px;
+    top: 582px;
+    
+    background: #00E0FF;
+    border-radius: 50%;
+
+    cursor: pointer;
+    transition: 0.3s all;
+
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
+  }
+  
+  .playButton2 {
+    position: absolute;
+    width: 196px;
+    height: 196px;
+    left: 1018px;
+    top: 50px;
+    
+    background: #000000;
+
+    cursor: pointer;
+    transition: 0.3s all;
+
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
+  }
+
+  .imagePlay1 {
+    position: absolute;
+    width: 129px;
+    height: 145px;
+    left: 65px;
+    top: 42px;
+  }
+  
+  .imagePause1 {
+    position: absolute;
+    width: 130px;
+    height: 155px;
+    left: 49px;
+    top: 32px;
+  }
+  
+  .imagePlay2 {
+    position: absolute;
+    width: 129px;
+    height: 145px;
+    left: 42px;
+    top: 30px;
+  }
+  
+  .imagePause2 {
+    position: absolute;
+    width: 120px;
+    height: 140px;
+    left: 38px;
+    top: 28px;
+  }
+}

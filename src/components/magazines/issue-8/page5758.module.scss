@@ -1,0 +1,187 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+
+  .background {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
+    top: -9px;
+  }
+
+  .title {
+    position: absolute;
+    width: 686px;
+    height: 207px;
+    left: 60px;
+    top: 31px;
+
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.05)
+    }    
+  }
+
+  .text1 {
+    position: absolute;
+    width: 676px;
+    height: 200px;
+    left: 0;
+    top: 0;
+    // left: 60px;
+    // top: 31px;
+
+    font-family: Kristi;
+    font-size: 100px;
+    line-height: 100%;
+    color: #ffffff;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 676px;
+    height: 200px;
+    left: 10px;
+    top: 7px;
+    // left: 70px;
+    // top: 38px;
+
+    font-family: Kristi;
+    font-size: 100px;
+    line-height: 100%;
+
+    color: #000aff;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 676px;
+    height: 200px;
+    left: 30px;
+    top: 1271px;
+
+    font-family: Kristi;
+    font-size: 100px;
+    line-height: 100%;
+    color: #c99eff;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 676px;
+    height: 200px;
+    left: 623px;
+    top: 1271px;
+    
+    font-family: Kristi;
+    font-size: 100px;
+    line-height: 100%;
+    color: #c99eff;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 676px;
+    height: 200px;
+    left: 1244px;
+    top: 1271px;
+    
+    font-family: Kristi;
+    font-size: 100px;
+    line-height: 100%;
+    color: #c99eff;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 676px;
+    height: 100px;
+    left: 70px;
+    top: 243px;
+    
+    font-family: Kristi;
+    font-size: 100px;
+    line-height: 100%;
+    color: #000AFF;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 738px;
+    height: 750px;
+    left: 126px;
+    top: 421px;
+    
+    font-family: Gemunu Libre;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;        
+  }
+
+  .text8 {
+    position: absolute;
+    width: 738px;
+    height: 390px;
+    left: 1076px;
+    top: 612px;
+    
+    font-family: Gemunu Libre;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    color: #FFFFFF;    
+  }
+
+  .image1 {
+    position: absolute;
+    width: 353px;
+    height: 282px;
+    left: 621px;
+    top: 0px;    
+  }
+
+  .image2 {
+    position: absolute;
+    width: 221px;
+    height: 221px;
+    left: 495px;
+    top: 128px;
+
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1)
+    }
+  }
+
+  .image3 {
+    position: absolute;
+    width: 713px;
+    height: 275px;
+    left: 1076px;
+    top: 31px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 713px;
+    height: 272.37px;
+    left: 1076px;
+    top: 321px;
+  }
+
+}

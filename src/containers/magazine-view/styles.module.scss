@@ -1,0 +1,23 @@
+.magazineViewerWrapper {
+  flex: content;
+  background-color: #201D1D;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  height: 100%;
+
+  .contentWrapper {
+    margin: auto;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    background-color: black;
+    height: fit-content;
+  }
+
+  .switchViewerWrapper {
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+  }
+}

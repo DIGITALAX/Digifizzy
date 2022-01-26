@@ -1,0 +1,31 @@
+.webViewerWrapper {
+  flex: auto;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: scroll;
+  background-color: black;
+  position: relative;
+  min-height: 100%;
+
+  .contentWrapper {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .zoomViewer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: red;
+  }
+}

@@ -1,0 +1,347 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+
+  .imageBackground {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 413px;
+    height: 103px;
+    left: 0px;
+    top: 273px;
+    
+    background: #081420;    
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 905px;
+    height: 410px;
+    left: -1px;
+    top: 382px;
+    
+    background: rgba(8, 20, 32, 0.63);
+  }
+
+  .rect3 {
+    position: absolute;
+    width: 905px;
+    height: 338px;
+    left: -1px;
+    top: 802px;
+    
+    background: rgba(8, 20, 32, 0.63);
+  }
+
+  .rect4 {
+    position: absolute;
+    width: 905px;
+    height: 298px;
+    left: 960px;
+    top: 2px;
+    
+    background: rgba(8, 20, 32, 0.63);
+  }
+
+  .rect5 {
+    position: absolute;
+    width: 626px;
+    height: 752px;
+    left: 1294px;
+    top: 324px;
+    
+    background: rgba(8, 20, 32, 0.63);
+  }
+
+  .rect6 {
+    position: absolute;
+    width: 319px;
+    height: 457px;
+    left: 960px;
+    top: 955px;
+    
+    background: rgba(8, 20, 32, 0.63);
+  }
+
+  .rect7 {
+    position: absolute;
+    width: 626px;
+    height: 262px;
+    left: 1294px;
+    top: 1088px;
+    
+    background: rgba(8, 20, 32, 0.63);
+  }
+
+  .text1 {
+    position: absolute;
+    width: 497px;
+    height: 72px;
+    left: 8px;
+    top: 273px;
+    
+    font-family: Rye;
+    font-size: 40px;
+    line-height: 100px;
+    color: #FFFFFF;
+
+    transition: 0.3s all;
+
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(0.9);
+    }
+  }
+
+  .text2 {
+    position: absolute;
+    width: 865px;
+    height: 72px;
+    left: 19px;
+    top: 406px;
+    
+    font-family: Rye;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 865px;
+    height: 357px;
+    left: 19px;
+    top: 461px;
+    
+    font-family: Rubik Mono One;
+    font-size: 12px;
+    line-height: 23px;
+    color: #FFFFFF;    
+  }
+
+  .text4 {
+    position: absolute;
+    width: 865px;
+    height: 72px;
+    left: 19px;
+    top: 826px;
+    
+    font-family: Rye;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;    
+  }
+
+  .text5 {
+    position: absolute;
+    width: 865px;
+    height: 286px;
+    left: 19px;
+    top: 886px;
+    
+    font-family: Rubik Mono One;
+    font-size: 12px;
+    line-height: 23px;
+    color: #FFFFFF;    
+  }
+
+  .text6 {
+    position: absolute;
+    width: 865px;
+    height: 72px;
+    left: 980px;
+    top: 12px;
+    
+    font-family: Rye;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;        
+  }
+
+  .text7 {
+    position: absolute;
+    width: 865px;
+    height: 248px;
+    left: 980px;
+    top: 69px;
+    
+    font-family: Rubik Mono One;
+    font-size: 12px;
+    line-height: 23px;
+    color: #FFFFFF;    
+  }
+
+  .text8 {
+    position: absolute;
+    width: 593px;
+    height: 103px;
+    left: 1316px;
+    top: 342px;
+    
+    font-family: Rye;
+    font-size: 15px;
+    line-height: 26px;
+    color: #FFFFFF;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 590px;
+    height: 355px;
+    left: 1316px;
+    top: 450px;
+    
+    font-family: Rubik Mono One;
+    font-size: 12px;
+    line-height: 23px;
+    color: #FFFFFF;
+  }
+
+  .text10 {
+    position: absolute;
+    width: 302px;
+    height: 220px;
+    left: 971px;
+    top: 973px;
+    
+    font-family: Rye;
+    font-size: 15px;
+    line-height: 26px;
+    color: #FFFFFF;
+  }
+
+  .text11 {
+    position: absolute;
+    width: 294px;
+    height: 355px;
+    left: 971px;
+    top: 1078px;
+    
+    font-family: Rubik Mono One;
+    font-size: 12px;
+    line-height: 23px;
+    color: #FFFFFF;
+  }
+
+  .text12 {
+    position: absolute;
+    width: 592px;
+    height: 66px;
+    left: 1316px;
+    top: 1106px;
+    
+    font-family: Rye;    
+    font-size: 15px;
+    line-height: 26px;
+    color: #FFFFFF;
+  }
+
+  .text13 {
+    position: absolute;
+    width: 577px;
+    height: 173px;
+    left: 1316px;
+    top: 1165px;
+    
+    font-family: Rubik Mono One;
+    font-size: 12px;
+    line-height: 23px;
+    color: #FFFFFF;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 304px;
+    height: 304px;
+    left: 637px;
+    top: 10px;    
+  }
+
+  .image2 {
+    position: absolute;
+    width: 304px;
+    height: 304px;
+    left: 960px;
+    top: 324px;    
+  }
+
+  .image3 {
+    position: absolute;
+    width: 304px;
+    height: 304px;
+    left: 960px;
+    top: 632px;
+  }
+
+  .video1 {
+    position: absolute;
+    width: 577px;
+    height: 300px;
+    left: 17px;
+    top: 1186px;    
+  }
+
+  .text14 {
+    position: absolute;
+    width: 271px;
+    height: 79px;
+    left: 615px;
+    top: 1167px;
+    
+    font-family: Think Thick;
+    font-size: 25px;
+    line-height: 100px;
+    color: #0C07FF;
+    text-shadow: -5px 0 #FFFFFF, 0 -5px #FFFFFF, -5px -5px #FFFFFF, 5px 0 #FFFFFF, 0 5px #FFFFFF, 5px 5px #FFFFFF, -5px 5px #FFFFFF, 5px -5px #FFFFFF;
+  }
+
+  .text15 {
+    position: absolute;
+    width: 271px;
+    height: 79px;
+    left: 615px;
+    top: 1259px;
+    
+    font-family: Think Thick;
+    font-size: 15px;
+    line-height: 30px;
+    color: #C09600;
+    text-shadow: -5px 0 #FFFFFF, 0 -5px #FFFFFF, -5px -5px #FFFFFF, 5px 0 #FFFFFF, 0 5px #FFFFFF, 5px 5px #FFFFFF, -5px 5px #FFFFFF, 5px -5px #FFFFFF;
+  }
+
+  .playButton {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 615px;
+    top: 1336px;
+    cursor: pointer;
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
+  }
+
+  .pauseButton {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 700px;
+    top: 1336px;
+    cursor: pointer;
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
+  }
+}

@@ -1,0 +1,205 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+
+  .imageBackground {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1920px;
+    height: 1497px;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 838px;
+    height: 1027px;
+    left: 49px;
+    top: 433px;
+    
+    background: rgba(24, 144, 255, 0.81);    
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 838px;
+    height: 1401px;
+    left: 1007px;
+    top: 59px;
+    
+    background: rgba(24, 144, 255, 0.81);
+  }
+
+  .image1 {
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    left: 49px;
+    top: 59px;        
+  }
+
+  .image2 {
+    position: absolute;
+    width: 316px;
+    height: 522px;
+    left: 960px;
+    top: 0px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 372px;
+    height: 508px;
+    left: 1224px;
+    top: -38px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 385px;
+    height: 468px;
+    left: 1535px;
+    top: -38px;
+  }
+
+  .image5 {
+    position: absolute;
+    width: 400px;
+    height: 473px;
+    left: -113px;
+    top: 1060px;
+  }
+
+  .image6 {
+    position: absolute;
+    width: 339px;
+    height: 450px;
+    left: 214px;
+    top: 1010px;
+  }
+
+  .image7 {
+    position: absolute;
+    width: 320px;
+    height: 375px;
+    left: 256px;
+    top: 1209px;   
+  }
+
+  .text1 {
+    position: absolute;
+    width: 511px;
+    height: 73px;
+    left: 400px;
+    top: 87px;
+    
+    font-family: Marcellus;
+    font-size: 70px;
+    line-height: 30px;
+    color: #FFFFFF;
+    -webkit-text-stroke: 4px #FF6B00;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 511px;
+    height: 73px;
+    left: 400px;
+    top: 160px;
+    
+    font-family: Marcellus;
+    font-size: 70px;
+    line-height: 30px;
+    color: #FFFFFF;
+    -webkit-text-stroke: 4px #FF6B00;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 511px;
+    height: 73px;
+    left: 400px;
+    top: 233px;
+    
+    font-family: Marcellus;
+    font-size: 70px;
+    line-height: 30px;
+    color: #FFFFFF;
+    -webkit-text-stroke: 4px #FF6B00;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 511px;
+    height: 73px;
+    left: 400px;
+    top: 306px;
+    
+    font-family: Marcellus;
+    font-size: 70px;
+    line-height: 30px;
+    color: #FFFFFF;
+    -webkit-text-stroke: 4px #FF6B00;
+  }
+
+  a {
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
+  }
+
+  .text5 {
+    position: absolute;
+    width: 749px;
+    height: 239px;
+    left: 98px;
+    top: 471px;
+    
+    font-family: Marcellus;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;    
+  }
+
+  .text6 {
+    position: absolute;
+    width: 749px;
+    height: 239px;
+    left: 98px;
+    top: 729px;
+    
+    font-family: Marcellus;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 243px;
+    height: 239px;
+    left: 610px;
+    top: 1014px;
+    
+    font-family: Marcellus;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+  }
+
+  .text8 {
+    position: absolute;
+    width: 734px;
+    height: 861px;
+    left: 1067px;
+    top: 544px;
+    
+    font-family: Marcellus;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;    
+  }
+}

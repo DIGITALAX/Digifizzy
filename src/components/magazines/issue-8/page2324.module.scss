@@ -1,0 +1,52 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: #000000;
+
+  .background {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0;
+    top: 0;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 960px;
+    height: 234px;
+    left: 960px;
+    top: 220px;
+    
+    background: #884545;    
+  }
+
+  .text1 {
+    position: absolute;
+    width: 877px;
+    height: 130px;
+    left: 1001px;
+    top: 245px;
+    
+    font-family: Vampiro One;
+    font-size: 65px;
+    line-height: 100%;
+    text-align: center;
+    color: #F5C2C1;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 877px;
+    height: 30px;
+    left: 1001px;
+    top: 396px;
+    
+    font-family: Vampiro One;
+    font-size: 30px;
+    line-height: 100%;
+    text-align: center;
+    color: #F5C2C1;
+  }
+}

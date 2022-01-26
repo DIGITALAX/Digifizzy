@@ -1,0 +1,240 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: #44A997;
+
+  .gradient {
+    animation-duration: 1.8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #9c9c9c;
+    background: linear-gradient(to right, #9c9c9c 8%, #f4f4f4 38%, #9c9c9c 54%);
+    background-size: 1000px 640px;
+    
+    position: relative;     
+  }
+
+  @keyframes placeHolderShimmer{
+    0%{
+      background-position: -468px 0
+    }
+    100%{
+      background-position: 468px 0
+    }
+  }
+
+  .image1 {
+    position: absolute;
+    left: 28px;
+    top: 228px;
+    width: 211px;
+    height: 374px;
+  }
+
+  .image2 {
+    position: absolute;
+    left: 28px;
+    top: 643px;
+    width: 211px;
+    height: 374px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 211px;
+    height: 374px;
+    left: 28px;
+    top: 1058px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 291px;
+    height: 264px;
+    left: 645px;
+    top: 921px;
+    
+  }
+
+  .image5 {
+    position: absolute;
+    width: 291px;
+    height: 212px;
+    left: 645px;
+    top: 1221px;
+  }
+
+  .image6 {
+    position: absolute;
+    width: 211px;
+    height: 374px;
+    left: 1014px;
+    top: 69px;
+  }
+
+  .image7 {
+    position: absolute;
+    width: 211px;
+    height: 374px;
+    left: 1014px;
+    top: 509px;
+  }
+
+  .image8 {
+    position: absolute;
+    width: 211px;
+    height: 476px;
+    left: 1014px;
+    top: 953px;
+  }
+
+  .image9 {
+    position: absolute;
+    width: 211px;
+    height: 374px;
+    left: 1668px;
+    top: 69px;
+  }
+
+  .image10 {
+    position: absolute;
+    width: 211px;
+    height: 374px;
+    left: 1668px;
+    top: 509px;
+  }
+
+  .image11 {
+    position: absolute;
+    width: 211px;
+    height: 476px;
+    left: 1668px;
+    top: 953px;
+  }
+
+
+  .line1 {
+    position: absolute;
+    width: 1205px;
+    height: 1px;
+    left: 274px;
+    top: 228px;
+    background-color: black;
+    transform-origin: 0 0;
+    transform: rotate(90deg);    
+  }
+
+  .line2 {
+    position: absolute;
+    width: 1205px;
+    height: 1px;
+    left: 617px;
+    top: 228px;
+    background-color: black;
+    transform-origin: 0 0;
+    transform: rotate(90deg);    
+  }
+
+  .line3 {
+    position: absolute;
+    width: 1524px;
+    height: 1px;
+    left: 960px;
+    top: 0px;
+    background-color: black;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+  }
+
+  .line4 {
+    position: absolute;
+    width: 1360px;
+    height: 1px;
+    left: 1278px;
+    top: 69px;
+    background-color: black;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+  }
+
+  .line5 {
+    position: absolute;
+    width: 1360px;
+    height: 1px;
+    left: 1621px;
+    top: 69px;
+    background-color: black;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+  }
+
+  .text1 {
+    position: absolute;
+    width: 515px;
+    height: 141px;
+    left: 27px;
+    top: 46px;
+    
+    font-family: Sweetly Broken;
+    font-size: 80px;
+    line-height: 20px;
+    color: #63E100;
+    -webkit-text-stroke: 0.1px #000000;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 515px;
+    height: 141px;
+    left: 111px;
+    top: 150px;
+    
+    font-family: Sweetly Broken;
+    font-size: 80px;
+    line-height: 20px;
+    color: #95C56F;
+    -webkit-text-stroke: 0.1px #000000;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 289px;
+    height: 1236px;
+    left: 309px;
+    top: 249px;
+    
+    font-family: Sofadi One;
+    font-size: 22px;
+    line-height: 20px;
+    color: #000000;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 289px;
+    height: 882px;
+    left: 645px;
+    top: 61px;
+    
+    font-family: Sofadi One;
+    font-size: 22px;
+    line-height: 20px;
+    color: #000000;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 277px;
+    height: 1363px;
+    left: 1315px;
+    top: 66px;
+    
+    font-family: Sofadi One;
+    font-size: 27px;
+    line-height: 20px;
+    color: #000000;
+  }
+}

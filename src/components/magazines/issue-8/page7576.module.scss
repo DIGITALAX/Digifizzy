@@ -1,0 +1,112 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: radial-gradient(50% 50% at 50% 50%, #000000 70.83%, #E0653E 86.46%, #E98D99 95.83%, #000000 100%);;
+
+  .image1 {
+    position: absolute;
+    width: 918px;
+    height: 918px;
+    left: 616px;
+    top: 749px;
+    
+    transform-origin: 0 0;
+    transform: rotate(-180deg);    
+  }
+
+  .image2 {
+    position: absolute;
+    width: 241px;
+    height: 241px;
+    left: 654px;
+    top: 241px;
+    
+    transform-origin: 0 0;
+    transform: rotate(-180deg);
+  }
+
+  .image3 {
+    position: absolute;
+    width: 918px;
+    height: 918px;
+    left: 1306px;
+    top: 851px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 837px;
+    height: 1116px;
+    left: -165px;
+    top: 701px;    
+  }
+
+  .image5 {
+    position: absolute;
+    width: 483px;
+    height: 644px;
+    left: 351px;
+    top: 1035px;
+  }
+
+  .image6 {
+    position: absolute;
+    width: 483px;
+    height: 644px;
+    left: 533px;
+    top: 1035px;    
+  }
+
+  .text1 {
+    position: absolute;
+    width: 457px;
+    height: 720px;
+    left: 410px;
+    top: 365px;
+    
+    font-family: Sniglet;
+    font-size: 80px;
+    line-height: 100%;
+    color: rgba(255, 122, 0, 0.26);    
+  }
+
+  .text2 {
+    position: absolute;
+    width: 457px;
+    height: 720px;
+    left: 441px;
+    top: 365px;
+    
+    font-family: Sniglet;
+    font-size: 80px;
+    line-height: 100%;
+    color: #FF7A00;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 412px;
+    height: 825px;
+    left: 1044px;
+    top: 364px;
+    
+    font-family: Sniglet;
+    font-size: 25px;
+    line-height: 100%;
+    color: #FF7A00;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 457px;
+    height: 40px;
+    left: 441px;
+    top: 241px;
+    
+    font-family: Sniglet;
+    font-size: 40px;
+    line-height: 100%;
+    color: #FFFFFF;
+  }
+}

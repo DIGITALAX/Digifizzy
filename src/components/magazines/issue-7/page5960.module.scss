@@ -1,0 +1,195 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: black;
+
+  .imageBackground1 {
+    position: absolute;
+    left: 0px;
+    width: 961px;
+    top: 0;
+    height: 1497px;
+  }
+
+  .imageBackground2 {
+    position: absolute;
+    width: 959px;
+    height: 558px;
+    left: 960px;
+    top: -177px;
+  }
+
+  .imageBackground3 {
+    position: absolute;
+    width: 959px;
+    height: 558px;
+    left: 960px;
+    top: 381px;
+  }
+
+  .imageBackground4 {
+    position: absolute;
+    width: 959px;
+    height: 558px;
+    left: 961px;
+    top: 939px;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 539px;
+    height: 275px;
+    left: 1001px;
+    top: 38px;
+    
+    background: radial-gradient(50% 50% at 50% 50%, #7F6DEF 65.1%, rgba(236, 34, 177, 0.63) 94.79%);    
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 694px;
+    height: 235px;
+    left: 1173px;
+    top: 602px;
+    
+    background: radial-gradient(50% 50% at 50% 50%, #7F6DEF 65.1%, rgba(236, 34, 177, 0.63) 94.79%);
+    transform-origin: 0 0;
+    transform: matrix(1, 0, 0, -1, 0, 0);    
+  }
+
+  .rect3 {
+    position: absolute;
+    width: 694px;
+    height: 235px;
+    left: 1001px;
+    top: 891px;
+    
+    background: radial-gradient(50% 50% at 50% 50%, #7F6DEF 65.1%, rgba(236, 34, 177, 0.63) 94.79%);
+    transform-origin: 0 0;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+
+  .rect4 {
+    position: absolute;
+    width: 694px;
+    height: 235px;
+    left: 1173px;
+    top: 1174px;
+    
+    background: radial-gradient(50% 50% at 50% 50%, #7F6DEF 65.1%, rgba(236, 34, 177, 0.63) 94.79%);
+    transform-origin: 0 0;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+
+  .rect5 {
+    position: absolute;
+    width: 694px;
+    height: 235px;
+    left: 1001px;
+    top: 1467px;
+    
+    background: radial-gradient(50% 50% at 50% 50%, #7F6DEF 65.1%, rgba(236, 34, 177, 0.63) 94.79%);
+    transform-origin: 0 0;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+
+  h1 {
+    position: absolute;
+    width: 646px;
+    height: 80px;
+    left: 982px;
+    top: 12px;
+    
+    font-family: 'Baloo Chettan 2';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 100%;
+    color: #FFFFFF;    
+  }
+
+  .text1 {
+    position: absolute;
+    width: 463px;
+    height: 180px;
+    left: 1039px;
+    top: 120px;
+    
+    font-family: 'Architects Daughter';
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    color: #FFFFFF;    
+  }
+
+  .text2 {
+    position: absolute;
+    width: 644px;
+    height: 200px;
+    left: 1208px;
+    top: 410px;
+    
+    font-family: Architects Daughter;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 644px;
+    height: 160px;
+    left: 1026px;
+    top: 714px;
+    
+    font-family: Architects Daughter;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 644px;
+    height: 180px;
+    left: 1198px;
+    top: 991px;
+    
+    font-family: Architects Daughter;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    color: #FFFFFF;    
+  }
+
+  .text5 {
+    position: absolute;
+    width: 644px;
+    height: 200px;
+    left: 1026px;
+    top: 1263px;
+    
+    font-family: Architects Daughter;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 251px;
+    height: 251px;
+    left: 1647px;
+    top: 19px;
+
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
+  }
+}

@@ -1,0 +1,166 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  color: white;
+  display: flex;
+  position: relative;
+  background-color: #FFFFFF;
+
+  .image1 {
+    position: absolute;
+    width: 617px;
+    height: 516px;
+    left: 0px;
+    top: 0px;        
+  }
+
+  .image2 {
+    position: absolute;
+    width: 686px;
+    height: 516px;
+    left: 617px;
+    top: 0px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 617px;
+    height: 516px;
+    left: 1303px;
+    top: 0px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 617px;
+    height: 516px;
+    left: 0px;
+    top: 516px;
+  }
+
+  .image5 {
+    position: absolute;
+    width: 686px;
+    height: 516px;
+    left: 617px;
+    top: 516px;        
+  }
+
+  .image6 {
+    position: absolute;
+    width: 617px;
+    height: 516px;
+    left: 1303px;
+    top: 516px;
+  }
+
+  .image7 {
+    position: absolute;
+    width: 617px;
+    height: 465px;
+    left: 0px;
+    top: 1032px;
+  }
+
+  .image8 {
+    position: absolute;
+    width: 686px;
+    height: 465px;
+    left: 617px;
+    top: 1032px;
+  }
+
+  .image9 {
+    position: absolute;
+    width: 617px;
+    height: 465px;
+    left: 1303px;
+    top: 1032px;
+  }
+
+  .image10 {
+    position: absolute;
+    width: 1590px;
+    height: 1462px;
+    left: -630px;
+    top: 345px;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 960px;
+    height: 350px;
+    left: 0px;
+    top: 85px;
+    
+    background: rgba(55, 255, 207, 0.62);    
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 753px;
+    height: 623px;
+    left: 1072px;
+    top: 85px;
+    
+    background: rgba(222, 230, 186, 0.85);
+  }
+
+  .rect3 {
+    position: absolute;
+    width: 753px;
+    height: 623px;
+    left: 1072px;
+    top: 765px;
+    
+    background: rgba(222, 230, 186, 0.85);
+  }
+
+  .text1 {
+    position: absolute;
+    width: 831px;
+    height: 240px;
+    left: 43px;
+    top: 119px;
+    
+    font-family: Arial Black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 120px;
+    line-height: 100%;
+    color: #FFFFFF;
+    -webkit-text-stroke: 2px #FF0000;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 676px;
+    height: 550px;
+    left: 1118px;
+    top: 123px;
+    
+    font-family: Arial Black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 33px;
+    line-height: 100%;
+    color: #000000;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 676px;
+    height: 552px;
+    left: 1118px;
+    top: 800px;
+    
+    font-family: Arial Black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 29px;
+    line-height: 100%;
+    color: #000000;
+    
+  }
+}

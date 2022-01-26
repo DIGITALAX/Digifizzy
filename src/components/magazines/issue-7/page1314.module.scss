@@ -1,0 +1,444 @@
+@import './styles.module.scss';
+@import url('https://fonts.googleapis.com/css2?family=Titan+One');
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: #F1C148;
+  color: black;
+  display: flex;
+  position: relative;
+
+  .image1 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
+    top: 0px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 547px;
+    height: 169px;
+    left: 1021px;
+    top: 45px;
+    
+    font-family: Archie Websters;
+    font-size: 130px;
+    line-height: 110%;
+    color: #FFFFFF;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 700px;
+    height: 66px;
+    left: 983px;
+    top: 487px;
+    
+    font-family: Archie Websters;
+    font-size: 100px;
+    line-height: 110%;
+    color: #FFFFFF;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 700px;
+    height: 121px;
+    left: 1007px;
+    top: 866px;
+    
+    font-family: Archie Websters;
+    font-size: 100px;
+    line-height: 110%;
+    color: #FFFFFF;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 700px;
+    height: 52px;
+    left: 983px;
+    top: 1183px;
+    
+    font-family: Archie Websters;
+    font-size: 100px;
+    line-height: 110%;
+    color: #FFFFFF;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 700px;
+    height: 52px;
+    left: 1517px;
+    top: 1183px;
+    
+    font-family: Archie Websters;
+    font-size: 100px;
+    line-height: 110%;
+    color: #FFFFFF;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 23px;
+    height: 630px;
+    left: 1592px;
+    top: 46px;
+    word-wrap: break-word;
+    
+    font-family: Archie Websters;
+    font-size: 80px;
+    line-height: 110%;
+    color: #FFFFFF;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    left: 1021px;
+    top: 237px;
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1)
+    };
+  }
+
+  .image3 {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    left: 1021px;
+    top: 663px;
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1)
+    };
+  }
+
+  .image4 {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    left: 1021px;
+    top: 1019px;
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1)
+    };
+  }
+
+  .image5 {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    left: 1021px;
+    top: 1320px;
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1)
+    };
+  }
+
+  .image6 {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    left: 1675px;
+    top: 50px;
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1)
+    };
+  }
+
+  .text7 {
+    position: absolute;
+    width: 389px;
+    height: 98px;
+    left: 1138px;
+    top: 251px;
+    
+    font-family: Mada;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 110%;
+    color: #FFFFFF;
+    
+    span {
+      font-family: Mad Galaxy Demo;
+      font-size: 17px;
+    }
+  }
+
+  .text8 {
+    position: absolute;
+    width: 506px;
+    height: 132px;
+    left: 1021px;
+    top: 337px;
+    
+    font-family: Mada;
+    font-size: 15px;
+    line-height: 110%;
+    color: #FFFFFF;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 423px;
+    height: 211px;
+    left: 1143px;
+    top: 643px;
+    
+    font-family: Mada;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 110%;
+    color: #FFFFFF;
+    
+    span {
+      font-family: Mad Galaxy Demo;
+      font-size: 17px;
+    }
+  }
+
+  .text10 {
+    position: absolute;
+    width: 708px;
+    height: 164px;
+    left: 1168px;
+    top: 1007px;
+    
+    font-family: Mada;
+    font-size: 15px;
+    line-height: 110%;
+    color: #FFFFFF;
+    
+    span {
+      font-family: Mad Galaxy Demo;
+      font-size: 17px;
+    }
+  }
+
+  .text11 {
+    position: absolute;
+    width: 710px;
+    height: 152px;
+    left: 1168px;
+    top: 1314px;
+    
+    font-family: Mada;
+    font-size: 15px;
+    line-height: 110%;
+    color: #FFFFFF;
+    
+    span {
+      font-family: Mad Galaxy Demo;
+      font-size: 17px;
+    }
+  }
+
+  .text12 {
+    position: absolute;
+    width: 88px;
+    height: 113px;
+    left: 1781px;
+    top: 64px;
+    word-wrap: break-word;
+    
+    font-family: Mada;
+    font-size: 15px;
+    line-height: 110%;
+    color: #FFFFFF;
+    
+    span {
+      font-family: Mad Galaxy Demo;
+      font-size: 17px;
+    }
+  }
+
+  .text13 {
+    position: absolute;
+    width: 189px;
+    height: 603px;
+    left: 1675px;
+    top: 156px;
+    
+    font-family: Mada;
+    font-size: 15px;
+    line-height: 110%;
+    color: #FFFFFF;
+  }
+
+  .rect1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 370px;
+    height: 1497px;
+    background-color: white;
+  }
+
+  .image71 {
+    position: absolute;
+    width: 271px;
+    height: 308px;
+    left: 40px;
+    top: 20px;    
+  }
+
+  .image72 {
+    position: absolute;
+    width: 271px;
+    height: 308px;
+    left: 40px;
+    top: 350px;    
+  }
+
+  .image73 {
+    position: absolute;
+    width: 271px;
+    height: 308px;
+    left: 40px;
+    top: 680px;
+  }
+
+  .image74 {
+    position: absolute;
+    width: 271px;
+    height: 308px;
+    left: 40px;
+    top: 1010px;
+  }
+
+  .image75 {
+    position: absolute;
+    width: 271px;
+    height: 308px;
+    left: 40px;
+    top: 1338px;
+  }
+
+  .image8 {
+    position: absolute;
+    width: 824px;
+    height: 1188px;
+    left: 0px;
+    top: 309px;    
+  }
+
+  .image9 {
+    background-color: gray;
+    border-radius: 50%;
+    position: absolute;
+    width: 399px;
+    height: 399px;
+    left: 561px;
+    top: 1098px;
+
+    cursor: pointer;
+    transition: 0.3s all;
+
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(0.9);
+    }
+  }
+
+  .gradient {
+    animation-duration: 1.8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #9c9c9c;
+    background: linear-gradient(to right, #9c9c9c 8%, #f4f4f4 38%, #9c9c9c 54%);
+    background-size: 1000px 640px;
+    
+    position: relative;     
+  }
+
+  @keyframes placeHolderShimmer{
+    0%{
+      background-position: -468px 0
+    }
+    100%{
+      background-position: 468px 0
+    }
+  }
+
+  .text14 {
+    position: absolute;
+    width: 574px;
+    height: 80px;
+    left: 386px;
+    top: 15px;
+    
+    font-family: Titan One;
+    font-size: 80px;
+    line-height: 100%;
+    color: #FF1ECD;
+    text-shadow: -1px 0 black, 0 -1px black, -1px -1px black, 0 1px black, 1px 0 black, -1px 1px black, 1px -1px black, 1px 1px black;
+    -webkit-text-stroke: 1px solid #000000;
+
+    cursor: pointer;
+    transition: 0.3s all;
+
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(0.9);
+    }
+  }
+
+
+  .playButton1 {
+    position: absolute;
+    width: 267px;
+    height: 267px;
+    left: 620px;
+    top: 123px;
+
+    cursor: pointer;
+    transition: 0.3s all;
+
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
+  }
+
+  .imageBack {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .imagePlay {
+    position: absolute;
+    width: 152px;
+    height: 173px;
+    left: 80px;
+    top: 50px;
+  }
+  
+  .imagePause {
+    position: absolute;
+    width: 129px;
+    height: 163px;
+    left: 73px;
+    top: 55px;
+  }
+}

@@ -1,0 +1,229 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  
+  .background {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;    
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 719px;
+    height: 76px;
+    left: 50px;
+    top: 23px;
+    
+    background: rgba(0, 0, 0, 0.76);    
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 809px;
+    height: 456px;
+    left: 57px;
+    top: 155px;
+    
+    background: rgba(0, 0, 0, 0.71);
+    border: 10px solid #FFFFFF;
+  }
+
+  .rect3 {
+    position: absolute;
+    width: 809px;
+    height: 511px;
+    left: 57px;
+    top: 644px;
+    
+    background: rgba(0, 0, 0, 0.71);
+    border: 10px solid #FFFFFF;
+  }
+
+  .rect4 {
+    position: absolute;
+    width: 886px;
+    height: 328px;
+    left: 990px;
+    top: 29px;
+    
+    background: rgba(0, 0, 0, 0.71);
+    border: 10px solid #FFFFFF;
+  }
+
+  .rect5 {
+    position: absolute;
+    width: 886px;
+    height: 456px;
+    left: 990px;
+    top: 408px;
+    
+    background: rgba(0, 0, 0, 0.71);
+    border: 10px solid #FFFFFF;    
+  }
+
+  .rect6 {
+    position: absolute;
+    width: 886px;
+    height: 276.38px;
+    left: 990px;
+    top: 914px;
+    
+    background: rgba(0, 0, 0, 0.71);
+    border: 10px solid #FFFFFF;
+  }
+
+  .rect7 {
+    position: absolute;
+    width: 1920px;
+    height: 72px;
+    left: 0px;
+    top: 1215px;
+    
+    background: #000000;
+  }
+
+  .rect8 {
+    position: absolute;
+    width: 1920px;
+    height: 27px;
+    left: 0px;
+    top: 1260px;
+    
+    background: #FFFFFF;
+  }
+
+  .rect9 {
+    position: absolute;
+    width: 1920px;
+    height: 72px;
+    left: 0px;
+    top: 1309px;
+    
+    background: #000000;    
+  }
+
+  .rect10 {
+    position: absolute;
+    width: 1920px;
+    height: 27px;
+    left: 0px;
+    top: 1354px;
+    
+    background: #FFFFFF;
+  }
+
+  .rect11 {
+    position: absolute;
+    width: 1920px;
+    height: 72px;
+    left: 0px;
+    top: 1403px;
+    
+    background: #000000;
+  }
+
+  .rect12 {
+    position: absolute;
+    width: 1920px;
+    height: 27px;
+    left: 0px;
+    top: 1403px;
+    
+    background: #FFFFFF;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 710px;
+    height: 70px;
+    left: 57px;
+    top: 23px;
+    
+    font-family: Bungee Shade;
+    font-size: 70px;
+    line-height: 100%;
+    color: #FFFFFF;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 728px;
+    height: 367px;
+    left: 97px;
+    top: 200px;
+    
+    font-family: 'Bodoni 72 Oldstyle';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 100%;
+    /* or 27px */
+    
+    
+    color: #FFFFFF;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 728px;
+    height: 371px;
+    left: 97px;
+    top: 705px;
+    
+    font-family: 'Bodoni 72 Oldstyle';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 100%;
+    color: #FFFFFF;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 781px;
+    height: 259px;
+    left: 1053px;
+    top: 64px;
+    
+    font-family: 'Bodoni 72 Oldstyle';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 100%;
+    color: #FFFFFF;    
+  }
+
+  .text5 {
+    position: absolute;
+    width: 781px;
+    height: 367px;
+    left: 1053px;
+    top: 454px;
+    
+    font-family: 'Bodoni 72 Oldstyle';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 100%;
+    color: #FFFFFF;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 781px;
+    height: 259px;
+    left: 1053px;
+    top: 944px;
+    
+    font-family: 'Bodoni 72 Oldstyle';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 100%;
+    color: #FFFFFF;
+  }
+}

@@ -1,0 +1,63 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: black;
+
+  .leftBackground {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+    object-fit: cover;
+  }
+
+  .rightBackground {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
+    top: 0px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 279px;
+    height: 37px;
+    left: 1002px;
+    top: 28px;
+    
+    font-family: Baloo Tamma 2;
+    font-size: 14px;
+    line-height: 16px;
+    color: #00D1FF;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 116px;
+    height: 70px;
+    left: 1002px;
+    top: 115px;
+    
+    font-family: Baloo Tamma 2;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 100%;
+    color: #00D1FF;
+  }
+
+  a {
+    div {
+      cursor: pointer;
+      transition: 0.3s all;
+
+      &:hover {
+        transition: 0.3s all;
+        transform: scale(1.1);
+      }
+    }
+  }
+}

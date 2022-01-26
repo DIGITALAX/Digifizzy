@@ -1,0 +1,199 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  
+  .image1 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
+    top: 0px;    
+  }
+
+  .image2 {
+    position: absolute;
+    width: 960px;
+    height: 362px;
+    left: 0px;
+    top: 2px;
+
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(0.9);
+    }
+  }
+
+  .image3 {
+    position: absolute;
+    width: 502px;
+    height: 502px;
+    left: 461px;
+    top: 995px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 620px;
+    height: 239px;
+    left: 978px;
+    top: 0px;
+    
+    font-family: Rose Cake - Personal Use;
+    font-size: 120px;
+    line-height: 100%;
+    color: #B9D800;        
+  }
+
+  .text2 {
+    position: absolute;
+    width: 620px;
+    height: 239px;
+    left: 1564px;
+    top: 29px;
+    
+    font-family: Rose Cake - Personal Use;
+    font-size: 120px;
+    line-height: 100%;
+    color: #B9D800;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 620px;
+    height: 239px;
+    left: 806px;
+    top: 252px;
+    
+    font-family: Rose Cake - Personal Use;
+    font-size: 120px;
+    line-height: 100%;
+    color: #B9D800;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 620px;
+    height: 239px;
+    left: 1389px;
+    top: 286px;
+    
+    font-family: Rose Cake - Personal Use;
+    font-size: 120px;
+    line-height: 100%;
+    color: #B9D800;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 620px;
+    height: 239px;
+    left: 846px;
+    top: 525px;
+    
+    font-family: Rose Cake - Personal Use;
+    font-size: 120px;
+    line-height: 100%;
+    text-align: center;
+    color: #B9D800;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 620px;
+    height: 375px;
+    left: 990px;
+    top: 1088px;
+    
+    font-family: CF Punk Fashion PERSONAL;
+    font-size: 120px;
+    line-height: 100%;
+    color: #B9D800;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+    
+    background: #000000;    
+  }
+
+  .text7 {
+    position: absolute;
+    width: 277px;
+    height: 69px;
+    left: 96px;
+    top: 1413px;
+    
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    
+    color: #FFFFFF;
+    
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
+  }
+
+  .text8 {
+    position: absolute;
+    width: 277px;
+    height: 69px;
+    left: 36px;
+    top: 394px;
+    
+    font-family: Righteous;
+    font-size: 40px;
+    line-height: 50px;
+    
+    color: #FFFFFF;        
+  }
+
+  .text9 {
+    position: absolute;
+    width: 802px;
+    height: 192px;
+    left: 80px;
+    top: 474px;
+    
+    font-family: Righteous;
+    font-size: 21px;
+    line-height: 22px;
+    color: #FFFFFF;    
+  }
+
+  .text10 {
+    position: absolute;
+    width: 805px;
+    height: 286px;
+    left: 80px;
+    top: 673px;
+    
+    font-family: Righteous;
+    font-size: 21px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+
+  .text11 {
+    position: absolute;
+    width: 402px;
+    height: 462px;
+    left: 80px;
+    top: 940px;
+    
+    font-family: Righteous;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+}

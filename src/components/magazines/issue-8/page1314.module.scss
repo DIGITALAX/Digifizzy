@@ -1,0 +1,424 @@
+@import './styles.module.scss';
+@import url('https://fonts.googleapis.com/css2?family=Titan+One');
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: #F1C148;
+  color: black;
+  display: flex;
+  position: relative;
+
+  .image1 {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 263px;
+    height: 244px;
+    left: 0px;
+    top: 7px;        
+  }
+
+  .image3 {
+    position: absolute;
+    width: 263px;
+    height: 244px;
+    left: 0px;
+    top: 251px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 263px;
+    height: 244px;
+    left: 0px;
+    top: 1257px;    
+  }
+
+  .image5 {
+    position: absolute;
+    width: 179px;
+    height: 179px;
+    left: 757px;
+    top: 6px;
+
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
+  }
+
+  .image7 {
+    position: absolute;
+    width: 259px;
+    height: 259px;
+    left: 558px;
+    top: 169px;
+  }
+
+  .image8 {
+    position: absolute;
+    width: 144px;
+    height: 144px;
+    left: 809px;
+    top: 189px;
+  }
+
+  .image9 {
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 809px;
+    top: 348px;
+  }
+
+  .image10 {
+    position: absolute;
+    width: 92px;
+    height: 92px;
+    left: 633px;
+    top: 428px;
+  }
+
+  .image11 {
+    position: absolute;
+    width: 259px;
+    height: 259px;
+    left: 680px;
+    top: 451px;
+  }
+
+  .image12 {
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 847px;
+    top: 457px;
+  }
+
+  .image13 {
+    position: absolute;
+    width: 92px;
+    height: 92px;
+    left: 725px;
+    top: 668px;    
+  }
+
+  .text1 {
+    position: absolute;
+    width: 400px;
+    height: 97px;
+    left: 288px;
+    top: 42px;
+    
+    font-family: Maiden Orange;
+    font-size: 70px;
+    line-height: 110%;
+    color: #FFFFFF;
+    
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
+  }
+
+  .text2 {
+    position: absolute;
+    width: 547px;
+    height: 169px;
+    left: 1021px;
+    top: 45px;
+    
+    font-family: Archie Websters;
+    font-size: 130px;
+    line-height: 110%;
+    color: #FFFFFF;    
+  }
+
+  .text3 {
+    position: absolute;
+    width: 23px;
+    height: 630px;
+    left: 1592px;
+    top: 46px;
+    
+    font-family: Archie Websters;
+    word-wrap: break-word;
+    font-size: 80px;
+    line-height: 110%;
+    color: #FFFFFF;    
+  }
+
+  .text4 {
+    position: absolute;
+    width: 700px;
+    height: 66px;
+    left: 983px;
+    top: 487px;
+    
+    font-family: Archie Websters;
+    font-size: 100px;
+    line-height: 110%;
+    color: #FFFFFF;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 700px;
+    height: 52px;
+    left: 983px;
+    top: 885px;
+    
+    font-family: Archie Websters;
+    font-size: 100px;
+    line-height: 110%;
+    color: #FFFFFF;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 700px;
+    height: 52px;
+    left: 1523px;
+    top: 885px;
+    
+    font-family: Archie Websters;
+    font-size: 100px;
+    line-height: 110%;
+    color: #FFFFFF;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 700px;
+    height: 52px;
+    left: 983px;
+    top: 1183px;
+    
+    font-family: Archie Websters;
+    font-size: 100px;
+    line-height: 110%;
+    color: #FFFFFF;
+  }
+
+  .text8 {
+    position: absolute;
+    width: 700px;
+    height: 52px;
+    left: 1522px;
+    top: 1183px;
+    
+    font-family: Archie Websters;
+    font-size: 100px;
+    line-height: 110%;
+    color: #FFFFFF;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 389px;
+    height: 98px;
+    left: 1138px;
+    top: 251px;
+    line-height: 110%;
+    font-family: Mada;
+    font-size: 15px;
+    color: #FFFFFF;
+    span {
+      font-family: Mad Galaxy Demo;
+      font-size: 17px;
+    }
+  }
+
+  .text10 {
+    position: absolute;
+    width: 506px;
+    height: 132px;
+    left: 1021px;
+    top: 337px;
+    
+    font-family: Mada;
+    font-size: 15px;
+    line-height: 110%;
+    color: #FFFFFF;
+  }
+
+  .text11 {
+    position: absolute;
+    width: 423px;
+    height: 211px;
+    left: 1143px;
+    top: 643px;
+    
+    font-family: Mada;
+    font-size: 15px;
+    color: #FFFFFF;
+    span {
+      font-family: Mad Galaxy Demo;
+      font-size: 17px;
+    }
+  }
+
+  .text12 {
+    position: absolute;
+    width: 88px;
+    height: 113px;
+    left: 1781px;
+    top: 64px;
+    
+    font-family: Mada;
+    font-size: 15px;
+    color: #FFFFFF;
+    span {
+      font-family: Mad Galaxy Demo;
+      font-size: 17px;
+    }
+  }
+
+  .text13 {
+    position: absolute;
+    width: 189px;
+    height: 603px;
+    left: 1675px;
+    top: 156px;
+    
+    font-family: Mada;
+    font-size: 15px;
+    line-height: 110%;
+    color: #FFFFFF;
+  }
+
+  .text14 {
+    position: absolute;
+    width: 708px;
+    height: 164px;
+    left: 1168px;
+    top: 1007px;
+    
+    font-family: Mada;
+    font-size: 15px;
+    line-height: 110%;
+    color: #FFFFFF;
+    span {
+      font-family: Mad Galaxy Demo;
+      font-size: 17px;
+    }
+  }
+
+  .text15 {
+    position: absolute;
+    width: 710px;
+    height: 152px;
+    left: 1168px;
+    top: 1314px;
+    
+    font-family: Mada;
+    font-size: 15px;
+    line-height: 110%;
+    color: #FFFFFF;
+    span {
+      font-family: Mad Galaxy Demo;
+      font-size: 17px;
+    }
+  }
+
+  .image14 {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    left: 1021px;
+    top: 237px;    
+  }
+
+  .image15 {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    left: 1021px;
+    top: 663px;
+    
+  }
+
+  .image16 {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    left: 1021px;
+    top: 1019px;
+  }
+
+  .image17 {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    left: 1021px;
+    top: 1320px;    
+  }
+
+  .image18 {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    left: 1675px;
+    top: 50px;
+  }
+
+  .hoverImage {
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1)
+    }
+  }
+
+  .anim {
+    position: absolute;
+    width: 419px;
+    height: 149px;
+    left: 413px;
+    top: 1294px;
+    padding: 0 40px;
+  }
+  .blue {
+    width: 2rem;
+    height: 2rem;
+    background-color: #206EFF;
+  }
+  .green {
+    width: 2rem;
+    height: 2rem;
+    background-color: #31FFA6;
+  }
+  .red {
+    width: 2rem;
+    height: 2rem;
+    background-color: #FF324A;
+  }
+  .slider {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+    .button {
+      margin: 0 2px;
+      background: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+      border-width: 2px;
+      border-style: outset;
+      border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+      border-image: initial;
+      padding: 5px;
+    }
+  }
+}

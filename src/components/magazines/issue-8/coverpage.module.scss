@@ -1,0 +1,199 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  color: white;
+  display: flex;
+  position: relative;
+  background-color: #E5E5E5;
+
+  .imageBackground {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 256px;
+    height: 316px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 608px;
+    height: 320px;
+    left: 329px;
+    top: 27px;
+    
+    font-family: Bebas Neue;
+    font-size: 80px;
+    line-height: 100%;
+    color: #000000;
+    -webkit-text-stroke: 3px #00FFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+  }
+
+  .text2 {
+    position: absolute;
+    width: 198px;
+    height: 237px;
+    left: 72px;
+    top: 965px;
+    
+    font-family: Kumar One;
+    font-size: 30px;
+    line-height: 40px;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 177px;
+    height: 199px;
+    left: 76px;
+    top: 1238px;
+    
+    font-family: Thasadith;
+    font-size: 50px;
+    line-height: 100%;
+    color: #FFFFFF;
+    // -webkit-text-stroke: 3px #FF3E3E;
+    text-shadow: -3px -3px #FF3E3E, -3px 0 #FF3E3E, 0 -3px #FF3E3E, 3px 0 #FF3E3E, 0 3px #FF3E3E,
+      -3px 3px #FF3E3E, 3px -3px #FF3E3E, 3px 3px #FF3E3E;
+    // text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .text4 {
+    position: absolute;
+    width: 67px;
+    height: 872px;
+    left: 280px;
+    top: 565px;
+    
+    font-family: Ander Hedge;
+    font-size: 100px;
+    line-height: 80px;
+    color: #FF96DB;
+    word-wrap: break-word;
+    -webkit-text-stroke: 2px #000000;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 684px;
+    height: 151px;
+    left: 355px;
+    top: 1442px;
+    
+    font-family: Boldfinger;
+    font-size: 56px;
+    line-height: 50px;
+    color: #FFD954;
+    -webkit-text-stroke: 1px #005CE7;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+  }
+
+  .text6 {
+    position: absolute;
+    width: 338px;
+    height: 386px;
+    left: 480px;
+    top: 1066px;
+    
+    font-family: Barrio;
+    font-size: 70px;
+    line-height: 79px;
+    
+    color: #51FFF5;
+    -webkit-text-stroke: 3px #33A1A1;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 47px;
+    height: 648px;
+    left: 822px;
+    top: 804px;
+    
+    font-family: Internal Rainbows;
+    font-size: 60px;
+    line-height: 120.53%;
+    word-break: break-all;
+    color: #FFAB2D;
+  }
+
+  .text8 {
+    position: absolute;
+    width: 47px;
+    height: 648px;
+    left: 828px;
+    top: 804px;
+    
+    font-family: Internal Rainbows;
+    font-size: 60px;
+    line-height: 120.53%;
+    word-break: break-all;    
+    color: #F7FB44;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 47px;
+    height: 648px;
+    left: 837px;
+    top: 804px;
+    
+    font-family: Internal Rainbows;
+    font-size: 60px;
+    line-height: 120.53%;
+    word-break: break-all;
+    color: #1C4AEC;
+  }
+
+  .text10 {
+    position: absolute;
+    width: 13px;
+    height: 281px;
+    left: 902px;
+    top: 1080px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 120.53%;
+    text-align: center;
+    
+    color: #FFFFFF;
+    word-break: break-all;
+    text-shadow: 0px 4px 4px rgba(241, 241, 241, 0.25), 0px 4px 4px rgba(211, 211, 211, 0.25), 0px 4px 4px rgba(255, 255, 255, 0.25), 0px 4px 4px rgba(255, 255, 255, 0.25);
+  }
+
+  .text11 {
+    position: absolute;
+    width: 13px;
+    height: 281px;
+    left: 908px;
+    top: 1080px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 120.53%;
+
+    text-align: center;
+    
+    color: #FF6969;
+    word-break: break-all;
+    text-shadow: 0px 4px 4px rgba(241, 241, 241, 0.25), 0px 4px 4px rgba(211, 211, 211, 0.25), 0px 4px 4px rgba(255, 255, 255, 0.25), 0px 4px 4px rgba(255, 255, 255, 0.25);
+  }
+}
+

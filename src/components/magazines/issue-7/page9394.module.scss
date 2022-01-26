@@ -1,0 +1,342 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();    
+  background: linear-gradient(180deg, #00E0FF 0%, #0719BA 100%);
+
+  .image1 {
+    position: absolute;
+    width: 1331px;
+    height: 869px;
+    left: -371px;
+    top: 697px;    
+  }
+
+  .image2 {
+    position: absolute;
+    width: 795px;
+    height: 519px;
+    left: 165px;
+    top: 229px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 1331px;
+    height: 869px;
+    left: 960px;
+    top: 30px;        
+  }
+
+  .image4 {
+    position: absolute;
+    width: 458.62px;
+    height: 299.35px;
+    left: 1457px;
+    top: 965.47px;
+    
+    transform-origin: 0 0;
+    transform: rotate(-0.81deg);
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 1497px;
+    height: 30px;
+    left: 990px;
+    top: 0px;
+    
+    background-color: #FF55FF;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+  }
+
+  .text1 {
+    position: absolute;
+    width: 860px;
+    height: 104px;
+    left: 43px;
+    top: 15px;
+    
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 88px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;        
+  }
+
+  .text2 {
+    position: absolute;
+    width: 564px;
+    height: 87px;
+    left: 191px;
+    top: 94px;
+    
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 534px;
+    height: 44px;
+    left: 16px;
+    top: 229px;
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    
+    color: #FFFFFF;
+    -webkit-text-stroke: 2px #000000;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 379px;
+    height: 44px;
+    left: 498px;
+    top: 372px;
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    
+    color: #FFFFFF;
+    -webkit-text-stroke: 2px #000000;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 534px;
+    height: 44px;
+    left: 79px;
+    top: 736px;
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    
+    color: #FFFFFF;
+    -webkit-text-stroke: 2px #000000;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 258px;
+    height: 44px;
+    left: 527px;
+    top: 1033px;
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    
+    color: #FFFFFF;
+    -webkit-text-stroke: 2px #000000;
+  }
+
+  .gradient {
+    border-radius: 13.5%;
+    animation-duration: 1.8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #9c9c9c;
+    background: linear-gradient(to right, #9c9c9c 8%, #f4f4f4 38%, #9c9c9c 54%);
+    background-size: 1000px 640px;
+    
+    position: relative;     
+  }
+
+  @keyframes placeHolderShimmer{
+    0%{
+      background-position: -468px 0
+    }
+    100%{
+      background-position: 468px 0
+    }
+  }
+
+  .image5 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 16px;
+    top: 275px;        
+  }
+
+  .image6 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 496px;
+    top: 422px;
+  }
+
+  .image7 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 79px;
+    top: 782px;    
+  }
+
+  .image8 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 527px;
+    top: 1077px;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 549px;
+    height: 73px;
+    left: 1352px;
+    top: 15px;
+    
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    
+    color: #000000;    
+  }
+
+  .text8 {
+    position: absolute;
+    width: 459px;
+    height: 76px;
+    left: 1453px;
+    top: 76px;
+    
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    
+    color: #000000;    
+  }
+
+  .text9 {
+    position: absolute;
+    width: 397px;
+    height: 71px;
+    left: 1531px;
+    top: 141px;
+    
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    
+    color: #000000;
+  }
+
+  .text10 {
+    position: absolute;
+    width: 338px;
+    height: 71px;
+    left: 1612px;
+    top: 202px;
+    
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    
+    color: #000000;    
+  }
+
+  .text11 {
+    position: absolute;
+    width: 255px;
+    height: 347px;
+    left: 1014px;
+    top: 526px;
+    
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    
+    color: #000000;    
+  }
+
+  .text12 {
+    position: absolute;
+    width: 421px;
+    height: 337px;
+    left: 1014px;
+    top: 856px;
+    
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    
+    color: #000000;
+  }
+
+  .text13 {
+    position: absolute;
+    width: 517px;
+    height: 144px;
+    left: 1014px;
+    top: 1217px;
+    
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    
+    color: #000000;
+  }
+
+  .text14 {
+    position: absolute;
+    width: 889px;
+    height: 144px;
+    left: 1014px;
+    top: 1355px;
+    
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    
+    color: #000000;    
+  }
+}

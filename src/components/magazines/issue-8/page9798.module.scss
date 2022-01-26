@@ -1,0 +1,168 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: #7A8E00;
+
+  .image1 {
+    position: absolute;
+    width: 1429px;
+    height: 1429px;
+    left: -545px;
+    top: -615px;    
+  }
+
+  .image2 {
+    position: absolute;
+    width: 412px;
+    height: 412px;
+    left: -124px;
+    top: 698px;    
+  }
+
+  .image3 {
+    position: absolute;
+    width: 1429px;
+    height: 1429px;
+    left: 884px;
+    top: -283px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 407px;
+    height: 409px;
+    left: -11px;
+    top: 141px;    
+  }
+
+  .image5 {
+    position: absolute;
+    width: 452px;
+    height: 454px;
+    left: 170px;
+    top: 1183px;
+  }
+
+  .image6 {
+    position: absolute;
+    width: 537px;
+    height: 499px;
+    left: 1138px;
+    top: -68px;    
+  }
+
+  .image7 {
+    position: absolute;
+    width: 900px;
+    height: 836px;
+    left: 1138px;
+    top: 895px;    
+  }
+
+  .image8 {
+    position: absolute;
+    width: 327px;
+    height: 327px;
+    left: 29px;
+    top: 42px;    
+  }
+
+  .image9 {
+    position: absolute;
+    width: 343px;
+    height: 515px;
+    left: 1535px;
+    top: 52px;
+  }
+
+  .image10 {
+    position: absolute;
+    width: 343px;
+    height: 515px;
+    left: 1535px;
+    top: 595px;    
+  }
+
+  a {
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
+  }
+
+  .text1 {
+    position: absolute;
+    width: 460px;
+    height: 173px;
+    left: 390px;
+    top: 52px;
+    
+    font-family: Gujarati Sangam MN;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 120.53%;
+    color: #FFFFFF;
+    -webkit-text-stroke: 3px #F76BAF;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 460px;
+    height: 950px;
+    left: 72px;
+    top: 483px;
+    
+    font-family: Acme;
+    font-size: 25px;
+    line-height: 100%;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 378px;
+    height: 1225px;
+    left: 549px;
+    top: 246px;
+    
+    font-family: Acme;
+    font-size: 25px;
+    line-height: 100%;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 334px;
+    height: 1376px;
+    left: 1035px;
+    top: 88px;
+    
+    font-family: Acme;
+    font-size: 32px;
+    line-height: 100%;   
+    color: #FFB0B0;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 358px;
+    height: 173px;
+    left: 1445px;
+    top: 1233px;
+    
+    font-family: Gujarati Sangam MN;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 120.53%;
+    color: #FFFFFF;
+    -webkit-text-stroke: 3px #F76BAF;
+  }
+}

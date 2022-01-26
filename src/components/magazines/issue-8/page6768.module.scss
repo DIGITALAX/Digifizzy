@@ -1,0 +1,89 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: #000000;
+
+  .image1 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 0;
+    top: 0;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
+    top: 0px;
+    
+    background: radial-gradient(50% 50% at 50% 50%, #EF88B5 0%, #EF88B5 100%);    
+  }
+
+  .image2 {
+    position: absolute;
+    width: 319px;
+    height: 319px;
+    left: 1601px;
+    top: 0px;
+
+    transition: 0.3s all;
+    cursor: pointer;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
+  }
+
+  .image3 {
+    position: absolute;
+    width: 436px;
+    height: 436px;
+    left: 1484px;
+    top: 1061px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 834px;
+    height: 465px;
+    left: 63px;
+    top: 62px;
+    
+    font-family: Delius Unicase;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;    
+  }
+
+  .text2 {
+    position: absolute;
+    width: 410px;
+    height: 1352px;
+    left: 1023px;
+    top: 51px;
+    
+    font-family: Dispence;
+    font-size: 20px;
+    line-height: 120%;
+    color: #000000;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 371px;
+    height: 642px;
+    left: 1506px;
+    top: 363px;
+    
+    font-family: Dispence;
+    font-size: 20px;
+    line-height: 120%;
+
+    color: #000000;    
+  }
+}

@@ -1,0 +1,51 @@
+@import './styles.module.scss';
+.wrapper {
+  @include magazineWrapper();
+
+  .imageBackground {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+    object-fit: cover;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 474px;
+    height: 60px;
+    left: 20px;
+    top: 1313px;
+    
+    font-family: Podkova;
+    font-size: 60px;
+    line-height: 100%;
+    color: #4AFF46;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 474px;
+    height: 117px;
+    left: 20px;
+    top: 1373px;
+    
+    font-family: Inter;
+    font-size: 12px;
+    line-height: 110%;
+    color: #FFFFFF;
+  }
+
+  a {
+    div {
+      cursor: pointer;
+      transition: 0.3s all;
+
+      &:hover {
+        transition: 0.3s all;
+        transform: scale(1.1);
+      }
+    }
+  }
+}

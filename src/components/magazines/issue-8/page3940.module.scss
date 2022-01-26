@@ -1,0 +1,210 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+
+  .imageBackground {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .link1 {
+    position: absolute;
+    width: 708px;
+    height: 260px;
+    top: 48px;
+    left: 37px;
+
+    font-family: Myanmar Khyay;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 130px;
+    line-height: 100%;
+    /* or 130px */
+
+    background: -webkit-linear-gradient(#4694dc, #003e77);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 4px #c90060;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease;
+    }
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 825px;
+    height: 376px;
+    left: 37px;
+    top: 327px;
+
+    background: rgba(47, 12, 12, 0.74);
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 386px;
+    height: 661px;
+    left: 37px;
+    top: 743px;
+
+    background: rgba(47, 12, 12, 0.74);
+  }
+
+  .rect3 {
+    position: absolute;
+    width: 386px;
+    height: 661px;
+    left: 476px;
+    top: 743px;
+
+    background: rgba(47, 12, 12, 0.74);
+  }
+
+  .rect4 {
+    position: absolute;
+    width: 386px;
+    height: 556px;
+    left: 1047px;
+    top: 42px;
+
+    background: rgba(47, 12, 12, 0.74);
+  }
+
+  .rect5 {
+    position: absolute;
+    width: 803px;
+    height: 299.87px;
+    left: 970px;
+    top: 788.64px;
+
+    background: rgba(5, 4, 0, 0.74);
+    transform-origin: 0 0;
+    transform: rotate(-20deg);
+  }
+
+  .text1 {
+    position: absolute;
+    width: 764px;
+    height: 297px;
+    left: 61px;
+    top: 362px;
+
+    font-family: Poor Story;
+    font-size: 22px;
+    line-height: 120.53%;
+    color: #ffffff;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 345px;
+    height: 621px;
+    left: 64px;
+    top: 763px;
+
+    font-family: Poor Story;
+    font-size: 22px;
+    line-height: 120.53%;
+    color: #ffffff;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 345px;
+    height: 594px;
+    left: 503px;
+    top: 763px;
+
+    font-family: Poor Story;
+    font-size: 22px;
+    line-height: 120.53%;
+    color: #ffffff;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 333px;
+    height: 509px;
+    left: 1074px;
+    top: 62px;
+
+    font-family: Poor Story;
+    font-size: 22px;
+    line-height: 120.53%;
+    color: #ffffff;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 735.72px;
+    height: 283px;
+    left: 1013.57px;
+    top: 800.28px;
+
+    font-family: Poor Story;
+    font-size: 40px;
+    line-height: 120.53%;
+    color: #ffffff;
+    transform-origin: 0 0;
+    transform: rotate(-20deg);
+  }
+
+  .text6 {
+    position: absolute;
+    width: 525px;
+    height: 136px;
+    left: 1364px;
+    top: 1008px;
+
+    font-family: Rakkas;
+    font-size: 60px;
+    line-height: 120.53%;
+    color: #000000;
+  }
+
+  .play {
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    left: 1331px;
+    top: 1180px;
+    cursor: pointer;
+
+    transition: transform 0.3s ease;
+    img {
+      border-radius: 200px;
+    }
+
+    &:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease;
+    }
+  }
+
+  .pause {
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    left: 1644px;
+    top: 1180px;
+
+    cursor: pointer;
+
+    transition: transform 0.3s ease;
+    img {
+      border-radius: 200px;
+    }
+
+    &:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease;
+    }
+  }
+}

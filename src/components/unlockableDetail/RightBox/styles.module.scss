@@ -1,0 +1,103 @@
+.wrapper {
+    flex-grow: 1;
+
+    .title {
+        font-weight: 900;
+        font-size: 45px;
+        color: black;
+        margin-bottom: 2rem;
+    }
+
+    .body {
+        width: 100%;
+        color: black;
+        margin-bottom: 1rem;
+    }
+
+    .price {
+        color: #999999;
+        font-size: 27px;
+        font-weight: normal;
+        margin-bottom: 1rem;
+
+        span {
+            margin: 0 2rem;
+        }
+    }
+
+    .actionGroup {
+        display: flex;
+
+        .spinner {
+            display: block;
+            height: 20px;
+            width: 20px;
+            border: 2px rgba(255, 255, 255, 0.25) solid;
+            border-top: 2px white solid;
+            border-bottom: 2px white solid;
+            border-radius: 50%;
+            -webkit-animation: spin1 1s infinite linear;
+                    animation: spin1 1s infinite linear;
+          }
+          
+          @-webkit-keyframes spin1 {
+            from {
+              -webkit-transform: rotate(0deg);
+                      transform: rotate(0deg);
+            }
+            to {
+              -webkit-transform: rotate(359deg);
+                      transform: rotate(359deg);
+            }
+          }
+          @keyframes spin1 {
+            from {
+              -webkit-transform: rotate(0deg);
+                      transform: rotate(0deg);
+              -webkit-transform: rotate(0deg);
+                      transform: rotate(0deg);
+            }
+            to {
+              -webkit-transform: rotate(359deg);
+                      transform: rotate(359deg);
+              -webkit-transform: rotate(359deg);
+                      transform: rotate(359deg);
+            }
+          }
+
+        .showHiddenButton {
+            margin-left: 1rem;
+        }
+
+        .showHiddenButton:hover {
+            opacity: 0.7;
+        }
+
+    }
+
+    .poapWrapper {
+      margin-top: 1rem;
+      display: flex;
+
+      .poapClaimButton {
+        background: #3650AE;
+        color: #00F0FF;
+      }
+
+      img {
+        transform: translateY(-30%);
+      }
+    }
+    .unlockChildButton {
+      background-color: #FF4B4B;
+      color: white;
+      margin-bottom: 1rem;
+
+      &:hover {
+        opacity: 0.7;
+        background-color: #FF4B4B;
+        color: white;
+      }
+    }
+
+}

@@ -1,0 +1,314 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: white;
+  color: white;
+  display: flex;
+  position: relative;
+
+  .video1 {
+    position: absolute;
+    width: 1920;
+    height: 1497px;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 1973px;
+    height: 1517px;
+    left: -49px;
+    top: 1px;
+    
+    background: rgba(0, 0, 0, 0.4);    
+  }
+
+  h1 {
+    position: absolute;
+    width: 1331px;
+    height: 400px;
+    left: 294px;
+    top: 590px;
+
+    font-family: Heaven Wanders DEMO;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 200px;
+    line-height: 100%;
+    /* or 200px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+
+  .imageEarth {
+    position: absolute;
+    width: 116px;
+    height: 423px;
+    left: 903px;
+    top: 1074px;
+  }
+
+  .middleLine1 {
+    position: absolute;
+    width: 0px;
+    height: 515px;
+    left: 960px;
+    top: 0px;
+
+    border: 1px solid #FFFFFF;
+  }
+
+  .middleLine2 {
+    position: absolute;
+    width: 0px;
+    height: 423px;
+    left: 960px;
+    top: 1074px;
+    
+    border: 0.5px solid #FFFFFF;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 427px;
+    height: 427px;
+    left: 35px;
+    top: 562px;    
+  }
+
+  .image2 {
+    position: absolute;
+    width: 137px;
+    height: 137px;
+    left: 517px;
+    top: 809px;        
+  }
+
+  .image3 {
+    position: absolute;
+    width: 137px;
+    height: 137px;
+    left: 35px;
+    top: 1326px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 137px;
+    height: 137px;
+    left: 209px;
+    top: 1326px;
+  }
+
+  .image5 {
+    position: absolute;
+    width: 137px;
+    height: 137px;
+    left: 383px;
+    top: 1326px;    
+  }
+
+  .image6 {
+    position: absolute;
+    width: 137px;
+    height: 137px;
+    left: 557px;
+    top: 1326px;
+  }
+
+  .image7 {
+    position: absolute;
+    width: 137px;
+    height: 137px;
+    left: 730px;
+    top: 1326px;    
+  }
+
+  .climateText1 {
+    position: absolute;
+    width: 853px;
+    height: 148px;
+    left: 8px;
+    top: 11px;
+    
+    font-family: Bubblegum Sans;
+    font-size: 50px;
+    line-height: 120.53%;
+    color: #FFFFFF;        
+  }
+
+  .climateText2 {
+    position: absolute;
+    width: 853px;
+    height: 148px;
+    left: 485px;
+    top: 11px;
+    
+    font-family: Bubblegum Sans;
+    font-size: 50px;
+    line-height: 120.53%;
+    color: #FFFFFF;    
+  }
+
+  .climateText3 {
+    position: absolute;
+    width: 853px;
+    height: 64px;
+    left: 8px;
+    top: 72px;
+    
+    font-family: Bubblegum Sans;
+    font-size: 50px;
+    line-height: 120.53%;
+    color: #FFFFFF;    
+  }
+
+  .climateText4 {
+    position: absolute;
+    width: 853px;
+    height: 64px;
+    left: 485px;
+    top: 72px;
+    
+    font-family: Bubblegum Sans;
+    font-size: 50px;
+    line-height: 120.53%;
+    color: #FFFFFF;    
+  }
+
+  .climateText5 {
+    position: absolute;
+    width: 853px;
+    height: 148px;
+    left: 8px;
+    top: 136px;
+    
+    font-family: Bubblegum Sans;
+    font-size: 50px;
+    line-height: 120.53%;
+    color: #FFFFFF;    
+  }
+
+  .climateText6 {
+    position: absolute;
+    width: 853px;
+    height: 148px;
+    left: 485px;
+    top: 136px;
+    
+    font-family: Bubblegum Sans;
+    font-size: 50px;
+    line-height: 120.53%;
+    color: #FFFFFF;
+  }
+
+  .climateText7 {
+    position: absolute;
+    width: 853px;
+    height: 93px;
+    left: 8px;
+    top: 210px;
+    
+    font-family: Bubblegum Sans;
+    font-size: 50px;
+    line-height: 120.53%;
+    color: #FFFFFF;    
+  }
+
+  .climateText8 {
+    position: absolute;
+    width: 853px;
+    height: 93px;
+    left: 485px;
+    top: 210px;
+    
+    font-family: Bubblegum Sans;
+    font-size: 50px;
+    line-height: 120.53%;
+    color: #FFFFFF;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 868px;
+    height: 251px;
+    left: 28px;
+    top: 292px;
+    
+    font-family: Raanana;
+    font-size: 20px;
+    line-height: 120.53%;
+    color: #FFFFFF;    
+  }
+
+  .text2 {
+    position: absolute;
+    width: 868px;
+    height: 464px;
+    left: 28px;
+    top: 999px;
+    
+    font-family: Raanana;
+    font-size: 20px;
+    line-height: 120.53%;
+    color: #FFFFFF;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 891px;
+    height: 600px;
+    left: 984px;
+    top: 18px;
+    
+    font-family: Henny Penny;
+    font-size: 30px;
+    line-height: 120.53%;
+    color: #FFFFFF;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 453px;
+    height: 186px;
+    left: 1430px;
+    top: 599px;
+    
+    font-family: Henny Penny;
+    font-size: 30px;
+    line-height: 120.53%;
+    color: #FFFFFF;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 615px;
+    height: 164px;
+    left: 1268px;
+    top: 827px;
+    
+    font-family: Times;
+    font-size: 20px;
+    line-height: 120.53%;
+    color: #FFFFFF;
+    
+  }
+
+  .text6 {
+    position: absolute;
+    width: 847px;
+    height: 449px;
+    left: 1042px;
+    top: 991px;
+    
+    font-family: Times;
+    font-size: 20px;
+    line-height: 120.53%;
+    color: #FFFFFF;
+  }
+}

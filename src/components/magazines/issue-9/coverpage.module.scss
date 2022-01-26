@@ -1,0 +1,231 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  color: white;
+  display: flex;
+  position: relative;
+  background-color: #000000;
+
+  .imageBackground {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 267px;
+    height: 344px;
+    left: 12px;
+    top: 0px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 463px;
+    height: 240px;
+    left: 451px;
+    top: 29px;
+    
+    font-family: Dripping Drops;
+    font-size: 80px;
+    line-height: 100%;
+    text-align: right;
+    
+    color: #69FF66;
+    -webkit-text-stroke: 2px #FF0000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+  }
+
+  .text2 {
+    position: absolute;
+    width: 198px;
+    height: 199px;
+    left: 22px;
+    top: 984px;
+    
+    font-family: Thasadith;
+    font-size: 45px;
+    line-height: 100%;
+    color: #FFFFFF;
+    -webkit-text-stroke: 3px #FF0000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+  }
+
+  .text3 {
+    position: absolute;
+    width: 177px;
+    height: 199px;
+    left: 22px;
+    top: 1144px;
+    
+    font-family: Think Thick;
+    font-size: 25px;
+    line-height: 170%;
+    color: #FFFFFF;
+    -webkit-text-stroke: 3px #9E00FF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+  }
+
+  .text4 {
+    position: absolute;
+    width: 177px;
+    height: 199px;
+    left: 22px;
+    top: 1303px;
+    
+    font-family: Thasadith;
+    font-size: 50px;
+    line-height: 100%;
+    color: #FFFFFF;
+    -webkit-text-stroke: 3px #B6FF3E;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+  }
+
+  .text5 {
+    position: absolute;
+    width: 684px;
+    height: 151px;
+    left: 205px;
+    top: 1454px;
+    
+    font-family: Boldfinger;
+    font-size: 56px;
+    line-height: 50px;
+    color: #FFD954;
+  
+    -webkit-text-stroke: 1px #005CE7;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);    
+  }
+
+  .text6 {
+    position: absolute;
+    width: 67px;
+    height: 872px;
+    left: 280px;
+    top: 575px;
+    
+    font-family: Ander Hedge;
+    font-size: 100px;
+    line-height: 80px;
+    color: #FF96DB;
+    word-break: break-all;
+    -webkit-text-stroke: 2px #000000;  
+  }
+
+  .text7 {
+    position: absolute;
+    width: 382px;
+    height: 199px;
+    left: 364px;
+    top: 992px;
+    
+    font-family: Sofia Sans;
+    font-size: 45px;
+    line-height: 100%;
+    color: #000AFF;
+    -webkit-text-stroke: 3px #00C2FF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+  }
+
+  .text8 {
+    position: absolute;
+    width: 450px;
+    height: 386px;
+    left: 365px;
+    top: 1150px;
+    
+    font-family: Barrio;
+    font-size: 70px;
+    line-height: 79px;
+    
+    color: #84FF70;
+    -webkit-text-stroke: 3px #FF0000;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 47px;
+    height: 648px;
+    left: 822px;
+    top: 804px;
+    
+    font-family: Internal Rainbows;
+    font-size: 60px;
+    line-height: 120.53%;
+    word-break: break-all;
+    color: #A22DFF;
+  }
+
+  .text10 {
+    position: absolute;
+    width: 47px;
+    height: 648px;
+    left: 828px;
+    top: 804px;
+    
+    font-family: Internal Rainbows;
+    font-size: 60px;
+    line-height: 120.53%;
+    word-break: break-all;    
+    color: #44F0FB;
+  }
+
+  .text11 {
+    position: absolute;
+    width: 47px;
+    height: 648px;
+    left: 837px;
+    top: 804px;
+    
+    font-family: Internal Rainbows;
+    font-size: 60px;
+    line-height: 120.53%;
+    word-break: break-all;
+    color: #EC1C1C;
+  }
+
+  .text12 {
+    position: absolute;
+    width: 13px;
+    height: 281px;
+    left: 902px;
+    top: 1080px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 120.53%;
+    text-align: center;
+    
+    color: #FF0000;
+    word-break: break-all;
+    text-shadow: 0px 4px 4px rgba(241, 241, 241, 0.25), 0px 4px 4px rgba(211, 211, 211, 0.25), 0px 4px 4px rgba(255, 255, 255, 0.25), 0px 4px 4px rgba(255, 255, 255, 0.25);
+  }
+
+  .text13 {
+    position: absolute;
+    width: 13px;
+    height: 281px;
+    left: 908px;
+    top: 1080px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 120.53%;
+
+    text-align: center;
+    
+    color: #90FF02;
+    word-break: break-all;
+    text-shadow: 0px 4px 4px rgba(241, 241, 241, 0.25), 0px 4px 4px rgba(211, 211, 211, 0.25), 0px 4px 4px rgba(255, 255, 255, 0.25), 0px 4px 4px rgba(255, 255, 255, 0.25);
+  }
+}
+

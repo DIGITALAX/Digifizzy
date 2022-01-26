@@ -1,0 +1,128 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  display: flex;
+  position: relative;
+  background-color: #ECBEDD;
+
+  .rect1 {
+    position: absolute;
+    width: 842px;
+    height: 1406px;
+    left: 68px;
+    top: 45px;
+    border: 5px solid black;
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 842px;
+    height: 1406px;
+    left: 1011px;
+    top: 45px;
+    border: 5px solid black;
+  }
+
+  .line1 {
+    position: absolute;
+    width: 842px;
+    height: 5px;
+    left: 68px;
+    top: 234px;
+    background-color: black;
+  }
+
+  .line2 {
+    position: absolute;
+    width: 842px;
+    height: 5px;
+    left: 1011px;
+    top: 874px;
+    background-color: black;
+  }
+
+  .line3 {
+    position: absolute;
+    width: 842px;
+    height: 5px;
+    left: 1011px;
+    top: 1074px;
+    background-color: black;
+  }
+
+  .line4 {
+    position: absolute;
+    width: 842px;
+    height: 5px;
+    left: 1011px;
+    top: 1274px;
+    background-color: black;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 842px;
+    height: 1228px;
+    left: 960px;
+    top: 371px;    
+  }
+
+  .image2 {
+    position: absolute;
+    width: 292px;
+    height: 426px;
+    left: 1741px;
+    top: -79px;    
+  }
+
+  .image3 {
+    position: absolute;
+    width: 292px;
+    height: 426px;
+    left: 1788px;
+    top: 1091px;        
+  }
+
+  .text1 {
+    position: absolute;
+    width: 739px;
+    height: 91px;
+    left: 120px;
+    top: 72px;
+    
+    font-family: Arial Black;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 100%;
+    color: #000000;    
+  }
+
+  .text2 {
+    position: absolute;
+    width: 742px;
+    height: 1084px;
+    left: 120px;
+    top: 254px;
+    
+    font-family: Arial Black;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 100%;
+    color: #000000;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 669px;
+    height: 270px;
+    left: 1055px;
+    top: 87px;
+    
+    font-family: Arial Black;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 100%;
+    color: #000000;
+  }
+}

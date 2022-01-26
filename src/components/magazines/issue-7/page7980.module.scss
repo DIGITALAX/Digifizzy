@@ -1,0 +1,323 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: white;
+
+  .rect1 {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: -2px;
+    
+    background: radial-gradient(50% 50% at 50% 50%, #A20000 0%, #A26100 38.02%, #FF9900 63.54%, #000000 100%);
+  }
+
+  .text1 {
+    position: absolute;
+    width: 677px;
+    height: 150px;
+    left: 42px;
+    top: 30px;
+    
+    font-family: Wallpoet;
+    font-size: 50px;
+    line-height: 100%;
+    color: #FFDD2B;        
+  }
+
+  .text2 {
+    position: absolute;
+    width: 264px;
+    height: 1221px;
+    left: 42px;
+    top: 205px;
+    
+    font-family: Sura;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+
+    span {
+      font-weight: bold;
+    }
+  }
+
+  .text3 {
+    position: absolute;
+    width: 264px;
+    height: 1262px;
+    left: 341px;
+    top: 180px;
+    
+    font-family: Sura;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 264px;
+    height: 1262px;
+    left: 646px;
+    top: 224px;
+    
+    font-family: Sura;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+
+    span {
+      font-weight: bold;
+    }
+
+    h2 {
+      font-family: Inter;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 27px;
+      line-height: 90%;      
+    }
+
+    a {
+      color: #FFFFFF;
+      text-decoration: underline;
+      word-break: break-all;
+    }
+  }
+
+  .text5 {
+    position: absolute;
+    width: 264px;
+    height: 1541px;
+    left: 1018px;
+    top: 47px;
+    
+    font-family: Sura;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+    span {
+      font-weight: bold;
+    }
+  }
+
+  .text6 {
+    position: absolute;
+    width: 264px;
+    height: 627px;
+    left: 1315px;
+    top: 47px;
+    
+    font-family: Sura;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+    span {
+      font-weight: bold;
+    }
+  }
+
+  .text7 {
+    position: absolute;
+    width: 283px;
+    height: 154px;
+    left: 1607px;
+    top: 39px;
+    
+    font-family: Tauri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 100%;
+    /* or 20px */
+    
+    
+    color: #FFE589;
+    
+  }
+
+  .text8 {
+    position: absolute;
+    width: 291px;
+    height: 545px;
+    left: 1606px;
+    top: 364px;
+    
+    font-family: Sura;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+    span {
+      font-weight: bold;
+    }
+  }
+
+  .text9 {
+    position: absolute;
+    width: 264px;
+    height: 56px;
+    left: 1629px;
+    top: 1352px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 100%;
+    color: #FFFFFF;
+
+    transition: 0.3s all;
+    cursor: pointer;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
+  }
+
+  .trashArtText1 {
+    position: absolute;
+    width: 677px;
+    height: 50px;
+    left: -6px;
+    top: 1470px;
+    
+    font-family: Wallpoet;
+    font-size: 50px;
+    line-height: 100%;
+    color: #FFFFFF;        
+  }
+
+  .trashArtText2 {
+    position: absolute;
+    width: 677px;
+    height: 50px;
+    left: 359px;
+    top: 1470px;
+    
+    font-family: Wallpoet;
+    font-size: 50px;
+    line-height: 100%;
+    color: #FFFFFF;
+  }
+
+  .trashArtText3 {
+    position: absolute;
+    width: 677px;
+    height: 50px;
+    left: 728px;
+    top: 1470px;
+    
+    font-family: Wallpoet;
+    font-size: 50px;
+    line-height: 100%;
+    color: #FFFFFF;
+  }
+
+  .trashArtText4 {
+    position: absolute;
+    width: 677px;
+    height: 50px;
+    left: 1100px;
+    top: 1470px;
+    
+    font-family: Wallpoet;
+    font-size: 50px;
+    line-height: 100%;
+    color: #FFFFFF;
+  }
+
+  .trashArtText5 {
+    position: absolute;
+    width: 677px;
+    height: 50px;
+    left: 1466px;
+    top: 1470px;
+    
+    font-family: Wallpoet;
+    font-size: 50px;
+    line-height: 100%;
+    color: #FFFFFF;
+  }
+
+  .trashArtText6 {
+    position: absolute;
+    width: 677px;
+    height: 50px;
+    left: 1841px;
+    top: 1470px;
+    
+    font-family: Wallpoet;
+    font-size: 50px;
+    line-height: 100%;
+    color: #FFFFFF;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    left: 691px;
+    top: 18px;
+    
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
+  }
+
+  .image2 {
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    left: 1315px;
+    top: 658px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 260px;
+    height: 224px;
+    left: 1315px;
+    top: 941px;    
+  }
+
+  .image4 {
+    position: absolute;
+    width: 260px;
+    height: 253px;
+    left: 1315px;
+    top: 1186px;
+  }
+
+  .image5 {
+    position: absolute;
+    width: 287px;
+    height: 389px;
+    left: 1606px;
+    top: 904px;
+  }
+
+  .embed {
+    position: absolute;
+    width: 291px;
+    height: 203px;
+    left: 1606px;
+    top: 136px;  
+
+    overflow: auto;
+  }
+}

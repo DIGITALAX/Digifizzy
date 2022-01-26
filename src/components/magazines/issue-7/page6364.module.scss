@@ -1,0 +1,222 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: black;
+
+  .back {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
+    top: 0px;
+    
+    background: linear-gradient(180deg, #FFADD8 0%, #6F023B 100%);
+  }
+
+  .image1 {
+    position: absolute;
+    width: 262px;
+    height: 1640px;
+    left: -48px;
+    top: -2px;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 1183px;
+    height: 541px;
+    left: 523px;
+    top: 1007px;
+  }
+
+  .link1 {
+    position: absolute;
+    width: 208px;
+    height: 249px;
+    left: 234px;
+    top: 484px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 154.85px;
+    height: 154.85px;
+    left: 355px;
+    top: 521.96px;
+
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: scale(1.1);
+      transition: all 0.3s ease;
+    }
+  }
+
+  .video1 {
+    position: absolute;
+    width: 858px;
+    height: 871.25px;
+    left: 21px;
+    top: -369px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 80px;
+    height: 645px;
+    left: 278px;
+    top: 762px;
+
+    font-family: THIS FONT IS EMPTY1;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 100%;
+    color: #00FF29;
+
+    -webkit-text-stroke: 3px #00FF29;
+    text-shadow: -3px 0 #00FF29, 0 -3px #00FF29, 3px 0 #00FF29, 0 3px #00FF29;
+    filter: blur(2px);
+  }
+
+  .text2 {
+    position: absolute;
+    width: 718px;
+    height: 185px;
+    left: 389px;
+    top: 1464px;
+
+    font-family: THIS FONT IS EMPTY1;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 100%;
+    color: #ffffff;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+  }
+
+  .text3 {
+    position: absolute;
+    width: 468px;
+    height: 34px;
+    left: 1180px;
+    top: 40px;
+    
+    font-family: Rubik Mono One;
+    font-size: 50px;
+    line-height: 23px;
+    color: #960087;    
+  }
+
+  .text4 {
+    position: absolute;
+    width: 740px;
+    height: 108px;
+    left: 1163px;
+    top: 106px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    
+    color: #FFFFFF;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 918px;
+    height: 677px;
+    left: 980px;
+    top: 226px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    
+    color: #FFFFFF;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 430px;
+    height: 27px;
+    left: 980px;
+    top: 849px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    
+    color: #FFFFFF;
+
+    a {
+      color: #FFFFFF;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .text7 {
+    position: absolute;
+    width: 194px;
+    height: 46px;
+    left: 1154px;
+    top: 1088px;
+    
+    font-family: Rubik Mono One;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: right;
+    
+    color: #FCAAD5;
+  }
+
+  .text8 {
+    position: absolute;
+    width: 356px;
+    height: 46px;
+    left: 1540px;
+    top: 1218px;
+    
+    font-family: Rubik Mono One;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: right;
+    
+    color: #FCAAD5;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 188px;
+    height: 188px;
+    left: 971px;
+    top: 12px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 332px;
+    height: 192px;
+    left: 1016px;
+    top: 884px;
+  }
+
+  .video2 {
+    position: absolute;
+    width: 456px;
+    height: 338px;
+    left: 1440px;
+    top: 866px;    
+  }
+}

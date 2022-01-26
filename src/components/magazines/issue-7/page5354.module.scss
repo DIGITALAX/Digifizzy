@@ -1,0 +1,225 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: #44A997;
+
+  .rect1 {
+    position: absolute;
+    width: 56px;
+    height: 1641px;
+    left: -14px;
+    top: -20px;
+    
+    background: #FFFFFF;    
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 56px;
+    height: 1497px;
+    left: 88px;
+    top: -20px;
+    
+    background: #FFFFFF;
+  }
+
+  .rect3 {
+    position: absolute;
+    width: 56px;
+    height: 1497px;
+    left: 162px;
+    top: -20px;
+    
+    background: #FFFFFF;
+  }
+
+  .rect4 {
+    position: absolute;
+    width: 56px;
+    height: 1497px;
+    left: 236px;
+    top: 0px;
+    
+    background: #FFFFFF;
+  }
+
+  .rect5 {
+    position: absolute;
+    width: 91px;
+    height: 1497px;
+    left: 380px;
+    top: 0px;
+    
+    background: #FFFFFF;    
+  }
+
+  .rect6 {
+    position: absolute;
+    width: 56px;
+    height: 1101px;
+    left: 550px;
+    top: 489px;
+    
+    background: #FFFFFF;
+  }
+
+  .rect7 {
+    position: absolute;
+    width: 56px;
+    height: 961px;
+    left: 775px;
+    top: -72px;
+    
+    background: #FFFFFF;
+  }
+
+  .rect8 {
+    position: absolute;
+    width: 56px;
+    height: 462px;
+    left: 732px;
+    top: 1062px;
+    
+    background: #FFFFFF;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 407px;
+    height: 374px;
+    left: 0px;
+    top: 0px;    
+  }
+
+  .image2 {
+    position: absolute;
+    width: 211px;
+    height: 374px;
+    left: 500px;
+    top: 115px;
+
+    img {
+      object-fit: cover;
+    }
+  }
+
+  .image3 {
+    position: absolute;
+    width: 407px;
+    height: 374px;
+    left: 500px;
+    top: 589px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 379px;
+    height: 715px;
+    left: 42px;
+    top: 782px;
+    img {
+      object-fit: cover;
+    }
+  }
+
+  .image5 {
+    position: absolute;
+    width: 269px;
+    height: 374px;
+    left: 638px;
+    top: 1062px;
+    img {
+      object-fit: cover;
+    }
+  }
+
+  .image6 {
+    position: absolute;
+    width: 59px;
+    height: 1354px;
+    left: 960px;
+    top: 75px;
+    img {
+      object-fit: cover;
+    }
+  }
+
+  .image7 {
+    position: absolute;
+    width: 59px;
+    height: 1354px;
+    left: 1048px;
+    top: 75px;
+    img {
+      object-fit: cover;
+    }
+  }
+
+  .image8 {
+    position: absolute;
+    width: 59px;
+    height: 1354px;
+    left: 1142px;
+    top: 75px;
+    img {
+      object-fit: cover;
+    }
+  }
+
+  .image9 {
+    position: absolute;
+    width: 59px;
+    height: 1354px;
+    left: 1236px;
+    top: 75px;
+  }
+
+  .image10 {
+    position: absolute;
+    width: 59px;
+    height: 1354px;
+    left: 1330px;
+    top: 75px;
+  }
+
+  .image11 {
+    position: absolute;
+    width: 59px;
+    height: 1354px;
+    left: 1424px;
+    top: 75px;
+  }
+
+  .image12 {
+    position: absolute;
+    width: 59px;
+    height: 1354px;
+    left: 1518px;
+    top: 75px;
+  }
+
+  .image13 {
+    position: absolute;
+    width: 59px;
+    height: 1354px;
+    left: 1612px;
+    top: 75px;
+  }
+
+  .image14 {
+    position: absolute;
+    width: 59px;
+    height: 1354px;
+    left: 1706px;
+    top: 75px;
+  }
+
+  .image15 {
+    position: absolute;
+    width: 59px;
+    height: 1354px;
+    left: 1800px;
+    top: 75px;
+  }
+}
