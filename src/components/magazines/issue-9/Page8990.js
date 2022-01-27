@@ -12,7 +12,7 @@ const Page8990 = () => {
         rEALM rUNWAY #1: nyc fashion Week
       </div>
       <div className={styles.text2}>
-        Evening of February 11th, 2022. Exact Location in NYC to be Revealed. 
+        Evening of February 12th, 2022. Exact Location in NYC to be Revealed. 
       </div>
       <div className={styles.text3}>
         We are refashioning the entire industry. 
@@ -20,7 +20,7 @@ const Page8990 = () => {
       <div className={styles.text4}>
         Realm Runway events are based all over the world and run for a few hours to a few days at a time. These are offshoots of Web3 Fashion Week and involve showcasing the collections and designs IRL and digitally of the web3 fashion labels.
         <br /><br />
-        The first Realm Runway event will be held during NY Fashion Week Feb 11th 2022, starting early evening and running late. 
+        The first Realm Runway event will be held during NY Fashion Week Feb 12th 2022, starting early evening and running late. 
         <br /><br />
         These events showcase digital and physical models from the Global Models Syndicate strutting runway scenes (both digital 3D animations and in-real-life walks) & wearing indie fashion collections from the Global Designer Network and Designer Realm fashion labels. 
       </div>
