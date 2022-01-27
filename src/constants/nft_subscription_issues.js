@@ -712,7 +712,7 @@ export const details = [
       issueIndex: 'Issue Two',
       url: [
         '/images/nft/2/common/moshed-06-11-5-3-53.mp4',
-        '/images/nft/2/common/1080p (1).MOV',
+        '/images/nft/2/common/1080p (1).mp4',
         '/images/nft/2/common/Digitalax_02.mp4',
         '/images/nft/2/common/espa_skin (1).mp4',
         '/images/nft/2/common/Untitled.mp4',
@@ -785,8 +785,8 @@ export const details = [
       url: [
         '/images/nft/2/exc/moshed-06-11-5-24-5.mp4',
         '/images/nft/2/exc/Untitled (2).mp4',
-        '/images/nft/2/exc/720p.MOV',
-        '/images/nft/2/exc/BladeRunway Final Render HD (1).png',
+        '/images/nft/2/exc/720p.mp4',
+        '/images/nft/2/exc/BladeRunway Final Render HD (1).jpg',
         '/images/nft/2/exc/Animation.mp4',
         '/images/nft/2/exc/MC-Gif (1) copy.gif',
         '/images/nft/2/exc/Alex (1).png',
