@@ -44,7 +44,7 @@ const Page1314 = () => {
 
       <a
         className={styles.image3}
-        href='https://twitter.com/TheEdenDao'
+        href='https://twitter.com/CyberConnectHQ'
         target='_blank'
       >
         <Image
@@ -55,7 +55,7 @@ const Page1314 = () => {
       </a>
       <a
         className={styles.image4}
-        href='https://twitter.com/sismo_eth'
+        href='https://twitter.com/cutoutsnft'
         target='_blank'
       >
         <Image
@@ -66,7 +66,7 @@ const Page1314 = () => {
       </a>
       <a
         className={styles.image5}
-        href='https://twitter.com/OwnershipLabs'
+        href='https://twitter.com/web3wp'
         target='_blank'
       >
         <Image
@@ -88,7 +88,7 @@ const Page1314 = () => {
       </a>
       <a
         className={styles.image7}
-        href='https://twitter.com/rainbowwallpro'
+        href='https://twitter.com/ens_me'
         target='_blank'
       >
         <Image
@@ -99,38 +99,40 @@ const Page1314 = () => {
       </a>
 
       <div className={styles.text8}>
-        <span>THE EDEN DAO</span> <br />
-        With the call to action for each of us to continue to ramp up the environmentally conscious decisions and choices that we can make to help improve the status of our home planet increasing everyday, what better way to empower coordinated        
+        <span>Cyberconnect</span> <br />
+        Decentralising social connects through uncensorable hypergrowth personal network effects. That’s so much of the power of web3 network effects, the friction and scalability is far greater than anything that we have seen before, getting rid
       </div>
       <div className={styles.text9}>
-        groups of dedicated and motivated individuals than through using the native web3 mechanism of DAOs. Welcome The Eden DAO. This DAO has a strong mission to accelerate growth of the carbon market by supplying catalytic capital from retail investors worldwide to carbon dioxide removal (CDR) project developers. Eden will purchase high volumes of future high quality carbon removals to kick-start a new culture of climate tech investing. 
+        of those centralised chokepoints couldn’t be sweeter. 
+        <br /><br />
+        Cyberconnect is building out a decentralised social network protocol with unique features like that of returning the ownership of social graph data back to the users themselves. This could turn out to ignite a whole range of layer 2 applications for the DAPP— as users truly own their data and can engage in various value enabling mechanics. 
       </div>
       <div className={styles.text10}>
-        <span>SISMO</span> <br />
-        Sismo issues badges as non-transferable ERC-1155 NFTs to your public Ethereum profiles i.e. ENS names. These badges are Zero-Knowledge (ZK) attestations of facts imported from your other private accounts (Ethereum accounts as well as Twitter or GitHub).  
+        <span>cryptostamping</span> <br />
+        An Open-Source & Decentralized system where users can use their NFTs to stamp on websites, games, articles, posts, videos, anywhere on internet. Or, in other words, a solution for any creator, gamer, internet dweller to start backing their outputs with authenticity and verifiable ownership. 
         <br /><br />
-        The system set up in itself is highly unique, leveraging a suite of EIP standards and implementations. Further, being able to aggregate your reputation with full confidentiality to a public profile without revealing any of your private addresses, is a big leap forward for native web3 identity formation and security. 
+        Cryptostamping ensures that as we transition from web2 into full decentralised provenance that not all is lost from the hijacked industries we are breaking free from. Start stamping now. 
       </div>
       <div className={styles.text11}>
-        <span>dataverse</span> <br />
-        Selective curation is one of the most important parts to organising, sorting, ranking and most importantly, reading and gaining insight from rich data. And, if one thing is for sure, the metaverse represents a whole lot more of data, which means that classifying, cataloging and grouping on-chain data is becoming more important than ever as more people move into this space and start building out their go-to-analytics. There is a lot out there already for DeFi, but, when it comes to NFTs, the market gap is still huge. Dataverse allows you to create on-click private spaces to curate multi-media NFTs, and save and organize authentic content from various marketplaces. It also incorporates encryption mechanisms for a new layer of security, anonymity and privacy. 
+        <span>Web3WP</span> <br />
+        Innovating a de facto Web3 integration for WordPress, WEB3WP is building a suite of tools that enable Web3 technologies for 43% of all websites— adoption, adoption, let’s go! And the very first feature to go live will be none other than “Publish and Mint”. So simple, yet so powerful. Creators will be able to mint NFTs directly from their wordpress CMS and start to get an initial taste for creative ownership, immutability and a decentralised future. 
       </div>
       <div className={styles.text12}>
-        <span>RAINBOW WALL PROTOCOL</span> <br />
-        LOOT was probably one of the biggest NFT projects to go live this year and bring focus to the power of some of the most rawest materials that can be used to create NFTs and then compose and build on them in entirely nascent ways, as well as stoke a healthy ecosystem of derivates. Rainbow Wall protocol is bringing this to the next level, and combining text based NFTs with their new decentralised social media platform. It allows anyone to easily generate text NFTs and then send them to whoever they desire, have them appear on their platform’s “text wall”, and then allow users to buy, sell and trade between each other. Whether this is the right way to go about native web3 social media status updates... who knows? But text as NFTs has got to be some of the most exciting web3 native use cases that there are. 
+        <span>ENS.ME</span> <br />
+        Web3 identity— a rich topic with so many layers and folds, from on-chain to privacy to immutability to anonymity, where does it start and does it even end? One of the biggest native web3 projects to reinforce individual on-chain identity is none other than ENS, and ENS.me is a new community passion project reinforcing the work of the core ENS team through dedicating time to improve the visualisation and discoverability of Ethereum domains. The increased interoperability and utility derived from this project is definitely exciting, especially increasing ease of use for other DAPPs to directly connect and identify users by ENS.
       </div>
       <div className={styles.text13}>
-        <span>Dark forest</span>  <br />
-        A fully on-chain decentralised and 
+        <span>VERSE GALLERY</span>  
+        Coined as the   first physical NFT gallery in 
       </div>
       <div className={styles.text14}>
-        persistent RTS game with dynamic gameplay. Dark Forest is the first to incorporate incomplete information with zero knowledge proofs. 
-        <br /> <br />
-        And besides bleeding edge engineering experimentation for this well played web3 game, the team is also making moves across the entirity of the gaming and esports sectors. 
-        <br /> <br />
-        Dark Forest incubated and supported Guild W, which was the very first on-chain esports team— it is governed, influenced, and navigated through a DAO structure. 
-        <br /> <br />
-        With the staggering scale up of blockchain x gaming and the full extent of this through the metaverse, the more teams incorporating novel solidity and smart contract standards and implementations into traditional and newly formed gameplay, the better. 
+        Scandinavia, ‘verse adds another metaversal mapped location in the IRL. 
+        <br /><br />
+        Digital-physical immersive events are becoming more in demand as these spaces mesh together all different walks of life and become marquees for culture, education, unique experiences, and most importantly, primary wealth generation and fabrication factories. 
+        <br /><br />
+        Decentralised fabrication hotspots, connected through a network of incentivised token value and gated access is another key area set to transform entire cities throughout 2022 and beyond. 
+        <br /><br />
+        ‘verse, although nothing distinctly new in their offerings, is certainly bringing more on-ramping strengths to the heart of the web3 community. 
       </div>
     </div>
   )
