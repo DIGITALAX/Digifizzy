@@ -38,13 +38,13 @@ const Page1516 = () => {
         No Fun Studio
       </div>
       <div className={styles.text2}>
-        By day I am an interaction designer working in the world of experimental websites & more traditional mobile & desktop applications. I've been a designer for the past 10 years and like many, my first love was Photoshop and never looked back on the technology side of the design world.  
+        By day I am an interaction designer working in the world of experimental websites & more traditional mobile & desktop applications. I've been a designer for the past 10 years and like many, my first love was Photoshop. Since then, I never looked back on the technology side of the design world.  
       </div>
       <div className={styles.text3}>
         Over the past couple of years the generative art movement and its intersection with immersive experiences really sucked me in. 
       </div>
       <div className={styles.text4}>
-        My intro to web3 naturally presented itself through exposure to cryptocurrency and NFT’s. Shamefully I sold my first NFT without truly understanding the power of the technology and the freedom web3 brings to the creator and the individual. Although the new digital landscape and the truly connected permissionless future that web3 offers has some obstacles to overcome - it’s progress toward enabling a reality of freedom that has only been an illusion for many people.
+        My intro to web3 naturally presented itself through exposure to cryptocurrency and NFT’s. Shamefully I sold my first NFT without truly understanding the power of the technology and the freedom web3 brings to the creator and the individual. Although the new digital landscape and the truly connected permissionless future that web3 offers has some obstacles to overcome - it's progressing towards enabling a reality of freedom that has only been an illusion for many people until now.
       </div>
       <div className={styles.text5}>
         NFT’s have had a profound impact on the digital art scene. People suddenly are placing value & respect in digital art and making people rethink how people can experience the work. There’s an infinite possibility of displaying these creations and it’s much more than a screenshot or slideshow. Currently we go to a museum and stand 6 feet back admiring paintings from a distance - the future is experiences that allow people to become part of the art through interaction. We need to break the old paradigm - people should touch the art, they should feel a part of it. The technology has been here to make that possible, NFT’s are just the catalyst or the messenger.
