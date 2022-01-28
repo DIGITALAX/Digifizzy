@@ -77,7 +77,7 @@ const Page1314 = () => {
       </a>
       <a
         className={styles.image6}
-        href='https://twitter.com/darkforest_eth'
+        href='https://twitter.com/versegalleryNFT'
         target='_blank'
       >
         <Image
