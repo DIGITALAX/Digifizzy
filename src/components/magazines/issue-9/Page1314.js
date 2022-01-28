@@ -100,10 +100,10 @@ const Page1314 = () => {
 
       <div className={styles.text8}>
         <span>Cyberconnect</span> <br />
-        Decentralising social connects through uncensorable hypergrowth personal network effects. That’s so much of the power of web3 network effects, reduced friction and heightened scalability, greater than anything that we have seen before, getting rid
+        Decentralising social connects through uncensorable hypergrowth personal network effects. That’s so much of the power of web3 network effects, reduced friction and heightened scalability, greater than anything that we have 
       </div>
       <div className={styles.text9}>
-        of those centralised chokepoints couldn’t be sweeter. 
+        seen before, getting rid of those centralised chokepoints couldn’t be sweeter. 
         <br /><br />
         Cyberconnect is building out a decentralised social network protocol with unique features like that of returning the ownership of social graph data back to the users themselves. This could turn out to ignite a whole range of layer 2 applications for the DAPP— as users truly own their data and can engage in various value enabling mechanics. 
       </div>
