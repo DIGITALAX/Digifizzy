@@ -7,7 +7,7 @@ const Page12 = () => (
       POSE
     </h1>
     <div className={styles.text1}>
-      Braces  | Location based punctuations that are mapped as focal nodes of eccentric and diverse vitality, productive capacity, activity and life. They are unique slices of the metaverse where rich stories and history are told and made. 
+      Ellipsis | The pull between movement and position says more than we can with just images and words. 
     </div>
     <div className={styles.text2}>
       {/* Metaversal Cities */}
