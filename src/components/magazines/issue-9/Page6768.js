@@ -52,7 +52,7 @@ const Page6768 = () => (
     </a>
     <a
       className={styles.image6}
-      href='https://www.move.ai/'
+      href='https://github.com/tensorflow/tfjs-models/tree/master/posenet'
       target='_blank'
     >
       <Image
@@ -63,7 +63,7 @@ const Page6768 = () => (
     </a>
     <a
       className={styles.image7}
-      href='https://github.com/tensorflow/tfjs-models/tree/master/posenet'
+      href='https://www.move.ai/'
       target='_blank'
     >
       <Image
