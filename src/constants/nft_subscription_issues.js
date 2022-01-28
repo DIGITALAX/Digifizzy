@@ -4,7 +4,7 @@ export const details = [
       id: 42,
       title: 'Common Unlock',
       subTitle: [
-        'Issue Eight',
+        'Issue Nine',
         'Sorry Zuck Navy DRIP T-Shirt',
         'Realm Runway Event Ticket',
         'Digital Fashion Neon Collectible Scene One',
