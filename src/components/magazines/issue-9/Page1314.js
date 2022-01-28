@@ -100,7 +100,7 @@ const Page1314 = () => {
 
       <div className={styles.text8}>
         <span>Cyberconnect</span> <br />
-        Decentralising social connects through uncensorable hypergrowth personal network effects. That’s so much of the power of web3 network effects, the friction and scalability is far greater than anything that we have seen before, getting rid
+        Decentralising social connects through uncensorable hypergrowth personal network effects. That’s so much of the power of web3 network effects, reduced friction and heightened scalability, greater than anything that we have seen before, getting rid
       </div>
       <div className={styles.text9}>
         of those centralised chokepoints couldn’t be sweeter. 
@@ -109,7 +109,7 @@ const Page1314 = () => {
       </div>
       <div className={styles.text10}>
         <span>cryptostamping</span> <br />
-        An Open-Source & Decentralized system where users can use their NFTs to stamp on websites, games, articles, posts, videos, anywhere on internet. Or, in other words, a solution for any creator, gamer, internet dweller to start backing their outputs with authenticity and verifiable ownership. 
+        An Open-Source & Decentralized system where users can use their NFTs to stamp on websites, games, articles, posts, videos, anywhere on the internet. Or, in other words, a solution for any creator, gamer, internet dweller to start backing their outputs with authenticity and verifiable ownership. 
         <br /><br />
         Cryptostamping ensures that as we transition from web2 into full decentralised provenance that not all is lost from the hijacked industries we are breaking free from. Start stamping now. 
       </div>

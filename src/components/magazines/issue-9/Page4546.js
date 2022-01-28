@@ -10,7 +10,7 @@ const Page4546 = () => (
     <div className={styles.image2}>
       <Image src='/magazine/9/images/4546_image2.jpg' width={960} height={1497} />
     </div>
-    <a href='https://models.digitalax.xyz/models/awelewa/' target='_blank' rel='noreferrer'>
+    <a href='https://models.digitalax.xyz/models/awele/' target='_blank' rel='noreferrer'>
       <div className={styles.text1}>Àwèlé</div>
     </a>
     <div className={styles.text2}>
