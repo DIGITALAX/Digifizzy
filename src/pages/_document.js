@@ -1859,6 +1859,11 @@ class MyDocument extends Document {
               font-family: "TypoGraphica";
               src: url("./fonts/TypoGraphica_demo.otf");
             }
+            
+            @font-face {
+              font-family: "Bruno Ace";
+              src: url("./fonts/Bruno Ace Regular.ttf");
+            }
           `
             }}
           />

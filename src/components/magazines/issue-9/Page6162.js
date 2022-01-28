@@ -45,17 +45,25 @@ const Page6162 = () => {
         <Image src='/magazine/9/images/6162_image4.png' width={1346} height={545} />
       </div>
 
-      <div className={styles.text3}>
+      <a
+        className={styles.text3}
+        href='https://twitter.com/Kleros_io'
+        target='_blank'
+      >
         KLEROS
-      </div>
-      <div className={styles.text4}>
+      </a>
+      <a 
+        className={styles.text4}
+        href='https://twitter.com/Kleros_io'
+        target='_blank'
+      >
         KLEROS
-      </div>
+      </a>
       <div className={styles.text5}>
         when you think about the kind of problems you run into that seem to repeat almost every day, no matter who you are, where in the world you might be, or even if you turn the timeline dial back to the dawn of humanity, you're likely to come up with a long, long list far before you mention the root of pretty much all of them. Unless of course you're a total web3 ner.. err, curious mind and mechanism design wonk like us, and the fascinating folks at Kleros.
       </div>
       <div className={styles.text6}>
-        Check out the interview with Kleros Founder Federico Ast
+        Check out the interview with Kleros Founder <a href='https://twitter.com/federicoast' target='_blank'>Federico Ast</a>
       </div>
       <audio ref={refAudio} loop>
         <source src='/magazine/9/sounds/6162_sound1.mp3' type='audio/mpeg' />

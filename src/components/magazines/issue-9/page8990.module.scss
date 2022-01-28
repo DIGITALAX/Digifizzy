@@ -5,6 +5,29 @@
   background: #000000;
   color: white;
 
+  .rect1 {
+    position: absolute;
+    width: 1822px;
+    height: 1822px;
+    left: 697px;
+    top: 555px;
+    
+    background: radial-gradient(30% 30% at 50% 50%, #E6BF00 0%, rgba(0, 0, 0, 0) 100%), 
+    radial-gradient(30% 30% at 50% 50%, #FF7676 0%, rgba(0, 56, 19, 0) 100%);    
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 599px;
+    height: 599px;
+    left: 1491px;
+    top: -220px;
+    
+    background: radial-gradient(30% 30% at 50% 50%, 
+    #E6BF00 0%, rgba(0, 0, 0, 0) 100%), 
+    radial-gradient(50% 50% at 50% 50%, #000000 0%, rgba(0, 56, 19, 0) 100%);
+  }
+
   .video1 {
     position: absolute;
     width: 960px;
@@ -124,7 +147,15 @@
     font-weight: 800;
     font-size: 20px;
     line-height: 160%;
-    color: #FFFFFF;    
+    color: #FFFFFF;
+
+    ol {
+      list-style-type: decimal;
+      margin-left: 40px;
+      li {
+        
+      }
+    }
   }
 
   .image1 {
@@ -137,7 +168,7 @@
 
   .image2 {
     position: absolute;
-    width: 851px;
+    width: 951px;
     height: 825px;
     right: 0;
     bottom: 0;

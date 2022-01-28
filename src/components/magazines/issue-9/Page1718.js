@@ -68,7 +68,11 @@ const Page1718 = () => {
         Tune into the latest audio session with Cashtro to learn more about Arcade and what they have built to bring NFT lending to the masses.
       </div>
 
-      <a className={styles.image1}>
+      <a
+        className={styles.image1}
+        href='https://twitter.com/CashtroCrypto'
+        target='_blank'
+      >
         <Image
           src='/magazine/9/images/1718_image1.png'
           width={229}

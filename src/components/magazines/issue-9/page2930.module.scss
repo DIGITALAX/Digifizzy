@@ -72,243 +72,160 @@
     
     border: 0.5px solid #FFFFFF;
   }
-
-  .image1 {
-    position: absolute;
-    width: 427px;
-    height: 427px;
-    left: 35px;
-    top: 562px;    
-  }
-
-  .image2 {
-    position: absolute;
-    width: 137px;
-    height: 137px;
-    left: 517px;
-    top: 809px;        
-  }
-
-  .image3 {
-    position: absolute;
-    width: 137px;
-    height: 137px;
-    left: 35px;
-    top: 1326px;
-  }
-
-  .image4 {
-    position: absolute;
-    width: 137px;
-    height: 137px;
-    left: 209px;
-    top: 1326px;
-  }
-
-  .image5 {
-    position: absolute;
-    width: 137px;
-    height: 137px;
-    left: 383px;
-    top: 1326px;    
-  }
-
-  .image6 {
-    position: absolute;
-    width: 137px;
-    height: 137px;
-    left: 557px;
-    top: 1326px;
-  }
-
-  .image7 {
-    position: absolute;
-    width: 137px;
-    height: 137px;
-    left: 730px;
-    top: 1326px;    
-  }
-
+  
   .climateText1 {
     position: absolute;
-    width: 853px;
+    width: 928px;
     height: 148px;
     left: 8px;
     top: 11px;
     
-    font-family: Bubblegum Sans;
-    font-size: 50px;
+    font-family: Bruno Ace;
+    font-size: 100px;
     line-height: 120.53%;
-    color: #FFFFFF;        
+    color: #FFFFFF; 
   }
 
   .climateText2 {
     position: absolute;
-    width: 853px;
+    width: 928px;
     height: 148px;
-    left: 485px;
-    top: 11px;
+    left: 8px;
+    top: 125px;
     
-    font-family: Bubblegum Sans;
-    font-size: 50px;
+    font-family: Bruno Ace;
+    font-size: 100px;
     line-height: 120.53%;
-    color: #FFFFFF;    
+    color: #FFFFFF;
   }
 
   .climateText3 {
     position: absolute;
-    width: 853px;
-    height: 64px;
+    width: 928px;
+    height: 148px;
     left: 8px;
-    top: 72px;
+    top: 244px;
     
-    font-family: Bubblegum Sans;
-    font-size: 50px;
+    font-family: Bruno Ace;
+    font-size: 100px;
     line-height: 120.53%;
-    color: #FFFFFF;    
+    color: #FFFFFF;
   }
 
   .climateText4 {
     position: absolute;
-    width: 853px;
-    height: 64px;
-    left: 485px;
-    top: 72px;
+    width: 928px;
+    height: 148px;
+    left: 8px;
+    top: 363px;
     
-    font-family: Bubblegum Sans;
-    font-size: 50px;
+    font-family: Bruno Ace;
+    font-size: 100px;
     line-height: 120.53%;
-    color: #FFFFFF;    
+    color: #FFFFFF;
   }
 
   .climateText5 {
     position: absolute;
-    width: 853px;
+    width: 928px;
     height: 148px;
-    left: 8px;
-    top: 136px;
+    left: 4px;
+    top: 477px;
     
-    font-family: Bubblegum Sans;
-    font-size: 50px;
+    font-family: Bruno Ace;
+    font-size: 100px;
     line-height: 120.53%;
     color: #FFFFFF;    
-  }
-
-  .climateText6 {
-    position: absolute;
-    width: 853px;
-    height: 148px;
-    left: 485px;
-    top: 136px;
-    
-    font-family: Bubblegum Sans;
-    font-size: 50px;
-    line-height: 120.53%;
-    color: #FFFFFF;
-  }
-
-  .climateText7 {
-    position: absolute;
-    width: 853px;
-    height: 93px;
-    left: 8px;
-    top: 210px;
-    
-    font-family: Bubblegum Sans;
-    font-size: 50px;
-    line-height: 120.53%;
-    color: #FFFFFF;    
-  }
-
-  .climateText8 {
-    position: absolute;
-    width: 853px;
-    height: 93px;
-    left: 485px;
-    top: 210px;
-    
-    font-family: Bubblegum Sans;
-    font-size: 50px;
-    line-height: 120.53%;
-    color: #FFFFFF;
   }
 
   .text1 {
     position: absolute;
-    width: 868px;
-    height: 251px;
-    left: 28px;
-    top: 292px;
+    width: 471px;
+    height: 171px;
+    left: 21px;
+    top: 627px;
     
-    font-family: Raanana;
+    font-family: Times;
+    font-size: 20px;
+    line-height: 120.53%;
+    color: #FFFFFF;        
+  }
+
+  .text2 {
+    position: absolute;
+    width: 637px;
+    height: 171px;
+    left: 21px;
+    top: 788px;
+    
+    font-family: Times;
+    font-size: 20px;
+    line-height: 120.53%;
+    color: #FFFFFF;        
+  }
+
+  .text3 {
+    position: absolute;
+    width: 882px;
+    height: 548px;
+    left: 24px;
+    top: 926px;
+    
+    font-family: Times;
     font-size: 20px;
     line-height: 120.53%;
     color: #FFFFFF;    
   }
 
-  .text2 {
-    position: absolute;
-    width: 868px;
-    height: 464px;
-    left: 28px;
-    top: 999px;
-    
-    font-family: Raanana;
-    font-size: 20px;
-    line-height: 120.53%;
-    color: #FFFFFF;
-  }
-
-  .text3 {
-    position: absolute;
-    width: 891px;
-    height: 600px;
-    left: 984px;
-    top: 18px;
-    
-    font-family: Henny Penny;
-    font-size: 30px;
-    line-height: 120.53%;
-    color: #FFFFFF;
-  }
-
   .text4 {
     position: absolute;
-    width: 453px;
-    height: 186px;
-    left: 1430px;
-    top: 599px;
+    width: 870px;
+    height: 1153px;
+    left: 995px;
+    top: 11px;
     
-    font-family: Henny Penny;
-    font-size: 30px;
+    font-family: Times;
+    font-size: 16px;
     line-height: 120.53%;
-    color: #FFFFFF;
+    color: #FFFFFF;        
   }
 
   .text5 {
     position: absolute;
-    width: 615px;
-    height: 164px;
-    left: 1268px;
-    top: 827px;
+    width: 448px;
+    height: 1153px;
+    left: 1430px;
+    top: 543px;
     
     font-family: Times;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 120.53%;
-    color: #FFFFFF;
-    
+    color: #FFFFFF;        
   }
 
   .text6 {
     position: absolute;
-    width: 847px;
-    height: 449px;
-    left: 1042px;
-    top: 991px;
+    width: 627px;
+    height: 1153px;
+    left: 1244px;
+    top: 772px;
     
     font-family: Times;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 120.53%;
-    color: #FFFFFF;
+    color: #FFFFFF;        
+  }
+
+  .text7 {
+    position: absolute;
+    width: 834px;
+    height: 534px;
+    left: 1043px;
+    top: 987px;
+    
+    font-family: Times;
+    font-size: 15px;
+    line-height: 120.53%;
+    color: #FFFFFF;    
   }
 }

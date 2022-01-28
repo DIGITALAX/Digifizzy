@@ -179,6 +179,15 @@
     line-height: 100%;
     color: #E5FF38;
     -webkit-text-stroke: 1px #000000;
+
+    a {
+      color: #E5FF38;
+      transition: 0.3s all;
+      &:hover {
+        transition: 0.3s all;
+        color: #FFFFFF;
+      }
+    }
   }
 
   .playButton1 {
@@ -221,5 +230,13 @@
     height: 163px;
     left: 60px;
     top: 42px;
+  }
+
+  a {
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
   }
 }

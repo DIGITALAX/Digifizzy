@@ -67,7 +67,7 @@ const Page3536 = () => (
 
     <a
       className={[styles.image3, styles.gradient].join(' ')}
-      href=''
+      href='https://foundation.app/@cappie/~/118785'
       target='_blank'
     >
       <Image
@@ -79,7 +79,7 @@ const Page3536 = () => (
 
     <a
       className={[styles.image4, styles.gradient].join(' ')}
-      href=''
+      href='https://knownorigin.io/gallery/6114000-ice-cold'
       target='_blank'
     >
       <Image

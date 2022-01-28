@@ -5,6 +5,8 @@ import styles from './page8990.module.scss'
 const Page8990 = () => {
   return (
     <div className={styles.wrapper}>
+      <div className={styles.rect1}></div>
+      <div className={styles.rect2}></div>
       <video muted loop autoPlay className={styles.video1}>
         <source src='/magazine/9/videos/8990_video1.mp4' type='video/mp4' />
       </video>
@@ -34,9 +36,17 @@ const Page8990 = () => {
         All tickets are also minted on-chain as rare NFTs that are sent to your wallet shortly after purchase and are valid to be resold on the secondary market before the event. These NFTs will also provide exclusive offers on further Realm Runway events and activations. 
         <br /><br />
         All tickets are $200. Payment accepted in $MONA, $W3F, BNT, USDT, MATIC, ETH & Fiat. There are three options for purchasing runway tickets:<br />
-        Connect Your Wallet and Make Payment in One of the Accepted Crypto Tokens. You will be sent your NFT shortly after payment.<br />
-        Stake $W3F/USDT LP on Quickswap & the $W3F Staking Platform. You must remain staked up until the event or your ticket & NFT will not be valid at the door. The tokens will be detected in your wallet.<br />
-        Use fiat through Eventbrite. You will be emailed instructions for claiming your NFT, if you choose, after purchasing your ticket.
+        <ol>
+          <li>
+            Connect Your Wallet and Make Payment in One of the Accepted Crypto Tokens. You will be sent your NFT shortly after payment.
+          </li>
+          <li>
+            Stake $W3F/USDT LP on Quickswap & the $W3F Staking Platform. You must remain staked up until the event or your ticket & NFT will not be valid at the door. The tokens will be detected in your wallet.<br />
+          </li>
+          <li>
+            Use fiat through Eventbrite. You will be emailed instructions for claiming your NFT, if you choose, after purchasing your ticket.
+          </li>
+        </ol>
       </div>
 
       <div className={styles.image1}>

@@ -16,15 +16,15 @@ const Page5960 = () => {
       <div className={styles.image1}>
         <Image
           src='/magazine/9/images/5960_image1.png'
-          width={259}
-          height={207}
+          width={215}
+          height={239}
         />
       </div>
       <div className={styles.image2}>
         <Image
           src='/magazine/9/images/5960_image2.png'
-          width={278}
-          height={278}
+          width={221}
+          height={221}
         />
       </div>
       <div className={styles.text1}>BUGHA</div>
