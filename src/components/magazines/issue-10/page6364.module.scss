@@ -1,0 +1,154 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: black;
+
+
+  .imageBackground {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 226px;
+    height: 68px;
+    left: 26px;
+    top: 1396px;
+    
+    font-family: Sofadi One;
+    font-size: 36px;
+    line-height: 28px;
+    color: #FF0000;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 837px;
+    height: 1288px;
+    left: 64px;
+    top: 42px;
+    
+    background: rgba(108, 122, 255, 0.84);
+    border: 10px solid #F404F0;    
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 842px;
+    height: 491px;
+    left: 1025px;
+    top: 327px;
+    
+    background: #FFF800;
+    border: 10px solid #000000;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 757px;
+    height: 261px;
+    left: 95px;
+    top: 91px;
+    
+    font-family: DIN Condensed;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 100%;
+    color: #9FFF53;    
+  }
+
+  .text3 {
+    position: absolute;
+    width: 757px;
+    height: 560px;
+    left: 95px;
+    top: 662px;
+    
+    font-family: DIN Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 100%;
+    color: #9FFF53;
+    
+  }
+
+  .text4 {
+    position: absolute;
+    width: 753px;
+    height: 379px;
+    left: 1069px;
+    top: 361px;
+    
+    font-family: EB Garamond;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 100%;
+    color: #0038FF;
+    
+    border: 1px solid #FFFFFF;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 650px;
+    height: 117px;
+    left: 1233px;
+    top: 33px; 
+  }
+
+  .image2 {
+    position: absolute;
+    width: 650px;
+    height: 117px;
+    left: 1233px;
+    top: 163px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 650px;
+    height: 117px;
+    left: 1233px;
+    top: 890px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 650px;
+    height: 117px;
+    left: 1233px;
+    top: 1031px;
+  }
+
+  .image5 {
+    position: absolute;
+    width: 650px;
+    height: 117px;
+    left: 1233px;
+    top: 1180px;
+  }
+
+  .image6 {
+    position: absolute;
+    width: 650px;
+    height: 117px;
+    left: 1233px;
+    top: 1330px;
+  }
+
+  a {
+    transition: 0.3s all;
+    
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
+  }
+}

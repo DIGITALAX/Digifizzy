@@ -1,0 +1,44 @@
+@import './styles.module.scss';
+.wrapper {
+  @include magazineWrapper();
+
+  .background {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+    object-fit: cover;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 292px;
+    height: 74px;
+    left: 1597px;
+    top: 69px;
+    
+    font-family: Squada One;
+    font-size: 75px;
+    line-height: 28px;
+    color: #81FF45;
+
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.05);
+    }
+  }
+
+  .text2 {
+    position: absolute;
+    width: 276px;
+    height: 226px;
+    left: 1597px;
+    top: 125px;
+    
+    font-family: Squada One;
+    font-size: 14px;
+    line-height: 16px;
+    color: #81FF45;
+  }
+}

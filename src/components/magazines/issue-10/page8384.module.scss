@@ -1,0 +1,151 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: linear-gradient(180deg, #FF0000 0%, #0250C5 26.56%, #00FFFF 45.83%, #B6A049 66.67%, #8F20FF 83.85%, #FF7A00 100%);
+
+  .image1 {
+    position: absolute;
+    width: 582.42px;
+    height: 431.82px;
+    left: 1312px;
+    top: 119.21px;
+    
+    transform-origin: 0 0;
+    transform: rotate(-30deg);    
+  }
+
+  .image2 {
+    position: absolute;
+    width: 434px;
+    height: 341px;
+    left: 1148px;
+    top: 377px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 238px;
+    height: 298px;
+    left: 993px;
+    top: 609px;
+    transform-origin: 0 0;
+    transform: matrix(1, 0, 0, -1, 0, 0);    
+  }
+
+  .image4 {
+    position: absolute;
+    width: 299px;
+    height: 236px;
+    left: 1604px;
+    top: 311px;
+  }
+
+  .image5 {
+    position: absolute;
+    width: 370px;
+    height: 714px;
+    left: 1148px;
+    top: 746px;
+    // transform-origin: 0 0;
+    // transform: rotate(-90deg);
+  }
+
+  .image6 {
+    position: absolute;
+    width: 299px;
+    height: 367px;
+    left: 1604px;
+    top: 581px;    
+  }
+
+  .image7 {
+    position: absolute;
+    width: 429px;
+    height: 337px;
+    left: 1098px;
+    top: 21px;    
+  }
+
+  .image8 {
+    position: absolute;
+    width: 359px;
+    height: 449px;
+    left: 1367px;
+    top: 493px;
+  }
+
+  .image9 {
+    position: absolute;
+    width: 356px;
+    height: 478px;
+    left: 1546px;
+    top: 982px;
+  }
+
+  .image10 {
+    position: absolute;
+    width: 281px;
+    height: 410px;
+    left: 960px;
+    top: 1087px;    
+  }
+
+  .text1 {
+    position: absolute;
+    width: 1442px;
+    height: 327px;
+    left: -39px;
+    top: 1439px;
+    
+    font-family: Underdog;
+    font-size: 230px;
+    line-height: 160%;
+    color: #FFE81D;
+    // -webkit-text-stroke: 10px #FF00F5;
+    text-shadow: -10px -10px #FF00F5, -10px 10px #FF00F5, 10px -10px #FF00F5, 10px 10px #FF00F5,
+      -10px 0px #FF00F5, 0px -10px #FF00F5, 10px 0px #FF00F5, 0px 10px #FF00F5,
+      -5px 0 #FF00F5, 0 -5px #FF00F5, 5px 0 #FF00F5, 0 5px #FF00F5,
+      // -5px -5px #FF00F5, -5px 5px #FF00F5, 5px -5px #FF00F5, 5px 5px #FF00F5,
+      -10px 5px #FF00F5, -10px -5px #FF00F5, 5px 10px #FF00F5, 5px -10px #FF00F5,
+      10px -5px #FF00F5, 10px 5px #FF00F5, -5px 10px#FF00F5, -5px -10px #FF00F5;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+    transition: 0.3s all;
+
+    &:hover {
+      transition: 0.3s all;
+      transform: rotate(-90deg) scale(1.05);
+    }
+  }
+
+  .text2 {
+    position: absolute;
+    width: 624px;
+    height: 462px;
+    left: 288px;
+    top: 54px;
+    
+    font-family: Righteous;
+    font-size: 25px;
+    line-height: 31px;
+    
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 601px;
+    height: 664px;
+    left: 288px;
+    top: 718px;
+    
+    font-family: Righteous;
+    font-size: 25px;
+    line-height: 31px;
+    
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #000000;
+  }
+}

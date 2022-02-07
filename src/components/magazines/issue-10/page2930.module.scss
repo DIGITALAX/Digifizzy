@@ -1,0 +1,231 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: white;
+  color: white;
+  display: flex;
+  position: relative;
+
+  .video1 {
+    position: absolute;
+    width: 1920;
+    height: 1497px;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 1973px;
+    height: 1517px;
+    left: -49px;
+    top: 1px;
+    
+    background: rgba(0, 0, 0, 0.4);    
+  }
+
+  h1 {
+    position: absolute;
+    width: 1331px;
+    height: 400px;
+    left: 294px;
+    top: 590px;
+
+    font-family: Heaven Wanders DEMO;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 200px;
+    line-height: 100%;
+    /* or 200px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+
+  .imageEarth {
+    position: absolute;
+    width: 116px;
+    height: 423px;
+    left: 903px;
+    top: 1074px;
+  }
+
+  .middleLine1 {
+    position: absolute;
+    width: 0px;
+    height: 515px;
+    left: 960px;
+    top: 0px;
+
+    border: 1px solid #FFFFFF;
+  }
+
+  .middleLine2 {
+    position: absolute;
+    width: 0px;
+    height: 423px;
+    left: 960px;
+    top: 1074px;
+    
+    border: 0.5px solid #FFFFFF;
+  }
+  
+  .climateText1 {
+    position: absolute;
+    width: 928px;
+    height: 148px;
+    left: 8px;
+    top: 11px;
+    
+    font-family: Bruno Ace;
+    font-size: 100px;
+    line-height: 120.53%;
+    color: #FFFFFF; 
+  }
+
+  .climateText2 {
+    position: absolute;
+    width: 928px;
+    height: 148px;
+    left: 8px;
+    top: 125px;
+    
+    font-family: Bruno Ace;
+    font-size: 100px;
+    line-height: 120.53%;
+    color: #FFFFFF;
+  }
+
+  .climateText3 {
+    position: absolute;
+    width: 928px;
+    height: 148px;
+    left: 8px;
+    top: 244px;
+    
+    font-family: Bruno Ace;
+    font-size: 100px;
+    line-height: 120.53%;
+    color: #FFFFFF;
+  }
+
+  .climateText4 {
+    position: absolute;
+    width: 928px;
+    height: 148px;
+    left: 8px;
+    top: 363px;
+    
+    font-family: Bruno Ace;
+    font-size: 100px;
+    line-height: 120.53%;
+    color: #FFFFFF;
+  }
+
+  .climateText5 {
+    position: absolute;
+    width: 928px;
+    height: 148px;
+    left: 4px;
+    top: 477px;
+    
+    font-family: Bruno Ace;
+    font-size: 100px;
+    line-height: 120.53%;
+    color: #FFFFFF;    
+  }
+
+  .text1 {
+    position: absolute;
+    width: 471px;
+    height: 171px;
+    left: 21px;
+    top: 627px;
+    
+    font-family: Times;
+    font-size: 20px;
+    line-height: 120.53%;
+    color: #FFFFFF;        
+  }
+
+  .text2 {
+    position: absolute;
+    width: 637px;
+    height: 171px;
+    left: 21px;
+    top: 788px;
+    
+    font-family: Times;
+    font-size: 20px;
+    line-height: 120.53%;
+    color: #FFFFFF;        
+  }
+
+  .text3 {
+    position: absolute;
+    width: 882px;
+    height: 548px;
+    left: 24px;
+    top: 926px;
+    
+    font-family: Times;
+    font-size: 20px;
+    line-height: 120.53%;
+    color: #FFFFFF;    
+  }
+
+  .text4 {
+    position: absolute;
+    width: 870px;
+    height: 1153px;
+    left: 995px;
+    top: 11px;
+    
+    font-family: Times;
+    font-size: 16px;
+    line-height: 120.53%;
+    color: #FFFFFF;        
+  }
+
+  .text5 {
+    position: absolute;
+    width: 448px;
+    height: 1153px;
+    left: 1430px;
+    top: 543px;
+    
+    font-family: Times;
+    font-size: 16px;
+    line-height: 120.53%;
+    color: #FFFFFF;        
+  }
+
+  .text6 {
+    position: absolute;
+    width: 627px;
+    height: 1153px;
+    left: 1244px;
+    top: 772px;
+    
+    font-family: Times;
+    font-size: 16px;
+    line-height: 120.53%;
+    color: #FFFFFF;        
+  }
+
+  .text7 {
+    position: absolute;
+    width: 834px;
+    height: 534px;
+    left: 1043px;
+    top: 987px;
+    
+    font-family: Times;
+    font-size: 15px;
+    line-height: 120.53%;
+    color: #FFFFFF;    
+  }
+}

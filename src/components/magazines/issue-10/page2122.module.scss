@@ -1,0 +1,160 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: white;
+  color: black;
+  display: flex;
+  position: relative;
+
+  .background {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;    
+  }
+
+  .text1 {
+    position: absolute;
+    width: 828px;
+    height: 100px;
+    left: 40px;
+    top: 366px;
+    
+    font-family: Nanum Brush Script;
+    font-size: 83px;
+    line-height: 120.53%;
+    
+    text-align: center;
+    
+    color: #FFFFFF;        
+  }
+
+  .text2 {
+    position: absolute;
+    width: 828px;
+    height: 100px;
+    left: 40px;
+    top: 433px;
+
+    font-family: Nanum Brush Script;
+    font-size: 83px;
+    line-height: 120.53%;
+    
+    text-align: center;
+    
+    color: #FFFFFF;    
+  }
+
+  .text3 {
+    position: absolute;
+    width: 828px;
+    height: 100px;
+    left: 40px;
+    top: 501px;
+
+    font-family: Nanum Brush Script;
+    font-size: 83px;
+    line-height: 120.53%;
+    
+    text-align: center;
+    
+    color: #FFFFFF;    
+  }
+
+  .text4 {
+    position: absolute;
+    width: 828px;
+    height: 224px;
+    left: 40px;
+    top: 631px;
+    
+    font-family: Nanum Brush Script;
+    font-size: 23px;
+    line-height: 120.53%;
+    color: #FFFFFF;    
+  }
+
+  .text5 {
+    position: absolute;
+    width: 914px;
+    height: 280px;
+    left: 40px;
+    top: 889px;
+    
+    font-family: Nanum Brush Script;
+    font-size: 23px;
+    line-height: 120.53%;
+    color: #FFFFFF;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 675px;
+    height: 216px;
+    left: 262px;
+    top: 1201px;
+    
+    font-family: Nanum Brush Script;
+    font-size: 20px;
+    line-height: 120.53%;
+    color: #FFFFFF;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 601px;
+    height: 308px;
+    left: 924px;
+    top: 376px;
+    
+    font-family: Nanum Brush Script;
+    font-size: 23px;
+    line-height: 120.53%;
+    color: #FFFFFF;
+  }
+
+  .text8 {
+    position: absolute;
+    width: 513px;
+    height: 456px;
+    left: 986px;
+    top: 699px;
+    
+    font-family: Nanum Brush Script;
+    font-size: 20px;
+    line-height: 120.53%;
+    
+    color: #FFFFFF;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 513px;
+    height: 264px;
+    left: 986px;
+    top: 1186px;
+    
+    font-family: Nanum Brush Script;
+    font-size: 20px;
+    line-height: 120.53%;
+    color: #FFFFFF;    
+  }
+
+  a {
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(0.9);
+    }
+  }
+
+  .image1 {
+    position: absolute;
+    width: 262px;
+    height: 262px;
+    left: 0px;
+    top: 1235px;    
+  }
+}

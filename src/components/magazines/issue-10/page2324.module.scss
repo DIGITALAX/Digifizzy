@@ -1,0 +1,407 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: #00B876;
+
+  .text1 {
+    position: absolute;
+    width: 656px;
+    height: 210px;
+    left: 292px;
+    top: 21px;
+    
+    font-family: Chicle;
+    font-size: 70px;
+    line-height: 100%;
+    color: #821049;    
+  }
+
+  .text2 {
+    position: absolute;
+    width: 351px;
+    height: 284px;
+    left: 568px;
+    top: 185px;
+    
+    font-family: Chicle;
+    font-size: 40px;
+    line-height: 100%;
+    color: #FFFFFF;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 841px;
+    height: 902px;
+    left: 1024px;
+    top: 44px;
+    
+    font-family: Chicle;
+    font-size: 45px;
+    line-height: 100%;
+    color: #FFFFFF;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 529px;
+    height: 190px;
+    left: 1281px;
+    top: 957px;
+    
+    font-family: Chicle;
+    font-size: 45px;
+    line-height: 100%;
+    color: #FFFFFF;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 378px;
+    height: 265px;
+    left: 1523px;
+    top: 1112px;
+    
+    font-family: Chicle;
+    font-size: 45px;
+    line-height: 100%;
+    color: #FFFFFF;
+  }
+
+  .imageTicket1 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 0px;
+    top: -11px;
+  }
+
+  .imageTicket2 {
+    position: absolute;
+    width: 248px;
+    height: 126px;
+    left: 0px;
+    top: 116px;
+  }
+
+  .imageTicket3 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 0px;
+    top: 242px;
+  }
+
+  .imageTicket4 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 0px;
+    top: 369px;    
+  }
+
+  .imageTicket5 {
+    position: absolute;
+    width: 248px;
+    height: 126px;
+    left: 0px;
+    top: 496px;
+  }
+
+  .imageTicket6 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 0px;
+    top: 622px;
+  }
+
+  .imageTicket7 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 0px;
+    top: 749px;    
+  }
+
+  .imageTicket8 {
+    position: absolute;
+    width: 248px;
+    height: 126px;
+    left: 0px;
+    top: 876px;
+  }
+
+  .imageTicket9 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 0px;
+    top: 1002px;
+  }
+
+  .imageTicket10 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 0px;
+    top: 1128px;    
+  }
+
+  .imageTicket11 {
+    position: absolute;
+    width: 248px;
+    height: 126px;
+    left: 0px;
+    top: 1255px;
+  }
+
+  .imageTicket12 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 0px;
+    top: 1381px;
+  }
+
+  .imageTicket13 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 248px;
+    top: 242px;    
+  }
+
+  .imageTicket14 {
+    position: absolute;
+    width: 248px;
+    height: 126px;
+    left: 248px;
+    top: 369px;
+  }
+
+  .imageTicket15 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 248px;
+    top: 495px;
+  }
+
+  .imageTicket16 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 248px;
+    top: 622px;
+  }
+
+  .imageTicket17 {
+    position: absolute;
+    width: 248px;
+    height: 126px;
+    left: 248px;
+    top: 749px;
+  }
+
+  .imageTicket18 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 248px;
+    top: 875px;
+  }
+
+  .imageTicket19 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 248px;
+    top: 1002px; 
+  }
+
+  .imageTicket20 {
+    position: absolute;
+    width: 248px;
+    height: 126px;
+    left: 248px;
+    top: 1129px;
+  }
+
+  .imageTicket21 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 248px;
+    top: 1255px;
+  }
+
+  .imageTicket22 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 248px;
+    top: 1381px;
+  }
+
+  .imageTicket23 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 496px;
+    top: 495px;
+  }
+
+  .imageTicket24 {
+    position: absolute;
+    width: 248px;
+    height: 126px;
+    left: 496px;
+    top: 622px;
+  }
+
+  .imageTicket25 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 496px;
+    top: 748px;
+  }
+
+  .imageTicket26 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 496px;
+    top: 875px;    
+  }
+
+  .imageTicket27 {
+    position: absolute;
+    width: 248px;
+    height: 126px;
+    left: 496px;
+    top: 1002px;    
+  }
+
+  .imageTicket28 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 496px;
+    top: 1128px;
+  }
+
+  .imageTicket29 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 496px;
+    top: 1255px;
+  }
+
+  .imageTicket30 {
+    position: absolute;
+    width: 248px;
+    height: 126px;
+    left: 496px;
+    top: 1382px;
+  }
+
+  .imageTicket31 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 744px;
+    top: 749px;
+  }
+
+  .imageTicket32 {
+    position: absolute;
+    width: 248px;
+    height: 126px;
+    left: 744px;
+    top: 876px;
+  }
+
+  .imageTicket33 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 744px;
+    top: 1002px;
+  }
+
+  .imageTicket34 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 744px;
+    top: 1129px;
+  }
+
+  .imageTicket35 {
+    position: absolute;
+    width: 248px;
+    height: 126px;
+    left: 744px;
+    top: 1256px;
+  }
+
+  .imageTicket36 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 744px;
+    top: 1382px;
+  }
+
+  .imageTicket37 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 992px;
+    top: 1002px;
+  }
+
+  .imageTicket38 {
+    position: absolute;
+    width: 248px;
+    height: 126px;
+    left: 992px;
+    top: 1129px;
+  }
+
+  .imageTicket39 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 992px;
+    top: 1255px;
+  }
+
+  .imageTicket40 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 992px;
+    top: 1382px;
+  }
+
+  .imageTicket41 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 1240px;
+    top: 1256px;
+  }
+
+  .imageTicket42 {
+    position: absolute;
+    width: 248px;
+    height: 126px;
+    left: 1240px;
+    top: 1383px;
+  }
+}

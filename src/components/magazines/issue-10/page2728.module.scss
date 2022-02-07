@@ -1,0 +1,136 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  display: flex;
+  position: relative;
+  background-color: #00B876;
+  color: white;
+
+  .text1 {
+    position: absolute;
+    width: 750px;
+    height: 1294px;
+    left: 82px;
+    top: 45px;
+    
+    font-family: Chicle;
+    font-size: 65px;
+    line-height: 100%;
+    color: #FFFFFF;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .imageTicket1 {
+    position: absolute;
+    width: 248px;
+    height: 126px;
+    left: 1048px;
+    top: 45px;    
+  }
+
+  .imageTicket2 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 940px;
+    top: 184px;
+  }
+
+  .imageTicket3 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 1206px;
+    top: 184px;
+  }
+
+  .imageTicket4 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 1080px;
+    top: 327px;
+  }
+
+  .imageTicket5 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 1346px;
+    top: 327px;
+  }
+
+  .imageTicket6 {
+    position: absolute;
+    width: 248px;
+    height: 126px;
+    left: 1232px;
+    top: 470px;    
+  }
+
+  .imageTicket7 {
+    position: absolute;
+    width: 248px;
+    height: 126px;
+    left: 1498px;
+    top: 470px;
+  }
+
+  .imageTicket8 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 1374px;
+    top: 621px;
+  }
+
+  .imageTicket9 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 1640px;
+    top: 621px;
+  }
+
+  .imageTicket10 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 1640px;
+    top: 773px;
+  }
+
+  .imageTicket11 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 1640px;
+    top: 925px;
+  }
+
+  .imageTicket12 {
+    position: absolute;
+    width: 248px;
+    height: 126px;
+    left: 1640px;
+    top: 1077px;
+  }
+
+  .imageTicket13 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 1640px;
+    top: 1228px;
+  }
+
+  .imageTicket14 {
+    position: absolute;
+    width: 248px;
+    height: 127px;
+    left: 1640px;
+    top: 1380px;
+  }
+}

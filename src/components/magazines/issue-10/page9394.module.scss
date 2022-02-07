@@ -1,0 +1,61 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();    
+  background: white;
+  color: black;
+
+  .text1 {
+    position: absolute;
+    width: 666px;
+    height: 278px;
+    left: 147px;
+    top: 25px;
+
+    font-family: TypoGraphica;
+    font-size: 100px;
+    line-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 824px;
+    height: 286px;
+    left: 68px;
+    top: 314px;
+    
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  .modelsList1 {
+    position: absolute;
+    width: 824px;
+    height: 776px;
+    left: 68px;
+    top: 611px;
+
+    display: grid;
+    grid-template-columns: 210px 210px 210px 210px;
+    grid-template-rows: 310px 310px 310px;
+  }
+
+  .modelsList2 {
+    position: absolute;
+    width: 824px;
+    height: 1339px;
+    left: 1028px;
+    top: 49px;
+
+    display: grid;
+    grid-template-columns: 210px 210px 210px 210px;
+    grid-template-rows: 290px 290px 290px 290px 290px;    
+  }
+}

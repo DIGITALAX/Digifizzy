@@ -1,0 +1,37 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: #FFEB38;
+
+  .image1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1920px;
+    height: 1497px;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 868px;
+    height: 1386px;
+    left: 42px;
+    top: 55px;
+    
+    background: rgba(188, 45, 255, 0.85);    
+  }
+
+  .text1 {
+    position: absolute;
+    width: 755px;
+    height: 1275px;
+    left: 99px;
+    top: 96px;
+    
+    font-family: Gardena ;
+    font-size: 50px;
+    line-height: 42px;
+    color: #FFFFFF;
+  }
+}

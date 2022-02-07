@@ -1,0 +1,92 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: #000000;
+
+  .image1 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+  
+  .image2 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
+    top: 0px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 220px;
+    height: 70px;
+    left: 26px;
+    top: 148px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 100%;
+    color: #FFFFFF;
+    transition: 0.3s all;
+
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.05);
+    }
+  }
+
+  .text2 {
+    position: absolute;
+    width: 279px;
+    height: 37px;
+    left: 26px;
+    top: 43px;
+    
+    font-family: Stint Ultra Expanded;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 188px;
+    height: 85px;
+    left: 1702px;
+    top: 18px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 85px;
+    text-align: right;
+    
+    color: #E28FFF;    
+  }
+
+  .text4 {
+    position: absolute;
+    width: 303px;
+    height: 140px;
+    left: 1593px;
+    top: 94px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: right;
+    
+    color: #E28FFF;
+  }
+}

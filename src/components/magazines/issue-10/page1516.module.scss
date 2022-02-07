@@ -1,0 +1,184 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  color: white;
+  display: flex;
+  position: relative;
+  background: linear-gradient(180deg, #7D7F8B 0%, #606060 13.02%, #030303 36.46%, #FFB5E1 65.62%, #FFE1B5 89.58%);
+
+  .image1 {
+    position: absolute;
+    width: 378px;
+    height: 378px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 628px;
+    height: 314px;
+    left: 18px;
+    top: 402px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 100%;
+    color: #FFFFFF;    
+  }
+
+  .text2 {
+    position: absolute;
+    width: 470px;
+    height: 477px;
+    left: 427px;
+    top: 55px;
+    
+    font-family: Oldenburg;
+    font-size: 35px;
+    line-height: 100%;
+    color: #FFFFFF;    
+  }
+
+  .text3 {
+    position: absolute;
+    width: 856px;
+    height: 532px;
+    left: 41px;
+    top: 630px;
+    
+    font-family: Oldenburg;
+    font-size: 35px;
+    line-height: 100%;
+    color: #FFFFFF;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 856px;
+    height: 532px;
+    left: 41px;
+    top: 761px;
+    
+    font-family: Oldenburg;
+    font-size: 21px;
+    line-height: 100%;
+    color: #000000;    
+  }
+
+  .text5 {
+    position: absolute;
+    width: 856px;
+    height: 532px;
+    left: 41px;
+    top: 929px;
+    
+    font-family: Oldenburg;
+    font-size: 21px;
+    line-height: 100%;
+    color: #000000;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 855px;
+    height: 477px;
+    left: 1004px;
+    top: 55px;
+    
+    font-family: Oldenburg;
+    font-size: 20px;
+    line-height: 100%;
+    color: #FFC5E8;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 855px;
+    height: 477px;
+    left: 1004px;
+    top: 300px;
+    
+    font-family: Oldenburg;
+    font-size: 20px;
+    line-height: 100%;
+    color: #FFC5E8;
+  }
+
+  .video1 {
+    position: absolute;
+    width: 637px;
+    height: 374px;
+    left: 1004px;
+    top: 720px;
+    object-fit: cover;
+  }
+
+  .video2 {
+    position: absolute;
+    width: 637px;
+    height: 374px;
+    left: 1252px;
+    top: 1106px;
+    object-fit: cover;
+  }
+
+  .imagePlayButton1 {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 1577px;
+    top: 781px;
+    cursor: pointer;
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(0.9);
+    }
+  }
+
+  .imagePauseButton1 {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 1577px;
+    top: 731px;
+    cursor: pointer;
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(0.9);
+    }
+  }
+
+  .imagePlayButton2 {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 1269px;
+    top: 1171px;
+    cursor: pointer;
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(0.9);
+    }
+  }
+
+  .imagePauseButton2 {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 1269px;
+    top: 1121px;
+    cursor: pointer;
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(0.9);
+    }
+  }
+}
