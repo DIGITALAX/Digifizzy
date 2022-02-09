@@ -2,7 +2,7 @@
 .wrapper {
   @include magazineWrapper();
 
-  .background {
+  .imageBackground {
     position: absolute;
     width: 1920px;
     height: 1497px;
@@ -15,8 +15,8 @@
     position: absolute;
     width: 292px;
     height: 74px;
-    left: 1597px;
-    top: 69px;
+    left: 1016px;
+    top: 1231px;
     
     font-family: Squada One;
     font-size: 75px;
@@ -33,12 +33,38 @@
     position: absolute;
     width: 276px;
     height: 226px;
-    left: 1597px;
-    top: 125px;
+    left: 1016px;
+    top: 1287px;
     
     font-family: Squada One;
     font-size: 14px;
     line-height: 16px;
     color: #81FF45;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 337px;
+    height: 74px;
+    left: 31px;
+    top: 54px;
+    
+    font-family: Squada One;
+    font-size: 75px;
+    line-height: 28px;
+    color: #FFFFFF;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 276px;
+    height: 226px;
+    left: 31px;
+    top: 110px;
+    
+    font-family: Squada One;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;    
   }
 }

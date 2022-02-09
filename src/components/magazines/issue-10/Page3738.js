@@ -1,128 +1,60 @@
 import React from 'react'
+import Image from 'next/image'
 import styles from './page3738.module.scss'
 
 const Page3738 = () => {
   return (
     <div className={styles.wrapper}>
-      <div className={styles.rect1}></div>
-      <a href='https://docs.au-deo.xyz/' target='_blank'>
-        <video autoPlay muted loop className={styles.video1}>
-          <source src='/magazine/9/videos/3738_video1.mp4' type='video/mp4' />
-        </video>
-      </a>
-      <div className={styles.text1}>
-        Music x Fashion is climbing the market making charts.
+      <div className={styles.imageBackground}>
+        <Image
+          src='/magazine/10/images/3738_background.jpg'
+          width={1920}
+          height={1497}
+        />
       </div>
+
+      <div className={styles.rect1}></div>
+      <div className={styles.rect2}></div>
+
+      <a
+        href='https://twitter.com/nftandnewton'
+        target='_blank'
+      >
+        <div className={styles.text1}>
+          Newton Lee
+        </div>
+      </a>
       <div className={styles.text2}>
-        From audio reactive apparel collections to DAOs for music makers ready to break out from the boomer legacy of "we own you now" record label control. 
-        The chants could be heard far from the camp fires where they first spun their yarns, far from the home bound shuttles and looms they gathered around.
+        I am a Biology major with a background in biomedical research. Several months ago, I decided to make a commitment to educate myself on cryptocurrency, blockchain.  I recognized there was a lot of confusion and misinformation with the information presented being intimidating to the public so I decided to immerse myself in seminars and events for the space.   I started gaining exposure to NFT's about 3 months ago.  It's only within the past month I have become aware of how NFT's can truly benefit creatives (i.e. royalties for artists, a major game-changer for the profession).  I'm a firm believer that digital currency will become prominent in the future and blockchain technology will have wide-ranging beneficial impacts for society.
+        <br /><br />
+        I suppose all along I've been a foodie since I was a notoriously picky eater as a child.  As an adult I have become a craft beer nerd.  What I have noticed in American restaurants is a lack of coordination for (craft) beer and food pairings.  During the pandemic, I decided to experiment on my own and documented the various combinations as a photographic record on my smartphone.  I have created some intriguing pairings that have resulted in a pleasant gastronomic experience and believe the world would benefit from that knowledge.        
       </div>
       <div className={styles.text3}>
-        Rhythmic patterns in song and fabric passing openly stories of families, of tribes, of festivals and journeys yet to happen, 
-        from those with lifetimes of experience weaving them into cloth to those eager to pick up the thread, learn the practice, 
-        and innovate into new culture beyond.
-      </div>
-      <div className={styles.text4}>
-        AU.DEO is the foundational music x fashion DAO. 
-      </div>
-      <div className={styles.text5}>
-        The textile makers among us were likely our earliest music makers too. 
-        They would come together to sing and share songs, the beets and lyrics telling them how to do what they came to do.
+        Decentralization is the polar opposite of the "command and control" systems that currently permeate society, (which in my opinion hinders creativity.). Instead, decentralization encourages collaboration through the coordination of various parties working together.  Because there isn't a dominant paradigm from overarching leadership, creativity is encouraged in this setting.  In a way, there is a striking parallel between a decentralized system and how the brain works through sensory integration (coordinating a response after input from various stimuli).
         <br /><br />
-        The AU.DEO DAO is a Realm under the DIGITALAX Designer Realms & protocol stack. 
-      </div>
-      <div className={styles.text6}>
-        It’s dedicated to all things music x fashion, and pushing the limits of web3 native collaborations in this space. 
-      </div>
-      <div className={styles.text7}>
-        AU.DEO focuses on open source and CC0 as a breakaway statement and essential embrace of the power open content 
-        and culture have that inspires people to move like they mean it, while annoying the hell out of the old control 
-        freaks that would rather we all just know our place and keep quiet.
-      </div>
-      <div className={styles.text8}>
-        We all know that it is not enough to just show up and say it. We have got to play it.
-        <br /><br />
-        There is no better way than a throwback audiophile insurrection, with a late night radio DJ voice. 
-        <br /><br />
-        Welcome PW3R, the highest fidelity Pirate Web3 Radio. 
-        <br /><br />
-        From the heights of the underground we are bringing you the latest and greatest music x fashion collaborations, 
-        entirely indie, enticingly original, all too loud to put down.
-        <br /><br />
-        Turn that sweet dial beyond 11 to number go up. Like, way up. 
-      </div>
-      <div className={styles.text9}>
-        PW3R has started streaming into revolutionary pocket radio receivers and the earbuds of all who just want to catch that vibe. 
-      </div>
-      <a
-        className={styles.text10}
-        target='_blank'
-        href='https://www.youtube.com/channel/UCOq_pNlxwn8laaTO1NG3YgQ'
-      >
-        View the radio sessions here. 
-      </a>
-      <div className={styles.text11}>
-        The songs featured are those from the AU.DEO CC0 Treasury Vault that are interwoven with live conversations from the AU.DEO stewards and other exceptional fashion and music talents across the Global Designer Network and broader web3 community. 
-        <br /><br />
-        We stream from the AU.DEO discord, DIGITALAX twitter spaces & all recordings are uploaded to Youtube. 
-        <br /><br />
-        Overtime, these streams will also coincide with live DJ + music sets out of global locations. The first one to be revealed soon and aligning with the Realm Runway #1 launch during NYC, which you can read more about here. 
-        <br /><br />
-        If you want to get involved, showcase your music, join in the live conversation or even start running a 
-        PW3R session near you… join the{' '}
-        <a href='https://medium.com/r/?url=https%3A%2F%2Fdiscord.com%2Finvite%2FHfuta2BShk' target='_blank'>
-          discord and reach out!
-        </a> 
+        Just immersing myself (and learning/participating) in the NFT/Blockchain/crypto space right now and seeing where that takes me.  Thankfully, I have a growth mindset and am willing to try new things, even though I may feel awkward initially.  This will be a significant work in progress but I intend to learn and apply social media properly for the NFT space.  I also am doing my due diligence before selecting a secure option for a NFT (and crypto) wallet.  A fitting sentiment for those that embrace the decentralized aspect of Web3, is "a rising tide lifts all ships."  The potential of NFT's to raise the profile of creatives from all sorts of backgrounds globally and allow them to share and spread the wealth to uplift others is a beautiful thing and that should be encouraged instead of upholding the current global system that creates a narrow funnel of wealth.
       </div>
 
-      <div className={styles.textPW3R1}>
-        PW3R
+      <div className={styles.image1}>
+        <Image
+          src='/magazine/10/images/3738_image1.jpg'
+          width={272}
+          height={364}
+        />
       </div>
-      <div className={styles.textPW3R2}>
-        PW3R
+      <div className={styles.image2}>
+        <Image
+          src='/magazine/10/images/3738_image2.jpg'
+          width={272}
+          height={363}
+        />
       </div>
-      <div className={styles.textPW3R3}>
-        PW3R
-      </div>
-      <div className={styles.textPW3R4}>
-        PW3R
-      </div>
-      <div className={styles.textPW3R5}>
-        PW3R
-      </div>
-      <div className={styles.textPW3R6}>
-        PW3R
-      </div>
-      <div className={styles.textPW3R7}>
-        PW3R
-      </div>
-      <div className={styles.textPW3R8}>
-        PW3R
-      </div>
-      <div className={styles.textPW3R9}>
-        PW3R
-      </div>
-      <div className={styles.textPW3R10}>
-        PW3R
-      </div>
-      <div className={styles.textPW3R11}>
-        PW3R
-      </div>
-      <div className={styles.textPW3R12}>
-        PW3R
-      </div>
-      <div className={styles.textPW3R13}>
-        PW3R
-      </div>
-      <div className={styles.textPW3R14}>
-        PW3R
-      </div>
-
-      <div className={styles.text12}>
-        Pirate Web3 Radio
-      </div>
-      <div className={styles.text13}>
-        Pirate Web3 Radio
+      <div className={styles.image3}>
+        <Image
+          src='/magazine/10/images/3738_image3.jpg'
+          width={272}
+          height={362}
+        />
       </div>
     </div>
   )

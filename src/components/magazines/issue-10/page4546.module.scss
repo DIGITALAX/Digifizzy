@@ -4,25 +4,18 @@
   @include magazineWrapper();
   background-color: #000000;
 
-  .image1 {
+  .imageBackground {
     position: absolute;
-    width: 960px;
+    width: 1920px;
     height: 1497px;
     left: 0px;
     top: 0px;
-  }
-  
-  .image2 {
-    position: absolute;
-    width: 960px;
-    height: 1497px;
-    left: 960px;
-    top: 0px;
+    object-fit: cover;
   }
 
   .text1 {
     position: absolute;
-    width: 220px;
+    width: 347px;
     height: 70px;
     left: 26px;
     top: 148px;
@@ -49,18 +42,17 @@
     top: 43px;
     
     font-family: Stint Ultra Expanded;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
+    -webkit-text-stroke: 0.5px #FFFFFF;
   }
 
   .text3 {
     position: absolute;
-    width: 188px;
+    width: 215px;
     height: 85px;
-    left: 1702px;
+    left: 1675px;
     top: 18px;
     
     font-family: Poppins;
@@ -68,16 +60,16 @@
     font-weight: bold;
     font-size: 50px;
     line-height: 85px;
+
     text-align: right;
-    
-    color: #E28FFF;    
+    color: #E28FFF;
   }
 
   .text4 {
     position: absolute;
-    width: 303px;
+    width: 256px;
     height: 140px;
-    left: 1593px;
+    left: 1640px;
     top: 94px;
     
     font-family: Poppins;
