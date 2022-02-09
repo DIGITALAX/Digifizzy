@@ -7,154 +7,207 @@
   display: flex;
   position: relative;
 
+  .image1 {
+    position: absolute;
+    width: 899px;
+    height: 641px;
+    left: -123px;
+    top: -37px;
+  }
+
   .background {
     position: absolute;
     width: 1920px;
     height: 1497px;
     left: 0px;
-    top: 0px;    
+    top: 0px;
+    
+    background: linear-gradient(90deg, #FFDB5E 0%, rgba(94, 255, 158, 0.588542) 23.96%, rgba(241, 94, 244, 0.538496) 50.52%, rgba(94, 255, 216, 0.506113) 90.63%, #2548FF 100%);
   }
 
   .text1 {
     position: absolute;
-    width: 828px;
-    height: 100px;
-    left: 40px;
-    top: 366px;
+    width: 471px;
+    height: 387px;
+    left: 29px;
+    top: 544px;
     
-    font-family: Nanum Brush Script;
-    font-size: 83px;
-    line-height: 120.53%;
-    
-    text-align: center;
-    
-    color: #FFFFFF;        
+    font-family: Jost;
+    font-size: 25px;
+    line-height: 100%;
+    color: #000000;
   }
 
   .text2 {
     position: absolute;
-    width: 828px;
-    height: 100px;
-    left: 40px;
-    top: 433px;
-
-    font-family: Nanum Brush Script;
-    font-size: 83px;
-    line-height: 120.53%;
+    width: 476px;
+    height: 387px;
+    left: 29px;
+    top: 1065px;
     
-    text-align: center;
-    
-    color: #FFFFFF;    
+    font-family: Jost;
+    font-size: 25px;
+    line-height: 100%;
+    color: #000000;
   }
 
   .text3 {
     position: absolute;
-    width: 828px;
-    height: 100px;
-    left: 40px;
-    top: 501px;
-
-    font-family: Nanum Brush Script;
-    font-size: 83px;
-    line-height: 120.53%;
+    width: 394px;
+    height: 387px;
+    left: 528px;
+    top: 23px;
     
-    text-align: center;
-    
-    color: #FFFFFF;    
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 100%;
+    color: #2400FF;
   }
 
   .text4 {
     position: absolute;
-    width: 828px;
-    height: 224px;
-    left: 40px;
-    top: 631px;
+    width: 394px;
+    height: 387px;
+    left: 528px;
+    top: 604px;
     
-    font-family: Nanum Brush Script;
-    font-size: 23px;
-    line-height: 120.53%;
-    color: #FFFFFF;    
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 100%;
+    color: #2400FF;
   }
 
   .text5 {
     position: absolute;
-    width: 914px;
-    height: 280px;
-    left: 40px;
-    top: 889px;
+    width: 887px;
+    height: 387px;
+    left: 1002px;
+    top: 23px;
     
-    font-family: Nanum Brush Script;
-    font-size: 23px;
-    line-height: 120.53%;
-    color: #FFFFFF;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 100%;
+    color: #DB00FF;
   }
 
-  .text6 {
+  .link1 {
     position: absolute;
-    width: 675px;
-    height: 216px;
-    left: 262px;
-    top: 1201px;
+    width: 466px;
+    height: 241px;
+    left: 29px;
+    top: 0px;
     
-    font-family: Nanum Brush Script;
-    font-size: 20px;
+    font-family: MedievalSharp;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 200px;
     line-height: 120.53%;
-    color: #FFFFFF;
+    text-align: center;
+    
+    color: #0038FF;  
   }
 
-  .text7 {
+  .link2 {
     position: absolute;
-    width: 601px;
-    height: 308px;
-    left: 924px;
-    top: 376px;
+    width: 466px;
+    height: 241px;
+    left: 29px;
+    top: 203px;
     
-    font-family: Nanum Brush Script;
-    font-size: 23px;
+    font-family: MedievalSharp;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 200px;
     line-height: 120.53%;
-    color: #FFFFFF;
+    text-align: center;
+    
+    color: #0038FF;
   }
 
-  .text8 {
+  .image2 {
     position: absolute;
-    width: 513px;
-    height: 456px;
-    left: 986px;
-    top: 699px;
-    
-    font-family: Nanum Brush Script;
-    font-size: 20px;
-    line-height: 120.53%;
-    
-    color: #FFFFFF;
+    width: 300px;
+    height: 375px;
+    left: 1002px;
+    top: 575px;    
   }
 
-  .text9 {
+  .image3 {
     position: absolute;
-    width: 513px;
-    height: 264px;
-    left: 986px;
-    top: 1186px;
-    
-    font-family: Nanum Brush Script;
-    font-size: 20px;
-    line-height: 120.53%;
-    color: #FFFFFF;    
+    width: 510px;
+    height: 467px;
+    left: 1335px;
+    top: 558px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 111px;
+    height: 192px;
+    left: 528px;
+    top: 1286px;        
+  }
+
+  .image5 {
+    position: absolute;
+    width: 111px;
+    height: 192px;
+    left: 662px;
+    top: 1286px;
+    opacity: 60%;
+  }
+
+  .image6 {
+    position: absolute;
+    width: 111px;
+    height: 192px;
+    left: 796px;
+    top: 1286px;
+    opacity: 30%;
   }
 
   a {
-    transition: 0.3s all;
-    &:hover {
+    div {
+      cursor: pointer;
       transition: 0.3s all;
-      transform: scale(0.9);
+
+      &:hover {
+        transition: 0.3s all;
+        transform: scale(1.1);
+      }
     }
   }
 
-  .image1 {
+  .video1 {
     position: absolute;
-    width: 262px;
-    height: 262px;
-    left: 0px;
-    top: 1235px;    
+    width: 389px;
+    height: 495px;
+    left: 999px;
+    top: 950px;
+    object-fit: cover;
+  }
+
+  .video2 {
+    position: absolute;
+    width: 251px;
+    height: 396px;
+    left: 1401px;
+    top: 1049px;
+    object-fit: cover;
+  }
+
+  .video3 {
+    position: absolute;
+    width: 254px;
+    height: 348px;
+    left: 1666px;
+    top: 1049px;
+    object-fit: cover;
   }
 }

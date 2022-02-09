@@ -6,42 +6,97 @@ const CoverPage = () => (
   <div className={styles.wrapper}>
     <div className={styles.imageBackground}>
       <Image
-        src='/magazine/9/images/frontcover_background.jpg'
+        src='/magazine/10/images/frontcover_background.png'
         width={960}
         height={1497}
       />
     </div>
     <div className={styles.image1}>
       <Image
-        src='/magazine/9/images/frontcover_image1.png'
-        width={267}
-        height={344}
+        src='/magazine/10/images/frontcover_image1.png'
+        width={496}
+        height={368}
       />
+    </div>
+    <div className={styles.image2}>
+      <Image
+        src='/magazine/10/images/frontcover_image1.png'
+        width={496}
+        height={368}
+      />
+    </div>
+    <div className={styles.image3}>
+      <Image
+        src='/magazine/10/images/frontcover_image1.png'
+        width={496}
+        height={368}
+      />
+    </div>
+    <div className={styles.image4}>
+      <Image
+        src='/magazine/10/images/frontcover_image1.png'
+        width={496}
+        height={368}
+      />
+    </div>
+    <div className={styles.image5}>
+      <Image
+        src='/magazine/10/images/frontcover_image1.png'
+        width={496}
+        height={368}
+      />
+    </div>
+    <div className={styles.image6}>
+      <Image
+        src='/magazine/10/images/frontcover_image1.png'
+        width={496}
+        height={368}
+      />
+    </div>
+    <div className={styles.image7}>
+      <Image
+        src='/magazine/10/images/frontcover_image1.png'
+        width={496}
+        height={368}
+      />
+    </div>
+    <div className={styles.imageIssueNo}>
+      <Image
+        src='/magazine/10/images/frontcover_issueNo.png'
+        width={239}
+        height={250}
+      />
+    </div>
+    <div className={styles.text1Shadow}>
+      The Great Game to Change the Game: A New Model
     </div>
 
     <div className={styles.text1}>
-      Open Pose Galleries for the New Runway 
+      The Great Game to Change the Game: A New Model
     </div>
     <div className={styles.text2}>
-      NYC Indie Fashion Boutiques
+      Astro Aggy & Creative Empowerment
     </div>
     <div className={styles.text3}>
-      Arcade & NFT Lending
+      CRYPTO <br /><br />IN
     </div>
     <div className={styles.text4}>
-      Open Source Avatars
+      COLUMB I A
     </div>
     <div className={styles.text5}>
-      Realm runway #! nyc
+      NIFTY ISLAND. NIFTY ISLAND. NIFTY ISLAND.
+    </div>
+    <div className={styles.text6Shadow}>
+      Chainsafe & Unity x NFT Plugins
     </div>
     <div className={styles.text6}>
-      ZK ROLLUPSL2
+      Chainsafe & Unity x NFT Plugins
     </div>
     <div className={styles.text7}>
-      Audio Visual Experiences with No Fun Studios
+      Unbundling P2E & it’s derivatives.
     </div>
     <div className={styles.text8}>
-      The Infinite Runway, Models & Kinesthetics
+      Open Source Gaming & Web3 Incentives. 
     </div>
     <div className={styles.text9}>
       DIGIFIZZY
@@ -53,10 +108,10 @@ const CoverPage = () => (
       DIGIFIZZY
     </div>
     <div className={styles.text12}>
-      Issue Nine
+      Issue Ten
     </div>
     <div className={styles.text13}>
-      Issue Nine
+      Issue Ten
     </div>
   </div>
 )

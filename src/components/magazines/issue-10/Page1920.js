@@ -7,7 +7,7 @@ const Page1920 = () => (
     <div className={styles.rect2} />
 
     <img src='./magazine/7/images/1920_image1.png' className={styles.image1} />
-    <img src='./magazine/9/images/1920_image1.png' className={styles.image2} />
+    <img src='./magazine/10/images/1920_image1.png' className={styles.image2} />
 
     <h1>
       RUG
@@ -17,53 +17,49 @@ const Page1920 = () => (
     </h1>
 
     <div className={styles.text1}>
-      No more middlemen. 
+      Mechanical hand to the mechanical turk.
     </div>
     <div className={styles.text2}>
-      Where does the value come from?
+      When will be straight out play the cards?
     </div>
     <div className={styles.text3}>
-      Munchausen syndrome by proxy (MSBP) or Agents by Proxy, isn’t it scary that we can have that in the same sentence? 
+      Round after round after round after round, these scams keep coming back like hyper leveraged empty plays.
     </div>
     <div className={styles.text4}>
-      The Agent by Proxy RugPull
+      The Invisible Hand RugPull
     </div>
     <div className={styles.text5}>
-      They pretend that they will look out for you and guide you through difficult times to help you accomplish great things. They pretend that it is all about you, that they are there for you for anything that is needed. They pretend they have the insight to keep you out of harm’s way. 
+      When Zuck renamed Facebook to Meta, was it really that much of a surprise? I mean, FB has been experimenting with the likes of VR and other immersive content infrastructure and tools since as early as 2014 with the purchase of Oculus. And, for anyone who’s been even remotely involved within the VR industry, as a player or creator, is all too familiar with the rampant privacy and data collection violations that are intrinsically inherent to the ad targeting and data exploitation business model that facebook and other big tech employ.
       <br /><br />
-      But really, they are engaged in a kind of pick pocket performance, hoping that you will fall deeper into needing them so that they can gain more power and control. Are we talking about Munchausen syndrome by proxy (MSBP), or the usual agent and agency game? 
+      The rugpull comes with some of the supposed web3 community and decentralisation advocates being all too comfortable with siding with and cosing up to Meta, at the expense of the metaverse, driven more by the potential for near guaranteed wealth, than any web3 or open metaverse principles.
     </div>
     <div className={styles.text6}>
-      It says a lot that it is hard to tell the difference. Both hijacking lives to feed obscure motives that are hiding behind shadows. 
+      I’m sure when you’ve logged on to crypto twitter you’ve seen some tweets about THE metaverse, as opposed to select others feeling all too comfortable refering to it as “XYZ’s metaverse”. It might sound like a slight linguistic divergence, but actually it’s in fact the difference maker between an open decentralised metaverse that everyone can access without permission, compared to one that is controlled top down by a centralised tyrant or oligarchy of tyrants. 
       <br /><br />
-      Sure, one is a very serious medical condition that harms very clearly everyone involved, and, for the agency model that is where this comparison breaks down, because, it is very rare when agents that pedal the sweet falsehood that they are indispensable and deserve the majority of the credit for your work, for them to not get away with it. 
+      There is only one metaverse with many realms. Not many metaverses each as their own silos, cut off from each other, acting as chokepoints on the potential for truly creator and player generated co-owned web3 economies. 
       <br /><br />
-      Most of the time, creative talent is all to ready to believe that there is simply no other way. They’ve been handled a Devil’s bargain, and told to play. 
+      FB & the rest of the IP cartel depend on our acceptance of them as intermediaries in the role of Moody’s during the Global Financial Crisis –– the 3rd party arbiters of social status truth. 
       <br /><br />
-      Really, what web3 does, is give any creator the fiddle to make the bargainer dance long enough to come up with a Kobayashi Maru.  
+      We, the users of social networks and content streaming platforms are tired of being used as ad targeted products. But what alternative do we have?
       <br /><br />
-      To bring more light to the ridiculous tales these agents by proxy tell, we can share a short walk through a recent experience.
+      We can fight back. It’s something that we do and something that is already being done. 
       <br /><br />
-      Imagine, for no particular reason, a possibly, but won’t guarantee, trust fund guilded penthouse in Chelsea, filled to the brim with your usual cookie cutter neo hipster, think they evented it even, creative posturing vibes. 
+      FAANG & the IP cartels are moving hard into the idea of the “metaverse” (as they see it), not just because they believe it will give them richer data fields to mine. It’s because they’re losing control of us as users, customers, and the steady supply of capital they get from selling us as representational units of property (our data included).
       <br /><br />
-      And now, of course, with all of the nanoseconds of prior life experience and ability to sympathise and empathise one bit with the people they are setting out to help, they have decided magnaminously to start the best ever agency.  
-      <br /><br />
-      But, dear reader, you guessed it, not just any agency, it’s a super special never before seen, even though yes we’ve seen it, NFT Web3 all the metaverse things agency that is going to take you and the world by storm. 
+      No matter how many nice things they might say 
     </div>
     <div className={styles.text7}>
-      Did I ask them what they were smoking, how drunk or high they were on something else, or, did I wisely save my breath? 
+      about Apes and Punks and immersive 3d environments, they can’t afford to be sincere. Web3 opens the chokepoints on content creation and the free exchange of value between us. 
       <br /><br />
-      It went something like “blah, blah, blah... listen to how cool we are... check out this cool place that we didn’t pay for... blah blah blah... we aren’t going to be exploitative... blah... 1% for every creator involved!!!”. 
+      In this world, what’s real is the record of what we agree to. Whoever controls those records can change them, manufacturing our histories and the reality of our agreements along with them. With that much incentive to use power for whatever you think is the greatest good, would you be able to stop yourself from abusing it?
       <br /><br />
-      I swear sometimes I wonder if spontaneous combustion is real. Because all I want to do is go boom. 
+      In case you haven’t read it, the most interesting thing about Snow Crash isn’t actually the metaverse. It’s the idea virus delivered through bitmap image data within it. An image of an idea spreads to the root of our minds, and through it into physical contagion IRL. A full digital-physical bridge. 
       <br /><br />
-      This one really got me, the sad thing though is if these might as well be fictional people, who might also be all too real ever read this, no one, including them or me, will be able to know if this song was about them. 
+      While this idea to physical reality bridge is itself just an idea, it’s also analog to how web3 gives us everything we need to make property real, inalienable and self-evident. By extension it’s how we build the real metaverse on the open foundation of web3, and why the IP cartels are running scared of their slow motion collapse.  
       <br /><br />
-      They are carbon copies throughout every part of this city and every city rushing to be the same and be cool like them. 
+      We’re here to stand up and capitalize the real metaverse: where we can do more than just sit back, jack in, mock Zuck, and watch. 
       <br /><br />
-      What’s really wonderful about web3 in this life, is about how much of palette cleanser it is, delivering better everyday a complete lack of need to spend time with people like this, or, have them manage and control your money, your creativity and your life. 
-      <br /><br />
-      Good luck learning how to create anything for yourself. 
+      Thanks to web3 –– advancing the decentralization of power, social coordination, and capital at a scale never before possible –– the massively multiplayer battle to shape and open the metaverse has begun. 
     </div>
   </div>
 )

@@ -45,6 +45,7 @@ const goolgeFonts = [
   'Averia+Libre',
   'Averia+Serif+Libre',
 
+  'Bad+Script:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
   'Baloo+Bhai+2:wght@700',
   'Baloo+Chettan+2',
   'Baloo+Chettan+2:wght@700',
@@ -1863,6 +1864,11 @@ class MyDocument extends Document {
             @font-face {
               font-family: "Bruno Ace";
               src: url("./fonts/Bruno Ace Regular.ttf");
+            }
+            
+            @font-face {
+              font-family: "Lao MN";
+              src: url("./fonts/Lao MN.ttc");
             }
           `
             }}

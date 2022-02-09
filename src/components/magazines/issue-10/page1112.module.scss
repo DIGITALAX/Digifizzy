@@ -5,44 +5,119 @@
   display: flex;
   position: relative;
   color: #FFFFFF;
+  background-color: #5667FF;
   
   .image1 {
     position: absolute;
-    width: 214px;
-    height: 1478px;
-    left: 12px;
-    top: 0px;
+    width: 819px;
+    height: 1146px;
+    left: 1055px;
+    top: 387px;
   }
 
   .image2 {
     position: absolute;
-    width: 199;
-    height: 1478px;
-    right: 0px;
-    top: 0px;
+    width: 186px;
+    height: 186px;
+    left: 1601px;
+    top: 368px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 186px;
+    height: 186px;
+    left: 1601px;
+    top: 581px;
   }
 
   .text1 {
     position: absolute;
-    width: 622px;
-    height: 1204px;
-    left: 281px;
-    top: 120px;
+    width: 739px;
+    height: 91px;
+    left: 120px;
+    top: 72px;
     
-    font-family: Redressed;
-    font-size: 38px;
-    line-height: 45px;
+    font-family: Arial Black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 100%;
+    color: #000000;
   }
 
   .text2 {
     position: absolute;
-    width: 622px;
-    height: 1204px;
-    left: 1066px;
-    top: 120px;
+    width: 742px;
+    height: 1084px;
+    left: 120px;
+    top: 254px;
     
-    font-family: Redressed;
-    font-size: 38px;
-    line-height: 45px;
+    font-family: Arial Black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 100%;
+    color: #000000;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 669px;
+    height: 270px;
+    left: 1055px;
+    top: 87px;
+    
+    font-family: Arial Black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 100%;
+    color: #000000;    
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 842px;
+    height: 1406px;
+    left: 68px;
+    top: 45px;
+    border: 5px solid #000000; 
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 842px;
+    height: 1406px;
+    left: 1011px;
+    top: 45px;
+    border: 5px solid #000000; 
+  }
+
+  .line1 {
+    position: absolute;
+    width: 842px;
+    height: 5px;
+    left: 1011px;
+    top: 874px;
+    background-color: #000000;
+  }
+
+  .line2 {
+    position: absolute;
+    width: 842px;
+    height: 5px;
+    left: 1011px;
+    top: 1074px;
+    background-color: #000000;
+  }
+
+  .line3 {
+    position: absolute;
+    width: 842px;
+    height: 5px;
+    left: 1011px;
+    top: 1274px;
+    background-color: #000000;
   }
 }

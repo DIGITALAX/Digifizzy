@@ -6,32 +6,47 @@ const Page1112 = () => (
   <div className={styles.wrapper}>
     <div className={styles.image1}>
       <Image
-        src='/magazine/9/images/1112_image1.png'
-        width={214}
-        height={1497}
+        src='/magazine/10/images/1112_image1.png'
+        width={819}
+        height={1146}
       />
     </div>
     <div className={styles.image2}>
       <Image
-        src='/magazine/9/images/1112_image2.png'
-        width={199}
-        height={1497}
+        src='/magazine/10/images/0708_image3.png'
+        width={125}
+        height={125}
+      />
+    </div>
+    <div className={styles.image3}>
+      <Image
+        src='/magazine/10/images/0708_image3.png'
+        width={125}
+        height={125}
       />
     </div>
     <div className={styles.text1}>
-      Digital fashion is no longer just apparel items our virtual selves wear–they have just as much become indicators of status, clout, and the tribe you belong in, while offering a backstage pass to a universe of events, spaces, and fully immersive experiences.
-      <br /><br />
-      The composability of NFTs have enabled them to evolve, gain more utility, and functional value, as the cultures of the environments they inhabit develop their unique contexts. Constant tinkering and experimentation with unlockable content and nested experiences have taken NFTs to a whole new level. We’re seeing the shift from the first iteration of static NFTs towards the next step of crafting our virtual realities: leveraging composability to create complex and evolving digital items that serve more than just PFPs.
-      <br /><br />
-      Thanks to oracles, for instance, NFTs have gone far beyond just the static jpegs most people know about. The ability to connect NFTs to data hosted off-chain creates a multitude of tantalizing applications. NFTs have enabled creators to freely compose items with unlockable content to make the NFT significantly more valuable than ever.       
+      It’s not just another iteration of an ultimately extractive “metaverse” run by the whim of whales and those with the capital to throw around. 
     </div>
     <div className={styles.text2}>
-      Charged Particles, for instance, has developed dynamic content that allows creators to constantly add new files, tokens, and assets inside NFTs; from ERC-20 tokens, ERC-721 and ERC-1155 NFT standards, governance tokens, liquidity pool tokens, and interest-bearing tokens can all be added, providing the essential conditions for more flexibility and creative freedom. We’re seeing the potential of NFTs whose characteristics evolve subject to time or event-driven requirements, directly connected to the real and virtual worlds as they happen. 
+      Who wants a metaverse where its participants are reduced to real estate brokers selling a piece of virtual land. Virtual land that was expressly made for the corporate fat cats and their murder of lawyers to market to? One that exists for the benefit of gatekeepers rubbing their grubby hands at the filthy lucre they stand to gain from the money that will undoubtedly plow into the metaverse economy–regardless of who wins the race to define what it really is.
       <br /><br />
-      Sidechains like Polygon have also contributed massively to achieve complex use cases. What once were prohibitively huge barriers to entry in the form of high gas fees have significantly been reduced, allowing creators greater freedom than ever to create brand experiences and create ownables with robust features.
+      Nevertheless, Nifty Island is proving this model out. Nifty Island rewards the creators, builders, artisans, and risk-takers of the new digital era an opportunity to create wealth through the creation of value. It’s not just the value of the parcels of virtual islands with heavy traffic that will benefit (from the platform’s to-be-released native token). It’s the individuals actively taking the time to build who are strongly incentivized to create, move fast, break things, create network effects, and therefore generate clout in web3–which is more than its weight than anything in this space.
       <br /><br />
-      The next level down the digital fashion rabbit hole is going to be exciting. Grab yourself a ticket.
+      Clout attracts creators and new participants in the ecosystem–each of which brings their own unique value proposition to the worlds they choose to inhabit.
+      <br /><br />
+      Therefore, the striking difference between the first generation and the new one is how they incentivize their users to create genuine, tangible economic and social value for every participant who chooses to spend their time living their digital life in that particular world. 
     </div>
+    <div className={styles.text3}>
+      Time is, after all, the final currency. Who wants to live in the shadow of the terrifying prospect of a Zuckerverse? Why even spend a single second living in a digital, dystopian fantasy of a virtual world that exists solely for faceless corporations and web2 also-rans to advertise to?
+    </div>
+
+    <div className={styles.rect1}></div>
+    <div className={styles.rect2}></div>
+
+    <div className={styles.line1}></div>
+    <div className={styles.line2}></div>
+    <div className={styles.line3}></div>
   </div>
 )
 

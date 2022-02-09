@@ -4,10 +4,10 @@ import styles from './page12.module.scss'
 const Page12 = () => (
   <div className={styles.wrapper}>
     <h1>
-      POSE
+      GAME
     </h1>
     <div className={styles.text1}>
-      Ellipsis | The pull between movement and position says more than we can with just images and words. 
+      Hyphen  | Composable open units of space that can be programmed to transform and reshape overtime. They directly embed both non-fungible and fungible containers of value for inter-realm utility and access, where the content space itself has timestamped provenance and decentalised ownership. 
     </div>
     <div className={styles.text2}>
       {/* Metaversal Cities */}

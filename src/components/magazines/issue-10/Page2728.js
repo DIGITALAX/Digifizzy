@@ -4,110 +4,53 @@ import styles from './page2728.module.scss'
 
 const Page2728 = () => (
   <div className={styles.wrapper}>
+    <div className={styles.image1}>
+      <Image
+        src='/magazine/10/images/2324_image1.jpg'
+        width={1016}
+        height={1497}
+      />
+    </div>
+    <div className={styles.image2}>
+      <Image
+        src='/magazine/10/images/2324_image1.jpg'
+        width={1016}
+        height={1497}
+      />
+    </div>
+    <div className={styles.image3}>
+      <Image
+        src='/magazine/10/images/2324_image1.jpg'
+        width={1016}
+        height={1497}
+      />
+    </div>
+    <div className={styles.image4}>
+      <Image
+        src='/magazine/10/images/2324_image1.jpg'
+        width={1016}
+        height={1497}
+      />
+    </div>
+
     <div className={styles.text1}>
-      Pose libraries enable creators to animate the virtual avatars and equip them with the entire gamut of enhanced kinesthetics, enabling greater depth for biological experimentation.
+      We can have an infinity of metaverse spaces we ALL can live in–not just anyone who can fork over the most.
       <br /><br />
-      The focus is back on the models that inhabit the metaverse–and how the tools progress the noble cause of web3 are enabling creators to utilize decentralized technology combining the physical and the digital realms to further enhance and recreate the same kinesthetics and unspoken language through the use of pose libraries for the next paradigm shift about to happen. 
-    </div>
-
-    <div className={styles.imageTicket1}>
-      <Image
-        src='/magazine/9/images/2324_image1.png'
-        width={248}
-        height={127}
-      />
-    </div>
-    <div className={styles.imageTicket2}>
-      <Image
-        src='/magazine/9/images/2324_image1.png'
-        width={248}
-        height={127}
-      />
-    </div>
-    <div className={styles.imageTicket3}>
-      <Image
-        src='/magazine/9/images/2324_image1.png'
-        width={248}
-        height={127}
-      />
-    </div>
-    <div className={styles.imageTicket4}>
-      <Image
-        src='/magazine/9/images/2324_image1.png'
-        width={248}
-        height={127}
-      />
-    </div>
-    <div className={styles.imageTicket5}>
-      <Image
-        src='/magazine/9/images/2324_image1.png'
-        width={248}
-        height={127}
-      />
-    </div>
-    <div className={styles.imageTicket6}>
-      <Image
-        src='/magazine/9/images/2324_image1.png'
-        width={248}
-        height={127}
-      />
-    </div>
-    <div className={styles.imageTicket7}>
-      <Image
-        src='/magazine/9/images/2324_image1.png'
-        width={248}
-        height={127}
-      />
-    </div>
-    <div className={styles.imageTicket8}>
-      <Image
-        src='/magazine/9/images/2324_image1.png'
-        width={248}
-        height={127}
-      />
-    </div>
-    <div className={styles.imageTicket9}>
-      <Image
-        src='/magazine/9/images/2324_image1.png'
-        width={248}
-        height={127}
-      />
-    </div>
-    <div className={styles.imageTicket10}>
-      <Image
-        src='/magazine/9/images/2324_image1.png'
-        width={248}
-        height={127}
-      />
-    </div>
-    <div className={styles.imageTicket11}>
-      <Image
-        src='/magazine/9/images/2324_image1.png'
-        width={248}
-        height={127}
-      />
-    </div>
-    <div className={styles.imageTicket12}>
-      <Image
-        src='/magazine/9/images/2324_image1.png'
-        width={248}
-        height={127}
-      />
-    </div>
-
-    <div className={styles.imageTicket13}>
-      <Image
-        src='/magazine/9/images/2324_image1.png'
-        width={248}
-        height={127}
-      />
-    </div>
-    <div className={styles.imageTicket14}>
-      <Image
-        src='/magazine/9/images/2324_image1.png'
-        width={248}
-        height={127}
-      />
+      We’re building in web3 so we can replace all those flawed systems. Why should virtual land be limited to being a base layer for private land ownership when it can be so much more than just another boring real estate play that’s strictly worse than the existing paradigm anyway?
+      <br /><br />
+      Approaching virtual land based on an IRL property regime is probably looking at virtual land the wrong way. Besides, with the multitude of virtual worlds out there, how can we attach our identities to the parcels of digital land we own?
+      <br /><br />
+      Well, the Ethereum Name Service (ENS) just might have the answer. ENS, which basically serves as an entity’s digital identity in the metaverse, has come across as potentially a solution to coordinating ownership of virtual land across the realms they might exist in and mapping them in an organized, easily iterable fashion.
+      <br /><br />
+      And just as domain names became the undisputed virtual land of the web1 era, the same future just might play out in web3.
+      <br /><br />
+      ENS has supported custom text fields since last October, which are basically arbitrary records that can store any data without adding new types for new use cases–virtual land included.
+      <br /><br />
+      Besides, addresses are much simpler to organize, significantly more composable, and data–including virtual spaces–can be layered on top of it in various ways. Therefore, everything you wish to register–land included–can be done using ENS.
+      <br /><br />
+      And just as web1 domains were, ENS can very well be on the cusp of becoming a fundamental element of the open and decentralized metaverse.
+      <br /><br />
+      We’ve already lost the shackles that restrain us from enjoying the privilege of true, unbridled ownership of whatever it is we wish to own in the metaverse. Why put them back on for the lack of imagination?
     </div>
   </div>
 )

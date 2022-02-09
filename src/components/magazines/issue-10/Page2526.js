@@ -5,37 +5,52 @@ import styles from './page2526.module.scss'
 const Page2526 = () => {
   return (
     <div className={styles.wrapper}>
-      <div className={styles.text1}>
-        Professional models will know the experience of harnessing the power of the pose (or the pout). Heidi Klum was also once a beginner–beginners in the modeling industry know that they must understand their best angles to make the most money. And there’s no other way to find out what a model’s best angles are than by understanding their bodies and by constantly practicing how to get the most flattering shot. 
-        <br /><br />
-        Female supermodels are exhorted to give off the appearance of looking tall, create the illusion that their limbs and torso are longer and more flattering than they really are, and make their faces look more taut and well-defined in photographs than they might be in real life.
-        <br /><br />
-        Men, on the other hand, are encouraged to give off an aura of natural confidence to create the best impressions for the products that they wear. What painstaking lengths models go to in the name of fashion…and it is only right to do so, because the lens will inevitably find and amplify the least flattering of our body parts, regardless of how well you angle yourself. 
-        <br /><br />
-        And it’s a propos, now that our physical selves have begun to intertwine with our virtual selves, and as the lines between our avatars and ourselves blur, that we take a look at how the same skill and art that modeling and posing by extension entail–and the significance that they give to the messages that they convey.
+      <div className={styles.image1}>
+        <Image
+          src='/magazine/10/images/2324_image1.jpg'
+          width={1016}
+          height={1497}
+        />
+      </div>
+      <div className={styles.image2}>
+        <Image
+          src='/magazine/10/images/2324_image1.jpg'
+          width={1016}
+          height={1497}
+        />
+      </div>
+      <div className={styles.image3}>
+        <Image
+          src='/magazine/10/images/2324_image1.jpg'
+          width={1016}
+          height={1497}
+        />
+      </div>
+      <div className={styles.image4}>
+        <Image
+          src='/magazine/10/images/2324_image1.jpg'
+          width={1016}
+          height={1497}
+        />
       </div>
 
-      {
-        Array(36).fill(0).map((item, index) => (
-          <div
-            key={index}
-            style={{
-              position: 'absolute',
-              left: (index % 3) * 248,
-              top: 1 + Math.trunc(index / 3) * 127,
-              width: 248,
-              height: 127
-            }}
-          >
-            <Image
-              src='/magazine/9/images/2324_image1.png'
-              width={248}
-              height={127}
-            />
-          </div>
-        ))
-      }
-      
+      <div className={styles.text1}>
+        Digital real estate is fast appreciating in prices just as new, uncharted virtual realms emerge from the fertile soil of web3. We’ve seen digital property prices across metaverses like Decentraland and their ilk as metaverse mania runs wild on the tech news cycle.
+        <br /><br />
+        Much of the discussion centers on how virtual land made artificially scarce by their founders and operators has appreciated in value as speculation over the metaverse gravy train intensifies. Which non-fungible tokenized real estate sells for hundreds of thousands to “metaverse real estate agencies” and “landlords” all seeking to flip it to the next newcomer for a hot profit? That’s where the media coverage is. Money talks, media listens.
+        <br /><br />
+        But is this all that there really is for digital property? 
+        <br /><br />
+        A healthy dose of skepticism is always necessary amidst all the hopium and fud the space thrives on.
+        <br /><br />
+        Is ownership of virtual real estate a zero-sum game of speculation and amassing capital as what we are now being led to believe?
+        <br /><br />
+        There are already enough issues with owning private property for most of the millennials and zoomers who have been royally fucked over by the system. Are we really going to do the same thing for a reality as expansive and all-encompassing as the metaverse?
+        <br /><br />
+        How can it be that something as infinite and as limitless as the open metaverse is limited to just 90,000 plots of land? Or a variation thereof, depending on which virtual world you wish to settle and live in?
+        <br /><br />
+        How many pitches have you heard of new protocols whose sole modus vivendi is centered on being sold the fantasy of becoming some sort of digital landlord? Quite frankly, most of them do. We already see a pivot from this angle with projects like Nifty Island, where everyone–EVERYONE can build their on their virtual island, build it, and attract individuals who actually wish to live in it, rather than some marketing-and-billboard infested phantasmagoric hogwash simulating the flawed, extractive model of physical real estate’s property regime. 
+      </div>
     </div>
   )
 }

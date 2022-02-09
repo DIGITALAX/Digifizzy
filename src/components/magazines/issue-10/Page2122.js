@@ -5,67 +5,97 @@ import styles from './page2122.module.scss'
 const Page2122 = () => {
   return (
     <div className={styles.wrapper}>
-      <div className={styles.background}>
+      <div className={styles.image1}>
         <Image
-          src='/magazine/9/images/2122_background.jpg'
-          width={1920}
-          height={1497}
+          src='/magazine/10/images/2122_image1.png'
+          width={899}
+          height={641}
         />
       </div>
+      <div className={styles.background}></div>
 
       <a
-        className={styles.text1}
-        href='https://twitter.com/metaversephd'
+        href='https://twitter.com/ItzAggy'
         target='_blank'
       >
-        Summoner DAO w/ Founder GC
+        <div className={styles.link1}>
+          Aggy
+        </div>
       </a>
       <a
-        className={styles.text2}
-        href='https://twitter.com/metaversephd'
+        href='https://twitter.com/ItzAggy'
         target='_blank'
       >
-        Summoner DAO w/ Founder GC
+        <div className={styles.link2}>
+          Aggy
+        </div>
       </a>
-      <a
-        className={styles.text3}
-        href='https://twitter.com/metaversephd'
-        target='_blank'
-      >
-        Summoner DAO w/ Founder GC
-      </a>
+
+      <div className={styles.text1}>
+        As a creator, I've been creating from the moment I started playing with toys. But for about 3 years I've been modeling, recently started posting on tik tok vlogs, my knowledge on divination and spirituality while doing makeup or modeling outfits, and I plan on having a service where I give guidance with divination.
+        <br /><br />
+        I had to learn the importance of creative expression and empowerment the hard way through dancing because as someone who struggles with expressing and releasing my emotions, I used to unknowingly express and release everything through dancing until one day, it hit me. If dancing can change the way I feel and think, imagine what dancing, modeling, acting, etc. can do to others? But it'll only have a genuine impact when authenticity is in place.
+      </div>
+      <div className={styles.text2}>
+        In middle school, I met my best friend, Amilta who created content with me during our middle and highschool years on youtube. We first started with uploading gaming videos on YouTube and live-streaming on Shou. By constantly streaming on Shou, I had way more views and felt like I was famous at one point because I found my community of gamers way faster than I did on YouTube. Fast forward to highschool, Amilta and I created a whole new YouTube where we post vlogs, tutorials, makeup, etc. But as high schoolers during the time we didn't stick with it but it did teach me that I don't have to stick to one creative idea forever like a job because all types of creation correlate with one another.        
+      </div>
+      <div className={styles.text3}>
+        In middle school, I met my best friend, Amilta who created content with me during our middle and highschool years on youtube. We first started with uploading gaming videos on YouTube and live-streaming on Shou. By constantly streaming on Shou, I had way more views and felt like I was famous at one point because I found my community of gamers way faster than I did on YouTube. Fast forward to highschool, Amilta and I created a whole new YouTube where we post vlogs, tutorials, makeup, etc. But as high schoolers during the time we didn't stick with it but it did teach me that I don't have to stick to one creative idea forever like a job because all types of creation correlate with one another.        
+      </div>
       <div className={styles.text4}>
-        I would say I have been in web3 since 2014.  I was fortunate enough to have been brought into the concepts and ideals of web3 through libertarian connections.  Few people appreciate that some of the waves of early adopters of Bitcoin and web3 intersect directly with this movement in the US.  The idea of decentralized value, money that could never be taken away from by force was very attractive to me because of these beliefs and was my strongest reason for holding up to and until this day.  I would suggest that even in a world of Ethereum, Bitcoin matters, and will continue to provide an important bulwark of liquidity and value storage given its security and wide decentralization.  I have seen DeFi and NFTs since early 2018, and personally involved myself in these spaces in 2020 and 2021 respectively. 
+        Towards the middle of 2019, I started to see signs of spirituality and divination. But I never really got into it until Dec. 2019 where 2 not so great things happened in my life but it made me meditate to the universe for clarification on whether or not things will be okay and the universe spoke to me. When I started studying and practicing astrology and tarot, I just used it for myself and friends until the end of 2020 i decided to quit my job to go full self employed with divination, that was scary but I Iloved guiding people on this thing we call life way more than being a cashier because I got to genuinely connect with others and work with them not for them. one main thing I learned on this journey is that do what YOU want to do, you’re the one living this look at this world, you’re the director, the main character in the movie, game, show, whatever.         
       </div>
       <div className={styles.text5}>
-        My “aha” moment was what we’re doing now seeing massive amounts of regulatory action against major DeFi protocols providing simple services.  We all see and recognize how decentralized money has attractive massive amounts of capital as a solution to flaw in a world of centralized money.  Many of high valued protocols have failed to achieve meaningful decentralization, and this is something that will eventually drag on their performance as investments in the long term once these inherent flaws bring devaluation.  I would argue that if they cannot sufficiently decentralize soon enough, they will lose some of their core tenants making them permissionless. I would argue that the current instance of the “Curve Wars” is another proof of how a truly decentralized ecosystem can attract value capture within the DeFi space.  If Curve were a centralized entity, where emissions could be directed by some kind of “board” or slew of early investors, then the wars we see today would involve massive lobbying campaigns behind closed doors.   
-      </div>
-      <div className={styles.text6}>
-        SummonerDAO intends to leverage all decisions with some form of blockchain technology from the start.  Some underpinnings of our DAO will include a token-gated deal-room for all contributors and members, and we will leverage snapshot which will also be the recording or verifiable data for all proposals.  When I first started my journey in researching how to build the DAO, I was unimpressed with the current stack of DAO tooling infrastructure.  Behind the hood of what is publicly available information, we are starting to see quality products be built as unique offerings which can add value to what we want to do.  We will launch our DAO with some off-chain mechanics to maximize the value of tribute, but plan to fully leverage onchain technology in all aspects of decision making as soon as possible targeting end of 2022.   
-      </div>
-      <div className={styles.text7}>
-        Yield-farming in its current form is probably not going to the same as it was going forward into 2022.  Protocol founders frequently grumble about having to “pay for liquidity,” and in a certain sense I understand their frustration.  For many yield-farmers, impermanent loss is a key consideration that can make liquidity providing an unattractive instance.  We are beginning to see new innovations in DeFi that break away from the current model, but also add significantly more capital efficiencies to the ecosystem which will deliver a significantly better experience to multiple parties involved.  Additionally, we are seeing an explosion of structured products into DeFi, which will provide projects across the ecosystem with the ability to add much need risk-management to their goals.
-      </div>
-      <div className={styles.text8}>
-        Our DAO aims to be a fully decentralized pooled active capital DAO that focuses on championing DeFi and the Metaverse.  We will deploy our treasury across both verticals.  Contributors and Members will not only enjoy tremendous upside to their tribute, but we will leverage decentralized finance markets to provide returns to the members even in the event of a bear-market.  DeFi or permissionless financial markets allow for the instant and structured transfers of value using DLT technology, while the Metaverse/NFT space is the instance of programmatic ownership using DLT technology.  Furthermore, our DAO is explicitly mandated to champion decentralized governance as pillar thesis of value capture within these two verticals.  
+        With the help of Digitalax and GMS, I was able to network with more creatives on discord, Twitter, and at events and now I have upcoming projects where I’m modeling for nft digital designers outfits and soon sell it as an nft. Recently on 2/2/22, I hosted an event alongside Emma, also the help from Digitalax and GMS in NYC where models, artists, photographers, and models come together to create more content and network for free, killing two birds with one stone! It doesn’t end there though…we will use the created content from the event and network to have an audience see your creativity in one main event and profit from all of it. I am planning to have a similar event as the last but with even more creatives than the last of course. 
         <br /><br />
-        What’s interesting about SummonerDAO is that it will be one of the first DAOs of its kind that will leverage the underpinnings of proof-of-stake for the best type of investment proposals and penalized for the poorest of performance.  Members are directly rewarded proportional to the ideas that bring value to the DAO.  Furthermore, the entities we spin out of the DAO or subDAOs will be able to serve as an unfair advantage to how we scale across web3 adding value to the DAO and entrenching decentralization in the web3 ecosystem.
+        One of the biggest social changes that need to be made is to stop gatekeeping your own or others’ work and to stop competing against one other. When it comes down to people who have a higher following and big corporate companies, it can be hard to profit off your dream career BUT if we all came together and just exchanged services profit all of it instead of having to pay for this or having to wait on that then I believe a lot more creatives will be seen and heard. we don’t want equality, we want equity. I recommend listening to my favorite song of all time “Good Life” by ZHU and in one of the many lyrics that are said, ZHU says “it’s not the human race, it’s just the human race”.         
       </div>
-      <div className={styles.text9}>
-        It is to say that because we have DLT powering these two unique sub-industries (DeFi x Metaverse), in their most powerful form, for me, the realization I think the two spaces will continue to converge and grow the other.  For instance, the ability for individuals to rent out their existing NFT holdings (especially by institutional investors) will allow for sustained floor-pricing on certain high-value collections.  This will also allow for the existing blue-chip stock of NFTs to be able to serve as additional collateral for assets in DeFi (from which we can see further liquidity into) DeFi markets.  They all intersect even though their communities can be rather disparate in character and focus.  Into 2022, I am excited about how these intersections will materialize more.
+      <div className={styles.image2}>
+        <Image
+          src='/magazine/10/images/2122_image2.jpg'
+          width={300}
+          height={375}
+        />
+      </div>
+      <div className={styles.image3}>
+        <Image
+          src='/magazine/10/images/2122_image3.jpg'
+          width={510}
+          height={467}
+        />
       </div>
 
-      <a
-        className={styles.image1}
-        href='https://twitter.com/summonerdao'
-        target='_blank'
-      >
+      <div className={styles.image4}>
         <Image
-          src='/magazine/9/images/2122_image1.png'
-          width={262}
-          height={262}
+          src='/magazine/10/images/2122_image4.png'
+          width={111}
+          height={192}
         />
-      </a>
+      </div>
+      <div className={styles.image5}>
+        <Image
+          src='/magazine/10/images/2122_image4.png'
+          width={111}
+          height={192}
+        />
+      </div>
+      <div className={styles.image6}>
+        <Image
+          src='/magazine/10/images/2122_image4.png'
+          width={111}
+          height={192}
+        />
+      </div>
+
+      <video muted loop autoPlay className={styles.video1}>
+        <source src='/magazine/10/videos/2122_video1.mp4' type='video/mp4' />
+      </video>
+      <video muted loop autoPlay className={styles.video2}>
+        <source src='/magazine/10/videos/2122_video2.mp4' type='video/mp4' />
+      </video>
+      <video muted loop autoPlay className={styles.video3}>
+        <source src='/magazine/10/videos/2122_video3.mp4' type='video/mp4' />
+      </video>
     </div>
   )
 }

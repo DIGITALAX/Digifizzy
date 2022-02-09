@@ -2,18 +2,10 @@
 
 .wrapper {
   @include magazineWrapper();
-  background-color: #F1C148;
+  background-color: #BD26C0;
   color: black;
   display: flex;
   position: relative;
-
-  .image1 {
-    position: absolute;
-    width: 960px;
-    height: 1503px;
-    left: 0px;
-    top: 0px;
-  }
 
   .image2 {
     position: absolute;
@@ -272,5 +264,84 @@
     font-size: 15px;
     line-height: 110%;   
     color: #FFFFFF;
+  }
+
+  .text15 {
+    position: absolute;
+    width: 622px;
+    height: 160px;
+    left: 324px;
+    top: 69px;
+    
+    font-family: Lao MN;
+    font-size: 20px;
+    line-height: 110%;
+    color: #FFFFFF;    
+  }
+
+  .text16 {
+    position: absolute;
+    width: 829px;
+    height: 160px;
+    left: 111px;
+    top: 235px;
+    
+    font-family: Lao MN;
+    font-size: 20px;
+    line-height: 110%;
+    color: #FFFFFF;
+  }
+
+  .text17 {
+    position: absolute;
+    width: 829px;
+    height: 160px;
+    left: 111px;
+    top: 440px;
+    
+    font-family: Lao MN;
+    font-size: 20px;
+    line-height: 110%;
+    color: #FFFFFF;
+  }
+
+  .text18 {
+    position: absolute;
+    width: 829px;
+    height: 160px;
+    left: 111px;
+    top: 670px;
+    
+    font-family: Lao MN;
+    font-size: 20px;
+    line-height: 110%;
+    color: #FFFFFF;
+  }
+
+  .text19 {
+    position: absolute;
+    width: 829px;
+    height: 160px;
+    left: 111px;
+    top: 814px;
+    
+    font-family: Lao MN;
+    font-size: 20px;
+    line-height: 110%;
+    color: #FFFFFF;
+  }
+
+  .text20 {
+    position: absolute;
+    width: 829px;
+    height: 160px;
+    left: 111px;
+    top: 1019px;
+    
+    font-family: Lao MN;
+    font-size: 20px;
+    line-height: 110%;
+    color: #FFFFFF;
+    
   }
 }
