@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import { useSelector } from 'react-redux'
 import { useRouter } from 'next/router'
+import { DIGIFIZZY_S3 } from '@constants/urls'
 import NoUnlockPage from '../common/NoUnlockPage'
 import styles from './page99100.module.scss'
 
@@ -15,16 +16,16 @@ const Page99100 = () => {
     <div className={styles.wrapper}>
       <div className={styles.imageBackground}>
         <Image
-          src='/magazine/9/images/99100_background.jpg'
+          src={`${DIGIFIZZY_S3}/10/images/99100_background.jpg`}
           width={960}
           height={1497}
         />
       </div>
       <div className={styles.image1}>
         <Image
-          src='/magazine/9/images/99100_image1.png'
-          width={410}
-          height={228}
+          src={`${DIGIFIZZY_S3}/10/images/99100_image1.png`}
+          width={351}
+          height={332}
         />
       </div>
       <div className={styles.text1}>

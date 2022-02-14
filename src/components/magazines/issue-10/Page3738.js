@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import { DIGIFIZZY_S3 } from '@constants/urls'
 import styles from './page3738.module.scss'
 
 const Page3738 = () => {
@@ -7,7 +8,7 @@ const Page3738 = () => {
     <div className={styles.wrapper}>
       <div className={styles.imageBackground}>
         <Image
-          src='/magazine/10/images/3738_background.jpg'
+          src={`${DIGIFIZZY_S3}/10/images/3738_background.jpg`}
           width={1920}
           height={1497}
         />
@@ -37,21 +38,21 @@ const Page3738 = () => {
 
       <div className={styles.image1}>
         <Image
-          src='/magazine/10/images/3738_image1.jpg'
+          src={`${DIGIFIZZY_S3}/10/images/3738_image1.jpg`}
           width={272}
           height={364}
         />
       </div>
       <div className={styles.image2}>
         <Image
-          src='/magazine/10/images/3738_image2.jpg'
+          src={`${DIGIFIZZY_S3}/10/images/3738_image2.jpg`}
           width={272}
           height={363}
         />
       </div>
       <div className={styles.image3}>
         <Image
-          src='/magazine/10/images/3738_image3.jpg'
+          src={`${DIGIFIZZY_S3}/10/images/3738_image3.jpg`}
           width={272}
           height={362}
         />

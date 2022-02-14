@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import { DIGIFIZZY_S3 } from '@constants/urls'
 import styles from './page2122.module.scss'
 
 const Page2122 = () => {
@@ -7,7 +8,7 @@ const Page2122 = () => {
     <div className={styles.wrapper}>
       <div className={styles.image1}>
         <Image
-          src='/magazine/10/images/2122_image1.png'
+          src={`${DIGIFIZZY_S3}/10/images/2122_image1.png`}
           width={899}
           height={641}
         />
@@ -52,14 +53,14 @@ const Page2122 = () => {
       </div>
       <div className={styles.image2}>
         <Image
-          src='/magazine/10/images/2122_image2.jpg'
+          src={`${DIGIFIZZY_S3}/10/images/2122_image2.jpg`}
           width={300}
           height={375}
         />
       </div>
       <div className={styles.image3}>
         <Image
-          src='/magazine/10/images/2122_image3.jpg'
+          src={`${DIGIFIZZY_S3}/10/images/2122_image3.jpg`}
           width={510}
           height={467}
         />
@@ -67,34 +68,43 @@ const Page2122 = () => {
 
       <div className={styles.image4}>
         <Image
-          src='/magazine/10/images/2122_image4.png'
+          src={`${DIGIFIZZY_S3}/10/images/2122_image4.png`}
           width={111}
           height={192}
         />
       </div>
       <div className={styles.image5}>
         <Image
-          src='/magazine/10/images/2122_image4.png'
+          src={`${DIGIFIZZY_S3}/10/images/2122_image4.png`}
           width={111}
           height={192}
         />
       </div>
       <div className={styles.image6}>
         <Image
-          src='/magazine/10/images/2122_image4.png'
+          src={`${DIGIFIZZY_S3}/10/images/2122_image4.png`}
           width={111}
           height={192}
         />
       </div>
 
       <video muted loop autoPlay className={styles.video1}>
-        <source src='/magazine/10/videos/2122_video1.mp4' type='video/mp4' />
+        <source
+          src={`${DIGIFIZZY_S3}/10/videos/2122_video1.mp4`}
+          type='video/mp4'
+        />
       </video>
       <video muted loop autoPlay className={styles.video2}>
-        <source src='/magazine/10/videos/2122_video2.mp4' type='video/mp4' />
+        <source
+          src={`${DIGIFIZZY_S3}/10/videos/2122_video2.mp4`}
+          type='video/mp4'
+        />
       </video>
       <video muted loop autoPlay className={styles.video3}>
-        <source src='/magazine/10/videos/2122_video3.mp4' type='video/mp4' />
+        <source
+          src={`${DIGIFIZZY_S3}/10/videos/2122_video3.mp4`}
+          type='video/mp4'
+        />
       </video>
     </div>
   )

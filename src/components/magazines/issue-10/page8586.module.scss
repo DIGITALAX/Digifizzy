@@ -6,212 +6,88 @@
 
   .imageBackground {
     position: absolute;
-    left: 0;
-    top: 0;
     width: 1920px;
     height: 1497px;
-  }
-
-  .image1 {
-    position: absolute;
-    width: 316px;
-    height: 421px;
-    left: 1253px;
-    top: 700px;    
-  }
-
-  .image2 {
-    position: absolute;
-    width: 301px;
-    height: 401px;
-    left: 1023px;
-    top: 763px;
-  }
-
-  .image3 {
-    position: absolute;
-    width: 342px;
-    height: 456px;
-    left: 1514px;
-    top: 732px;    
-  }
-
-  .image4 {
-    position: absolute;
-    width: 430px;
-    height: 287px;
-    left: 1022px;
-    top: 1135px;    
-  }
-
-  .image5 {
-    position: absolute;
-    width: 431px;
-    height: 323px;
-    left: 1425px;
-    top: 1146px;
-  }
-
-  .rect1 {
-    position: absolute;
-    width: 858px;
-    height: 202px;
-    left: 62px;
-    top: 411px;
-    
-    background: rgba(0, 0, 0, 0.8);    
-  }
-
-  .rect2 {
-    position: absolute;
-    width: 858px;
-    height: 359px;
-    left: 27px;
-    top: 644px;
-    
-    background: rgba(0, 0, 0, 0.8);
-  }
-
-  .rect3 {
-    position: absolute;
-    width: 858px;
-    height: 215px;
-    left: 74px;
-    top: 1027px;
-    
-    background: rgba(0, 0, 0, 0.8);
-  }
-
-  .rect4 {
-    position: absolute;
-    width: 858px;
-    height: 287px;
-    left: 1023px;
-    top: 50px;
-    
-    background: rgba(0, 0, 0, 0.8);
-  }
-
-  .rect5 {
-    position: absolute;
-    width: 858px;
-    height: 287px;
-    left: 1023px;
-    top: 363px;
-    
-    background: rgba(0, 0, 0, 0.8);
+    left: 0px;
+    top: 0px;    
   }
 
   .text1 {
     position: absolute;
-    width: 838px;
+    width: 710px;
     height: 172px;
     left: 37px;
     top: 67px;
     
-    font-family: Dripping Drops;
-    font-size: 120px;
+    font-family: Diplomata;
+    font-size: 80px;
     line-height: 80px;
-    color: #DFFF1E;
-    -webkit-text-stroke: 3px #000000;
-
-    transition: 0.3s all;
-    &:hover {
-      transition: 0.3s all;
-      transform: scale(0.95);
-    }
+    color: #0037FA;
+    -webkit-text-stroke: 3px #EEFF85;
   }
 
   .text2 {
     position: absolute;
-    width: 888px;
-    height: 172px;
-    left: 62px;
-    top: 239px;
+    width: 883px;
+    height: 211px;
+    left: 37px;
+    top: 250px;
     
-    font-family: Dripping Drops;
-    font-size: 120px;
-    line-height: 80px;
-    color: #DFFF1E;
-    -webkit-text-stroke: 3px #000000;
+    font-family: Inter;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
   }
 
   .text3 {
     position: absolute;
-    width: 888px;
-    height: 172px;
-    left: 59px;
-    top: 1325px;
-
-    font-family: Dripping Drops;
-    font-size: 120px;
-    line-height: 80px;
-    color: #DFFF1E;
-    -webkit-text-stroke: 3px #000000;
+    width: 883px;
+    height: 211px;
+    left: 37px;
+    top: 461px;
+    
+    font-family: Inter;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
   }
 
   .text4 {
     position: absolute;
-    width: 780px;
-    height: 192px;
-    left: 113px;
-    top: 428px;
+    width: 883px;
+    height: 211px;
+    left: 37px;
+    top: 643px;
     
-    font-family: Reguler;
-    font-size: 23px;
-    line-height: 24px;
+    font-family: Inter;
+    font-size: 25px;
+    line-height: 30px;
     color: #FFFFFF;
   }
 
   .text5 {
     position: absolute;
-    width: 780px;
-    height: 336px;
-    left: 67px;
-    top: 667px;
+    width: 441px;
+    height: 586px;
+    left: 1426px;
+    top: 39px;
     
-    font-family: Reguler;
-    font-size: 23px;
-    line-height: 24px;
+    font-family: Inter;
+    font-size: 25px;
+    line-height: 30px;
     color: #FFFFFF;
   }
 
   .text6 {
     position: absolute;
-    width: 780px;
-    height: 192px;
-    left: 114px;
-    top: 1050px;
+    width: 370px;
+    height: 586px;
+    left: 1097px;
+    top: 667px;
     
-    font-family: Reguler;
-    font-size: 23px;
-    line-height: 24px;
-    color: #FFFFFF;
-  }
-
-  .text7 {
-    position: absolute;
-    width: 780px;
-    height: 288px;
-    left: 1063px;
-    top: 73px;
-    
-    font-family: Reguler;
-    font-size: 23px;
-    line-height: 24px;
-    color: #FFFFFF;
-  }
-
-  .text8 {
-    position: absolute;
-    width: 780px;
-    height: 264px;
-    left: 1063px;
-    top: 386px;
-    
-    font-family: Reguler;
-    font-size: 23px;
-    line-height: 24px;
-    color: #FFFFFF;    
+    font-family: Inter;
+    font-size: 33px;
+    line-height: 35px;
+    color: #A5B3FF;    
   }
 }

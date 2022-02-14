@@ -12,7 +12,7 @@
     "mainnet": "https://api.thegraph.com/subgraphs/name/digitalax/digitalax",
     "rinkeby": "https://api.thegraph.com/subgraphs/name/digitalax/digitalaxropsten",
     "mumbai": "https://api.thegraph.com/subgraphs/name/digitalax/digitalaxmumbai",
-    "matic": "https://api.thegraph.com/subgraphs/name/digitalax/digitalaxmatic"
+    "matic": "https://api.thegraph.com/subgraphs/name/digitalax/digitalaxmaticemergency"
   },
   "API_DLTA_URL": "https://api.thegraph.com/subgraphs/name/digitalax/the-dlta",
   "DEFAULT_NETWORK": "matic",

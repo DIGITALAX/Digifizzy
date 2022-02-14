@@ -94,6 +94,7 @@ const goolgeFonts = [
   'Delius+Unicase:wght@700',
   'Devonshire',
   'Didact+Gothic',
+  'Diplomata',
   'DM+Mono',
   'DM+Sans',
   'Domine:wght@700',

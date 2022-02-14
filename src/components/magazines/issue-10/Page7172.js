@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import { DIGIFIZZY_S3 } from '@constants/urls'
 import styles from './page7172.module.scss'
 
 const Page7172 = () => (

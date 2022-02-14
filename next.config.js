@@ -56,7 +56,7 @@ module.exports = withImages({
   trailingSlash: true,
   assetPrefix: './',
   images: {
-    domains: ['digitalax.mypinata.cloud', 'espa.s3.eu-central-1.amazonaws.com'],
+    domains: ['digitalax.mypinata.cloud', 'espa.s3.eu-central-1.amazonaws.com', 'digifizzy.s3.amazonaws.com'],
   },
   webpack(cfg, { isServer }) {
     const originalEntry = cfg.entry

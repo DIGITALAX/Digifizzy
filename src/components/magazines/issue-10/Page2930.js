@@ -1,15 +1,22 @@
 import React from 'react'
 import Image from 'next/image'
+import { DIGIFIZZY_S3 } from '@constants/urls'
 import styles from './page2930.module.scss'
 
 const Page2930 = () => (
   <div className={styles.wrapper}>
     <video autoPlay muted loop className={styles.video1}>
-      <source src='/magazine/10/videos/2930_video1.mp4' type='video/mp4' />
+      <source
+        src={`${DIGIFIZZY_S3}/10/videos/2930_video1.mp4`}
+        type='video/mp4'
+      />
     </video>
     <div className={styles.rect1} />
     <h1>SUSTAINABILITY PIONEERS</h1>
-    <img src='./magazine/2/images/31_32_image.png' className={styles.imageEarth} />
+    <img
+      src='./magazine/2/images/31_32_image.png'
+      className={styles.imageEarth}
+    />
     <div className={styles.middleLine1} />
     <div className={styles.middleLine2} />
 

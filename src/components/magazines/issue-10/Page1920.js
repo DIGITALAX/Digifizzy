@@ -1,4 +1,5 @@
 import React from 'react'
+import { DIGIFIZZY_S3 } from '@constants/urls'
 import styles from './page1920.module.scss'
 
 const Page1920 = () => (
@@ -7,7 +8,10 @@ const Page1920 = () => (
     <div className={styles.rect2} />
 
     <img src='./magazine/7/images/1920_image1.png' className={styles.image1} />
-    <img src='./magazine/10/images/1920_image1.png' className={styles.image2} />
+    <img
+      src={`${DIGIFIZZY_S3}/10/images/1920_image1.png`}
+      className={styles.image2}
+    />
 
     <h1>
       RUG

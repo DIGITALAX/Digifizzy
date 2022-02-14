@@ -1,26 +1,27 @@
 import React from 'react'
 import Image from 'next/image'
+import { DIGIFIZZY_S3 } from '@constants/urls'
 import styles from './page0910.module.scss'
 
 const Page0910 = () => (
   <div className={styles.wrapper}>
     <div className={styles.image1}>
       <Image
-        src='/magazine/10/images/0708_image2.png'
+        src={`${DIGIFIZZY_S3}/10/images/0708_image2.png`}
         width={326}
         height={456}
       />
     </div>
     <div className={styles.image2}>
       <Image
-        src='/magazine/10/images/0708_image2.png'
+        src={`${DIGIFIZZY_S3}/10/images/0708_image2.png`}
         width={326}
         height={456}
       />
     </div>
     <div className={styles.image3}>
       <Image
-        src='/magazine/10/images/0708_image2.png'
+        src={`${DIGIFIZZY_S3}/10/images/0708_image2.png`}
         width={326}
         height={456}
       />

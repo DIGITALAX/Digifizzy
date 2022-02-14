@@ -1,68 +1,69 @@
 import React from 'react'
 import Image from 'next/image'
+import { DIGIFIZZY_S3 } from '@constants/urls'
 import styles from './coverpage.module.scss'
 
 const CoverPage = () => (
   <div className={styles.wrapper}>
     <div className={styles.imageBackground}>
       <Image
-        src='/magazine/10/images/frontcover_background.png'
+        src={`${DIGIFIZZY_S3}/10/images/frontcover_background.png`}
         width={960}
         height={1497}
       />
     </div>
     <div className={styles.image1}>
       <Image
-        src='/magazine/10/images/frontcover_image1.png'
+        src={`${DIGIFIZZY_S3}/10/images/frontcover_image1.png`}
         width={496}
         height={368}
       />
     </div>
     <div className={styles.image2}>
       <Image
-        src='/magazine/10/images/frontcover_image1.png'
+        src={`${DIGIFIZZY_S3}/10/images/frontcover_image1.png`}
         width={496}
         height={368}
       />
     </div>
     <div className={styles.image3}>
       <Image
-        src='/magazine/10/images/frontcover_image1.png'
+        src={`${DIGIFIZZY_S3}/10/images/frontcover_image1.png`}
         width={496}
         height={368}
       />
     </div>
     <div className={styles.image4}>
       <Image
-        src='/magazine/10/images/frontcover_image1.png'
+        src={`${DIGIFIZZY_S3}/10/images/frontcover_image1.png`}
         width={496}
         height={368}
       />
     </div>
     <div className={styles.image5}>
       <Image
-        src='/magazine/10/images/frontcover_image1.png'
+        src={`${DIGIFIZZY_S3}/10/images/frontcover_image1.png`}
         width={496}
         height={368}
       />
     </div>
     <div className={styles.image6}>
       <Image
-        src='/magazine/10/images/frontcover_image1.png'
+        src={`${DIGIFIZZY_S3}/10/images/frontcover_image1.png`}
         width={496}
         height={368}
       />
     </div>
     <div className={styles.image7}>
       <Image
-        src='/magazine/10/images/frontcover_image1.png'
+        src={`${DIGIFIZZY_S3}/10/images/frontcover_image1.png`}
         width={496}
         height={368}
       />
     </div>
     <div className={styles.imageIssueNo}>
       <Image
-        src='/magazine/10/images/frontcover_issueNo.png'
+        src={`${DIGIFIZZY_S3}/10/images/frontcover_issueNo.png`}
         width={239}
         height={250}
       />

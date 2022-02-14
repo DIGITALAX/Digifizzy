@@ -1,85 +1,73 @@
 import React from 'react'
 import Image from 'next/image'
+import { DIGIFIZZY_S3 } from '@constants/urls'
 import styles from './page8990.module.scss'
 
 const Page8990 = () => {
   return (
     <div className={styles.wrapper}>
-      <div className={styles.rect1}></div>
-      <div className={styles.rect2}></div>
-      <video muted loop autoPlay className={styles.video1}>
-        <source src='/magazine/9/videos/8990_video1.mp4' type='video/mp4' />
-      </video>
-      <div className={styles.text1}>
-        rEALM rUNWAY #1: nyc fashion Week
-      </div>
-      <div className={styles.text2}>
-        Evening of February 12th, 2022. Exact Location in NYC to be Revealed. 
-      </div>
-      <div className={styles.text3}>
-        We are refashioning the entire industry. 
-      </div>
-      <div className={styles.text4}>
-        Realm Runway events are based all over the world and run for a few hours to a few days at a time. These are offshoots of Web3 Fashion Week and involve showcasing the collections and designs IRL and digitally of the web3 fashion labels.
-        <br /><br />
-        The first Realm Runway event will be held during NY Fashion Week Feb 12th 2022, starting early evening and running late. 
-        <br /><br />
-        These events showcase digital and physical models from the Global Models Syndicate strutting runway scenes (both digital 3D animations and in-real-life walks) & wearing indie fashion collections from the Global Designer Network and Designer Realm fashion labels. 
-      </div>
-      <div className={styles.text5}>
-        They are creative explosions of everything metaverse, fashion, modeling & gaming mixed into a hybrid digital physical space. 
-      </div>
-      <div className={styles.text6}>
-        A dedicated sponsor relations DAO was also set up, RRS DAO, which you can read more about <a href='https://digitalax.gitbook.io/realm-runway-sponsors-rrs/' target='_blank'>here.</a>
-      </div>
-      <div className={styles.text7}>
-        All tickets are also minted on-chain as rare NFTs that are sent to your wallet shortly after purchase and are valid to be resold on the secondary market before the event. These NFTs will also provide exclusive offers on further Realm Runway events and activations. 
-        <br /><br />
-        All tickets are $200. Payment accepted in $MONA, $W3F, BNT, USDT, MATIC, ETH & Fiat. There are three options for purchasing runway tickets:<br />
-        <ol>
-          <li>
-            Connect Your Wallet and Make Payment in One of the Accepted Crypto Tokens. You will be sent your NFT shortly after payment.
-          </li>
-          <li>
-            Stake $W3F/USDT LP on Quickswap & the $W3F Staking Platform. You must remain staked up until the event or your ticket & NFT will not be valid at the door. The tokens will be detected in your wallet.<br />
-          </li>
-          <li>
-            Use fiat through Eventbrite. You will be emailed instructions for claiming your NFT, if you choose, after purchasing your ticket.
-          </li>
-        </ol>
-      </div>
-
       <div className={styles.image1}>
         <Image
-          src='/magazine/9/images/8990_image1.png'
-          width={749}
-          height={749}
+          src='/magazine/9/images/8788_image1.jpg'
+          width={960}
+          height={1497}
         />
       </div>
-
-      <div className={styles.image2}>
-        <Image
-          src='/magazine/9/images/8990_image2.png'
-          width={951}
-          height={825}
-        />
+      <div className={styles.text5}>
+        WHAT ARE YOU WEARING?
+      </div>
+      <div className={styles.text6}>
+        WHAT ARE YOU WEARING?
+      </div>
+      <div className={styles.text7}>
+        WHAT ARE YOU WEARING?
+      </div>
+      <div className={styles.text8}>
+        WHAT ARE YOU WEARING?
+      </div>
+      <div className={styles.text9}>
+        WHAT ARE YOU WEARING?
+      </div>
+      <div className={styles.text10}>
+        FASHION FOR THE METAVERSE
       </div>
 
-      <div className={styles.image3}>
-        <Image
-          src='/magazine/9/images/8990_image3.png'
-          width={165}
-          height={165}
-        />
-      </div>
+      <div className={styles.rect1}></div>
 
-      <a
-        href='https://www.realmrunway.xyz/'
-        className={styles.textButton}
-        target='_blank'
-      >
-        BOOK TICKETS
-      </a>
+      <div className={styles.text1}>
+        False Hope & Fake Positives
+      </div>
+      <div className={styles.text2}>
+        Assessing priors effectively and being able to most suitably judge the best reality of whatever is given to us at any moment in time, is becoming exceedingly difficult as corporates increase hype marketing and push mass produced knock offs into the market. 
+        <br /><br />
+        How can we really know what’s real from what’s fake? What’s authentic from what’s a somatose simpdom? 
+        <br /><br />
+        Is it getting harder or easier with the new web3 tooling available to us? Afterall, provenance is a compelling promise but has it gained enough cultural appeal to actually be used. 
+        <br /><br />
+        It seems that for now, the spillover glamour of shadow status begged and borrowed from the old famous still runs the day. 
+        <br /><br />
+        Indications that something is something, when it’s really not, are dangerous, especially if its an indication for anything significant and potentially life changing & course charting.
+        <br /><br />
+        It’s all too easy to interpret random noise as important results and neglect the obviously skewed incentives for outcomes and keeping up with apparent status at all costs regardless of any truth contained within.
+        <br /><br />
+        This is all too true with physical space. Especially galleries and places that you’d expect creativity to be welcomed warmly and ignited. 
+      </div>
+      <div className={styles.text3}>
+        Yet, why is it so, that whenever walking into these places that it feels like the life’s been sucked out of you. It’s almost uncanny, but not quite as interesting. 
+        <br /><br />
+        False positives are everywhere, and great posturing. 
+        <br /><br />
+        Mixing web3 with adverse selection, most of these galleries have insider order books, with set limit orders that are outside of your actionable liquidity. It’s even worse when you think of the impact of false positives and adverse selection on information that leads to social group cliques. 
+        <br /><br />
+        Unsurprisingly, there’s a not so secret superpower contained within decentralised ledgers. It is the immutability of transparent records, and how systems of social coordination built on top of them provide a much more fruitful and prosperous alternative.
+        <br /><br />
+        yay, web3. Did you just give us a statistical antidote to the replication and capital circulation crisis in one fell swoop? 
+        <br /><br />
+        Having visited countless galleries in this city in a short time, I certainly think so. 
+      </div>
+      <div className={styles.text4}>
+        False Hope & Fake Positives
+      </div>      
     </div>
   )
 }

@@ -7,208 +7,161 @@
 
   .rect1 {
     position: absolute;
-    width: 1822px;
-    height: 1822px;
-    left: 697px;
-    top: 555px;
-    
-    background: radial-gradient(30% 30% at 50% 50%, #E6BF00 0%, rgba(0, 0, 0, 0) 100%), 
-    radial-gradient(30% 30% at 50% 50%, #FF7676 0%, rgba(0, 56, 19, 0) 100%);    
-  }
-
-  .rect2 {
-    position: absolute;
-    width: 599px;
-    height: 599px;
-    left: 1491px;
-    top: -220px;
-    
-    background: radial-gradient(30% 30% at 50% 50%, 
-    #E6BF00 0%, rgba(0, 0, 0, 0) 100%), 
-    radial-gradient(50% 50% at 50% 50%, #000000 0%, rgba(0, 56, 19, 0) 100%);
-  }
-
-  .video1 {
-    position: absolute;
     width: 960px;
-    height: 406px;
-    left: 0px;
-    top: 0px;
-    object-fit: cover;    
+    height: 1497px;
+    left: 0;
+    top: 0;
+    background-color: #120E39;
   }
 
   .text1 {
     position: absolute;
-    width: 1307px;
-    height: 401px;
-    left: -173px;
-    top: 294px;
+    width: 838px;
+    height: 248px;
+    left: 44px;
+    top: 41px;
     
-    font-family: Bebas Neue;
+    font-family: Nosifer;
     font-size: 80px;
-    line-height: 180px;
+    line-height: 80px;
+    background: linear-gradient(180deg, #9CFF1E 0%, #FF1E1E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    letter-spacing: -0.005em;
-    color: #FFFFFF;    
+    -webkit-text-stroke: 3px #9021FF;
   }
 
   .text2 {
     position: absolute;
-    width: 872px;
-    height: 53px;
-    left: 44px;
-    top: 555px;
+    width: 383px;
+    height: 883px;
+    left: 67px;
+    top: 324px;
     
-    font-family: Fira Sans Condensed;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 36px;
+    font-family: Bangla MN;
+    font-size: 16px;
+    line-height: 160%;
     text-align: center;
     
-    color: #E6BF00;
+    color: #85FFFF;
   }
 
   .text3 {
     position: absolute;
-    width: 637px;
-    height: 57px;
-    left: 41px;
-    top: 653px;
+    width: 383px;
+    height: 883px;
+    left: 495px;
+    top: 324px;
     
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
+    font-family: Bangla MN;
+    font-size: 16px;
     line-height: 160%;
+    text-align: center;
+    
+    color: #85FFFF;
   }
 
   .text4 {
     position: absolute;
-    width: 872px;
-    height: 741px;
-    left: 44px;
-    top: 725px;
+    width: 838px;
+    height: 248px;
+    left: 61px;
+    top: 1218px;
     
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 160%;
-    color: #FFFFFF;
-  }
-
-  .text5 {
-    position: absolute;
-    width: 872px;
-    height: 741px;
-    left: 44px;
-    top: 1075px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 40px;
-    line-height: 120%;
-    color: #FFFFFF;
-  }
-
-  .text6 {
-    position: absolute;
-    width: 609px;
-    height: 140px;
-    left: 258px;
-    top: 1265px;
-    
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 35px;
-    line-height: 160%;
-
-    a {
-      color: white;
-      text-decoration: underline;
-    }
-  }
-
-  .text7 {
-    position: absolute;
-    width: 548px;
-    height: 741px;
-    left: 1325px;
-    top: 55px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 160%;
-    color: #FFFFFF;
-
-    ol {
-      list-style-type: decimal;
-      margin-left: 40px;
-      li {
-        
-      }
-    }
+    font-family: Nosifer;
+    font-size: 80px;
+    line-height: 80px;
+    text-align: right;
+    background: linear-gradient(180deg, #9CFF1E 0%, #FF1E1E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px #9021FF;
   }
 
   .image1 {
     position: absolute;
-    width: 749px;
-    height: 749px;
-    left: 809px;
-    top: -47px;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
+    top: 0px;    
   }
 
-  .image2 {
+  .text5 {
     position: absolute;
-    width: 951px;
-    height: 825px;
-    right: 0;
-    bottom: 0;
-  }
-
-  .image3 {
-    position: absolute;
-    width: 165px;
-    height: 165px;
-    left: 44px;
-    top: 1266px;    
-  }
-
-  .textButton {
-    position: absolute;
-    width: 160px;
-    height: 44px;
-    left: 1355px;
-    top: 685px;
+    width: 620px;
+    height: 239px;
+    left: 978px;
+    top: 0px;
     
-    background: #000000;
-    border: 2px solid #FFFFFF;
-    
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 160%;
-    color: #FFFFFF;
+    font-family: Rose Cake - Personal Use;
+    font-size: 120px;
+    line-height: 100%;   
+    color: #00D8D8;
+  }
 
-    display: flex;
-    align-items: center;
+  .text6 {
+    position: absolute;
+    width: 620px;
+    height: 239px;
+    left: 1564px;
+    top: 29px;
+    
+    font-family: Rose Cake - Personal Use; 
+    font-size: 120px;
+    line-height: 100%;
+    color: #00D8D8;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 620px;
+    height: 239px;
+    left: 806px;
+    top: 252px;
+    
+    font-family: Rose Cake - Personal Use;
+    font-size: 120px;
+    line-height: 100%;
+    color: #00D8D8;
+  }
+
+  .text8 {
+    position: absolute;
+    width: 620px;
+    height: 239px;
+    left: 1389px;
+    top: 286px;
+    
+    font-family: Rose Cake - Personal Use;
+    font-size: 120px;
+    line-height: 100%;
+    color: #00D8D8;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 620px;
+    height: 239px;
+    left: 846px;
+    top: 525px;
+    
+    font-family: Rose Cake - Personal Use;
+    font-size: 120px;
+    line-height: 100%;
     text-align: center;
-    justify-content: center;
+    color: #00D8D8;
+  }
 
-    transition: 0.3s all;
-    &:hover {
-      transition: 0.3s all;
-      background: #FFFFFF;
-      color: #000000;
-    }
+  .text10 {
+    position: absolute;
+    width: 620px;
+    height: 375px;
+    left: 990px;
+    top: 1088px;
+    
+    font-family: CF Punk Fashion PERSONAL;
+    font-size: 120px;
+    line-height: 100%;
+    color: #00D8D8;    
   }
 }
