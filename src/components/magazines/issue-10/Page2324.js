@@ -5,6 +5,14 @@ import styles from './page2324.module.scss'
 
 const Page2324 = () => (
   <div className={styles.wrapper}>    
+    <div className={styles.imageBackground}>
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/2324_background.jpg`}
+        width={910}
+        height={1497}
+      />
+    </div>
+
     <div className={styles.image1}>
       <Image
         src={`${DIGIFIZZY_S3}/10/images/2324_image1.jpg`}

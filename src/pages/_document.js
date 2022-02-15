@@ -39,6 +39,7 @@ const goolgeFonts = [
   'Arvo',
   'Asap',
   'Astloch',
+  'Atkinson+Hyperlegible',
   'Atma',
   'Aubrey',
   'Audiowide',
@@ -100,6 +101,7 @@ const goolgeFonts = [
   'Domine:wght@700',
   'Donegal+One',
   'Do+Hyeon',
+  'Duru+Sans',
 
   'Eczar',
   'Electrolize',

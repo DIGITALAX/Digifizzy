@@ -7,131 +7,11 @@ const Page3132 = () => (
   <div className={styles.wrapper}>
     <div className={styles.rect1}></div>
     <div className={styles.rect2}></div>
-
-    <div className={styles.line1}></div>
-    <div className={styles.line2}></div>
-    <div className={styles.line3}></div>
-    <div className={styles.line4}></div>
-    <div className={styles.line5}></div>
-
-    <div
-      className={styles.imagePath}
-    >
-      <Image
-        src='/magazine/9/images/3132_path.png'
-        width={1068}
-        height={957}
-      />
-    </div>
-
-    <div
-      className={styles.imageDots}
-    >
-      <Image
-        src='/magazine/9/images/3132_dots.png'
-        width={369}
-        height={412}
-      />
-    </div>
-
-    <div
-      className={styles.imageCircles1}
-    >
-      <Image
-        src='/magazine/9/images/3132_circles.png'
-        width={47}
-        height={227}
-      />
-    </div>
-    <div
-      className={styles.imageCircles2}
-    >
-      <Image
-        src='/magazine/9/images/3132_circles.png'
-        width={47}
-        height={227}
-      />
-    </div>
-    <div
-      className={styles.imageCircles3}
-    >
-      <Image
-        src='/magazine/9/images/3132_circles.png'
-        width={47}
-        height={227}
-      />
-    </div>
-
-    <div
-      className={styles.imageTriangles}
-    >
-      <Image
-        src='/magazine/9/images/3132_triangles.png'
-        width={89}
-        height={112}
-      />
-    </div>
-
-    <a
-      href='https://makersplace.com/louloujoao/drops/muse-881/'
-      target='_blank'
-    >
-      <video autoPlay muted loop className={[styles.video1, styles.gradient].join(' ')}>
-        <source src='/magazine/9/videos/3132_video1.mp4' type='video/mp4' />
-      </video>
-    </a>
-    <a
-      href='https://superrare.com/artwork-v2/glitchy-night--31566'
-      target='_blank'
-    >
-      <video autoPlay muted loop className={[styles.video2, styles.gradient].join(' ')}>
-        <source src='/magazine/9/videos/3132_video2.mp4' type='video/mp4' />
-      </video>
-    </a>
-
-    <a
-      href='https://superrare.com/artwork-v2/kings-of-the-grassland-31211'
-      target='_blank'
-    >
-      <video autoPlay muted loop className={[styles.video3, styles.gradient].join(' ')}>
-        <source src='/magazine/9/videos/3132_video3.mp4' type='video/mp4' />
-      </video>
-    </a>
-
-    <a
-      className={[styles.image1, styles.gradient].join(' ')}
-      href='https://foundation.app/@arnaudmontagard/ferrytale/3'
-      target='_blank'
-    >
-      <Image
-        src='/magazine/9/images/3132_image1.jpg'
-        width={725}
-        height={544}
-      />
-    </a>
-    <a
-      className={[styles.image2, styles.gradient].join(' ')}
-      href='https://knownorigin.io/gallery/6122000-fern-void'
-      target='_blank'
-    >
-      <Image
-        src='/magazine/9/images/3132_image2.jpg'
-        width={325}
-        height={325}
-      />
-    </a>
-    <a
-      className={[styles.image3, styles.gradient].join(' ')}
-      href='https://foundation.app/@NeuralBricolage/gancomic/3'
-      target='_blank'
-    >
-      <Image
-        src='/magazine/9/images/3132_image3.jpg'
-        width={408}
-        height={442}
-      />
-    </a>
-
+    <div className={styles.rect3}></div>
+    <div className={styles.rect4}></div>
+    <div className={styles.rect5}></div>
+    <div className={styles.rect6}></div>
+    <div className={styles.rect7}></div>
     <div className={styles.text1}>
       Crypto Art 
     </div>
@@ -141,94 +21,218 @@ const Page3132 = () => (
     <div className={styles.text3}>
       Fame
     </div>
+
+    <div className={styles.line1}></div>
+    <div className={styles.line2}></div>
+    <div className={styles.line3}></div>
+    <div className={styles.line4}></div>
+    <div className={styles.line5}></div>
+    <div className={styles.line6}></div>
+    <div className={styles.line7}></div>
+    <div className={styles.line8}></div>
+    <div className={styles.line9}></div>
+    <div className={styles.line10}></div>
+    <div className={styles.line11}></div>
+
+    <div
+      className={styles.imagePath1}
+    >
+      <Image
+        src='/magazine/9/images/3132_path.png'
+        width={1068}
+        height={957}
+      />
+    </div>
+
+    <div
+      className={styles.imagePath2}
+    >
+      <Image
+        src='/magazine/9/images/3132_path.png'
+        width={1141}
+        height={1152}
+      />
+    </div>
+
+    <a
+      href='https://superrare.com/artwork-v2/the-other-side-32310'
+      target='_blank'
+    >
+      <video muted loop autoPlay className={styles.video1}>
+        <source
+          src={`${DIGIFIZZY_S3}/10/videos/3132_video1.mp4`}
+          type='video/mp4'
+        />
+      </video>
+    </a>
+
+    <a
+      href='https://knownorigin.io/gallery/6837000-bright-dream'
+      target='_blank'
+    >
+      <div className={[styles.image1, styles.gradient].join(' ')}>
+        <Image
+          src={`${DIGIFIZZY_S3}/10/images/3132_image1.jpg`}
+          width={434}
+          height={520}
+        />
+      </div>
+    </a>
+
+    <a
+      href='https://foundation.app/@AliGStudios/street-de10/1'
+      target='_blank'
+    >
+      <div className={[styles.image2, styles.gradient].join(' ')}>
+        <Image
+          src={`${DIGIFIZZY_S3}/10/images/3132_image2.jpg`}
+          width={539}
+          height={358}
+        />
+      </div>
+    </a>
+
+    <a
+      href='https://superrare.com/artwork-v2/black-portrait-32317'
+      target='_blank'
+    >
+      <div className={[styles.image3, styles.gradient].join(' ')}>
+        <Image
+          src={`${DIGIFIZZY_S3}/10/images/3132_image7.png`}
+          width={433}
+          height={577}
+        />
+      </div>
+    </a>
+    
+    <a
+      href='https://superrare.com/artwork-v2/ca-19.1-dunes-8069'
+      target='_blank'
+    >
+      <div className={[styles.image4, styles.gradient].join(' ')}>
+        <Image
+          src={`${DIGIFIZZY_S3}/10/images/3132_image3.gif`}
+          width={511}
+          height={511}
+        />
+      </div>
+    </a>
+
+    <div className={styles.image5}>
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/3132_image4.png`}
+        width={47}
+        height={440}
+      />
+    </div>
+
+    <div className={styles.image61}>
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/3132_image5.png`}
+        width={187}
+        height={89}
+      />
+    </div>
+    <div className={styles.image62}>
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/3132_image5.png`}
+        width={187}
+        height={89}
+      />
+    </div>
+    <div className={styles.image63}>
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/3132_image5.png`}
+        width={187}
+        height={89}
+      />
+    </div>
+    <div className={styles.image7}>
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/3132_image6.png`}
+        width={403}
+        height={194}
+      />
+    </div>
+
     <div className={styles.text4}>
-      Jan 15th 2022
+      The Other Side
     </div>
     <div className={styles.text5}>
-      Loulou João
+      scottcarr
     </div>
     <div className={styles.text6}>
-      A muse amongst ruins.
+      Feb 6th 2022
     </div>
 
     <div className={styles.text7}>
-      Arnaud Montagard
+      25m42luk
     </div>
     <div className={styles.text8}>
-      Dec 7th 2021
+      Nov 10th 2021
     </div>
     <div className={styles.text9}>
-      Ferry Tale #3
+      bright dream
     </div>
 
     <div className={styles.text10}>
-      Glitchy Night
+      SECRET SKY
     </div>
     <div className={styles.text11}>
-      Glitchy Night
+      Feb 6th 2022
     </div>
     <div className={styles.text12}>
-      caravaggio
+      AliGStudios
     </div>
     <div className={styles.text13}>
-      Jan 11th 2021
+      AliGStudios
     </div>
-
     <div className={styles.text14}>
-      Fern Void
+      AliGStudios
     </div>
     <div className={styles.text15}>
-      Patrick Henry 
-    </div>
-    <div className={styles.text16}>
-      Jan 15th 2022
+      AliGStudios
     </div>
 
+    <div className={styles.text16}>
+      Feb 6th 2022
+    </div>
     <div className={styles.text17}>
-      Jan 11th 2022
+      PORTRAIT
     </div>
     <div className={styles.text18}>
-      helena sarin
+      FABIO LA FAUCI
     </div>
     <div className={styles.text19}>
-      Original Sin: It Could Be Heaven It Could Be Hell
+      FABIO LA FAUCI
     </div>
-
     <div className={styles.text20}>
-      Kings of the Grassland
+      FABIO LA FAUCI
     </div>
     <div className={styles.text21}>
-      17th Dec 2021
+      FABIO LA FAUCI
     </div>
     <div className={styles.text22}>
-      Ryan D Anderson
+      FABIO LA FAUCI
     </div>
     <div className={styles.text23}>
-      MAKERS
+      FABIO LA FAUCI
     </div>
     <div className={styles.text24}>
-      MAKERS
+      FABIO LA FAUCI
     </div>
     <div className={styles.text25}>
-      MAKERS
+      FABIO LA FAUCI
     </div>
+
     <div className={styles.text26}>
-      MAKERS
+      rhyolight
     </div>
     <div className={styles.text27}>
-      MAKERS
+      Feb 16th 2020
     </div>
     <div className={styles.text28}>
-      MAKERS
-    </div>
-    <div className={styles.text29}>
-      MAKERS
-    </div>
-    <div className={styles.text30}>
-      MAKERS
-    </div>
-    <div className={styles.text31}>
-      MAKERS
+      ca-19.1 dunes
     </div>
   </div>
 )
