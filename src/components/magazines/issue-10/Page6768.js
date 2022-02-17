@@ -141,7 +141,7 @@ const Page6768 = () => (
       MUST TRYS OF THE METAVERSE
     </div>
     <div className={styles.text15}>
-      #DIGITALMOVEMENTEDITION
+      #FABRICATIONEDITION
     </div>
     <div className={styles.text16}>
       Rokoko

@@ -167,6 +167,49 @@ const Page3536 = () => (
       ON-CHAIN. ART. NFTS. CRYPTO. 
     </div>
 
+    <div className={styles.image3}>
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/3536_image3.png`}
+        width={211}
+        height={149}
+      />
+    </div>
+    <div className={styles.image4}>
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/3536_image3.png`}
+        width={211}
+        height={149}
+      />
+    </div>
+    <div className={styles.image5}>
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/3536_image3.png`}
+        width={211}
+        height={149}
+      />
+    </div>
+    <div className={styles.image6}>
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/3536_image3.png`}
+        width={211}
+        height={149}
+      />
+    </div>
+    <div className={styles.image7}>
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/3536_image3.png`}
+        width={211}
+        height={149}
+      />
+    </div>
+    <div className={styles.image8}>
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/3536_image3.png`}
+        width={211}
+        height={149}
+      />
+    </div>
+
   </div>
 )
 

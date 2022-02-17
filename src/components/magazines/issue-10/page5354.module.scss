@@ -36,6 +36,32 @@
   }
 
   .text1 {
+    position: absolute;
+    width: 670px;
+    height: 1075px;
+    left: 142px;
+    top: 211px;
     
+    font-family: Risque;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    
+    color: #FFFFFF;    
+  }
+
+  .text2 {
+    position: absolute;
+    width: 670px;
+    height: 1075px;
+    left: 1092px;
+    top: 211px;
+    
+    font-family: Risque;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    
+    color: #FFFFFF;    
   }
 }

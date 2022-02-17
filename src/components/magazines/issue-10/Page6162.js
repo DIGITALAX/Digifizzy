@@ -25,7 +25,7 @@ const Page6162 = () => {
       <div className={styles.image1}>
         <Image src='/magazine/9/images/6162_image1.png' width={262} height={1640} />
       </div>
-      <div className={styles.text1}>ARGENTINA</div>
+      <div className={styles.text1}>COLUMBIA</div>
       <div className={styles.text2}> INTERNATIONAL PLAYERS</div>
       <div className={styles.image2}>
         <Image src='/magazine/9/images/6162_image2.png' width={398} height={360} />

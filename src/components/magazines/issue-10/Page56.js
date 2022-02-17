@@ -9,7 +9,7 @@ const Page56 = () => (
       <Image
         width={1920}
         height={1497}
-        src='/magazine/9/images/0506_background.jpg'
+        src={`${DIGIFIZZY_S3}/10/images/0506_background.jpg`}
       />
     </div>
   </div>
