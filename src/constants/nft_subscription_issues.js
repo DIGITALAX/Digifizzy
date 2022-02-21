@@ -969,6 +969,11 @@ export const details = [
 
 export const info = [
   {
+    image: '/images/nft/9/home.png',
+    id: 'NINE',
+    title: 'DIGIFIZZY',
+  },
+  {
     image: '/images/nft/8/main.png',
     id: 'EIGHT',
     title: 'DIGIFIZZY',
