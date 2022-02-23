@@ -10,14 +10,136 @@
   color: black;
   display: flex;
   position: relative;
-  background-color: #A121EF;
+  background-color: #000000;
 
   .background {
     position: absolute;
-    width: 1920px;
+    width: 1618px;
     height: 1497px;
-    left: 0px;
-    top: 0px;    
+    left: 155px;
+    top: 0px;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 713px;
+    height: 346px;
+    left: 199px;
+    top: 276px;
+    
+    background: rgba(255, 129, 129, 0.69);    
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 697px;
+    height: 611px;
+    left: 1023px;
+    top: 56px;
+    
+    background: rgba(172, 152, 116, 0.58);
+  }
+
+  .rect3 {
+    position: absolute;
+    width: 713px;
+    height: 775px;
+    left: 199px;
+    top: 667px;
+    
+    background: rgba(255, 200, 200, 0.48);
+  }
+
+  .rect4 {
+    position: absolute;
+    width: 95px;
+    height: 346px;
+    left: 199px;
+    top: 276px;
+    
+    background: rgba(255, 129, 129, 0.69);
+  }
+
+  .rect5 {
+    position: absolute;
+    width: 95px;
+    height: 346px;
+    left: 817px;
+    top: 276px;
+    
+    background: rgba(255, 129, 129, 0.69);
+  }
+
+  .rect6 {
+    position: absolute;
+    width: 111px;
+    height: 611px;
+    left: 1023px;
+    top: 56px;
+    
+    background: rgba(172, 152, 116, 0.58);
+  }
+
+  .rect7 {
+    position: absolute;
+    width: 111px;
+    height: 611px;
+    left: 1609px;
+    top: 56px;
+    
+    background: rgba(172, 152, 116, 0.58);
+  }
+
+  .rect8 {
+    position: absolute;
+    width: 95px;
+    height: 775px;
+    left: 199px;
+    top: 667px;
+    
+    background: rgba(255, 200, 200, 0.48);
+  }
+
+  .rect9 {
+    position: absolute;
+    width: 95px;
+    height: 775px;
+    left: 817px;
+    top: 667px;
+    
+    background: rgba(255, 200, 200, 0.48);
+  }
+
+  .image1 {
+    position: absolute;
+    width: 244px;
+    height: 439px;
+    left: 1023px;
+    top: 749px;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 430px;
+    height: 433px;
+    left: 1290px;
+    top: 749px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 417px;
+    height: 241px;
+    left: 1023px;
+    top: 1201px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 258px;
+    height: 241px;
+    left: 1462px;
+    top: 1201px;
   }
 
   .leftSideFrame {
@@ -63,161 +185,69 @@
   }
 
   a {
-    transition: 0.3s all;
-    &:hover {
-      transition: 0.3s all;
-      transform: scale(1.1);
+
+  }
+
+  .gradient {
+    animation-duration: 1.8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #9c9c9c;
+    background: linear-gradient(to right, #9c9c9c 8%, #f4f4f4 38%, #9c9c9c 54%);
+    background-size: 1000px 640px;
+  
+  }
+
+  @keyframes placeHolderShimmer{
+    0%{
+      background-position: -468px 0
+    }
+    100%{
+      background-position: 468px 0
     }
   }
 
-  .text1 {
+  .link1 {
     position: absolute;
-    width: 647px;
-    height: 191px;
-    left: 213px;
-    top: 28px;
-    
-    font-family: Poller One;
-    font-size: 100px;
-    line-height: 100%;
+    width: 559px;
+    height: 200px;
+    left: 199px;
+    top: 44px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    color: #FFFFFF;    
-  }
-
-  .text2 {
-    position: absolute;
-    width: 647px;
-    height: 191px;
-    left: 213px;
-    top: 959px;
-    
-    font-family: Poller One;
-    font-size: 100px;
-    line-height: 100%;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    color: #FFFFFF;        
-  }
-
-  .text3 {
-    position: absolute;
-    width: 647px;
-    height: 191px;
-    left: 364px;
-    top: 1055px;
-    
-    font-family: Poller One;
-    font-size: 90px;
-    line-height: 100%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    color: #FFFFFF;
-  }
-
-  .text4 {
-    position: absolute;
-    width: 647px;
-    height: 191px;
-    left: 368px;
-    top: 1150px;
-    
-    font-family: Poller One;
-    font-size: 90px;
-    line-height: 100%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    color: #FFFFFF;
-  }
-
-  .text5 {
-    position: absolute;
-    width: 647px;
-    height: 191px;
-    left: 365px;
-    top: 1246px;
-    
-    font-family: Poller One;
-    font-size: 90px;
-    line-height: 100%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    color: #FFFFFF;
-  }
-
-  .text6 {
-    position: absolute;
-    width: 647px;
-    height: 191px;
-    left: 213px;
-    top: 1342px;
-    
-    font-family: Poller One;
-    font-size: 90px;
-    line-height: 100%;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    color: #FFFFFF;
-  }
-
-  .text7 {
-    position: absolute;
-    width: 662px;
-    height: 488px;
-    left: 1064px;
-    top: 972px;
-    
-    font-family: Poller One;
-    font-size: 25px;
-    line-height: 120%;
-    
-    display: flex;
-    justify-content: center;
-    
-    color: #FFFFFF;
-  }
-
-  .image1 {
-    position: absolute;
-    width: 229px;
-    height: 229px;
-    left: 180px;
-    top: 1131px;    
-  }
-
-  .imagePlayButton {
-    position: absolute;
-    width: 267px;
-    height: 267px;
-    left: 1181px;
-    top: 268px;
     cursor: pointer;
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(0.9);
+    }
+
+    .text1 {
+      position: absolute;
+      width: 551px;
+      height: 200px;
+      left: 0;
+      top: 0;
+      
+      font-family: Arimo;
+      font-size: 100px;
+      line-height: 100%;
+      color: #D4321C;
+    }
+
+    .text2 {
+      position: absolute;
+      width: 551px;
+      height: 200px;
+      left: 8px;
+      top: 0;
+      
+      font-family: Arimo;
+      font-size: 100px;
+      line-height: 100%;
+      color: #FF8F95;
+    }
   }
 
-  .imagePauseButton {
-    position: absolute;
-    width: 267px;
-    height: 267px;
-    left: 1478px;
-    top: 268px;
-    cursor: pointer;
-  }
 }

@@ -1,4 +1,5 @@
 @import './styles.module.scss';
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro');
 
 .wrapper {
   @include magazineWrapper();
@@ -6,6 +7,14 @@
   color: black;
   display: flex;
   position: relative;
+
+  .image1 {
+    position: absolute;
+    width: 183px;
+    height: 183px;
+    left: 111px;
+    top: 23px;
+  }
 
   .image2 {
     position: absolute;
@@ -342,6 +351,68 @@
     font-size: 20px;
     line-height: 110%;
     color: #FFFFFF;
+  }
+
+  .text21 {
+    position: absolute;
+    width: 712px;
+    height: 169px;
+    left: 0px;
+    top: 723px;
     
+    font-family: Anonymous Pro;
+    font-size: 85px;
+    line-height: 110%;
+    color: #3BE300;
+    
+    -webkit-text-stroke: 3px #FAFF12;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+    transition: 0.3s all;
+    cursor: pointer;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(0.9) rotate(-90deg);
+    }
+  }
+
+  .text22 {
+    position: absolute;
+    width: 1087px;
+    height: 169px;
+    left: 0px;
+    top: 1474px;
+    
+    font-family: Anonymous Pro;
+    font-size: 85px;
+    line-height: 110%;
+    color: #3BE300;
+    -webkit-text-stroke: 3px #FAFF12;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+    cursor: pointer;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(0.9) rotate(-90deg);
+    }
+  }
+
+  .text23 {
+    position: absolute;
+    width: 1087px;
+    height: 169px;
+    left: 111px;
+    top: 1379px;
+    
+    font-family: Anonymous Pro;
+    font-size: 85px;
+    line-height: 110%;
+    color: #3BE300;
+    -webkit-text-stroke: 3px #FAFF12;
+    cursor: pointer;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(0.9);
+    }
   }
 }

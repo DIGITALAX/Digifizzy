@@ -65,6 +65,9 @@ const Page2324 = () => (
     <div className={styles.text3}>
       The Web3 Flywheel
     </div>
+    <div className={styles.text4}>
+      Rev. O. Lution
+    </div>
   </div>
 )
 

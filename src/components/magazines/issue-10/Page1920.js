@@ -33,37 +33,39 @@ const Page1920 = () => (
       The Invisible Hand RugPull
     </div>
     <div className={styles.text5}>
-      When Zuck renamed Facebook to Meta, was it really that much of a surprise? I mean, FB has been experimenting with the likes of VR and other immersive content infrastructure and tools since as early as 2014 with the purchase of Oculus. And, for anyone who’s been even remotely involved within the VR industry, as a player or creator, is all too familiar with the rampant privacy and data collection violations that are intrinsically inherent to the ad targeting and data exploitation business model that facebook and other big tech employ.
+      People care more about the theatre of web3 than the real thing. Conference circuit after conference circuit gets a bit under-whelming and dull. Collecting stickers and badgers is cool and all, we all do it, but, at some point in life, you might want to stop and ask yourself, is this really all that there is? When we talk about web3 and self sovereignty, if it’s not conference circuit panel posturing hangovers and empty assurances of utopian wonders to be delivered eventually, then, what do we mean?
       <br /><br />
-      The rugpull comes with some of the supposed web3 community and decentralisation advocates being all too comfortable with siding with and cosing up to Meta, at the expense of the metaverse, driven more by the potential for near guaranteed wealth, than any web3 or open metaverse principles.
+      The choice is simple; do you believe the story that you are selling? Do you believe NFTs represent a profound shift in the delivery of self sovereign content and culture requiring authentic adherence to web3 mechanisms and principles which in turn, all combined, are ready to scale today to compete head to head against the most well capitalised brands who currently control and choke off the flow of creative wealth? 
     </div>
     <div className={styles.text6}>
-      I’m sure when you’ve logged on to crypto twitter you’ve seen some tweets about THE metaverse, as opposed to select others feeling all too comfortable refering to it as “XYZ’s metaverse”. It might sound like a slight linguistic divergence, but actually it’s in fact the difference maker between an open decentralised metaverse that everyone can access without permission, compared to one that is controlled top down by a centralised tyrant or oligarchy of tyrants. 
+      If not, why not? 
       <br /><br />
-      There is only one metaverse with many realms. Not many metaverses each as their own silos, cut off from each other, acting as chokepoints on the potential for truly creator and player generated co-owned web3 economies. 
+      Why even pretend the industry and business that you are in is actually web3? What’s the point without actual self sovereignty? 
       <br /><br />
-      FB & the rest of the IP cartel depend on our acceptance of them as intermediaries in the role of Moody’s during the Global Financial Crisis –– the 3rd party arbiters of social status truth. 
+      Or, if you must insist on digging deeper into the naive posture, where and what’s your plan for delivering captive value to your new pay masters pinned within the illusion of wearing the onesie of web3 culture with nothing inside?
       <br /><br />
-      We, the users of social networks and content streaming platforms are tired of being used as ad targeted products. But what alternative do we have?
+      Why not just say it as it is? Just call it something else? 
       <br /><br />
-      We can fight back. It’s something that we do and something that is already being done. 
+      Be honest with yourself at least if you aren’t going to be with anyone else. 
       <br /><br />
-      FAANG & the IP cartels are moving hard into the idea of the “metaverse” (as they see it), not just because they believe it will give them richer data fields to mine. It’s because they’re losing control of us as users, customers, and the steady supply of capital they get from selling us as representational units of property (our data included).
+      Let’s take a look back at the late 1700s to mid 1800s and the story of the Mechanical Turk. Built to impress the centralised authorities of culture and commerce of their day, the Empress Maria Theresa of Austria, it was exhibited as an automated chess machine that appeared able to play well against human opponents and solve complicated chess based math puzzles.  
       <br /><br />
-      No matter how many nice things they might say 
+      Instead, it was a mechanistic lie. A fake. A forgery. The trick to the appearance of a leap forward in problem solving capacity and level of value available to be delivered was actually a small framed chess master of the entirely human variety hiding inside this elaborate mechanical hoax. 
+      <br /><br />
+      No technical artisanship, no engineering wizardry, other than some elaborate cabinet craft necessary to complete the illusion. In some ways they get credit for being clever, 250 odd years ago, long before the vast advances of everything we depend on in even the pre-web3 technological world. 
     </div>
     <div className={styles.text7}>
-      about Apes and Punks and immersive 3d environments, they can’t afford to be sincere. Web3 opens the chokepoints on content creation and the free exchange of value between us. 
+      If they had tried to pull the same today all credit would be lost immediately, because why bother to peddle a fake when the real thing is so readily available. 
       <br /><br />
-      In this world, what’s real is the record of what we agree to. Whoever controls those records can change them, manufacturing our histories and the reality of our agreements along with them. With that much incentive to use power for whatever you think is the greatest good, would you be able to stop yourself from abusing it?
+      Oh wait, why does it look like there are so many that do? 
       <br /><br />
-      In case you haven’t read it, the most interesting thing about Snow Crash isn’t actually the metaverse. It’s the idea virus delivered through bitmap image data within it. An image of an idea spreads to the root of our minds, and through it into physical contagion IRL. A full digital-physical bridge. 
+      Does this mirror look too much like you? Have you scored an undisclosed exit from the contemporary corporate Empress and her ilk. 
       <br /><br />
-      While this idea to physical reality bridge is itself just an idea, it’s also analog to how web3 gives us everything we need to make property real, inalienable and self-evident. By extension it’s how we build the real metaverse on the open foundation of web3, and why the IP cartels are running scared of their slow motion collapse.  
+      The proof is simple, let’s review what you are selling and whether it could be delivered in an authentically web3 way. 
       <br /><br />
-      We’re here to stand up and capitalize the real metaverse: where we can do more than just sit back, jack in, mock Zuck, and watch. 
+      Do you mint NFTs on questionable chains set to collapse when VC lock ups expire? Do you ape in to floor price pump and dumps indistinguishable from spammy scammy discords and “drop your NFT below” twitter giveaways, thrilled when they turn into brand deals with old world celebrities, fame chasers and oligarchs? 
       <br /><br />
-      Thanks to web3 –– advancing the decentralization of power, social coordination, and capital at a scale never before possible –– the massively multiplayer battle to shape and open the metaverse has begun. 
+      It’s not that hard to see how much cooler it would be to embrace self sovereignty, create freely, code and deploy your own smart contracts, mint frequently and collaborate precociously with other curious and hungry minds, amplify your defensible reach with a real understanding of cc0, and, outsell yesterday’s brands. 
     </div>
   </div>
 )

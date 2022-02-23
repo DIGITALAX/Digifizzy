@@ -28,26 +28,26 @@ const Page0910 = () => (
     </div>
 
     <div className={styles.text1}>
-      They seek to buy as much virtual land as they possibly can in the hope of being able to flip them for a cool profit, rent them out to advertisers, to individuals, and to business owners, all itching to rake in the dough to the next sucker seeking to buy a bridge in Brooklyn.
+      The hesitation for some indie creators is understandable as the dictatorial powers-that-be have forced them to sit there, own nothing, and be happy. Or it might come in the form of bells and whistles distracting them from actually creating something worthwhile apart from vapid 30-second
     </div>
     <div className={styles.text2}>
-      The potential for extractive resources dealing in physical land can be destructive to stability and conducive to conflict is a tale as old as time. And recently, recent interest in virtual land has led to the emergence of a bizarro market fueled by the obsession of creating virtual land to sell to speculators solely to line the pockets of their owners that create scarcity-driven virtual worlds.
+      snapshots that can be shut down at a moment’s notice anyway. 
       <br /><br />
-      The same is no different in the virtual realms–despite the fact that they ought to bestow them the ability to benefit, gain economic value, and, most importantly, the all-important value of clout. We’re seeing this in the second generation of virtual worlds like Nifty Island.
+      Some revel in the fantasy that aping the actions of the corporations responsible for making the environment toxic protects them by retreating to the confines of outdated regulations that the big players can flaunt anyway.
+      <br /><br />
+      But what makes CC0 a mechanism to unlock value and prosperity for web3?
     </div>
     <div className={styles.text3}>
-      The difference between “first-generation” decentralized worlds and the next generation–the open, decentralized metaverses we had in mind is that the value proposition goes far beyond just artificial scarcity.
+      It’s an incredibly powerful tool to amplify a web3 or NFT startup’s public image and brand, while allowing all sorts of new, independent, and fresh creators the tools to produce, reimagine, and create anew, without the constraints of archaic copyright law which, quite frankly, is out of touch with the digital new order anyway. Toothless and without power to enforce. CC0’s permissiveness allows anyone and everyone to freely use content without fear of a murder of lawyers out to hit you with a fat copyright infringement lawsuit. 
     </div>
     <div className={styles.text4}>
-      They go beyond the manufactured, arbitrarily determined scarcity engineered to capture value solely for the pockets of VCs and early adopters. Nothing wrong with that–but the model as it stands doesn’t nearly nourish the culture, the community–the lifeblood, the sole purpose for the existence of these worlds, anyway.
+      It might be odd to think that a license waiving all copyright protection is what will create the most economic value and network effects. But that’s just what’s exactly happening in web3. CC0 is the most “web3 friendly” model for governing IP and will be the primary licensing model of choice for true web3.
     </div>
     <div className={styles.text5}>
-      The metaverse cannot be limited. How absurd it is to attempt to limit such an all-encompassing cosmos to a mere existential matter of scarcity.
-      <br /><br />
-      It’s not just flogging pieces of randomized, ostensibly scarce land and buying them up in a race to the bottom, dog-eat-dog, “I-got-mine,” HFSP paradigm. 
+      That isn’t to say that every web3 startup involved in NFTs needs to embrace CC0, as evidenced by Cryptopunks, whose creators Larva Labs explicitly retain copyright and intellectual property around the whole Punk universe. But CC0 undercuts and releases the leverage corporate web3 has on the 
     </div>
     <div className={styles.text6}>
-      After all, how can there be scarcity in the face of such digital abundance? With the emergence of the new order, individuals can create their own virtual world, build an empowered, dedicated community, make people want to be part of it, generate economic and personal growth for all, and most importantly, the clout that brings value to every participant.
+      entire digital ecosystem. Why? Because the Creative Commons appellation is synonymous with an open, decentralized environment developing intellectual property and how they will be used as one community–and every derivative arising thereof of said NFT or product for that matter.
     </div>
 
     <div className={styles.rect1}></div>

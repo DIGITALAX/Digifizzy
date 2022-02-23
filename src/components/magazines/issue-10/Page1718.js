@@ -4,28 +4,67 @@ import { DIGIFIZZY_S3 } from '@constants/urls'
 import styles from './page1718.module.scss'
 
 const Page1718 = () => {
-  const [play, setPlay] = useState(false)
-  const refAudio = useRef()
-
-  const startAudio = () => {
-    refAudio.current.play()
-    setPlay(true)
-  }
-
-  const pauseAudio = () => {
-    refAudio.current.pause()
-    setPlay(false)
-  }
-
   return (
     <div className={styles.wrapper}>
       <div className={styles.background}>
         <Image
-          src='/magazine/9/images/1718_background.jpg'
-          width={1920}
+          src={`${DIGIFIZZY_S3}/10/images/1718_background.jpg`}
+          width={1618}
           height={1497}
         />
       </div>
+      <div className={styles.rect1}></div>
+      <div className={styles.rect2}></div>
+      <div className={styles.rect3}></div>
+      <div className={styles.rect4}></div>
+      <div className={styles.rect5}></div>
+      <div className={styles.rect6}></div>
+      <div className={styles.rect7}></div>
+      <div className={styles.rect8}></div>
+      <div className={styles.rect9}></div>
+
+      <div className={[styles.image1].join(' ')}>
+        <Image
+          src={`${DIGIFIZZY_S3}/10/images/1718_image1.png`}
+          width={252}
+          height={447}
+        />
+      </div>
+      <div className={[styles.image2].join(' ')}>
+        <Image
+          src={`${DIGIFIZZY_S3}/10/images/1718_image2.png`}
+          width={438}
+          height={441}
+        />
+      </div>
+      <div className={[styles.image3].join(' ')}>
+        <Image
+          src={`${DIGIFIZZY_S3}/10/images/1718_image3.png`}
+          width={425}
+          height={249}
+        />
+      </div>
+      <div className={[styles.image4].join(' ')}>
+        <Image
+          src={`${DIGIFIZZY_S3}/10/images/1718_image4.png`}
+          width={266}
+          height={249}
+        />
+      </div>
+
+      <a
+        className={styles.link1}
+        href='https://twitter.com/akim_funk'
+        target='_blank'
+      >
+        <div className={styles.text1}>
+          Akim Funk Buddha
+        </div>
+        <div className={styles.text2}>
+          Akim Funk Buddha
+        </div>
+      </a>
+
       <div className={styles.leftSideFrame} />
       <div className={[styles.animationFrame, styles.leftSideImageWrapper].join(' ')}>
         <img src='./magazine/1/images/howtogetintext 2.png' alt='' />
@@ -40,63 +79,6 @@ const Page1718 = () => {
         <img src='./magazine/1/images/howtogetintext 1.png' alt='' />
         <img src='./magazine/1/images/howtogetintext 1.png' alt='' />
       </div>
-
-      <a
-        className={styles.text1}
-        href='https://twitter.com/arcade_xyz'
-        target='_blank'
-      >
-        ARCADE
-      </a>
-      <div className={styles.text2}>
-        CASHTRO
-      </div>
-      <div className={styles.text3}>
-        CASHTRO
-      </div>
-      <div className={styles.text4}>
-        CASHTRO
-      </div>
-      <div className={styles.text5}>
-        CASHTRO
-      </div>
-      <div className={styles.text6}>
-        CASHTRO
-      </div>
-      <div className={styles.text7}>
-        Thinking back to before the great NFT boom that started in late 2020 and continues through the present, there were a handful of, at that point, still nascent and promising paths all of the pioneering efforts in web3 could take. Many thought DeFi would have it's moment to strike in a big way, and they were very right. Predictions about cryptoart and PFPs were spot on. But NFT lending had a brief spark, then fizzled... until now?
-        <br /><br />
-        Tune into the latest audio session with Cashtro to learn more about Arcade and what they have built to bring NFT lending to the masses.
-      </div>
-
-      <a
-        className={styles.image1}
-        href='https://twitter.com/CashtroCrypto'
-        target='_blank'
-      >
-        <Image
-          src='/magazine/9/images/1718_image1.png'
-          width={229}
-          height={229}
-        />
-      </a>
-      <a className={styles.imagePlayButton} onClick={startAudio}>
-        <Image
-          src='/magazine/9/images/1718_playbutton.png'
-          width={267}
-          height={267}
-        />
-      </a>
-      <a className={styles.imagePauseButton}  onClick={pauseAudio}>
-        <Image
-          src='/magazine/9/images/1718_pausebutton.png'
-          width={267}
-          height={267}
-        />
-      </a>
-      <audio ref={refAudio} loop>
-        <source src='/magazine/9/sounds/1718_sound1.mp3' type='audio/mp3' />
-      </audio>
     </div>
   )
 }

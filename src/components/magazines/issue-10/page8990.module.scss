@@ -5,15 +5,6 @@
   background: #000000;
   color: white;
 
-  .rect1 {
-    position: absolute;
-    width: 960px;
-    height: 1497px;
-    left: 0;
-    top: 0;
-    background-color: #120E39;
-  }
-
   .text1 {
     position: absolute;
     width: 838px;
@@ -78,11 +69,11 @@
     -webkit-text-stroke: 3px #9021FF;
   }
 
-  .image1 {
+  .imageBackground {
     position: absolute;
     width: 960px;
     height: 1497px;
-    left: 960px;
+    left: 0px;
     top: 0px;    
   }
 

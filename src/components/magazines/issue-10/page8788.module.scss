@@ -2,5 +2,57 @@
 
 .wrapper {
   @include magazineWrapper();
+
+  .imageBackground {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;    
+  }
   
+  .text1 {
+    position: absolute;
+    width: 838px;
+    height: 172px;
+    left: 44px;
+    top: 41px;
+    
+    font-family: Nosifer;
+    font-size: 80px;
+    line-height: 80px;
+
+    color: #FF1E1E;
+    -webkit-text-stroke: 3px #000000;
+  }
+  
+  .text2 {
+    position: absolute;
+    width: 241px;
+    height: 875px;
+    left: 44px;
+    top: 148px;
+    
+    font-family: Italiana;
+    font-size: 18px;
+    line-height: 20px;
+    
+    color: #FFFFFF;
+    -webkit-text-stroke: 0.5px #FFFFFF;
+  }
+  
+  .text3 {
+    position: absolute;
+    width: 241px;
+    height: 255px;
+    left: 330px;
+    top: 148px;
+    
+    font-family: Italiana;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+    -webkit-text-stroke: 0.5px #FFFFFF;
+  }
 }

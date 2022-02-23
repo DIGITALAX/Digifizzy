@@ -35,23 +35,16 @@ const Page2728 = () => (
     </div>
 
     <div className={styles.text1}>
-      We can have an infinity of metaverse spaces we ALL can live in–not just anyone who can fork over the most.
+      One need only look at what’s going on in Xinjiang and the international backlash that the Nikes and Zaras of the world have rightfully earned for their tacit approval of the communist government’s oppression of the Uyghur people, in a region responsible for nearly 85% of the PRC’s cotton production–and one-fifth of that of the entire world.
       <br /><br />
-      We’re building in web3 so we can replace all those flawed systems. Why should virtual land be limited to being a base layer for private land ownership when it can be so much more than just another boring real estate play that’s strictly worse than the existing paradigm anyway?
+      Wanton, hypercapitalistic attitudes have led us down the rabbit hole of child labor, government-sponsored sweatshops, and outright slavery in the 21st century. In the 21st century. And more and more individuals are waking up to this fact, as the Biden administration begins its investigative hearings into a bill that bars products made with Chinese forced labor. The eyes of the world are watching, Joe.
       <br /><br />
-      Approaching virtual land based on an IRL property regime is probably looking at virtual land the wrong way. Besides, with the multitude of virtual worlds out there, how can we attach our identities to the parcels of digital land we own?
+      There’s a lot of blame to pass around for sure. But there’s little doubt that the world’s largest brands purchase Xinjiang-sourced cotton products from Chinese traders, while other companies operate a massive supply chain across the Indian subcontinent using raw materials from the eponymous autonomous region–all contributing to the erosion of Uyghur roots and culture in a industrialized, downright dystopian fashion. That’s not mentioning the forced sterilization, abortion, and government-sponsored indoctrination programs that have been inflicted on the native populace.
       <br /><br />
-      Well, the Ethereum Name Service (ENS) just might have the answer. ENS, which basically serves as an entity’s digital identity in the metaverse, has come across as potentially a solution to coordinating ownership of virtual land across the realms they might exist in and mapping them in an organized, easily iterable fashion.
+      It’s about time we put right the institutional wrongs, and fashion is no different. We must hold the companies that enable this dystopia to pervade, and hold them liable for ensuring that human rights are respected from the cotton fields to Champs-Elysees. 
       <br /><br />
-      And just as domain names became the undisputed virtual land of the web1 era, the same future just might play out in web3.
-      <br /><br />
-      ENS has supported custom text fields since last October, which are basically arbitrary records that can store any data without adding new types for new use cases–virtual land included.
-      <br /><br />
-      Besides, addresses are much simpler to organize, significantly more composable, and data–including virtual spaces–can be layered on top of it in various ways. Therefore, everything you wish to register–land included–can be done using ENS.
-      <br /><br />
-      And just as web1 domains were, ENS can very well be on the cusp of becoming a fundamental element of the open and decentralized metaverse.
-      <br /><br />
-      We’ve already lost the shackles that restrain us from enjoying the privilege of true, unbridled ownership of whatever it is we wish to own in the metaverse. Why put them back on for the lack of imagination?
+      Check the vulturistic VC/web2 attitudes by the door please.
+
     </div>
   </div>
 )

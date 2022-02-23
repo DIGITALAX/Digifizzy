@@ -6,9 +6,9 @@ import styles from './page8990.module.scss'
 const Page8990 = () => {
   return (
     <div className={styles.wrapper}>
-      <div className={styles.image1}>
+      <div className={styles.imageBackground}>
         <Image
-          src='/magazine/9/images/8788_image1.jpg'
+          src='/magazine/9/images/8990_background.jpg'
           width={960}
           height={1497}
         />
@@ -31,8 +31,6 @@ const Page8990 = () => {
       <div className={styles.text10}>
         FASHION FOR THE METAVERSE
       </div>
-
-      <div className={styles.rect1}></div>
 
       <div className={styles.text1}>
         False Hope & Fake Positives

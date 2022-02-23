@@ -129,6 +129,18 @@ const Page1314 = () => {
         ‘verse, although nothing distinctly new in their offerings, is certainly bringing more on-ramping strengths to the heart of the web3 community. 
       </div>
 
+      <a
+        className={styles.image1}
+        href='https://twitter.com/stephensonhmatt'
+        target='_blank'
+      >
+        <Image
+          src={`${DIGIFIZZY_S3}/10/images/1314_image1.png`}
+          width={183}
+          height={183}
+        />
+      </a>
+
       <div className={styles.text15}>
         I got into and (unfortunately!) out of Bitcoin in 2011 and then pretty much eyed the space from afar until December 2017 when Cryptokitties launched. NFTs blew me away and I’ve been working with them and proselytizing them to skeptical academics ever since. DAOs I didn’t understand until I helped start one, but now I’m guardedly enthusiastic as well.
       </div>
@@ -149,6 +161,27 @@ const Page1314 = () => {
         <br /><br />
         Blockscience is working on computer-aided-governance as a tool, and founder Michael Zargham has a very cool mechanism called conviction voting both of which I’d recommend looking into. Basically, these are useful ways of facilitating decentralization as a goal by improving governance tooling.
       </div>
+      <a
+        className={styles.text21}
+        href='https://twitter.com/stephensonhmatt'
+        target='_blank'
+      >
+        MATT STEPHENSON
+      </a>
+      <a
+        className={styles.text22}
+        href='https://twitter.com/stephensonhmatt'
+        target='_blank'
+      >
+        MATT STEPHENSON
+      </a>
+      <a 
+        className={styles.text23}
+        href='https://twitter.com/stephensonhmatt'
+        target='_blank'
+      >
+        MATT STEPHENSON
+      </a>
     </div>
   )
 }

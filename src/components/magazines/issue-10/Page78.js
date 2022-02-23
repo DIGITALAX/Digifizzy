@@ -51,20 +51,18 @@ const Page78 = () => (
       Peezy R.
     </div>
     <div className={styles.text4}>
-      The impulse to care about living space–or territoriality, as it were–is programmed deep into practically every vertebrate walking this mortal plane. 
+      Much has been said about how the decades-long corporate stranglehold in tech. 
       <br /><br />
-      One need only look at the perpetual state of war in the most contested pieces of land on earth. They have been theaters of hate and depravity, but altogether a seemingly evolutionary impulse hardwired to fight for land.
+      And timeless as the bickering and brouhaha between centralization and decentralization, one thing remains clear: Big Tech is giving no quarter in its fight to retain its apex predatory position.
       <br /><br />
-      Land was and still remains valuable because of its productive value. It stores monetary value, generates economic activity; physical land also derives its value from its inherent scarcity.
+      As the revolutionary forces of web3 begin to shine a light out of the walled wastelands inflicted on the industry by its erstwhile darlings, there is one foundational and guiding principle underpinning web3 an age full of charlatans, grifters, and pretenders all looking to get their beaks wet by hopping on its coattails: creative commons, or CC0.
       <br /><br />
-      Virtual realms have become attractive to the younger generation due to circumstances that have rendered it impossible for them to own real estate. 
+      CC0 is among the foundational tools of web3. It is what practically 
     </div>
     <div className={styles.text5}>
-      It has created virtual worlds like Decentraland and Somnium Space that allow them to buy and sell virtual land plots and in-game products and services as a “not-to-miss” investment opportunity. Hmm. That’s a strange-looking metaverse. 
+      guarantees the sanctity of web3 by keeping it open for everyone to participate in–which is practically antithetical to the established order of walled gardens and closed, censored, (or carefully-curated ecosystems, take your pick) with exorbitant barriers to entry by the en vogue startup du jour.
       <br /><br />
-      The pitches we hear nowadays almost seem as if someone was trying to sell timeshares in Tijuana. And if I hear another virtual real estate pitch centered on muh scarcity, I swear I’m gonna throw up in my mouth.
-      <br /><br />
-      Nevertheless, this has given rise to a whole bevy of so-called “metaverse” real estate companies.
+      It’s not without its flaws, and the apprehension many creators feel as they make their way through web3 is palpable considering some of the experiences they’ve had with legacy fashion actors–the same ones worming their way into the good graces of web3.
     </div>
 
     <div className={styles.rect1}></div>

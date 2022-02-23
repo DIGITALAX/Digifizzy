@@ -8,8 +8,8 @@ const Page1112 = () => (
     <div className={styles.image1}>
       <Image
         src={`${DIGIFIZZY_S3}/10/images/1112_image1.png`}
-        width={819}
-        height={1146}
+        width={847}
+        height={1452}
       />
     </div>
     <div className={styles.image2}>
@@ -27,19 +27,11 @@ const Page1112 = () => (
       />
     </div>
     <div className={styles.text1}>
-      It’s not just another iteration of an ultimately extractive “metaverse” run by the whim of whales and those with the capital to throw around. 
-    </div>
-    <div className={styles.text2}>
-      Who wants a metaverse where its participants are reduced to real estate brokers selling a piece of virtual land. Virtual land that was expressly made for the corporate fat cats and their murder of lawyers to market to? One that exists for the benefit of gatekeepers rubbing their grubby hands at the filthy lucre they stand to gain from the money that will undoubtedly plow into the metaverse economy–regardless of who wins the race to define what it really is.
+      CC0 empowers creators way beyond copyright–and in fact protects them from the same monoliths and giants that have had a sterling record in arbitrarily deplatforming and censoring individuals thought to have crossed the company line, allowing their creations to live forever freely, and open doors to more creative liquidity that the spirit of CC0 ultimately fosters. It protects against the toxic culture of carny exploitative cliquism that goes against every single fiber of web3. Participating in CC0 culture is an act of solidarity with the latter’s principles. 
       <br /><br />
-      Nevertheless, Nifty Island is proving this model out. Nifty Island rewards the creators, builders, artisans, and risk-takers of the new digital era an opportunity to create wealth through the creation of value. It’s not just the value of the parcels of virtual islands with heavy traffic that will benefit (from the platform’s to-be-released native token). It’s the individuals actively taking the time to build who are strongly incentivized to create, move fast, break things, create network effects, and therefore generate clout in web3–which is more than its weight than anything in this space.
+      In the end, web3 is at its most naked and powerful when it is open, decentralized, and permissionless. 
       <br /><br />
-      Clout attracts creators and new participants in the ecosystem–each of which brings their own unique value proposition to the worlds they choose to inhabit.
-      <br /><br />
-      Therefore, the striking difference between the first generation and the new one is how they incentivize their users to create genuine, tangible economic and social value for every participant who chooses to spend their time living their digital life in that particular world. 
-    </div>
-    <div className={styles.text3}>
-      Time is, after all, the final currency. Who wants to live in the shadow of the terrifying prospect of a Zuckerverse? Why even spend a single second living in a digital, dystopian fantasy of a virtual world that exists solely for faceless corporations and web2 also-rans to advertise to?
+      Ultimately, Creative Commons is the path forward for web3–and its importance to building entirely new web3 brands and industries is understood by those in the know.
     </div>
 
     <div className={styles.rect1}></div>
@@ -48,6 +40,21 @@ const Page1112 = () => (
     <div className={styles.line1}></div>
     <div className={styles.line2}></div>
     <div className={styles.line3}></div>
+
+    <div className={styles.line4}></div>
+    <div className={styles.line5}></div>
+    <div className={styles.line6}></div>
+    <div className={styles.line7}></div>
+    <div className={styles.line8}></div>
+    <div className={styles.line9}></div>
+    <div className={styles.line10}></div>
+    <div className={styles.line11}></div>
+    <div className={styles.line12}></div>
+    <div className={styles.line13}></div>
+    <div className={styles.line14}></div>
+    <div className={styles.line15}></div>
+    <div className={styles.line16}></div>
+    <div className={styles.line17}></div>
   </div>
 )
 
