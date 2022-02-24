@@ -338,7 +338,6 @@ export const getRewardContract = async (contractAddress) => {
 }
 
 export const getQuickSwapRouterContract = async () => {
-  // const web3 = new Web3(isMetamaskInstalled() ? window.ethereum : config.DEFAULT_WEB3_URL);
 
   const contract = await new window.web3.eth.Contract(
     IUniswapV2Router02ABI,
@@ -353,7 +352,7 @@ export const getTokenPrice = async (contractAddress) => {
 
   const provider = new EthersProviders.InfuraProvider(
     'homestead',
-    '6e9690131f584ee0a8b445ebb4740f8b',
+    process.env.INFURA_API_KEY,
   )
 
   const monaToken = createUniswapPair(contractAddress, provider)

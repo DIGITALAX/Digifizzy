@@ -16,7 +16,7 @@
   },
   "API_DLTA_URL": "https://api.thegraph.com/subgraphs/name/digitalax/the-dlta",
   "DEFAULT_NETWORK": "matic",
-  "DEFAULT_WEB3_URL": "https://mainnet.infura.io/v3/6e9690131f584ee0a8b445ebb4740f8b",
+  "DEFAULT_WEB3_URL": "https://mainnet.infura.io/v3/",
   "WEB3_URLS": {
     "GOERLI": "https://goerli.infura.io/v3/280e56393dd1469e8cadc4132a5ec37c",
     "MUMBAI": "https://rpc-mumbai.maticvigil.com/v1/1590d9f343d27b977aa149ac37ebd8f2aad7f68a",

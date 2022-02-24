@@ -26,6 +26,12 @@ const {
 } = require('config')
 const withImages = require('next-images')
 
+const webpack = require('webpack')
+
+const env = {
+  INFURA_API_KEY: process.env.INFURA_API_KEY
+};
+
 module.exports = withImages({
   publicRuntimeConfig: {
     BACKEND_API,
@@ -73,6 +79,8 @@ module.exports = withImages({
         ws: 'empty'
       }
     }
+
+    cfg.plugins.push(new webpack.EnvironmentPlugin(env))
 
     return cfg
   }
