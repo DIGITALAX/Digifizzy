@@ -4,7 +4,7 @@ export const details = [
       id: 42,
       title: 'Common Unlock',
       subTitle: [
-        'Issue Eight',
+        'Issue Nine',
         'Sorry Zuck Navy DRIP T-Shirt',
         'Realm Runway Event Ticket',
         'Digital Fashion Neon Collectible Scene One',
@@ -968,6 +968,11 @@ export const details = [
 ];
 
 export const info = [
+  {
+    image: '/images/nft/9/home.png',
+    id: 'NINE',
+    title: 'DIGIFIZZY',
+  },
   {
     image: '/images/nft/8/main.png',
     id: 'EIGHT',
