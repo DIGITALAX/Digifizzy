@@ -159,6 +159,7 @@ const NftBanners = () => (
       <img src="images/nft/9/8.png" /> */}
 
       {/* issue 10 */}
+
       <div className={s.firstBanner}>
         <img src="images/nft/10/1.png" />
         <Link href="/unlockable/">
