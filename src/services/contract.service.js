@@ -1,12 +1,10 @@
-import { Contract, providers as EthersProviders } from 'ethers'
+import { providers as EthersProviders } from 'ethers'
 import { create as createUniswapPair } from '@helpers/uniswap.helpers'
-import { abi as IUniswapV2Router02ABI } from '@uniswap/v2-periphery/build/IUniswapV2Router02.json'
 import Web3 from 'web3'
 import config from '@utils/config'
 import { getUSDTAddressByChainId } from './network.service'
 import digitalaxSubscriptionNftAbi from '../constants/DigitalaxSubscriptionNFT_abi.json'
 import digitalaxSubscriptionMarketplaceAbi from '../constants/DigitalaxSubscrpitionMarketplace_abi.json'
-import { isMetamaskInstalled } from './metamask.service'
 
 export const getMarketplaceContract = async (ContractAddress) => {
   const jsonInterface = [
@@ -307,42 +305,6 @@ export const getContract = async (auctionContractAddress) => {
   ]
 
   const contract = await new window.web3.eth.Contract(jsonInterface, auctionContractAddress)
-
-  return contract
-}
-
-export const getRewardContract = async (contractAddress) => {
-  const jsonInterface = [
-    {
-      inputs: [
-        { internalType: 'uint256', name: '_from', type: 'uint256' },
-        { internalType: 'uint256', name: '_to', type: 'uint256' }
-      ],
-      name: 'parentRewards',
-      outputs: [{ internalType: 'uint256', name: 'rewards', type: 'uint256' }],
-      stateMutability: 'view',
-      type: 'function'
-    },
-    {
-      inputs: [],
-      name: 'getMonaPerEth',
-      outputs: [{ internalType: 'uint256', name: '', type: 'uint256' }],
-      stateMutability: 'view',
-      type: 'function'
-    }
-  ]
-
-  const contract = await new window.web3.eth.Contract(jsonInterface, contractAddress)
-
-  return contract
-}
-
-export const getQuickSwapRouterContract = async () => {
-
-  const contract = await new window.web3.eth.Contract(
-    IUniswapV2Router02ABI,
-    config.QUICKSWAP_ROUTER,
-  )
 
   return contract
 }

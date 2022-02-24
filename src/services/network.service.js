@@ -40,11 +40,6 @@ export const getWSUrlByChainId = (chainId) => {
 
   return url.replace('http', 'ws')
 }
-export const getRewardContractAddressByChainId = (chainId) => {
-  const network = getEnabledNetworkByChainId(chainId)
-
-  return config.REWARD_CONTRACT_ADDRESSES[network.alias]
-}
 
 export const getMonaContractAddressByChainId = (chainId) => {
   const network = getEnabledNetworkByChainId(chainId)
