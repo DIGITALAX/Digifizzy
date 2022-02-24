@@ -26,13 +26,20 @@ const Page7980 = () => (
       Microsoft.
     </div>
     <div className={styles.text4}>
-      If the terms of the deal are not disclosed, is decentralisation nothing more than a snazzy marketing fad? With the latest refashioning of behavioral psychology and cargo cult reinforcement rituals into what they call “Energy Marketing”, Nike continues to sell what they make best: the idea of a status seeking ultra fit tribe that pays fo the privilege of wearing the “unspoken soul” of a tightly controlled brand you can borrow a dopamine drip of self-esteem form, but never truly own. The ad and M&A teams at the traditional fashion world’s most profitable sneaker lifestyle company knows we’re all human, desire connectivity, and will trade almost anything for it. Now facing the greatest challenge to market dominance they have ever encountered, Nike is going all in on a spree of acquisitions, brand reorganizations, and attempts to spin the web3 metaverse narrative to one of platitudes about a stylish, high status, tech savvy culture where they remain in control in all the ways that matter to them. The real revolutionary power of the open metaverse and self-sovereign networks to rapidly scale up fashion designers, creators of all kinds, and every network participant to an even playing field where we can compete with the likes of Nike and other legacy brands directly is their ultimate nightmare. And it’s happening all too fast for them to keep up. 
+      Low and behold, Microsoft is at it again. Despite all of the years pretending to make a shift towards Open Source when the survival of their company depended on it, even going so far to purchase Github for $7.5 billion (Hoping to gain the trust of the core open source developer community), now they are back at their old ways. Are the most recent headlines really that much of a surprise? Microsoft is making it nearly impossible for consumers to remove their new edge browser or even just simply swap it out as a default for others like Chrome, Firefox and more.
+      <br /><br />
+      It may not seem like such a big deal to some, but it really comes down to control over what you can and can’t do with the machines that you own. It’s even scarier when you realise that Microsoft owns the largest chunk of the gaming hardware market, and, they just recently acquired Activision under the pretense of making a big metaverse play— but...it’s just another ploy to lockdown more of the gaming supply lines and everyone’s access to it.
     </div>
     <div className={styles.text5}>
-      But not for lack of trying.  With their launch of Nikeland, widely reported battles over the legality of customization with some of their most passionate and creative devotees, a fresh firestorm over abuse of insider connection in thei sneakhead reselling app, and trigger happy legal team continuing to push their old model of centralized control under the cover of their famously witty cultish press releases and ad campaigns, it’s no surprise their biggest move into web3 is just another fake. The recent purchase of RTFKT was full of so much brazen hypocrisy and sketchy behavior they might as well rename it REKT. 
-    </div>
+      The first antitrust charges were brought against Microsoft and Bill back in 1998 when Microsoft was accussed of making it exceptionally difficult for consumers to install competing software on computers operated by Windows. After the decision against them in 2001, they had a major reputation problem on their hands as well as facing intense competition from other players in the market, including a resurgent Apple.
+      <br /><br />
+      As the first decade of the 21st century played out, a shift towards a greater embrace of open source in their marketing began to gain greater favour as the only way to keep Microsoft relevant in developer and fast scaling start     </div>
     <div className={styles.text6}>
-      Makes you wonder if anyone at Nike has even bothered to read the Bitcoin and Ethereum white papers before they started a big push into embracing the buzz value of “web3” and “NFTs” as a marketing strategy without the slightest hint of true decentralization.  This Gatekeeper Gardens is a hard one to write, because there’s just so much ink we can give to a laundry list of wrongdoings that could fill books, and has. But no quick look at Nike’s reprehensible gatekeeper behavior could be complete without mention of their constant supply of capital to perpetrators of forced labor in subcontracted factories. Moved far from their homes from one end of a country the size of the continental US to the other, mostly Uyghur women made to work long hours for little pay in buildings surrounded by cameras and barbed wire, and spend their nights being indoctrinated in “patriotic education”, the Nikes we all still wear IRL are made by a system incentivized by principles that couldn’t have less in common with web3. If Nike just keeps doing it their way, the digital knockoffs RTFKT makes will be made just the same.
+      up communities.   
+      <br /><br />
+      Through significantly more spending dedicated to co-op open sourced projects, to embrace a standardisation of more functional Javascript, and, becoming more of a comprehensive cloud based company, by the time 2015 rolled around it looked like Microsoft had completed an expected and long overdue total transformation. 
+      <br /><br />
+      A few short years turn of the clock later and here we are again. Microsoft is racing towards monopoly control of any small segment of the market they can. How much it conflicts with anything open source, open metaverse, decentralised and self sovereign be damned. 
     </div>
     <div className={styles.text7}>
       Destroy the wall
@@ -46,6 +53,22 @@ const Page7980 = () => (
         Triangle Loft
       </div>
     </a>
+
+    <div className={styles.text9}>
+      Real estate in nyc is renown as one of the most sought after symbols of clout, access, status and the capacity to attract wealth. but, it isn’t just the shape of your walls that count. LOCATION, LOCATION, LOCATION... YES! 
+      <br /><br />
+      But also, kind of cliche on its own. 
+      <br /><br />
+      The real value of your boxy assets is in what they enable to pass through them. What do they contain, create, and evevate. 
+      <br /><br />
+      for so many space purveyors and pioneers, in this city, and others even approximately like it, the convenient pull of corporate transactions are far less reliable post pandemic than they ever even appeared to be before. and, are fading even in the ability to seem appealing when compared to the more creative, immersive and generative hybrid digital communities that old corporate model forces you to pass up.
+    </div>
+
+    <div className={styles.text10}>
+      triangle loft is situated in a prime location in the meatpacking district and is actively exploring that leading edge of a transition from the glitz and glamour of the old scene to defining the new. 
+      <br /><br />
+      from fizzy nft brunches to quaint old world meets new gallery display evenings, becoming more of a factorial asset that puts all of those who come through it into a better position to gain wealth themselves is the newly standard model for the most relevant spaces to embrace and stay a step ahead.       
+    </div>
   </div>
 )
 

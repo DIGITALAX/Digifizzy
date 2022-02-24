@@ -36,9 +36,7 @@ const Page4142 = () => (
       Que
     </div>
     <div className={styles.text5}>
-      “Alana Dracarys” is a diverse merger inspired by LOOK#2107 (owned by @alanatheweb3girl). The central topic though was like always the continuing journey of Alana the web3 girl throughout the metaverse itself. A specific place in the hierarchy of the outfit was dedicated to the “copper dragon” from LOOK#2107. A collaboration between Tania Viegas (clothing), Lillian Sato (accessories), Stan Mclygin (stage), and Stella Achenbach (avatar/ textures/ rendering & cut).
-      <br />
-      Get it here:
+      Web3 IRL Model from Los Angeles. Part time DJ. 
     </div>
 
   </div>

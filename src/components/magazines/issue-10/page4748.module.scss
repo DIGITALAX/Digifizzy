@@ -14,17 +14,250 @@
     background: radial-gradient(50% 50% at 50% 50%, #FCFF68 0%, #3449E0 31.77%, #0F1442 78.12%, #001AFF 100%);
   }
 
+  .rect1 {
+    position: absolute;
+    width: 745px;
+    height: 146px;
+    left: 54px;
+    top: 201px;
+    
+    background: #5A9CFF;    
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 745px;
+    height: 199px;
+    left: 183px;
+    top: 381px;
+    
+    background: #5A9CFF;
+  }
+
+  .rect3 {
+    position: absolute;
+    width: 798px;
+    height: 169px;
+    left: 54px;
+    top: 614px;
+    
+    background: #5A9CFF;
+  }
+
+  .rect4 {
+    position: absolute;
+    width: 798px;
+    height: 395px;
+    left: 130px;
+    top: 974px;
+    
+    background: #CC9F00;
+  }
+
+  .rect5 {
+    position: absolute;
+    width: 745px;
+    height: 115px;
+    left: 1127px;
+    top: 202px;
+  }
+
+  .rect6 {
+    position: absolute;
+    width: 745px;
+    height: 353px;
+    left: 1044px;
+    top: 513px;
+    
+    background: #CC9F00;
+  }
+
+  .rect7 {
+    position: absolute;
+    width: 601px;
+    height: 438px;
+    left: 1012px;
+    top: 1024px;
+    
+    background: #5A9CFF;
+  }
+
   .text1 {
     position: absolute;
     width: 798px;
     height: 139px;
-    left: 55px;
+    left: 83px;
+    top: 46px;
+
+    font-family: Bigelow Rules;
+    font-size: 120px;
+    line-height: 139px;
+    color: #FFFFFF;
+    text-shadow: -3px -3px #000000, -3px 3px #000000, 3px -3px #000000, 3px 3px #000000;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 712px;
+    height: 128px;
+    left: 70px;
+    top: 205px;
+    
+    font-family: Bigelow Rules;
+    font-size: 40px;
+    line-height: 46px;
+    
+    color: #FFFFFF;        
+  }
+
+  .text3 {
+    position: absolute;
+    width: 730px;
+    height: 184px;
+    left: 190px;
+    top: 389px;
+    
+    font-family: Bigelow Rules;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: right;
+    
+    color: #FFFFFF;
+    
+  }
+
+  .text4 {
+    position: absolute;
+    width: 768px;
+    height: 128px;
+    left: 70px;
+    top: 628px;
+    
+    font-family: Bigelow Rules;
+    font-size: 40px;
+    line-height: 46px;
+    
+    color: #FFFFFF;    
+  }
+
+  .text5 {
+    position: absolute;
+    width: 504px;
+    height: 139px;
+    left: 424px;
+    top: 818px;
+    
+    font-family: Bigelow Rules;
+    font-size: 120px;
+    line-height: 139px;
+    text-align: right;
+    
+    color: #FFFFFF;
+    text-shadow: -3px -3px #000000, -3px 3px #000000, 3px -3px #000000, 3px 3px #000000;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 768px;
+    height: 434px;
+    left: 145px;
+    top: 991px;
+    
+    font-family: Bigelow Rules;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: right;
+    
+    color: #FFFFFF;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 676px;
+    height: 139px;
+    left: 1204px;
     top: 46px;
     
     font-family: Bigelow Rules;
     font-size: 120px;
     line-height: 139px;
+    
     color: #FFFFFF;
-    -webkit-text-stroke: 3px #000000;
+    
+    text-shadow: -3px -3px #000000, -3px 3px #000000, 3px -3px #000000, 3px 3px #000000;
+  }
+
+  .text8 {
+    position: absolute;
+    width: 743px;
+    height: 116px;
+    left: 1121px;
+    top: 210px;
+    
+    font-family: Bigelow Rules;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: right;
+    
+    color: #FFFFFF;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 676px;
+    height: 139px;
+    left: 1050px;
+    top: 365px;
+    
+    font-family: Bigelow Rules;
+    font-size: 120px;
+    line-height: 139px;
+    
+    color: #FFFFFF;
+    text-shadow: -3px -3px #000000, -3px 3px #000000, 3px -3px #000000, 3px 3px #000000;
+  }
+
+  .text10 {
+    position: absolute;
+    width: 730px;
+    height: 319px;
+    left: 1066px;
+    top: 521px;
+    
+    font-family: Bigelow Rules;
+    font-size: 25px;
+    line-height: 29px;
+    
+    color: #FFFFFF;
+  }
+
+  .text11 {
+    position: absolute;
+    width: 826px;
+    height: 215px;
+    left: 1066px;
+    top: 893px;
+    
+    font-family: Bigelow Rules;
+    font-size: 100px;
+    line-height: 100px;
+    
+    text-align: right;
+    color: #FFFFFF;
+    text-shadow: -3px -3px #000000, -3px 3px #000000, 3px -3px #000000, 3px 3px #000000;
+  }
+
+  .text12 {
+    position: absolute;
+    width: 561px;
+    height: 406px;
+    left: 1041px;
+    top: 1040px;
+    
+    font-family: Bigelow Rules;
+    font-size: 25px;
+    line-height: 29px;
+    
+    color: #FFFFFF;
   }
 }

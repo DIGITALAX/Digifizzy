@@ -14,17 +14,17 @@ const Page4344 = () => (
     </div>
     <a
       className={styles.text1}
-      href='https://models.digitalax.xyz/models/vk/'
-      target='_blank'
+      // href='https://models.digitalax.xyz/models/vk/'
+      // target='_blank'
     >
-      VK
+      Yadan
     </a>
     <div className={styles.text2}>
-      VK is Hafid's second Metahuman avatar and a brother of Yax. This new character was created to provide another male model into the Realm runway event and create more inclusivity throughout the show and the digital fashion space overall. VK was inspired with a Viking descent and it marks Hafid's goal to create avatars inspired by ancient civilizations from around the physical world in order to posses, understand, and represent a multicultural personality.      
+      
     </div>
     <a
       className={styles.text3}
-      href=''
+      href='https://models.digitalax.xyz/models/Emily%20Rhen/'
       target='_blank'
     >
       Emily Rhen

@@ -12,21 +12,21 @@ const Page4546 = () => (
         height={1497}
       />
     </div>
-    <a href='https://models.digitalax.xyz/models/awele/' target='_blank' rel='noreferrer'>
+    <a href='https://models.digitalax.xyz/models/Benjamin%20Taylor/' target='_blank' rel='noreferrer'>
       <div className={styles.text1}>
-        Benjamin
+        Benjamin Taylor
       </div>
     </a>
     <div className={styles.text2}>
-      A CGI "Afrofuturistic transhuman" character that blurs the lines between human and non-human. Àwèlé is the digital visionaire of Afrofuturism.
+
     </div>
-    <a href='https://models.digitalax.xyz/models/akuchi/' target='_blank' rel='noreferrer'>
+    <a href='https://models.digitalax.xyz/models/Ricardo%20Llanos/' target='_blank' rel='noreferrer'>
       <div className={styles.text3}>
         Riccardo
       </div>
     </a>
     <div className={styles.text4}>
-      A virgo queen with a scorpio moon, introverted, practical and a perfectionist at heart. Originally from West Africa, Akuchi is strong, creative, bold and always opening to trying new things.
+      I am Ricardo Llanos, a web3 model, with a passion for fitness modeling. I also enjoy doing print, fashion modeling and being part of creative projects. I've had the pleasure of working with multiple photographers in the NJ/NY area. Now I'm excited to jump in and be apart of this new marketplace and join this amazing community!!
     </div>
   </div>
 )

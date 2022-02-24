@@ -21,47 +21,53 @@ const Page2930 = () => (
     <div className={styles.middleLine2} />
 
     <div className={styles.climateText1}>
-      NFTS As Drivers of Sustainability.
+      Nuclear Fusion
     </div>
     <div className={styles.climateText2}>
-      NFTS As Drivers of Sustainability.
+      Nuclear Fusion
     </div>
     <div className={styles.climateText3}>
-      NFTS As Drivers of Sustainability.
+      Nuclear Fusion
     </div>
     <div className={styles.climateText4}>
-      NFTS As Drivers of Sustainability.
+      Nuclear Fusion
+    </div>
+    <div className={styles.climateText5}>
+      Nuclear Fusion
+    </div>
+    <div className={styles.climateText6}>
+      Nuclear Fusion
     </div>
     
     <div className={styles.text1}>
-      Fashion NFTs are becoming more and more popular as of just the past 2-3 months, as buyer and collector DAOs focused specifically on the sector form, larger legacy players experiment in the space, and, with the highest potentiality, the indie web3 fashion scene makes waves as coordinated and decentralised fleets of digital and physical designers go all in to completely transform what has existed and weighed down many in the industry for decades upon decades before. 
+      Geopolitical conflict, corporate misconduct, the pandemic, economic crisis, the climate crisis, and whinging about NFTs all probably seem like they are disconnected from each other, making for a perfect if a bit random and unexpected storm of rage towards a fast growing new industry. After all, isn’t this what always happens when new technologies rise up and displace the old?
       <br /><br />
-      And, with that, the motivation for many shifting into web3 has been to also bring further light in terms leveraging the ability to more transparently and directly raise capital for sustainability efforts. The LA based traditional label, Polite, has partnered up with nonprofits Lonely Whale and Coral Gardeners to release the Impact Star capsule launch.
+      The origins of power and conflicts between them ultimately come down to the most precious resource of any economic system. The energy to fuel, feed, clothe, shelter, and move every person and mechanism within them. And of course, as always, everything is downstream from economics.
+      <br /><br />
+      The seemingly widespread and far oversampled cultural backlash against Web3 and NFTs is actual a combination of symptoms from the loss of trust in the old 20th century 
     </div>
     <div className={styles.text2}>
-      100 philanthropic 3D design animations will be released with profits split evenly for each organization involved and the capital going to furthering the environmental mission of each of the non-profits. 
+      institutions of centralized banker-industrialism and corporatist socialism that have long since proven to have failed all but those who do everything they can to prevent their loss of control.
     </div>
     <div className={styles.text3}>
-      It’s not a full step into web3 and on-chain end 2 end transparency, however, it does signal an important message for the rest of the industry and certainly nudges other more traditionally based brands minting fashion NFTs to use the tech for more than the basic “clout chasing fill my bags” mentality. 
+      The disastrous damage oil, coal, and gas cause to our coastlines, the air we breathe, natural habitats, acidification of the oceans and related killoff of countless species within them, the spread of wildfires, droughts, floods, 
     </div>
     <div className={styles.text4}>
-      Eco-friendly innovation is a cumbersome topic. Some often get this confused and mixed up with setting on a path to advocating anti-humanism and basic economic functionality. It’s a shame really, because it’s important to note first how much global sustainability gains depend on the power of consumers to make our own choices. And having freedom of choice is intrinsically tied to financial opportunity and optionality. 
-      <br /><br />
-      This is what web3 and blockchain solves for, empowers and makes readily available to anyone— it’s the massive unleashing of democratised capital and serves this purpose more than any other industry in history. For a clear comparison, think about the last time web2 big tech, the airline industry, the fashion industry, AWS servers, and all of the other massively wasteful sectors of the economy substantially devolved economic power to the base in a way that could make a real difference on environmental impact and       
+      and other extreme climatic events, the spread of a whole host of cancers, other chronic and terminal illnesses thanks to the processing, combustion, and byproducts from their production is self-evident to all who don’t choose instead to look away. 
     </div>
     <div className={styles.text5}>
-      policies. Luckily, more web2 founded corporates are queuing up to the idea that aligning with web3 principles creates more value than just ignoring them. 
+      But more obscured is the full extent of catastrophic impact due to the entrenched ways a systemic addiction to hydrocarbons supplies nested hierarchies of tyrants the world over with the capital and control needed to stay always one step ahead of any who would remove and replace them in power. When considering that 80-90% of health costs have been shown to come from what is known as Secondary, or Social, 
     </div>
     <div className={styles.text6}>
-      Some of the bigger transitions this month have been led by CurrencyWorks— a Canadian company turning oil waste into environmentally friendly energy that powers crypto mining. Municipalities pay a fee to give away their waste
+      Determinants of Health (SDoH), it starts to click that maybe living in a constant state of precarity and constraint thanks to never knowing when those in 
     </div>
     <div className={styles.text7}>
-      which then undergoes a process called pyrolysis, decomposing it at high temperatures under pressure to then generate electricity which can power up to 200 mining machines. 
+      power might deem our freedom of movement, association, belief, self-determination, and thought a threat to their interests.
     </div>
     <div className={styles.text8}>
-      NFT project, Green NFTs, has launched a new bounty system for incentivising artists, creators and platforms to create and mint more environmentally sustainable NFTs. It’s a pretty cool and novel concept overall, directing more of those in the space to start embracing sustainable and carbon offsetting practices. 
+      The simple fact, verifiable by anyone with basic math and physics skills, is that nuclear energy technologies are able to produce far, far more energy per each amount of matter and time involved than any other source we have today. That’s going to be true for a relatively long time, particularly at the slow rate of innovation in the hard sciences that we’ve seen in recent decades.
       <br /><br />
-      The bounties are distributed through a judging system and are meant to reinforce more awarness of the many already available options for minting ecological NFTs and also incentivise developers to brainstorm and deploy open source solution stacks that give rise to new technological tooling and engineering on this subject matter.
+      Well, you might have guessed by now that the key to advancing the diversification of energy production, to quickly reducing our reliance on the hydrocarbons ravaging climate, humanity, and nature, and countering the dangerous over-concentration of capital and power, is… in a word, Web3. 
     </div>
   </div>
 )

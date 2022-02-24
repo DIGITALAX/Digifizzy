@@ -52,12 +52,10 @@
     top: 180px;
     
     font-family: Inter;
-    font-style: italic;
-    font-weight: normal;
     font-size: 25px;
     line-height: 30px;
     color: #FFFFFF;
-    -webkit-text-stroke: 0.5px #0038FF;
+    -webkit-text-stroke: 0.5px #0038FF;  
   }
 
   .text3 {
@@ -88,8 +86,9 @@
     font-size: 17px;
     line-height: 30px;
     text-align: right;
+    
     color: #FFFFFF;
-    -webkit-text-stroke: 0.3px #0038FF;
+    -webkit-text-stroke: 0.5px #0038FF;
   }
 
   .text5 {
@@ -110,9 +109,9 @@
   .text6 {
     position: absolute;
     width: 757px;
-    height: 261px;
+    height: 377px;
     left: 25px;
-    top: 992px;
+    top: 1004px;
     
     font-family: Inter;
     font-size: 17px;
@@ -156,5 +155,31 @@
         transform: scale(0.9);
       }
     }
+  }
+
+  .text9 {
+    position: absolute;
+    width: 570px;
+    height: 782px;
+    left: 1001px;
+    top: 167px;
+    
+    font-family: Frijole;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;    
+  }
+
+  .text10 {
+    position: absolute;
+    width: 634px;
+    height: 522px;
+    left: 993px;
+    top: 947px;
+    
+    font-family: Frijole;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
   }
 }
