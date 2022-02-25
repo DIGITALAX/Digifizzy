@@ -9,56 +9,54 @@ const Page5960 = () => {
     <div className={styles.wrapper}>
       <div className={styles.imageBackground}>
         <Image
-          src='/magazine/9/images/5960_background.jpg'
+          src={`${DIGIFIZZY_S3}/10/images/5960_background.jpg`}
           width={1920}
           height={1497}
         />
       </div>
       <div className={styles.image1}>
         <Image
-          src='/magazine/9/images/5960_image1.png'
-          width={215}
-          height={239}
+          src={`${DIGIFIZZY_S3}/10/images/5960_image1.png`}
+          width={199}
+          height={226}
         />
       </div>
       <div className={styles.image2}>
         <Image
-          src='/magazine/9/images/5960_image2.png'
+          src={`${DIGIFIZZY_S3}/10/images/5960_image2.png`}
           width={221}
           height={221}
         />
       </div>
-      <div className={styles.text1}>BUGHA</div>
+      <div className={styles.text1}>M0nkey M00n</div>
       <div className={styles.text2}>E-SPORTS RISING STAR OF THE MONTH</div>
       <div className={styles.text3}>
-        16 year old Kyle “Bugha” Giersdorf is considered a Fortnite prodigy, taking the competitive gaming world by storm with racked up wins and streaked kills. It’s not without sacrafice, grit and determination, as Kyle often expresses himself during interviews. But the thrill that the hard work is in fact paying off is asymmetrical enough to outweigh any short term discontent. 
+        Evan "Monkey Moon" Rogez is a French Rocket League player, and at the age of just 19 has taken the Rocket League playfield by storm. He is currently with team BD and most recently ranked and most recently ranked 1st in the RLCS 2021-22 (i.e. second RLCS season in 2021, crossing over into 2022). His tactics and strategy in competition are to behold, and really just insanely good. He continues to entertain and pull off unique plays that keep his fellow competitors coming back for more. 
       </div>
       <div className={styles.text4}>metaverse ready score: 6</div>
-      <div className={styles.text5}>METHODZ</div>
+      <div className={styles.text5}>Ppd</div>
       <div className={styles.text6}>E-SPORTS PLAYER OF THE MONTH</div>
-      <div className={styles.text7}>metaverse ready score: 9</div>
+      <div className={styles.text7}>metaverse ready score: 6</div>
       <div className={styles.text8}>
-        Anthony Zinni, AKA METHODZ, is a Call of Duty Otaku. Hailing from Boston, he began his career on COD 4: Modern Warfare for the PlayStation 3 at 11 years old. He didn’t begin competing in esports tournaments until COD: Modern Warfare 2, and since then continues to impress. He’s been on top teams such as SoaR Gaming, FaZe Clan, Team Curse, Team Kaliber, Strictly Business, OpTic Gaming, UyU, and the Toronto Ultra.
+        Peter Dager is an American former professional Dota 2 player and current coach for Alliance.  He is best known for his time playing for Evil Geniuses, during which he captained the team to a victory at The International 2015. He took to retirement in April 2020, only to come to a quick self-realisation that the drive to stay in the game was greater than an exit out, with him returning to competitive DOTA the next year in 2021. 
       </div>
-      <div className={styles.text9}>NVIDIA RTX GeForce 3050</div>
+      <div className={styles.text9}>publishers adopting p2e and blockchain tech</div>
       <div className={styles.text10}>
-        Fully sold out. Was it that surprising? 
+        Despite the allergic reaction by most of the traditional gaming community to NFTs, web3, blockchain technology... and self sovereignty, there are more reports than ever of eager indie publishers looking to diversify and strengthen their primary sources of capital inflow. And, it just so happens that now many are shifting into experimenting with P2E and other forms of quest driven blockchain gaming.
         <br /><br />
-        Graphics engineering continues to exponentially advance across both the manufacturing and showroom floors. And with that, at the release of the GeForce RTX 3050 8GB, Nvidia’s ray-tracing entry-level graphics card, it’s really no shock that there was an immediate “out of stock” announcement broadcast from all sellers. 
-        <br /><br /><br />
-        The interesting point of consideration here though is more on whether or not big hardware manufactureres like NVIDIA will ever drive forth the open source hardware revolution— it’s likely they won’t— however, with the continued onset and adoption of web3, complimentary OS hardware innovations are on the rise, and soon will become an unstoppable force. Pivot or die. 
+        Whether or not we have seen the real forms of P2E in action yet is questionable. Combining the token earning ability of players with a 3D or 2D digital evironment doesn’t automatically make something self sustainable and even economical for players, game developers and other participants involved. And a large amount of what we’ve seen so far in “P2E” has been exit liquidity for the market. With this new flood of talent in, will the waters change?
       </div>
-      <div className={styles.text11}>EXCHANGES AND CRYPTO SPONSORS</div>
+      <div className={styles.text11}>Ubisoft moves event after fans protest</div>
       <div className={styles.text12}>
-        After the first rise in the bull run from 2021, it’s no surprise that a flood of exchanges have started throwing sponsorship deals at some of the hottest esports team, as of now. Bitget and Bithumb are just two of the like. 
+        One of the three scheduled Rainbow Six Siege tournaments was cancelled from being held in the UAE after a heated online protest took place, with fans condoning the inhumane LGBTQ+ laws within the Emirates. A petition signed by more than 13,000 listed its "serious LGBTQ+ issues", including criminalising homosexuality. 
         <br /><br />
-        Sure, it’s good for more crypto exposure— but is a centralised exchange really the best representation of the vitality of the web3 community & where the most value opportunity is for gaming collaborations? No, definitely not. 
+        Taking a stance against tyranny and those that reinforce cold blooded discrimination is always called for.  
       </div>
-      <div className={styles.text13}>CSMG AND ESPORTSU</div>
+      <div className={styles.text13}>Esports data platform grid to provide insight</div>
       <div className={styles.text14}>
-        24/7 Esports Twitch streaming is coming to a computer screen near you. ESPORTU is being set up as a continuous always on live gaming stream. 
+        GRID is an esports data project that is collecting and scraping data from sources across both the digital and IRL realms. And ther GRID Open Platform is the first project in esports and gaming to offer official data for free to the gaming community. 
         <br /><br />
-        There is a bit of a cool twist to it, the streams will be dedicated to showcasing college esports projects and events— not the typical mainstream mass produced content that usually dominates the visuals. Time to find some raw upcoming talent. 
+        All in all this is an exciting move and vastly expands the playing field for more invidivuals and groups to get involved with esports community and economy in a non-zero sum way.         
       </div>
 
       <div className={styles.esportsText1}>E-SPORTS BUZZZZ</div>

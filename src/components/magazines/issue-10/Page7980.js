@@ -69,6 +69,42 @@ const Page7980 = () => (
       <br /><br />
       from fizzy nft brunches to quaint old world meets new gallery display evenings, becoming more of a factorial asset that puts all of those who come through it into a better position to gain wealth themselves is the newly standard model for the most relevant spaces to embrace and stay a step ahead.       
     </div>
+
+    <div className={styles.image2}>
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/7980_image1.png`}
+        width={252}
+        height={252}
+      />
+    </div>
+    <div className={styles.image3}>
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/7980_image1.png`}
+        width={252}
+        height={252}
+      />
+    </div>
+    <div className={styles.image4}>
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/7980_image1.png`}
+        width={252}
+        height={252}
+      />
+    </div>
+    <div className={styles.image5}>
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/7980_image1.png`}
+        width={252}
+        height={252}
+      />
+    </div>
+    <div className={styles.image6}>
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/7980_image2.png`}
+        width={348}
+        height={1256}
+      />
+    </div>
   </div>
 )
 

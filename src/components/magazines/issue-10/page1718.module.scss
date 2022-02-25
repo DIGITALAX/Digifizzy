@@ -33,7 +33,7 @@
   .rect2 {
     position: absolute;
     width: 697px;
-    height: 611px;
+    height: 377px;
     left: 1023px;
     top: 56px;
     
@@ -73,7 +73,7 @@
   .rect6 {
     position: absolute;
     width: 111px;
-    height: 611px;
+    height: 377px;
     left: 1023px;
     top: 56px;
     
@@ -83,7 +83,7 @@
   .rect7 {
     position: absolute;
     width: 111px;
-    height: 611px;
+    height: 377px;
     left: 1609px;
     top: 56px;
     
@@ -248,6 +248,86 @@
       line-height: 100%;
       color: #FF8F95;
     }
+  }
+
+  .link2 {
+    position: absolute;
+    width: 564px;
+    height: 200px;
+    left: 1045px;
+    top: 488px;
+
+    cursor: pointer;
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(0.9);
+    }
+
+    .text3 {
+      position: absolute;
+      width: 551px;
+      height: 200px;
+      left: 0;
+      top: 0;
+      
+      font-family: Arimo;
+      font-size: 100px;
+      line-height: 100%;
+      color: #5EFFB1;
+    }
+
+    .text4 {
+      position: absolute;
+      width: 551px;
+      height: 200px;
+      left: 8px;
+      top: 0;
+      
+      font-family: Arimo;
+      font-size: 100px;
+      line-height: 100%;
+      color: #FFFFFF;
+    }
+  }
+
+  .text5 {
+    position: absolute;
+    width: 658px;
+    height: 237px;
+    left: 227px;
+    top: 297px;
+    
+    font-family: Luckiest Guy;
+    font-size: 20px;
+    line-height: 110%;
+    color: #FFFFFF;    
+  }
+
+  .text6 {
+    position: absolute;
+    width: 658px;
+    height: 696px;
+    left: 227px;
+    top: 712px;
+    
+    font-family: Luckiest Guy;
+    font-size: 20px;
+    line-height: 110%;
+    color: #260500;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 629px;
+    height: 359px;
+    left: 1057px;
+    top: 85px;
+    
+    font-family: Luckiest Guy;
+    font-size: 20px;
+    line-height: 110%;
+    color: #FFFFFF;
   }
 
 }
