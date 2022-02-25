@@ -1,0 +1,219 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  display: flex;
+  position: relative;
+  color: #FFFFFF;
+  background-color: #5667FF;
+  
+  .image1 {
+    position: absolute;
+    width: 847px;
+    height: 1452px;
+    left: 1011px;
+    top: 45px;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 186px;
+    height: 186px;
+    left: 1601px;
+    top: 368px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 186px;
+    height: 186px;
+    left: 1601px;
+    top: 581px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 739px;
+    height: 91px;
+    left: 120px;
+    top: 72px;
+    
+    font-family: Arial Black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 100%;
+    color: #000000;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 841px;
+    height: 1406px;
+    left: 68px;
+    top: 45px;
+    border: 5px solid #000000; 
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 841px;
+    height: 1406px;
+    left: 1011px;
+    top: 45px;
+    border: 5px solid #000000; 
+  }
+
+  .line1 {
+    position: absolute;
+    width: 841px;
+    height: 5px;
+    left: 1011px;
+    top: 874px;
+    background-color: #000000;
+  }
+
+  .line2 {
+    position: absolute;
+    width: 841px;
+    height: 5px;
+    left: 1011px;
+    top: 1074px;
+    background-color: #000000;
+  }
+
+  .line3 {
+    position: absolute;
+    width: 841px;
+    height: 5px;
+    left: 1011px;
+    top: 1274px;
+    background-color: #000000;
+  }
+
+  .line4 {
+    position: absolute;
+    width: 841px;
+    height: 5px;
+    left: 68px;
+    top: 882px;
+    background-color: #000000;
+  }
+
+  .line5 {
+    position: absolute;
+    width: 841px;
+    height: 5px;
+    left: 68px;
+    top: 928px;
+    background-color: #000000;
+  }
+
+  .line6 {
+    position: absolute;
+    width: 841px;
+    height: 5px;
+    left: 68px;
+    top: 968px;
+    background-color: #000000;
+  }
+
+  .line7 {
+    position: absolute;
+    width: 841px;
+    height: 5px;
+    left: 68px;
+    top: 1008px;
+    background-color: #000000;
+  }
+
+  .line8 {
+    position: absolute;
+    width: 841px;
+    height: 5px;
+    left: 68px;
+    top: 1048px;
+    background-color: #000000;
+  }
+
+  .line9 {
+    position: absolute;
+    width: 841px;
+    height: 5px;
+    left: 68px;
+    top: 1088px;
+    background-color: #000000;
+  }
+
+  .line10 {
+    position: absolute;
+    width: 841px;
+    height: 5px;
+    left: 68px;
+    top: 1128px;
+    background-color: #000000;
+  }
+
+  .line11 {
+    position: absolute;
+    width: 841px;
+    height: 5px;
+    left: 68px;
+    top: 1168px;
+    background-color: #000000;
+  }
+
+  .line12 {
+    position: absolute;
+    width: 841px;
+    height: 5px;
+    left: 68px;
+    top: 1214px;
+    background-color: #000000;
+  }
+
+  .line13 {
+    position: absolute;
+    width: 841px;
+    height: 5px;
+    left: 68px;
+    top: 1254px;
+    background-color: #000000;
+  }
+
+  .line14 {
+    position: absolute;
+    width: 841px;
+    height: 5px;
+    left: 68px;
+    top: 1294px;
+    background-color: #000000;
+  }
+
+  .line15 {
+    position: absolute;
+    width: 841px;
+    height: 5px;
+    left: 68px;
+    top: 1334px;
+    background-color: #000000;
+  }
+
+  .line16 {
+    position: absolute;
+    width: 841px;
+    height: 5px;
+    left: 68px;
+    top: 1374px;
+    background-color: #000000;
+  }
+
+  .line17 {
+    position: absolute;
+    width: 841px;
+    height: 5px;
+    left: 68px;
+    top: 1414px;
+    background-color: #000000;
+  }
+}

@@ -20,7 +20,7 @@ const options = {
 export const setWeb3Provider = async () => {
   const WALLET = localStorage.getItem(STORAGE_WALLET)
   if (WALLET === WALLET_METAMASK) {
-    const provider = isMetamaskInstalled() ? window.ethereum : config.DEFAULT_WEB3_URL
+    const provider = isMetamaskInstalled() ? window.ethereum : config.DEFAULT_WEB3_URL + process.env.INFURA_API_KEY
     window.web3 = new Web3(provider)
     return
   }

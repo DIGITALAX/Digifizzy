@@ -1,0 +1,180 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  color: white;
+  display: flex;
+  position: relative;
+  background-color: #5667FF;
+
+  .image1 {
+    position: absolute;
+    width: 842px;
+    height: 832px;
+    left: 68px;
+    top: 517px;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 326px;
+    height: 456px;
+    left: 1503px;
+    top: 1116px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    left: 479px;
+    top: 246px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    left: 619px;
+    top: 246px;
+  }
+
+  .image5 {
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    left: 760px;
+    top: 246px;    
+  }
+
+  .text1 {
+    position: absolute;
+    width: 867px;
+    height: 70px;
+    left: 111px;
+    top: 98px;
+    
+    font-family: Wicked Halloween;
+    font-size: 70px;
+    line-height: 100%;
+    color: #000000;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 542px;
+    height: 80px;
+    left: 111px;
+    top: 268px;
+    
+    font-family: Wicked Halloween;
+    font-size: 80px;
+    line-height: 100%;
+    color: #000000;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 776px;
+    height: 80px;
+    left: 111px;
+    top: 1353px;
+    
+    font-family: Wicked Halloween;
+    font-size: 80px;
+    line-height: 100%;
+    color: #000000;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 355px;
+    height: 1228px;
+    left: 1051px;
+    top: 87px;
+    
+    font-family: Arial Black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 100%;
+    color: #000000;
+    
+  }
+
+  .text5 {
+    position: absolute;
+    width: 355px;
+    height: 1228px;
+    left: 1474px;
+    top: 91px;
+    
+    font-family: Arial Black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 100%;
+    color: #000000;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 842px;
+    height: 1406px;
+    left: 68px;
+    top: 45px;
+    border: 5px solid #000000;
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 842px;
+    height: 1406px;
+    left: 1011px;
+    top: 45px;
+    border: 5px solid #000000;
+
+  }
+
+  .line1 {
+    position: absolute;
+    width: 842px;
+    height: 5px;
+    left: 68px;
+    top: 229px;
+    
+    background-color: #000000;
+  }
+
+  .line2 {
+    position: absolute;
+    width: 842px;
+    height: 5px;
+    left: 68px;
+    top: 1353px;
+    
+    background-color: #000000;
+  }
+
+  .line3 {
+    position: absolute;
+    width: 842px;
+    height: 5px;
+    left: 68px;
+    top: 395px;
+    
+    background-color: #000000;
+  }
+
+  .line4 {
+    position: absolute;
+    width: 1406px;
+    height: 5px;
+    left: 1432px;
+    top: 45px;
+    
+    background-color: #000000;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+  }
+}

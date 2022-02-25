@@ -11,7 +11,6 @@ const {
   DEFAULT_NETWORK,
   EXCHANGE_API,
   IMGIX_URL,
-  REWARD_CONTRACT_ADDRESSES,
   DEFAULT_WEB3_URL,
   WEB3_URLS,
   MONA_TOKEN_ADDRESSES,
@@ -25,6 +24,12 @@ const {
   API_DLTA_URL
 } = require('config')
 const withImages = require('next-images')
+
+const webpack = require('webpack')
+
+const env = {
+  INFURA_API_KEY: process.env.INFURA_API_KEY
+};
 
 module.exports = withImages({
   publicRuntimeConfig: {
@@ -40,7 +45,6 @@ module.exports = withImages({
     DEFAULT_NETWORK,
     EXCHANGE_API,
     IMGIX_URL,
-    REWARD_CONTRACT_ADDRESSES,
     DEFAULT_WEB3_URL,
     WEB3_URLS,
     MONA_TOKEN_ADDRESSES,
@@ -56,7 +60,7 @@ module.exports = withImages({
   trailingSlash: true,
   assetPrefix: './',
   images: {
-    domains: ['digitalax.mypinata.cloud', 'espa.s3.eu-central-1.amazonaws.com'],
+    domains: ['digitalax.mypinata.cloud', 'espa.s3.eu-central-1.amazonaws.com', 'digifizzy.s3.amazonaws.com'],
   },
   webpack(cfg, { isServer }) {
     const originalEntry = cfg.entry
@@ -73,6 +77,8 @@ module.exports = withImages({
         ws: 'empty'
       }
     }
+
+    cfg.plugins.push(new webpack.EnvironmentPlugin(env))
 
     return cfg
   }

@@ -1,0 +1,22 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+
+  .rect1 {
+    background: linear-gradient(180deg, #FF4949 0%, #13696F 22.92%, #626414 44.27%, #FFA95A 66.15%, #000000 88.02%);
+    position: absolute;
+    top: 0;
+    left: 960px;
+    width: 960px;
+    height: 1497px;
+  }
+
+  .imageBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 960px;
+    height: 1497px;
+  }
+}

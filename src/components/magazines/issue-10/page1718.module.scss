@@ -1,0 +1,253 @@
+@import './styles.module.scss';
+
+@keyframes scrolling {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-602px); }
+}
+
+.wrapper {
+  @include magazineWrapper();
+  color: black;
+  display: flex;
+  position: relative;
+  background-color: #000000;
+
+  .background {
+    position: absolute;
+    width: 1618px;
+    height: 1497px;
+    left: 155px;
+    top: 0px;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 713px;
+    height: 346px;
+    left: 199px;
+    top: 276px;
+    
+    background: rgba(255, 129, 129, 0.69);    
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 697px;
+    height: 611px;
+    left: 1023px;
+    top: 56px;
+    
+    background: rgba(172, 152, 116, 0.58);
+  }
+
+  .rect3 {
+    position: absolute;
+    width: 713px;
+    height: 775px;
+    left: 199px;
+    top: 667px;
+    
+    background: rgba(255, 200, 200, 0.48);
+  }
+
+  .rect4 {
+    position: absolute;
+    width: 95px;
+    height: 346px;
+    left: 199px;
+    top: 276px;
+    
+    background: rgba(255, 129, 129, 0.69);
+  }
+
+  .rect5 {
+    position: absolute;
+    width: 95px;
+    height: 346px;
+    left: 817px;
+    top: 276px;
+    
+    background: rgba(255, 129, 129, 0.69);
+  }
+
+  .rect6 {
+    position: absolute;
+    width: 111px;
+    height: 611px;
+    left: 1023px;
+    top: 56px;
+    
+    background: rgba(172, 152, 116, 0.58);
+  }
+
+  .rect7 {
+    position: absolute;
+    width: 111px;
+    height: 611px;
+    left: 1609px;
+    top: 56px;
+    
+    background: rgba(172, 152, 116, 0.58);
+  }
+
+  .rect8 {
+    position: absolute;
+    width: 95px;
+    height: 775px;
+    left: 199px;
+    top: 667px;
+    
+    background: rgba(255, 200, 200, 0.48);
+  }
+
+  .rect9 {
+    position: absolute;
+    width: 95px;
+    height: 775px;
+    left: 817px;
+    top: 667px;
+    
+    background: rgba(255, 200, 200, 0.48);
+  }
+
+  .image1 {
+    position: absolute;
+    width: 244px;
+    height: 439px;
+    left: 1023px;
+    top: 749px;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 430px;
+    height: 433px;
+    left: 1290px;
+    top: 749px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 417px;
+    height: 241px;
+    left: 1023px;
+    top: 1201px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 258px;
+    height: 241px;
+    left: 1462px;
+    top: 1201px;
+  }
+
+  .leftSideFrame {
+    position: absolute;
+    width: 149px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+    background-color: #D5321C;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+  }
+
+  .rightSideFrame {
+    position: absolute;
+    width: 152px;
+    height: 1497px;
+    left: 1768px;
+    top: 0px;
+    background-color:#D5321C;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+  }
+
+  .animationFrame {
+    animation: scrolling 4s linear infinite;
+  }
+
+
+  .leftSideImageWrapper {
+    position: absolute;
+    width: 92.28px;
+    left: 31px;
+    top: 36px;
+  }
+
+  .rightSideImageWrapper {
+    position: absolute;
+    width: 83px;
+    height: 1660px;
+    right: 31px;
+    top: 36px;
+  }
+
+  a {
+
+  }
+
+  .gradient {
+    animation-duration: 1.8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #9c9c9c;
+    background: linear-gradient(to right, #9c9c9c 8%, #f4f4f4 38%, #9c9c9c 54%);
+    background-size: 1000px 640px;
+  
+  }
+
+  @keyframes placeHolderShimmer{
+    0%{
+      background-position: -468px 0
+    }
+    100%{
+      background-position: 468px 0
+    }
+  }
+
+  .link1 {
+    position: absolute;
+    width: 559px;
+    height: 200px;
+    left: 199px;
+    top: 44px;
+
+    cursor: pointer;
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(0.9);
+    }
+
+    .text1 {
+      position: absolute;
+      width: 551px;
+      height: 200px;
+      left: 0;
+      top: 0;
+      
+      font-family: Arimo;
+      font-size: 100px;
+      line-height: 100%;
+      color: #D4321C;
+    }
+
+    .text2 {
+      position: absolute;
+      width: 551px;
+      height: 200px;
+      left: 8px;
+      top: 0;
+      
+      font-family: Arimo;
+      font-size: 100px;
+      line-height: 100%;
+      color: #FF8F95;
+    }
+  }
+
+}

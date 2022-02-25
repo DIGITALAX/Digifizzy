@@ -1,0 +1,7 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: #FFFFFF;
+  color: #000000;
+}

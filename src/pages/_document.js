@@ -39,12 +39,14 @@ const goolgeFonts = [
   'Arvo',
   'Asap',
   'Astloch',
+  'Atkinson+Hyperlegible',
   'Atma',
   'Aubrey',
   'Audiowide',
   'Averia+Libre',
   'Averia+Serif+Libre',
 
+  'Bad+Script:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
   'Baloo+Bhai+2:wght@700',
   'Baloo+Chettan+2',
   'Baloo+Chettan+2:wght@700',
@@ -57,8 +59,11 @@ const goolgeFonts = [
   'Baumans',
   'Bayon',
   'Bebas+Neue',
+  'Belgrano',
   'Bellota+Text',
   'Beth+Ellen',
+  'Bigelow+Rules',
+  'Big+Shoulders+Inline+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
   'BioRhyme:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
   'Bitter:wght@900',
   'Bodoni+Moda',
@@ -92,11 +97,13 @@ const goolgeFonts = [
   'Delius+Unicase:wght@700',
   'Devonshire',
   'Didact+Gothic',
+  'Diplomata',
   'DM+Mono',
   'DM+Sans',
   'Domine:wght@700',
   'Donegal+One',
   'Do+Hyeon',
+  'Duru+Sans',
 
   'Eczar',
   'Electrolize',
@@ -118,8 +125,10 @@ const goolgeFonts = [
   'Flamenco',
   'Forum',
   'Frank+Ruhl+Libre:wght@700',
+  'Frijole',
 
   'Galada',
+  'Galindo',
   'Gayathri',
   'Gelasio',
   'Geo',
@@ -151,7 +160,7 @@ const goolgeFonts = [
   'Inria+Sans:wght@700',
   'Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
   'Istok+Web',
-  'Italianno',
+  'Italiana',
 
   'Jacques+Francois',
   'Jacques+Francois+Shadow',
@@ -243,8 +252,10 @@ const goolgeFonts = [
   'Red+Rose',
   'Reem+Kufi',
   'Righteous',
+  'Risque',
   'Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
   'Roboto+Condensed:wght@700',
+  'Roboto+Mono',
   'Romanesco',
   'Rosarivo',
   'Rubik+Mono+One',
@@ -1863,6 +1874,11 @@ class MyDocument extends Document {
             @font-face {
               font-family: "Bruno Ace";
               src: url("./fonts/Bruno Ace Regular.ttf");
+            }
+            
+            @font-face {
+              font-family: "Lao MN";
+              src: url("./fonts/Lao MN.ttc");
             }
           `
             }}

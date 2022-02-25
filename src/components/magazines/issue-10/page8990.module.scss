@@ -1,0 +1,158 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: #000000;
+  color: white;
+
+  .text1 {
+    position: absolute;
+    width: 838px;
+    height: 248px;
+    left: 44px;
+    top: 41px;
+    
+    font-family: Nosifer;
+    font-size: 80px;
+    line-height: 80px;
+    background: linear-gradient(180deg, #9CFF1E 0%, #FF1E1E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    -webkit-text-stroke: 3px #9021FF;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 383px;
+    height: 883px;
+    left: 67px;
+    top: 324px;
+    
+    font-family: Bangla MN;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    
+    color: #85FFFF;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 383px;
+    height: 883px;
+    left: 495px;
+    top: 324px;
+    
+    font-family: Bangla MN;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    
+    color: #85FFFF;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 838px;
+    height: 248px;
+    left: 61px;
+    top: 1218px;
+    
+    font-family: Nosifer;
+    font-size: 80px;
+    line-height: 80px;
+    text-align: right;
+    background: linear-gradient(180deg, #9CFF1E 0%, #FF1E1E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px #9021FF;
+  }
+
+  .imageBackground {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;    
+  }
+
+  .text5 {
+    position: absolute;
+    width: 620px;
+    height: 239px;
+    left: 978px;
+    top: 0px;
+    
+    font-family: Rose Cake - Personal Use;
+    font-size: 120px;
+    line-height: 100%;   
+    color: #00D8D8;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 620px;
+    height: 239px;
+    left: 1564px;
+    top: 29px;
+    
+    font-family: Rose Cake - Personal Use; 
+    font-size: 120px;
+    line-height: 100%;
+    color: #00D8D8;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 620px;
+    height: 239px;
+    left: 806px;
+    top: 252px;
+    
+    font-family: Rose Cake - Personal Use;
+    font-size: 120px;
+    line-height: 100%;
+    color: #00D8D8;
+  }
+
+  .text8 {
+    position: absolute;
+    width: 620px;
+    height: 239px;
+    left: 1389px;
+    top: 286px;
+    
+    font-family: Rose Cake - Personal Use;
+    font-size: 120px;
+    line-height: 100%;
+    color: #00D8D8;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 620px;
+    height: 239px;
+    left: 846px;
+    top: 525px;
+    
+    font-family: Rose Cake - Personal Use;
+    font-size: 120px;
+    line-height: 100%;
+    text-align: center;
+    color: #00D8D8;
+  }
+
+  .text10 {
+    position: absolute;
+    width: 620px;
+    height: 375px;
+    left: 990px;
+    top: 1088px;
+    
+    font-family: CF Punk Fashion PERSONAL;
+    font-size: 120px;
+    line-height: 100%;
+    color: #00D8D8;    
+  }
+}

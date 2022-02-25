@@ -11,7 +11,6 @@ const DEFAULT_FIELDS = Map({
   auctionContractAddress: null,
   bidWithdrawalLockTime: 0,
   contentUnlocked: false,
-  rewards: 0,
   monaPerEth: 0,
   viewMethod: 'magazineview',
   currentPage: 0,
