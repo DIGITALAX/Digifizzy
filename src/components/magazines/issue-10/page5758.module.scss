@@ -19,4 +19,158 @@
     width: 960px;
     height: 1497px;
   }
+
+  .image1 {
+    position: absolute;
+    width: 583px;
+    height: 363px;
+    left: 1296px;
+    top: 372px;        
+  }
+
+  .image2 {
+    position: absolute;
+    width: 583px;
+    height: 363px;
+    left: 998px;
+    top: 759px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 583px;
+    height: 326px;
+    left: 998px;
+    top: 1141px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 471px;
+    height: 471px;
+    left: 919px;
+    top: -54px;    
+  }
+
+  .image41 {
+    position: absolute;
+    width: 471px;
+    height: 471px;
+    left: 1628px;
+    top: 1026px;
+    
+  }
+
+  .image5 {
+    position: absolute;
+    width: 389px;
+    height: 311px;
+    left: 1557px;
+    top: -69px;
+    
+  }
+
+  .image51 {
+    position: absolute;
+    width: 205px;
+    height: 164px;
+    left: 1715px;
+    top: 196px;
+  }
+
+  .image52 {
+    position: absolute;
+    width: 471px;
+    height: 377px;
+    left: 1560px;
+    top: 709px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 535px;
+    height: 120px;
+    left: 1196px;
+    top: 220px;
+    
+    font-family: Bad Land;
+    font-size: 30px;
+    line-height: 100%;
+    color: #FFE600;    
+  }
+
+  .text2 {
+    position: absolute;
+    width: 279px;
+    height: 240px;
+    left: 998px;
+    top: 459px;
+    
+    font-family: Bad Land;
+    font-size: 30px;
+    line-height: 100%;
+    color: #FFE600;
+  }
+
+  .textPizza1 {
+    position: absolute;
+    width: 496px;
+    height: 100px;
+    left: 1132px;
+    top: 52px;
+    
+    font-family: Bad Land;
+    font-size: 100px;
+    line-height: 100%;
+    color: #000000;
+        
+  }
+
+  .textPizza2 {
+    position: absolute;
+    width: 496px;
+    height: 100px;
+    left: 1135px;
+    top: 59px;
+    
+    font-family: Bad Land;
+    font-size: 100px;
+    line-height: 100%;
+    color: #FF0000;
+  }
+
+  .textPizza3 {
+    position: absolute;
+    width: 496px;
+    height: 100px;
+    left: 1142px;
+    top: 63px;
+    
+    font-family: Bad Land;
+    font-size: 100px;
+    line-height: 100%;
+    color: #FFE600;
+  }
+
+  .gradient {
+    animation-duration: 1.8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #9c9c9c;
+    background: linear-gradient(to right, #9c9c9c 8%, #f4f4f4 38%, #9c9c9c 54%);
+    background-size: 1000px 640px;
+    
+    position: relative;     
+  }
+
+  @keyframes placeHolderShimmer{
+    0%{
+      background-position: -468px 0
+    }
+    100%{
+      background-position: 468px 0
+    }
+  }
 }

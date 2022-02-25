@@ -4,12 +4,10 @@ import { DIGIFIZZY_S3 } from '@constants/urls'
 import styles from './page1516.module.scss'
 
 const Page1516 = () => {
-  console.log('Array(21).fill(0): ', Array(21).fill(0))
   return (
     <div className={styles.wrapper}>
       {
         Array(21).fill(0).map((value, index) => {
-          console.log('index: ', `{${parseInt(index / 3) * 279}px}`)
           return (
             <div
               key={`back${index}`}

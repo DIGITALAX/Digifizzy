@@ -3,4 +3,46 @@
 .wrapper {
   @include magazineWrapper();
   background: #000000;
+
+  .imageBackground1 {
+    position: absolute;
+    width: 678.57px;
+    height: 1374.09px;
+    left: 196px;
+    top: 69px;
+  }
+
+  .imageBackground2 {
+    position: absolute;
+    width: 678.57px;
+    height: 1374.09px;
+    left: 1132px;
+    top: 69px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 662px;
+    height: 1284px;
+    left: 203px;
+    top: 109px;
+    
+    font-family: Galvji;
+    font-size: 27px;
+    line-height: 30px;
+    color: #FFFFFF;    
+  }
+
+  .text2 {
+    position: absolute;
+    width: 662px;
+    height: 1284px;
+    left: 1132px;
+    top: 109px;
+    
+    font-family: Galvji;
+    font-size: 27px;
+    line-height: 30px;
+    color: #FFFFFF;
+  }
 }

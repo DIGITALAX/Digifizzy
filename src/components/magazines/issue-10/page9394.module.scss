@@ -2,6 +2,152 @@
 
 .wrapper {
   @include magazineWrapper();    
-  background: white;
+  background: #FDDA02;
   color: black;
+
+  .text1 {
+    position: absolute;
+    width: 571px;
+    height: 202px;
+    left: 333px;
+    top: 29px;
+    
+    font-family: Revalia;
+    font-size: 19px;
+    line-height: 160%;
+    color: #000000;    
+  }
+
+  .text2 {
+    position: absolute;
+    width: 857px;
+    height: 161px;
+    left: 47px;
+    top: 235px;
+    
+    font-family: Revalia;
+    font-size: 19px;
+    line-height: 160%;
+    color: #000000;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 857px;
+    height: 784px;
+    left: 47px;
+    top: 371px;
+    
+    font-family: Revalia;
+    font-size: 19px;
+    line-height: 160%;
+    color: #000000;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 857px;
+    height: 575px;
+    left: 1029px;
+    top: 30px;
+    
+    font-family: Revalia;
+    font-size: 19px;
+    line-height: 160%;
+    color: #000000;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 246px;
+    height: 843px;
+    left: 1029px;
+    top: 605px;
+    
+    font-family: Revalia;
+    font-size: 19px;
+    line-height: 160%;
+    color: #000000;    
+  }
+
+  .image1 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: -50px;
+    top: -89px;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 279px;
+    height: 207px;
+    left: 47px;
+    top: 1175px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 178px;
+    height: 132px;
+    left: 0px;
+    top: 1382px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 59px;
+    height: 44px;
+    left: 187px;
+    top: 1402px;
+  }
+
+  .image5 {
+    position: absolute;
+    width: 455px;
+    height: 338px;
+    left: 248px;
+    top: 1256px;
+  }
+
+  .image6 {
+    position: absolute;
+    width: 134px;
+    height: 101px;
+    left: 557px;
+    top: 1140px;
+  }
+
+  .image7 {
+    position: absolute;
+    width: 279px;
+    height: 207px;
+    left: 670px;
+    top: 1175px;
+  }
+
+  .image8 {
+    position: absolute;
+    width: 79px;
+    height: 59px;
+    left: 718px;
+    top: 1389px;
+  }
+
+  .image9 {
+    position: absolute;
+    width: 178px;
+    height: 132px;
+    left: 782px;
+    top: 1425px;
+  }
+
+  .image10 {
+    position: absolute;
+    width: 601px;
+    height: 827px;
+    left: 1304px;
+    top: 636px;
+    
+  }
 }

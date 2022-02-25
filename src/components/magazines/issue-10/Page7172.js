@@ -28,15 +28,15 @@ const Page7172 = () => (
       Web3 wizards collectibles
     </div>
     <div className={styles.text6}>
-      SORRY ZUCK METAVERSE drip
+      HIMEX + TEchn0morph x f3m cc0 t-shirt
     </div>
     <div className={styles.text7}>
-      REALM RUNWAY EVENT ADMIT
+      Realm enigma digital art nfts
     </div>
 
     <div className={styles.image1}>
       <Image
-        src='/magazine/9/images/7172_image1.jpg'
+        src={`${DIGIFIZZY_S3}/10/images/7172_image1.jpg`}
         width={836}
         height={209}
       />
@@ -48,7 +48,7 @@ const Page7172 = () => (
 
     <div className={styles.image2}>
       <Image
-        src='/magazine/9/images/7172_image2.jpg'
+        src={`${DIGIFIZZY_S3}/10/images/7172_image2.jpg`}
         width={355}
         height={354}
       />
@@ -56,30 +56,30 @@ const Page7172 = () => (
 
     <div className={styles.image3}>
       <Image
-        src='/magazine/9/images/7172_image3.jpg'
+        src={`${DIGIFIZZY_S3}/10/images/7172_image3.jpg`}
         width={355}
         height={354}
       />
     </div>
     <div className={styles.image4}>
       <Image
-        src='/magazine/8/images/7374_image6.png'
-        width={448}
-        height={215}
+        src={`${DIGIFIZZY_S3}/10/images/7172_image4.jpg`}
+        width={355}
+        height={354}
       />
     </div>
     <div className={styles.image5}>
       <Image
-        src='/magazine/8/images/7374_image7.png'
-        width={448}
-        height={215}
+        src={`${DIGIFIZZY_S3}/10/images/7172_image5.jpg`}
+        width={346}
+        height={346}
       />
     </div>
     <div className={styles.image6}>
       <Image
-        src='/magazine/8/images/7374_image8.png'
-        width={448}
-        height={215}
+        src={`${DIGIFIZZY_S3}/10/images/7172_image6.jpg`}
+        width={346}
+        height={346}
       />
     </div>
 
