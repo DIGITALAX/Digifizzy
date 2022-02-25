@@ -85,19 +85,19 @@ const CoverPage = () => (
       COLUMB I A
     </div>
     <div className={styles.text5}>
-      NIFTY ISLAND. NIFTY ISLAND. NIFTY ISLAND.
+      shared orderbooks + liquidity for better understanding cc0.
     </div>
     <div className={styles.text6Shadow}>
-      Chainsafe & Unity x NFT Plugins
+      Models of the Realms. Runway Launch.
     </div>
     <div className={styles.text6}>
-      Chainsafe & Unity x NFT Plugins
+      Models of the Realms. Runway Launch.
     </div>
     <div className={styles.text7}>
-      Unbundling P2E & it’s derivatives.
+      micah’s universe.
     </div>
     <div className={styles.text8}>
-      Open Source Gaming & Web3 Incentives. 
+      Physical Spaces & Assets with Immersive Experiences.
     </div>
     <div className={styles.text9}>
       DIGIFIZZY
