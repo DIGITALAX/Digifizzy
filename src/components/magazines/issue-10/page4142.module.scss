@@ -44,27 +44,12 @@
     position: absolute;
     width: 292px;
     height: 74px;
-    left: 640px;
-    top: 1282px;
+    left: 636px;
+    top: 1418px;
     
     font-family: Spicy Rice;
     font-size: 75px;
     line-height: 28px;
-    text-align: right;
-    
-    color: #FF4545;
-  }
-
-  .text3 {
-    position: absolute;
-    width: 452px;
-    height: 115px;
-    left: 480px;
-    top: 1343px;
-    
-    font-family: Spicy Rice;
-    font-size: 14px;
-    line-height: 16px;
     text-align: right;
     
     color: #FF4545;
@@ -128,5 +113,13 @@
     height: 76px;
     left: 50px;
     top: 44px;    
+  }
+
+  a {
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.05);
+    }
   }
 }

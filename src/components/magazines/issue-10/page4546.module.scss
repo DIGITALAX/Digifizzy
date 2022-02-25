@@ -15,10 +15,10 @@
 
   .text1 {
     position: absolute;
-    width: 347px;
-    height: 70px;
+    width: 472px;
+    height: 140px;
     left: 26px;
-    top: 148px;
+    top: 37px;
     
     font-family: Poppins;
     font-style: normal;
@@ -63,6 +63,12 @@
 
     text-align: right;
     color: #E28FFF;
+    transition: 0.3s all;
+
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.05);
+    }
   }
 
   .text4 {
