@@ -8,7 +8,7 @@ const Page1314 = () => {
     <div className={styles.wrapper}>
       <div className={styles.image2}>
         <Image
-          src='/magazine/9/images/1314_background2.jpg'
+          src={`${DIGIFIZZY_S3}/10/images/1314_background.jpg`}
           width={960}
           height={1497}
         />
@@ -38,95 +38,95 @@ const Page1314 = () => {
 
       <a
         className={styles.image3}
-        href='https://twitter.com/CyberConnectHQ'
+        href='https://twitter.com/White_Hat_DAO'
         target='_blank'
       >
         <Image
-          src='/magazine/9/images/1314_image1.png'
+          src={`${DIGIFIZZY_S3}/10/images/1314_image2.png`}
           width={96}
           height={96}
         />
       </a>
       <a
         className={styles.image4}
-        href='https://twitter.com/cutoutsnft'
+        href='https://twitter.com/CyberConnectHQ'
         target='_blank'
       >
         <Image
-          src='/magazine/9/images/1314_image2.png'
+          src={`${DIGIFIZZY_S3}/10/images/1314_image3.png`}
           width={96}
           height={96}
         />
       </a>
       <a
         className={styles.image5}
-        href='https://twitter.com/web3wp'
+        href='https://twitter.com/0xmcdao'
         target='_blank'
       >
         <Image
-          src='/magazine/9/images/1314_image3.png'
+          src={`${DIGIFIZZY_S3}/10/images/1314_image4.png`}
           width={96}
           height={96}
         />
       </a>
       <a
         className={styles.image6}
-        href='https://twitter.com/versegalleryNFT'
+        href='https://twitter.com/VoltaireDAO'
         target='_blank'
       >
         <Image
-          src='/magazine/9/images/1314_image4.png'
+          src={`${DIGIFIZZY_S3}/10/images/1314_image5.png`}
           width={96}
           height={96}
         />
       </a>
       <a
         className={styles.image7}
-        href='https://twitter.com/ens_me'
+        href='https://twitter.com/awkweb'
         target='_blank'
       >
         <Image
-          src='/magazine/9/images/1314_image5.png'
+          src={`${DIGIFIZZY_S3}/10/images/1314_image6.png`}
           width={96}
           height={96}
         />
       </a>
 
       <div className={styles.text8}>
-        <span>Cyberconnect</span> <br />
-        Decentralising social connects through uncensorable hypergrowth personal network effects. That’s so much of the power of web3 network effects, reduced friction and heightened scalability, greater than anything that we have 
+        <span>WHITEHAT DAO</span> <br />
+        White Hat DAO is a core due diligence provider for the web3 ecosystem, providing high level security integrations and Web3 support for DAOs and protocols. Security, privacy and maintaince of indepedence and self sovereignty are core
       </div>
       <div className={styles.text9}>
-        seen before, getting rid of those centralised chokepoints couldn’t be sweeter. 
-        <br /><br />
-        Cyberconnect is building out a decentralised social network protocol with unique features like that of returning the ownership of social graph data back to the users themselves. This could turn out to ignite a whole range of layer 2 applications for the DAPP— as users truly own their data and can engage in various value enabling mechanics. 
+        and utterly essential components of web3. And, with so many new projects and teams launching the space, it’s easy to deploy and/or interact with vulnerable code and smart contracts. The Whitehat DAO team is also maintaining a ratings list and using treasury funds to further compensate developers working across security and public goods projects. 
       </div>
       <div className={styles.text10}>
-        <span>cryptostamping</span> <br />
-        An Open-Source & Decentralized system where users can use their NFTs to stamp on websites, games, articles, posts, videos, anywhere on the internet. Or, in other words, a solution for any creator, gamer, internet dweller to start backing their outputs with authenticity and verifiable ownership. 
+        <span>cyberconnect</span> <br />
+        With the recent release of lens protocol by the core AAVE team, the increased censoring of information by centralised web2 social media behemoths, and the urgent neccesity for ensuring open access to communication and the broadcasting of reliable information, web3 social media has become growingly more of interest.
         <br /><br />
-        Cryptostamping ensures that as we transition from web2 into full decentralised provenance that not all is lost from the hijacked industries we are breaking free from. Start stamping now. 
+        CyberConnect is a publicly accessible and decentralised social graph protocol that returns data ownership and utilities back to Web3 users, whereby through a user-friendly API, developers can easily integrate and access the whole user generated social graphs on Web3.
       </div>
       <div className={styles.text11}>
-        <span>Web3WP</span> <br />
-        Innovating a de facto Web3 integration for WordPress, WEB3WP is building a suite of tools that enable Web3 technologies for 43% of all websites— adoption, adoption, let’s go! And the very first feature to go live will be none other than “Publish and Mint”. So simple, yet so powerful. Creators will be able to mint NFTs directly from their wordpress CMS and start to get an initial taste for creative ownership, immutability and a decentralised future. 
+        <span>Mirror Curator DAO</span> <br />
+        One of the biggest challenges still faced by a decentralised publication platform like Mirror is their search functionality and discoverability. As of now, it is very difficult to deliberately locate and serendipitously come across of interest writers, publishers and stories without first having direct knowledge of their mirror page URL. 
+        <br /><br />
+        The Mirror Curator DAO is en route to change this however, where the DAO  is dedicated to selecting, reviewing and spreading high-quality content and creators on mirror.xyz, helping readers to quickly understand the exciting views of creators on Mirror and introducing Web3 to more users. Currently, a weekly review is published with a list of discoverable writings and authors, with more tooling to be released shortly. 
       </div>
       <div className={styles.text12}>
-        <span>ENS.ME</span> <br />
-        Web3 identity— a rich topic with so many layers and folds, from on-chain to privacy to immutability to anonymity, where does it start and does it even end? One of the biggest native web3 projects to reinforce individual on-chain identity is none other than ENS, and ENS.me is a new community passion project reinforcing the work of the core ENS team through dedicating time to improve the visualisation and discoverability of Ethereum domains. The increased interoperability and utility derived from this project is definitely exciting, especially increasing ease of use for other DAPPs to directly connect and identify users by ENS.
+        <span>VoltaireDAO</span> <br />
+        Breaking down barriers of entry in Play to Earn gaming though scholarships and gamifed educational platform. VoltaireDAO exists for providing more direct onboarding support and infrastructure to those eager to enter into P2E and start unlocking play as an income source. Players are paired with assets from the DAO’s community-owned treasury, keeping 70% of earned rewards, with the rest going directly back to the treasury itself for maintenance of the DAO. Further, the project is also in the early stages of building out a decentralised NFT lending platform that will unfreeze even greater wealth and shared value from the digital assets used within the gamified worlds. 
       </div>
       <div className={styles.text13}>
-        <span>VERSE GALLERY</span>  
-        Coined as the   first physical NFT gallery in 
+        <span>wagmi</span>  
+        One of the most powerful and elegant 
       </div>
       <div className={styles.text14}>
-        Scandinavia, ‘verse adds another metaversal mapped location in the IRL. 
+        features of React is its composability. The ability to manage the complexity of the app through breaking it down into various components means that vulnerabilities can be better isolated and corrected, and, the entire app itself is far more versatile and swiftly changeable overtime.
         <br /><br />
-        Digital-physical immersive events are becoming more in demand as these spaces mesh together all different walks of life and become marquees for culture, education, unique experiences, and most importantly, primary wealth generation and fabrication factories. 
+        However, even with this set up, React has faced challenges over the course of its life, whereby organising components by life cycle methods has forced us to sprinkle related logic throughout our components and sharing non-visual logic has historically caused a surplus of issues.
         <br /><br />
-        Decentralised fabrication hotspots, connected through a network of incentivised token value and gated access is another key area set to transform entire cities throughout 2022 and beyond. 
+        More recently, the React team effectively introduced Hooks as an elegant, simple, composable and flexible function for the solution. Awkweb has introduced a React Hooks library for Ethereum, built on ethers.js, with 20+ hooks for working with wallets, ENS, contracts, transactions, signing, and more. 
         <br /><br />
-        ‘verse, although nothing distinctly new in their offerings, is certainly bringing more on-ramping strengths to the heart of the web3 community. 
+        This is set to greatly increase the library of reliable instruments and tooling that web3 devs have access to. 
       </div>
 
       <a

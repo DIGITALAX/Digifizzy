@@ -1,5 +1,25 @@
 @import './styles.module.scss';
 
+@keyframes movingLeft {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-156px); }
+}
+
+@keyframes movingRight {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(156px); }
+}
+
+@keyframes movingDown {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(156px); }
+}
+
+@keyframes movingUp {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-156px); }
+}
+
 .wrapper {
   @include magazineWrapper();
   background-color: #FFFFFF;
@@ -64,5 +84,344 @@
     font-size: 20px;
     line-height: 30px;
     color: #FFAC33;
+  }
+
+  .energyImage1 {
+    position: absolute;
+    width: 161px;
+    height: 156px;
+    left: 156px;
+    top: -35px;    
+  }
+
+  .energyImage2 {
+    position: absolute;
+    width: 161px;
+    height: 156px;
+    left: 317px;
+    top: -35px;    
+  }
+
+  .energyImage3 {
+    position: absolute;
+    width: 160px;
+    height: 156px;
+    left: 478px;
+    top: -35px;
+  }
+
+  .energyImage4 {
+    position: absolute;
+    width: 161px;
+    height: 156px;
+    left: 638px;
+    top: -35px;
+  }
+
+  .energyImage5 {
+    position: absolute;
+    width: 161px;
+    height: 156px;
+    left: 799px;
+    top: -35px;
+  }
+
+  .energyImage6 {
+    position: absolute;
+    width: 161px;
+    height: 156px;
+    left: 960px;
+    top: -35px;
+  }
+
+  .energyImage7 {
+    position: absolute;
+    width: 161px;
+    height: 156px;
+    left: 1121px;
+    top: -35px;
+  }
+
+  .energyImage8 {
+    position: absolute;
+    width: 160px;
+    height: 156px;
+    left: 1282px;
+    top: -35px;
+  }
+
+  .energyImage9 {
+    position: absolute;
+    width: 161px;
+    height: 156px;
+    left: 1442px;
+    top: -35px;    
+  }
+
+  .energyImage10 {
+    position: absolute;
+    width: 161px;
+    height: 156px;
+    left: 1603px;
+    top: -35px;
+  }
+
+  .energyImage11 {
+    position: absolute;
+    width: 156px;
+    height: 156px;
+    left: 1764px;
+    top: -34px;
+  }
+
+  .energyImage12 {
+    position: absolute;
+    width: 156px;
+    height: 156px;
+    left: 0px;
+    top: -35px; 
+  }
+
+  .energyImage13 {
+    position: absolute;
+    width: 156px;
+    height: 156px;
+    left: 0px;
+    top: 121px;
+  }
+
+  .energyImage14 {
+    position: absolute;
+    width: 156px;
+    height: 156px;
+    left: 0px;
+    top: 278px;
+  }
+
+  .energyImage15 {
+    position: absolute;
+    width: 156px;
+    height: 156px;
+    left: 0px;
+    top: 435px;
+  }
+
+  .energyImage16 {
+    position: absolute;
+    width: 156px;
+    height: 157px;
+    left: 0px;
+    top: 591px;
+  }
+
+  .energyImage17 {
+    position: absolute;
+    width: 156px;
+    height: 156px;
+    left: 0px;
+    top: 748px;
+  }
+
+  .energyImage18 {
+    position: absolute;
+    width: 156px;
+    height: 156px;
+    left: 0px;
+    top: 904px;
+  }
+
+  .energyImage19 {
+    position: absolute;
+    width: 156px;
+    height: 156px;
+    left: 0px;
+    top: 1060px;
+  }
+
+  .energyImage20 {
+    position: absolute;
+    width: 156px;
+    height: 157px;
+    left: 0px;
+    top: 1216px;
+  }
+
+
+  .energyImage21 {
+    position: absolute;
+    width: 156px;
+    height: 156px;
+    left: 0px;
+    top: 1373px;   
+  }
+
+  .energyImage22 {
+    position: absolute;
+    width: 161px;
+    height: 156px;
+    left: 156px;
+    top: 1373px;   
+  }
+
+  .energyImage23 {
+    position: absolute;
+    width: 161px;
+    height: 156px;
+    left: 317px;
+    top: 1374px;   
+  }
+
+  .energyImage24 {
+    position: absolute;
+    width: 160px;
+    height: 156px;
+    left: 478px;
+    top: 1374px;   
+  }
+
+  .energyImage25 {
+    position: absolute;
+    width: 161px;
+    height: 156px;
+    left: 638px;
+    top: 1373px;   
+  }
+
+  .energyImage26 {
+    position: absolute;
+    width: 161px;
+    height: 156px;
+    left: 799px;
+    top: 1374px;   
+  }
+
+  .energyImage27 {
+    position: absolute;
+    width: 161px;
+    height: 156px;
+    left: 960px;
+    top: 1373px;   
+  }
+
+  .energyImage28 {
+    position: absolute;
+    width: 161px;
+    height: 156px;
+    left: 1121px;
+    top: 1373px;   
+  }
+
+  .energyImage29 {
+    position: absolute;
+    width: 160px;
+    height: 156px;
+    left: 1282px;
+    top: 1373px;   
+  }
+
+  .energyImage30 {
+    position: absolute;
+    width: 161px;
+    height: 156px;
+    left: 1442px;
+    top: 1373px;
+       
+  }
+
+  .energyImage31 {
+    position: absolute;
+    width: 161px;
+    height: 156px;
+    left: 1603px;
+    top: 1373px;   
+  }
+
+  .energyImage32 {
+    position: absolute;
+    width: 156px;
+    height: 156px;
+    left: 1764px;
+    top: 1374px;    
+  }
+
+  .energyImage33 {
+    position: absolute;
+    width: 156px;
+    height: 157px;
+    left: 1764px;
+    top: 1217px;   
+  }
+
+  .energyImage34 {
+    position: absolute;
+    width: 156px;
+    height: 156px;
+    left: 1764px;
+    top: 1061px;   
+  }
+
+  .energyImage35 {
+    position: absolute;
+    width: 156px;
+    height: 156px;
+    left: 1764px;
+    top: 905px;   
+  }
+
+  .energyImage36 {
+    position: absolute;
+    width: 156px;
+    height: 156px;
+    left: 1764px;
+    top: 749px;   
+  }
+
+  .energyImage37 {
+    position: absolute;
+    width: 156px;
+    height: 157px;
+    left: 1764px;
+    top: 592px;   
+  }
+
+  .energyImage38 {
+    position: absolute;
+    width: 156px;
+    height: 156px;
+    left: 1764px;
+    top: 436px;   
+  }
+
+  .energyImage39 {
+    position: absolute;
+    width: 156px;
+    height: 156px;
+    left: 1764px;
+    top: 279px;   
+  }
+
+  .energyImage40 {
+    position: absolute;
+    width: 156px;
+    height: 157px;
+    left: 1764px;
+    top: 122px;   
+  }
+
+
+  .animationLeft {
+    animation: movingLeft 1s linear infinite;
+  }
+  
+  .animationDown {
+    animation: movingDown 1s linear infinite;
+  }
+  
+  .animationRight {
+    animation: movingRight 1s linear infinite;
+  }
+  
+  .animationUp {
+    animation: movingUp 1s linear infinite;
   }
 }

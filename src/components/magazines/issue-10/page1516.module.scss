@@ -118,13 +118,28 @@
   .text4 {
     position: absolute;
     width: 482px;
-    height: 295px;
-    left: 1397px;
-    top: 459px;
+    height: 544px;
+    left: 1395px;
+    top: 478px;
     
     font-family: Mada;
     font-size: 20px;
     line-height: 110%;
     color: #FFFFFF;    
+  }
+
+  .text5 {
+    position: absolute;
+    width: 482px;
+    height: 544px;
+    left: 1395px;
+    top: 828px;
+    
+    font-family: Mada;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 110%;
+    
+    color: #FFFFFF;
   }
 }

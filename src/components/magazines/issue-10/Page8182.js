@@ -19,6 +19,371 @@ const Page8182 = () => (
       />
     </a>
 
+    <div
+      className={[styles.energyImage1, styles.animationLeft].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage2, styles.animationLeft].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage3, styles.animationLeft].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage4, styles.animationLeft].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage5, styles.animationLeft].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage6, styles.animationLeft].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage7, styles.animationLeft].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage8, styles.animationLeft].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage9, styles.animationLeft].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage10, styles.animationLeft].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage11, styles.animationLeft].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+
+
+    <div
+      className={[styles.energyImage12, styles.animationDown].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage13, styles.animationDown].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage14, styles.animationDown].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage15, styles.animationDown].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage16, styles.animationDown].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage17, styles.animationDown].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage18, styles.animationDown].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage19, styles.animationDown].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage20, styles.animationDown].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+
+
+    <div
+      className={[styles.energyImage21, styles.animationRight].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage22, styles.animationRight].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage23, styles.animationRight].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage24, styles.animationRight].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage25, styles.animationRight].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage26, styles.animationRight].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage27, styles.animationRight].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage28, styles.animationRight].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage29, styles.animationRight].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage30, styles.animationRight].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage31, styles.animationRight].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage32, styles.animationUp].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage33, styles.animationUp].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage34, styles.animationUp].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage35, styles.animationUp].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage36, styles.animationUp].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage37, styles.animationUp].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage38, styles.animationUp].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage39, styles.animationUp].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+    <div
+      className={[styles.energyImage40, styles.animationUp].join(' ')}
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/10/images/8182_image2.png`}
+        width={156}
+        height={156}
+      />
+    </div>
+
     <div className={styles.text1}>
       Snapshot Labs w/ Nathan VDH
     </div>

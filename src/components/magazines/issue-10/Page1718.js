@@ -65,6 +65,49 @@ const Page1718 = () => {
         </div>
       </a>
 
+      <a
+        className={styles.link2}
+        href='https://twitter.com/akim_funk'
+        target='_blank'
+      >
+        <div className={styles.text3}>
+          Akim Funk Buddha
+        </div>
+        <div className={styles.text4}>
+          Akim Funk Buddha
+        </div>
+      </a>
+
+      <div className={styles.text5}>
+        I've had the blessing of being brought up two different continents during the emergence of Hip Hop.  Born in Syr
+        <br /><br />
+        acuse New York ,but later grew up in Zimbabwe / South Africa. I've always wanted to know more than what was given or told. From a young age  I always had a different way of processing information. 
+        <br /><br />
+        This way of being would only begin to make more sense when I stepped into my performance art persona, what I call 'Funk Buddha.' Although I came upon  this name spontaneously, it has become somewhat of an alter ego. Buddha means awakened mind, and Funk represents the power of the groove that also pulls people together and inspires  movement.        
+      </div>
+      <div className={styles.text6}>
+        I've always had an attraction to dance and creative expression. 
+        <br /><br />
+        Back in the early '90s when I would body paint myself gold and do performances in Parks, streets and even Subway, I began to explore my ability to enter trans like state. When I would finally decide to move, I would feel energy moving through my body. 
+        <br /><br />
+        This led me to an even deeper path of intuitive  movement exploration. 
+        <br /><br />
+        Began to develop an animated  creature-like aesthetic. Almost like I was a conductor of energy moving through me. Then one day I thought I saw myself on channel 13 and I was beginning to wonder who had filmed me without my permission. 
+        <br /><br />
+        As I looked further, I realized it was a documentary that had a section on Temple dancers in Asia. These dancers moved both smooth and fast, slow then staccato. 
+        <br /><br />
+        This also reminded me of how I moved also. It was then at that moment when I committed to travel to the east. After exploring different countries I began to focus on the Balinese dance called the Baris. This also became the first time I decided to study a dance formally. 
+        <br /><br />
+        Before this, everything I had learned was self-taught. I use to throat singing inspired by Tuva. This is a technique where one makes more than one tone at the same time. This is also known as overtone and or harmonic singing. My method combines the sound with my movement and therefore  emphasizes that I'm interacting with other dimensions. I'm excited to explore the dimension of the multiverse also known as the metaverse.        
+      </div>
+      <div className={styles.text7}>
+        The true power of the  the arts is something society has  to reconcile with. The artists  need to realize the power within themselves and how this power  amplifies when the correct partnerships come together. 
+        <br /><br />
+        Artists have become conditioned to compete with each other and so  many great opportunities are missed. Then the people who do not have our best interest in mind  wind up banding together and either taking advantage of us and or just  messing things up. 
+        <br /><br />
+        Artists need to shift how they generate income & learn how to build together. I'm hopeful that this is what can manifest within the web 3 nft community.
+      </div>
+
       <div className={styles.leftSideFrame} />
       <div className={[styles.animationFrame, styles.leftSideImageWrapper].join(' ')}>
         <img src='./magazine/1/images/howtogetintext 2.png' alt='' />
