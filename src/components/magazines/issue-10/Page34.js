@@ -57,50 +57,49 @@ const Page34 = () => (
       Ana Rivera <br />
     </div>
     <div className={styles.text7}>
-      Charles Nfity Island <br />
-      Swombat <br />
-      ChainSafe <br />
-      Ash Bush <br />
-      Zach Bush <br />
-      Lambo <br />
+      Matt Stephenson <br />
+      Allan Buchman <br />
+      Akim Funk Buddha <br />
+      Aguinia <br />
+      Newton Lee <br />
     </div>
     <div className={styles.text8}>
-      BeardedKSum <br />
-      MashBrettato <br />
-      MetaGame <br />
-      Skyweaver <br />
-      DustBreakers <br />
-      First Dungeon <br />
+      Suave <br />
+      Mark <br />
+      Que <br />
+      Emily Rhen <br />
+      Yadan <br />
+      Benjamin Taylor <br />
     </div>
     <div className={styles.text9}>
-      Parabellum <br />
-      Eric/Second Realm <br />
-      Mona <br />
-      Alana <br />
-      Polygon Studios <br />
-      Akuchi <br />
+      Riccardo <br />
+      Kinetic $pace DAO <br />
+      Pizza Draw <br />
+      Catalina Vasquez <br />
+      Chama Candela <br />
+      Triangle Loft <br />
     </div>
     <div className={styles.text10}>
-      Awelewa <br />
-      Tarun Chitra <br />
-      Sigma Prime <br />
-      Bokky Poobah <br />
-      XDCG <br />
+      Nathan VDH <br />
+      Dotan Negrin <br />
+      Micah <br />
+      Apollo Studios <br />
+      RRS DAO <br />
     </div>
     <div className={styles.text11}>
-      Aisha <br />
-      Marcio Flausino <br />
-      Ashish Bisht <br />
-      Phoebe Heess <br />
-      Alterrage <br />
-      Daniel De Klawn <br />
+      LUME Studios <br />
+      HimeX <br />
+      Techn0m0rph <br />
+      F3Manifesto <br />
+      Rarible <br />
+      Arpeggi Labs <br />
     </div>
     <div className={styles.text12}>
-      TheGlitchedArts <br />
-      DeFi Alliance <br />
-      T3ch0m0rph <br />
-      Stella Achenbach <br />
-      Jessica James <br />
+      Hyperloot <br />
+      Gremplin <br />
+      Merlin the Blue <br />
+      Rhizome <br />
+      SuperCollider <br />
     </div>
   </div>
 )
