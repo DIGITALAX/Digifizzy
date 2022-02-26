@@ -13,28 +13,24 @@ const Page34 = () => (
       />
     </div>
     <div className={styles.text1}>
-      The Great Game. 
+      Acknowledging the Realities of War.
     </div>
     <div className={styles.text2}>
-      Why do some web3 fashion designers make more money than others today? 
+      As we watch tanks advance on the ground in Ukraine and missiles slam into civilian buildings throughout the country, it makes us (wonder) what any of us can do to build and supply at least the economic component of what free people in Ukraine and everywhere need to fight against the militant aggression of tyrannical and centralising forces.
       <br /><br />
-      It’s actually a really difficult question and far too easy to gloss over without actually getting any real insight. 
+      As Ukrainian president, Volodymyr Zelenskyy, said on the second day of the invasion, in a direct appeal to the Russian people, which will reach them through whatever means possible, routing around the censorship by the Russian state; 
       <br /><br />
-      First of all, for the most part, no one really makes a lot of money in web3 fashion today, we just aren’t there yet. It’s a lot like the NFT market before the big boom. You know, when you realise that just 2 years ago some of today’s biggest NFT artists, like that of XCOPY, were selling their works for as little as *free giveaways* and as much as all of $20. 
+      “We are talking about peace, and about principles, justice. About everyone’s right to define their own future, of safety, and everyone’s right to live without threat.” 
       <br /><br />
-      It’s easy to look back and say that anyone could have predicted their staggering rise. Before a new paradigm emerges, it is difficult to evaluate evidence right in front of our faces. Afterward, it is hard to even remember what the previous worldview held to be sacred.
+      It shouldn’t take war crimes to help people understand what web3 really is— the most powerful means to put tools for economic production and personal wellbeing directly into the hands of every individual globally.
       <br /><br />
-      The best way to answer this question is by first answering, where does the money come from. In web2 that’s easy, it’s ultimately borrowed from VCs and inflated along each stage of the supply chain mixed with a bit of probability optimization hoping to hit it big in a random chance casino based market. The problem with this model, in addition to all the obvious, is that you are entirely replaceble and just as disposable as the fast fashion filling up in landfills.
+      That doesn’t mean that everything that is built or done using these tools must be serious, world changing and can’t be fun or entertaining.
       <br /><br />
-      No amount of skill or talent or unique brand positioning will make the nice things existing dominate labels and brands say about you anything more than a convenient lie. They exist to buy, copy or kill upstart brands.
+      But, at times like these, it is good to remember what we really mean when we talk of the revolutionary economic power that web3 enables.
       <br /><br />
-      But if you’re a web3 fashion designer and reading this, it’s too easy to believe that breaking free of these tired old models is a nice dream that will never happen for you.
+      For those of us who recognise how unacceptable it is to live in a world even partially controlled by Putin’s Russia, totalitarian China, or even the copyright cartels led by the Disneys and Nikes of the world, which directly fund and enable the former, the relationship between self sovereign networks, decentralised creative production, and, cc0, cannot be obscured or deferred.
       <br /><br />
-      The secret to making web3 work is actually no different than any economic success has ever been. It takes a lot of hard work and intensive study. The difference maker is in how much and what you study. 
-      <br /><br />
-      To truly make it in web3 you must learn continuously. Not just the basics, but deeply into the nuances, practices, and how it changes markets and relationships between brands, communities, collectors, and wearers. 
-      <br /><br />
-      ... The rest is continued on the last page.
+      That is why in the face of so many lives at risk under a direct assault, it is an ethical imperative to continue to exercise our right to create and do so in a way that is deliberate, aware, compassionate and cogniscant of what many of our friends and compatriots are fighting like hell to survive through today. 
     </div>
     <div className={styles.text3}>
       - Emma-Jane MacKinnon-Lee
