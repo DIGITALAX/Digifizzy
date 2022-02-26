@@ -7,7 +7,7 @@ const Page12 = () => (
       GAME
     </h1>
     <div className={styles.text1}>
-      Hyphen  | Composable open units of space that can be programmed to transform and reshape overtime. They directly embed both non-fungible and fungible containers of value for inter-realm utility and access, where the content space itself has timestamped provenance and decentalised ownership. 
+      Question Mark |   Streamlined low friction high engagement interactive environments for greater economic activity, open sources of content and derivatives and play.
     </div>
   </div>
 )
