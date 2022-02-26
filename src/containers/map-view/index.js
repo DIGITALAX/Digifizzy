@@ -739,7 +739,7 @@ const mapList = [
         x: '27',
         y: '10',
         rotate: '20'
-      },
+      }, 
       {
         pageNum: 23,
         x: '42',
