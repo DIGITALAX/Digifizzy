@@ -116,7 +116,7 @@ const Page1314 = () => {
         Breaking down barriers of entry in Play to Earn gaming though scholarships and a gamifed educational platform. VoltaireDAO exists for providing more direct onboarding support and infrastructure to those eager to enter into P2E and start unlocking play as an income source. Players are paired with assets from the DAO’s community-owned treasury, keeping 70% of earned rewards, with the rest going directly back to the treasury itself for maintenance of the DAO. Further, the project is also in the early stages of building out a decentralised NFT lending platform that will unfreeze even greater wealth and shared value from the digital assets used within the gamified worlds. 
       </div>
       <div className={styles.text13}>
-        <span>wagmi</span>  
+        <span>wagmi</span> <br />
         One of the most powerful and elegant 
       </div>
       <div className={styles.text14}>
