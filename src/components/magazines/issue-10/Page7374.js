@@ -43,9 +43,9 @@ const Page7374 = () => (
       <br /><br />
       The ability to produce digital garments in a totally decentralized manner is certainly food for thought that’s worth ruminating on, considering 29% of the planet’s carbon footprint is a result of the monolithic supply chain process responsible for the production, manufacturing, and transportation of goods and services.
       <br /><br />
-      And fashion’s rather belated paradigm shift towards decentralized production is just another milestone as far as how decentralization itself is pointing towards a new era of industrial revolution disrupting a whole host of industries with arguably promising results amidst the constant iteration and development on technical, administrative, and even cultural levels. 
+      And fashion’s rather belated paradigm shift towards decentralized production is just another milestone as far as how decentralization itself is pointing towards a new era of industrial revolution— disrupting a whole host of industries with arguably promising results amidst the constant iteration and development on technical, administrative, and even cultural levels. 
       <br /><br />
-      For instance, the advent of NFTs and the tools one needs to create them have opened the doors for independent designers, brands, and fashion houses of every ilk–to a new world full of enthusiastic, eager kindred spirits in an environment fostering creative freedom that’s infinitely more rewarding than the IRL option. 
+      For instance, the advent of NFTs and the tools one needs to create them has opened the doors for independent designers, brands, and fashion houses of every ilk–to a new world full of enthusiastic, eager kindred spirits in an environment fostering creative freedom that’s infinitely more rewarding than the IRL option. 
     </div>
   </div>
 )
