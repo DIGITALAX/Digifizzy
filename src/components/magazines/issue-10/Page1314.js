@@ -70,8 +70,8 @@ const Page1314 = () => {
         />
       </a>
       <a
-        className={styles.image6}
-        href='https://twitter.com/VoltaireDAO'
+        className={styles.image7}
+        href='https://twitter.com/awkweb'
         target='_blank'
       >
         <Image
@@ -81,8 +81,8 @@ const Page1314 = () => {
         />
       </a>
       <a
-        className={styles.image7}
-        href='https://twitter.com/awkweb'
+        className={styles.image6}
+        href='https://twitter.com/VoltaireDAO'
         target='_blank'
       >
         <Image
@@ -97,13 +97,13 @@ const Page1314 = () => {
         White Hat DAO is a core due diligence provider for the web3 ecosystem, providing high level security integrations and Web3 support for DAOs and protocols. Security, privacy and maintaince of indepedence and self sovereignty are core
       </div>
       <div className={styles.text9}>
-        and utterly essential components of web3. And, with so many new projects and teams launching the space, it’s easy to deploy and/or interact with vulnerable code and smart contracts. The Whitehat DAO team is also maintaining a ratings list and using treasury funds to further compensate developers working across security and public goods projects. 
+        and utterly essential components of web3. And, with so many new projects and teams launching in the space, it’s easy to deploy and/or interact with vulnerable code and smart contracts. The Whitehat DAO team is also maintaining a ratings list and using treasury funds to further compensate developers working across security and public goods projects. 
       </div>
       <div className={styles.text10}>
         <span>cyberconnect</span> <br />
         With the recent release of lens protocol by the core AAVE team, the increased censoring of information by centralised web2 social media behemoths, and the urgent neccesity for ensuring open access to communication and the broadcasting of reliable information, web3 social media has become growingly more of interest.
         <br /><br />
-        CyberConnect is a publicly accessible and decentralised social graph protocol that returns data ownership and utilities back to Web3 users, whereby through a user-friendly API, developers can easily integrate and access the whole user generated social graphs on Web3.
+        CyberConnect is a publicly accessible and decentralised social graph protocol that returns data ownership and utilities back to Web3 users, whereby through a user-friendly API, developers can easily integrate and access entire user generated social graphs. 
       </div>
       <div className={styles.text11}>
         <span>Mirror Curator DAO</span> <br />
@@ -113,7 +113,7 @@ const Page1314 = () => {
       </div>
       <div className={styles.text12}>
         <span>VoltaireDAO</span> <br />
-        Breaking down barriers of entry in Play to Earn gaming though scholarships and gamifed educational platform. VoltaireDAO exists for providing more direct onboarding support and infrastructure to those eager to enter into P2E and start unlocking play as an income source. Players are paired with assets from the DAO’s community-owned treasury, keeping 70% of earned rewards, with the rest going directly back to the treasury itself for maintenance of the DAO. Further, the project is also in the early stages of building out a decentralised NFT lending platform that will unfreeze even greater wealth and shared value from the digital assets used within the gamified worlds. 
+        Breaking down barriers of entry in Play to Earn gaming though scholarships and a gamifed educational platform. VoltaireDAO exists for providing more direct onboarding support and infrastructure to those eager to enter into P2E and start unlocking play as an income source. Players are paired with assets from the DAO’s community-owned treasury, keeping 70% of earned rewards, with the rest going directly back to the treasury itself for maintenance of the DAO. Further, the project is also in the early stages of building out a decentralised NFT lending platform that will unfreeze even greater wealth and shared value from the digital assets used within the gamified worlds. 
       </div>
       <div className={styles.text13}>
         <span>wagmi</span>  
@@ -148,7 +148,7 @@ const Page1314 = () => {
         Principles of one form or another are essential to human organization. “Squad wealth” definitely counts as a principle but it’s not always one that builds the best community, at least not by itself. I think anyone who’s spent time in a Generic PFP project Discord can attest. This is probably just because “get more money” is a fairly generic and common human motivation and so you don’t get that in-group feeling. If two strangers find out they’re both deep into open source they might immediately feel kinship over shared values about code transparency or supporting public goods. But if two strangers find out they both prefer more money to less money that’s a little less surprising.
       </div>
       <div className={styles.text17}>
-        Alt-IP is an attempt to take the goals of intellectual property and see how well those goals can be met without relying on the formal legal system. NFTs are already an interesting experiment in this. The whole “right click{`—>`}save as{`—>`}gottem” thing is pointing at one of the great strengths of NFTs, that this art is being made publicly available and the creators are still getting paid. Where Intellectual Property theorizing, at an extreme, would suggest that nobody would pay for something freely available and thus there must government enforcement against those who copy the work. I think it’s exciting to try and build structure that can provide alternatives to, say, a patent system that everyone agrees is broken.
+        Alt-IP is an attempt to take the goals of intellectual property and see how well those goals can be met without relying on the formal legal system. NFTs are already an interesting experiment in this. The whole “right click{`—>`}save as{`—>`}gottem” thing is pointing at one of the great strengths of NFTs, that this art is being made publicly available and the creators are still getting paid. Where Intellectual Property theorizing, at an extreme, would suggest that nobody would pay for something freely available and thus there must be government enforcement against those who copy the work. I think it’s exciting to try and build structure that can provide alternatives to, say, a patent system that everyone agrees is broken.
       </div>
       <div className={styles.text18}>
         I would say the more decentralized you want the organization to be, the more coordinating structure you should have in place upfront. This could be anything from clarifying goals and motivations to voting mechanisms. Lacking these mechanisms a DAO will probably tend to be a Decentralized-in-name-only, as a few people take charge of leadership and de facto control. 
