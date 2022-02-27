@@ -45,7 +45,7 @@ const Page4950 = () => (
       <br /><br />
       Suffice to say, when professional players sit across from each other at the same poker table, the game is elevated to practically a science–pros don't gamble. 
       <br /><br />
-      Regardless of your skill level at poker or whether or not you care for it at all, one thing is for sure. Essentially, all individuals think like poker players when the chips are down or when it's time to make a big decision (e.g., buying a house or moving elsewhere).
+      Regardless of your skill level at poker or whether or not you care for it at all, one thing is for sure. Essentially, all individuals think like poker players when the chips are down or when it's time to make a big decision (whatever that may take form in).
     </div>
 
   </div>
