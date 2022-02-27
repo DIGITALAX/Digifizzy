@@ -57,7 +57,7 @@ const Page6162 = () => {
         <br /><br />
         She mixes vibrant colors, geometric art, psychodelic influences, memetic anime styles, classically Latin American children’s book aesthetics and derivations from many other forms. 
         <br /><br />
-        It’s hard not to get lost in the detalied worlds and cities that she draws out into common space from the depths of rare imaginations. 
+        It’s hard not to get lost in the detailed worlds and cities that she draws out into common space from the depths of rare imaginations. 
       </div>
       <div className={styles.text5}>
         Catalina has been in the NFT space for quite sometime, releasing various collections and building a dedicated buyer and collector base that is closely following her journey in web3. 
@@ -68,7 +68,7 @@ const Page6162 = () => {
         <br /><br />
         NFTs offer the most direct and reliable ways to expand markets far beyond the locations where you are born or raised. 
         <br /><br />
-        And yet, to better express, package and remix the traditions that have most influenced you into new stories that appeal to that expanded collector base. This is all to real for Catalina who has consistently put herself on the vanguard of the Columbian NFT artist and fashion scene. 
+        And yet, to better express, package and remix the traditions that have most influenced you into new stories that appeal to that expanded collector base. This is all to real for Catalina, who has consistently put herself on the vanguard of the Columbian NFT artist and fashion scene.
         <br /><br />
         We can’t wait to continue to follow her journey, and check out the zine murals on the next pages featuring collections of her art, fashion and bold self portraiture!
       </div>
