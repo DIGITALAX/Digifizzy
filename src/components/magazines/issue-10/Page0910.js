@@ -41,13 +41,13 @@ const Page0910 = () => (
       It’s an incredibly powerful tool to amplify a web3 or NFT startup’s public image and brand, while allowing all sorts of new, independent, and fresh creators the tools to produce, reimagine, and create anew, without the constraints of archaic copyright law which, quite frankly, is out of touch with the digital new order anyway. Toothless and without power to enforce. CC0’s permissiveness allows anyone and everyone to freely use content without fear of a murder of lawyers out to hit you with a fat copyright infringement lawsuit. 
     </div>
     <div className={styles.text4}>
-      It might be odd to think that a license waiving all copyright protection is what will create the most economic value and network effects. But that’s just what’s exactly happening in web3. CC0 is the most “web3 friendly” model for governing IP and will be the primary licensing model of choice for true web3.
+      It might be odd to think that a license waiving all copyright protection is what will create the most economic value and network effects. But that’s just what’s exactly happening in web3. CC0 is the most “web3 friendly” model for governing IP and will be the primary licensing model of choice for anything authentic in this market.
     </div>
     <div className={styles.text5}>
       That isn’t to say that every web3 startup involved in NFTs needs to embrace CC0, as evidenced by Cryptopunks, whose creators Larva Labs explicitly retain copyright and intellectual property around the whole Punk universe. But CC0 undercuts and releases the leverage corporate web3 has on the 
     </div>
     <div className={styles.text6}>
-      entire digital ecosystem. Why? Because the Creative Commons appellation is synonymous with an open, decentralized environment developing intellectual property and how they will be used as one community–and every derivative arising thereof of said NFT or product for that matter.
+      entire digital ecosystem. Why? Because the Creative Commons appellation is synonymous with an open, decentralized environment developing value and governing it's best use–and every derivative arising thereof of said NFT or product for that matter.
     </div>
 
     <div className={styles.rect1}></div>
