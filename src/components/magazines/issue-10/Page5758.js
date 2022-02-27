@@ -71,7 +71,7 @@ const Page5758 = () => (
       />
     </div>
     <div className={styles.text1}>
-      Demon Studios is live with the first beta of pizza draw! You can check out the game below and keep your point score through collection more pizza!      
+      Demon Studios is live with the first beta of pizza draw! You can check out the game below and keep your point score through collecting more pizza!      
     </div>
     <div className={styles.text2}>
       Two players go head to head to collect as many slices as possible within the level time limit to stay in the game and keep survival points high.
