@@ -21,7 +21,7 @@ const Page5152 = () => (
       <br /><br />
       It's never easy to manage one's emotions. And keeping your emotions in check does take some skill (and a lifetime) to master as such mental models aren't as quickly acquirable as some might think. Therefore, such mental qualities require the appropriate balance of nurture and nurture to develop such traits.
       <br /><br />
-      Come to think of it, our lives are the sum total of the results of the bets we made throughout our lives. Choices such as domicile, partner, marriage, path of study, lifestyle, career, and identity and their impact on our lives can be far-ranging. 
+      Come to think of it, our lives are the sum total of the results of the bets we made throughout our journey. Choices such as domicile, partner, marriage, path of study, lifestyle, career, and identity and their impact on our lives can be far-ranging. 
       <br /><br />
       But the fact of the matter is, we're already betting on things as soon as our neurons start firing off the complex processes that lead to waking up in the morning. 
     </div>
