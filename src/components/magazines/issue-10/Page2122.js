@@ -16,7 +16,7 @@ const Page2122 = () => {
       <div className={styles.background}></div>
 
       <a
-        href='https://twitter.com/ItzAggy'
+        href='https://twitter.com/eyemaguinia'
         target='_blank'
       >
         <div className={styles.link1}>
@@ -24,7 +24,7 @@ const Page2122 = () => {
         </div>
       </a>
       <a
-        href='https://twitter.com/ItzAggy'
+        href='https://twitter.com/eyemaguinia'
         target='_blank'
       >
         <div className={styles.link2}>
