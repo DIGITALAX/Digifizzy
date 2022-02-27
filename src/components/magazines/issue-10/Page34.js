@@ -16,7 +16,7 @@ const Page34 = () => (
       Acknowledging the Realities of War.
     </div>
     <div className={styles.text2}>
-      As we watch tanks advance on the ground in Ukraine and missiles slam into civilian buildings throughout the country, it makes us (wonder) what any of us can do to build and supply at least the economic component of what free people in Ukraine and everywhere need to fight against the militant aggression of tyrannical and centralising forces.
+      As we watch tanks advance on the ground in Ukraine and missiles slam into civilian buildings throughout the country, it makes us wonder what any of us can do to build and supply at least the economic component of what free people in Ukraine and everywhere need to fight against the militant aggression of tyrannical and centralising forces.
       <br /><br />
       As Ukrainian president, Volodymyr Zelenskyy, said on the second day of the invasion, in a direct appeal to the Russian people, which will reach them through whatever means possible, routing around the censorship by the Russian state; 
       <br /><br />
