@@ -37,13 +37,13 @@ const Page2728 = () => (
     <div className={styles.text1}>
       One need only look at what’s going on in Xinjiang and the international backlash that the Nikes and Zaras of the world have rightfully earned for their tacit approval of the communist government’s oppression of the Uyghur people, in a region responsible for nearly 85% of the PRC’s cotton production–and one-fifth of that of the entire world.
       <br /><br />
-      Wanton, hypercapitalistic attitudes have led us down the rabbit hole of child labor, government-sponsored sweatshops, and outright slavery in the 21st century. In the 21st century. And more and more individuals are waking up to this fact, as the Biden administration begins its investigative hearings into a bill that bars products made with Chinese forced labor. The eyes of the world are watching, Joe.
+      Wanton, dictator driven attitudes have led us down the rabbit hole of child labor, government-sponsored sweatshops, and outright slavery in the 21st century. More and more individuals are waking up to this fact, as the Biden administration begins its investigative hearings into a bill that bars products made with Chinese forced labor. The eyes of the world are watching, Joe.
       <br /><br />
       There’s a lot of blame to pass around for sure. But there’s little doubt that the world’s largest brands purchase Xinjiang-sourced cotton products from Chinese traders, while other companies operate a massive supply chain across the Indian subcontinent using raw materials from the eponymous autonomous region–all contributing to the erosion of Uyghur roots and culture in a industrialized, downright dystopian fashion. That’s not mentioning the forced sterilization, abortion, and government-sponsored indoctrination programs that have been inflicted on the native populace.
       <br /><br />
-      It’s about time we put right the institutional wrongs, and fashion is no different. We must hold the companies that enable this dystopia to pervade, and hold them liable for ensuring that human rights are respected from the cotton fields to Champs-Elysees. 
+      It’s about time we put right the institutional wrongs, and just using blockchain technology to mint an NFT isn’t enough. We must hold the companies that enable this dystopia liable for ensuring that human rights are respected from the cotton fields to Champs-Elysees.
       <br /><br />
-      Check the vulturistic VC/web2 attitudes by the door please.
+      Check out the vulturistic VC/web2, please.
 
     </div>
   </div>
