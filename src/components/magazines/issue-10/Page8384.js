@@ -98,9 +98,9 @@ const Page8384 = () => (
     <div className={styles.text8}>
       NFT’s and web3 are super exciting for me because everything I have ever worked on when it comes to art and technology gets realized from this. The thing that excites me the most is bringing people together. I want to be the catalyst for creative people to come together and I want lumestudios to be the space where it happens. Everyone always brings up the story of Andy Warhol and the creatives he connected together in a wharehouse in SoHo. This is now happening on a global scale. It’s very exciting.
       <br /><br />
-      What were planning to do with LUME studios is transform the space into a a hub for Nft creators in downtown New York City. We will be the space for Web three native experiences, as well as a space to build and create digital art.
+      What we’re planning to do with LUME studios is transform the space into a a hub for Nft creators in downtown New York City. We will be the space for Web three native experiences, as well as a space to build and create digital art.
       <br /><br />
-      We have a lot of tools and resources at our fingertips and we want to share that with artists. One thing that we’re experimenting with is working with established artist and turning their work into audiovisual immersive experiences.
+      We have a lot of tools and resources at our fingertips and we want to share that with artists. One thing that we’re experimenting with is working with established artists and turning their work into audiovisual immersive experiences.
     </div>
   </div>
 )
