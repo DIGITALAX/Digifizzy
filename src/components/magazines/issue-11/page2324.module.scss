@@ -1,0 +1,113 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+
+  .text1 {
+    position: absolute;
+    width: 978px;
+    height: 87px;
+    left: 983px;
+    top: 67px;
+    
+    font-family: Wallpoet;
+    font-size: 80px;
+    line-height: 100%;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 978px;
+    height: 101px;
+    left: 983px;
+    top: 154px;
+    
+    font-family: Wallpoet;
+    font-size: 80px;
+    line-height: 100%;
+}
+
+  .text3 {
+    position: absolute;
+    width: 978px;
+    height: 108px;
+    left: 983px;
+    top: 255px;
+    
+    font-family: Wallpoet;
+    font-size: 80px;
+    line-height: 100%;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 648px;
+    height: 30px;
+    left: 960px;
+    top: 1411px;
+    
+    font-family: Wallpoet;
+    font-size: 30px;
+    line-height: 100%;
+    color: #FFFFFF;    
+  }
+
+  .imageBackground {
+    position: absolute;
+    width: 910px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+    
+  }
+
+  .image1 {
+    position: absolute;
+    width: 1016px;
+    height: 1497px;
+    right: 0px;
+    top: 0;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 327px;
+    height: 314px;
+    left: 1590px;
+    top: 560px;    
+  }
+
+  .image3 {
+    position: absolute;
+    width: 327px;
+    height: 314px;
+    left: 936px;
+    top: 881px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 327px;
+    height: 314px;
+    left: 1263px;
+    top: 881px;
+  }
+
+  .image5 {
+    position: absolute;
+    width: 327px;
+    height: 314px;
+    left: 1590px;
+    top: 869px;
+  }
+
+  .image6 {
+    position: absolute;
+    width: 327px;
+    height: 314px;
+    left: 1590px;
+    top: 1183px;
+  }
+}

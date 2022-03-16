@@ -1,0 +1,289 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+
+  .imageBackground {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;    
+  }
+  
+  .text1 {
+    position: absolute;
+    width: 838px;
+    height: 172px;
+    left: 44px;
+    top: 41px;
+    
+    font-family: Nosifer;
+    font-size: 80px;
+    line-height: 80px;
+
+    color: #FF1E1E;
+    -webkit-text-stroke: 3px #000000;
+  }
+  
+  .text2 {
+    position: absolute;
+    width: 241px;
+    height: 875px;
+    left: 44px;
+    top: 148px;
+    
+    font-family: Italiana;
+    font-size: 18px;
+    line-height: 20px;
+    
+    color: #FFFFFF;
+    -webkit-text-stroke: 0.5px #FFFFFF;
+  }
+  
+  .text3 {
+    position: absolute;
+    width: 241px;
+    height: 255px;
+    left: 330px;
+    top: 148px;
+    
+    font-family: Italiana;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+    -webkit-text-stroke: 0.5px #FFFFFF;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 341px;
+    height: 341px;
+    left: 595px;
+    top: -43px;
+    opacity: 0.5;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 341px;
+    height: 341px;
+    left: 595px;
+    top: 148px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 500px;
+    height: 333px;
+    left: 443px;
+    top: 764px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 454px;
+    height: 415px;
+    left: 44px;
+    top: 1046px;
+  }
+
+  .image5 {
+    position: absolute;
+    width: 302px;
+    height: 302px;
+    left: 1444px;
+    top: 885px;    
+  }
+
+  .image6 {
+    position: absolute;
+    width: 131px;
+    height: 131px;
+    left: 1555px;
+    top: 1202px;
+  }
+
+  .image7 {
+    position: absolute;
+    width: 199px;
+    height: 199px;
+    left: 1699px;
+    top: 1107px;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 311px;
+    height: 30px;
+    left: 1528px;
+    top: 52px;
+    
+    font-family: Galindo;
+    font-size: 20px;
+    line-height: 30px;
+        
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #00FF47;    
+  }
+
+  .text5 {
+    position: absolute;
+    width: 507px;
+    height: 30px;
+    left: 1413px;
+    top: 73px;
+    
+    font-family: Galindo;
+    font-size: 20px;
+    line-height: 30px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #00FF47;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 536px;
+    height: 120px;
+    left: 1378px;
+    top: 103px;
+    
+    font-family: Galindo;
+    font-size: 20px;
+    line-height: 30px;
+
+    display: flex;
+    align-items: flex-start;
+    text-align: right;
+    
+    color: #00FF47;
+    
+  }
+
+  .text7 {
+    position: absolute;
+    width: 633px;
+    height: 89px;
+    left: 1279px;
+    top: 192px;
+    
+    font-family: Galindo;
+    font-size: 20px;
+    line-height: 30px;
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: #00FF47;
+  }
+
+  .text8 {
+    position: absolute;
+    width: 717px;
+    height: 91px;
+    left: 1191px;
+    top: 328px;
+    
+    font-family: Galindo;
+    font-size: 20px;
+    line-height: 30px;
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: #00FF47;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 767px;
+    height: 91px;
+    left: 1139px;
+    top: 449px;
+    
+    font-family: Galindo;
+    font-size: 20px;
+    line-height: 30px;
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: #00FF47;    
+  }
+
+  .text10 {
+    position: absolute;
+    width: 767px;
+    height: 91px;
+    left: 1139px;
+    top: 614px;
+    
+    font-family: Galindo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: #00FF47;
+  }
+
+  .text11 {
+    position: absolute;
+    width: 715px;
+    height: 91px;
+    left: 1191px;
+    top: 767px;
+    
+    font-family: Galindo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: #00FF47;
+  }
+
+  .text12 {
+    position: absolute;
+    width: 745px;
+    height: 128px;
+    left: 1132px;
+    top: 1333px;
+    
+    font-family: Belgrano;
+    font-size: 80px;
+    line-height: 160%;    
+    text-align: right;
+    
+    color: #FFFFFF;
+  }
+
+  a {
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
+  }
+}

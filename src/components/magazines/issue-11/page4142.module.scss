@@ -1,0 +1,125 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: black;
+  color: white;
+  display: flex;
+  position: relative;
+
+  .imageBackground {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;    
+  }
+
+  a {
+    div {
+      cursor: pointer;
+      transition: 0.3s all;
+
+      &:hover {
+        transition: 0.3s all;
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  .text1 {
+    position: absolute;
+    width: 756px;
+    height: 88px;
+    left: 70px;
+    top: 103px;
+    
+    font-family: Julietta Messie Demo;
+    font-size: 80px;
+    line-height: 110%;
+    color: #E3FF35;    
+  }
+
+  .text2 {
+    position: absolute;
+    width: 292px;
+    height: 74px;
+    left: 636px;
+    top: 1418px;
+    
+    font-family: Spicy Rice;
+    font-size: 75px;
+    line-height: 28px;
+    text-align: right;
+    
+    color: #FF4545;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 292px;
+    height: 74px;
+    left: 1586px;
+    top: 1237px;
+    
+    font-family: Southland;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 28px;
+    text-align: right;
+    
+    color: #FFFFFF;
+    
+    -webkit-text-stroke: 0.5 #FFFFFF;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 276px;
+    height: 226px;
+    left: 1602px;
+    top: 1266px;
+    
+    font-family: Syne Tactile;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    
+    color: #FFFFFF;
+    -webkit-text-stroke: 0.5 #FFFFFF;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 512px;
+    height: 66px;
+    left: 50px;
+    top: 44px;
+    
+    font-family: 'Blacker Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 110%;
+
+    color: #FFFFFF;
+    -webkit-text-stroke: 20px #FFFFFF;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 518px;
+    height: 76px;
+    left: 50px;
+    top: 44px;    
+  }
+
+  a {
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.05);
+    }
+  }
+}

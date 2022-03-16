@@ -1,0 +1,77 @@
+@import './styles.module.scss';
+.wrapper {
+  @include magazineWrapper();
+
+  .imageBackground {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+    object-fit: cover;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 292px;
+    height: 74px;
+    left: 1003px;
+    top: 1423px;
+
+    font-family: Squada One;
+    font-size: 75px;
+    line-height: 28px;
+    color: #81FF45;
+
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.05);
+    }
+  }
+
+  .text2 {
+    position: absolute;
+    width: 276px;
+    height: 226px;
+    left: 1016px;
+    top: 1287px;
+    
+    font-family: Squada One;
+    font-size: 14px;
+    line-height: 16px;
+    color: #81FF45;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 337px;
+    height: 74px;
+    left: 31px;
+    top: 54px;
+    
+    font-family: Squada One;
+    font-size: 75px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+    transition: 0.3s all;
+
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.05);
+    }
+  }
+
+  .text4 {
+    position: absolute;
+    width: 276px;
+    height: 226px;
+    left: 31px;
+    top: 110px;
+    
+    font-family: Squada One;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;    
+  }
+}

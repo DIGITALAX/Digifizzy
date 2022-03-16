@@ -1,0 +1,143 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  color: white;
+  display: flex;
+  position: relative;
+  background: black;
+
+  .imageBackground {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1920px;
+    height: 1497px;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 307.99px;
+    height: 550.51px;
+    left: 503px;
+    top: 520.09px;
+    
+    transform-origin: 0 0;
+    transform: rotate(-5deg);    
+  }
+
+  .image2 {
+    position: absolute;
+    width: 820px;
+    height: 406px;
+    left: 48px;
+    top: 1065px;
+    transform-origin: 0 0;
+    transform: rotate(-5deg);
+  }
+
+  .image3 {
+    position: absolute;
+    width: 793px;
+    height: 1635.4px;
+    left: 740.18px;
+    top: 12.41px;
+    transform-origin: 0 0;
+    transform: rotate(-5deg);
+  }
+
+  .image4 {
+    position: absolute;
+    width: 291px;
+    height: 438px;
+    left: 1555px;
+    top: 1033px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 858px;
+    height: 727px;
+    left: 60px;
+    top: 56px;
+    
+    font-family: 'Big Shoulders Inline Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 150px;
+    line-height: 100%;
+    color: transparent;
+    -webkit-text-stroke: 2px #000000;
+  }
+
+  .text11 {
+    position: absolute;
+    width: 858px;
+    height: 600px;
+    left: 74px;
+    top: 56px;
+    
+    font-family: 'Big Shoulders Inline Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 150px;
+    line-height: 100%;
+    color: transparent;
+    -webkit-text-stroke: 2px #FFFFFF;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 540px;
+    height: 560px;
+    left: 67px;
+    top: 713px;
+    
+    font-family: Mada;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 110%;
+    color: #FFFFFF;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 699px;
+    height: 443px;
+    left: 1225px;
+    top: 35px;
+    
+    font-family: Mada;
+    font-size: 20px;
+    line-height: 110%;
+    color: #FFFFFF;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 482px;
+    height: 544px;
+    left: 1395px;
+    top: 478px;
+    
+    font-family: Mada;
+    font-size: 20px;
+    line-height: 110%;
+    color: #FFFFFF;    
+  }
+
+  .text5 {
+    position: absolute;
+    width: 482px;
+    height: 544px;
+    left: 1395px;
+    top: 828px;
+    
+    font-family: Mada;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 110%;
+    
+    color: #FFFFFF;
+  }
+}

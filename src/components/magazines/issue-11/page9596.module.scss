@@ -1,0 +1,296 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: #7198FF;
+  color: #000000;
+
+  .rect1 {
+    position: absolute;
+    width: 38px;
+    height: 1653px;
+    left: 0px;
+    top: -78px;
+    
+    background: #FF2525;    
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+    
+    background: #8B5C00;
+    border-radius: 748.5px;
+  }
+
+  .rect3 {
+    position: absolute;
+    width: 1297px;
+    height: 1011px;
+    left: 311px;
+    top: 243px;
+    
+    background: #8A7B5E;
+    border-radius: 748.5px;
+  }
+
+  .rect4 {
+    position: absolute;
+    width: 112px;
+    height: 1653px;
+    left: 960px;
+    top: -98px;
+    
+    background: #FF2525;
+  }
+
+  .rect5 {
+    position: absolute;
+    width: 112px;
+    height: 1653px;
+    left: 1119px;
+    top: -98px;
+    
+    background: #FF2525;
+  }
+
+  .rect6 {
+    position: absolute;
+    width: 112px;
+    height: 1653px;
+    left: 1275px;
+    top: -98px;
+    
+    background: #FF2525;
+  }
+
+  .rect7 {
+    position: absolute;
+    width: 112px;
+    height: 911px;
+    left: 1467px;
+    top: -98px;
+    
+    background: #FF2525;
+  }
+
+  .rect8 {
+    position: absolute;
+    width: 112px;
+    height: 911px;
+    left: 1652px;
+    top: -98px;
+    
+    background: #FF2525;
+  }
+
+  .rect9 {
+    position: absolute;
+    width: 112px;
+    height: 911px;
+    left: 1808px;
+    top: -98px;
+    
+    background: #FF2525;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 162px;
+    height: 131px;
+    left: 38px;
+    top: 31px;    
+  }
+
+  .image2 {
+    position: absolute;
+    width: 161px;
+    height: 131px;
+    left: 200px;
+    top: 31px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 161px;
+    height: 131px;
+    left: 38px;
+    top: 162px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 161px;
+    height: 131px;
+    left: 200px;
+    top: 162px;
+  }
+
+  .image5 {
+    position: absolute;
+    width: 161px;
+    height: 131px;
+    left: 38px;
+    top: 293px;
+  }
+
+  .image6 {
+    position: absolute;
+    width: 161px;
+    height: 131px;
+    left: 200px;
+    top: 293px;    
+  }
+
+  .image7 {
+    position: absolute;
+    width: 162px;
+    height: 131px;
+    left: 38px;
+    top: 475px;
+  }
+
+  .image8 {
+    position: absolute;
+    width: 161px;
+    height: 131px;
+    left: 200px;
+    top: 475px;
+  }
+
+  .image9 {
+    position: absolute;
+    width: 161px;
+    height: 131px;
+    left: 38px;
+    top: 606px;
+  }
+
+  .image10 {
+    position: absolute;
+    width: 161px;
+    height: 131px;
+    left: 200px;
+    top: 606px;
+  }
+
+  .image11 {
+    position: absolute;
+    width: 161px;
+    height: 131px;
+    left: 38px;
+    top: 737px;    
+  }
+
+  .image12 {
+    position: absolute;
+    width: 161px;
+    height: 131px;
+    left: 200px;
+    top: 737px;
+  }
+
+  .image13 {
+    position: absolute;
+    width: 162px;
+    height: 131px;
+    left: 37px;
+    top: 919px;
+  }
+
+  .image14 {
+    position: absolute;
+    width: 161px;
+    height: 131px;
+    left: 199px;
+    top: 919px;
+  }
+
+  .image15 {
+    position: absolute;
+    width: 161px;
+    height: 131px;
+    left: 37px;
+    top: 1050px;
+  }
+
+  .image16 {
+    position: absolute;
+    width: 161px;
+    height: 131px;
+    left: 199px;
+    top: 1050px;    
+  }
+
+  .image17 {
+    position: absolute;
+    width: 161px;
+    height: 131px;
+    left: 37px;
+    top: 1181px;
+  }
+
+  .image18 {
+    position: absolute;
+    width: 161px;
+    height: 131px;
+    left: 199px;
+    top: 1181px;
+  }
+
+  .image19 {
+    position: absolute;
+    width: 162px;
+    height: 131px;
+    left: 37px;
+    top: 1363px;
+  }
+
+  .image20 {
+    position: absolute;
+    width: 161px;
+    height: 131px;
+    left: 199px;
+    top: 1363px;
+  }
+
+  .image21 {
+    position: absolute;
+    width: 161px;
+    height: 131px;
+    left: 1491px;
+    top: 931px;
+  }
+
+  .image22 {
+    position: absolute;
+    width: 324px;
+    height: 264px;
+    left: 1658px;
+    top: 909px;
+  }
+
+  .image23 {
+    position: absolute;
+    width: 484px;
+    height: 394px;
+    left: 1469px;
+    top: 1103px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 427px;
+    height: 1313px;
+    left: 455px;
+    top: 96px;
+    
+    font-family: Revalia;
+    font-size: 19px;
+    line-height: 160%;
+    color: #FFFFFF;    
+  }
+}

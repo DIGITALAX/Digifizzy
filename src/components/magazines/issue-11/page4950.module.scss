@@ -1,0 +1,215 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+
+  .imageBackground {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+    object-fit: cover;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 794px;
+    height: 1224px;
+    left: 1030px;
+    top: 136px;
+    
+    background: rgba(192, 30, 176, 0.67);
+    border: 10px solid #000000;
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 794px;
+    height: 203px;
+    left: 80px;
+    top: 64px;
+    
+    background: rgba(192, 30, 176, 0.67);    
+  }
+
+  .text1 {
+    position: absolute;
+    width: 667px;
+    height: 90px;
+    left: 144px;
+    top: 115px;
+    
+    font-family: Reem Kufi;
+    font-size: 45px;
+    line-height: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: -3px 3px #000000, -3px -3px #000000, 3px -3px #000000, 3px 3px #000000;
+  }
+
+  .rect3 {
+    position: absolute;
+    width: 284px;
+    height: 1128px;
+    left: 80px;
+    top: 304px;
+    
+    background: rgba(192, 30, 176, 0.67);    
+  }
+
+  .rect4 {
+    position: absolute;
+    width: 81px;
+    height: 1128px;
+    left: 437px;
+    top: 304px;
+    
+    background: rgba(192, 30, 176, 0.67);
+  }
+
+  .rect5 {
+    position: absolute;
+    width: 284px;
+    height: 1128px;
+    left: 590px;
+    top: 304px;
+    
+    background: rgba(192, 30, 176, 0.67);
+  }
+
+  .rect6 {
+    position: absolute;
+    width: 794px;
+    height: 252px;
+    left: 80px;
+    top: 304px;
+    
+    background: rgba(192, 30, 176, 0.67);
+  }
+
+  .rect7 {
+    position: absolute;
+    width: 794px;
+    height: 252px;
+    left: 80px;
+    top: 596px;
+    
+    background: rgba(192, 30, 176, 0.67);
+  }
+
+  .rect8 {
+    position: absolute;
+    width: 794px;
+    height: 252px;
+    left: 80px;
+    top: 888px;
+    
+    background: rgba(192, 30, 176, 0.67);
+  }
+
+  .rect9 {
+    position: absolute;
+    width: 794px;
+    height: 252px;
+    left: 80px;
+    top: 1180px;
+    
+    background: rgba(192, 30, 176, 0.67);
+  }
+
+  .circle1 {
+    position: absolute;
+    width: 338px;
+    height: 338px;
+    left: -89px;
+    top: 345px;
+    border-radius: 50%;
+    background: rgba(224, 255, 32, 0.69);    
+  }
+
+  .circle2 {
+    position: absolute;
+    width: 338px;
+    height: 338px;
+    left: 394px;
+    top: 530px;
+    border-radius: 50%;
+    background: rgba(224, 255, 32, 0.69);
+  }
+
+  .circle3 {
+    position: absolute;
+    width: 338px;
+    height: 338px;
+    left: 180px;
+    top: 946px;
+    border-radius: 50%;
+    background: rgba(224, 255, 32, 0.69);
+  }
+
+  .circle4 {
+    position: absolute;
+    width: 338px;
+    height: 338px;
+    left: 536px;
+    top: 1239px;
+    border-radius: 50%;
+    background: rgba(224, 255, 32, 0.69);
+  }
+
+  .circle5 {
+    position: absolute;
+    width: 169px;
+    height: 169px;
+    left: 364px;
+    top: 361px;
+    border-radius: 50%;
+    background: rgba(70, 66, 255, 0.57);    
+  }
+
+  .circle6 {
+    position: absolute;
+    width: 169px;
+    height: 169px;
+    left: 11px;
+    top: 804px;
+    border-radius: 50%;
+    background: rgba(70, 66, 255, 0.57);
+  }
+
+  .circle7 {
+    position: absolute;
+    width: 169px;
+    height: 169px;
+    left: 690px;
+    top: 848px;
+    border-radius: 50%;
+    background: rgba(70, 66, 255, 0.57);
+  }
+
+  .circle8 {
+    position: absolute;
+    width: 169px;
+    height: 169px;
+    left: 690px;
+    top: 1056px;
+    border-radius: 50%;
+    background: rgba(70, 66, 255, 0.57);
+  }
+
+  .text2 {
+    position: absolute;
+    width: 670px;
+    height: 1075px;
+    left: 1100px;
+    top: 194px;
+    
+    font-family: Risque;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+    
+    color: #FFFFFF;    
+  }
+}

@@ -1,0 +1,164 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  color: #FFFFFF;
+  display: flex;
+  position: relative;
+  background-color: #000000;
+
+  .line1 {
+    position: absolute;
+    width: 22px;
+    height: 1817.08px;
+    left: 371px;
+    top: -40.48px;
+    
+    background: #E85B59;
+    transform-origin: 0 0;
+    transform: rotate(-20deg);    
+  }
+
+  .line2 {
+    position: absolute;
+    width: 22px;
+    height: 1817.08px;
+    left: 1065px;
+    top: -48px;
+    
+    background: #E85B59;
+  }
+
+  .circle1 {
+    position: absolute;
+    width: 258px;
+    height: 258px;
+    left: 240px;
+    top: 131px;
+    border-radius: 50%;
+    background: #31B5FF;
+  }
+
+  .circle2 {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: 378px;
+    top: 30px;
+    border-radius: 50%;
+    background: #31B5FF;
+  }
+
+  .circle3 {
+    position: absolute;
+    width: 164px;
+    height: 164px;
+    left: 814px;
+    top: 1289px;
+    border-radius: 50%;
+    background: #E85B59;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 1613px;
+    height: 468px;
+    left: -84px;
+    top: 30px;
+    
+    font-family: 'Ballet';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 100%;    
+    
+    color: #FFFFFF;    
+  }
+
+  .text2 {
+    position: absolute;
+    width: 226px;
+    height: 24px;
+    left: 515px;
+    top: 1220px;
+    
+    font-family: 'Ballet';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    /* or 30px */
+    
+    
+    color: #FFFFFF;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 1613px;
+    height: 468px;
+    left: 378px;
+    top: 1289px;
+    
+    font-family: 'Ballet';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 100%;    
+    
+    color: #FFFFFF;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 1613px;
+    height: 468px;
+    left: 39px;
+    top: 1378px;
+    
+    font-family: 'Ballet';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;    
+    
+    color: #FFFFFF;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 1613px;
+    height: 468px;
+    left: 1794px;
+    top: 724px;
+    
+    font-family: 'Ballet';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+    
+    color: #FFFFFF;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+  }
+
+  .text6 {
+    position: absolute;
+    width: 1613px;
+    height: 468px;
+    left: 1794px;
+    top: 1463px;
+    
+    font-family: 'Ballet';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+    
+    color: #FFFFFF;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+  }
+}
+
