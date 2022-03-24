@@ -7,26 +7,30 @@ const Page4546 = () => (
   <div className={styles.wrapper}>
     <div className={styles.imageBackground}>
       <Image
-        src={`${DIGIFIZZY_S3}/10/images/4546_background.jpg`}
+        src={`${DIGIFIZZY_S3}/11/images/4546_background.jpg`}
         width={1920}
         height={1497}
       />
     </div>
-    <a href='https://models.digitalax.xyz/models/Benjamin%20Taylor/' target='_blank' rel='noreferrer'>
-      <div className={styles.text1}>
-        Benjamin Taylor
-      </div>
-    </a>
-    <div className={styles.text2}>
-
+    <div className={styles.text1}>
+      Digitals of Elsewhere CC0 Collaboration #3
     </div>
-    <a href='https://models.digitalax.xyz/models/Ricardo%20Llanos/' target='_blank' rel='noreferrer'>
-      <div className={styles.text3}>
-        Riccardo
-      </div>
-    </a>
-    <div className={styles.text4}>
-      I am Ricardo Llanos, a web3 model, with a passion for fitness modeling. I also enjoy doing print, fashion modeling and being part of creative projects. I've had the pleasure of working with multiple photographers in the NJ/NY area. Now I'm excited to jump in and be apart of this new marketplace and join this amazing community!!
+    <div className={styles.text2}>
+      <a
+        className={styles.link1}
+        href='https://models.digitalax.xyz/models/Mark%20Everett/'
+        target='_blank'
+      >
+        P4DEE_01
+      </a>
+      {` & `}
+      <a
+        className={styles.link2}
+        href='https://models.digitalax.xyz/models/Que/'
+        target='_blank'
+      >
+        NEMO BURNS.
+      </a>
     </div>
   </div>
 )

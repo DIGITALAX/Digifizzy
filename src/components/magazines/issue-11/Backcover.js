@@ -7,7 +7,7 @@ const Backcover = () => (
   <div className={styles.wrapper}>
     <div className={styles.imageBackground}>
       <Image
-        src={`${DIGIFIZZY_S3}/10/images/backcover_background.jpg`}
+        src={`${DIGIFIZZY_S3}/11/images/backcover_background.jpg`}
         width={960}
         height={1497}
       />
@@ -23,7 +23,7 @@ const Backcover = () => (
     </div>
     <div className={styles.imageIssueNo}>
       <Image
-        src={`${DIGIFIZZY_S3}/10/images/frontcover_issueNo.png`}
+        src={`${DIGIFIZZY_S3}/11/images/frontcover_issueNo.png`}
         width={239}
         height={250}
       />

@@ -2,7 +2,7 @@
 
 .wrapper {
   @include magazineWrapper();
-  background: #FFEB38;
+  background: #FFFFFF;
 
   .imageBackground {
     position: absolute;
@@ -13,55 +13,27 @@
     object-fit: cover;
   }
 
-  .rect1 {
+  .image1 {
     position: absolute;
-    width: 794px;
-    height: 1224px;
-    left: 80px;
-    top: 136px;
-    
-    background: rgba(192, 30, 176, 0.67);
-    border: 10px solid #000000;
+    width: 246px;
+    height: 246px;
+    left: 42px;
+    top: 41px;    
   }
 
-  .rect2 {
+  .image2 {
     position: absolute;
-    width: 794px;
-    height: 1224px;
-    left: 1030px;
-    top: 136px;
-    
-    background: rgba(192, 30, 176, 0.67);
-    border: 10px solid #000000;
+    width: 246px;
+    height: 246px;
+    left: 262px;
+    top: 152px;    
   }
 
-  .text1 {
-    position: absolute;
-    width: 670px;
-    height: 1075px;
-    left: 142px;
-    top: 211px;
-    
-    font-family: Risque;
-    font-size: 32px;
-    line-height: 37px;
-    text-align: center;
-    
-    color: #FFFFFF;    
-  }
-
-  .text2 {
-    position: absolute;
-    width: 670px;
-    height: 1075px;
-    left: 1092px;
-    top: 211px;
-    
-    font-family: Risque;
-    font-size: 32px;
-    line-height: 37px;
-    text-align: center;
-    
-    color: #FFFFFF;    
+  a {
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(0.9);
+    }
   }
 }

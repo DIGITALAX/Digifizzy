@@ -5,68 +5,51 @@ import styles from './page8586.module.scss'
 
 const Page8586 = () => (
   <div className={styles.wrapper}>
-    <div className={styles.imageBackground}>
-      <Image
-        src={`${DIGIFIZZY_S3}/10/images/8586_background.jpg`}
-        width={1920}
-        height={1497}
+    <video muted loop autoPlay className={styles.video1}>
+      <source
+        src={`${DIGIFIZZY_S3}/11/videos/8586_video1.mp4`}
+        type='video/mp4'
       />
+    </video>
+    <div className={styles.rect1}></div>
+    <div className={styles.rect2}></div>
+
+    <div className={styles.text1}>
+      Gatekeeper Gardens
     </div>
-    <div className={styles.image1}>
-      <Image
-        src={`${DIGIFIZZY_S3}/10/images/8586_image1.png`}
-        width={1555}
-        height={749}
-      />
-    </div>
-    <div className={styles.image2}>
-      <Image
-        src={`${DIGIFIZZY_S3}/10/images/8586_image2.png`}
-        width={456}
-        height={557}
-      />
-    </div>
-    <div className={styles.image3}>
-      <Image
-        src={`${DIGIFIZZY_S3}/10/images/8586_image3.png`}
-        width={408}
-        height={596}
-      />
-    </div>
-    <div className={styles.image4}>
-      <Image
-        src={`${DIGIFIZZY_S3}/10/images/8586_image4.png`}
-        width={413}
-        height={601}
-      />
-    </div>
-    
-    <a
-      className={styles.text1}
-      href='https://twitter.com/Micahs_Universe'
-      target='_blank'
-    >
-      Micah’s Universe
-    </a>
     <div className={styles.text2}>
-      I started acting nine years ago! I always loved mimicking what I saw on screen and when I was a teenager, I decided I wanted to go into the profession. Acting was my source of liberation and modeling became another channel of freedom for me! I want to use my talents to help change the world. I wish for others to stand up for what’s right and to do it in style. 
+      Sifting through the web2 weeds— spotlighting stories from the walled gardens where they love to tangle and lurk. 
     </div>
     <div className={styles.text3}>
-      One unexpeted and memoriable moments in my own life journey was when  I ran into Bill Clinton. I was on my way back home from eating dinner with a friend. I then saw him about to go into his hotel… of course me being me I had to say hello! I took a pic with him (we were blinded by the flash on my phone lol!).
+      Purdue Pharma.
     </div>
     <div className={styles.text4}>
-      Another unforgettable experience that I will never forget was when I got to walk in my first protest for the BLM movement in June 2020. This experience was so moving for me. My grandfather was a huge advocate for being an active citizen and pushing to get rights for black and brown communities. I’ve always wanted to follow his footsteps and fight for a good cause. 
+      For this edition of gatekeeper gardens we take you live back in time to 1997 for a corporate sales concert stage. Sell! Sell! Sell! rings out through the microphone as the words to Shout are washed back in pill form with your choice of bottled water or complimentary fancy drinks on the company dime.
+      <br /><br />
+      Out goes legions of sales and marketing people very well incentivised to get unthinkable numbers of mostly Americans at first catastrophically addicted to candy coated opiods. The Sackler family behind Purdue Pharma is one of the most devastating examples of the symptomatic consequences of systems set up to reward corporate short cuts at the expense of open markets and free people.
+      <br /><br />
+      The incentive systems set up to interlace throughout medical, legal, marketing and economic activity in a way where only those with sizeable positions and the insider connections those piles of paper power provide them can afford to avoid the consequences of how they make that leverage at our expense in the first place.     
     </div>
     <div className={styles.text5}>
-      In terms of bigger changes that still need to be made on a societal level, well, for me it is simple- more spaces for POC, LGBTQ+, and women! It’s expected for creatives to have this mind set, that there should be a safe space, for any and all identities. There needs to be an expansion of open spaces, for all job fields around the globe!
+      What’s even worse about Purdue than other giants of centralised market activity is how direct the path from initial addiction actually is. In many other cases, whether it is Apple’s track record with privacy, or Facebook’s attempts to misappropriate the metaverse, reasonable arguments can be made to point out a lot of the good that they are doing, even if they can’t be trusted in some of the most important areas of personal property and self sovereignty.
       <br /><br />
-      More inclusion in all spaces and areas. Everyone should be given more access to resources. There should be specific platforms for types of artists such as, one for emerging artists, established artists, and going all the way up to veterans. These platforms would already have a base of people, that want to buy, share, or partake in someones art.
+      With Purdue, there is no argument in their favour to be made. They belong alongside the likes of Putin and Xi as the rare few with some of the greatest amount of blood on their
     </div>
     <div className={styles.text6}>
-      We live in an ever changing world. Sometimes it’s for face value and other times it’s for a deeper purpose. I haven’t gotten into buying or selling NFT’s yet. I can’t wait to apply what I’ve learned, over the past month. This is a safer and efficient way for creatives to share their work. I am honored to be apart of this.
+      hands in the past quarter century. It might be really hard to see the connection between open culture, patents, competition in markets and pharmaceutical R&D. But the only way that people like the Sacklers are able to concentrate so much power and lead directly to so many lives destroyed is because they are able to take advantage of artificially limited fields of study and entry points to market success. A simple counter example of how pharmaceuticals can become a more transparent and pro-humanity industry is to take insulin as an example where there are countless open computational biology labs and startups working to use fungus, yiest and other organic protein folding mechanisms to come up with generic formulations of insulin that are tiny fractions of the cost that pharmaceutical giants charge today. Imagine how many more people will be alive when the same approaches replace the repacious greed of families like the Sacklers. 
     </div>
-
-    
+    <div className={styles.text7}>
+      Destroy the wall
+    </div>
+    <div className={styles.text8}>
+      Web3 CC0 Open Library
+    </div>
+    <div className={styles.text9}>
+      The Web3 CC0 Open Access Library is a curated assemblage of content and projects within web3 that are entirely CC0. The index provides creators with a generative discovery mechanism for CC0 source content, featured original CC0 works, and the means to amplify their greatest derivatives.   
+    </div>
+    <div className={styles.text10}>
+      Explore the full library here.
+    </div>
   </div>
 )
 

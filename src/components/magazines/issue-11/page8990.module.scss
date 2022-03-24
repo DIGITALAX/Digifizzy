@@ -5,303 +5,88 @@
   background: #000000;
   color: white;
 
-  .link1 {
-    position: absolute;
-    width: 383px;
-    height: 133px;
-    left: 998px;
-    top: 5px;
-
-    transition: 0.3s all;
-    &:hover {
-      transition: 0.3s all;
-      transform: scale(1.1);
-    }
-
-    .text1 {
-      position: absolute;
-      width: 379px;
-      height: 128px;
-      left: 0;
-      top: 0;
-      
-      font-family: Bebas Neue;
-      font-size: 80px;
-      line-height: 160%;
-      color: #FFFFFF;
-    }
-
-    .text3 {
-      position: absolute;
-      width: 379px;
-      height: 128px;
-      left: 4px;
-      top: 5px;
-      
-      font-family: Bebas Neue;
-      font-size: 80px;
-      line-height: 160%;
-      color: #FFF503;    
-    }
-  
-  }
-  
-  .link2 {
-    position: absolute;
-    width: 383px;
-    height: 133px;
-    left: 1404px;
-    top: 5px;
-
-    transition: 0.3s all;
-    &:hover {
-      transition: 0.3s all;
-      transform: scale(1.1);
-    }
-
-    .text2 {
-      position: absolute;
-      width: 379px;
-      height: 128px;
-      left: 0;
-      top: 0;
-      
-      font-family: Bebas Neue;
-      font-size: 80px;
-      line-height: 160%;
-      color: #FFFFFF;
-      
-    }
-
-    .text4 {
-      position: absolute;
-      width: 379px;
-      height: 128px;
-      left: 4px;
-      top: 5px;
-      
-      font-family: Bebas Neue;
-      font-size: 80px;
-      line-height: 160%;
-      color: #FFF503;    
-    }
-  
-  }
-  
-  .imageBackground {
+  .imageBackground1 {
     position: absolute;
     width: 960px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .imageBackground2 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
+    top: 0px;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 844.5px;
     height: 1497px;
     left: 0px;
     top: 0px;    
   }
 
-  .text5 {
+  .image2 {
     position: absolute;
-    width: 620px;
-    height: 239px;
-    left: 18px;
-    top: 5px;
-   
+    width: 320px;
+    height: 320px;
+    left: 1190px;
+    top: 999px;        
+  }
+
+  .image3 {
+    position: absolute;
+    width: 570px;
+    height: 570px;
+    left: 1350px;
+    top: 1034px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 542px;
+    height: 419px;
+    left: 1364px;
+    top: 900px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 523px;
+    height: 128px;
+    left: 219px;
+    top: 935px;
     
-    font-family: Rose Cake - Personal Use;
-    font-size: 120px;
-    line-height: 100%;   
-    color: #FF9457;
-  }
-
-  .text6 {
-    position: absolute;
-    width: 620px;
-    height: 239px;
-    left: 604px;
-    top: 34px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    text-align: right;
     
-    font-family: Rose Cake - Personal Use; 
-    font-size: 120px;
-    line-height: 100%;
-    color: #FF9457;
+    color: #FFFFFF;
+    -webkit-text-stroke: 3px #FFFFFF;
   }
 
-  .text7 {
+  .text2 {
     position: absolute;
-    width: 620px;
-    height: 239px;
-    left: -154px;
-    top: 257px;
+    width: 829px;
+    height: 841px;
+    left: 1026px;
+    top: 59px;
     
-    font-family: Rose Cake - Personal Use;
-    font-size: 120px;
-    line-height: 100%;
-    color: #FF9457;
-  }
-
-  .text8 {
-    position: absolute;
-    width: 620px;
-    height: 239px;
-    left: 429px;
-    top: 291px;
-    
-    font-family: Rose Cake - Personal Use;
-    font-size: 120px;
-    line-height: 100%;
-    color: #FF9457;
-  }
-
-  .text9 {
-    position: absolute;
-    width: 620px;
-    height: 239px;
-    left: -114px;
-    top: 530px;
-    
-    font-family: Rose Cake - Personal Use;
-    font-size: 120px;
-    line-height: 100%;
-    text-align: center;
-    color: #FF9457;
-  }
-
-  .rect1 {
-    position: absolute;
-    width: 960px;
-    height: 1502px;
-    left: 960px;
-    top: 0px;
-    
-    background: #000000;    
-  }
-
-  .text10 {
-    position: absolute;
-    width: 620px;
-    height: 375px;
-    left: 30px;
-    top: 1093px;
-    
-    font-family: CF Punk Fashion PERSONAL;
-    font-size: 120px;
-    line-height: 100%;
-    color: #FF9457;    
-  }
-
-  .circle1 {
-    position: absolute;
-    width: 198px;
-    height: 198px;
-    left: 1377px;
-    top: -38px;
-    border-radius: 50%;
-    background: #717171;    
-  }
-
-  .circle2 {
-    position: absolute;
-    width: 133px;
-    height: 133px;
-    left: 1531px;
-    top: 237px;
-    border-radius: 50%;
-    background: #FFF500;
-  }
-
-  .circle3 {
-    position: absolute;
-    width: 384px;
-    height: 384px;
-    left: 1591px;
-    top: -102px;
-    border-radius: 50%;
-    background: #AB8500;
-  }
-
-  .text11 {
-    position: absolute;
-    width: 427px;
-    height: 108px;
-    left: 1468px;
-    top: 120px;
-    
-    font-family: Bebas Neue;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
     font-size: 30px;
-    line-height: 120%;
-
-    color: #FFFBFB;    
-  }
-
-  .video1 {
-    position: absolute;
-    width: 400px;
-    height: 330px;
-    left: 1007px;
-    top: 183px;
-    object-fit: cover;
-  }
-
-  .video2 {
-    position: absolute;
-    width: 400px;
-    height: 348px;
-    left: 1454px;
-    top: 337px;
-    object-fit: cover;
-  }
-
-  .video3 {
-    position: absolute;
-    width: 400px;
-    height: 363px;
-    left: 1007px;
-    top: 552px;
-    object-fit: cover;
-  }
-
-  .video4 {
-    position: absolute;
-    width: 400px;
-    height: 363px;
-    left: 1454px;
-    top: 706px;
-    object-fit: cover;
-  }
-
-  .video5 {
-    position: absolute;
-    width: 400px;
-    height: 363px;
-    left: 1007px;
-    top: 936px;
-    object-fit: cover;
-  }
-
-  .video6 {
-    position: absolute;
-    width: 400px;
-    height: 363px;
-    left: 1454px;
-    top: 1090px;
-    object-fit: cover;
-  }
-
-  .gradient {
-    animation-duration: 1.8s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-name: placeHolderShimmer;
-    animation-timing-function: linear;
-    background: #9c9c9c;
-    background: linear-gradient(to right, #9c9c9c 8%, #f4f4f4 38%, #9c9c9c 54%);
-    background-size: 1000px 640px;
-  
-  }
-
-  @keyframes placeHolderShimmer{
-    0%{
-      background-position: -468px 0
-    }
-    100%{
-      background-position: 468px 0
-    }
+    line-height: 32px;
+    
+    color: #810909;
+    -webkit-text-stroke: 0.4px #FF0A11;
   }
 }

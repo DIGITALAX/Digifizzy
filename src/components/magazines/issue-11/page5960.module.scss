@@ -14,18 +14,18 @@
 
   .image1 {
     position: absolute;
-    width: 199px;
-    height: 226px;
-    left: 1652px;
-    top: 84px;
+    width: 200px;
+    height: 200px;
+    left: 1681px;
+    top: 67px;
   }
 
   .image2 {
     position: absolute;
-    width: 221px;
-    height: 221px;
-    left: 1025px;
-    top: 328px;
+    width: 219px;
+    height: 219px;
+    left: 1030px;
+    top: 331px;
   }
 
 
@@ -175,54 +175,47 @@
 
   .text11 {
     position: absolute;
+    width: 440px;
+    height: 286px;
+    left: 1463px;
+    top: 676px;
+    
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text12 {
+    position: absolute;
     width: 431px;
     height: 60px;
     left: 1463px;
-    top: 711px;
+    top: 927px;
     
-    font-family: Masterblast;
+    font-family: 'Masterblast';
+    font-style: normal;
+    font-weight: 400;
     font-size: 30px;
     line-height: 100%;
     color: #FFFFFF;
     -webkit-text-stroke: 1px #0047FF;
   }
 
-  .text12 {
-    position: absolute;
-    width: 440px;
-    height: 336px;
-    left: 1463px;
-    top: 779px;
-    
-    font-family: DM Mono;
-    font-size: 20px;
-    line-height: 100%;
-    color: #FFFFFF;
-    -webkit-text-stroke: 1px #000000;
-  }
-
   .text13 {
     position: absolute;
     width: 431px;
-    height: 60px;
+    height: 453px;
     left: 1463px;
-    top: 1099px;
+    top: 996px;
     
-    font-family: Masterblast;
-    font-size: 30px;
-    line-height: 100%;
-    color: #FFFFFF;
-    -webkit-text-stroke: 1px #FF002E;
-  }
-
-  .text14 {
-    position: absolute;
-    width: 431px;
-    height: 307px;
-    left: 1464px;
-    top: 1174px;
-    
-    font-family: DM Mono;
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 400;
     font-size: 20px;
     line-height: 100%;
     color: #FFFFFF;

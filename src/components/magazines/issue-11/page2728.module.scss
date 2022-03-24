@@ -2,54 +2,114 @@
 
 .wrapper {
   @include magazineWrapper();
-  background-color: #3612BE;
-  color: white;
+  background-color: #FFFFFF;
   display: flex;
   position: relative;
 
+  .background1 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+    
+    background: linear-gradient(90deg, #A865AC 0%, #A662AB 7.29%, #A868B4 26.56%, rgba(170, 119, 196, 0) 100%);    
+  }
+
   .image1 {
     position: absolute;
-    width: 524px;
-    height: 748px;
-    right: 524px;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
     top: 0;
   }
 
   .image2 {
     position: absolute;
-    width: 524px;
-    height: 748px;
-    right: 0;
-    top: 0;    
+    width: 960px;
+    height: 320px;
+    left: 0px;
+    top: 429px;
   }
 
   .image3 {
     position: absolute;
-    width: 524px;
-    height: 748px;
-    right: 524px;
-    top: 748px;
+    width: 960px;
+    height: 320px;
+    left: 0px;
+    top: 760px;    
   }
 
   .image4 {
     position: absolute;
-    width: 524px;
-    height: 748px;
-    right: 0;
-    top: 748px;
+    width: 1045px;
+    height: 387px;
+    left: 0px;
+    top: 1110px;
+  }
+
+  .image5 {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    left: 364px;
+    top: 286px;    
   }
 
   .text1 {
     position: absolute;
-    width: 732px;
-    height: 1311px;
-    left: 85px;
-    top: 93px;
+    width: 618px;
+    height: 150px;
+    left: 18px;
+    top: 0px;
+
+    font-family: 'Passion One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 100%;
+    color: #FE0000;
+    -webkit-text-stroke: 1px #000000;
+  }
+  
+  .text2 {
+    position: absolute;
+    width: 417px;
+    height: 160px;
+    left: 24px;
+    top: 183px;
     
-    font-family: Rochester;
-    font-size: 27px;
-    line-height: 35px;
+    font-family: 'Passion One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    color: #FE0000;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 347px;
+    height: 50px;
+    left: 1018px;
+    top: 44px;
     
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 100%;
     color: #FFFFFF;
+  }
+
+  a {
+    img, div {
+      transition: 0.3s all;
+      &:hover {
+        transition: 0.3s all;
+        transform: scale(0.9);
+      }
+    }
   }
 }

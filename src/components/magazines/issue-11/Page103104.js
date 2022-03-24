@@ -16,7 +16,7 @@ const Page103104 = () => {
     <div className={styles.wrapper}>
       <div className={styles.imageBackground}>
         <Image
-          src={`${DIGIFIZZY_S3}/10/images/99100_background.jpg`}
+          src={`${DIGIFIZZY_S3}/11/images/103104_background.jpg`}
           width={960}
           height={1497}
         />

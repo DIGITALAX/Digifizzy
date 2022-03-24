@@ -5,130 +5,34 @@ import styles from './page6364.module.scss'
 
 const Page6364 = () => (
   <div className={styles.wrapper}>
-    <div className={styles.background}>
-      <Image 
-        src={`${DIGIFIZZY_S3}/10/images/6364_background.jpg`}
-        width={1920}
-        height={1497}
-      />
-    </div>
-
     <div className={styles.rect1}></div>
     <div className={styles.rect2}></div>
     <div className={styles.rect3}></div>
     <div className={styles.rect4}></div>
     <div className={styles.rect5}></div>
-
-    <div className={[styles.image1, styles.gradient].join(' ')}>
-      <Image 
-        src={`${DIGIFIZZY_S3}/10/images/6364_image1.jpg`}
-        width={337}
-        height={506}
-      />
-    </div>
-    <div className={[styles.image2, styles.gradient].join(' ')}>
-      <Image 
-        src={`${DIGIFIZZY_S3}/10/images/6364_image2.jpg`}
-        width={348}
-        height={345}
-      />
-    </div>
-    <div className={[styles.image3, styles.gradient].join(' ')}>
-      <Image 
-        src={`${DIGIFIZZY_S3}/10/images/6364_image3.jpg`}
-        width={337}
-        height={337}
-      />
-    </div>
-    <div className={[styles.image4, styles.gradient].join(' ')}>
-      <Image 
-        src={`${DIGIFIZZY_S3}/10/images/6364_image4.jpg`}
-        width={348}
-        height={342}
-      />
-    </div>
-    <div className={[styles.image5, styles.gradient].join(' ')}>
-      <Image 
-        src={`${DIGIFIZZY_S3}/10/images/6364_image5.jpg`}
-        width={409}
-        height={409}
-      />
-    </div>
-    <div className={[styles.image6, styles.gradient].join(' ')}>
-      <Image 
-        src={`${DIGIFIZZY_S3}/10/images/6364_image6.jpg`}
-        width={436}
-        height={291}
-      />
-    </div>
-    <div className={[styles.image7, styles.gradient].join(' ')}>
-      <Image 
-        src={`${DIGIFIZZY_S3}/10/images/6364_image7.jpg`}
-        width={304}
-        height={304}
-      />
-    </div>
-    <div className={[styles.image8, styles.gradient].join(' ')}>
-      <Image 
-        src={`${DIGIFIZZY_S3}/10/images/6364_image8.jpg`}
-        width={249}
-        height={249}
-      />
-    </div>
-    <div className={[styles.image9, styles.gradient].join(' ')}>
-      <Image 
-        src={`${DIGIFIZZY_S3}/10/images/6364_image9.jpg`}
-        width={402}
-        height={604}
-      />
-    </div>
-    <div className={[styles.image10, styles.gradient].join(' ')}>
-      <Image 
-        src={`${DIGIFIZZY_S3}/10/images/6364_image10.jpg`}
-        width={371}
-        height={495}
-      />
-    </div>
-    <div className={[styles.image11, styles.gradient].join(' ')}>
-      <Image 
-        src={`${DIGIFIZZY_S3}/10/images/6364_image11.jpg`}
-        width={260}
-        height={304}
-      />
-    </div>
-    <div className={[styles.image12, styles.gradient].join(' ')}>
-      <Image 
-        src={`${DIGIFIZZY_S3}/10/images/6364_image12.jpg`}
-        width={329}
-        height={329}
-      />
-    </div>
-    <div className={[styles.image13, styles.gradient].join(' ')}>
-      <Image 
-        src={`${DIGIFIZZY_S3}/10/images/6364_image13.jpg`}
-        width={284}
-        height={381}
-      />
-    </div>
-    <div className={[styles.image14, styles.gradient].join(' ')}>
-      <Image 
-        src={`${DIGIFIZZY_S3}/10/images/6364_image14.jpg`}
-        width={198}
-        height={198}
-      />
-    </div>
-
-    <iframe
-      className={styles.video1}
-      src='https://www.youtube.com/embed/U7gHleSG9OA?autoplay=1&mute=1&controls=0&loop=1'
-      frameBorder='0'
-      allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-    />
+    <div className={styles.rect6}></div>
+    <div className={styles.rect7}></div>
+    <div className={styles.rect8}></div>
 
     <div className={styles.text1}>
-      A new digital form takes Medellín for the first time
+      from start up nation to web3 nation      
     </div>
-
+    <div className={styles.text2}>
+      In 2008, Paypal acquired Tel Aviv startup Fraud Sciences in one of the most well known examples of why Israel has come to be known as the start up nation. With a significantly greater density of all of the usual indicators of engineering, technical, mathematic, scientific and software success, Israel is no stranger to innovation. 
+      <br /><br />
+      One of the most active segment of the technological landscape for Israeli’s is of course cryptography and everything built on top of it. 
+      <br /><br />
+      No wonder then, that web3 is such a rich and fruitful field of exploration in modern Israeli technological development. 
+      <br /><br />
+      Of particular note to anyone interested in the rapid scale up and expansion of blockchain based technologies is how many teams are working at the forefront of zero knowledge proofs and their use in not only providing privacy all kinds of activity in the metaverse and beyond but also for providing L2 scaling solutions. 
+      <br /><br />
+      In fact, zero knowledge proofs themselves were first conceptualised in 1985 by a team including Israeli American Shafi Goldwasser. 
+    </div>
+    <div className={styles.text3}>
+      A lot has been said about the sources of Israeli inguenity when it comes to encryption and technology in general, but there is something about living through the perpetual threat of total annihilation for roughly 2,000 years and the more recent perpetual reality of war on many fronts, that makes very clear how important the management and transmission of secure information is to the functioning of life’s basic needs. 
+      <br /><br />
+      From personal communications to banking information to everything that depends on any form of computation, which in todays world means pretty much anything that you can think of. 
+    </div>
   </div>
 )
 

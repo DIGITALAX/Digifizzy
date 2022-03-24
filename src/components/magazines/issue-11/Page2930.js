@@ -20,54 +20,58 @@ const Page2930 = () => (
     <div className={styles.middleLine1} />
     <div className={styles.middleLine2} />
 
-    <div className={styles.climateText1}>
-      Nuclear Fusion
+    <div className={styles.image1}>
+      <Image
+        src={`${DIGIFIZZY_S3}/11/images/2930_image1.png`}
+        width={965}
+        height={298}
+      />
     </div>
-    <div className={styles.climateText2}>
-      Nuclear Fusion
+    <div className={styles.image2}>
+      <Image
+        src={`${DIGIFIZZY_S3}/11/images/2930_image2.png`}
+        width={903}
+        height={298}
+      />
     </div>
-    <div className={styles.climateText3}>
-      Nuclear Fusion
+    <div className={styles.image3}>
+      <Image
+        src={`${DIGIFIZZY_S3}/11/images/2930_image3.png`}
+        width={867}
+        height={298}
+      />
     </div>
-    <div className={styles.climateText4}>
-      Nuclear Fusion
-    </div>
-    <div className={styles.climateText5}>
-      Nuclear Fusion
-    </div>
-    <div className={styles.climateText6}>
-      Nuclear Fusion
-    </div>
-    
+
     <div className={styles.text1}>
-      Geopolitical conflict, corporate misconduct, the pandemic, economic crisis, the climate crisis, and whinging about NFTs all probably seem like they are disconnected from each other, making for a perfect if a bit random and unexpected storm of rage towards a fast growing new industry. After all, isn’t this what always happens when new technologies rise up and displace the old?
-      <br /><br />
-      The origins of power and conflicts between them ultimately come down to the most precious resource of any economic system. The energy to fuel, feed, clothe, shelter, and move every person and mechanism within them. And of course, as always, everything is downstream from economics.
-      <br /><br />
-      The seemingly widespread and far oversampled cultural backlash against Web3 and NFTs is actual a combination of symptoms from the loss of trust in the old 20th century 
+      Practical Sustainability in Highly Asymmetric Times
     </div>
     <div className={styles.text2}>
-      institutions of centralized banker-industrialism and corporatist socialism that have long since proven to have failed all but those who do everything they can to prevent their loss of control.
+      The time has come to get serious about breaking free of our dependence on oil, gas, and coal. It will take time, and in the short term there is a very real role to be played by increased production of legacy fuels while we build out the infrastructure for full energy independence. Imagine we were at war, which we are, and the rate of factory output required to support the war effort. 
+      <br /><br />
+      Decentralized fabrication of semiconductors, transistors, etc —  becomes all the more necessary as location independence is required to move closer to markets, reduce transport costs, and increase proximity 
     </div>
     <div className={styles.text3}>
-      The disastrous damage oil, coal, and gas cause to our coastlines, the air we breathe, natural habitats, acidification of the oceans and related killoff of countless species within them, the spread of wildfires, droughts, floods, 
+      to inexpensive sources of renewable energy. LNG terminals can take 3-4 years to build, which if they can’t be realistically fast tracked is great for long term sustainment but fails to deliver immediate relief.
     </div>
     <div className={styles.text4}>
-      and other extreme climatic events, the spread of a whole host of cancers, other chronic and terminal illnesses thanks to the processing, combustion, and byproducts from their production is self-evident to all who don’t choose instead to look away. 
+      Solutions that can be in place fully within the horizon of the next 2 years are enough to make a direct difference today because of strategic reserves.  
     </div>
     <div className={styles.text5}>
-      But more obscured is the full extent of catastrophic impact due to the entrenched ways a systemic addiction to hydrocarbons supplies nested hierarchies of tyrants the world over with the capital and control needed to stay always one step ahead of any who would remove and replace them in power. When considering that 80-90% of health costs have been shown to come from what is known as Secondary, or Social, 
+      Short term capital investment can be aided through advantageous deployment of crypto. Economic impact can be counterbalanced by improved regulatory clarity and a greater embrace of web3 with fewer restrictions, there are abundant opportunities for green energy development driven by proof of work miners and the energy output of legacy blockchains. 
     </div>
     <div className={styles.text6}>
-      Determinants of Health (SDoH), it starts to click that maybe living in a constant state of precarity and constraint thanks to never knowing when those in 
+      The greatest impact on energy needs could involve the migration of even greater numbers of people throughout Europe and internationally than what we have already seen in the first two weeks of this conflict, at least for the next 2-3 years. 
     </div>
     <div className={styles.text7}>
-      power might deem our freedom of movement, association, belief, self-determination, and thought a threat to their interests.
+      After all, energy availability, use, and costs are very location sensitive. 
     </div>
     <div className={styles.text8}>
-      The simple fact, verifiable by anyone with basic math and physics skills, is that nuclear energy technologies are able to produce far, far more energy per each amount of matter and time involved than any other source we have today. That’s going to be true for a relatively long time, particularly at the slow rate of innovation in the hard sciences that we’ve seen in recent decades.
+      Efforts to concentrate energy production, distribution and savings efforts along the Eastern front, from Finland through the Baltic States, Poland, Hungary, and Romania, to Moldova and even into Ukraine could dramatically alter the 
+    </div>
+    <div className={styles.text9}>
+      vulnerability to shocks in the amount of oil and gas depended on from Russian sources. It might look like a pre-emptive Marshall plan for home and commercial building retrofitting with energy and heating equipment upgrades throughout the former Soviet Bloc.
       <br /><br />
-      Well, you might have guessed by now that the key to advancing the diversification of energy production, to quickly reducing our reliance on the hydrocarbons ravaging climate, humanity, and nature, and countering the dangerous over-concentration of capital and power, is… in a word, Web3. 
+      Afterall, if you don’t have energy independence, then the system that your entire society is founded on suffers from single point of failure shocks.
     </div>
   </div>
 )

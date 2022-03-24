@@ -7,107 +7,106 @@ const Page9394 = () => {
 
   return (
     <div className={styles.wrapper}>
-      <div className={styles.image1}>
+      <div className={styles.imageBackground}>
         <Image
-          src={`${DIGIFIZZY_S3}/10/images/9394_image1.png`}
-          width={400}
-          height={400}
+          src={`${DIGIFIZZY_S3}/11/images/9394_background.jpg`}
+          width={960}
+          height={1497}
         />
       </div>
-      <div className={styles.text1}>
-        One of the most exciting updates from this month within the DIGITALAX ecosystem is the integration with Rarible Protocol’s shared order book and liquidity NFT smart contract infrastructure. Interoperable decentralised  marketplaces make indie web3 creators more powerful through shared order books,         
+      <div className={styles.image1}>
+        <Image
+          src={`${DIGIFIZZY_S3}/11/images/9394_image1.png`}
+          width={341}
+          height={300}
+        />
       </div>
-      <div className={styles.text2}>
-        aggregated NFT discovery and composable liquidity. This advanced engineering undertaking is set to meet market demand of the 10,000x scale up of decentralised fabrication, web3 fashion and the open metaverse.
-      </div>
-      <div className={styles.text3}>
-        In order to effectively understand the full value that this new integration brings, let’s start by breaking down what exactly a shared order book and each of the other components are. 
-        <br /><br />
-        When we think about the purpose of an NFT marketplace, it exists as an interface for buyers and sellers to trade their on-chain assets and goods. It’s all sales, we are here to make sales. 
-        <br /><br />
-        It is specifically the features and mechanisms that enhance the flow of sales that create the underlying threads that the additional forms of value we also receive of being a part of a marketplace community, an ecosystem, a protocol, and more, attract and attach to. Those underlying threads of sales attract and provide the ability for other things to attach to. 
-        <br /><br />
-        So what makes one marketplace more effective than another? How do the places where we go to connect with other people lead to more sales? 
-        <br /><br />
-        The keys come in the form of how discoverable content and relevant information signals around content are, how large and well capitalised the community of potential buyers is, and, how interoperable the records we keep of past transactions, along with what is newly available in the market are with other interfaces, including other marketplaces throughout the verse. 
-      </div>
-      <div className={styles.text4}>
-        Well, that is exactly what shared order books, liquidity and aggregation are all about. Let’s break them down one by one. 
-        <br /><br />
-        Shared Order Book: 
-        <br />
-        An orderbook gives the pricing data, timestamp, volume and amount on bids, offers, buy and sell orders for a designated asset. This information improves market transparency through the historical ledger it provides on all transactions that have taken place in the past and the nature of them. 
-        <br /><br />
-        Siloed order books that restrict their front ends and exchange contracts to a walled off short list fail to represent true demand and supply in the market. They fragment the information into dark pools, making it so that very few or no market participants can have an approximately complete or accurate view of the market; of demand, of supply or of historical reference data. This increases risk and cost across the board, whilst increasing activity and volume. And ultimately, directly placing significant downwards pressure on price.  
-      </div>
-      <div className={styles.text5}>
-        Shared order books increase verifiable and immutable on-chain transparency and accuracy of the market picture available to all market participants.  It allows the combined informational resources of many mutually aligned marketplaces to gain the upper hand in direct competition with single point of failure siloed marketplace behemoths like a Goldman or a JPM in traditional finance, or Opensea as a centralised interface for NFT markets. 
-      </div>
-
       <div className={styles.image2}>
         <Image
-          src={`${DIGIFIZZY_S3}/10/images/9394_image2.png`}
-          width={455}
-          height={388}
+          src={`${DIGIFIZZY_S3}/11/images/9394_image1.png`}
+          width={341}
+          height={300}
         />
       </div>
       <div className={styles.image3}>
         <Image
-          src={`${DIGIFIZZY_S3}/10/images/9394_image2.png`}
-          width={455}
-          height={388}
+          src={`${DIGIFIZZY_S3}/11/images/9394_image1.png`}
+          width={341}
+          height={300}
         />
       </div>
       <div className={styles.image4}>
         <Image
-          src={`${DIGIFIZZY_S3}/10/images/9394_image2.png`}
-          width={455}
-          height={388}
+          src={`${DIGIFIZZY_S3}/11/images/9394_image1.png`}
+          width={341}
+          height={300}
         />
       </div>
       <div className={styles.image5}>
         <Image
-          src={`${DIGIFIZZY_S3}/10/images/9394_image2.png`}
-          width={455}
-          height={388}
+          src={`${DIGIFIZZY_S3}/11/images/9394_image1.png`}
+          width={341}
+          height={300}
         />
       </div>
-      <div className={styles.image6}>
-        <Image
-          src={`${DIGIFIZZY_S3}/10/images/9394_image2.png`}
-          width={455}
-          height={388}
-        />
+      <div className={styles.rect1}></div>
+
+      <div className={styles.text1}>
+        “Ruby is simple in appearance, but is very complex inside, just like our human body”
+        <br />
+        -Matz        
       </div>
-      <div className={styles.image7}>
-        <Image
-          src={`${DIGIFIZZY_S3}/10/images/9394_image2.png`}
-          width={455}
-          height={388}
-        />
+      <div className={styles.text2}>
+        In the early stages of web2, before it all went to shit, the most paradigmatic subculture was the Ruby Community. These Rubyists were very distinct from many of the more traditional corporate and academic minded programmers found elsewhere. They genuinely saw code for what it is; poetry, art and a plenty of memes. 
       </div>
-      <div className={styles.image8}>
-        <Image
-          src={`${DIGIFIZZY_S3}/10/images/9394_image2.png`}
-          width={455}
-          height={388}
-        />
+      <div className={styles.text3}>
+        They actively embraced the open welcoming of newcomers, without the hostilty found on many online forums dedicated to other languages, where in conventional settings it was common to get a reaction of RTFM when asking questions. Rubyists actively countered this with extensive encouragment to ask more questions, get more involved and remembering what it was like to be a novice once too.
       </div>
-      <div className={styles.image9}>
-        <Image
-          src={`${DIGIFIZZY_S3}/10/images/9394_image2.png`}
-          width={455}
-          height={388}
-        />
+      <div className={styles.text4}>
+        Because ultimately, in code, as in life, we are all always novices at something.
       </div>
-      <div className={styles.image10}>
-        <Image
-          src={`${DIGIFIZZY_S3}/10/images/9394_image3.png`}
-          width={601}
-          height={827}
-        />
+      <div className={styles.text5}>
+        One of the most poignant Rubyist was _why. A semi-pseudonymous voice within the developer community who went by the call sign, _why. 
       </div>
-      
+      <div className={styles.text6}>
+        His contributions to open source knowledge, access, on-ramps and skills enhancement was tremendous. Everything from wise guides to on the fly indie music, he disappeared August 9th 2009, but his legacy lives on.         
+      </div>
+      <div className={styles.text7}>
+        So, why a page on _why and other Rubyists? Well, it’s really simple. The hacker ethic. 
+      </div>
+      <div className={styles.text8}>
+        The Hacker ethic is the propagative creed embedded within the open developer, tinkerer, scholar & merchant community that enables new hackers to enter the network and benefit directly from the work of other hackers or similar individuals sharing the same trait.
+      </div>
+      <div className={styles.text9}>
+        The inspired works and mindset that have led us here must be recognised for its contributions to web3 and how it helps us to continue pioneering the way forward. 
+      </div>
+      <div className={styles.text10}>
+        Rubyist
+      </div>
+      <div className={styles.text11}>
+        The Pirate Canvas
+      </div>
+      <div className={styles.text12}>
+        Some of the earliest expressions of street art trace back all the way to stone age cave walls. From maps of where to find plentiful game to hunt, to epic re-tellings of pivotal battles for tribal leadership and great feats. The found and built environments we inhabit and travel through have been one of the most powerful mediums for expressions we have had since humanity’s inception. 
+        <br /><br />
+        All the more powerful too because these mediums are inherently shared. 
+        <br /><br />
+        In the modern hyper industrial era, it’s easy to feel evermore alienated from each other, domesticated, and boxed in. With that, our public spaces and surfaces have steadily decreased to the point where every place that can be argued about, living between the public and private, can trigger significant tension and usually does. 
+        <br /><br />
+        Public art has gone from illegal to embraced to illegal again with an oddly arbitrary regulatory. 
+        <br /><br />
+        Even standing now on the cultural hilltop of hip hop, starting more than four decades ago, as the most recent globally adopted outpouring of creative and entrepreneurial innovation from clearly oppressed underclasses of people, rising up to make deep soulful works without permission, has become nearly entirely co-opted by lowest common denominator suck the soul out of everything corporatism.
+        <br /><br />
+        Street art is no different. 
+        <br /><br />
+        If it can sell in mass produced low quality copy of something then why not smack it on the surface of it. 
+        <br /><br />
+        Commercial success is great but using pirate culture to lock down what people can do, not so much. Street art stood for something, and with the intersection of web3, NFTs and CC0, it can and does again.
+        <br /><br />
+        The streets are the ultimate canvas. A public domain whether everyone respects and recognises it or not. The ultimate counter culture has always come from the streets, at the edges between what’s allowed and what’s forbidden. 
+        <br /><br />
+        As decentralisation brings power and capital into the hands of everyone literally around the world, the balance of those in between spaces is shifting once again.
+      </div>
     </div>
   )
 }

@@ -7,30 +7,30 @@ const Page4344 = () => (
   <div className={styles.wrapper}>
     <div className={styles.imageBackground}>
       <Image
-        src={`${DIGIFIZZY_S3}/10/images/4344_background.jpg`}
+        src={`${DIGIFIZZY_S3}/11/images/4344_background.jpg`}
         width={1920}
         height={1497}
       />
     </div>
-    <a
-      className={styles.text1}
-      // href='https://models.digitalax.xyz/models/vk/'
-      // target='_blank'
-    >
-      Yadan
-    </a>
-    <div className={styles.text2}>
-      
+    <div className={styles.text1}>
+      Digitals of Elsewhere CC0 Collaboration #2
     </div>
-    <a
-      className={styles.text3}
-      href='https://models.digitalax.xyz/models/Emily%20Rhen/'
-      target='_blank'
-    >
-      Emily Rhen
-    </a>
-    <div className={styles.text4}>
-      VK is Hafid's second Metahuman avatar and a brother of Yax. This new character was created to provide another male model into the Realm runway event and create more inclusivity throughout the show and the digital fashion space overall. VK was inspired with a Viking descent and it marks Hafid's goal to create avatars inspired by ancient civilizations from around the physical world in order to posses, understand, and represent a multicultural personality.
+    <div className={styles.text2}>
+      <a
+        className={styles.link1}
+        href='https://models.digitalax.xyz/models/Mark%20Everett/'
+        target='_blank'
+      >
+        Mona
+      </a>
+      {` & `}
+      <a
+        className={styles.link2}
+        href='https://models.digitalax.xyz/models/Que/'
+        target='_blank'
+      >
+        ABigNeonGlitter.
+      </a>
     </div>
   </div>
 )

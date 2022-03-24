@@ -9,190 +9,30 @@
 
   .image1 {
     position: absolute;
-    width: 899px;
-    height: 641px;
-    left: -123px;
-    top: -37px;
-  }
-
-  .background {
-    position: absolute;
     width: 1920px;
     height: 1497px;
-    left: 0px;
-    top: 0px;
-    
-    background: linear-gradient(90deg, #FFDB5E 0%, rgba(94, 255, 158, 0.588542) 23.96%, rgba(241, 94, 244, 0.538496) 50.52%, rgba(94, 255, 216, 0.506113) 90.63%, #2548FF 100%);
+    left: 0;
+    top: 0;
   }
 
   .text1 {
     position: absolute;
-    width: 471px;
-    height: 387px;
-    left: 29px;
-    top: 544px;
+    width: 726px;
+    height: 450px;
+    left: 247px;
+    top: 488px;
     
-    font-family: Jost;
-    font-size: 25px;
-    line-height: 100%;
-    color: #000000;
-  }
-
-  .text2 {
-    position: absolute;
-    width: 476px;
-    height: 387px;
-    left: 29px;
-    top: 1065px;
-    
-    font-family: Jost;
-    font-size: 25px;
-    line-height: 100%;
-    color: #000000;
-  }
-
-  .text4 {
-    position: absolute;
-    width: 300px;
-    height: 387px;
-    left: 528px;
-    top: 45px;
-    
-    font-family: Jost;
+    font-family: 'ThickDeco';
     font-style: normal;
-    font-weight: 600;
-    font-size: 29px;
+    font-weight: 400;
+    font-size: 150px;
     line-height: 100%;
-    color: #2400FF;
-  }
-
-  .text5 {
-    position: absolute;
-    width: 887px;
-    height: 387px;
-    left: 1002px;
-    top: 23px;
     
-    font-family: Jost;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 100%;
-    color: #DB00FF;
-  }
+    text-align: right;
+    color: #ffffff;
 
-  .link1 {
-    position: absolute;
-    width: 466px;
-    height: 241px;
-    left: 29px;
-    top: 0px;
-    
-    font-family: MedievalSharp;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 200px;
-    line-height: 120.53%;
-    text-align: center;
-    
-    color: #0038FF;  
-  }
-
-  .link2 {
-    position: absolute;
-    width: 466px;
-    height: 241px;
-    left: 29px;
-    top: 203px;
-    
-    font-family: MedievalSharp;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 200px;
-    line-height: 120.53%;
-    text-align: center;
-    
-    color: #0038FF;
-  }
-
-  .image2 {
-    position: absolute;
-    width: 300px;
-    height: 375px;
-    left: 1002px;
-    top: 575px;    
-  }
-
-  .image3 {
-    position: absolute;
-    width: 510px;
-    height: 467px;
-    left: 1335px;
-    top: 558px;
-  }
-
-  .image4 {
-    position: absolute;
-    width: 111px;
-    height: 192px;
-    left: 528px;
-    top: 1286px;        
-  }
-
-  .image5 {
-    position: absolute;
-    width: 111px;
-    height: 192px;
-    left: 662px;
-    top: 1286px;
-    opacity: 60%;
-  }
-
-  .image6 {
-    position: absolute;
-    width: 111px;
-    height: 192px;
-    left: 796px;
-    top: 1286px;
-    opacity: 30%;
-  }
-
-  a {
-    div {
-      cursor: pointer;
-      transition: 0.3s all;
-
-      &:hover {
-        transition: 0.3s all;
-        transform: scale(1.1);
-      }
+    span {
+      color: #343434;
     }
-  }
-
-  .video1 {
-    position: absolute;
-    width: 389px;
-    height: 495px;
-    left: 999px;
-    top: 950px;
-    object-fit: cover;
-  }
-
-  .video2 {
-    position: absolute;
-    width: 251px;
-    height: 396px;
-    left: 1401px;
-    top: 1049px;
-    object-fit: cover;
-  }
-
-  .video3 {
-    position: absolute;
-    width: 254px;
-    height: 348px;
-    left: 1666px;
-    top: 1049px;
-    object-fit: cover;
   }
 }

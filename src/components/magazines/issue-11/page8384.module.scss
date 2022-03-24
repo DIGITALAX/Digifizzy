@@ -2,158 +2,40 @@
 
 .wrapper {
   @include magazineWrapper();
-  background: #000000;
-  .video1 {
-    position: absolute;
-    width: 1029px;
-    height: 802px;
-    left: 446px;
-    top: 297px;
-    object-fit: cover;    
+  background-color: #FFFFFF;
+
+  .imageBackground {
+    width: 1920px;
+    height: 1497px;
+    left: 0;
+    top: 0;
   }
-  .image1 {
+
+  .rect1 {
     position: absolute;
-    width: 142px;
-    height: 142px;
-    left: 641px;
-    top: 27px;    
-  }
-  .image2 {
-    position: absolute;
-    width: 367px;
-    height: 245px;
-    left: 1502px;
-    top: 936px;
-  }
-  .image3 {
-    position: absolute;
-    width: 170px;
-    height: 127px;
-    left: 1502px;
-    top: 1194px;
-  }
-  .image4 {
-    position: absolute;
-    width: 170px;
-    height: 124px;
-    left: 1502px;
-    top: 1330px;
-  }
-  .image5 {
-    position: absolute;
-    width: 184px;
-    height: 257px;
-    left: 1685px;
-    top: 1197px;
+    width: 835px;
+    height: 1135px;
+    left: 75px;
+    top: 59px;
+    
+    background: #000000;    
   }
 
   .text1 {
     position: absolute;
-    width: 698px;
-    height: 60px;
-    left: 66px;
-    top: 59px;
+    width: 707px;
+    height: 1039px;
+    left: 139px;
+    top: 121px;
     
-    font-family: Freckle Face;
-    font-size: 100px;
-    line-height: 60px;
+    font-family: 'Newsreader';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
     color: #FFFFFF;
-
-    transition: 0.3s all;
-    &:hover {
-      transition: 0.3s all;
-      transform: scale(1.1);
-    }
-  }
-
-  .text2 {
-    position: absolute;
-    width: 837px;
-    height: 280px;
-    left: 69px;
-    top: 208px;
     
-    font-family: Freckle Face;
-    font-size: 20px;
-    line-height: 20px;
-    color: #FFFFFF;
-  }
-
-  .text3 {
-    position: absolute;
-    width: 377px;
-    height: 560px;
-    left: 69px;
-    top: 481px;
-    
-    font-family: Freckle Face;
-    font-size: 20px;
-    line-height: 20px;
-    color: #FFFFFF;
-  }
-
-  .text4 {
-    position: absolute;
-    width: 849px;
-    height: 420px;
-    left: 69px;
-    top: 1024px;
-    
-    font-family: Freckle Face;
-    font-size: 20px;
-    line-height: 20px;
-    color: #FFFFFF;
-  }
-
-  .text5 {
-    position: absolute;
-    width: 885px;
-    height: 220px;
-    left: 1001px;
-    top: 32px;
-    
-    font-family: Freckle Face;
-    font-size: 20px;
-    line-height: 20px;
-    color: #FFFFFF;    
-  }
-
-  .text6 {
-    position: absolute;
-    width: 885px;
-    height: 180px;
-    left: 1001px;
-    top: 245px;
-    
-    font-family: Freckle Face;
-    font-size: 20px;
-    line-height: 20px;
-    color: #FFFFFF;
-  }
-
-  .text7 {
-    position: absolute;
-    width: 380px;
-    height: 580px;
-    left: 1502px;
-    top: 441px;
-    
-    font-family: Freckle Face;
-    font-size: 20px;
-    line-height: 20px;
-    color: #FFFFFF;
-  }
-
-  .text8 {
-    position: absolute;
-    width: 474px;
-    height: 540px;
-    left: 1001px;
-    top: 1017px;
-    
-    font-family: Freckle Face;
-    font-size: 20px;
-    line-height: 20px;
-    color: #FFFFFF;
+    -webkit-text-stroke: 0.3px #844AFF;
   }
 }

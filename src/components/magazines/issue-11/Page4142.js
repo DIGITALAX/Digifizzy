@@ -7,17 +7,17 @@ const Page4142 = () => (
   <div className={styles.wrapper}>
     <div className={styles.imageBackground}>
       <Image
-        src={`${DIGIFIZZY_S3}/10/images/4142_background.jpg`}
+        src={`${DIGIFIZZY_S3}/11/images/4142_background.jpg`}
         width={1920}
         height={1497}
       />
     </div>
-    <div className={styles.text6}>
-      SEEN WITH 
+    <div className={styles.text4}>
+      SEEN WITH
     </div>
     <div className={styles.image1}>
       <Image
-        src={`${DIGIFIZZY_S3}/10/images/4142_image1.png`}
+        src={`${DIGIFIZZY_S3}/11/images/4142_image1.png`}
         width={518}
         height={76}
       />
@@ -26,24 +26,26 @@ const Page4142 = () => (
     <div className={styles.text1}>
       Throughout the Metaverse
     </div>
-    <a
-      className={styles.text2}
-      href='https://models.digitalax.xyz/models/Mark%20Everett/'
-      target='_blank'
-    >
-      MarK
-    </a>
-    <a
-      className={styles.text4}
-      href='https://models.digitalax.xyz/models/Que/'
-      target='_blank'
-    >
-      Que
-    </a>
-    <div className={styles.text5}>
-      Web3 IRL Model from Los Angeles. Part time DJ. 
+    <div className={styles.text2}>
+      Digitals of Elsewhere CC0 Collaboration #1
     </div>
-
+    <div className={styles.text3}>
+      <a
+        className={styles.link1}
+        href='https://models.digitalax.xyz/models/Mark%20Everett/'
+        target='_blank'
+      >
+        Vihka
+      </a>
+      {` & `}
+      <a
+        className={styles.link2}
+        href='https://models.digitalax.xyz/models/Que/'
+        target='_blank'
+      >
+        MØD3XX.
+      </a>
+    </div>
   </div>
 )
 

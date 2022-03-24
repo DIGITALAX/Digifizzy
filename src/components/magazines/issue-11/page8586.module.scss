@@ -2,130 +2,213 @@
 
 .wrapper {
   @include magazineWrapper();
-  background-color: #000000;
+  background-color: #FFEF62;
 
-  .imageBackground {
+  .video1 {
     position: absolute;
-    width: 1920px;
+    width: 960px;
     height: 1497px;
     left: 0px;
-    top: 0px;    
+    top: 0px;
+    object-fit: cover;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 961px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 960px;
+    height: 79px;
+    left: 960px;
+    top: 0px;
+    
+    background: #4E4AFF;    
   }
 
   .text1 {
     position: absolute;
-    width: 710px;
-    height: 172px;
-    left: 37px;
-    top: 67px;
+    width: 923px;
+    height: 85px;
+    left: 14px;
+    top: 43.67px;
     
-    font-family: Diplomata;
-    font-size: 80px;
-    line-height: 80px;
-    color: #0037FA;
-    -webkit-text-stroke: 3px #EEFF85;
-
-    transition: 0.3s all;
-    &:hover {
-      transition: 0.3s all;
-      transform: scale(1.1);
-    }
+    font-family: 'DJB Emilys Garden';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 85px;
+    color: #FFFFFF;
+    
+    -webkit-text-stroke: 0.3 #FF9900;
   }
 
   .text2 {
     position: absolute;
-    width: 883px;
-    height: 211px;
-    left: 37px;
-    top: 250px;
+    width: 891px;
+    height: 92px;
+    left: 41px;
+    top: 179.67px;
     
-    font-family: Inter;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
     font-size: 25px;
     line-height: 30px;
+    
     color: #FFFFFF;
   }
 
   .text3 {
     position: absolute;
-    width: 883px;
-    height: 211px;
-    left: 37px;
-    top: 461px;
+    width: 396px;
+    height: 92px;
+    left: 511px;
+    top: 242.67px;
     
-    font-family: Inter;
-    font-size: 25px;
-    line-height: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 85px;
+    text-align: right;
     color: #FFFFFF;
+    
+    -webkit-text-stroke: 0.3 #FF9900;
   }
 
   .text4 {
     position: absolute;
     width: 883px;
-    height: 211px;
-    left: 37px;
-    top: 643px;
+    height: 431px;
+    left: 25px;
+    top: 313.67px;
     
-    font-family: Inter;
-    font-size: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
     line-height: 30px;
+    text-align: right;
+    
     color: #FFFFFF;
+    -webkit-text-stroke: 0.3 #FF9900;
   }
 
   .text5 {
     position: absolute;
-    width: 441px;
-    height: 586px;
-    left: 1426px;
-    top: 39px;
+    width: 486px;
+    height: 406px;
+    left: 417px;
+    top: 686.67px;
     
-    font-family: Inter;
-    font-size: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
     line-height: 30px;
+    
+    text-align: right;
+    
     color: #FFFFFF;
+    
+    -webkit-text-stroke: 0.3 #FF9900;
   }
 
   .text6 {
     position: absolute;
-    width: 370px;
-    height: 586px;
-    left: 1097px;
-    top: 667px;
+    width: 757px;
+    height: 324px;
+    left: 25px;
+    top: 1045px;    
+  }
+
+  .text7 {
+    position: absolute;
+    width: 925px;
+    height: 160px;
+    left: 8px;
+    top: 1396px;
     
-    font-family: Inter;
-    font-size: 33px;
-    line-height: 35px;
-    color: #A5B3FF;    
+    font-family: 'DJB Emilys Garden';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 85px;
+    /* or 85% */
+    
+    
+    color: #FFFFFF;
+    
+    border: 1px solid #FF9900;
+    
   }
 
-  .image1 {
+  .text8 {
     position: absolute;
-    width: 1555px;
-    height: 749px;
-    left: 0;
-    bottom: 0;
+    width: 960px;
+    height: 163px;
+    left: 960px;
+    top: 59px;
+    
+    font-family: 'NewYork';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    color: #4E4AFF;
+    -webkit-text-stroke: 1 #4E4AFF;
   }
 
-  .image2 {
+  .text9 {
     position: absolute;
-    width: 422px;
-    height: 523px;
-    left: 60px;
-    top: 925px;
+    width: 745px;
+    height: 224px;
+    left: 1068px;
+    top: 133px;
+    
+    font-family: 'NewYork';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #4E4AFF;
+    -webkit-text-stroke: 0.4 #4E4AFF;
   }
 
-  .image3 {
+  .text10 {
     position: absolute;
-    width: 374px;
-    height: 562px;
-    left: 996px;
-    top: 39px;
-  }
-
-  .image4 {
-    position: absolute;
-    width: 379px;
-    height: 567px;
-    left: 1509px;
-    top: 903px;    
+    width: 745px;
+    height: 224px;
+    left: 1068px;
+    top: 218px;
+    
+    font-family: 'NewYork';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    
+    color: #4E4AFF;
+    -webkit-text-stroke: 0.4 #4E4AFF;
   }
 }

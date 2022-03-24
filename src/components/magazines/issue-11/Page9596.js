@@ -8,191 +8,60 @@ const Page9596 = () => {
  
   return (
     <div className={styles.wrapper}>
-      <div className={styles.rect2}></div>
-      <div className={styles.rect3}></div>
-      <div className={styles.rect1}></div>
-
-      <div className={styles.rect4}></div>
-      <div className={styles.rect5}></div>
-      <div className={styles.rect6}></div>
-      <div className={styles.rect7}></div>
-      <div className={styles.rect8}></div>
-      <div className={styles.rect9}></div>
-
+      <div className={styles.imageBackground}>
+        <Image
+          src={`${DIGIFIZZY_S3}/11/images/9596_background.jpg`}
+          width={960}
+          height={1497}
+        />
+      </div>
+      <div className={styles.text1}>
+        WHAT ARE YOU WEARING?
+      </div>
+      <div className={styles.text2}>
+        WHAT ARE YOU WEARING?
+      </div>
+      <div className={styles.text3}>
+        WHAT ARE YOU WEARING?
+      </div>
+      <div className={styles.text4}>
+        WHAT ARE YOU WEARING?
+      </div>
+      <div className={styles.text5}>
+        WHAT ARE YOU WEARING?
+      </div>
+      <div className={styles.text6}>
+        FASHION FOR THE METAVERSE
+      </div>
+      <div className={styles.rect1}>
+      </div>
       <div className={styles.image1}>
         <Image
-          src={`${DIGIFIZZY_S3}/10/images/9596_image1.png`}
-          width={484}
-          height={394}
+          src={`${DIGIFIZZY_S3}/11/images/9596_image1.jpg`}
+          width={960}
+          height={295}
         />
       </div>
       <div className={styles.image2}>
         <Image
-          src={`${DIGIFIZZY_S3}/10/images/9596_image1.png`}
-          width={484}
-          height={394}
+          src={`${DIGIFIZZY_S3}/11/images/9596_image2.png`}
+          width={378}
+          height={169}
         />
       </div>
-      <div className={styles.image3}>
-        <Image
-          src={`${DIGIFIZZY_S3}/10/images/9596_image1.png`}
-          width={484}
-          height={394}
-        />
-      </div>
-      <div className={styles.image4}>
-        <Image
-          src={`${DIGIFIZZY_S3}/10/images/9596_image1.png`}
-          width={484}
-          height={394}
-        />
-      </div>
-      <div className={styles.image5}>
-        <Image
-          src={`${DIGIFIZZY_S3}/10/images/9596_image1.png`}
-          width={484}
-          height={394}
-        />
-      </div>
-      <div className={styles.image6}>
-        <Image
-          src={`${DIGIFIZZY_S3}/10/images/9596_image1.png`}
-          width={484}
-          height={394}
-        />
-      </div>
-      <div className={styles.image7}>
-        <Image
-          src={`${DIGIFIZZY_S3}/10/images/9596_image1.png`}
-          width={484}
-          height={394}
-        />
-      </div>
-      <div className={styles.image8}>
-        <Image
-          src={`${DIGIFIZZY_S3}/10/images/9596_image1.png`}
-          width={484}
-          height={394}
-        />
-      </div>
-      <div className={styles.image9}>
-        <Image
-          src={`${DIGIFIZZY_S3}/10/images/9596_image1.png`}
-          width={484}
-          height={394}
-        />
-      </div>
-      <div className={styles.image10}>
-        <Image
-          src={`${DIGIFIZZY_S3}/10/images/9596_image1.png`}
-          width={484}
-          height={394}
-        />
-      </div>
-      <div className={styles.image11}>
-        <Image
-          src={`${DIGIFIZZY_S3}/10/images/9596_image1.png`}
-          width={484}
-          height={394}
-        />
-      </div>
-      <div className={styles.image12}>
-        <Image
-          src={`${DIGIFIZZY_S3}/10/images/9596_image1.png`}
-          width={484}
-          height={394}
-        />
-      </div>
-      <div className={styles.image13}>
-        <Image
-          src={`${DIGIFIZZY_S3}/10/images/9596_image1.png`}
-          width={484}
-          height={394}
-        />
-      </div>
-      <div className={styles.image14}>
-        <Image
-          src={`${DIGIFIZZY_S3}/10/images/9596_image1.png`}
-          width={484}
-          height={394}
-        />
-      </div>
-      <div className={styles.image15}>
-        <Image
-          src={`${DIGIFIZZY_S3}/10/images/9596_image1.png`}
-          width={484}
-          height={394}
-        />
-      </div>
-      <div className={styles.image16}>
-        <Image
-          src={`${DIGIFIZZY_S3}/10/images/9596_image1.png`}
-          width={484}
-          height={394}
-        />
-      </div>
-      <div className={styles.image17}>
-        <Image
-          src={`${DIGIFIZZY_S3}/10/images/9596_image1.png`}
-          width={484}
-          height={394}
-        />
-      </div>
-      <div className={styles.image18}>
-        <Image
-          src={`${DIGIFIZZY_S3}/10/images/9596_image1.png`}
-          width={484}
-          height={394}
-        />
-      </div>
-      <div className={styles.image19}>
-        <Image
-          src={`${DIGIFIZZY_S3}/10/images/9596_image1.png`}
-          width={484}
-          height={394}
-        />
-      </div>
-      <div className={styles.image20}>
-        <Image
-          src={`${DIGIFIZZY_S3}/10/images/9596_image1.png`}
-          width={484}
-          height={394}
-        />
-      </div>
-      <div className={styles.image21}>
-        <Image
-          src={`${DIGIFIZZY_S3}/10/images/9596_image1.png`}
-          width={484}
-          height={394}
-        />
-      </div>
-      <div className={styles.image22}>
-        <Image
-          src={`${DIGIFIZZY_S3}/10/images/9596_image1.png`}
-          width={484}
-          height={394}
-        />
-      </div>
-      <div className={styles.image23}>
-        <Image
-          src={`${DIGIFIZZY_S3}/10/images/9596_image1.png`}
-          width={484}
-          height={394}
-        />
-      </div>
-
       <div className={styles.text1}>
-        Shared orderbooks enable communities to fuel and benefit from network effects, unlocking a truly non-zero sum model. 
+        Models A La Mode is our newly launched podcast within the Global Models Syndicate— it’s similar to the Tales of Web3 Tailors, with a kinesthetic twist of non-fungible poses. 
         <br /><br />
-        Shared Liquidity: 
-        <br />
-        In short, shared liquidity is a profoundly simple idea in itself. Liquidity pools are pretty much a collection of something with value, piled up together in a well defined container. 
+        It’s not just about releasing some audio tracks for anyone in the community to jack in the aux and get to know more about their favourite web3 models. It goes much deeper than that. 
         <br /><br />
-        These pools can consist of assets and indirect ways to represent them that have supply side, demand side, and hybrid traits. When it comes to NFT marketplaces, meaningful liquidity pools combined, volume of NFTs available on the supply side, and, indicators of capital available on the demand side. 
+        Modeling is so much more than just a surface look. 
         <br /><br />
-        What happens when liquidity pools are expanded through joining with each other is that overall discoverability, capital availability and ease of entry and transfer between assets is increased to a point greater than the sum of its parts alone.  
+        It’s an exploration of the relationships between motion and space and what actually drives us towards our attraction to each other, what we wear, how we express ourselves and so much more. 
         <br /><br />
-        This plays nicely with shared orderbooks in exactly the ways that you would imagine, and also in itself, directly reinforces web3, self sovereignty and cc0.         
+        Discovering the stories of what we otherwise only see in front of the lense provides greater perspective on what we can begin to imagine and expect to happen as the metaverse and digital-physical NPC and human hybrid models become the norm. 
+      </div>
+      <div className={styles.text2}>
+        Listen in to some of the first episodes below!        
       </div>
     </div>
   )

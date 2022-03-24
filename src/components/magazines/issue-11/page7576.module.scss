@@ -4,45 +4,31 @@
   @include magazineWrapper();
   background: #000000;
 
-  .imageBackground1 {
+  .imageBackground {
     position: absolute;
-    width: 678.57px;
-    height: 1374.09px;
-    left: 196px;
-    top: 69px;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
   }
 
-  .imageBackground2 {
+  .rect1 {
     position: absolute;
-    width: 678.57px;
-    height: 1374.09px;
-    left: 1132px;
-    top: 69px;
-  }
-
-  .text1 {
-    position: absolute;
-    width: 662px;
-    height: 1284px;
-    left: 203px;
-    top: 109px;
+    width: 743px;
+    height: 1244px;
+    left: 112px;
+    top: 125px;
     
-    font-family: Galvji;
-    font-size: 27px;
-    line-height: 30px;
-    color: #FFFFFF;    
+    background: rgba(0, 0, 0, 0.81);    
   }
 
-  .text2 {
+  .rect2 {
     position: absolute;
-    width: 662px;
-    height: 1284px;
-    left: 1132px;
-    top: 109px;
+    width: 743px;
+    height: 427px;
+    left: 1068px;
+    top: 126px;
     
-    font-family: Galvji;
-    font-size: 27px;
-    line-height: 30px;
-    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.81);
   }
 }

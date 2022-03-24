@@ -2,54 +2,16 @@
 
 .wrapper {
   @include magazineWrapper();
-  background-color: #3612BE;
-  color: white;
+  background-color: #FFFFFF;
+  color: #000000;
   display: flex;
   position: relative;
 
   .image1 {
     position: absolute;
-    width: 524px;
-    height: 748px;
-    right: 524px;
+    width: 1920px;
+    height: 1497px;
+    left: 0;
     top: 0;
-  }
-
-  .image2 {
-    position: absolute;
-    width: 524px;
-    height: 748px;
-    right: 0;
-    top: 0;    
-  }
-
-  .image3 {
-    position: absolute;
-    width: 524px;
-    height: 748px;
-    right: 524px;
-    top: 748px;
-  }
-
-  .image4 {
-    position: absolute;
-    width: 524px;
-    height: 748px;
-    right: 0;
-    top: 748px;
-  }
-
-  .text1 {
-    position: absolute;
-    width: 732px;
-    height: 1311px;
-    left: 71px;
-    top: 90px;
-    
-    font-family: Rochester;
-    font-size: 27px;
-    line-height: 35px;
-    
-    color: #FFFFFF;
   }
 }

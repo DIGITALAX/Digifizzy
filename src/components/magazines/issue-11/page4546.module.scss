@@ -15,76 +15,43 @@
 
   .text1 {
     position: absolute;
-    width: 472px;
-    height: 140px;
-    left: 26px;
-    top: 37px;
+    width: 505px;
+    height: 74px;
+    left: 70px;
+    top: 1282px;
     
-    font-family: Poppins;
+    font-family: 'Sansita One';
     font-style: normal;
-    font-weight: bold;
-    font-size: 70px;
-    line-height: 100%;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 33px;
     color: #FFFFFF;
-    transition: 0.3s all;
-
-    &:hover {
-      transition: 0.3s all;
-      transform: scale(1.05);
-    }
+    -webkit-text-stroke: #FFFFFF;
   }
 
   .text2 {
     position: absolute;
-    width: 279px;
-    height: 37px;
-    left: 26px;
-    top: 43px;
+    width: 473px;
+    height: 34px;
+    left: 70px;
+    top: 1380px;
     
-    font-family: Stint Ultra Expanded;
-    font-size: 14px;
+    font-family: 'Sunflower';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
     line-height: 16px;
     color: #FFFFFF;
-    -webkit-text-stroke: 0.5px #FFFFFF;
+    -webkit-text-stroke: #FFFFFF;
   }
 
-  .text3 {
-    position: absolute;
-    width: 215px;
-    height: 85px;
-    left: 1675px;
-    top: 18px;
-    
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 85px;
-
-    text-align: right;
-    color: #E28FFF;
+  a {
+    color: white;
     transition: 0.3s all;
-
     &:hover {
       transition: 0.3s all;
-      transform: scale(1.05);
+      color: white;
+      text-decoration: underline;
     }
-  }
-
-  .text4 {
-    position: absolute;
-    width: 256px;
-    height: 220px;
-    left: 1640px;
-    top: 94px;
-    
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 20px;
-    text-align: right;
-    
-    color: #E28FFF;
   }
 }

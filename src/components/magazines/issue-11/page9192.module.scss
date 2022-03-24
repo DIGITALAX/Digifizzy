@@ -4,163 +4,94 @@
   @include magazineWrapper();
   background: black;
 
+  .imageBackground1 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .imageBackground2 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
+    top: 0px;
+  }
+
   .image1 {
     position: absolute;
-    width: 486px;
-    height: 1497px;
-    left: 0;
-    top: 0;
+    width: 320px;
+    height: 320px;
+    left: 29px;
+    top: -43px;    
   }
 
   .image2 {
     position: absolute;
-    width: 89px;
-    height: 1497px;
-    right: 0;
-    top: 0;
-  }
-
-  .rect1 {
-    position: absolute;
-    width: 1920px;
-    height: 1502px;
-    left: 0px;
-    top: -5px;
-    
-    background: #8B5C00;    
+    width: 320px;
+    height: 320px;
+    left: 29px;
+    top: 117px;
   }
 
   .image3 {
     position: absolute;
-    width: 461px;
-    height: 504px;
-    left: 25px;
-    top: 468px;        
+    width: 1140px;
+    height: 881px;
+    left: 960px;
+    top: 1090px;
   }
 
-  .image4 {
+  .text1 {
     position: absolute;
-    width: 504px;
-    height: 451px;
-    left: 25px;
-    top: 1017px;
+    width: 545px;
+    height: 426px;
+    left: 375px;
+    top: 54px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    
+    color: #810909;
+    -webkit-text-stroke: 0.4px #FF0A11;
   }
 
-  .image5 {
+  .text2 {
     position: absolute;
-    width: 277px;
-    height: 369px;
-    left: 673px;
-    top: 99px;
+    width: 861px;
+    height: 1036px;
+    left: 52px;
+    top: 379px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    
+    color: #810909;
+    -webkit-text-stroke: 0.4px #FF0A11;
   }
 
-  .image6 {
+  .text3 {
     position: absolute;
-    width: 400px;
-    height: 300px;
-    left: 529px;
-    top: 491px;
-  }
-
-  .image7 {
-    position: absolute;
-    width: 338px;
-    height: 619px;
-    left: 569px;
-    top: 849px;
-  }
-
-  .image8 {
-    position: absolute;
-    width: 339px;
-    height: 309px;
-    left: 1024px;
-    top: 25px;
-  }
-
-  .image9 {
-    position: absolute;
-    width: 556px;
-    height: 417px;
-    left: 986px;
-    top: 283px;
-  }
-
-  .image10 {
-    position: absolute;
-    width: 440px;
-    height: 330px;
-    left: 986px;
-    top: 724px;
-  }
-
-  .image11 {
-    position: absolute;
-    width: 339px;
-    height: 451px;
-    left: 989px;
-    top: 1064px;
-  }
-
-  .image12 {
-    position: absolute;
-    width: 428px;
-    height: 321px;
-    left: 1467px;
-    top: 46px;
-  }
-
-  .image13 {
-    position: absolute;
-    width: 227px;
-    height: 302px;
-    left: 1604px;
-    top: 412px;
-  }
-
-  .image14 {
-    position: absolute;
-    width: 343px;
-    height: 257px;
-    left: 1488px;
-    top: 760px;
-  }
-
-  .image15 {
-    position: absolute;
-    width: 471px;
-    height: 353px;
-    left: 1399px;
-    top: 1113px;
-  }
-
-  .video1 {
-    position: absolute;
-    width: 612px;
-    height: 334px;
-    left: 25px;
-    top: 49px;    
-  }
-
-
-  .gradient {
-    animation-duration: 1.8s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-name: placeHolderShimmer;
-    animation-timing-function: linear;
-    background: #9c9c9c;
-    background: linear-gradient(to right, #9c9c9c 8%, #f4f4f4 38%, #9c9c9c 54%);
-    background-size: 1000px 640px;
-  
-  }
-
-  @keyframes placeHolderShimmer{
-    0%{
-      background-position: -468px 0
-    }
-    100%{
-      background-position: 468px 0
-    }
+    width: 757px;
+    height: 1036px;
+    left: 1076px;
+    top: 54px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    
+    color: #810909;
+    -webkit-text-stroke: 0.4px #FF0A11;
   }
 }

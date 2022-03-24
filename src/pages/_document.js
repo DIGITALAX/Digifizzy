@@ -36,6 +36,7 @@ const goolgeFonts = [
   'Architects+Daughter',
   'Aref+Ruqaa:wght@700',
   'Arimo',
+  'Armata',
   'Arvo',
   'Asap',
   'Astloch',
@@ -190,6 +191,7 @@ const goolgeFonts = [
   'Lekton',
   'Lemon',
   'Lexend+Deca',
+  'Lexend+Exa',
   'Lexend+Giga',
   'Lexend+Peta',
   'Lobster+Two',
@@ -218,6 +220,7 @@ const goolgeFonts = [
   'Mrs+Sheppards',
 
   'Nanum+Brush+Script',
+  'Newsreader:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
   'News+Cycle',
   'New+Rocker',
   'Nova+Cut',
@@ -229,6 +232,7 @@ const goolgeFonts = [
 
   'Pacifico',
   'Pangolin',
+  'Passion+One',
   'Pathway+Gothic+One',
   'Patrick+Hand',
   'Patrick+Hand+SC',
@@ -265,6 +269,7 @@ const goolgeFonts = [
   'Roboto+Mono',
   'Romanesco',
   'Rosarivo',
+  'Rubik',
   'Rubik+Mono+One',
   'Rye',
 
@@ -286,6 +291,7 @@ const goolgeFonts = [
   'Staatliches',
   'Stint+Ultra+Condensed',
   'Suez+One',
+  'Sunflower:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
   'Sura',
   'Sura:wght@700',
   'Syncopate',
@@ -1886,6 +1892,22 @@ class MyDocument extends Document {
             @font-face {
               font-family: "Lao MN";
               src: url("./fonts/Lao MN.ttc");
+            }
+            
+            @font-face {
+              font-family: "BROKENZ";
+              src: url("./fonts/BROKENZ.ttf");
+            }
+            
+            @font-face {
+              font-family: "Sansita One";
+              src: url("./fonts/SansitaOne.ttf");
+            }
+            
+            @font-face {
+              font-family: "Sansation";
+              font-weight: normal;
+              src: url("./fonts/Sansation_Regular.ttf");
             }
           `
             }}

@@ -7,90 +7,90 @@ const Page6768 = () => (
   <div className={styles.wrapper}>
     <div className={styles.imageBackground}>
       <Image
-        src={`${DIGIFIZZY_S3}/10/images/6768_background.jpg`}
+        src={`${DIGIFIZZY_S3}/11/images/6768_background.jpg`}
         width={1920}
         height={1497}
       />
     </div>    
     <div className={styles.image1}>
       <Image
-        src={`${DIGIFIZZY_S3}/10/images/6768_image1.jpg`}
+        src={`${DIGIFIZZY_S3}/11/images/6768_image1.jpg`}
         width={327}
         height={327}
       />
     </div>
     <div className={styles.image2}>
       <Image
-        src={`${DIGIFIZZY_S3}/10/images/6768_image2.jpg`}
+        src={`${DIGIFIZZY_S3}/11/images/6768_image2.jpg`}
         width={327}
         height={327}
       />
     </div>
     <div className={styles.image3}>
       <Image
-        src={`${DIGIFIZZY_S3}/10/images/6768_image3.jpg`}
+        src={`${DIGIFIZZY_S3}/11/images/6768_image3.jpg`}
         width={327}
         height={327}
       />
     </div>
     <div className={styles.image4}>
       <Image
-        src={`${DIGIFIZZY_S3}/10/images/6768_image4.jpg`}
+        src={`${DIGIFIZZY_S3}/11/images/6768_image4.jpg`}
         width={327}
         height={327}
       />
     </div>
     <a
       className={styles.image5}
-      href='https://www.eyebeam.org/'
+      href='https://archive.org/stream/GuerillaOpenAccessManifesto/Goamjuly2008_djvu.txt'
       target='_blank'
     >
       <Image
-        src={`${DIGIFIZZY_S3}/10/images/6768_image5.png`}
-        width={220}
-        height={220}
-      />
-    </a>
-    <a
-      className={styles.image6}
-      href='https://supercollider.github.io/'
-      target='_blank'
-    >
-      <Image
-        src={`${DIGIFIZZY_S3}/10/images/6768_image7.png`}
+        src={`${DIGIFIZZY_S3}/11/images/6768_image5.png`}
         width={220}
         height={220}
       />
     </a>
     <a
       className={styles.image7}
-      href='https://twitter.com/newinc'
+      href='https://github.com/sindresorhus/awesome'
       target='_blank'
     >
       <Image
-        src={`${DIGIFIZZY_S3}/10/images/6768_image6.png`}
+        src={`${DIGIFIZZY_S3}/11/images/6768_image7.png`}
+        width={220}
+        height={220}
+      />
+    </a>
+    <a
+      className={styles.image6}
+      href='https://poignant.guide/book/chapter-1.html'
+      target='_blank'
+    >
+      <Image
+        src={`${DIGIFIZZY_S3}/11/images/6768_image6.png`}
         width={220}
         height={220}
       />
     </a>
     <a
       className={styles.image8}
-      href='https://twitter.com/arpeggi_labs'
+      href='https://gist.github.com/rondy/af1dee1d28c02e9a225ae55da2674a6f'
       target='_blank'
     >
       <Image
-        src={`${DIGIFIZZY_S3}/10/images/6768_image8.png`}
+        src={`${DIGIFIZZY_S3}/11/images/6768_image8.png`}
         width={220}
         height={220}
       />
     </a>
     <a
       className={styles.image9}
-      href='https://rhizome.org/'
+      href='https://app.polymersearch.com/discover/github-awesome'
       target='_blank'
     >
       <Image
-        src={`${DIGIFIZZY_S3}/10/images/6768_image9.png`}
+        src={`${DIGIFIZZY_S3}/11/images/6768_image9.png`}
         width={220}
         height={220}
       />
@@ -100,36 +100,36 @@ const Page6768 = () => (
       WEB3 WIZARDS      
     </div>
     <div className={styles.text2}>
-      CC0 Cultivators.
+      Access Agronomists.
     </div>
     <div className={styles.text3}>
-      Creatives of all kinds have been told repeatedly that everything that they do belongs to those more powerful than them, that all content, all creativity even, must be locked down at all times to protect the powerful against the creative. The power enabled by us through CC0 is deep and many layered. The most important in this context is how it removes power from those who have a very long track record of abusing it against us, prevents them or anyone else from cutting off our access to information and creativity, and, actually protects us from the real scarcity of creative liquidity that every artist should be more concerned with. 
+      Guaranteeing our access to the code and contracts that power entire digital economies like Ethereum and beyond is absolutely essential for the functioning of these systems. If you don’t operate the points of exchange and administrative controls for how a system works then someone else owns you. For many who are used to living under someone else’s control throughout most of our history, that might sound like hopium. But if you simply study the history of technology and the internet you will see quickly that there is no way that we could have gotten as far as we have without open source and open access. 
       <br /><br />
-      For this edition of Web3 Wizards we are spotlighting the devs, engineers and teams that are pioneering and fully embracing the power of cc0 for overthrowing the copyright cartels and unleashing the flood gates for what is truly the open uncensorable metaverse that offers all of humanity a far more prosperous economy and life than what any of us have experienced or known before. The CC0 Cultivators.
+      For this edition of Web3 Wizards we are spotlighting the devs, engineers and teams that are ensuring that our on-ramps to and the railroads within web3 and the metaverse stay accessible, interconnected and open. The Access Agronomists.
     </div>
     <div className={styles.text4}>
-      Merlin the Blue.
+      0xFloyd.
     </div>
     <div className={styles.text5}>
-      Project: Merlin the Blue.
+      Project: Nouns DAO.
     </div>
     <div className={styles.text6}>
-      HyperLoot Team.
+      Brian.
     </div>
     <div className={styles.text7}>
-      Project: HyperLoot.
+      Project: Nouns DAO.
     </div>
     <div className={styles.text8}>
-      James Pastan.
+      Christian Turner.
     </div>
     <div className={styles.text9}>
-      Project: Arpeggi Labs.
+      Project: Cacheflow.
     </div>
     <div className={styles.text10}>
-      Gremplin.
+      12bnoun.
     </div>
     <div className={styles.text11}>
-      Project: CrypToadz.
+      Project: Lost Nouns.
     </div>
     <div className={styles.text12}>
       MUST TRYS OF THE METAVERSE
@@ -141,22 +141,22 @@ const Page6768 = () => (
       MUST TRYS OF THE METAVERSE
     </div>
     <div className={styles.text15}>
-      #OPENDIGITALPHYSICAL
+      #OPENLIBRARYEDITION
     </div>
     <div className={styles.text16}>
-      Eyebeam
+      Guerilla Open Access Manifesto
     </div>
     <div className={styles.text17}>
-      SuperCollider
+      Awesome
     </div>
     <div className={styles.text18}>
-      New INC
+      Poignant Guide
     </div>
     <div className={styles.text19}>
-      Arpeggi Labs
+      Effective Engineer
     </div>
     <div className={styles.text20}>
-      Rhizome
+      Polymer Search
     </div>
   </div>
 )

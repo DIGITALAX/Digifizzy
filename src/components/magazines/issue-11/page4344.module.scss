@@ -11,67 +11,45 @@
     object-fit: cover;
   }
 
-  .text1 {
-    position: absolute;
-    width: 292px;
-    height: 74px;
-    left: 1003px;
-    top: 1423px;
-
-    font-family: Squada One;
-    font-size: 75px;
-    line-height: 28px;
-    color: #81FF45;
-
+  a {
+    color: white;
+    transition: 0.3s all;
     &:hover {
       transition: 0.3s all;
-      transform: scale(1.05);
+      color: white;
+      text-decoration: underline;
     }
+  }
+
+  .text1 {
+    position: absolute;
+    width: 505px;
+    height: 74px;
+    left: 70px;
+    top: 1282px;
+    
+    font-family: 'Sansita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 33px;
+    color: #FFFFFF;
+    -webkit-text-stroke: #FFFFFF;
   }
 
   .text2 {
     position: absolute;
-    width: 276px;
-    height: 226px;
-    left: 1016px;
-    top: 1287px;
+    width: 473px;
+    height: 34px;
+    left: 70px;
+    top: 1380px;
     
-    font-family: Squada One;
-    font-size: 14px;
+    font-family: 'Sunflower';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
     line-height: 16px;
-    color: #81FF45;
-  }
-
-  .text3 {
-    position: absolute;
-    width: 337px;
-    height: 74px;
-    left: 31px;
-    top: 54px;
-    
-    font-family: Squada One;
-    font-size: 75px;
-    line-height: 28px;
     color: #FFFFFF;
-
-    transition: 0.3s all;
-
-    &:hover {
-      transition: 0.3s all;
-      transform: scale(1.05);
-    }
-  }
-
-  .text4 {
-    position: absolute;
-    width: 276px;
-    height: 226px;
-    left: 31px;
-    top: 110px;
-    
-    font-family: Squada One;
-    font-size: 14px;
-    line-height: 16px;
-    color: #FFFFFF;    
+    -webkit-text-stroke: #FFFFFF;
   }
 }

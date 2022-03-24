@@ -6,58 +6,46 @@
 
   .imageBackground {
     position: absolute;
-    width: 960px;
+    width: 1920px;
     height: 1497px;
-    left: 960px;
+    left: 0px;
     top: 0px;
-  }
-
-  .image1 {
-    position: absolute;
-    width: 367px;
-    height: 367px;
-    left: -89px;
-    top: -43px;
   }
 
   .text1 {
     position: absolute;
-    width: 573px;
-    height: 33px;
-    left: 228px;
-    top: 140px;
+    width: 798px;
+    height: 200px;
+    left: 62px;
+    top: 46px;
     
-    font-family: Courier;
+    font-family: 'Newsreader';
     font-style: normal;
-    font-weight: bold;
-    font-size: 27px;
-    line-height: 120.53%;
-    color: #000000;    
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+    // text-shadow: -1px -1px #DA2776, -1px 1px #DA2776, 1px -1px #DA2776, 1px 1px #DA2776;
+    -webkit-text-stroke: 1px #DA2776;
   }
 
   .text2 {
     position: absolute;
-    width: 624px;
-    height: 992px;
-    left: 228px;
-    top: 184px;
+    width: 798px;
+    height: 1055px;
+    left: 62px;
+    top: 277px;
     
-    font-family: Courier New;
-    font-size: 18px;
-    line-height: 120.53%;
-    color: #000000;
-  }
-
-  .text3 {
-    position: absolute;
-    width: 288px;
-    height: 22px;
-    left: 227px;
-    top: 1248px;
+    font-family: 'Newsreader';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 33px;
     
-    font-family: Courier New;
-    font-size: 18px;
-    line-height: 120.53%;
-    color: #000000;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #DA2776;
   }
 }
