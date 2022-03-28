@@ -188,6 +188,7 @@ const goolgeFonts = [
   'Krona+One',
   'Krub',
   'Kumar+One',
+  'K2D',
 
   'Lacquer',
   'Lalezar',

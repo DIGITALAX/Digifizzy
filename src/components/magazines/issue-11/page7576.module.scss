@@ -31,4 +31,70 @@
     
     background: rgba(0, 0, 0, 0.81);
   }
+
+  .rect3 {
+    position: absolute;
+    width: 743px;
+    height: 210px;
+    left: 1068px;
+    top: 1159px;
+    
+    background: rgba(0, 0, 0, 0.81);
+  }
+
+  .text1 {
+    position: absolute;
+    width: 591px;
+    height: 1077px;
+    left: 181px;
+    top: 199px;
+    
+    font-family: 'Rugrats';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 591px;
+    height: 249px;
+    left: 1144px;
+    top: 172px;
+    
+    font-family: 'Rugrats';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 591px;
+    height: 143px;
+    left: 1144px;
+    top: 1197px;
+    
+    font-family: 'Rugrats';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+
+    color: #FFFFFF;    
+  }
+  
+  .iFrameWrapper {
+    position: absolute;
+    width: 508px;
+    height: 605px;
+    left: 1186px;
+    top: 509px;    
+  }
 }

@@ -99,12 +99,12 @@ const Page3132 = () => (
     </a>
 
     <div className={[styles.image3].join(' ')}>
-        <Image
-          src={`${DIGIFIZZY_S3}/11/images/3132_image3.png`}
-          width={781}
-          height={145}
-        />
-      </div>
+      <Image
+        src={`${DIGIFIZZY_S3}/11/images/3132_image3.png`}
+        width={781}
+        height={145}
+      />
+    </div>
 
     <div className={styles.text4}>
       The Founding Mothers
