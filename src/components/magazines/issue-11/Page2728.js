@@ -60,6 +60,22 @@ const Page2728 = () => (
         Arpeggi Studio
       </div>
     </a>
+    <div className={styles.text4}>
+      We all keep hearing that music NFTs are the next big thing, but what's it actually going to take to get to a breakthrough moment?
+      <br /><br />
+      One of the key under recognised essential components is the infrastructure required to ignite more open on-chain improvisation, collaboration, pattern sharing, know-how sharing and other genuinely distinctive web3 music trends. 
+      <br /><br />
+      Arpeggi Labs is pioneering a leading path to bring this much needed infrastructure through its watershed moment. Their engineering allows artists to remix and produce music with direct on-chain minting functionality. The best part about the lab is the low level of friction from ideation, experimentation to production, minting and sale. 
+      <br /><br />
+      It's no big secret that music is one of the most exploitative creative industries that is almost completely run by the cartels and labels that have a very clear history of abusing artist relations.       
+    </div>
+    <div className={styles.text5}>
+      One of the strongest tools in the kit for pushing back against anti creative industry exploitation and control is through CC0. It removes the ability for these cartels to limit creative free expression and speech with a promised trade off of riches that usually never appears.
+      <br /><br />
+      Arpeggi is building out an on-chain CC0 music library that will include samples, beats, rhythms, loops and more, establishing as the basic building blocks for any creator to then use, create, derive from and propogate complete songs and their many parts. 
+      <br /><br />
+      This approach also radically reduces barriers to entry and initial production costs for music artists by giving them direct access to a never ending supply of high quality creative source material, instead of being at the whims and checkpoints of any who would prefer that musicians create less.        
+    </div>
   </div>
 )
 

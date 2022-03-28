@@ -7,7 +7,7 @@ const Page2930 = () => (
   <div className={styles.wrapper}>
     <video autoPlay muted loop className={styles.video1}>
       <source
-        src={`${DIGIFIZZY_S3}/10/videos/2930_video1.mp4`}
+        src={`${DIGIFIZZY_S3}/11/videos/2930_video1.mp4`}
         type='video/mp4'
       />
     </video>

@@ -31,24 +31,28 @@ const Page7172 = () => (
       HIMEX + TEchn0morph x f3m cc0 t-shirt
     </div>
     <div className={styles.text7}>
-      Realm enigma digital art nfts
+      CC0 Streetwear Secret Drop hand drawn digital art piece
     </div>
 
     <div className={styles.image1}>
       <Image
-        src={`${DIGIFIZZY_S3}/10/images/7172_image1.jpg`}
-        width={836}
-        height={209}
+        src={`${DIGIFIZZY_S3}/11/images/7172_image1.jpg`}
+        width={866}
+        height={215}
       />
     </div>
 
     <div className={styles.text8}>
+      Models of the Realms CC0 Collaborations Set
+    </div>
+
+    <div className={styles.text9}>
       DIGITAL FASHION NEON COLLECTIBLE SERIES 
     </div>
 
     <div className={styles.image2}>
       <Image
-        src={`${DIGIFIZZY_S3}/10/images/7172_image2.jpg`}
+        src={`${DIGIFIZZY_S3}/10/images/7172_image4.jpg`}
         width={355}
         height={354}
       />
@@ -70,31 +74,24 @@ const Page7172 = () => (
     </div>
     <div className={styles.image5}>
       <Image
-        src={`${DIGIFIZZY_S3}/10/images/7172_image5.jpg`}
-        width={346}
-        height={346}
+        src={`${DIGIFIZZY_S3}/11/images/7172_image3.jpg`}
+        width={837}
+        height={217}
       />
     </div>
     <div className={styles.image6}>
       <Image
-        src={`${DIGIFIZZY_S3}/10/images/7172_image6.jpg`}
-        width={346}
-        height={346}
+        src={`${DIGIFIZZY_S3}/11/images/7172_image4.jpg`}
+        width={270}
+        height={266}
       />
     </div>
 
     <div className={styles.image7}>
       <Image
-        src='/magazine/9/images/7172_image4.jpg'
-        width={346}
-        height={346}
-      />
-    </div>
-    <div className={styles.image8}>
-      <Image
-        src='/magazine/9/images/7172_image5.jpg'
-        width={346}
-        height={346}
+        src={`${DIGIFIZZY_S3}/11/images/7172_image2.jpg`}
+        width={401}
+        height={306}
       />
     </div>
 

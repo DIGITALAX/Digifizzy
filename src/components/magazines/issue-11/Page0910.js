@@ -18,6 +18,15 @@ const Page0910 = () => (
     <div className={styles.text4}>オープンソース</div>
     <div className={styles.text5}>オープンソース</div>
     <div className={styles.text6}>オープンソース</div>
+    <div className={styles.text7}>
+      By the time the 70s rolled in, the software industry was charging for licenses across hardware and software companies. 
+      <br /><br />
+      Legal restrictions were carried out with the full brunt of the law using trademark, copyright, and intellectual property law–eventually giving birth to an entirely new problem of software piracy.      
+    </div>
+    <div className={styles.text8}>
+      However, open source was actively kept alive through the Bulletin Board Systems (BBS) of 80s renown. Freeware proliferated during the 80s, as Usenet provided a fantastic collaboration tool for developers, programmers, and modders then, much like the Discords of today. It was in 1985 when Richard Stallman released the GNU General Public License, which is still used as a standard for companies using free software as their main business to this very day. It was also when he established the GNU Project and the Free Software Foundation, a non-profit furthering the ideals of the free software movement.       
+    </div>
+    <div className={styles.circle4}></div>
   </div>
 )
 

@@ -53,6 +53,19 @@ const Page78 = () => (
     <div className={styles.text7}>
       オープンソース
     </div>
+    <div className={styles.text8}>
+      70% of the world’s systems are built on open source software.
+      <br /><br />
+      And if it wasn’t for its community keeping the fires of its fundamental principles alive–and constant building in lockstep with its core precepts–the software industry would never have been 
+      <br /><br />
+      The goal of open source creators is to gain the widest possible adoption and enable their users to add value without legal or financial encumbrances. 
+      <br /><br />
+      Early software was, by all means, free as software development was then an academic pursuit. 
+      <br /><br />
+      By nature, that meant early software itself was open source. The money was then generated from hardware rather than software, and open source software was indeed the norm. After all, closed-source software then, in the 50s, would have meant running the risk of backdoors being used for nefarious reasons, since no-one would have been able to monitor what software then could be doing.
+      <br /><br />
+      The software industry started to decouple from its hardware-based revenue model in the late 60s. This was coincidentally in part due to lawyers formulating heavily restrictive licensing regimes to fully achieve this. 
+    </div>
   </div>
 )
 

@@ -24,31 +24,195 @@
 
   .text1 {
     position: absolute;
-    width: 667px;
-    height: 90px;
-    left: 144px;
-    top: 115px;
+    width: 505px;
+    height: 74px;
+    left: 47px;
+    top: 77px;
     
-    font-family: Reem Kufi;
-    font-size: 45px;
-    line-height: 100%;
-    text-align: center;
-    color: #FFFFFF;
-    text-shadow: -3px 3px #000000, -3px -3px #000000, 3px -3px #000000, 3px 3px #000000;
+    font-family: 'Sancreek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 33px;
+
+    color: #146A2C;
+    -webkit-text-stroke: 2px #00FF47;
   }
 
   .text2 {
     position: absolute;
-    width: 670px;
-    height: 1075px;
-    left: 1100px;
-    top: 194px;
+    width: 505px;
+    height: 74px;
+    left: 47px;
+    top: 186px;
     
-    font-family: Risque;
-    font-size: 35px;
+    font-family: 'Sancreek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 33px;
+    color: #146A2C;
+    
+    -webkit-text-stroke: 2px #00FF47;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 505px;
+    height: 74px;
+    left: 47px;
+    top: 295px;
+    
+    font-family: 'Sancreek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 33px;
+    color: #146A2C;
+    
+    -webkit-text-stroke: 2px #00FF47;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 505px;
+    height: 74px;
+    left: 47px;
+    top: 404px;
+    
+    font-family: 'Sancreek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 33px;
+    color: #146A2C;
+    
+    -webkit-text-stroke: 2px #00FF47;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 505px;
+    height: 74px;
+    left: 47px;
+    top: 1292px;
+    
+    font-family: 'Sancreek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 33px;
+    color: #146A2C;
+    
+    -webkit-text-stroke: 2px #00FF47;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 505px;
+    height: 74px;
+    left: 47px;
+    top: 1401px;
+    
+    font-family: 'Sancreek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 33px;
+    color: #146A2C;
+    
+    -webkit-text-stroke: 2px #00FF47;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 886px;
+    height: 794px;
+    left: 47px;
+    top: 476px;
+    
+    font-family: 'Romanesco';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
     line-height: 40px;
-    text-align: center;
+    /* or 85% */
     
-    color: #FFFFFF;    
+    
+    color: #FFFFFF;        
+  }
+
+  .text8 {
+    position: absolute;
+    width: 573px;
+    height: 74px;
+    left: 1326px;
+    top: 76px;
+    
+    font-family: Saira Extra Condensed;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 33px;
+    color: #26399C;
+    -webkit-text-stroke: 2px #6B83FF;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 573px;
+    height: 74px;
+    left: 1326px;
+    top: 120px;
+    
+    font-family: Saira Extra Condensed;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 33px;
+    color: #146A2C;
+    -webkit-text-stroke: 2px #00FF47;
+  }
+
+  .text10 {
+    position: absolute;
+    width: 573px;
+    height: 74px;
+    left: 1326px;
+    top: 164px;
+    
+    font-family: Saira Extra Condensed;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 33px;
+
+    color: #44146A;
+    -webkit-text-stroke: 2px #B961FF;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 872px;
+    height: 699px;
+    left: 1011px;
+    top: 282px;
+  }
+
+  .video1 {
+    position: absolute;
+    width: 872px;
+    height: 409px;
+    left: 1011px;
+    top: 1042px;
+    object-fit: cover;
+  }
+
+  a {
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.05);
+    }
   }
 }

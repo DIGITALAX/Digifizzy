@@ -2,5 +2,103 @@
 
 .wrapper {
   @include magazineWrapper();
-  background: #FFFFFF;
+  background: #000000;
+
+  .rect1 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+    background-color: #2B292C;
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
+    top: 0px;
+    background-color: #000F97;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 0px;
+    top: 0px;    
+  }
+
+  .image2 {
+    position: absolute;
+    width: 960px;
+    height: 410.67px;
+    left: 960px;
+    top: 1086px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 597px;
+    height: 361px;
+    left: 363px;
+    top: 0px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 575px;
+    height: 633px;
+    left: 0px;
+    bottom: 0px;
+  }
+
+  .image5 {
+    position: absolute;
+    width: 307px;
+    height: 656px;
+    left: 608px;
+    bottom: 0px;
+  }
+
+  a {
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.05);
+    }
+  }
+
+  .text1 {
+    position: absolute;
+    width: 849px;
+    height: 507px;
+    left: 54px;
+    top: 441px;
+    
+    font-family: 'Myanmar MN';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 110%;
+    
+    text-align: center;
+    color: #FFFFFF;    
+  }
+
+  .text2 {
+    position: absolute;
+    width: 493px;
+    height: 975px;
+    left: 1329px;
+    top: 61px;
+    
+    font-family: 'Aclonica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 110%;
+    color: #FFFFFF;
+  }
 }

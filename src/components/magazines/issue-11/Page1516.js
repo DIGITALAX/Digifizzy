@@ -6,15 +6,12 @@ import styles from './page1516.module.scss'
 const Page1516 = () => {
   return (
     <div className={styles.wrapper}>
-      <div
-        className={styles.imageBackground}
-      >
-        <Image
-          src={`${DIGIFIZZY_S3}/11/images/1516_background.jpg`}
-          width={1920}
-          height={1497}
+      <video autoPlay muted loop className={styles.video1}>
+        <source
+          src={`${DIGIFIZZY_S3}/11/videos/1516_video1.mp4`}
+          type='video/mp4'
         />
-      </div>
+      </video>
       <div className={styles.text1}>
         Core3D
       </div>

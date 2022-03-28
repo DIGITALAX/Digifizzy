@@ -116,4 +116,45 @@
     transform-origin: 0 0;
     transform: rotate(-90deg);
   }
+
+  .text6 {
+    position: absolute;
+    width: 357px;
+    height: 1008px;
+    left: 471px;
+    top: 238px;
+    
+    font-family: Gluten;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120.53%;
+    
+    color: #FFFFFF;        
+  }
+
+  .text7 {
+    position: absolute;
+    width: 357px;
+    height: 1044px;
+    left: 1170px;
+    top: 238px;
+    
+    font-family: Gluten;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120.53%;
+    color: #FFFFFF;    
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 22px;
+    height: 1817.08px;
+    left: 960px;
+    top: -31px;
+    
+    background: #E85B59;    
+  }
 }

@@ -160,5 +160,45 @@
     transform-origin: 0 0;
     transform: rotate(-90deg);
   }
+
+  .text7 {
+    position: absolute;
+    width: 349px;
+    height: 612px;
+    left: 114px;
+    top: 475px;
+    
+    font-family: Gluten;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120.53%;
+    color: #FFFFFF;    
+  }
+
+  .text8 {
+    position: absolute;
+    width: 461px;
+    height: 360px;
+    left: 1223px;
+    top: 124px;
+    
+    font-family: Gluten;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120.53%;
+    color: #FFFFFF;
+  }
+
+  .circle4 {
+    position: absolute;
+    width: 932px;
+    height: 932px;
+    left: 1160px;
+    top: 621px;
+    border-radius: 50%;
+    background: #E85B59;    
+  }
 }
 

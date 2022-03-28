@@ -6,13 +6,12 @@ import styles from './page3738.module.scss'
 const Page3738 = () => {
   return (
     <div className={styles.wrapper}>
-      <div className={styles.imageBackground}>
-        <Image
-          src={`${DIGIFIZZY_S3}/11/images/3738_background.jpg`}
-          width={1920}
-          height={1497}
+      <video muted loop autoPlay className={styles.imageBackground}>
+        <source
+          src={`${DIGIFIZZY_S3}/11/videos/3738_video1.mp4`}
+          type='video/mp4'
         />
-      </div>
+      </video>
 
       <div className={styles.rect1}></div>
       <div className={styles.rect2}></div>

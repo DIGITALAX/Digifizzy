@@ -27,12 +27,6 @@ const Page3132 = () => (
     <div className={styles.line3}></div>
     <div className={styles.line4}></div>
     <div className={styles.line5}></div>
-    <div className={styles.line6}></div>
-    <div className={styles.line7}></div>
-    <div className={styles.line8}></div>
-    <div className={styles.line9}></div>
-    <div className={styles.line10}></div>
-    <div className={styles.line11}></div>
 
     <div
       className={styles.imagePath1}
@@ -55,184 +49,98 @@ const Page3132 = () => (
     </div>
 
     <a
-      href='https://superrare.com/artwork-v2/the-other-side-32310'
+      href='https://foundation.app/@Ancientman/MyHero/1'
       target='_blank'
     >
       <video muted loop autoPlay className={styles.video1}>
         <source
-          src={`${DIGIFIZZY_S3}/10/videos/3132_video1.mp4`}
+          src={`${DIGIFIZZY_S3}/11/videos/3132_video1.mp4`}
           type='video/mp4'
         />
       </video>
     </a>
 
     <a
-      href='https://knownorigin.io/gallery/6837000-bright-dream'
+      href='https://superrare.com/artwork-v2/moses-and-the-golden-calf-28019'
+      target='_blank'
+    >
+      <video muted loop autoPlay className={styles.video2}>
+        <source
+          src={`${DIGIFIZZY_S3}/11/videos/3132_video2.mp4`}
+          type='video/mp4'
+        />
+      </video>
+    </a>
+
+    <a
+      href='https://superrare.com/0x0ebd06e1c0d349769d18ff8869b144f3db0d3f6e/the-founding-mothers-1'
       target='_blank'
     >
       <div className={[styles.image1, styles.gradient].join(' ')}>
         <Image
-          src={`${DIGIFIZZY_S3}/10/images/3132_image1.jpg`}
-          width={434}
-          height={520}
+          src={`${DIGIFIZZY_S3}/11/images/3132_image1.jpg`}
+          width={747}
+          height={933}
         />
       </div>
     </a>
 
     <a
-      href='https://foundation.app/@AliGStudios/street-de10/1'
+      href='https://foundation.app/@artistation_ps/weshall/1'
       target='_blank'
     >
       <div className={[styles.image2, styles.gradient].join(' ')}>
         <Image
-          src={`${DIGIFIZZY_S3}/10/images/3132_image2.jpg`}
-          width={539}
-          height={358}
+          src={`${DIGIFIZZY_S3}/11/images/3132_image2.jpg`}
+          width={459}
+          height={535}
         />
       </div>
     </a>
 
-    <a
-      href='https://superrare.com/artwork-v2/black-portrait-32317'
-      target='_blank'
-    >
-      <div className={[styles.image3, styles.gradient].join(' ')}>
+    <div className={[styles.image3].join(' ')}>
         <Image
-          src={`${DIGIFIZZY_S3}/10/images/3132_image7.png`}
-          width={433}
-          height={577}
+          src={`${DIGIFIZZY_S3}/11/images/3132_image3.png`}
+          width={781}
+          height={145}
         />
       </div>
-    </a>
-    
-    <a
-      href='https://superrare.com/artwork-v2/ca-19.1-dunes-8069'
-      target='_blank'
-    >
-      <div className={[styles.image4, styles.gradient].join(' ')}>
-        <Image
-          src={`${DIGIFIZZY_S3}/10/images/3132_image3.gif`}
-          width={511}
-          height={511}
-        />
-      </div>
-    </a>
-
-    <div className={styles.image5}>
-      <Image
-        src={`${DIGIFIZZY_S3}/10/images/3132_image4.png`}
-        width={47}
-        height={440}
-      />
-    </div>
-
-    <div className={styles.image61}>
-      <Image
-        src={`${DIGIFIZZY_S3}/10/images/3132_image5.png`}
-        width={187}
-        height={89}
-      />
-    </div>
-    <div className={styles.image62}>
-      <Image
-        src={`${DIGIFIZZY_S3}/10/images/3132_image5.png`}
-        width={187}
-        height={89}
-      />
-    </div>
-    <div className={styles.image63}>
-      <Image
-        src={`${DIGIFIZZY_S3}/10/images/3132_image5.png`}
-        width={187}
-        height={89}
-      />
-    </div>
-    <div className={styles.image7}>
-      <Image
-        src={`${DIGIFIZZY_S3}/10/images/3132_image6.png`}
-        width={403}
-        height={194}
-      />
-    </div>
 
     <div className={styles.text4}>
-      The Other Side
+      The Founding Mothers
     </div>
     <div className={styles.text5}>
-      scottcarr
+      March 2nd 2022
     </div>
     <div className={styles.text6}>
-      Feb 6th 2022
+      dielamaharanie
     </div>
-
     <div className={styles.text7}>
-      25m42luk
+      Fly high.
     </div>
     <div className={styles.text8}>
-      Nov 10th 2021
+      March 7th 2022
     </div>
     <div className={styles.text9}>
-      bright dream
+      Prathamesh Rumaji Shedge
     </div>
-
     <div className={styles.text10}>
-      SECRET SKY
+      🐸 HULK PEPE 🐸
     </div>
     <div className={styles.text11}>
-      Feb 6th 2022
+      March 7th 2022
     </div>
     <div className={styles.text12}>
-      AliGStudios
+      Ancientman
     </div>
     <div className={styles.text13}>
-      AliGStudios
+      Moses and The Golden Calf
     </div>
     <div className={styles.text14}>
-      AliGStudios
+      Sept 03 2021
     </div>
     <div className={styles.text15}>
-      AliGStudios
-    </div>
-
-    <div className={styles.text16}>
-      Feb 6th 2022
-    </div>
-    <div className={styles.text17}>
-      PORTRAIT
-    </div>
-    <div className={styles.text18}>
-      FABIO LA FAUCI
-    </div>
-    <div className={styles.text19}>
-      FABIO LA FAUCI
-    </div>
-    <div className={styles.text20}>
-      FABIO LA FAUCI
-    </div>
-    <div className={styles.text21}>
-      FABIO LA FAUCI
-    </div>
-    <div className={styles.text22}>
-      FABIO LA FAUCI
-    </div>
-    <div className={styles.text23}>
-      FABIO LA FAUCI
-    </div>
-    <div className={styles.text24}>
-      FABIO LA FAUCI
-    </div>
-    <div className={styles.text25}>
-      FABIO LA FAUCI
-    </div>
-
-    <div className={styles.text26}>
-      rhyolight
-    </div>
-    <div className={styles.text27}>
-      Feb 16th 2020
-    </div>
-    <div className={styles.text28}>
-      ca-19.1 dunes
+      amaan_jahangir
     </div>
   </div>
 )

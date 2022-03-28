@@ -30,6 +30,7 @@ const goolgeFonts = [
   'Alegreya:wght@400;700',
   'Allerta+Stencil',
   'Amethysta',
+  'Antic',
   'Antic+Didone',
   'Anton',
   'Antonio',
@@ -138,6 +139,7 @@ const goolgeFonts = [
   'Geo',
   'Geostar+Fill',
   'Gentium+Basic:wght@700',
+  'Gluten',
   'Goblin+One',
   'Gravitas+One',
   'Griffy',
@@ -154,6 +156,7 @@ const goolgeFonts = [
   'Homenaje',
 
   'Iceberg',
+  'Imbue',
   'Imprima',
   'IM+Fell+DW+Pica+SC',
   'IM+Fell+French+Canon',
@@ -275,6 +278,8 @@ const goolgeFonts = [
 
   'Sail',
   'Salsa',
+  'Sancreek',
+  'Saira+Extra+Condensed',
   'Sedgwick+Ave+Display',
   'Share+Tech',
   'Shojumaru',
@@ -1908,6 +1913,18 @@ class MyDocument extends Document {
               font-family: "Sansation";
               font-weight: normal;
               src: url("./fonts/Sansation_Regular.ttf");
+            }
+            
+            @font-face {
+              font-family: "Son Of A Glitch";
+              font-style: normal;
+              src: url("./fonts/Son Of A Glitch.ttf");
+            }
+            
+            @font-face {
+              font-family: "Son Of A Glitch";
+              font-style: italic;
+              src: url("./fonts/Son Of A Glitch Italic.ttf");
             }
           `
             }}
