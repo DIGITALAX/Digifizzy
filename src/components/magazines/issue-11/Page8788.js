@@ -78,11 +78,11 @@ const Page8788 = () => (
     </div>
     <div className={styles.text2}>
       The Smithsonian, MoMA, The British Museum and The Metropolitian all share a common dedication to the public good in a way that may be unexpected for some. Often when we think about high valued pieces of art, scultpure, fashion or other forms of creative objects and materials, we assume that they must be held under lock and key beyond the reach of low hassle use.
-
+      <br /><br />
       Yet, some of the most prestigious museums in the world have curated entirely public domain galleries of images cataloging their works for use in anyway you would like. 
-
+      <br /><br />
       These CC0 Galleries, although taking a more traditional and copy approach as of now, foreshadow the exponential evolution of what is likely to become the largest source of high value material as infrastructure for the metaverse continues to scale up. 
-
+      <br /><br />
       Check out some of the CC0 Galleries below. 
     </div>
     <div className={styles.text3}>
@@ -135,7 +135,7 @@ const Page8788 = () => (
     </a>
     <a
       className={styles.button5}
-      href=''
+      href='https://refactory.cc0dao.xyz/'
       target='_blank'
     >
       Mint to the Re-Factory

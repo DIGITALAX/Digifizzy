@@ -154,4 +154,20 @@
     
     -webkit-text-stroke: 0.5px #FFFFFF;
   }
+
+  .playbutton {
+    position: absolute;
+    width: 236px;
+    height: 235px;
+    left: 1322px;
+    top: 1184px;
+    
+    transition: 0.3s all;
+    cursor: pointer;
+
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
+  }
 }

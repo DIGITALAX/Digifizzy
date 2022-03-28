@@ -63,6 +63,18 @@ const Page9596 = () => {
       <div className={styles.text2}>
         Listen in to some of the first episodes below!        
       </div>
+
+      <a
+        className={styles.playbutton}
+        href='https://soundcloud.com/global-models-syndicate'
+        target='_blank'
+      >
+        <Image
+          src={`${DIGIFIZZY_S3}/11/images/9596_playbutton.png`}
+          width={236}
+          height={235}
+        />
+      </a>
     </div>
   )
 }
