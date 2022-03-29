@@ -1,12 +1,16 @@
-import React, { useRef } from 'react'
+import React, { useRef, useEffect } from 'react'
 import Image from 'next/image'
 import { DIGIFIZZY_S3 } from '@constants/urls'
 import styles from './page1516.module.scss'
 
 const Page1516 = () => {
+  const videoRef = useRef()
+  useEffect(() => {
+    videoRef.current.playbackRate = 0.5
+  }, [])
   return (
     <div className={styles.wrapper}>
-      <video autoPlay muted loop className={styles.video1}>
+      <video autoPlay muted loop className={styles.video1} ref={videoRef}>
         <source
           src={`${DIGIFIZZY_S3}/11/videos/1516_video1.mp4`}
           type='video/mp4'

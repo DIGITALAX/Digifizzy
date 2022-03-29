@@ -1,9 +1,36 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import { DIGIFIZZY_S3 } from '@constants/urls'
 import styles from './page8586.module.scss'
 
-const Page8586 = () => (
+const Page8586 = () => {
+
+  const [images1, setImages1] = useState([])
+  const [images2, setImages2] = useState([])
+
+  useEffect(() => {
+    const fetchContents = async () => {
+      fetch(
+        "https://7kuwlltzmc.execute-api.eu-central-1.amazonaws.com/latest/cc0-images?collection=cc0-test1"
+      )
+        .then((res) => res.json())
+        .then((data) => {
+          setImages1(data?.data.map((item) => item.data));
+        })
+
+      fetch(
+        "https://7kuwlltzmc.execute-api.eu-central-1.amazonaws.com/latest/cc0-images?collection=cc0-test2"
+      )
+        .then((res) => res.json())
+        .then((data) => {
+          setImages2(data?.data.map((item) => item.data));
+        })
+    }
+
+    fetchContents()
+  }, [])
+
+  return (
   <div className={styles.wrapper}>
     <video muted loop autoPlay className={styles.video1}>
       <source
@@ -83,7 +110,81 @@ const Page8586 = () => (
         height={63}
       />
     </div>
+    <section className={styles.section1}>
+      {images1.map((item) => (
+        <div
+          className={styles.sliderItem}
+          key={item.audio || item.image || item.video}
+        >
+          {item.video && (
+            <video autoPlay muted loop className={styles.sliderImage}>
+              <source src={item.video} />
+            </video>
+          )}
+          {item.audio && (
+            <div className={styles.sliderImage}>
+              <img src={item.image} />
+              <Audio src={item.audio} classNames={styles.audio} />
+            </div>
+          )}
+          {!item.audio && item.image && (
+            <img className={styles.sliderImage} src={item.image} />
+          )}
+          <div className={styles.sliderBody}>
+            <p className={styles.sliderTitle}>{item.title}</p>
+            <p className={styles.sliderDescription}>{item.description}</p>
+            <a
+              className={styles.sliderBuyNow}
+              href={item.url}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              View & Collect{" "}
+            </a>
+          </div>
+        </div>
+      ))}
+    </section>
+    
+    <section className={styles.section2}>
+      {images2.map((item) => (
+        <div
+          className={styles.sliderItem}
+          key={item.audio || item.image || item.video}
+        >
+          {item.video && (
+            <video autoPlay muted loop className={styles.sliderImage}>
+              <source src={item.video} />
+            </video>
+          )}
+          {item.audio && (
+            <div className={styles.sliderImage}>
+              <img src={item.image} />
+              <Audio src={item.audio} classNames={styles.audio} />
+            </div>
+          )}
+          {!item.audio && item.image && (
+            <img className={styles.sliderImage} src={item.image} />
+          )}
+          <div className={styles.sliderBody}>
+            <p className={styles.sliderTitle}>{item.title}</p>
+            <p className={styles.sliderDescription}>{item.description}</p>
+            <a
+              className={styles.sliderBuyNow}
+              href={item.url}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              View & Collect{" "}
+            </a>
+          </div>
+        </div>
+      ))}
+    </section>
   </div>
-)
+  )
+}
 
 export default Page8586
