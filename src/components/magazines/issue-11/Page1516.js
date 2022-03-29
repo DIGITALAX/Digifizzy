@@ -16,6 +16,7 @@ const Page1516 = () => {
           type='video/mp4'
         />
       </video>
+      <div className={styles.rect1}></div>
       <div className={styles.text1}>
         Core3D
       </div>
