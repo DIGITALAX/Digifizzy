@@ -76,7 +76,6 @@ export const details = [
         'Models of the Realms CC0 Collaborations Set',
         '0xFloyd',
         'Brian',
-        'Christian Turner',
         '12bnoun',
       ],
       issueIndex: 'Issue Eleven',
@@ -91,7 +90,6 @@ export const details = [
         '/images/nft/11/semi/8.jpg',
         '/images/nft/11/exc/9.png',
         '/images/nft/11/exc/10.png',
-        '/images/nft/11/exc/11.png',
         '/images/nft/11/exc/12.png',
       ],
       body: [
@@ -103,7 +101,6 @@ export const details = [
         'A collection of 3 Digitals of Elsewhere/ Models of the Realms CC0 NFTs, depicting digital and physical GMS models posed within magnetic 3D scenes.',
         'A collection of 3 Digitals of Elsewhere/ Models of the Realms CC0 NFTs, depicting digital and physical GMS models posed within magnetic 3D scenes.',
         'A collection of 3 Digitals of Elsewhere/ Models of the Realms CC0 NFTs, depicting digital and physical GMS models posed within magnetic 3D scenes.',
-        'To pay homage to the often overlooked lionhearts within the web3 community— the devs— we are introducing Web3 Wizards; an ongoing series of on-chain NFT web3 dev characterisations; spotlighting new devs every issue, all designed and minted in-house by DIGITALAX. For this edition of Web3 Wizards we are spotlighting the devs, engineers and teams that are ensuring that our on-ramps to and the railroads within web3 and the metaverse stay accessible, interconnected and open. The Access Agronomists.',
         'To pay homage to the often overlooked lionhearts within the web3 community— the devs— we are introducing Web3 Wizards; an ongoing series of on-chain NFT web3 dev characterisations; spotlighting new devs every issue, all designed and minted in-house by DIGITALAX. For this edition of Web3 Wizards we are spotlighting the devs, engineers and teams that are ensuring that our on-ramps to and the railroads within web3 and the metaverse stay accessible, interconnected and open. The Access Agronomists.',
         'To pay homage to the often overlooked lionhearts within the web3 community— the devs— we are introducing Web3 Wizards; an ongoing series of on-chain NFT web3 dev characterisations; spotlighting new devs every issue, all designed and minted in-house by DIGITALAX. For this edition of Web3 Wizards we are spotlighting the devs, engineers and teams that are ensuring that our on-ramps to and the railroads within web3 and the metaverse stay accessible, interconnected and open. The Access Agronomists.',
         'To pay homage to the often overlooked lionhearts within the web3 community— the devs— we are introducing Web3 Wizards; an ongoing series of on-chain NFT web3 dev characterisations; spotlighting new devs every issue, all designed and minted in-house by DIGITALAX. For this edition of Web3 Wizards we are spotlighting the devs, engineers and teams that are ensuring that our on-ramps to and the railroads within web3 and the metaverse stay accessible, interconnected and open. The Access Agronomists.'
