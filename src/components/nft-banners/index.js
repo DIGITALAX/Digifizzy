@@ -178,9 +178,9 @@ const NftBanners = () => (
 
       <div className={s.firstBanner}>
         <img src="images/nft/11/1.jpg" />
-        <Link href="/unlockable/">
+        {/* <Link href="/unlockable/">
           <a className={s.viewBundles}> VIEW BUNDLES </a>
-        </Link>
+        </Link> */}
       </div>
       <img src="images/nft/11/2.jpg" />
       <img src="images/nft/11/3.jpg" />
