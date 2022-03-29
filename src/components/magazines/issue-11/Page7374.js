@@ -131,7 +131,7 @@ const Page7374 = () => {
 
     <audio ref={refAudio2} loop>
       <source
-        src={`${DIGIFIZZY_S3}/11/sounds/7374_sound1.mp3`}
+        src={`${DIGIFIZZY_S3}/11/sounds/7374_sound2.mp3`}
         type='audio/mp3'
       />
     </audio>
