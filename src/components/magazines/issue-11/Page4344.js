@@ -18,7 +18,7 @@ const Page4344 = () => (
     <div className={styles.text2}>
       <a
         className={styles.link1}
-        href='https://models.digitalax.xyz/models/Mark%20Everett/'
+        href='https://models.digitalax.xyz/models/Mona%20Vir/'
         target='_blank'
       >
         Mona
@@ -26,7 +26,7 @@ const Page4344 = () => (
       {` & `}
       <a
         className={styles.link2}
-        href='https://models.digitalax.xyz/models/Que/'
+        href='https://models.digitalax.xyz/models/ABigNeonGlitter/'
         target='_blank'
       >
         ABigNeonGlitter.

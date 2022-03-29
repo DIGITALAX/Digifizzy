@@ -47,7 +47,7 @@ const Page7172 = () => (
     </div>
 
     <div className={styles.text9}>
-      DIGITAL FASHION NEON COLLECTIBLE SERIES 
+      CC0 CYPHERPUNK SERIES CYPHER SIGNET RING       
     </div>
 
     <div className={styles.image2}>

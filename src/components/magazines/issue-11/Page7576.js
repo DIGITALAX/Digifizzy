@@ -32,10 +32,10 @@ const Page7576 = () => {
 
     <div className={styles.rect1}>
     </div>
-    <div className={styles.rect2}>
+    {/* <div className={styles.rect2}>
     </div>
     <div className={styles.rect3}>
-    </div>
+    </div> */}
 
     <div className={styles.text1}>
       Camps are cohorted experiments that are run twice a year at Songcamp. Akin to the smushing together of a songwriting camp + web3 hackathon, each camp takes a group of curated artists through an immersive journey of play and experimentation at the far out edges of music + the new internet.

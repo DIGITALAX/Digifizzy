@@ -18,7 +18,7 @@ const Page4546 = () => (
     <div className={styles.text2}>
       <a
         className={styles.link1}
-        href='https://models.digitalax.xyz/models/Mark%20Everett/'
+        href='https://models.digitalax.xyz/models/p4dee_01/'
         target='_blank'
       >
         P4DEE_01
@@ -26,7 +26,7 @@ const Page4546 = () => (
       {` & `}
       <a
         className={styles.link2}
-        href='https://models.digitalax.xyz/models/Que/'
+        href='https://models.digitalax.xyz/models/NEMO%20BURNS/'
         target='_blank'
       >
         NEMO BURNS.

@@ -2,14 +2,25 @@
 
 .wrapper {
   @include magazineWrapper();
-  background-color: white;
+  background-color: black;
 
-  .background {
+  .imageBackground {
     position: absolute;
     width: 1920px;
     height: 1497px;
     left: 0px;
     top: 0px;
+    object-fit: cover;
+  }
+
+  a {
+    color: white;
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      color: white;
+      text-decoration: underline;
+    }
   }
 
   .text1 {
@@ -24,8 +35,8 @@
     font-weight: 400;
     font-size: 40px;
     line-height: 33px;
-    color: #146A2C;
-    -webkit-text-stroke: 0.5 #146A2C;
+    color: white;
+    -webkit-text-stroke: 0.5 white;
   }
 
   .text2 {
@@ -40,7 +51,7 @@
     font-weight: 500;
     font-size: 35px;
     line-height: 16px;
-    color: #146A2C;
-    -webkit-text-stroke: 0.5 #146A2C;
+    color: white;
+    -webkit-text-stroke: 0.5 white;
   }
 }

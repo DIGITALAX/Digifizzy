@@ -32,7 +32,7 @@ const Page4142 = () => (
     <div className={styles.text3}>
       <a
         className={styles.link1}
-        href='https://models.digitalax.xyz/models/Mark%20Everett/'
+        href='https://models.digitalax.xyz/models/vihka/'
         target='_blank'
       >
         Vihka
@@ -40,7 +40,7 @@ const Page4142 = () => (
       {` & `}
       <a
         className={styles.link2}
-        href='https://models.digitalax.xyz/models/Que/'
+        href='https://models.digitalax.xyz/models/M%C3%98d3xX/'
         target='_blank'
       >
         MØD3XX.

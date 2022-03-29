@@ -53,7 +53,7 @@ const Page6768 = () => (
     </a>
     <a
       className={styles.image7}
-      href='https://github.com/sindresorhus/awesome'
+      href='https://poignant.guide/book/chapter-1.html'
       target='_blank'
     >
       <Image
@@ -64,7 +64,7 @@ const Page6768 = () => (
     </a>
     <a
       className={styles.image6}
-      href='https://poignant.guide/book/chapter-1.html'
+      href='https://github.com/sindresorhus/awesome'
       target='_blank'
     >
       <Image
