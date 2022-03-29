@@ -1,0 +1,234 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: white;
+  color: white;
+  display: flex;
+  position: relative;
+
+  .video1 {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 1973px;
+    height: 1517px;
+    left: -49px;
+    top: 1px;
+    
+    background: rgba(0, 0, 0, 0.4);    
+  }
+
+  h1 {
+    position: absolute;
+    width: 1331px;
+    height: 400px;
+    left: 294px;
+    top: 590px;
+
+    font-family: Heaven Wanders DEMO;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 200px;
+    line-height: 100%;
+    /* or 200px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+
+  .imageEarth {
+    position: absolute;
+    width: 116px;
+    height: 423px;
+    left: 903px;
+    top: 1074px;
+  }
+
+  .middleLine1 {
+    position: absolute;
+    width: 0px;
+    height: 515px;
+    left: 960px;
+    top: 0px;
+
+    border: 1px solid #FFFFFF;
+  }
+
+  .middleLine2 {
+    position: absolute;
+    width: 0px;
+    height: 423px;
+    left: 960px;
+    top: 1074px;
+    
+    border: 0.5px solid #FFFFFF;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 965px;
+    height: 298px;
+    left: 955px;
+    top: 0px;    
+  }
+
+  .image2 {
+    position: absolute;
+    width: 903px;
+    height: 299px;
+    left: 0px;
+    top: 1199px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 867px;
+    height: 299px;
+    left: 1053px;
+    top: 1199px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 839px;
+    height: 227px;
+    left: 55px;
+    top: 30px;
+    
+    font-family: 'BROKENZ';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 100%;
+    color: #FFFFFF;    
+  }
+
+  .text2 {
+    position: absolute;
+    width: 879px;
+    height: 360px;
+    left: 55px;
+    top: 268px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 120.53%;
+    color: #FFFFFF;   
+  }
+
+  .text3 {
+    position: absolute;
+    width: 452px;
+    height: 228px;
+    left: 55px;
+    top: 600px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 120.53%;
+    color: #FFFFFF;    
+  }
+
+  .text4 {
+    position: absolute;
+    width: 632px;
+    height: 228px;
+    left: 55px;
+    top: 823px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 120.53%;
+    color: #FFFFFF;    
+  }
+
+  .text5 {
+    position: absolute;
+    width: 818px;
+    height: 228px;
+    left: 55px;
+    top: 991px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 120.53%;
+    color: #FFFFFF;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 879px;
+    height: 280px;
+    left: 1001px;
+    top: 285px;
+    
+    font-family: 'Reem Kufi';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120.53%;
+    color: #FFFFFF;    
+  }
+
+  .text7 {
+    position: absolute;
+    width: 440px;
+    height: 158px;
+    left: 1440px;
+    top: 600px;
+    
+    font-family: 'Revalia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120.53%;
+    color: #FFFFFF;
+  }
+
+  .text8 {
+    position: absolute;
+    width: 616px;
+    height: 360px;
+    left: 1264px;
+    top: 802px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 120.53%;
+    color: #FFFFFF;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 841px;
+    height: 360px;
+    left: 1053px;
+    top: 971px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 120.53%;
+    color: #FFFFFF;    
+  }
+}

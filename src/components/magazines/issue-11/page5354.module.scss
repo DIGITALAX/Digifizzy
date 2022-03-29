@@ -1,0 +1,39 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: #FFFFFF;
+
+  .imageBackground {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+    object-fit: cover;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 246px;
+    height: 246px;
+    left: 42px;
+    top: 41px;    
+  }
+
+  .image2 {
+    position: absolute;
+    width: 246px;
+    height: 246px;
+    left: 262px;
+    top: 152px;    
+  }
+
+  a {
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(0.9);
+    }
+  }
+}

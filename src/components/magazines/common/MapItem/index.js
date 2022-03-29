@@ -16,7 +16,7 @@ const MapItem = (props) => {
   const getPagePreview = (issueId, pageNum) => {
     const issueNumber = parseFloat(issueId)
     if (
-      issueNumber < 1 || issueNumber > 10
+      issueNumber < 1 || issueNumber > 11
     ) return <></>
     return (
       <WebPageWrapper secondPart={(pageNum + (pageNum > 0)) % 2} zoom={0.15}>

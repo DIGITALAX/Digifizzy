@@ -1,0 +1,138 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+
+  .rect1 {
+    position: absolute;
+    width: 86px;
+    height: 1665px;
+    left: 917px;
+    top: -140px;
+    
+    background: #FFE600;    
+  }
+
+  .image1 {
+    position: absolute;
+    width: 1920px;
+    height: 1178px;
+    left: 0px;
+    top: 311px;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 807px;
+    height: 1497px;
+    left: 556px;
+    top: 0px;    
+  }
+
+  .text1 {
+    position: absolute;
+    width: 703px;
+    height: 820px;
+    left: 83px;
+    top: 70px;
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120.53%;
+    color: #000000;    
+  }
+
+  .text2 {
+    position: absolute;
+    width: 374px;
+    height: 820px;
+    left: 418px;
+    top: 325px;
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120.53%;
+    color: #000000;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 304px;
+    height: 252px;
+    left: 564px;
+    top: 538px;
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120.53%;
+    color: #000000;    
+  }
+
+  .text4 {
+    position: absolute;
+    width: 304px;
+    height: 72px;
+    left: 631px;
+    top: 684px;
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120.53%;
+    color: #000000;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 214px;
+    height: 360px;
+    left: 27px;
+    top: 593px;
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120.53%;
+    color: #000000;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 674px;
+    height: 208px;
+    left: 1156px;
+    top: 70px;
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120.53%;
+    color: #000000;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 317px;
+    height: 208px;
+    left: 1156px;
+    top: 289px;
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120.53%;
+    color: #000000;
+  }
+}

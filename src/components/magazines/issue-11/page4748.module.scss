@@ -1,0 +1,46 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: white;
+
+  .background {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 505px;
+    height: 74px;
+    left: 70px;
+    top: 1282px;
+    
+    font-family: Sansita One;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 33px;
+    color: #146A2C;
+    -webkit-text-stroke: 0.5 #146A2C;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 473px;
+    height: 34px;
+    left: 70px;
+    top: 1380px;
+    
+    font-family: 'Sunflower';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 16px;
+    color: #146A2C;
+    -webkit-text-stroke: 0.5 #146A2C;
+  }
+}

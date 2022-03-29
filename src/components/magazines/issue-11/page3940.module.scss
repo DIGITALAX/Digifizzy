@@ -1,0 +1,244 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+
+  .imageBackground {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;    
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 575px;
+    height: 230px;
+    left: 365px;
+    top: 159px;
+    
+    background: rgba(213, 134, 67, 0.85);
+    border-radius: 82px;    
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 804px;
+    height: 349px;
+    left: 1068px;
+    top: 52px;
+    
+    background: rgba(213, 134, 67, 0.85);
+    border-radius: 82px;
+  }
+
+  .rect3 {
+    position: absolute;
+    width: 520px;
+    height: 404px;
+    left: 1352px;
+    top: 471px;
+    
+    background: rgba(213, 134, 67, 0.85);
+    border-radius: 82px;
+  }
+
+  .rect4 {
+    position: absolute;
+    width: 575px;
+    height: 315px;
+    left: 368px;
+    top: 1114px;
+    
+    background: rgba(213, 134, 67, 0.85);
+    border-radius: 82px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 538px;
+    height: 180px;
+    left: 383px;
+    top: 184px;
+    
+    font-family: 'Lexend Exa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    -webkit-text-stroke: 0.5px #FFFFFF;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 765px;
+    height: 286px;
+    left: 1081px;
+    top: 81px;
+    
+    font-family: 'Lexend Exa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+
+    text-align: center;
+    color: #FFFFFF;
+    -webkit-text-stroke: 0.5px #FFFFFF;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 454px;
+    height: 286px;
+    left: 1385px;
+    top: 501px;
+
+    font-family: 'Lexend Exa';
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #FFFFFF;
+    -webkit-text-stroke: 0.5px #FFFFFF;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 549px;
+    height: 286px;
+    left: 381px;
+    top: 1143px;
+    
+    font-family: 'Lexend Exa';
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    -webkit-text-stroke: 0.5px #FFFFFF;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 542px;
+    height: 74px;
+    left: 72px;
+    top: 53px;
+    
+    font-family: 'Sansita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 33px;
+
+    color: #FFFFFF;
+    -webkit-text-stroke: 0.5px #FFFFFF;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 542px;
+    height: 74px;
+    left: 1341px;
+    top: 1032px;
+    
+    font-family: 'Sansita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 33px;
+    
+    color: #FFFFFF;
+    -webkit-text-stroke: 0.5px #FFFFFF;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 692px;
+    height: 694px;
+    left: 619px;
+    top: 401px;    
+  }
+
+  .image2 {
+    position: absolute;
+    width: 297px;
+    height: 297px;
+    left: 27px;
+    top: 164px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 297px;
+    height: 297px;
+    left: 27px;
+    top: 507px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 297px;
+    height: 297px;
+    left: 27px;
+    top: 850px;
+  }
+
+  .image5 {
+    position: absolute;
+    width: 297px;
+    height: 297px;
+    left: 27px;
+    top: 1157px;
+  }
+
+  .image6 {
+    position: absolute;
+    width: 252px;
+    height: 252px;
+    left: 343px;
+    top: 412px;
+  }
+
+  .image7 {
+    position: absolute;
+    width: 252px;
+    height: 252px;
+    left: 343px;
+    top: 724px;
+  }
+
+  .imagePlayButton {
+    position: absolute;
+    width: 252px;
+    height: 252px;
+    left: 1279px;
+    top: 1152px;    
+  }
+
+  .imagePauseButton {
+    position: absolute;
+    width: 252px;
+    height: 252px;
+    left: 1588px;
+    top: 1152px;
+  }
+
+  a {
+    transition: 0.3s all;
+    cursor: pointer;
+
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.05);
+    }
+  }
+}

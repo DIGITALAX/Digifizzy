@@ -1,0 +1,180 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper(); 
+  background: black;
+
+  .video1 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
+    top: 0px;
+    object-fit: cover;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(180deg, #FF2E2E 0%, #4AFFF6 46.88%, #FEC1F2 84.37%);    
+  }
+
+  .image1 {
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    left: 0px;
+    top: 28px;    
+  }
+
+  .image2 {
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    left: 480px;
+    top: 508px;    
+  }
+
+  .image3 {
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    left: 0px;
+    top: 988px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 216px;
+    height: 216px;
+    left: 571px;
+    bottom: 183px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 419px;
+    height: 200px;
+    left: 535px;
+    top: 28px;
+    
+    font-family: 'Knewave';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+    color: #CCCCCC;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 419px;
+    height: 200px;
+    left: 535px;
+    top: 237px;
+    
+    font-family: 'Knewave';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+
+    color: rgba(204, 204, 204, 0.54);
+  }
+
+  .text3 {
+    position: absolute;
+    width: 411px;
+    height: 200px;
+    left: 34px;
+    top: 575px;
+    
+    font-family: 'K2D';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+
+    color: #F4B2DB;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 411px;
+    height: 40px;
+    left: 509px;
+    top: 1033px;
+    
+    font-family: 'K2D';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    color: #F4B2DB;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 830px;
+    height: 120px;
+    left: 1010px;
+    top: 126px;
+    
+    font-family: 'K2D';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    
+    text-align: right;
+    
+    color: #F4B2DB;
+  }
+
+  .imagePlayButton {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    left: 640px;
+    top: 1339px;
+  }
+
+  .imagePauseButton {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    left: 795px;
+    top: 1339px;
+  }
+
+  a {
+    transition: 0.3s all;
+    cursor: pointer;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
+  }
+
+  .imagePlayButton2 {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    left: 1557px;
+    top: 273px;
+  }
+
+  .imagePauseButton2 {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    left: 1712px;
+    top: 273px;
+  }
+}

@@ -1,0 +1,97 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: black;
+
+  .imageBackground1 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .imageBackground2 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
+    top: 0px;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    left: 29px;
+    top: -43px;    
+  }
+
+  .image2 {
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    left: 29px;
+    top: 117px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 1140px;
+    height: 881px;
+    left: 960px;
+    top: 1090px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 545px;
+    height: 426px;
+    left: 375px;
+    top: 54px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    
+    color: #810909;
+    -webkit-text-stroke: 0.4px #FF0A11;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 861px;
+    height: 1036px;
+    left: 52px;
+    top: 379px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    
+    color: #810909;
+    -webkit-text-stroke: 0.4px #FF0A11;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 757px;
+    height: 1036px;
+    left: 1076px;
+    top: 54px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    
+    color: #810909;
+    -webkit-text-stroke: 0.4px #FF0A11;
+  }
+}

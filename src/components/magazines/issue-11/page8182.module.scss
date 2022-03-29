@@ -1,0 +1,120 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: #FFFFFF;
+
+  .imageBackground {
+    width: 1920px;
+    height: 1497px;
+    left: 0;
+    top: 0;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 835px;
+    height: 1172px;
+    left: 49px;
+    top: 267px;
+    
+    background: #000000;    
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 835px;
+    height: 1379px;
+    left: 1035px;
+    top: 60px;
+    
+    background: #000000;
+  }
+
+  .text1Shadow {
+    position: absolute;
+    width: 763px;
+    height: 170px;
+    left: 30px;
+    top: 34px;
+    
+    font-family: 'Poller One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 85px;
+    
+    color: #000000;
+    -webkit-text-stroke: 10px #FFDD3D;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 763px;
+    height: 170px;
+    left: 30px;
+    top: 34px;
+    
+    font-family: 'Poller One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 85px;
+    
+    color: #000000;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 707px;
+    height: 136px;
+    left: 113px;
+    top: 310px;
+    
+    font-family: 'Newsreader';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    -webkit-text-stroke: 0.3px #844AFF;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 707px;
+    height: 852px;
+    left: 113px;
+    top: 480px;
+    
+    font-family: 'Newsreader';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    -webkit-text-stroke: 0.3px #844AFF;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 707px;
+    height: 1255px;
+    left: 1099px;
+    top: 119px;
+    
+    font-family: 'Newsreader';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    -webkit-text-stroke: 0.3px #844AFF;
+  }
+}

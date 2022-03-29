@@ -1,0 +1,145 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: black;
+
+  .rect1 {
+    position: absolute;
+    width: 1153px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+    
+    background: #FF0000;    
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 16px;
+    height: 1271px;
+    left: 944px;
+    top: 0px;
+    
+    background: #14FF00;
+  }
+
+  .rect3 {
+    position: absolute;
+    width: 104px;
+    height: 1271px;
+    left: 1049px;
+    top: 0px;
+    
+    background: #14FF00;
+  }
+
+  .rect4 {
+    position: absolute;
+    width: 960px;
+    height: 105px;
+    left: 960px;
+    top: 1271px;
+    
+    background: #33CEFF;
+    transform-origin: 0 0;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+
+  .rect5 {
+    position: absolute;
+    width: 960px;
+    height: 105px;
+    left: 960px;
+    top: 1392px;
+    
+    background: #33CEFF;
+    transform-origin: 0 0;
+    transform: matrix(-1, 0, 0, 1, 0, 0);    
+  }
+
+  .rect6 {
+    position: absolute;
+    width: 191px;
+    height: 1271px;
+    left: 1190px;
+    top: 0px;
+    
+    background: #14FF00;
+  }
+
+  .rect7 {
+    position: absolute;
+    width: 767px;
+    height: 105px;
+    left: 1920px;
+    top: 1271px;
+    
+    background: #33CEFF;
+    transform-origin: 0 0;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+
+  .rect8 {
+    position: absolute;
+    width: 767px;
+    height: 105px;
+    left: 1920px;
+    top: 1392px;
+    
+    background: #33CEFF;
+    transform-origin: 0 0;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+
+  .text1 {
+    position: absolute;
+    width: 716px;
+    height: 164px;
+    left: 59px;
+    top: 48px;
+    
+    font-family: 'Knewave';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 100%;
+    /* or 70px */
+    
+    
+    color: #33B384;
+    -webkit-text-stroke: 3px #660000;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 864px;
+    height: 1292px;
+    left: 59px;
+    top: 233px;
+    
+    font-family: 'THIS FONT IS EMPTY1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #FFFFFF;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 394px;
+    height: 1107px;
+    left: 1446px;
+    top: 53px;
+    
+    font-family: 'THIS FONT IS EMPTY1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #FFFFFF;
+  }
+}

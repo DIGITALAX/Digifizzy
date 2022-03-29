@@ -1,0 +1,261 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  color: white;
+  display: flex;
+  position: relative;
+  background-color: #000000;
+
+  .imageBackground {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .imageIssueNo {
+    position: absolute;
+    width: 239px;
+    height: 264.79px;
+    left: 20px;
+    top: 0px; 
+  }
+
+  .text1 {
+    position: absolute;
+    width: 510px;
+    height: 144px;
+    left: 303px;
+    top: 42px;
+    
+    font-family: 'Odibee Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 120%;
+    color: #9DFFCA;
+    
+    -webkit-text-stroke: 3px #1700A4;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .text2 {
+    position: absolute;
+    width: 382px;
+    height: 237px;
+    left: 270px;
+    top: 773px;
+
+    font-family: 'Baloo Chettan 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 100%;
+    color: #FF46E1;
+    text-shadow: -1px 1px #000000, -1px -1px #000000, 1px -1px #000000, 1px 1px #000000;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 43px;
+    height: 853px;
+    left: 40px;
+    top: 616px;
+    
+    font-family: 'Ander Hedge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 70px;
+    word-break: break-all;
+
+    color: #418DFF;
+    -webkit-text-stroke: 2px #FFD600;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 559px;
+    height: 358px;
+    left: 315px;
+    top: 197px;
+    
+    font-family: 'Lexend Peta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 120%;
+    color: #FFA800;
+    -webkit-text-stroke: 3px #1700A4;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .text4Shadow {
+    position: absolute;
+    width: 559px;
+    height: 358px;
+    left: 303px;
+    top: 195px;
+    
+    font-family: 'Lexend Peta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 120%;
+    color: #FAFF00;
+    
+    -webkit-text-stroke: 3px #1700A4;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .text5 {
+    position: absolute;
+    width: 700px;
+    height: 151px;
+    left: 108px;
+    top: 1458px;
+    
+    font-family: Boldfinger;
+    font-size: 56px;
+    line-height: 50px;
+    color: #FFD954;
+    
+    text-shadow: -1px -1px #005CE7, -1px 1px #005CE7, 1px -1px #005CE7, 1px 1px #005CE7;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+  }
+
+  .text6 {
+    position: absolute;
+    width: 438px;
+    height: 103px;
+    left: 270px;
+    top: 940px;
+
+    font-family: 'Thasadith';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 100%;
+
+    color: #FF0000;
+    text-shadow: -2px -2px #AAFF3E, -2px 2px #AAFF3E, 2px -2px #AAFF3E, 2px 2px #AAFF3E;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 445px;
+    height: 223px;
+    left: 270px;
+    top: 1084px;
+    
+    font-family: Barrio;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 79px;
+    
+    color: #FFFFFF;
+    -webkit-text-stroke: 3px #FFA51E;
+  }
+
+  .text8 {
+    position: absolute;
+    width: 409px;
+    height: 270px;
+    left: 270px;
+    top: 1260px;
+    
+    font-family: Kumar One;
+    font-size: 50px;
+    line-height: 40px;
+    color: #D376FF;
+    
+    -webkit-text-stroke: 1px #FF5C00;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 47px;
+    height: 648px;
+    left: 787px;
+    top: 800px;
+    
+    font-family: Internal Rainbows;
+    font-size: 60px;
+    line-height: 120.53%;
+    word-break: break-all;
+    color: #B38FFF;
+  }
+
+  .text10 {
+    position: absolute;
+    width: 47px;
+    height: 648px;
+    left: 793px;
+    top: 800px;
+    
+    font-family: Internal Rainbows;
+    font-size: 60px;
+    line-height: 120.53%;
+    word-break: break-all;
+    color: #00FFB2;
+  }
+
+  .text11 {
+    position: absolute;
+    width: 47px;
+    height: 648px;
+    left: 802px;
+    top: 800px;
+    
+    font-family: Internal Rainbows;
+    font-size: 60px;
+    line-height: 120.53%;
+    word-break: break-all;
+    color: #FFF850;
+  }
+
+  .text12 {
+    position: absolute;
+    width: 13px;
+    height: 342.82px;
+    left: 870px;
+    top: 1010px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 120.53%;
+    text-align: center;
+    
+    word-break: break-all;
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(241, 241, 241, 0.25), 0px 4px 4px rgba(211, 211, 211, 0.25), 0px 4px 4px rgba(255, 255, 255, 0.25), 0px 4px 4px rgba(255, 255, 255, 0.25);
+  }
+
+  .text13 {
+    position: absolute;
+    width: 13px;
+    height: 427px;
+    left: 874px;
+    top: 1010px;
+    
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 120.53%;
+    text-align: center;
+    word-break: break-all;
+    color: #FAFF16;
+
+    text-shadow: 0px 4px 4px rgba(241, 241, 241, 0.25), 0px 4px 4px rgba(211, 211, 211, 0.25), 0px 4px 4px rgba(255, 255, 255, 0.25), 0px 4px 4px rgba(255, 255, 255, 0.25);
+  }
+}
+

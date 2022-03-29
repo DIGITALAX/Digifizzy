@@ -1,0 +1,276 @@
+@import './styles.module.scss';
+
+@keyframes scrolling {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-602px); }
+}
+
+.wrapper {
+  @include magazineWrapper();
+  color: black;
+  display: flex;
+  position: relative;
+  background-color: #000000;
+
+  .background {
+    position: absolute;
+    width: 1618px;
+    height: 1497px;
+    left: 155px;
+    top: 0px;
+  }
+
+  .leftSideFrame {
+    position: absolute;
+    width: 149px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+    background-color: #D4C21C;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+  }
+
+  .rightSideFrame {
+    position: absolute;
+    width: 152px;
+    height: 1497px;
+    left: 1768px;
+    top: 0px;
+    background-color:#D4C21C;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+  }
+
+  .animationFrame {
+    animation: scrolling 4s linear infinite;
+  }
+
+
+  .leftSideImageWrapper {
+    position: absolute;
+    width: 92.28px;
+    left: 31px;
+    top: 36px;
+  }
+
+  .rightSideImageWrapper {
+    position: absolute;
+    width: 83px;
+    height: 1660px;
+    right: 31px;
+    top: 36px;
+  }
+
+  a {
+
+  }
+
+  .gradient {
+    animation-duration: 1.8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #9c9c9c;
+    background: linear-gradient(to right, #9c9c9c 8%, #f4f4f4 38%, #9c9c9c 54%);
+    background-size: 1000px 640px;
+  
+  }
+
+  @keyframes placeHolderShimmer{
+    0%{
+      background-position: -468px 0
+    }
+    100%{
+      background-position: 468px 0
+    }
+  }
+
+  .text1 {
+    position: absolute;
+    width: 681px;
+    height: 80px;
+    left: 214px;
+    top: 50px;
+    
+    font-family: 'THE AMAZING SPIDER-MAN';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+    
+    color: #FFFFFF;
+
+    transition: 0.3s all;
+    &:hover {
+      transform: scale(0.9);
+      transition: 0.3s all;
+    }
+  }
+
+  .text2 {
+    position: absolute;
+    width: 346px;
+    height: 230px;
+    left: 214px;
+    top: 159px;
+    
+    font-family: 'Reenie Beanie';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 23px;
+    
+    color: #FFFFFF;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 218px;
+    height: 253px;
+    left: 214px;
+    top: 389px;
+    
+    font-family: 'Reenie Beanie';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 23px;
+    
+    color: #FFFFFF;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 410px;
+    height: 738px;
+    left: 214px;
+    top: 663px;
+    
+    font-family: 'Reenie Beanie';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 23px;
+    
+    color: #FFFFFF;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 346px;
+    height: 142px;
+    left: 1374px;
+    top: 21px;
+    
+    font-family: 'Reenie Beanie';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 23px;
+    
+    color: #FFFFFF;
+    
+  }
+
+  .text6 {
+    position: absolute;
+    width: 354px;
+    height: 115px;
+    left: 1374px;
+    top: 185px;
+    
+    font-family: 'Reenie Beanie';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 23px;
+    
+    color: #FFFFFF;
+        
+  }
+
+  .text7 {
+    position: absolute;
+    width: 245px;
+    height: 207px;
+    left: 1475px;
+    top: 340px;
+    
+    font-family: 'Reenie Beanie';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 23px;
+    
+    color: #FFFFFF;
+    
+  }
+
+  .text8 {
+    position: absolute;
+    width: 245px;
+    height: 115px;
+    left: 1475px;
+    top: 548px;
+    
+    font-family: 'Reenie Beanie';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 23px;
+    
+    color: #FFFFFF;
+    
+  }
+
+  .text9 {
+    position: absolute;
+    width: 381px;
+    height: 69px;
+    left: 1339px;
+    top: 664px;
+    
+    font-family: 'Reenie Beanie';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 23px;
+    
+    color: #FFFFFF;
+    
+  }
+
+  .text10 {
+    position: absolute;
+    width: 432px;
+    height: 161px;
+    left: 1296px;
+    top: 749px;
+    
+    font-family: 'Reenie Beanie';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 23px;
+    
+    color: #FFFFFF;    
+  }
+
+  .text11 {
+    position: absolute;
+    width: 406px;
+    height: 552px;
+    left: 1324px;
+    top: 926px;
+    
+    font-family: 'Reenie Beanie';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 23px;
+    
+    color: #FFFFFF;
+  }
+}
