@@ -23,7 +23,7 @@ const Page99100 = () => {
         <br /><br />
         Designer Realms are launching their open sourced custom interfaces with direct connection to Rarible x DIGITALAX global orderbook and liquidity pool smart contracts. Just like how the mycelial networks underpinning the growth of individual mushroom caps throughout a forest are hyperconnected under the forest floor, yet also independantly distinct, so is the combination of modular interfaces with shared smart contract stacks. 
         <br /><br />
-        The custom interfaces also represent a designer’s stake in the ground and realm perimeterised metaverse tettitory. Network effects do best when blending the balance between individual agency and network support. 
+        The custom interfaces also represent a designer’s stake in the ground and realm perimeterised metaverse territory. Network effects do best when blending the balance between individual agency and network support. 
         <br /><br />
         Beyond the technical, the coolest thing about these custom interfaces is how exciting it will be to see how many different aesthetic takes will take route and bloom. 
       </div>

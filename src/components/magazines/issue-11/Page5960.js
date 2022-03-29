@@ -31,7 +31,7 @@ const Page5960 = () => {
       <div className={styles.text1}>TSM Keaiduo</div>
       <div className={styles.text2}>E-SPORTS RISING STAR OF THE MONTH</div>
       <div className={styles.text3}>
-        Keaiduo is relatively new to the main stage before and came to North America this year with only a year of competitive experience under his belt. Throughout 2021, Keaiduo played for ThunderTalk Gaming Young in the League Development League, the secondary LOL league in China. Fans will have to wait until the official start of the 2022 Spring Split to see Keaiduo debut, however, his current position gives him ample opportunity to shine. 
+        Keaiduo is relatively new to the main stage and came to North America this year with only a year of competitive experience under his belt. Throughout 2021, Keaiduo played for ThunderTalk Gaming Young in the Development League, the secondary LOL league in China. Fans will have to wait until the official start of the 2022 Spring Split to see Keaiduo debut, however, his current position gives him ample opportunity to shine. 
       </div>
       <div className={styles.text4}>metaverse ready score: 6</div>
       <div className={styles.text5}>Shotzzy</div>
@@ -51,7 +51,7 @@ const Page5960 = () => {
       <div className={styles.text11}>
         shame that many of the innocent broader population of Russia experiences so much of the harsh reality and consequences to their everyday life. 
         <br /><br />
-        It makes it all the more obvious and apparent how beyond necessary it is to decentralise the master switch to our own lives to every individual globally.             
+        It makes it all the more obvious and apparent how beyond necessary it is to decentralise the master switch to our own lives to every individual globally.
       </div>
       <div className={styles.text12}>Misfits and tezos partnership</div>
       <div className={styles.text13}>

@@ -54,10 +54,10 @@ const Page9394 = () => {
       <div className={styles.text1}>
         “Ruby is simple in appearance, but is very complex inside, just like our human body”
         <br />
-        -Matz        
+        -Matz
       </div>
       <div className={styles.text2}>
-        In the early stages of web2, before it all went to shit, the most paradigmatic subculture was the Ruby Community. These Rubyists were very distinct from many of the more traditional corporate and academic minded programmers found elsewhere. They genuinely saw code for what it is; poetry, art and a plenty of memes. 
+        In the early stages of web2, before it all went to shit, the most paradigmatic subculture was the Ruby Community. These Rubyists were very distinct from many of the more traditional corporate and academic minded programmers found elsewhere. They genuinely saw code for what it is; poetry, art and plenty of memes. 
       </div>
       <div className={styles.text3}>
         They actively embraced the open welcoming of newcomers, without the hostilty found on many online forums dedicated to other languages, where in conventional settings it was common to get a reaction of RTFM when asking questions. Rubyists actively countered this with extensive encouragment to ask more questions, get more involved and remembering what it was like to be a novice once too.
@@ -69,7 +69,7 @@ const Page9394 = () => {
         One of the most poignant Rubyist was _why. A semi-pseudonymous voice within the developer community who went by the call sign, _why. 
       </div>
       <div className={styles.text6}>
-        His contributions to open source knowledge, access, on-ramps and skills enhancement was tremendous. Everything from wise guides to on the fly indie music, he disappeared August 9th 2009, but his legacy lives on.         
+        His contributions to open source knowledge, access, on-ramps and skills enhancement was tremendous. Everything from wise guides to on the fly indie music, he disappeared August 9th 2009, but his legacy lives on. 
       </div>
       <div className={styles.text7}>
         So, why a page on _why and other Rubyists? Well, it’s really simple. The hacker ethic. 

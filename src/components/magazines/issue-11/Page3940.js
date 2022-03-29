@@ -33,22 +33,22 @@ const Page3940 = () => {
       <div className={styles.rect4}></div>
 
       <div className={styles.text1}>
-        I have been writing and making music since 2002, 20 Years! I started writing raps and making beats for my friends in high school. In 2003, I joined a rap group (3CD) with some of my friends and we released over 100 songs, 5 mixtapes and 2 albums. In 2005 I attended University for a Music Technology degree. Through my college years I continued to release music with 3CD as well as music on my own.         
+        I have been writing and making music since 2002, 20 Years! I started writing raps and making beats for my friends in high school. In 2003, I joined a rap group (3CD) with some of my friends and we released over 100 songs, 5 mixtapes and 2 albums. In 2005 I attended University for a Music Technology degree. Through my college years I continued to release music with 3CD as well as music on my own.
       </div>
       <div className={styles.text2}>
-        The music industry has been stagnant and held captive to the mercy of digital streaming services. Web3 places the artist and the art back in the control of the creators... It is the future and I’m so excited about the possibilities. Imagine being able to reach your fan in a more intimate level while also making them a part of the creative process... mind-blowing!
+        The music industry has been stagnant and held captive to the mercy of digital streaming services. Web3 places the artist and the art back in the control of the creators... It is the future and I’m so excited about the possibilities. Imagine being able to reach your fans in a more intimate level whilst also making them a part of the creative process... mind-blowing!
         <br /><br />
-        I have not released a NFT track yet! I have the perfect song to release but I would like the timing to be perfect. May 20th is the date I have my heart set on, but I will be announcing very soon... hopefully it will be on this platform. The process for creating NFT drops is completely raw. It’s like you’re a chef who typically cooks buffet style, but now you get to prepare a 5 course meal for a more invested smaller group... it’s more intimate!
+        I have not released an NFT track yet! I have the perfect song to release but I would also like the timing to be perfect. May 20th is the date I have my heart set on, but I will be announcing very soon.... The process for creating NFT drops is completely raw. It’s like you’re a chef who typically cooks buffet style, but now you get to prepare a 5 course meal for a more invested smaller group... it’s more intimate!
       </div>
       <div className={styles.text3}>
         My single “IPRAY” releases March 28th on all digital streaming platforms. I would love the community to follow my social media accounts... @RichieJmusic on all platforms. I believe the more platforms, the more ways you can connect with a possible fan or someone who needs to hear your message.
         <br /><br />
-        Web3 is why you create your art and this way is how it will truly be appreciated. The future of music is going to be all music will get released on web3 or as a NFT first, then it will be melted down to the music streaming services... things are changing fast!
+        Web3 is why you create your art and in this way is how it will truly be appreciated. The future of music is entirely all things web3 based and NFT first... things are changing fast!
       </div>
       <div className={styles.text4}>
         I developed the ability to record through the years I was at University. In 2010 I moved to Atlanta, Georgia where I began to produce and ghostwrite for many local acts. I still write, produce and record today.
         <br /><br />
-        I came across NFTs/web3 from a mentor of mine! He has been investing in NFTs since early early 2021. I’ve always been interested in the growing community but hadn’t decided to jump on board until I seen one of my favor artist, Devin Tracy, release a song on this platform... then I was completely sold.
+        I came across NFTs/web3 from a mentor of mine! He has been investing in NFTs since early early 2021. I’ve always been interested in the growing community but hadn’t decided to jump on board until I saw one of my favorite artists, Devin Tracy, release a NFT song... then I was completely sold.
       </div>
       <div className={styles.text5}>
         Richie J

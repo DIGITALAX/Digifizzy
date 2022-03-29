@@ -40,20 +40,20 @@ const Page8182 = () => (
       <br /><br />
       And nine years after his tragic passing–and as web3 evolves–more and more scientists share the same view. 
       <br /><br />
-      Why should peers pay a service to access colleagues’ works? Much more so, if it was in the interest of the development of society?      
+      Why should peers pay a service to access colleagues’ works? Much more so, if it was in the interest of the development of society?
     </div>
     <div className={styles.text4}>
       Nine years after, Aaron Swartz and the same Big Tech names and corporates are realigning their strategies in a digital arms race for content.
       <br /><br />
-      This time, they’re not just viciously sending their murder of lawyers and their cease-and-desist orders to ruthlessly suppress the free transfer of information and have individual creators pay the house for the privilege of accessing such information.
+      This time, they’re not just viciously sending their murder of lawyers and their cease-and-desist orders to ruthlessly suppress the free transfer of information and have individual creators pay the house for the privilege of accessing such.
       <br /><br />
-      It’s like a page straight out of 1984. The Ministry of Truth is alive and well and controls each and everyone’s access to information that should arguably be liberated. Not from their creators but from the syndicates and racketeers that Swartz sought to free from their grasp.
+      It’s like a page straight out of 1984. The Ministry of Truth is alive and well and controls each and everyone’s access to knowledge that should arguably be liberated. Not from their creators but from the syndicates and racketeers that Swartz sought to free from their grasp.
       <br /><br />
       But perhaps more importantly, Swartz’s most memorable fight was his campaign against the Stop Online Piracy Act, known in industry circles as SOPA.
       <br /><br />
       SOPA was an act that would have enabled the government (and their cartel buddies) to stop companies in the United States from providing their services to said sites. It would have also enabled them to discourage U.S. internet users from restricting access.
       <br /><br />
-      Worse, SOPA would have penalized site operators for user-generated content on their platform, and they can be sued for “facilitating” copyright infringement–the verbiage of which verged towards virtual dictatorial control of media platforms and effectively promoting censorship. That’s another can of worms for another day.
+      Worse, SOPA would have penalized site operators for user-generated content on their platform, where they can be sued for “facilitating” copyright infringement–the verbiage of which verged towards virtual dictatorial control of media platforms and effectively promoting censorship. That’s another can of worms for another day.
       <br /><br />
       Nevertheless, Swartz warned about SOPA as a prelude to an age of unbridled, blatant censorship on the Internet. 
       <br /><br />

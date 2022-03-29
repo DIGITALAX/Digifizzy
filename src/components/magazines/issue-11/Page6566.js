@@ -80,7 +80,7 @@ const Page6566 = () => (
       <br /><br />
       Now, an Israeli company, working on a fully blockchain enabled, super secured smart phone, would like you to feel the same kind of transformative moment, all over again, but this time, with the equivalent of a thousand keys in your pocket.
       <br /><br />
-      The Finney is a cyber-protected, blockchain-enabled smartphone with built-in cold storage wallet, and a unique Safe Screen for secure crypto transactions. It allows you to decentralise your day to day life and utilise full scale hardware protection.       
+      The Finney is a cyber-protected, blockchain-enabled smartphone with a built-in cold storage wallet, and a unique Safe Screen for secure crypto transactions. It allows you to decentralise your day to day life and utilise full scale hardware protection. 
     </div>
     <div className={styles.text2}>
       There is a distinct cultural split that causes quite a bit of cognitative dissonance in web3, where while users know that keeping tokens in centralised exchanges is not really maintaining custody of their own keys, they do it anyway. 
@@ -89,8 +89,7 @@ const Page6566 = () => (
       <br /><br />
       Well, a large part of it is because many are afraid that if they forget or lose that complex seed phrase then all of their funds will be lost forever. Which, frankly, they're entirely right. Centralised exchanges offer what seems to be a softer interface with better UX for the crypto market, but UX for what? The fact is the UX of centralised exchanges makes it harder for users to practice self sovereign ownership. Which is what makes web3, web3. 
       <br /><br />
-      GK8 is based out of Tel Aviv and has built an end-to-end platform for users to be able to manage their tokens and assets on their own, with no reliance on 3rd party
-      <br />
+      GK8 is based out of Tel Aviv and has built an end-to-end platform for users to be able to manage their tokens and assets on their own, with no reliance on 3rd party<br />
       custody providers with the highest security and a more intuitive user flow. 
       <br /><br />
       The cold vault is capable of creating, signing and sending secure blockchain transactions with no direct internet connectivity, eliminating all potential cyber attack vectors. It's been designed to accomodate some of the most prominent financial institutions in the world, and thus offers levels of customisability not found in more generic retail wallets. Some of the cooler features include programmable rule sets and policies per individual and group interacting with the wallet from whitelists, to caps and velocity. 

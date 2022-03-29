@@ -41,10 +41,10 @@ const Page9192 = () => (
       />
     </div>
     <div className={styles.text1}>
-      Patents, copyrights, trademarks, and other protective rights serve as a mirror into the value we recognize from individual human creativity. Through the earliest records in 6th century Ancient Greece to provide annual terms of exclusivity for Hellenic-era bakers to create their culinary inventions, to the Dark Ages and the subsequent development of modern-day intellectual property rights arising from Enlightenment thought, we can see the evolution of societal value–on which the forerunners of today’s new copyright       
+      Patents, copyrights, trademarks, and other protective rights serve as a mirror into the value we recognize from individual human creativity. Through the earliest records in 6th century Ancient Greece to provide annual terms of exclusivity for Hellenic-era bakers to create their culinary inventions, to the Dark Ages and the subsequent development of modern-day intellectual property rights arising from Enlightenment thought, we can see the evolution of societal value–on which the forerunners of today’s new copyright 
     </div>
     <div className={styles.text2}>
-      cartels and intellectual property rackets that has the global creative industry by its throat, hindering the march of progress.
+      cartels and rackets that have the global creative industry by its throat, hindering the march of progress.
       <br /><br />
       Suffice to say, modern-day copyright law has ensured the ensconcement of a system with rivalry and the creation of fake scarcity at its very heart.
       <br /><br />
@@ -56,12 +56,12 @@ const Page9192 = () => (
       <br /><br />
       Founding Fathers George Wasington and James Madison pursued the line of intellectual property being real property whose creators ought to enjoy the fruits of their labor as a basic principle of justice. In the fledgling United States of America seeking to attain economic independence and ultimately manifest its own destiny, Washington and Madison viewed such protections as necessary to secure an interest of national economic security.
       <br /><br />
-      Fast forward to the 21st century, and intellectual property rights, as we have discussed earlier, has indeed mirrored what society has become: an end-stage capitalistic, centralized cesspool driven by hardcore copyright cartels–and they are just as ruthless as their Colombian counterparts in their nice three-piece suits when it comes to extracting every last possible penny out of every last possible deal. 
+      Fast forward to the 21st century, and intellectual property rights, as we have discussed earlier, has indeed mirrored what society has become: an end-stage centralized cesspool driven by hardcore copyright cartels–and they are just as ruthless as their Colombian counterparts in their nice three-piece suits when it comes to extracting every last possible penny out of every last possible deal. 
     </div>
     <div className={styles.text3}>
-      Intellectual property regimes, for instance, act more as totalitarian dictatorships, rather than the Jeffersonian ideal of the free exchange and distribution of ideas harnessing the greatest creative energy (of said ideas needing to be free), all while building a system around incentivising creators. 
+      Closed content regimes, for instance, act more as totalitarian dictatorships, rather than the Jeffersonian ideal of the free exchange and distribution of ideas harnessing the greatest creative energy (of said ideas needing to be free), all while building a system around incentivising creators. 
       <br /><br />
-      Rather than milking them completely dry and further this dystopian post-capitalistic and litigious shambles of an IP regime.
+      Rather than milking them completely dry and further this dystopian litigious shambles of an IP regime.
       <br /><br />
       It might be time to wake up and smell the coffee: the cartelization of content creation is overstepping its boundaries and trampling on the creators that serve as its very lifeblood: a system where every other creator is a slave to the big machine. 
       <br /><br />

@@ -38,7 +38,7 @@ const Page1920 = () => (
       As far back as the Venetians granting limited patents on innovations for a very limited time and only as long as inventions proved useful, the modern system even from its origins was rooted in unworkable flaws. As the internet has brought creators closer to the direct means of creation, the rug pull comes within a legal framework extended far beyond any hint of tradeoff between limitations on free speech and incentives for creativity –– to a point where creators actually believe those who lock down creative mediums have our best interests at heart.
     </div>
     <div className={styles.text6}>
-      This is the probably most telling part about all of this is the rampant stockholm syndrome, where those who claim to be pioneers of culture, which has always meant being entirely of a cloth with anti establishment counter cultures are instead carrying water, for those most eager to check our papers please, on each purchase of a web2.75 JPEG or CDBC transaction. 
+      This is probably most telling part about all of this— the rampant stockholm syndrome, where those who claim to be pioneers of culture, which has always meant to be entirely of a cloth with anti establishment counter cultures, are instead carrying water for those most eager to check our papers please, on each purchase of a web2.75 JPEG or CBDC transaction. 
       <br /><br />
       The internet promised a world where information and creativity could finally flourish but failed to deliver. It is only with web3 where we are finally able to incentivise and encapsulate content for its greatest growth, reach and potential for reward.
       <br /><br />
@@ -46,7 +46,7 @@ const Page1920 = () => (
       <br /><br />
       It’s come to the point of purely being a wash trading game for incumbents securing their slice of a captive market.
       <br /><br />
-      A close look at the history of copyrights shows it’s never had anything to do with helping creative people reach new audiences, inspire fellow creators, and thrive. There has never been a mass uprising of creative people demanding that usefulness and appreciation of our works be drastically limited, and opportunities for growth of income or legacy to be shut down. 
+      A close look at the history of copyright shows its never had anything to do with helping creative people reach new audiences, inspire fellow creators, and thrive. There has never been a mass uprising of creative people demanding that usefulness and appreciation of our works be drastically limited, and opportunities for growth of income or legacy to be shut down. 
       <br /><br />
       In fact, it is the exact oppposite. Any attention, active use and repurposing has most often been seen for what it is, flattery mixed with a chance to gain new interest from a wider market. 
     </div>

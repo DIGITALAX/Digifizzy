@@ -20,7 +20,7 @@ const Page6364 = () => (
     <div className={styles.text2}>
       In 2008, Paypal acquired Tel Aviv startup Fraud Sciences in one of the most well known examples of why Israel has come to be known as the start up nation. With a significantly greater density of all of the usual indicators of engineering, technical, mathematic, scientific and software success, Israel is no stranger to innovation. 
       <br /><br />
-      One of the most active segment of the technological landscape for Israeli’s is of course cryptography and everything built on top of it. 
+      One of the most active segments of the technological landscape for Israeli’s is of course cryptography and everything built on top of it. 
       <br /><br />
       No wonder then, that web3 is such a rich and fruitful field of exploration in modern Israeli technological development. 
       <br /><br />

@@ -101,9 +101,9 @@ const Page1314 = () => {
       </div>
       <div className={styles.text10}>
         <span>Ethereum on arm</span> <br />
-        As the rise of the sovereign individual continues to be the predominant driver of the web3 revolution, software open access alone is wildly insufficient. Easy and affordable hardware access is also crtically essential. 
-        <br /><br />  
-        The team at Ethereum on Arm are working towards making this more of a reality, providing a PnP Ubuntu server image for the Raspberry Pi 4 that runs Ethereum clients as a boot Systemd service and automatically turns the device into a full Ethereum 1.0/2.0 nodes. Keep Decentralisation. 
+        As the rise of the sovereign individual continues to be the predominant driver of the web3 revolution, software open access alone is wildly insufficient. Easy and affordable hardware access is also crtically essential.
+        <br /><br />
+        The team at Ethereum on Arm are working towards making this more of a reality, providing a PnP Ubuntu server image for the Raspberry Pi 4 that runs Ethereum clients as a boot System service and automatically turns the device into a full Ethereum 1.0/2.0 nodes. Keep Decentralisation.
       </div>
       <div className={styles.text11}>
         <span>Otterscan</span> <br />
@@ -119,14 +119,14 @@ const Page1314 = () => {
       </div>
       <div className={styles.text13}>
         <span>Esteroids</span> <br />
-        Search and rank of the web2 era has been most 
+        Search and rank of the web2 era has been most
       </div>
       <div className={styles.text14}>
-        prominently defined by Google. Their page rank algorithm has been revolutionary to so many aspects of how we’ve connected and coordinate donline over the past two decades. Not being able to efficiently and intuitively sort through piles of internet data, websites and refine our online rumaging to specifc keywords and topics would have made any potentiality of building, producing, distributing and finding much of the content, products and relationships we use and interact with today impossible. 
+        prominently defined by Google. Their page rank algorithm has been revolutionary to so many aspects of how we’ve connected and coordinated online over the past two decades. Not being able to efficiently and intuitively sort through piles of internet data, websites and refine our online rumaging to specifc keywords and topics would have made any potentiality of building, producing, distributing and finding much of the content, products and relationships we use and interact with today impossible. 
         <br /> <br />
         As we move into the metaverse and block by block replace the old centralised infrastructure with open ramps, it’s exciting to think what decentralised search and discovery with new multi-dimensional temporal-spatial coordinates will look like?
         <br /> <br />
-        Esteroids is buidling the first community search engine for amplifying .ETH and other decentralised websites built on ENS and IPFS. This is just the beginning, with more tooling soon on its way. 
+        Esteroids is buidling the first community search engine for amplifying .ETH and other decentralised websites built on ENS and IPFS. This is just the beginning, with more tooling soon on its way.
       </div>
     </div>
   )

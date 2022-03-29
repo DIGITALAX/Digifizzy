@@ -55,11 +55,11 @@ const Page7980 = () => (
     <div className={styles.text4}>
       Public goods can be used in a lot of ways, but the power of CC0 lies in its users and creators, this is something open to anyone who wants to build and expand the original ideas into something way beyond from the main concept. 
       <br /><br />
-      The reasons could vary from person to person, but maybe not everybody want to create “something from scratch” because we as humans relate to something or someone (even if they are fictional characters), so let’s say a kid is really attached to a superhero and he grows up drawing this character who might have its own values and beliefs, and let say that the kid is an artist when he or her is an adult. They might create countless stories or new ways to depict the character in a new situation, but if the original work isn’t CC0, that same person have to go through a series of legal permissions or even a try to get license that might not be easy to get due to the different geographic location of the artist and the organization who owns the IP. 
+      The reasons could vary from person to person, but maybe not everybody wants to create “something from scratch” because we as humans relate to something or someone (even if they are fictional characters), so let’s say a kid is really attached to a superhero and he grows up drawing this character who might have its own values and beliefs, and let say that the kid is an artist when he or her is an adult. They might create countless stories or new ways to depict the character in a new situation, but if the original work isn’t CC0, that same person has to go through a series of legal permissions or even try to get license that might not be easy to get due to the different geographic location of the artist and the organization who owns the IP. 
       <br /><br />
       CC0 makes things easy, you like the character, you make new things based on them and it’s done, you can gain followers, a deep sense of belonging and inspire thousands of other people, and with a bit of luck even make a living off of that!
       <br /><br />
-      The power it’s limitless to be honest, and the good thing is that open source can spread the word quickly and easily, and everybody can enjoy the process of its own ingenuity.
+      The power is limitless to be honest, and the good thing is that open source can spread the word quickly and easily, and everybody can enjoy the process of its own ingenuity.
     </div>
     <a
       className={styles.text5}
@@ -75,10 +75,10 @@ const Page7980 = () => (
         Not all the artworks are made equal, neither the artists of course, but the thing is that artists have to adapt and use new tools for their development, that is if they want it to participate in the next wave of innovation of course, maybe not all the artists are prepared for this but that’s ok, the learning curve and the adoption of a new paradigm takes time, and everyone has the power to choose what fits better for them.
       </span>
       <br /><br />
-      That said, NFTs are definitely the future for creators of any kind I believe, the way they reward and respect the authors is fantastic, not all the time we can find a new technology that empower its users. This is like the printing press I suppose, almost everybody in the world has easy access to a book right now, but that took some time to develop. This is maybe similar to that, but we are in the middle of the assimilation process. NFTs was a hot word in 2021 and it has its own detractors and advocates.
+      That said, NFTs are definitely the future for creators of any kind I believe, the way they reward and respect the authors is fantastic, not all the time we can find a new technology that empowers its users. This is like the printing press I suppose, almost everybody in the world has easy access to a book right now, but that took some time to develop. This is maybe similar to that, but we are in the middle of the assimilation process. NFTs was a hot word in 2021 and it has its own detractors and advocates.
       <br /><br />
       <span>
-        The only thing I would say is that NFTs are inevitable, they are here to stay, the way we use to access to them will change dramatically in the future, faster, cheaper and maybe we won’t use NFT as their name at all, it’s like saying: hey I’ll send you an image in digital format… So weird haha.
+      The only thing I would say is that NFTs are inevitable, they are here to stay, the way we use to access to them will change dramatically in the future, faster, cheaper and maybe we won’t use NFT as their name at all, it’s like saying: hey I’ll send you an image in digital format… So weird haha.
       </span>
     </div>
     <div className={styles.text7}>

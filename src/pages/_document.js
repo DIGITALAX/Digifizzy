@@ -275,6 +275,7 @@ const goolgeFonts = [
   'Rosarivo',
   'Rubik',
   'Rubik+Mono+One',
+  'Russo+One',
   'Rye',
 
   'Sail',

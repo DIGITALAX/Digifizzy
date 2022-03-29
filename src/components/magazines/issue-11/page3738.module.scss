@@ -68,7 +68,7 @@
   .text2 {
     position: absolute;
     width: 482px;
-    height: 480px;
+    height: 460px;
     left: 1357px;
     top: 49px;
     
@@ -78,59 +78,58 @@
     font-size: 20px;
     line-height: 20px;
     text-align: right;
-    color: #FFFFFF;    
+    color: #FFFFFF;
   }
 
   .text3 {
     position: absolute;
     width: 482px;
-    height: 440px;
+    height: 420px;
     left: 1357px;
-    top: 550px;
+    top: 537px;
     
     font-family: 'Lexend Exa';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 20px;
-    /* or 100% */
-    
     text-align: right;
     
-    color: #FFFFFF;    
+    color: #FFFFFF;
   }
 
   .text4 {
     position: absolute;
     width: 482px;
-    height: 100px;
+    height: 140px;
     left: 1357px;
-    top: 1027px;
+    top: 983px;
     
     font-family: 'Lexend Exa';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 20px;
     text-align: right;
-    
-    color: #FFFFFF;    
+    color: #FFFFFF;  
   }
 
   .text5 {
     position: absolute;
-    width: 1139px;
-    height: 288px;
-    left: 690px;
-    top: 1157px;
+    width: 1202px;
+    height: 299px;
+    left: 637px;
+    top: 1167px;
     
     font-family: 'Lexend Exa';
     font-style: normal;
     font-weight: 400;
-    font-size: 27px;
-    line-height: 32px;
+    font-size: 20px;
+    line-height: 23px;
+    /* or 115% */
     
     text-align: right;
+    
     color: #FFFFFF;    
   }
 

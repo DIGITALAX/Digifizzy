@@ -40,7 +40,7 @@ const Page2324 = () => (
       Shkreli, the Sacklers, et al are indicative of the lengths that Big Pharma will go to break up competition, deny access to life-saving medicines, and keep lining up their pockets and going to the pay window for some more. 
     </div>
     <div className={styles.text7}>
-      More importantly, such acts are indicative of the sorry state of how patents have been so misused by not just Big Pharma, but most every cartel that runs the industry. 
+      More importantly, such acts are indicative of the sorry state of how patents have been so misused by not just Big Pharma, but almost every cartel that runs the industry. 
     </div>
     
   </div>
