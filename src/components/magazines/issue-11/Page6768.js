@@ -26,13 +26,6 @@ const Page6768 = () => (
         height={327}
       />
     </div>
-    <div className={styles.image3}>
-      <Image
-        src={`${DIGIFIZZY_S3}/11/images/6768_image3.jpg`}
-        width={327}
-        height={327}
-      />
-    </div>
     <div className={styles.image4}>
       <Image
         src={`${DIGIFIZZY_S3}/11/images/6768_image4.jpg`}
@@ -118,12 +111,6 @@ const Page6768 = () => (
     </div>
     <div className={styles.text7}>
       Project: Nouns DAO.
-    </div>
-    <div className={styles.text8}>
-      Christian Turner.
-    </div>
-    <div className={styles.text9}>
-      Project: Cacheflow.
     </div>
     <div className={styles.text10}>
       12bnoun.
