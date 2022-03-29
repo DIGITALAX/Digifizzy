@@ -1,9 +1,24 @@
-import React from 'react'
+import React, { useState, useRef } from 'react'
 import Image from 'next/image'
 import { DIGIFIZZY_S3 } from '@constants/urls'
 import styles from './page2728.module.scss'
 
-const Page2728 = () => (
+const Page2728 = () => {
+
+  const [play, setPlay] = useState(false)
+  const refAudio = useRef()
+
+  const startAudio = () => {
+    refAudio.current.play()
+    setPlay(true)
+  }
+
+  const pauseAudio = () => {
+    refAudio.current.pause()
+    setPlay(false)
+  }
+
+  return (
   <div className={styles.wrapper}>
     <div className={styles.background1}></div>
     <div className={styles.image1}>
@@ -76,7 +91,29 @@ const Page2728 = () => (
       <br /><br />
       This approach also radically reduces barriers to entry and initial production costs for music artists by giving them direct access to a never ending supply of high quality creative source material, instead of being at the whims and checkpoints of any who would prefer that musicians create less.        
     </div>
+
+    <a className={styles.imagePlayButton} onClick={startAudio}>
+      <Image
+        src={`${DIGIFIZZY_S3}/11/images/2728_playbutton.png`}
+        width={169}
+        height={170}
+      />
+    </a>
+    <a className={styles.imagePauseButton} onClick={pauseAudio}>
+      <Image
+        src={`${DIGIFIZZY_S3}/11/images/2728_pausebutton.png`}
+        width={169}
+        height={170}
+      />
+    </a>
+    <audio ref={refAudio} loop>
+      <source
+        src={`${DIGIFIZZY_S3}/11/sounds/2728_sound1.mp3`}
+        type='audio/mp3'
+      />
+    </audio>
   </div>
-)
+  )
+}
 
 export default Page2728

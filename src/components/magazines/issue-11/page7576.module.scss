@@ -4,12 +4,13 @@
   @include magazineWrapper();
   background: #000000;
 
-  .imageBackground {
+  .video1 {
     position: absolute;
     width: 1920px;
     height: 1497px;
     left: 0px;
     top: 0px;
+    object-fit: cover;
   }
 
   .rect1 {
@@ -25,7 +26,7 @@
   .rect2 {
     position: absolute;
     width: 743px;
-    height: 427px;
+    height: 338px;
     left: 1068px;
     top: 126px;
     

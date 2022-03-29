@@ -5,17 +5,30 @@ import styles from './page7374.module.scss'
 
 const Page7374 = () => {
 
-  const [play, setPlay] = useState(false)
+  const [play1, setPlay1] = useState(false)
+  const [play2, setPlay2] = useState(false)
+
   const refAudio1 = useRef()
+  const refAudio2 = useRef()
 
   const startAudio1 = () => {
     refAudio1.current.play()
-    setPlay(true)
+    setPlay1(true)
   }
 
   const pauseAudio1 = () => {
     refAudio1.current.pause()
-    setPlay(false)
+    setPlay1(false)
+  }
+
+  const startAudio2 = () => {
+    refAudio2.current.play()
+    setPlay2(true)
+  }
+
+  const pauseAudio2 = () => {
+    refAudio2.current.pause()
+    setPlay2(false)
   }
   
 
@@ -101,20 +114,27 @@ const Page7374 = () => {
       />
     </audio>
 
-    <a className={styles.imagePlayButton2} onClick={startAudio1}>
+    <a className={styles.imagePlayButton2} onClick={startAudio2}>
       <Image
         src={`${DIGIFIZZY_S3}/11/images/7374_playbutton2.png`}
         width={128}
         height={128}
       />
     </a>
-    <a className={styles.imagePauseButton2} onClick={pauseAudio1}>
+    <a className={styles.imagePauseButton2} onClick={pauseAudio2}>
       <Image
         src={`${DIGIFIZZY_S3}/11/images/7374_pausebutton2.png`}
         width={128}
         height={128}
       />
     </a>
+
+    <audio ref={refAudio2} loop>
+      <source
+        src={`${DIGIFIZZY_S3}/11/sounds/7374_sound1.mp3`}
+        type='audio/mp3'
+      />
+    </audio>
   </div>
   )
 }

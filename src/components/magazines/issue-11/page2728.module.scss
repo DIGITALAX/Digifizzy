@@ -142,4 +142,41 @@
       }
     }
   }
+
+
+  .imagePlayButton {
+    position: absolute;
+    width: 169px;
+    height: 170px;
+    left: 556px;
+    top: 180px;
+
+    img, div {
+      transition: 0.3s all;
+      cursor: pointer;
+  
+      &:hover {
+        transition: 0.3s all;
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  .imagePauseButton {
+    position: absolute;
+    width: 169px;
+    height: 170px;
+    left: 745px;
+    top: 180px;
+
+    img, div {
+      transition: 0.3s all;
+      cursor: pointer;
+  
+      &:hover {
+        transition: 0.3s all;
+        transform: scale(1.05);
+      }
+    }
+  }
 }

@@ -13,24 +13,26 @@ const Page34 = () => (
       />
     </div>
     <div className={styles.text1}>
-      Acknowledging the Realities of War. 
+      Zero Knowledge x CC0. 
     </div>
     <div className={styles.text2}>
-      As we watch tanks advance on the ground in Ukraine and missiles slam into civilian buildings throughout the country, it makes us wonder what any of us can do to build and supply at least the economic component of what free people in Ukraine and everywhere need to fight against the militant aggression of tyrannical and centralising forces.
+      When we look back at the key milestones in blockchain history; the first that comes to mind is Bitcoin, followed obviously by Ethereum, then arguably PoS, and now the latest candidate is Zero Knowledge Proofs for just about everything.
       <br /><br />
-      As Ukrainian president, Volodymyr Zelenskyy, said on the second day of the invasion, in a direct appeal to the Russian people, which will reach them through whatever means possible, routing around the censorship by the Russian state; 
+      Truly remarkable bits of math and logic, these implementations in a blockchain context allow for far greater scaling, throughput, privacy and so much more.
       <br /><br />
-      “We are talking about peace, and about principles, justice. About everyone’s right to define their own future, of safety, and everyone’s right to live without threat.” 
+      But, a more interesting question is why are ZK Proofs so transformative for CC0? 
       <br /><br />
-      It shouldn’t take war crimes to help people understand what web3 really is— the most powerful means to put tools for economic production and personal wellbeing directly into the hands of every individual globally.
+      Well first, we have to ask: what’s the main blocker preventing the rapid scaling of CC0 in functional practice? 
       <br /><br />
-      That doesn’t mean that everything that is built or done using these tools must be serious, world changing and can’t be fun or entertaining.
+      CC0 recognizes and expresses the inherent rights we all have to create and share thoughts, speech, and content without arbitrary limits. But a long-standing inhibitor of free expression is the lack of clear, flexible, and portable infrastructure to make profitable use of both original and derivative creative work. ZK proofs, and more specifically ZK rollups in a blockchain context, change that.
       <br /><br />
-      But, at times like these, it is good to remember what we really mean when we talk of the revolutionary economic power that web3 enables.
+      A lot of people think that CC0 means no money, but actually it brings light to a key insight about the reality of what money is. More than a representation of value, making money in any context depends on the mechanisms we use to create, transport, trade, and use value. CC0 on its own already helps provide substantially better conceptual and ultimately legal structures to defend our rights to create and make money from creativity. 
       <br /><br />
-      For those of us who recognise how unacceptable it is to live in a world even partially controlled by Putin’s Russia, totalitarian China, or even the copyright cartels led by the Disneys and Nikes of the world, which directly fund and enable the former, the relationship between self sovereign networks, decentralised creative production, and, cc0, cannot be obscured or deferred.
+      When combined with ZK based scaling solutions, these mechanisms bring thousands of keys for portable self sovereignty into every pocket. 
       <br /><br />
-      That is why in the face of so many lives at risk under a direct assault, it is an ethical imperative to continue to exercise our right to create and do so in a way that is deliberate, aware, compassionate and cogniscant of what many of our friends and compatriots are fighting like hell to survive through today. 
+      ZK Proofs make use of a kind of math that is very inexpensive to perform in one direction, and nearly impossible to afford in reverse. In other words, it's one way math. 
+      <br /><br />
+      How exactly this works in a blockchain context is covered in more detail in other parts of this issue of DIGIFIZZY. Skip to the end for part two. 
     </div>
     <div className={styles.text3}>
       - Emma-Jane MacKinnon-Lee

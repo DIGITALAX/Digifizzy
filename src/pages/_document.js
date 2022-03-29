@@ -1927,6 +1927,11 @@ class MyDocument extends Document {
               font-style: italic;
               src: url("./fonts/Son Of A Glitch Italic.ttf");
             }
+
+            @font-face {
+              font-family: 'NewYork';
+              src: url("./fonts/NewYork.otf");
+            }
           `
             }}
           />

@@ -47,8 +47,41 @@ const Page8586 = () => (
     <div className={styles.text9}>
       The Web3 CC0 Open Access Library is a curated assemblage of content and projects within web3 that are entirely CC0. The index provides creators with a generative discovery mechanism for CC0 source content, featured original CC0 works, and the means to amplify their greatest derivatives.   
     </div>
-    <div className={styles.text10}>
+    <a
+      className={styles.text10}
+      href='https://web3cc0openlibrary.f3manifesto.xyz/'
+      target='_blank'
+    >
       Explore the full library here.
+    </a>
+
+    <div className={styles.image1}>
+      <Image
+        src={`${DIGIFIZZY_S3}/11/images/8586_image1.png`}
+        width={390}
+        height={137}
+      />
+    </div>
+    <div className={styles.image2}>
+      <Image
+        src={`${DIGIFIZZY_S3}/11/images/8586_image1.png`}
+        width={390}
+        height={137}
+      />
+    </div>
+    <div className={styles.image3}>
+      <Image
+        src={`${DIGIFIZZY_S3}/11/images/8586_image1.png`}
+        width={390}
+        height={137}
+      />
+    </div>
+    <div className={styles.image4}>
+      <Image
+        src={`${DIGIFIZZY_S3}/11/images/8586_image2.png`}
+        width={78}
+        height={63}
+      />
     </div>
   </div>
 )

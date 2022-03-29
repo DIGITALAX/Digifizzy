@@ -7,26 +7,28 @@ const Page7576 = () => {
   const iFrameRef = useRef()
 
   useEffect(() => {
-    // iFrameRef.current.appendChild(`
-    //   <iframe
-    //     src='https://audius.co/embed/track/mkRZw?flavor=card'
-    //     width="100%"
-    //     height="480"
-    //     allow="encrypted-media"
-    //     style='border: none;' />
-    //   `
-    // )
+    const newElement = document.createElement('iframe')
+    newElement.src = 'https://audius.co/embed/track/mkRZw?flavor=card'
+    newElement.width = '100%'
+    newElement.height = '100%'
+    newElement.allow = 'encrypted-media'
+    newElement.style = 'border: none;'
+
+    while (iFrameRef.current.firstChild) {
+      iFrameRef.current.removeChild(iFrameRef.current.firstChild);
+    }
+
+    iFrameRef.current.appendChild(newElement)
   }, [])
   
   return (
   <div className={styles.wrapper}>
-    <div className={styles.imageBackground}>
-      <Image
-        src={`${DIGIFIZZY_S3}/11/images/7576_background.jpg`}
-        width={1920}
-        height={1497}
+    <video muted loop autoPlay className={styles.video1}>
+      <source
+        src={`${DIGIFIZZY_S3}/11/videos/7576_video1.mp4`}
+        type='video/mp4'
       />
-    </div>
+    </video>
 
     <div className={styles.rect1}>
     </div>
