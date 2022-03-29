@@ -36,7 +36,7 @@ const Page7172 = () => (
 
    /* <div className={styles.image1}>
       <Image
-        src=https://digitalax.mypinata.cloud/ipfs/QmXBXvBkqqBKds2TASbGZVif29L6mReVMX7mA9dEDYpmsY
+        src={'https://digitalax.mypinata.cloud/ipfs/QmXBXvBkqqBKds2TASbGZVif29L6mReVMX7mA9dEDYpmsY'}
         width={866}
         height={215}
       />
