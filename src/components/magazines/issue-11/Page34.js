@@ -60,6 +60,7 @@ const Page34 = () => (
       Songcamp <br />
       NounPunks <br />
       Arpeggi Studio <br />
+      Chaim Holtjer <br />
     </div>
     <div className={styles.text8}>
       StellaBelle <br />
