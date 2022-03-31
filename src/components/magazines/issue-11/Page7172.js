@@ -34,13 +34,13 @@ const Page7172 = () => (
       CC0 Streetwear Secret Drop hand drawn digital art piece
     </div>
 
-   /* <div className={styles.image1}>
+   <div className={styles.image1}>
       <Image
-        src={'https://digitalax.mypinata.cloud/ipfs/QmXBXvBkqqBKds2TASbGZVif29L6mReVMX7mA9dEDYpmsY'}
+        src={`${DIGIFIZZY_S3}/11/images/7172_image1.jpg`}
         width={866}
         height={215}
       />
-    </div>*/
+    </div>
 
     <div className={styles.text8}>
       Models of the Realms CC0 Collaborations Set
