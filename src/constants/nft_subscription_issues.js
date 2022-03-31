@@ -63,7 +63,7 @@ export const details = [
       amountAvailable: 200,
     },
     {
-      id: 50,
+      id: 51,
       title: 'Exclusive Unlock',
       subTitle: [
         'Issue Eleven',
