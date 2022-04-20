@@ -1,0 +1,69 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  display: flex;
+  position: relative;
+  color: #ffffff;
+  background-color: #000000;
+
+  .circle1 {
+    position: absolute;
+    width: 163px;
+    height: 163px;
+    left: 1255px;
+    top: 445px;
+
+    border: 10px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 50px 10px #001aff;
+    border-radius: 50%;
+  }
+
+  .circle2 {
+    position: absolute;
+    width: 1300px;
+    height: 1300px;
+    left: 1326px;
+    top: 413px;
+
+    border: 10px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 50px 10px #ff0000;
+    border-radius: 50%;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 729px;
+    height: 1220px;
+    left: 121px;
+    top: 124px;
+
+    font-family: 'Brygada 1918';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 100%;
+    /* or 35px */
+
+    color: #ffffff;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 729px;
+    height: 1220px;
+    left: 1085px;
+    top: 124px;
+
+    font-family: 'Brygada 1918';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 100%;
+    /* or 35px */
+
+    color: #ffffff;
+  }
+}

@@ -1,8 +1,6 @@
 /* eslint-disable max-len */
-import React from 'react'
-import Document, {
-  NextScript, Html, Main, Head
-} from 'next/document'
+import React from 'react';
+import Document, { NextScript, Html, Main, Head } from 'next/document';
 
 const scriptTxt = `
 (function () {
@@ -12,7 +10,7 @@ const scriptTxt = `
   base.href = ipfsMatch ? ipfsMatch[0] : '/';
   document.head.append(base); 
 })();
-`
+`;
 
 const gaScriptText = `
   window.dataLayer = window.dataLayer || [];
@@ -20,7 +18,7 @@ const gaScriptText = `
   gtag('js', new Date());
 
   gtag('config', 'G-Y06VSWY6VY');
-`
+`;
 
 const goolgeFonts = [
   'Abel',
@@ -324,27 +322,26 @@ const goolgeFonts = [
 
   'Zen+Loop',
   'Zilla+Slab+Highlight',
-]
+];
 
 class MyDocument extends Document {
-
   getGoogleFontsLinks() {
     return goolgeFonts.map((font, index) => (
       <link
-        rel='stylesheet'
+        rel="stylesheet"
         key={index}
         href={`https://fonts.googleapis.com/css2?family=${font}`}
       />
-    ))
+    ));
   }
 
   render() {
     return (
-      <Html lang='en'>
+      <Html lang="en">
         <Head>
-          <script src='/arkane-network/web3-arkane-provider.js' />
+          <script src="/arkane-network/web3-arkane-provider.js" />
           <script dangerouslySetInnerHTML={{ __html: scriptTxt }} />
-          <script async src='https://www.googletagmanager.com/gtag/js?id=G-Y06VSWY6VY' />
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y06VSWY6VY" />
           <script dangerouslySetInnerHTML={{ __html: gaScriptText }} />
           {this.getGoogleFontsLinks()}
 
@@ -1900,6 +1897,11 @@ class MyDocument extends Document {
               font-family: "Lao MN";
               src: url("./fonts/Lao MN.ttc");
             }
+
+            @font-face {
+              font-family: "Azeret Mono";
+              src: url("./fonts/AzeretMono-VariableFont_wght.ttf");
+            }
             
             @font-face {
               font-family: "BROKENZ";
@@ -1933,7 +1935,7 @@ class MyDocument extends Document {
               font-family: 'NewYork';
               src: url("./fonts/NewYork.otf");
             }
-          `
+          `,
             }}
           />
         </Head>
@@ -1942,9 +1944,8 @@ class MyDocument extends Document {
           <NextScript />
         </body>
       </Html>
-    )
+    );
   }
-
 }
 
-export default MyDocument
+export default MyDocument;

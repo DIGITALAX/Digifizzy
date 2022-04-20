@@ -1,0 +1,145 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  color: white;
+  .imageBackground {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+    object-fit: cover;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 690px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+    
+    background: rgba(0, 0, 0, 0.64);
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 606px;
+    height: 365px;
+    left: 690px;
+    top: 1132px;
+    
+    background: rgba(0, 0, 0, 0.64);
+  }
+
+  .rect3 {
+    position: absolute;
+    width: 624px;
+    height: 1497px;
+    left: 1296px;
+    top: 0px;
+    
+    background: rgba(0, 0, 0, 0.64);
+  }
+
+  .image1 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 21px;
+    top: 0px;    
+  }
+
+  .text1 {
+    position: absolute;
+    width: 553px;
+    height: 980px;
+    left: 47px;
+    top: 430px;
+    
+    font-family: 'Lexend Exa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;        
+  }
+
+  .text2 {
+    position: absolute;
+    width: 482px;
+    height: 460px;
+    left: 1357px;
+    top: 49px;
+    
+    font-family: 'Lexend Exa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: right;
+    color: #FFFFFF;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 482px;
+    height: 420px;
+    left: 1357px;
+    top: 537px;
+    
+    font-family: 'Lexend Exa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: right;
+    
+    color: #FFFFFF;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 482px;
+    height: 140px;
+    left: 1357px;
+    top: 983px;
+    
+    font-family: 'Lexend Exa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: right;
+    color: #FFFFFF;  
+  }
+
+  .text5 {
+    position: absolute;
+    width: 1202px;
+    height: 299px;
+    left: 637px;
+    top: 1167px;
+    
+    font-family: 'Lexend Exa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    /* or 115% */
+    
+    text-align: right;
+    
+    color: #FFFFFF;    
+  }
+
+  a {
+    div {
+      transition: 0.3s all;
+      &:hover {
+        transition: 0.3s all;
+        transform: scale(0.9);
+      }
+    }
+  }
+}

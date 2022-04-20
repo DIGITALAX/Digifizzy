@@ -1,0 +1,377 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+
+  background-color: #ffffff;
+
+  .rect1 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
+    top: 0px;
+    
+    background: #000000;    
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 772px;
+    height: 1222px;
+    left: 1056px;
+    top: 170px;
+    
+    border: 5px solid rgba(30, 228, 255, 0.56);
+    border-radius: 85px;    
+  }
+
+  .rect3 {
+    position: absolute;
+    width: 772px;
+    height: 1222px;
+    left: 1056px;
+    top: 170px;
+    
+    background: rgba(30, 228, 255, 0.5);
+    border-radius: 386px;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 136px;
+    height: 136px;
+    left: 0px;
+    top: 881px;        
+  }
+
+  .image2 {
+    position: absolute;
+    width: 541px;
+    height: 542px;
+    left: 3px;
+    top: 951px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    left: 446px;
+    top: 814px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 136px;
+    height: 136px;
+    left: 541px;
+    top: 1084px;
+  }
+
+  .image5 {
+    position: absolute;
+    width: 79px;
+    height: 79px;
+    left: 659px;
+    top: 1044px;
+  }
+
+  .image6 {
+    position: absolute;
+    width: 136px;
+    height: 136px;
+    left: 716px;
+    top: 935px;    
+  }
+
+  .image7 {
+    position: absolute;
+    width: 136px;
+    height: 136px;
+    left: 738px;
+    top: 1071px;    
+  }
+
+  .image8 {
+    position: absolute;
+    width: 79px;
+    height: 79px;
+    left: 852px;
+    top: 1167px;
+  }
+
+  .image9 {
+    position: absolute;
+    width: 456px;
+    height: 456px;
+    left: 504px;
+    top: 1207px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 614px;
+    height: 100px;
+    left: 139px;
+    top: 70px;
+    
+    font-family: 'Newsreader';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #844AFF;
+    -webkit-text-stroke: 1px #844AFF;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 815px;
+    height: 388px;
+    left: 68px;
+    top: 204px;
+    
+    font-family: 'Newsreader';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+    
+    color: #844AFF;
+    -webkit-text-stroke: 0.3px #844AFF;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 920px;
+    height: 75px;
+    left: 980px;
+    top: 34px;
+    
+    font-family: 'Armata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 75px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #1EE4FF;
+    -webkit-text-stroke: 3px #1EE4FF;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 480px;
+    height: 266px;
+    left: 1209px;
+    top: 230px;
+    
+    font-family: 'Armata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    
+    color: #1EE4FF;
+    -webkit-text-stroke: 1px #1EE4FF;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 715px;
+    height: 328px;
+    left: 1092px;
+    top: 541px;
+    
+    font-family: 'Armata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #1EE4FF;
+    -webkit-text-stroke: 0.5px #1EE4FF;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 705px;
+    height: 93px;
+    left: 1097px;
+    top: 949px;
+    
+    font-family: 'Armata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+    
+    color: #1EE4FF;
+    -webkit-text-stroke: 1px #1EE4FF;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 529px;
+    height: 191px;
+    left: 1185px;
+    top: 1087px;
+    
+    font-family: 'Armata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #1EE4FF;
+    -webkit-text-stroke: 0.5px #1EE4FF;
+  }
+
+  .button1 {
+    position: absolute;
+    width: 231px;
+    height: 42px;
+    left: 108px;
+    top: 637px;
+    
+    background: #844AFF;
+    font-family: 'Newsreader';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-text-stroke: 0,3px #FFFFFF;
+  }
+
+  .button2 {
+    position: absolute;
+    width: 184px;
+    height: 42px;
+    left: 362px;
+    top: 637px;
+    
+    background: #844AFF;
+    font-family: 'Newsreader';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-text-stroke: 0,3px #FFFFFF;
+  }
+
+  .button3 {
+    position: absolute;
+    width: 273px;
+    height: 42px;
+    left: 569px;
+    top: 638px;
+    
+    background: #844AFF;
+    font-family: 'Newsreader';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-text-stroke: 0,3px #FFFFFF;
+  }
+
+  .button4 {
+    position: absolute;
+    width: 212px;
+    height: 42px;
+    left: 348px;
+    top: 706px;
+    
+    background: #844AFF;
+    font-family: 'Newsreader';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.3px solid #FFFFFF;
+  }
+
+  .button5 {
+    position: absolute;
+    width: 225px;
+    height: 42px;
+    left: 1331px;
+    top: 480px;
+    
+    background: #1EE4FF;
+    border-radius: 17px;
+    font-family: Armata;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    -webkit-text-stroke: 0,3px #FFFFFF;
+  }
+
+  .button6 {
+    position: absolute;
+    width: 177px;
+    height: 42px;
+    left: 1352px;
+    top: 873px;
+    
+    background: #1EE4FF;
+    border-radius: 17px;
+    font-family: Armata;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    -webkit-text-stroke: 0,3px #FFFFFF;
+  }
+
+  a {
+    // transition: 0.3s all;
+    &:hover {
+      transform: scale(1.05);
+    }
+    
+  }
+}

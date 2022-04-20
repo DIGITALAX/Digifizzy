@@ -1,0 +1,110 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: black;
+  color: white;
+  display: flex;
+  position: relative;
+
+  .imageBackground {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;    
+  }
+
+  a {
+    div {
+      cursor: pointer;
+      transition: 0.3s all;
+
+      &:hover {
+        transition: 0.3s all;
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  .text1 {
+    position: absolute;
+    width: 756px;
+    height: 88px;
+    left: 70px;
+    top: 103px;
+    
+    font-family: Julietta Messie Demo;
+    font-size: 80px;
+    line-height: 110%;
+    color: #FFB68C;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 505px;
+    height: 74px;
+    left: 70px;
+    top: 1282px;
+    
+    font-family: 'Sansita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 33px;
+    color: #FFFFFF;
+    -webkit-text-stroke: 0.5px #FFFFFF;    
+    
+  }
+
+  .text3 {
+    position: absolute;
+    width: 473px;
+    height: 34px;
+    left: 70px;
+    top: 1380px;
+    
+    font-family: 'Sunflower';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 16px;
+    color: #FFFFFF;
+    -webkit-text-stroke: 0.5 #FFFFFF;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 512px;
+    height: 66px;
+    left: 50px;
+    top: 44px;
+    
+    font-family: 'Blacker Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 110%;
+
+    color: #FF2272;
+    -webkit-text-stroke: 20px #FF2272;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 518px;
+    height: 76px;
+    left: 50px;
+    top: 44px;    
+  }
+
+  a {
+    color: white;
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      color: white;
+      text-decoration: underline;
+    }
+  }
+}

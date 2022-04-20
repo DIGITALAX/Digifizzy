@@ -1,0 +1,92 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+
+  .rect1 {
+    background: #620000;
+    position: absolute;
+    top: 0;
+    left: 960px;
+    width: 960px;
+    height: 1497px;
+  }
+
+  .imageBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 960px;
+    height: 1497px;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 554px;
+    height: 837px;
+    left: 982px;
+    top: 644px;    
+  }
+
+  .image2 {
+    position: absolute;
+    width: 533px;
+    height: 600px;
+    left: 1503px;
+    top: -5px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 738px;
+    height: 100px;
+    left: 982px;
+    top: 7px;
+    
+    font-family: 'Son Of A Glitch';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #355DE9;
+    -webkit-text-stroke: 1px #FFFFFF;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 536px;
+    height: 559px;
+    left: 1000px;
+    top: 119px;
+    
+    font-family: 'Son Of A Glitch';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 100%;
+
+    color: #FF2D2D;
+    
+  }
+
+  .text3 {
+    position: absolute;
+    width: 360px;
+    height: 843px;
+    left: 1539px;
+    top: 625px;
+    
+    font-family: 'Son Of A Glitch';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+
+    color: #FFFFFF;
+  }
+}

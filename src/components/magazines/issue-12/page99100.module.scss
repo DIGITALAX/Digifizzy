@@ -1,0 +1,51 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: #FFFFFF;
+
+  .imageBackground {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 798px;
+    height: 200px;
+    left: 62px;
+    top: 46px;
+    
+    font-family: 'Newsreader';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+    // text-shadow: -1px -1px #DA2776, -1px 1px #DA2776, 1px -1px #DA2776, 1px 1px #DA2776;
+    -webkit-text-stroke: 1px #DA2776;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 798px;
+    height: 1055px;
+    left: 62px;
+    top: 277px;
+    
+    font-family: 'Newsreader';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 33px;
+    
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #DA2776;
+  }
+}

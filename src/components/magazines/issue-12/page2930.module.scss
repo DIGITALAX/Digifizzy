@@ -1,0 +1,256 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: white;
+  color: white;
+  display: flex;
+  position: relative;
+
+  .video1 {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 1973px;
+    height: 1517px;
+    left: -49px;
+    top: 1px;
+
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  h1 {
+    position: absolute;
+    width: 1331px;
+    height: 400px;
+    left: 294px;
+    top: 590px;
+
+    font-family: Heaven Wanders DEMO;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 200px;
+    line-height: 100%;
+    /* or 200px */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .imageEarth {
+    position: absolute;
+    width: 116px;
+    height: 423px;
+    left: 903px;
+    top: 1074px;
+  }
+
+  .middleLine1 {
+    position: absolute;
+    width: 0px;
+    height: 515px;
+    left: 960px;
+    top: 0px;
+
+    border: 1px solid #ffffff;
+  }
+
+  .middleLine2 {
+    position: absolute;
+    width: 0px;
+    height: 423px;
+    left: 960px;
+    top: 1074px;
+
+    border: 0.5px solid #ffffff;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 827px;
+    height: 256px;
+    left: 42px;
+    top: 1203px;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 827px;
+    height: 256px;
+    left: 1027px;
+    top: 20px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 867px;
+    height: 299px;
+    left: 1053px;
+    top: 1199px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 839px;
+    height: 227px;
+    left: 55px;
+    top: 30px;
+
+    font-family: 'BROKENZ';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 100%;
+    color: #ffffff;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 879px;
+    height: 360px;
+    left: 55px;
+    top: 160px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120.53%;
+    /* or 36px */
+
+    color: #ffffff;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 452px;
+    height: 228px;
+    left: 55px;
+    top: 600px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 120.53%;
+    /* or 33px */
+
+    color: #ffffff;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 632px;
+    height: 98px;
+    left: 55px;
+    top: 850px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 120.53%;
+    /* or 33px */
+
+    color: #ffffff;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 879px;
+    height: 360px;
+    left: 55px;
+    top: 973px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120.53%;
+    /* or 36px */
+
+    color: #ffffff;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 879px;
+    height: 360px;
+    left: 967px;
+    top: 306px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120.53%;
+    /* or 36px */
+
+    text-align: right;
+
+    color: #ffffff;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 418px;
+    height: 360px;
+    left: 1428px;
+    top: 600px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120.53%;
+    /* or 36px */
+
+    text-align: right;
+
+    color: #ffffff;
+  }
+
+  .text8 {
+    position: absolute;
+    width: 625px;
+    height: 360px;
+    left: 1221px;
+    top: 787px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120.53%;
+    /* or 36px */
+
+    text-align: right;
+
+    color: #ffffff;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 752px;
+    height: 421px;
+    left: 1094px;
+    top: 1038px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120.53%;
+    /* or 24px */
+
+    color: #ffffff;
+  }
+}

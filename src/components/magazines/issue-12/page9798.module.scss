@@ -1,0 +1,97 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+
+  .rect1 {
+    position: absolute;
+    width: 1920px;
+    height: 1649px;
+    left: 0px;
+    top: 0px;
+    
+    background: #5F5BFF;
+  }
+
+  .circle1 {
+    position: absolute;
+    width: 1807px;
+    height: 1801px;
+    left: 56px;
+    top: -152px;
+    border-radius: 50%;
+    background: radial-gradient(50% 50% at 50% 50%, #FF7A00 0%, #000000 56.77%, #FF00F5 96.88%);
+  }
+
+  .text1 {
+    position: absolute;
+    width: 376px;
+    height: 124px;
+    left: -28px;
+    top: 14px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 120px;
+    line-height: 120px;
+    /* or 100% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    -webkit-text-stroke: 3px #FCF868;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 522px;
+    height: 210px;
+    left: 0px;
+    top: 116px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 120px;
+    line-height: 180px;
+    text-align: center;
+    
+    color: #49D3B1;
+    -webkit-text-stroke: 3px #FCF868;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 572px;
+    height: 889px;
+    left: 333px;
+    top: 354px;
+    
+    font-family: 'Rye';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 572px;
+    height: 966px;
+    left: 1025px;
+    top: 354px;
+    
+    font-family: 'Rye';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: right;
+    
+    color: #FFFFFF;
+    -webkit-text-stroke: 0.5px #FFFFFF;   
+  }
+}
