@@ -615,7 +615,37 @@ class MyDocument extends Document {
               font-family: 'Sen';
               src: url("./fonts/Sen-Regular.ttf");
             }
+
+            @font-face {
+              font-family: 'Gidugu';
+              src: url("./fonts/Gidugu-Regular.ttf");
+            }
           
+            @font-face {
+              font-family: 'Smokum';
+              src: url("./fonts/Smokum-Regular.ttf");
+            }
+                    
+            @font-face {
+              font-family: 'Slackside One';
+              src: url("./fonts/slackside-one-regular.ttf");
+            }
+                      
+            @font-face {
+              font-family: 'Akira Expanded';
+              src: url("./fonts/Akira Expanded Demo.otf");
+            }
+
+            @font-face {
+              font-family: 'Smythe';
+              src: url("./fonts/Smythe-Regular.ttf");
+            }
+
+            @font-face {
+              font-family: 'Slackey';
+              src: url("./fonts/Slackey-Regular.ttf");
+            }
+
             @font-face {
               font-family: 'Digital Dare';
               src: url("./fonts/Digital Dare.ttf");

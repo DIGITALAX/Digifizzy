@@ -1,73 +1,49 @@
-import React from 'react'
-import Image from 'next/image'
-import { DIGIFIZZY_S3 } from '@constants/urls'
-import styles from './page8990.module.scss'
+import React from 'react';
+import Image from 'next/image';
+import { DIGIFIZZY_S3 } from '@constants/urls';
+import styles from './page8990.module.scss';
 
 const Page8990 = () => {
   return (
     <div className={styles.wrapper}>
-      <div className={styles.imageBackground1}>
-        <Image
-          src={`${DIGIFIZZY_S3}/11/images/9192_background.jpg`}
-          width={960}
-          height={1497}
-        />
-      </div>
-      <div className={styles.imageBackground2}>
-        <Image
-          src={`${DIGIFIZZY_S3}/11/images/9192_background.jpg`}
-          width={960}
-          height={1497}
-        />
-      </div>
-      <div className={styles.image1}>
-        <Image
-          src={`${DIGIFIZZY_S3}/11/images/8990_image1.png`}
-          width={845}
-          height={1497}
-        />
-      </div>
-      <div className={styles.image2}>
-        <Image
-          src={`${DIGIFIZZY_S3}/11/images/8990_image2.png`}
-          width={570}
-          height={570}
-        />
-      </div>
-      <div className={styles.image3}>
-        <Image
-          src={`${DIGIFIZZY_S3}/11/images/8990_image2.png`}
-          width={570}
-          height={570}
-        />
-      </div>
-      <div className={styles.image4}>
-        <Image
-          src={`${DIGIFIZZY_S3}/11/images/8990_image3.png`}
-          width={1140}
-          height={881}
-        />
-      </div>
+      <div className={styles.rect1} />
       <div className={styles.text1}>
-        The Origins of Copyright and IP
+        This next industrial revolution will no longer have the creators beholden to any platform or
+        entity – and physical production and supply chains are facing obsolescence, since productive
+        capacity is all within your pocket, your fate all within your hands, in an open,
+        interoperable, and permissionless metaverse. A metaverse that literally creates value from
+        ether.
+        <br />
+        <br />
+        The greatest power of web3 is that the individual, creative, and economic sovereignty it
+        offers makes us our own factories with limitless capacity to innovate, iterate, and make new
+        – CC0 enables endless iterations where others can freely build on existing ideas, engaging
+        and collaborating with their purveyors, therefore generating even more potential for
+        undeniable technological progress.
+        <br />
+        <br />
+        Ultimately, web3 has turned us into our own digital factories running with our own capital,
+        talent, creativity – no single brand, animal, vegetable, or mineral can tell you what you
+        should do with your “factory”.
+        <br />
+        <br />
+        Web3 puts you in control, in full ownership, and full responsibility over your destiny.
+        Everyone is a creator.
+        <br />
+        <br />
+        We have nothing to lose but our chains, and a world to gain.
       </div>
-      <div className={styles.text2}>
-        The establishment of rights over thoughts, ideas, and innovation ever since mankind emerged from the primordial soup has helped us to build what we now know as modern civilization.
-        <br /><br />
-        All of it.
-        <br /><br />
-        The history of intellectual property may be distilled into the fact that humankind has always had innovation at the core of the communities that comprise it. 
-        <br /><br />
-        Creativity has always driven societal innovation.
-        <br /><br />
-        And the modern world, for better or for worse, is a shining exemplar of this. Society has been, throughout the development of human history, proven that creativity innovates community.
-        <br /><br />
-        Innovation is a core human value that we instinctively draw from creativity.
-        <br /><br />
-        But just as the ancient Greeks of yore recognized their innovations as the fruit of their god-given creativity, modern man has also given recognition to the individual brilliance of the creative process in the form of intellectual property rights.        
-      </div>
+      <video autoPlay muted loop className={styles.video1}>
+        <source src={`${DIGIFIZZY_S3}/12/videos/8990_video1.mp4`} />
+      </video>
+      <video autoPlay muted loop className={styles.video2}>
+        <source src={`${DIGIFIZZY_S3}/12/videos/8990_video2.mp4`} />
+      </video>
+      <video autoPlay muted loop className={styles.video3}>
+        <source src={`${DIGIFIZZY_S3}/12/videos/8990_video3.mp4`} />
+      </video>
     </div>
-  )
-}
+  );
+};
 
-export default Page8990
+export default Page8990;

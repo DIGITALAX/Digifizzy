@@ -1,82 +1,65 @@
-import React from 'react'
-import Image from 'next/image'
+import React from 'react';
+import Image from 'next/image';
 
-import { DIGIFIZZY_S3 } from '@constants/urls'
-import styles from './page9596.module.scss'
+import { DIGIFIZZY_S3 } from '@constants/urls';
+import styles from './page9596.module.scss';
 
 const Page9596 = () => {
- 
   return (
     <div className={styles.wrapper}>
       <div className={styles.imageBackground}>
-        <Image
-          src={`${DIGIFIZZY_S3}/11/images/9596_background.jpg`}
-          width={960}
-          height={1497}
-        />
+        <Image src={`${DIGIFIZZY_S3}/12/images/9596_back.png`} width={1920} height={1497} />
       </div>
       <div className={styles.text1}>
-        WHAT ARE YOU WEARING?
+        CC0 means that the work can’t be cut off or choked by anyone in the market. it remains free,
+        accessible and open for all to use as essential base ingredients, to remix and derive from.
+        <br />
+        <br />
+        on-chain verification provides a clear transparent and time stamped history which allows for
+        far lower friction coordination between everyone involved in the creative process.
+        <br />
+        <br />
+        and finally, providing informative creative step by steps helps you’re customer base and
+        fellow creators better understand how to related to and frame everything you are doing
+        within their broader world view.
+        <br />
+        <br />
+        it might all sound counter intuitive wher often anyone driven driven to create might focus
+        first on how to recognition for how much you've already done, but usually it's actually far
+        more direct to focus first on what we can give rather than what we are going to get.
       </div>
-      <div className={styles.text2}>
-        WHAT ARE YOU WEARING?
-      </div>
+      <div className={styles.text2}>summer 2022 | june 20th - 23rd NYC</div>
       <div className={styles.text3}>
-        WHAT ARE YOU WEARING?
+        Four days and nights of official events and immersive experiences to rock your self
+        sovereign world:
       </div>
-      <div className={styles.text4}>
-        WHAT ARE YOU WEARING?
-      </div>
-      <div className={styles.text5}>
-        WHAT ARE YOU WEARING?
-      </div>
-      <div className={styles.text6}>
-        FASHION FOR THE METAVERSE
-      </div>
-      <div className={styles.rect1}>
-      </div>
-      <div className={styles.image1}>
-        <Image
-          src={`${DIGIFIZZY_S3}/11/images/9596_image1.jpg`}
-          width={960}
-          height={295}
-        />
-      </div>
-      <div className={styles.image2}>
-        <Image
-          src={`${DIGIFIZZY_S3}/11/images/9596_image2.png`}
-          width={378}
-          height={169}
-        />
-      </div>
-      <div className={styles.text1}>
-        Models A La Mode is our newly launched podcast within the Global Models Syndicate— it’s similar to the Tales of Web3 Tailors, with a kinesthetic twist of non-fungible poses. 
-        <br /><br />
-        It’s not just about releasing some audio tracks for anyone in the community to jack in the aux and get to know more about their favourite web3 models. It goes much deeper than that. 
-        <br /><br />
-        Modeling is so much more than just a surface look. 
-        <br /><br />
-        It’s an exploration of the relationships between motion and space and what actually drives us towards our attraction to each other, what we wear, how we express ourselves and so much more. 
-        <br /><br />
-        Discovering the stories of what we otherwise only see in front of the lense provides greater perspective on what we can begin to imagine and expect to happen as the metaverse and digital-physical NPC and human hybrid models become the norm. 
-      </div>
-      <div className={styles.text2}>
-        Listen in to some of the first episodes below!        
-      </div>
-
-      <a
-        className={styles.playbutton}
-        href='https://soundcloud.com/global-models-syndicate'
-        target='_blank'
-      >
-        <Image
-          src={`${DIGIFIZZY_S3}/11/images/9596_playbutton.png`}
-          width={236}
-          height={235}
-        />
-      </a>
+      <ul className={styles.text4}>
+        <li>Grok zero knowledge</li>
+        <li>Amplify CC0 derivatives and surprise mints with the utility that matters most</li>
+        <li>
+          Settle the debate between which has more instant and long term $$$ worth: CC0 vs limited
+          rights
+        </li>
+        <li>Digital & physical apparel NFT pop ups throughout the city</li>
+        <li>Realm Runway #2: Cypherpunk Zeitgeist 2K</li>
+        <li>Iconographic keys to access, usage, and token governed coordination</li>
+        <li>
+          Local production workshops + open labs: from pattern printing to decentralised fabrication
+        </li>
+        <li>Music x fashion immersive audio sessions</li>
+        <li>
+          Show up during the week at select locations to solve a series of challenges, including
+          minting and amplifying cc0 derivatives, to gain access to the mint list for unique
+          membership tokens which allow you to participate in the second part of the extra special
+          public / private auction of a self sovereign CC0 collection with hidden contributors and
+          plenty of other obviously cool benefits
+        </li>
+      </ul>
+      <video autoPlay loop muted className={styles.video1}>
+        <source src={`${DIGIFIZZY_S3}/12/videos/9596_video1.mp4`} />
+      </video>
     </div>
-  )
-}
+  );
+};
 
-export default Page9596
+export default Page9596;

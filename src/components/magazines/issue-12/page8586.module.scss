@@ -2,382 +2,147 @@
 
 .wrapper {
   @include magazineWrapper();
-  background-color: #FFEF62;
-
-  .video1 {
-    position: absolute;
-    width: 960px;
-    height: 1497px;
-    left: 0px;
-    top: 0px;
-    object-fit: cover;
-  }
+  background-color: #ffef62;
 
   .rect1 {
     position: absolute;
-    width: 961px;
+    width: 1920px;
     height: 1497px;
     left: 0px;
     top: 0px;
-    background: rgba(0, 0, 0, 0.5);
+
+    background: #ffaf37;
   }
 
   .rect2 {
     position: absolute;
     width: 960px;
-    height: 79px;
+    height: 1497px;
     left: 960px;
     top: 0px;
-    
-    background: #4E4AFF;    
+
+    background: rgba(123, 30, 0, 0.85);
+  }
+
+  .rect3 {
+    position: absolute;
+    width: 472px;
+    height: 472px;
+    left: 197px;
+    top: 62px;
+
+    background: #008a8a;
+  }
+
+  .rect4 {
+    position: absolute;
+    width: 472px;
+    height: 472px;
+    left: 323px;
+    top: 909px;
+
+    background: #93168e;
+  }
+
+  .rect5 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: 595px;
+    top: 34px;
+
+    border-left: 116px solid transparent;
+    border-right: 116px solid transparent;
+    border-bottom: 222px solid #da2631;
+  }
+
+  .rect6 {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    left: 22px;
+    top: 852px;
+
+    background: #8c0202;
+    border-radius: 50%;
+  }
+
+  .rect7 {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    left: 699px;
+    top: 298px;
+
+    background: #8c0202;
+    border-radius: 50%;
+  }
+
+  .rect8 {
+    position: absolute;
+    width: 0px;
+    height: 0;
+    left: 0px;
+    top: 1035px;
+    border-left: 305px solid transparent;
+    border-right: 305px solid transparent;
+    border-bottom: 462px solid #ffd600;
   }
 
   .text1 {
     position: absolute;
-    width: 923px;
-    height: 85px;
-    left: 14px;
-    top: 43.67px;
-    
-    font-family: 'DJB Emilys Garden';
+    width: 712px;
+    height: 279px;
+    left: 197px;
+    top: 590px;
+
+    font-family: 'Neucha';
     font-style: normal;
     font-weight: 400;
-    font-size: 100px;
-    line-height: 85px;
-    color: #FFFFFF;
-    
-    -webkit-text-stroke: 1px #FF9900;
+    font-size: 80px;
+    line-height: 88px;
+    display: flex;
+    align-items: center;
+
+    color: #fff621;
+    -webkit-text-stroke: 1px #000000;
   }
 
   .text2 {
     position: absolute;
-    width: 891px;
-    height: 92px;
-    left: 41px;
-    top: 179.67px;
-    
-    font-family: 'Inter';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 30px;
-    
-    color: #FFFFFF;
-    -webkit-text-stroke: 0.5px #FF9900;
-  }
+    width: 712px;
+    height: 1166px;
+    left: 1108px;
+    top: 181px;
 
-  .text3 {
-    position: absolute;
-    width: 396px;
-    height: 92px;
-    left: 511px;
-    top: 242.67px;
-    
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 50px;
-    line-height: 85px;
-    text-align: right;
-    color: #FFFFFF;
-    
-    -webkit-text-stroke: 1px #FF9900;
-  }
-
-  .text4 {
-    position: absolute;
-    width: 883px;
-    height: 431px;
-    left: 25px;
-    top: 313.67px;
-    
-    font-family: 'Inter';
+    font-family: 'Neucha';
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
-    line-height: 30px;
-    text-align: right;
-    
-    color: #FFFFFF;
-    -webkit-text-stroke: 0.3px #FF9900;
-  }
-
-  .text5 {
-    position: absolute;
-    width: 486px;
-    height: 406px;
-    left: 417px;
-    top: 686.67px;
-    
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 30px;
-    
-    text-align: right;
-    
-    color: #FFFFFF;
-    -webkit-text-stroke: 0.3px #FF9900;
-  }
-
-  .text6 {
-    position: absolute;
-    width: 757px;
-    height: 324px;
-    left: 25px;
-    top: 1045px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 30px;
-    color: #FFFFFF;
-    -webkit-text-stroke: 0.3px #FF9900;
-  }
-
-  .text7 {
-    position: absolute;
-    width: 925px;
-    height: 160px;
-    left: 8px;
-    top: 1396px;
-    
-    font-family: 'DJB Emilys Garden';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 100px;
-    line-height: 85px;
-
-    color: #FFFFFF;
-    -webkit-text-stroke: 1px #FF9900;    
-  }
-
-  .text8 {
-    position: absolute;
-    width: 960px;
-    height: 163px;
-    left: 960px;
-    top: 59px;
-    
-    font-family: 'NewYork';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 60px;
-    line-height: 73px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
-    color: #4E4AFF;
-    -webkit-text-stroke: 1px #4E4AFF;
-  }
-
-  .text9 {
-    position: absolute;
-    width: 745px;
-    height: 224px;
-    left: 1068px;
-    top: 133px;
-    
-    font-family: 'NewYork';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 30px;
+    line-height: 33px;
     display: flex;
     align-items: center;
-    text-align: center;
-    
-    color: #4E4AFF;
-    -webkit-text-stroke: 0.4 #4E4AFF;
+
+    color: #ff8514;
+
+    -webkit-text-stroke: 1px #ff0000;
   }
 
-  .text10 {
+  .video1 {
     position: absolute;
-    width: 745px;
-    height: 224px;
-    left: 1068px;
-    top: 218px;
-    
-    font-family: 'NewYork';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    text-decoration-line: underline;
-    
-    color: #4E4AFF;
-    -webkit-text-stroke: 0.4 #4E4AFF;
+    width: 491px;
+    height: 354px;
+    left: 72px;
+    top: 121px;
+    object-fit: cover;
   }
 
-  .image1 {
+  .video2 {
     position: absolute;
-    width: 390px;
-    height: 136px;
-    left: 25px;
-    top: 686.67px;    
-  }
-
-  .image2 {
-    position: absolute;
-    width: 390px;
-    height: 136px;
-    left: 25px;
-    top: 841.67px;
-  }
-
-  .image3 {
-    position: absolute;
-    width: 390px;
-    height: 136px;
-    left: 926px;
-    top: 1071.67px;
-    
-    transform-origin: 0 0;
-    transform: rotate(90deg);
-  }
-
-  .image4 {
-    position: absolute;
-    width: 78px;
-    height: 63px;
-    left: 1401px;
-    top: 10px;    
-  }
-
-  .section1 {
-    position: absolute;
-    width: 960px;
-    height: 500px;
-    left: 960px;
-    top: 374px;
-
-    display: flex;
-    overflow: auto;
-    overflow-y: hidden;
-  }
-
-  .section2 {
-    position: absolute;
-    width: 960px;
-    height: 500px;
-    left: 960px;
-    top: 941px;
-
-    display: flex;
-    overflow: auto;
-    overflow-y: hidden;
-  }
-
-
-  .sliderItem {
-    position: relative;
-    height: 500px;
-
-    .sliderImage {
-      position: relative;
-      z-index: 1;
-      height: 100%;
-      object-fit: cover;
-    }
-  
-    .image {
-      height: 100%;
-      position: relative;
-      z-index: 1;
-    }
-  
-    .audio {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      z-index: 2;
-      transform: translate(calc(-50%), calc(-50%));
-    }
-  
-    .sliderBody {
-      position: absolute;
-      z-index: 2;
-      width: 100%;
-      background: rgba(0, 0, 0, 0.75);
-      padding: 1rem;
-      bottom: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .sliderDescription {
-      font-family: Lemon Milk;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 12px;
-      line-height: 16px;
-      display: flex;
-      align-items: center;
-      text-align: center;
-      justify-content: center;
-      margin-top: 0;
-      text-overflow: ellipsis;
-      overflow: hidden;
-      display: -webkit-box;
-      -webkit-line-clamp: 4;
-      -webkit-box-orient: vertical;
-  
-      color: #ffffff;
-  
-      @media (max-width: 576px) {
-        font-size: 10px;
-        line-height: 12px;
-      }
-    }
-  
-    .sliderTitle {
-      font-family: Lemon Milk;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 17px;
-      line-height: 17px;
-      display: flex;
-      align-items: center;
-      text-align: center;
-      justify-content: center;
-      margin-top: 0;
-  
-      color: #ffffff;
-  
-      @media (max-width: 576px) {
-        font-size: 15px;
-        line-height: 18px;
-      }
-    }
-  
-    .sliderBuyNow {
-      background: #4e4aff;
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
-      padding: 0.25rem 1rem;
-      margin: 0.5rem 0;
-      font-family: Lemon Milk;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 14px;
-      line-height: 24px;
-      text-align: center;
-      border: none;
-      cursor: pointer;
-  
-      color: #ffffff;
-  
-      @media (max-width: 576px) {
-        font-size: 13px;
-        line-height: 15px;
-      }
-    }
+    width: 491px;
+    height: 354px;
+    left: 392px;
+    top: 986px;
+    object-fit: cover;
   }
 }

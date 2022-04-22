@@ -1,153 +1,51 @@
-import React from 'react'
-import Image from 'next/image'
-import { DIGIFIZZY_S3 } from '@constants/urls'
-import styles from './page8788.module.scss'
+import React from 'react';
+import Image from 'next/image';
+import { DIGIFIZZY_S3 } from '@constants/urls';
+import styles from './page8788.module.scss';
 
 const Page8788 = () => (
   <div className={styles.wrapper}>
+    <video autoPlay muted loop className={styles.back}>
+      <source src={`${DIGIFIZZY_S3}/12/videos/8788_video1.mp4`} />
+    </video>
     <div className={styles.rect1}></div>
     <div className={styles.rect2}></div>
     <div className={styles.rect3}></div>
-
-    <div className={styles.image1}>
-      <Image
-        src={`${DIGIFIZZY_S3}/11/images/8788_image1.png`}
-        width={541}
-        height={542}
-      />
-    </div>
-    <div className={styles.image2}>
-      <Image
-        src={`${DIGIFIZZY_S3}/11/images/8788_image1.png`}
-        width={541}
-        height={542}
-      />
-    </div>
-    <div className={styles.image3}>
-      <Image
-        src={`${DIGIFIZZY_S3}/11/images/8788_image1.png`}
-        width={541}
-        height={542}
-      />
-    </div>
-    <div className={styles.image4}>
-      <Image
-        src={`${DIGIFIZZY_S3}/11/images/8788_image1.png`}
-        width={541}
-        height={542}
-      />
-    </div>
-    <div className={styles.image5}>
-      <Image
-        src={`${DIGIFIZZY_S3}/11/images/8788_image1.png`}
-        width={541}
-        height={542}
-      />
-    </div>
-    <div className={styles.image6}>
-      <Image
-        src={`${DIGIFIZZY_S3}/11/images/8788_image1.png`}
-        width={541}
-        height={542}
-      />
-    </div>
-    <div className={styles.image7}>
-      <Image
-        src={`${DIGIFIZZY_S3}/11/images/8788_image1.png`}
-        width={541}
-        height={542}
-      />
-    </div>
-    <div className={styles.image8}>
-      <Image
-        src={`${DIGIFIZZY_S3}/11/images/8788_image1.png`}
-        width={541}
-        height={542}
-      />
-    </div>
-    <div className={styles.image9}>
-      <Image
-        src={`${DIGIFIZZY_S3}/11/images/8788_image1.png`}
-        width={541}
-        height={542}
-      />
-    </div>
+    <div className={styles.rect4}></div>
 
     <div className={styles.text1}>
-      CC0 Galleries      
-    </div>
-    <div className={styles.text2}>
-      The Smithsonian, MoMA, The British Museum and The Metropolitian all share a common dedication to the public good in a way that may be unexpected for some. Often when we think about high valued pieces of art, scultpure, fashion or other forms of creative objects and materials, we assume that they must be held under lock and key beyond the reach of low hassle use.
-      <br /><br />
-      Yet, some of the most prestigious museums in the world have curated entirely public domain galleries of images cataloging their works for use in anyway you would like. 
-      <br /><br />
-      These CC0 Galleries, although taking a more traditional and copy approach as of now, foreshadow the exponential evolution of what is likely to become the largest source of high value material as infrastructure for the metaverse continues to scale up. 
-      <br /><br />
-      Check out some of the CC0 Galleries below. 
-    </div>
-    <div className={styles.text3}>
-      {`Mint to { The CC0 Re-Factory }`}
-    </div>
-    <div className={styles.text4}>
-      The CC0 Re-Factory is a recursive amplifier for the production, creation and on-chain storage and distribution of digital-physical CC0 content. 
-    </div>
-    <div className={styles.text5}>
-      The first iteration comes as a simple minting face, whereby members of the DAO are able to create and mint CC0 content to the on-chain storehouse. This curated gallery emerges overtime into a fully interactive virtual and IRL open content generation lab. 
-      <br /><br />
-      The content serves as both source and derivative material for continuously enhanced fabrication. 
-      <br /><br />
-      All  minted objects are also indexed in the CC0 Github archive for easy access to the source and render files. 
-    </div>
-    <div className={styles.text6}>
-      The CC0 Re-Factory can be used at any time, by members of CC0 DAO to begin with, and then scaling to the broader web3 cc0 community. 
-    </div>
-    <div className={styles.text7}>
-      {`The works minted to { The CC0 Re-Factory } will be actively repurposed and reused across key creative parts of the community to directly increase the cultural and capital value of the pieces as more derivatives are generated and amplified in their reach.`}
+      Working conditions plummeted in factories as enterprising industrialists sought to cut costs
+      as much as they could to stay ahead of the competition. And in spite of the relative economic
+      gains, the gap between the rich and the poor, the working class and the industrialists, the
+      haves and have nots, has just widened and widened centuries after the fact.
+      <br />
+      <br />
+      For every story of economic, political, societal and cultural upheaval brought on by the first
+      industrial revolution, there have been countless consequences on the systems that supported
+      life as we knew it then, and pushing environmental effects to the very precipice of its
+      tolerance.
+      <br />
+      <br />
+      Nevertheless, it is now 2022 and we’re on the verge of yet another Industrial Revolution
+      coming to pass as web3 takes flight – taking capital, manufacturing, production, and
+      creativity traverses from the physical to the digital plane.
+      <br />
+      <br />
+      Creators are raising capital for their NFT projects on their own smart contracts – with zero
+      intermediation. Not beholden to any platform or algorithm cultism. No personal information, no
+      data mined whatsoever. Every physical or digital creation tokenized and put on an immutable
+      ledger, ensuring complete and total ownership. DAOs to enable the liquidity of the vast
+      resources – with content, capital, contracts, and creativity in their hands.
     </div>
 
-    <a 
-      className={styles.button1}
-      href='https://www.si.edu/openaccess'
-      target='_blank'
-    >
-      The Smithsonian CC0 Gallery      
-    </a>
-    <a
-      className={styles.button2}
-      href='https://www.moma.co.uk/public-domain-images/'
-      target='_blank'
-    >
-      MoMA CC0 Gallery
-    </a>
-    <a
-      className={styles.button3}
-      href='https://www.metmuseum.org/about-the-met/policies-and-documents/open-access'
-      target='_blank'
-    >
-      The Met Museum CC0 Gallery
-    </a>
-    <a
-      className={styles.button4}
-      href='https://www.parismusees.paris.fr/en'
-      target='_blank'
-    >
-      Paris Musees CC0 Gallery
-    </a>
-    <a
-      className={styles.button5}
-      href='https://refactory.cc0dao.xyz/'
-      target='_blank'
-    >
-      Mint to the Re-Factory
-    </a>
-    <a
-      className={styles.button6}
-      href='https://github.com/cc0dao'
-      target='_blank'
-    >
-      Use the Archive
-    </a>
+    <video autoPlay muted loop className={styles.video1}>
+      <source src={`${DIGIFIZZY_S3}/12/videos/8788_video1.mp4`} />
+    </video>
+
+    <video autoPlay muted loop className={styles.video2}>
+      <source src={`${DIGIFIZZY_S3}/12/videos/8788_video2.mp4`} />
+    </video>
   </div>
-)
+);
 
-export default Page8788
+export default Page8788;

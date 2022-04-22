@@ -6,7 +6,7 @@ import styles from './backcover.module.scss';
 const Backcover = () => (
   <div className={styles.wrapper}>
     <div className={styles.imageBackground}>
-      <Image src={`${DIGIFIZZY_S3}/12/images/frontCover.png`} width={960} height={1497} />
+      <Image src={`${DIGIFIZZY_S3}/12/images/BackCover.jpg`} width={960} height={1497} />
     </div>
   </div>
 );
