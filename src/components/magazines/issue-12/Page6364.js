@@ -1,39 +1,66 @@
-import React from 'react'
-import Image from 'next/image'
-import { DIGIFIZZY_S3 } from '@constants/urls'
-import styles from './page6364.module.scss'
+import React from 'react';
+import Image from 'next/image';
+import { DIGIFIZZY_S3 } from '@constants/urls';
+import styles from './page6364.module.scss';
 
 const Page6364 = () => (
   <div className={styles.wrapper}>
+    <div className={styles.back}>
+      <Image src={`${DIGIFIZZY_S3}/12/images/6364_back.png`} width={1920} height={1497} />
+    </div>
+    <a href="https://twitter.com/terra_money" className={styles.link1}>
+      TERRAFORM LABS & DO KWON
+    </a>
     <div className={styles.rect1}></div>
     <div className={styles.rect2}></div>
     <div className={styles.rect3}></div>
     <div className={styles.rect4}></div>
-    <div className={styles.rect5}></div>
-    <div className={styles.rect6}></div>
-    <div className={styles.rect7}></div>
-    <div className={styles.rect8}></div>
-
     <div className={styles.text1}>
-      from start up nation to web3 nation      
+      Do Kwon is one of the biggest South Korean crypto names to hit the scene over the last few
+      years, and the founder of Terraform Labs— you might have heard of $LUNA.
+      <br />
+      <br />
+      Terra’s initial vision was to build the algorithmic stablecoin infrastructure and stack for
+      crypto.
     </div>
     <div className={styles.text2}>
-      In 2008, Paypal acquired Tel Aviv startup Fraud Sciences in one of the most well known examples of why Israel has come to be known as the start up nation. With a significantly greater density of all of the usual indicators of engineering, technical, mathematic, scientific and software success, Israel is no stranger to innovation. 
-      <br /><br />
-      One of the most active segments of the technological landscape for Israeli’s is of course cryptography and everything built on top of it. 
-      <br /><br />
-      No wonder then, that web3 is such a rich and fruitful field of exploration in modern Israeli technological development. 
-      <br /><br />
-      Of particular note to anyone interested in the rapid scale up and expansion of blockchain based technologies is how many teams are working at the forefront of zero knowledge proofs and their use in not only providing privacy all kinds of activity in the metaverse and beyond but also for providing L2 scaling solutions. 
-      <br /><br />
-      In fact, zero knowledge proofs themselves were first conceptualised in 1985 by a team including Israeli American Shafi Goldwasser. 
+      Despite the SEC having no clear jurisdiction over Kwon or Terra, and Kwon already being
+      proactive in voluntary cooperation for the SEC’s investigation of Terra DAPP, Mirror Protocol,
+      the SEC once again showed it’s hunger to abuse power.
     </div>
     <div className={styles.text3}>
-      A lot has been said about the sources of Israeli inguenity when it comes to encryption and technology in general, but there is something about living through the perpetual threat of total annihilation for roughly 2,000 years and the more recent perpetual reality of war on many fronts, that makes very clear how important the management and transmission of secure information is to the functioning of life’s basic needs. 
-      <br /><br />
-      From personal communications to banking information to everything that depends on any form of computation, which in todays world means pretty much anything that you can think of. 
+      Back in 2019 this was a pretty big deal, because choice was limited outside of USDT (which
+      still to this day inspires a lot of question marks around it) and decentralised protocols like
+      MakerDAO were still experimenting with the likes of DAI. Since then, Terra has expanded to
+      build out an entire public blockchain and compete head to head with Ethereum.
+      <br />
+      <br />
+      One of the more interesting moments unlong Do Kwon’s journey was the unexpected, very public
+      subpoena handed to him at the Messari Mainnet conference last year.
     </div>
+    <div className={styles.text4}>
+      Kwon isn’t shying away however and has already has filed suit against the SEC. Which, frankly,
+      should be done a lot more often.
+      <br />
+      <br />
+      Not to go on a tangeant here, but, the only way to truly reform the regulatory landscape is to
+      fight head to head on the offensive. The current anti-crypto attitudes from the SEC Chairman
+      are completely counter productive to fair markets and the continued growth of innovation, both
+      in the US and worldwide.
+    </div>
+    <video autoPlay muted loop className={styles.video1}>
+      <source src={`${DIGIFIZZY_S3}/12/videos/6364_video1.mp4`} />
+    </video>
+    <video autoPlay muted loop className={styles.video2}>
+      <source src={`${DIGIFIZZY_S3}/12/videos/6364_video1.mp4`} />
+    </video>
+    <video autoPlay muted loop className={styles.video3}>
+      <source src={`${DIGIFIZZY_S3}/12/videos/6364_video1.mp4`} />
+    </video>
+    <video autoPlay muted loop className={styles.video4}>
+      <source src={`${DIGIFIZZY_S3}/12/videos/6364_video1.mp4`} />
+    </video>
   </div>
-)
+);
 
-export default Page6364
+export default Page6364;

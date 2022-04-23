@@ -3,46 +3,54 @@
 .wrapper {
   @include magazineWrapper();
   background-color: #000000;
-  color: #FFFFFF;
+  color: #ffffff;
 
   .imageBackground {
     position: absolute;
-    width: 1920px;
+    width: 960px;
     height: 1497px;
     left: 0px;
     top: 0px;
   }
 
+  .imageBackground1 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
+    top: 0px;
+  }
+
   .image1 {
     position: absolute;
-    width: 327px;
+    width: 274.56px;
     height: 327px;
     left: 73px;
-    top: 566px;    
+    top: 567px;
   }
 
   .image2 {
     position: absolute;
-    width: 327px;
+    width: 274.56px;
     height: 327px;
     left: 503px;
-    top: 585px;
+    top: 586px;
   }
 
   .image3 {
     position: absolute;
-    width: 327px;
+    width: 274.56px;
     height: 327px;
     left: 73px;
-    top: 986px;
+    top: 992px;
   }
 
   .image4 {
     position: absolute;
-    width: 327px;
+    width: 274.56px;
     height: 327px;
     left: 521px;
-    top: 1042px;
+    top: 1043px;
   }
 
   .image5 {
@@ -50,7 +58,7 @@
     width: 220px;
     height: 220px;
     left: 1040px;
-    top: 396px;        
+    top: 396px;
   }
 
   .image6 {
@@ -87,7 +95,7 @@
 
   a {
     transition: 0.3s all;
-    
+
     &:hover {
       transition: 0.3s all;
       transform: scale(1.1);
@@ -100,7 +108,7 @@
     height: 80px;
     left: 226px;
     top: 40px;
-    
+
     font-family: Knife Princess;
     font-size: 80px;
     line-height: 100%;
@@ -109,17 +117,17 @@
 
   .text2 {
     position: absolute;
-    width: 230px;
+    width: 271px;
     height: 26px;
     left: 73px;
     top: 143px;
-    
+
     font-family: 'Barlow';
     font-style: normal;
     font-weight: 800;
     font-size: 24px;
     line-height: 110%;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   .text3 {
@@ -128,7 +136,7 @@
     height: 299px;
     left: 73px;
     top: 174px;
-    
+
     font-family: Basic;
     font-size: 20px;
     line-height: 110%;
@@ -140,7 +148,7 @@
     height: 24px;
     left: 73px;
     top: 506px;
-    
+
     font-family: Courier Prime;
     font-weight: bold;
     font-size: 22px;
@@ -153,10 +161,10 @@
     height: 22px;
     left: 73px;
     top: 534px;
-    
+
     font-family: Courier Prime;
     font-size: 20px;
-    line-height: 110%; 
+    line-height: 110%;
   }
 
   .text6 {
@@ -178,11 +186,11 @@
     height: 22px;
     left: 503px;
     top: 552px;
-    
+
     font-family: Courier Prime;
     font-size: 20px;
     line-height: 110%;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   .text8 {
@@ -191,7 +199,7 @@
     height: 24px;
     left: 73px;
     top: 930px;
-    
+
     font-family: Courier Prime;
     font-weight: bold;
     font-size: 22px;
@@ -204,7 +212,7 @@
     height: 22px;
     left: 73px;
     top: 958px;
-    
+
     font-family: Courier Prime;
     font-size: 20px;
     line-height: 110%;
@@ -216,7 +224,7 @@
     height: 24px;
     left: 521px;
     top: 980px;
-    
+
     font-family: Courier Prime;
     font-weight: bold;
     font-size: 22px;
@@ -229,7 +237,7 @@
     height: 22px;
     left: 521px;
     top: 1008px;
-    
+
     font-family: Courier Prime;
     font-size: 20px;
     line-height: 110%;
@@ -241,7 +249,7 @@
     height: 240px;
     left: 1137px;
     top: 28px;
-    
+
     font-family: Trocchi;
     font-size: 80px;
     line-height: 100%;
@@ -255,7 +263,7 @@
     height: 240px;
     left: 1137px;
     top: 32px;
-    
+
     font-family: Trocchi;
     font-size: 80px;
     line-height: 100%;
@@ -269,7 +277,7 @@
     height: 240px;
     left: 1137px;
     top: 35px;
-    
+
     font-family: Trocchi;
     font-size: 80px;
     line-height: 100%;
@@ -283,12 +291,12 @@
     height: 25px;
     left: 1137px;
     top: 292px;
-    
+
     font-family: Trocchi;
     font-size: 25px;
     line-height: 100%;
     text-align: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 
   .text16 {
@@ -297,7 +305,7 @@
     height: 24px;
     left: 986px;
     top: 625px;
-    
+
     font-family: Trocchi;
     font-size: 24px;
     line-height: 100%;
@@ -311,7 +319,7 @@
     height: 24px;
     left: 1304px;
     top: 888px;
-    
+
     font-family: Trocchi;
     font-size: 24px;
     line-height: 100%;
@@ -320,13 +328,12 @@
   }
 
   .text18 {
-
     position: absolute;
     width: 327px;
     height: 24px;
     left: 1593px;
     top: 690px;
-    
+
     font-family: Trocchi;
     font-size: 24px;
     line-height: 100%;
@@ -340,7 +347,7 @@
     height: 24px;
     left: 1048px;
     top: 1194px;
-    
+
     font-family: Trocchi;
     font-size: 24px;
     line-height: 100%;
@@ -354,7 +361,7 @@
     height: 24px;
     left: 1543px;
     top: 1301px;
-    
+
     font-family: Trocchi;
     font-size: 24px;
     line-height: 100%;

@@ -1,106 +1,69 @@
-import React from 'react'
-import Image from 'next/image'
-import { DIGIFIZZY_S3 } from '@constants/urls'
-import styles from './page4950.module.scss'
+import React from 'react';
+import Image from 'next/image';
+import { DIGIFIZZY_S3 } from '@constants/urls';
+import styles from './page4950.module.scss';
 
 const Page4950 = () => (
   <div className={styles.wrapper}>
-    <div className={styles.imageBackground}>
-      <Image
-        src={`${DIGIFIZZY_S3}/11/images/4950_background.jpg`}
-        width={1920}
-        height={1497}
-      />
+    <div className={styles.text1}>
+      Decentralized Autonomous Organizations. Smart contracts. Self-sovereign identities.
+      Zero-knowledge proofs. zk-SNARKs.
+      <br />
+      <br />
+      These tools and technologies were developed under the same assumptions that the cypherpunks
+      made with their teachings – key of which include the control over the information people
+      choose to reveal about themselves, and the elimination of any coercion or intrusion by any
+      entity – be it animal, vegetable, or mineral.
+      <br />
+      <br />
+      Self-sovereignty and self-ownership are inseparable from web3 – as is its focus on individual
+      agency, continuing education, and true digital ownership. Ultimately, the goal of web3 is to
+      decentralize the existing technology infrastructure from the clutches of big tech, while
+      preserving the sanctity of the right to privacy.
+      <br />
+      <br />
+      It shouldn’t come as much of a surprise that like-minded individuals would gravitate to
+      technology that has the ability to circumvent, obstruct, and undermine efforts to protect what
+      is theirs from those that have the power to take it.
+      <br />
+      <br />
+      Education is the other side of the web3 coin next to self-sovereignty, because there are no
+      guardrails in open, decentralized ecosystems.
     </div>
-    <div className={styles.rect1}></div>
-    
-    <a
-      className={styles.text1}
-      href='https://twitter.com/stellabelle'
-      target='_blank'
-    >
-      stellabelle
-    </a>
-    <a
-      className={styles.text2}
-      href='https://twitter.com/stellabelle'
-      target='_blank'
-    >
-      stellabelle
-    </a>    
-    <a
-      className={styles.text3}
-      href='https://twitter.com/stellabelle'
-      target='_blank'
-    >
-      stellabelle
-    </a>
-    <a
-      className={styles.text4}
-      href='https://twitter.com/stellabelle'
-      target='_blank'
-    >
-      stellabelle
-    </a>
-    <a
-      className={styles.text5}
-      href='https://twitter.com/stellabelle'
-      target='_blank'
-    >
-      stellabelle
-    </a>
-    <a
-      className={styles.text6}
-      href='https://twitter.com/stellabelle'
-      target='_blank'
-    >
-      stellabelle
-    </a>
-    <div className={styles.text7}>
-      On a Friday afternoon call with Stellabelle I met a fellow cypherpunk CC0 pirate, someone that truly understands the power of cryptoart and NFTs as an OG artist, writer and metaverse architect since 2017. It’s not often that you meet an artist that truly understands and lives their principles, way more common these days to find people that like to posture and pretend that they have a clue what web3 is, refreshing having a free wheeling conversation with a real one. 
-      <br /><br />
-      Among the most salient things that we spoke about is the ongoing attempts at corporate takeover running rampant through the scene, from BAKYC, to yuppy wannabe CryptoPunks to almost every P2E metaverse “game” currently live on the market. There is so much work to be done to raise the flag of real cypherpunk web3 cc0 artistry against whatever the fuck Randy Zuckerbergs of the world think that they are doing in their cringe-seizure inducing dance videos. 
-      <br /><br />
-      All of Stellabelle’s collections are in the public domain and she continues to provide generously to the space with ongoing events, activations and calling out of the fakes that fill our feeds.       
-    </div>    
-    <a
-      className={styles.text8}
-      href='https://www.cryptovoxels.com/play?coords=S@6682W,105S,5F'
-      target='_blank'
-    >
-      METAVERSE GALLERY
-    </a>
-    <a
-      className={styles.text9}
-      href='https://www.cryptovoxels.com/play?coords=S@6682W,105S,5F'
-      target='_blank'
-    >
-      METAVERSE GALLERY
-    </a>
-    <a
-      className={styles.text10}
-      href='https://www.cryptovoxels.com/play?coords=S@6682W,105S,5F'
-      target='_blank'
-    >
-      METAVERSE GALLERY
-    </a>
-
-    <div className={styles.image1}>
-      <Image
-        src={`${DIGIFIZZY_S3}/11/images/4950_image1.gif`}
-        width={1200}
-        height={818}
-      />
+    <div className={styles.text2}>
+      Self-sovereignty means:
+      <br />
+      <br />
+      YOU own your data.
+      <br />
+      <br />
+      YOU own your identity.
+      <br />
+      <br />
+      YOU own your money.
+      <br />
+      <br />
+      YOU take full responsibility for your success or failure.
+      <br />
+      <br />
+      Some individuals scoff at the notion that Big Tech cares about their interests and have no
+      problem with said tech conglomerates holding what are practically the keys to a person’s
+      day-to-day life.
+      <br />
+      <br />
+      Regardless of what side you’re on as far as giving a shit about decentralization Whether Those
+      who care about decentralization & those who don’t.
+      <br />
+      <br />
+      Some, on the other hand, see absolutely nothing wrong with handing over their digital lives
+      over to the next Big Tech gatekeeper or neurotic Silicon Valley CEO wannabe.
+      <br />
+      <br />
+      The trouble is, many of the centralized platforms masquerading as “free” that we’ve come to be
+      dependent on are easily corrupted by the sheer volume of accumulated data that can be
+      weaponized to their advantage.
     </div>
-
-    <video muted loop autoPlay className={styles.video1}>
-      <source
-        src={`${DIGIFIZZY_S3}/11/videos/4950_video1.mp4`}
-        type='video/mp4'
-      />
-    </video>
-
   </div>
-)
+);
 
-export default Page4950
+export default Page4950;

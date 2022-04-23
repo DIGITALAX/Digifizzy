@@ -93,11 +93,21 @@ const Page1516 = () => {
         decentralised websites built on ENS and IPFS. This is just the beginning, with more tooling
         soon on its way.
       </div>
-      <img src={`${DIGIFIZZY_S3}/12/images/1516_image1.jpg`} className={styles.image1} />
-      <img src={`${DIGIFIZZY_S3}/12/images/1516_image2.jpg`} className={styles.image2} />
-      <img src={`${DIGIFIZZY_S3}/12/images/1516_image3.jpg`} className={styles.image3} />
-      <img src={`${DIGIFIZZY_S3}/12/images/1516_image4.jpg`} className={styles.image4} />
-      <img src={`${DIGIFIZZY_S3}/12/images/1516_image5.jpg`} className={styles.image5} />
+      <a href="https://twitter.com/ditto_lab" target="_blank">
+        <img src={`${DIGIFIZZY_S3}/12/images/1516_image1.jpg`} className={styles.image1} />
+      </a>
+      <a href="https://twitter.com/ethgang" target="_blank">
+        <img src={`${DIGIFIZZY_S3}/12/images/1516_image2.jpg`} className={styles.image2} />
+      </a>
+      <a href="https://twitter.com/torproject" target="_blank">
+        <img src={`${DIGIFIZZY_S3}/12/images/1516_image3.jpg`} className={styles.image3} />
+      </a>
+      <a href="https://twitter.com/icevisionxyz" target="_blank">
+        <img src={`${DIGIFIZZY_S3}/12/images/1516_image4.jpg`} className={styles.image4} />
+      </a>
+      <a href="https://zkblock.app/" target="_blank">
+        <img src={`${DIGIFIZZY_S3}/12/images/1516_image5.jpg`} className={styles.image5} />
+      </a>
     </div>
   );
 };

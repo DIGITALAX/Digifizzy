@@ -4,101 +4,103 @@
   @include magazineWrapper();
   background: #000000;
 
-  .rect1 {
+  .back {
     position: absolute;
-    width: 960px;
+    width: 1920px;
     height: 1497px;
-    left: 0px;
-    top: 0px;
-    background-color: #2B292C;
+    top: 0;
+    left: 0;
   }
 
-  .rect2 {
+  .link1 {
     position: absolute;
-    width: 960px;
-    height: 1497px;
-    left: 960px;
-    top: 0px;
-    background-color: #000F97;
-  }
+    width: 596px;
+    height: 146px;
+    left: 50px;
+    top: 32px;
+    transition: all ease 0.3s;
 
-  .image1 {
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    left: 0px;
-    top: 0px;    
-  }
-
-  .image2 {
-    position: absolute;
-    width: 960px;
-    height: 410.67px;
-    left: 960px;
-    top: 1086px;
-  }
-
-  .image3 {
-    position: absolute;
-    width: 597px;
-    height: 361px;
-    left: 363px;
-    top: 0px;
-  }
-
-  .image4 {
-    position: absolute;
-    width: 575px;
-    height: 633px;
-    left: 0px;
-    bottom: 0px;
-  }
-
-  .image5 {
-    position: absolute;
-    width: 307px;
-    height: 656px;
-    left: 608px;
-    bottom: 0px;
-  }
-
-  a {
-    transition: 0.3s all;
     &:hover {
-      transition: 0.3s all;
-      transform: scale(1.05);
+      transform: scale(1.03);
+      transition: all ease 0.3s;
     }
   }
 
   .text1 {
     position: absolute;
-    width: 849px;
-    height: 507px;
-    left: 54px;
-    top: 441px;
-    
-    font-family: 'Myanmar MN';
+    width: 718px;
+    height: 1085px;
+    left: 121px;
+    top: 217px;
+
+    font-family: 'Alfa Slab One';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 110%;
-    
-    text-align: center;
-    color: #FFFFFF;    
+    font-size: 25px;
+    line-height: 34px;
+    text-overflow: visible;
+    display: flex;
+    align-items: center;
+
+    background: linear-gradient(180deg, #ffea31 0%, #ff00c7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
   }
 
   .text2 {
     position: absolute;
-    width: 493px;
-    height: 975px;
-    left: 1329px;
-    top: 61px;
-    
-    font-family: 'Aclonica';
+    width: 718px;
+    height: 24px;
+    left: 1022px;
+    top: 130px;
+
+    font-family: 'Bilbo Swash Caps';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 110%;
-    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+
+    color: #faff00;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 718px;
+    height: 335px;
+
+    font-family: 'Bilbo Swash Caps';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    color: #faff00;
+    top: 327px;
+    left: 1137px;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 718px;
+    height: 745px;
+    left: 1033px;
+    top: 718px;
+
+    font-family: 'Bilbo Swash Caps';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+
+    color: #faff00;
   }
 }

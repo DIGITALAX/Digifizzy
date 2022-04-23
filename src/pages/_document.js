@@ -650,6 +650,41 @@ class MyDocument extends Document {
               font-family: 'Digital Dare';
               src: url("./fonts/Digital Dare.ttf");
             }
+
+            @font-face {
+              font-family: 'Akaya Telivigala';
+              src: url("./fonts/AkayaTelivigala-Regular.ttf");
+            }
+
+            @font-face {
+              font-family: 'Barriecito';
+              src: url("./fonts/Barriecito-Regular.ttf");
+            } 
+            
+            @font-face {
+              font-family: '6809 chargen';
+              src: url("./fonts/6809 chargen.ttf");
+            } 
+
+            @font-face {
+              font-family: 'Arbutus Slab';
+              src: url("./fonts/ArbutusSlab-Regular.ttf");
+            } 
+
+            @font-face {
+              font-family: 'Bilbo Swash Caps';
+              src: url("./fonts/BilboSwashCaps-Regular.ttf")
+            }
+
+            @font-face {
+              font-family: 'Alfa Slab One';
+              src: url("./fonts/AlfaSlabOne-Regular.ttf")
+            }
+
+            @font-face {
+              font-family: 'Euphoria Script';
+              src: url("./fonts/EuphoriaScript-Regular.ttf")
+            }
           
             @font-face {
               font-family: 'Didot';

@@ -12,7 +12,7 @@
     width: 1920px;
     height: 1497px;
     left: 0px;
-    top: 0px;    
+    top: 0px;
   }
 
   a {
@@ -29,65 +29,19 @@
 
   .text1 {
     position: absolute;
-    width: 756px;
-    height: 88px;
+    width: 771px;
+    height: 133px;
     left: 70px;
-    top: 103px;
-    
-    font-family: Julietta Messie Demo;
-    font-size: 80px;
-    line-height: 110%;
-    color: #FFB68C;
-  }
+    top: 1334px;
 
-  .text2 {
-    position: absolute;
-    width: 505px;
-    height: 74px;
-    left: 70px;
-    top: 1282px;
-    
-    font-family: 'Sansita One';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 33px;
-    color: #FFFFFF;
-    -webkit-text-stroke: 0.5px #FFFFFF;    
-    
-  }
-
-  .text3 {
-    position: absolute;
-    width: 473px;
-    height: 34px;
-    left: 70px;
-    top: 1380px;
-    
     font-family: 'Sunflower';
     font-style: normal;
     font-weight: 500;
-    font-size: 35px;
+    font-size: 16px;
     line-height: 16px;
-    color: #FFFFFF;
-    -webkit-text-stroke: 0.5 #FFFFFF;
-  }
+    /* or 100% */
 
-  .text4 {
-    position: absolute;
-    width: 512px;
-    height: 66px;
-    left: 50px;
-    top: 44px;
-    
-    font-family: 'Blacker Display';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 60px;
-    line-height: 110%;
-
-    color: #FF2272;
-    -webkit-text-stroke: 20px #FF2272;
+    color: #ffffff;
   }
 
   .image1 {
@@ -95,10 +49,42 @@
     width: 518px;
     height: 76px;
     left: 50px;
-    top: 44px;    
+    top: 44px;
   }
 
-  a {
+  .text4 {
+    position: absolute;
+    width: 756px;
+    height: 88px;
+    left: 70px;
+    top: 103px;
+
+    font-family: 'Julietta Messie Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 110%;
+    /* identical to box height, or 88px */
+
+    color: #ffb68c;
+  }
+
+  .link1 {
+    position: absolute;
+    width: 139px;
+    height: 40px;
+    left: 70px;
+    top: 1282px;
+
+    font-family: 'Sansita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 33px;
+    /* or 82% */
+
+    color: #ffffff;
+
     color: white;
     transition: 0.3s all;
     &:hover {

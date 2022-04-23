@@ -3,90 +3,229 @@
 .wrapper {
   @include magazineWrapper();
 
-  .rect1 {
-    background: #620000;
-    position: absolute;
-    top: 0;
-    left: 960px;
-    width: 960px;
-    height: 1497px;
-  }
-
   .imageBackground {
     position: absolute;
     top: 0;
     left: 0;
-    width: 960px;
+    width: 1920px;
     height: 1497px;
-  }
-
-  .image1 {
-    position: absolute;
-    width: 554px;
-    height: 837px;
-    left: 982px;
-    top: 644px;    
-  }
-
-  .image2 {
-    position: absolute;
-    width: 533px;
-    height: 600px;
-    left: 1503px;
-    top: -5px;
   }
 
   .text1 {
     position: absolute;
-    width: 738px;
-    height: 100px;
-    left: 982px;
-    top: 7px;
-    
-    font-family: 'Son Of A Glitch';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 100px;
-    line-height: 100%;
+    width: 818px;
+    height: 85px;
+    left: 1027px;
+    top: 42px;
 
-    display: flex;
-    align-items: center;
-    text-align: center;
-    
-    color: #355DE9;
-    -webkit-text-stroke: 1px #FFFFFF;
+    font-family: 'Barriecito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 110%;
+    /* or 55px */
+
+    text-align: right;
+
+    color: #ffffff;
   }
 
   .text2 {
     position: absolute;
-    width: 536px;
-    height: 559px;
-    left: 1000px;
-    top: 119px;
-    
-    font-family: 'Son Of A Glitch';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 100%;
+    width: 818px;
+    height: 428px;
+    left: 1027px;
+    top: 232px;
 
-    color: #FF2D2D;
-    
+    font-family: '6809 Chargen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 110%;
+    /* or 28px */
+
+    color: #ffffff;
   }
 
   .text3 {
     position: absolute;
-    width: 360px;
-    height: 843px;
-    left: 1539px;
-    top: 625px;
-    
-    font-family: 'Son Of A Glitch';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 100%;
+    width: 818px;
+    height: 116px;
+    left: 1072px;
+    top: 602px;
 
-    color: #FFFFFF;
+    font-family: '6809 Chargen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 110%;
+    /* or 44px */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 818px;
+    height: 116px;
+    left: 1147px;
+    top: 642px;
+
+    font-family: '6809 Chargen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 110%;
+    /* or 44px */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 818px;
+    height: 116px;
+    left: 1104px;
+    top: 688px;
+
+    font-family: '6809 Chargen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 110%;
+    /* or 44px */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 818px;
+    height: 116px;
+    left: 1102px;
+    top: 729px;
+
+    font-family: '6809 Chargen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 110%;
+    /* or 44px */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 187px;
+    height: 187px;
+    left: 1324px;
+    top: 830px;
+    border-radius: 50%;
+
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image2 {
+    position: absolute;
+    width: 187px;
+    height: 187px;
+    left: 1641px;
+    top: 804px;
+    border-radius: 50%;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image3 {
+    position: absolute;
+    width: 187px;
+    height: 187px;
+    left: 1097px;
+    top: 1013px;
+    border-radius: 50%;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image4 {
+    position: absolute;
+    width: 187px;
+    height: 187px;
+    left: 1520px;
+    top: 1027px;
+    border-radius: 50%;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image5 {
+    position: absolute;
+    width: 187px;
+    height: 187px;
+    left: 997px;
+    top: 1258px;
+    border-radius: 50%;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image6 {
+    position: absolute;
+    width: 187px;
+    height: 187px;
+    left: 1346px;
+    top: 1228px;
+    border-radius: 50%;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image7 {
+    position: absolute;
+    width: 187px;
+    height: 187px;
+    left: 1672px;
+    top: 1280px;
+    border-radius: 50%;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
   }
 }

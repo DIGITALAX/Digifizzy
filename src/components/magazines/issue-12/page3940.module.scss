@@ -8,40 +8,43 @@
     width: 1920px;
     height: 1497px;
     left: 0px;
-    top: 0px;    
+    top: 0px;
   }
 
   .rect1 {
     position: absolute;
-    width: 575px;
-    height: 230px;
-    left: 365px;
-    top: 159px;
-    
-    background: rgba(213, 134, 67, 0.85);
-    border-radius: 82px;    
+    width: 555px;
+    height: 1372px;
+    left: 74px;
+    top: 60px;
+
+    background: rgba(0, 0, 0, 0.56);
+    border: 10px solid #ffffff;
+    box-sizing: border-box;
   }
 
   .rect2 {
     position: absolute;
-    width: 804px;
-    height: 349px;
-    left: 1068px;
-    top: 52px;
-    
-    background: rgba(213, 134, 67, 0.85);
-    border-radius: 82px;
+    width: 555px;
+    height: 1372px;
+    left: 684px;
+    top: 65px;
+
+    background: rgba(0, 0, 0, 0.56);
+    border: 10px solid #ffffff;
+    box-sizing: border-box;
   }
 
   .rect3 {
     position: absolute;
-    width: 520px;
-    height: 404px;
-    left: 1352px;
-    top: 471px;
-    
-    background: rgba(213, 134, 67, 0.85);
-    border-radius: 82px;
+    width: 555px;
+    height: 1372px;
+    left: 1299px;
+    top: 65px;
+
+    background: rgba(0, 0, 0, 0.56);
+    border: 10px solid #ffffff;
+    box-sizing: border-box;
   }
 
   .rect4 {
@@ -50,195 +53,131 @@
     height: 315px;
     left: 368px;
     top: 1114px;
-    
+
     background: rgba(213, 134, 67, 0.85);
     border-radius: 82px;
   }
 
-  .text1 {
+  .image1 {
     position: absolute;
-    width: 538px;
-    height: 180px;
-    left: 383px;
-    top: 184px;
-    
-    font-family: 'Lexend Exa';
+    width: 198px;
+    height: 198px;
+    left: 6px;
+    top: 0px;
+
+    border: 5px solid #ff0000;
+    box-sizing: border-box;
+    border-radius: 200px;
+  }
+
+  .link1 {
+    position: absolute;
+    width: 432px;
+    height: 84px;
+    top: 96px;
+    left: 128px;
+
+    font-family: 'Mukta Mahee';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 20px;
-    
+    font-size: 70px;
+    line-height: 120.53%;
+    /* or 84px */
+
     display: flex;
     align-items: center;
     text-align: center;
-    
-    color: #FFFFFF;
-    -webkit-text-stroke: 0.5px #FFFFFF;
+
+    color: #ffffff;
+
+    transition: ease all 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: ease all 0.3s;
+    }
+  }
+
+  .text1 {
+    position: absolute;
+    width: 443px;
+    height: 1210px;
+    left: 133px;
+    top: 191px;
+
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120.53%;
+    /* or 36px */
+
+    color: #ffffff;
   }
 
   .text2 {
     position: absolute;
-    width: 765px;
-    height: 286px;
-    left: 1081px;
-    top: 81px;
-    
-    font-family: 'Lexend Exa';
+    width: 443px;
+    height: 1267px;
+    left: 750px;
+    top: 114px;
+
+    font-family: 'Mukta Mahee';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 30px;
+    line-height: 120.53%;
+    /* or 36px */
 
-    text-align: center;
-    color: #FFFFFF;
-    -webkit-text-stroke: 0.5px #FFFFFF;
+    color: #ffffff;
   }
 
   .text3 {
     position: absolute;
-    width: 454px;
-    height: 286px;
-    left: 1385px;
-    top: 531px;
+    width: 443px;
+    height: 894px;
+    left: 1366px;
+    top: 114px;
 
-    font-family: 'Lexend Exa';
-    font-size: 18px;
-    line-height: 20px;
-    text-align: center;
+    font-family: 'Mukta Mahee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120.53%;
+    /* or 36px */
 
-    color: #FFFFFF;
-    -webkit-text-stroke: 0.5px #FFFFFF;
+    color: #ffffff;
   }
 
   .text4 {
     position: absolute;
-    width: 549px;
-    height: 286px;
-    left: 381px;
-    top: 1143px;
-    
-    font-family: 'Lexend Exa';
-    font-size: 18px;
-    line-height: 20px;
-    text-align: center;
-    
-    color: #FFFFFF;
-    -webkit-text-stroke: 0.5px #FFFFFF;
-  }
+    width: 443px;
+    height: 168px;
+    left: 1368px;
+    top: 1010px;
 
-  .text5 {
-    position: absolute;
-    width: 542px;
-    height: 74px;
-    left: 72px;
-    top: 53px;
-    
-    font-family: 'Sansita One';
+    font-family: 'Mukta Mahee';
     font-style: normal;
-    font-weight: 400;
-    font-size: 100px;
-    line-height: 33px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120.53%;
+    /* or 48px */
 
-    color: #FFFFFF;
-    -webkit-text-stroke: 0.5px #FFFFFF;
-  }
-
-  .text6 {
-    position: absolute;
-    width: 542px;
-    height: 74px;
-    left: 1341px;
-    top: 1032px;
-    
-    font-family: 'Sansita One';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 100px;
-    line-height: 33px;
-    
-    color: #FFFFFF;
-    -webkit-text-stroke: 0.5px #FFFFFF;
-  }
-
-  .image1 {
-    position: absolute;
-    width: 692px;
-    height: 694px;
-    left: 619px;
-    top: 401px;    
-  }
-
-  .image2 {
-    position: absolute;
-    width: 297px;
-    height: 297px;
-    left: 27px;
-    top: 164px;
-  }
-
-  .image3 {
-    position: absolute;
-    width: 297px;
-    height: 297px;
-    left: 27px;
-    top: 507px;
-  }
-
-  .image4 {
-    position: absolute;
-    width: 297px;
-    height: 297px;
-    left: 27px;
-    top: 850px;
-  }
-
-  .image5 {
-    position: absolute;
-    width: 297px;
-    height: 297px;
-    left: 27px;
-    top: 1157px;
-  }
-
-  .image6 {
-    position: absolute;
-    width: 252px;
-    height: 252px;
-    left: 343px;
-    top: 412px;
-  }
-
-  .image7 {
-    position: absolute;
-    width: 252px;
-    height: 252px;
-    left: 343px;
-    top: 724px;
+    color: #ffffff;
   }
 
   .imagePlayButton {
     position: absolute;
-    width: 252px;
-    height: 252px;
-    left: 1279px;
-    top: 1152px;    
-  }
+    width: 152px;
+    height: 152px;
+    left: 1500px;
+    top: 1195px;
 
-  .imagePauseButton {
-    position: absolute;
-    width: 252px;
-    height: 252px;
-    left: 1588px;
-    top: 1152px;
-  }
-
-  a {
-    transition: 0.3s all;
-    cursor: pointer;
+    transition: ease all 0.3s;
 
     &:hover {
-      transition: 0.3s all;
-      transform: scale(1.05);
+      transform: scale(1.03);
+      transition: ease all 0.3s;
     }
   }
 }

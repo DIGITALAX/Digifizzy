@@ -3,216 +3,39 @@
 .wrapper {
   @include magazineWrapper();
 
-  .imageBackground {
-    position: absolute;
-    width: 1920px;
-    height: 1497px;
-    left: 0px;
-    top: 0px;
-    object-fit: cover;
-  }
-
-  .rect1 {
-    position: absolute;
-    width: 1920px;
-    height: 1497px;
-    left: 0px;
-    top: 0px;
-    
-    background: rgba(55, 0, 0, 0.65);
-  }
+  background: #8f00ff;
 
   .text1 {
     position: absolute;
-    width: 505px;
-    height: 74px;
-    left: 47px;
-    top: 77px;
-    
-    font-family: 'Sancreek';
+    width: 804px;
+    height: 1255px;
+    left: 109px;
+    top: 83px;
+
+    font-family: 'Akaya Telivigala';
     font-style: normal;
     font-weight: 400;
-    font-size: 100px;
-    line-height: 33px;
+    font-size: 30px;
+    line-height: 50px;
+    /* or 167% */
 
-    color: #146A2C;
-    -webkit-text-stroke: 2px #00FF47;
+    color: #ffffff;
   }
 
   .text2 {
     position: absolute;
-    width: 505px;
-    height: 74px;
-    left: 47px;
-    top: 186px;
-    
-    font-family: 'Sancreek';
+    width: 804px;
+    height: 1255px;
+    left: 1032px;
+    top: 83px;
+
+    font-family: 'Akaya Telivigala';
     font-style: normal;
     font-weight: 400;
-    font-size: 100px;
-    line-height: 33px;
-    color: #146A2C;
-    
-    -webkit-text-stroke: 2px #00FF47;
-  }
+    font-size: 30px;
+    line-height: 50px;
+    /* or 167% */
 
-  .text3 {
-    position: absolute;
-    width: 505px;
-    height: 74px;
-    left: 47px;
-    top: 295px;
-    
-    font-family: 'Sancreek';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 100px;
-    line-height: 33px;
-    color: #146A2C;
-    
-    -webkit-text-stroke: 2px #00FF47;
-  }
-
-  .text4 {
-    position: absolute;
-    width: 505px;
-    height: 74px;
-    left: 47px;
-    top: 404px;
-    
-    font-family: 'Sancreek';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 100px;
-    line-height: 33px;
-    color: #146A2C;
-    
-    -webkit-text-stroke: 2px #00FF47;
-  }
-
-  .text5 {
-    position: absolute;
-    width: 505px;
-    height: 74px;
-    left: 47px;
-    top: 1292px;
-    
-    font-family: 'Sancreek';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 100px;
-    line-height: 33px;
-    color: #146A2C;
-    
-    -webkit-text-stroke: 2px #00FF47;
-  }
-
-  .text6 {
-    position: absolute;
-    width: 505px;
-    height: 74px;
-    left: 47px;
-    top: 1401px;
-    
-    font-family: 'Sancreek';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 100px;
-    line-height: 33px;
-    color: #146A2C;
-    
-    -webkit-text-stroke: 2px #00FF47;
-  }
-
-  .text7 {
-    position: absolute;
-    width: 886px;
-    height: 794px;
-    left: 47px;
-    top: 476px;
-    
-    font-family: 'Romanesco';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 47px;
-    line-height: 40px;
-    /* or 85% */
-    
-    
-    color: #FFFFFF;        
-  }
-
-  .text8 {
-    position: absolute;
-    width: 573px;
-    height: 74px;
-    left: 1326px;
-    top: 76px;
-    
-    font-family: Saira Extra Condensed;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 90px;
-    line-height: 33px;
-    color: #26399C;
-    -webkit-text-stroke: 2px #6B83FF;
-  }
-
-  .text9 {
-    position: absolute;
-    width: 573px;
-    height: 74px;
-    left: 1326px;
-    top: 120px;
-    
-    font-family: Saira Extra Condensed;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 90px;
-    line-height: 33px;
-    color: #146A2C;
-    -webkit-text-stroke: 2px #00FF47;
-  }
-
-  .text10 {
-    position: absolute;
-    width: 573px;
-    height: 74px;
-    left: 1326px;
-    top: 164px;
-    
-    font-family: Saira Extra Condensed;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 90px;
-    line-height: 33px;
-
-    color: #44146A;
-    -webkit-text-stroke: 2px #B961FF;
-  }
-
-  .image1 {
-    position: absolute;
-    width: 872px;
-    height: 699px;
-    left: 1011px;
-    top: 282px;
-  }
-
-  .video1 {
-    position: absolute;
-    width: 872px;
-    height: 409px;
-    left: 1011px;
-    top: 1042px;
-    object-fit: cover;
-  }
-
-  a {
-    transition: 0.3s all;
-    &:hover {
-      transition: 0.3s all;
-      transform: scale(1.05);
-    }
+    color: #ffffff;
   }
 }
