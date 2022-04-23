@@ -6,7 +6,7 @@ import styles from './page2930.module.scss';
 const Page2930 = () => (
   <div className={styles.wrapper}>
     <video autoPlay muted loop className={styles.video1}>
-      <source src={`${DIGIFIZZY_S3}/11/videos/2930_video1.mp4`} type="video/mp4" />
+      <source src={`${DIGIFIZZY_S3}/12/videos/2930_video.mp4`} type="video/mp4" />
     </video>
     <div className={styles.rect1} />
     <h1>SUSTAINABILITY PIONEERS</h1>
