@@ -113,7 +113,7 @@ const Page2728 = () => {
         <Image src={`${DIGIFIZZY_S3}/12/images/2728_image5.png`} width={169} height={170} />
       </a>
       <audio ref={refAudio} loop>
-        <source src={`${DIGIFIZZY_S3}/11/sounds/2728_sound1.mp3`} type="audio/mp3" />
+        <source src={`${DIGIFIZZY_S3}/12/sounds/2728_audio.m4a`} type="audio/mp3" />
       </audio>
     </div>
   );

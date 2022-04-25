@@ -8,48 +8,53 @@ const Page34 = () => (
     <div className={styles.image1}>
       <Image src={`${DIGIFIZZY_S3}/12/images/34_back.png`} width={960} height={1497} />
     </div>
-    <div className={styles.text1}>Zero Knowledge x CC0.</div>
+    <div className={styles.text1}>Freeing Capacity.</div>
     <div className={styles.text2}>
-      When we look back at the key milestones in blockchain history; the first that comes to mind is
-      Bitcoin, followed obviously by Ethereum, then arguably PoS, and now the latest candidate is
-      Zero Knowledge Proofs for just about everything.
+      Raised in a technological era, ranging back much earlier than most of us realise, it has
+      become an almost expected bit of social conditioning to think of every major advance as being
+      simplistically good for expanding personal freedoms.
       <br />
       <br />
-      Truly remarkable bits of math and logic, these implementations in a blockchain context allow
-      for far greater scaling, throughput, privacy and so much more.
+      But, a closer look shows that there is more to the story.
       <br />
       <br />
-      But, a more interesting question is why are ZK Proofs so transformative for CC0?
+      The more interesting question is what do major technological leaps actually do to either
+      liberate us from previously severe impositions or constrain us in new and profound ways?
       <br />
       <br />
-      Well first, we have to ask: what’s the main blocker preventing the rapid scaling of CC0 in
-      functional practice?
+      Let’s jump loosely along a look back through some of the most impactful moments in
+      technological history to get some sense of where this thread leads.
       <br />
       <br />
-      CC0 recognizes and expresses the inherent rights we all have to create and share thoughts,
-      speech, and content without arbitrary limits. But a long-standing inhibitor of free expression
-      is the lack of clear, flexible, and portable infrastructure to make profitable use of both
-      original and derivative creative work. ZK proofs, and more specifically ZK rollups in a
-      blockchain context, change that.
+      From the loom to the lock and key, from writing to cryptography, from the telegraph,
+      telephone, radio and television to the airplane and motorized vehicles of all kinds.
       <br />
       <br />
-      A lot of people think that CC0 means no money, but actually it brings light to a key insight
-      about the reality of what money is. More than a representation of value, making money in any
-      context depends on the mechanisms we use to create, transport, trade, and use value. CC0 on
-      its own already helps provide substantially better conceptual and ultimately legal structures
-      to defend our rights to create and make money from creativity.
+      The ones whose impact we often overlook, like the washing machine and refrigerations, and the
+      ones we know all too clearly today we can’t imagine living without, like the personal
+      computer, the internet, mobile phones, and most recently, blockchain.
       <br />
       <br />
-      When combined with ZK based scaling solutions, these mechanisms bring thousands of keys for
-      portable self sovereignty into every pocket.
+      The last of these fits quite clearly in the tense boundaries between technologies enhancing or
+      limiting our capacity for freedom in our lives.
       <br />
       <br />
-      ZK Proofs make use of a kind of math that is very inexpensive to perform in one direction, and
-      nearly impossible to afford in reverse. In other words, it's one way math.
+      One of the biggest questions asked by anyone that is yet to be convinced on just how
+      transformative the technology is, can be;“Why blockchain?” “Why blockchain when it is
+      inefficent, might cost more money and the legacy system running now works just fine?”
       <br />
       <br />
-      How exactly this works in a blockchain context is covered in more detail in other parts of
-      this issue of DIGIFIZZY. Skip to the end for part two.
+      What they don’t see are all of the hidden costs, externalities and trade offs with all of the
+      technologies that we have already integrated deeply into our societal understandings.
+      <br />
+      <br />
+      While computers, telephones, television, radio and similar information technologies have done
+      wonders for the spread of open knowledge throughout the far reaches of the world, in ways
+      previously unimaginable, they have also been used to reinforce and embolden regimes of brutal
+      centralisation and repression.
+      <br />
+      <br />
+      Continued on the last page.
     </div>
     <div className={styles.text3}>- Emma-Jane MacKinnon-Lee</div>
     <div className={styles.text4}>contributors</div>
@@ -79,33 +84,31 @@ const Page34 = () => (
       Dylan Reed <br />
       Brenon jpg <br />
       Avie <br />
-      Zero <br />
-      Edit <br />
     </div>
     <div className={styles.text9}>
       nicooo.eth <br />
-      Richie J <br />
-      Vihka <br />
-      ABigNeonGlitter <br />
-      Ezincrypto <br />
+      HEAT <br />
+      Panther <br />
+      STAV <br />
+      Prof <br />
     </div>
     <div className={styles.text10}>
-      CDT.ETH <br />
-      Salvino Armati <br />
-      Signora Armati <br />
-      Moshe Hogeg <br />
+      Kornit Digital <br />
+      Prop House <br />
+      Roopa Vasudevan <br />
+      F3Manifesto <br />
     </div>
     <div className={styles.text11}>
-      David Horvath <br />
-      Matt Downey <br />
-      Ruby <br />
-      StarkWare <br />
+      Alyona Briukhanova <br />
+      Yauheni_k13 <br />
+      Zero <br />
+      Edit <br />
     </div>
     <div className={styles.text12}>
-      M0d3xx <br />
-      Mona Vir <br />
-      p4dee_01 <br />
-      Toady_Hawk <br />
+      Paola Olaquivel <br />
+      Shark DAO <br />
+      Eran <br />
+      heyjeres <br />
     </div>
   </div>
 );

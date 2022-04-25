@@ -17,57 +17,36 @@ const Page103104 = () => {
       <div className={styles.imageBackground}>
         <Image src={`${DIGIFIZZY_S3}/12/images/103104_back.png`} width={960} height={1497} />
       </div>
-      <div className={styles.text1}>ZK_CC0 Continued.</div>
+      <div className={styles.text1}>Freeing Capacity Part 2.</div>
       <div className={styles.text2}>
-        ZK scalability promises to bring all of the utility that blockchain offers to the masses,
-        giving CC0 content new places to thrive and new ways to be monetised.
+        When any single or small group of powers is able to gain control of who has access to a
+        powerful technology and how it can be used, the radical increases in capacity offered by
+        these advances can become instead vast repositories of information secretly collected and
+        stored in order to keep a populous in check or means of mass distribution for disinformation
+        and propaganda.
         <br />
         <br />
-        Imagine the modern digital mini factories powered by NFTs, which do so much more than just
-        mass produce items that sit in boxes waiting for optimal demand and logistics conditions to
-        match up.
+        The natural counter to this is the wide spread distribution and decentralisation in not just
+        know-how in using these technologies but the creative ingenuity required to break them down
+        and build them up from scratch.
         <br />
         <br />
-        These new factories instead radically reduce the friction to production and costs of
-        transactions and discoverability. They combine liberty and economics to remove artificially
-        competitive markets and the power that corporations have to rig them. The open bazaar is
-        ruled neither by big governments or corporate hierarchies.
+        Knowing how these systems tick and how to maintain, tinker with, deconstruct and advance
+        them ourselves is the most critical aspect of what determines whether a particular
+        technology advance has a broadly positive or negative impact on humanity.
         <br />
         <br />
-        ZK and CC0 are the ultimate power tools that make free markets complete. This combination
-        breaks free the ability to gain marginal returns within market segmets previously restricted
-        by centralised control so that it is no longer economically rational to spend so much on
-        limiting access when equal or better alternatives are readily available.
+        So, how does blockchain fit into this and what does it really do for us?
         <br />
         <br />
-        Money from the marketplace, not the politicians, as we move beyond the all too lingering
-        deceit that creating duplications of pieces of paper creates wealth.
+        Quite simply, it is the most direct technology advancing our precise ability to coordinate
+        socially and yet fully voluntarily and independently.
         <br />
         <br />
-        Because, it doesn't.
-        <br />
-        <br />
-        And you don't need any knowledge to know just how true that is.
-        <br />
-        <br />
-        From here on out it's zeroes all the way down.
-        <br />
-        <br />
-        00000000000000000000000000000000000000000000000000000000 <br />
-        00000000000000000000000000000000000000000000000000000000 <br />
-        00000000000000000000000000000000000000000000000000000000 <br />
-        00000000000000000000000000000000000000000000000000000000 <br />
-        00000000000000000000000000000000000000000000000000000000 <br />
-        00000000000000000000000000000000000000000000000000000000 <br />
-        00000000000000000000000000000000000000000000000000000000 <br />
-        00000000000000000000000000000000000000000000000000000000 <br />
-        00000000000000000000000000000000000000000000000000000000 <br />
-        00000000000000000000000000000000000000000000000000000000 <br />
-        00000000000000000000000000000000000000000000000000000000 <br />
-        00000000000000000000000000000000000000000000000000000000 <br />
-        00000000000000000000000000000000000000000000000000000000 <br />
-        00000000000000000000000000000000000000000000000000000000 <br />
-        00000000000000000000000000000000000000000000000000000000 <br />
+        Because of the sequential nature of consensus validated time stamps, the number of previous
+        nearly impossible to account for question marks and expenses that have become now simple to
+        resolve (through layer 2s, ZKs and all of the rest), the fluidity of navigating points of
+        social conflict and opportunity becomes the most important aspect of the game itself.
       </div>
       <div className={styles.text3}>- Emma-Jane MacKinnon-Lee</div>
 
