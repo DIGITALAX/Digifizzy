@@ -1,0 +1,285 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: black;
+
+  .imageBackground {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 214px;
+    height: 214px;
+    left: 1666px;
+    top: 80px;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 400px;
+    height: 245px;
+    left: 936px;
+    top: 321px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 309px;
+    height: 40px;
+    left: 1006px;
+    top: 30px;
+
+    font-family: Knife Princess;
+    font-size: 40px;
+    line-height: 100%;
+    color: #ffffff;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 656px;
+    height: 121px;
+    left: 1336px;
+    top: 13px;
+
+    font-family: Bahiana;
+    font-size: 60px;
+    line-height: 110%;
+    color: #ffffff;
+    text-shadow: -1px -1px black, -1px 1px black, 1px -1px black, 1px 1px black;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 674px;
+    height: 156px;
+    left: 1006px;
+    top: 84px;
+
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    /* or 18px */
+
+    color: #ffffff;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 261px;
+    height: 55px;
+    left: 1454px;
+    top: 248px;
+
+    font-family: DM Mono;
+    font-size: 20px;
+    line-height: 100%;
+    color: #ffffff;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 388px;
+    height: 40px;
+    left: 1030px;
+    top: 267px;
+
+    font-family: Knife Princess;
+    font-size: 40px;
+    line-height: 100%;
+    color: #ffffff;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 503px;
+    height: 112px;
+    left: 1270px;
+    top: 334px;
+
+    font-family: Bahiana;
+    font-size: 60px;
+    line-height: 110%;
+    color: #ffffff;
+    text-shadow: -1px -1px black, -1px 1px black, 1px -1px black, 1px 1px black;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 164px;
+    height: 59px;
+    left: 1271px;
+    top: 396px;
+
+    font-family: DM Mono;
+    font-size: 20px;
+    line-height: 100%;
+    color: #ffffff;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text8 {
+    position: absolute;
+    width: 438px;
+    height: 261px;
+    left: 1442px;
+    top: 409px;
+
+    font-family: DM Mono;
+    font-size: 20px;
+    line-height: 100%;
+    color: #ffffff;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 401px;
+    height: 132px;
+    left: 1015px;
+    top: 790px;
+
+    font-family: Masterblast;
+    font-size: 30px;
+    line-height: 100%;
+    color: #ffffff;
+    -webkit-text-stroke: 1px #ea00d2;
+  }
+
+  .text10 {
+    position: absolute;
+    width: 412px;
+    height: 582px;
+    left: 1015px;
+    top: 890px;
+
+    font-family: DM Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 100%;
+    /* or 20px */
+
+    color: #ffffff;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text11 {
+    position: absolute;
+    width: 440px;
+    height: 286px;
+    left: 1463px;
+    top: 676px;
+
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+
+    color: #ffffff;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text12 {
+    position: absolute;
+    width: 431px;
+    height: 60px;
+    left: 1463px;
+    top: 701px;
+
+    font-family: 'Masterblast';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    /* or 30px */
+
+    color: #ffffff;
+    -webkit-text-stroke: 1px #0047ff;
+  }
+
+  .text13 {
+    position: absolute;
+    width: 431px;
+    height: 723px;
+    left: 1463px;
+    top: 744px;
+
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    /* or 20px */
+
+    color: #ffffff;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .esportsText1 {
+    position: absolute;
+    width: 462px;
+    height: 112px;
+    left: 992px;
+    top: 550px;
+
+    font-family: Ceviche One;
+    font-size: 100px;
+    line-height: 110%;
+    color: #ffffff;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .esportsText2 {
+    position: absolute;
+    width: 462px;
+    height: 112px;
+    left: 1006px;
+    top: 560px;
+
+    font-family: Ceviche One;
+    font-size: 100px;
+    line-height: 110%;
+    color: #0400d8;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .esportsText3 {
+    position: absolute;
+    width: 462px;
+    height: 112px;
+    left: 1025px;
+    top: 566px;
+
+    font-family: Ceviche One;
+    font-size: 100px;
+    line-height: 110%;
+    color: #39d8a8;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .esportsText4 {
+    position: absolute;
+    width: 462px;
+    height: 112px;
+    left: 1039px;
+    top: 568px;
+
+    font-family: Ceviche One;
+    font-size: 100px;
+    line-height: 110%;
+    color: #ffffff;
+    -webkit-text-stroke: 1px #000000;
+  }
+}

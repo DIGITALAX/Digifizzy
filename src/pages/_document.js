@@ -1,8 +1,6 @@
 /* eslint-disable max-len */
-import React from 'react'
-import Document, {
-  NextScript, Html, Main, Head
-} from 'next/document'
+import React from 'react';
+import Document, { NextScript, Html, Main, Head } from 'next/document';
 
 const scriptTxt = `
 (function () {
@@ -12,7 +10,7 @@ const scriptTxt = `
   base.href = ipfsMatch ? ipfsMatch[0] : '/';
   document.head.append(base); 
 })();
-`
+`;
 
 const gaScriptText = `
   window.dataLayer = window.dataLayer || [];
@@ -20,7 +18,7 @@ const gaScriptText = `
   gtag('js', new Date());
 
   gtag('config', 'G-Y06VSWY6VY');
-`
+`;
 
 const goolgeFonts = [
   'Abel',
@@ -324,27 +322,26 @@ const goolgeFonts = [
 
   'Zen+Loop',
   'Zilla+Slab+Highlight',
-]
+];
 
 class MyDocument extends Document {
-
   getGoogleFontsLinks() {
     return goolgeFonts.map((font, index) => (
       <link
-        rel='stylesheet'
+        rel="stylesheet"
         key={index}
         href={`https://fonts.googleapis.com/css2?family=${font}`}
       />
-    ))
+    ));
   }
 
   render() {
     return (
-      <Html lang='en'>
+      <Html lang="en">
         <Head>
-          <script src='/arkane-network/web3-arkane-provider.js' />
+          <script src="/arkane-network/web3-arkane-provider.js" />
           <script dangerouslySetInnerHTML={{ __html: scriptTxt }} />
-          <script async src='https://www.googletagmanager.com/gtag/js?id=G-Y06VSWY6VY' />
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y06VSWY6VY" />
           <script dangerouslySetInnerHTML={{ __html: gaScriptText }} />
           {this.getGoogleFontsLinks()}
 
@@ -618,10 +615,75 @@ class MyDocument extends Document {
               font-family: 'Sen';
               src: url("./fonts/Sen-Regular.ttf");
             }
+
+            @font-face {
+              font-family: 'Gidugu';
+              src: url("./fonts/Gidugu-Regular.ttf");
+            }
           
+            @font-face {
+              font-family: 'Smokum';
+              src: url("./fonts/Smokum-Regular.ttf");
+            }
+                    
+            @font-face {
+              font-family: 'Slackside One';
+              src: url("./fonts/slackside-one-regular.ttf");
+            }
+                      
+            @font-face {
+              font-family: 'Akira Expanded';
+              src: url("./fonts/Akira Expanded Demo.otf");
+            }
+
+            @font-face {
+              font-family: 'Smythe';
+              src: url("./fonts/Smythe-Regular.ttf");
+            }
+
+            @font-face {
+              font-family: 'Slackey';
+              src: url("./fonts/Slackey-Regular.ttf");
+            }
+
             @font-face {
               font-family: 'Digital Dare';
               src: url("./fonts/Digital Dare.ttf");
+            }
+
+            @font-face {
+              font-family: 'Akaya Telivigala';
+              src: url("./fonts/AkayaTelivigala-Regular.ttf");
+            }
+
+            @font-face {
+              font-family: 'Barriecito';
+              src: url("./fonts/Barriecito-Regular.ttf");
+            } 
+            
+            @font-face {
+              font-family: '6809 chargen';
+              src: url("./fonts/6809 chargen.ttf");
+            } 
+
+            @font-face {
+              font-family: 'Arbutus Slab';
+              src: url("./fonts/ArbutusSlab-Regular.ttf");
+            } 
+
+            @font-face {
+              font-family: 'Bilbo Swash Caps';
+              src: url("./fonts/BilboSwashCaps-Regular.ttf")
+            }
+
+            @font-face {
+              font-family: 'Alfa Slab One';
+              src: url("./fonts/AlfaSlabOne-Regular.ttf")
+            }
+
+            @font-face {
+              font-family: 'Euphoria Script';
+              src: url("./fonts/EuphoriaScript-Regular.ttf")
             }
           
             @font-face {
@@ -1546,6 +1608,12 @@ class MyDocument extends Document {
               src: url('./fonts/DroDEMO-KCFonts.ttf');
             }
 
+
+            @font-face {
+              font-family: 'Asul';
+              src: url('./fonts/Asul-Regular.ttf');
+            }
+
             @font-face {
               font-family: 'Zorque';
               src: url('./fonts/zorque.otf');
@@ -1900,6 +1968,11 @@ class MyDocument extends Document {
               font-family: "Lao MN";
               src: url("./fonts/Lao MN.ttc");
             }
+
+            @font-face {
+              font-family: "Azeret Mono";
+              src: url("./fonts/AzeretMono-VariableFont_wght.ttf");
+            }
             
             @font-face {
               font-family: "BROKENZ";
@@ -1933,7 +2006,7 @@ class MyDocument extends Document {
               font-family: 'NewYork';
               src: url("./fonts/NewYork.otf");
             }
-          `
+          `,
             }}
           />
         </Head>
@@ -1942,9 +2015,8 @@ class MyDocument extends Document {
           <NextScript />
         </body>
       </Html>
-    )
+    );
   }
-
 }
 
-export default MyDocument
+export default MyDocument;

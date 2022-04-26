@@ -1,14 +1,15 @@
-import issue1PageList from './issue-1/PageList'
-import issue2PageList from './issue-2/PageList'
-import issue3PageList from './issue-3/PageList'
-import issue4PageList from './issue-4/PageList'
-import issue5PageList from './issue-5/PageList'
-import issue6PageList from './issue-6/PageList'
-import issue7PageList from './issue-7/PageList'
-import issue8PageList from './issue-8/PageList'
-import issue9PageList from './issue-9/PageList'
-import issue10PageList from './issue-10/PageList'
-import issue11PageList from './issue-11/PageList'
+import issue1PageList from './issue-1/PageList';
+import issue2PageList from './issue-2/PageList';
+import issue3PageList from './issue-3/PageList';
+import issue4PageList from './issue-4/PageList';
+import issue5PageList from './issue-5/PageList';
+import issue6PageList from './issue-6/PageList';
+import issue7PageList from './issue-7/PageList';
+import issue8PageList from './issue-8/PageList';
+import issue9PageList from './issue-9/PageList';
+import issue10PageList from './issue-10/PageList';
+import issue11PageList from './issue-11/PageList';
+import issue12PageList from './issue-12/PageList';
 
 const issueList = {
   1: issue1PageList,
@@ -21,9 +22,10 @@ const issueList = {
   8: issue8PageList,
   9: issue9PageList,
   10: issue10PageList,
-  11: issue11PageList
-}
+  11: issue11PageList,
+  12: issue12PageList,
+};
 
-const getPageList = (issueId) => issueList[issueId]
+const getPageList = (issueId) => issueList[issueId];
 
-export default getPageList
+export default getPageList;

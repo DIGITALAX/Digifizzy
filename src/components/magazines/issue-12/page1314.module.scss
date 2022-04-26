@@ -1,0 +1,79 @@
+@import './styles.module.scss';
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro');
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: #000000;
+  color: black;
+  display: flex;
+  position: relative;
+
+  .text1 {
+    position: absolute;
+    width: 729px;
+    height: 1220px;
+    left: 121px;
+    top: 124px;
+
+    font-family: 'Brygada 1918';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 100%;
+    /* or 35px */
+
+    color: #ffffff;
+  }
+
+  .circle1 {
+    position: absolute;
+    width: 817px;
+    height: 770px;
+    left: 1052px;
+    top: -337px;
+
+    border: 10px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 50px 10px #ff0000;
+    border-radius: 50%;
+  }
+
+  .circle2 {
+    position: absolute;
+    width: 188px;
+    height: 188px;
+    left: 1130px;
+    top: 525px;
+
+    border: 10px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 50px 10px #ff6b00;
+    border-radius: 50%;
+  }
+
+  .circle3 {
+    position: absolute;
+    width: 636px;
+    height: 636px;
+    left: 1388px;
+    top: 573px;
+
+    border: 10px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 50px 10px #001aff;
+    border-radius: 50%;
+  }
+
+  .circle4 {
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 1768px;
+    top: 1334px;
+
+    border: 10px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 50px 10px #ff6b00;
+    border-radius: 50%;
+  }
+}

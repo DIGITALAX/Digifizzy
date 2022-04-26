@@ -1,0 +1,267 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: #ffffff;
+  display: flex;
+  position: relative;
+
+  .background1 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+
+    background: #40c1fa;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 960px;
+    height: 320px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 280px;
+    top: 420px;
+  }
+
+  .image3 {
+    background: #4f442d;
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
+    top: 0px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 588px;
+    height: 48px;
+    left: 186px;
+    top: 297px;
+
+    font-family: 'CropFontXtra';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 100%;
+    /* or 50px */
+
+    text-align: center;
+
+    color: #f6deb2;
+    -webkit-text-stroke: 1px #c73921;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 830px;
+    height: 120px;
+    left: 69px;
+    bottom: 239px;
+
+    font-family: 'CropFontXtra';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    /* or 30px */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .link1 {
+    position: absolute;
+    width: 390px;
+    height: 90px;
+    top: 20px;
+    left: 980px;
+
+    font-family: 'Krungthep';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 100%;
+    /* identical to box height, or 90px */
+
+    text-align: center;
+
+    color: #ffb800;
+    &:hover {
+      transform: scale(1.05);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .text3 {
+    position: absolute;
+    width: 498px;
+    height: 280px;
+    left: 998px;
+    top: 228px;
+
+    font-family: 'Didot';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    /* or 20px */
+
+    color: #ffffff;
+
+    div {
+      -webkit-text-stroke: 0.7px #f8ffce;
+    }
+  }
+
+  .text4 {
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    left: 1000px;
+    top: 540px;
+
+    font-family: 'Didot';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    /* or 20px */
+
+    color: #ffffff;
+
+    div {
+      -webkit-text-stroke: 0.7px #f8ffce;
+    }
+  }
+
+  .text5 {
+    position: absolute;
+    width: 498px;
+    height: 340px;
+    left: 1390px;
+    top: 523px;
+
+    font-family: 'Didot';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    /* or 20px */
+
+    color: #ffffff;
+
+    div {
+      -webkit-text-stroke: 0.7px #f8ffce;
+    }
+  }
+
+  .text6 {
+    position: absolute;
+    width: 890px;
+    height: 160px;
+    left: 998px;
+    top: 893px;
+
+    font-family: 'Didot';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    /* or 20px */
+
+    color: #ffffff;
+
+    div {
+      -webkit-text-stroke: 0.7px #f8ffce;
+    }
+  }
+
+  .text7 {
+    position: absolute;
+    width: 352px;
+    height: 380px;
+    left: 1521px;
+    top: 1022px;
+
+    font-family: 'Didot';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    /* or 20px */
+
+    color: #ffffff;
+
+    div {
+      -webkit-text-stroke: 0.7px #f8ffce;
+    }
+  }
+
+  .text8 {
+    position: absolute;
+    width: 390px;
+    height: 90px;
+    right: 21px;
+    bottom: 16px;
+
+    font-family: 'Krungthep';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 100%;
+    /* identical to box height, or 90px */
+
+    text-align: center;
+
+    color: #ffb800;
+  }
+
+  .imagePlayButton {
+    position: absolute;
+    width: 144px;
+    height: 144px;
+    left: 296px;
+    top: 908px;
+
+    img,
+    div {
+      transition: 0.3s all;
+      cursor: pointer;
+
+      &:hover {
+        transition: 0.3s all;
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  .imagePauseButton {
+    position: absolute;
+    width: 144px;
+    height: 144px;
+    left: 519px;
+    top: 908px;
+
+    img,
+    div {
+      transition: 0.3s all;
+      cursor: pointer;
+
+      &:hover {
+        transition: 0.3s all;
+        transform: scale(1.05);
+      }
+    }
+  }
+}

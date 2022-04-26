@@ -1,0 +1,182 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: black;
+
+  .back {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    top: 0;
+    left: 0;
+  }
+
+  .link1 {
+    position: absolute;
+    width: 363px;
+    height: 263px;
+    left: 35px;
+    top: 9px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 663px;
+    height: 425px;
+    left: 137px;
+    top: 297px;
+
+    background: rgba(72, 0, 69, 0.68);
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 783px;
+    height: 233px;
+    left: 1035px;
+    top: 64px;
+
+    background: rgba(72, 0, 69, 0.68);
+  }
+
+  .rect3 {
+    position: absolute;
+    width: 534px;
+    height: 639px;
+    left: 346px;
+    top: 779px;
+
+    background: rgba(72, 0, 69, 0.68);
+  }
+
+  .rect4 {
+    position: absolute;
+    width: 486px;
+    height: 805px;
+    left: 1088px;
+    top: 397px;
+
+    background: rgba(72, 0, 69, 0.68);
+  }
+
+  .text1 {
+    position: absolute;
+    width: 601px;
+    height: 250px;
+    left: 182px;
+    top: 375px;
+
+    font-family: 'Armata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 672px;
+    height: 183px;
+    left: 1094px;
+    top: 96px;
+
+    font-family: 'Armata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 454px;
+    height: 623px;
+    left: 396px;
+    top: 785px;
+
+    font-family: 'Armata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 433px;
+    height: 582px;
+    left: 1126px;
+    top: 537px;
+
+    font-family: 'Armata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .video1 {
+    position: absolute;
+    width: 258px;
+    height: 234px;
+    left: 1662px;
+    top: 530px;
+  }
+
+  .video2 {
+    position: absolute;
+    width: 258px;
+    height: 234px;
+    left: 8px;
+    top: 968px;
+  }
+
+  .video3 {
+    position: absolute;
+    width: 258px;
+    height: 234px;
+    left: 8px;
+    top: 1263px;
+  }
+
+  .video4 {
+    position: absolute;
+    width: 190px;
+    height: 172px;
+    left: 1730px;
+    top: 1325px;
+  }
+}

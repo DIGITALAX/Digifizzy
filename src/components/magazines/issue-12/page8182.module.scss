@@ -1,0 +1,202 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: #ffffff;
+
+  .imageBackground {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0;
+    top: 0;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 835px;
+    height: 1172px;
+    left: 49px;
+    top: 267px;
+
+    background: #000000;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 758px;
+    height: 80px;
+    left: 39px;
+    top: 53px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 100%;
+    /* identical to box height, or 80px */
+
+    color: #7838c2;
+
+    -webkit-text-stroke: 1px #ffffff;
+    box-sizing: border-box;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.04);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 871px;
+    height: 1166px;
+    left: 45px;
+    top: 257px;
+
+    background: rgba(0, 0, 0, 0.66);
+  }
+
+  .text2 {
+    position: absolute;
+    width: 756px;
+    height: 1032px;
+    left: 96px;
+    top: 347px;
+
+    font-family: 'Port Lligat Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 800px;
+    height: 472px;
+    left: 1040px;
+    top: 45px;
+
+    font-family: 'Port Lligat Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #844aff;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 400px;
+    height: 105px;
+    left: 1038px;
+    top: 547px;
+
+    font-family: 'Pirata One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 51px;
+    display: flex;
+    align-items: center;
+
+    color: #ffe790;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 292px;
+    height: 236px;
+    left: 1038px;
+    top: 704px;
+
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.04);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image2 {
+    position: absolute;
+    width: 292px;
+    height: 236px;
+    left: 1581px;
+    top: 572px;
+
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.04);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image3 {
+    position: absolute;
+    width: 292px;
+    height: 236px;
+    left: 1425px;
+    top: 880px;
+
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.04);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image4 {
+    position: absolute;
+    width: 292px;
+    height: 236px;
+    left: 1055px;
+    top: 1167px;
+
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.04);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image5 {
+    position: absolute;
+    width: 292px;
+    height: 236px;
+    left: 1571px;
+    top: 1187px;
+
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.04);
+      transition: all ease 0.3s;
+    }
+  }
+}

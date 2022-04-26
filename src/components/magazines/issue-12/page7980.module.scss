@@ -1,0 +1,171 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: black;
+
+  .imageBackground {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 933px;
+    height: 181px;
+    left: 12px;
+    top: 14px;
+
+    font-family: 'Artisual Deco DEMO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 120.53%;
+    /* identical to box height, or 181px */
+
+    text-align: center;
+
+    color: #62fa45;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 379px;
+    height: 360px;
+    left: 36px;
+    top: 314px;
+
+    font-family: 'Duru Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120.53%;
+    /* or 24px */
+
+    color: #ffffff;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 909px;
+    height: 144px;
+    left: 36px;
+    top: 830px;
+
+    font-family: 'Duru Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120.53%;
+    /* or 24px */
+
+    color: #ffffff;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 308px;
+    height: 240px;
+    left: 46px;
+    top: 1137px;
+
+    font-family: 'Duru Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120.53%;
+    /* or 24px */
+
+    color: #ffffff;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 491px;
+    height: 72px;
+    left: 416px;
+    top: 1252px;
+
+    font-family: 'Duru Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120.53%;
+    /* or 24px */
+
+    color: #ffffff;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 848px;
+    height: 76px;
+    top: 1247px;
+    left: 1028px;
+
+    font-family: 'Duru Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 120.53%;
+    /* or 30px */
+
+    color: #ffffff;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 638px;
+    height: 199px;
+    top: 1008px;
+    left: 1238px;
+
+    font-family: 'Duru Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120.53%;
+    /* or 24px */
+
+    color: #ffffff;
+  }
+
+  .text8 {
+    position: absolute;
+    width: 437px;
+    height: 118px;
+    left: 1424px;
+    top: 550px;
+
+    font-family: 'Duru Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120.53%;
+    /* or 24px */
+
+    text-align: right;
+
+    color: #ffffff;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 882px;
+    height: 312px;
+    left: 1007px;
+    top: 32px;
+
+    font-family: 'Duru Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120.53%;
+    /* or 24px */
+
+    color: #ffffff;
+  }
+}

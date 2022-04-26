@@ -1,0 +1,91 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: #000000;
+
+  .back {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 792px;
+    height: 947px;
+    left: 88px;
+    top: 419px;
+
+    font-family: 'Erica One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: #ffffff;
+
+    -webkit-text-stroke: 0.5px #000000;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 792px;
+    height: 1339px;
+    left: 1068px;
+    top: 69px;
+
+    font-family: 'Erica One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #ffffff;
+    -webkit-text-stroke: 0.5px #000000;
+  }
+
+  .link1 {
+    position: absolute;
+    width: 541px;
+    height: 179px;
+    left: 80px;
+    top: 129px;
+
+    font-family: 'Euphoria Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 116px;
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: ease all 0.3s;
+    }
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 228px;
+    height: 228px;
+    left: 652px;
+    top: 40px;
+    border-radius: 200px;
+
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: ease all 0.3s;
+    }
+  }
+}

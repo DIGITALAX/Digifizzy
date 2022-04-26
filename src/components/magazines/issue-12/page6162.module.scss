@@ -1,0 +1,142 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+
+  .rect1 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
+    top: 0px;
+
+    background: white;
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 960px;
+    height: 1504px;
+    left: 960px;
+    top: 0px;
+
+    background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, #28286e 96.87%);
+  }
+
+  .video1 {
+    position: absolute;
+    width: 858px;
+    height: 871.25px;
+    left: 21px;
+    top: -369px;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 262px;
+    height: 1640px;
+    left: -48px;
+    top: -2px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 56px;
+    height: 483px;
+    left: 300px;
+    top: 673px;
+
+    font-family: 'THIS FONT IS EMPTY1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 100%;
+    /* or 80px */
+
+    color: #e8ff5b;
+    word-break: break-all;
+    -webkit-text-stroke: 3px #e8ff5b;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+      0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+      0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: blur(2px);
+  }
+
+  .text2 {
+    position: absolute;
+    width: 718px;
+    height: 185px;
+    left: 389px;
+    top: 1464px;
+
+    font-family: THIS FONT IS EMPTY1;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 100%;
+    color: #ffffff;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+  }
+
+  a {
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      transform: scale(1.1);
+    }
+  }
+
+  .image2 {
+    position: absolute;
+    width: 484px;
+    height: 1311px;
+    left: 720px;
+    top: 190px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 1025px;
+    height: 1538px;
+    left: 960px;
+    top: 19px;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 573px;
+    height: 1227px;
+    left: 1157px;
+    top: 54px;
+
+    font-family: 'Arbutus Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 110%;
+    /* or 30px */
+
+    text-align: center;
+
+    color: #ff0000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .text4 {
+    position: absolute;
+    width: 452px;
+    height: 270px;
+    left: 1448px;
+    top: 695px;
+
+    font-family: 'Knewave';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    color: #000000;
+  }
+}
