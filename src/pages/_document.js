@@ -1608,6 +1608,12 @@ class MyDocument extends Document {
               src: url('./fonts/DroDEMO-KCFonts.ttf');
             }
 
+
+            @font-face {
+              font-family: 'Asul';
+              src: url('./fonts/Asul-Regular.ttf');
+            }
+
             @font-face {
               font-family: 'Zorque';
               src: url('./fonts/zorque.otf');

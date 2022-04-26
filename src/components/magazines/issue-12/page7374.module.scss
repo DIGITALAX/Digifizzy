@@ -1,180 +1,274 @@
 @import './styles.module.scss';
 
 .wrapper {
-  @include magazineWrapper(); 
-  background: black;
+  @include magazineWrapper();
+  background: white;
+
+  .image1 {
+    position: absolute;
+    width: 290px;
+    height: 289px;
+    left: 38px;
+    top: 34px;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 290px;
+    height: 289px;
+    left: 351px;
+    top: 34px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 290px;
+    height: 289px;
+    left: 656px;
+    top: 34px;
+  }
 
   .video1 {
     position: absolute;
-    width: 960px;
-    height: 1497px;
-    left: 960px;
-    top: 0px;
+    width: 209px;
+    height: 131px;
+    left: 58px;
+    top: 1366px;
+
+    object-fit: cover;
+  }
+
+  .video2 {
+    position: absolute;
+    width: 209px;
+    height: 131px;
+    left: 377px;
+    top: 1366px;
+    object-fit: cover;
+  }
+
+  .video3 {
+    position: absolute;
+    width: 209px;
+    height: 131px;
+    left: 696px;
+    top: 1366px;
+
+    object-fit: cover;
+  }
+
+  .video4 {
+    position: absolute;
+    width: 209px;
+    height: 131px;
+    left: 1015px;
+    top: 1366px;
+
+    object-fit: cover;
+  }
+
+  .video5 {
+    position: absolute;
+    width: 209px;
+    height: 131px;
+    left: 1334px;
+    top: 1366px;
+    object-fit: cover;
+  }
+
+  .video6 {
+    position: absolute;
+    width: 209px;
+    height: 131px;
+    left: 1653px;
+    top: 1366px;
     object-fit: cover;
   }
 
   .rect1 {
     position: absolute;
-    width: 960px;
-    height: 1497px;
+    width: 1920px;
+    height: 131px;
     left: 0px;
-    top: 0px;
+    top: 1366px;
 
-    background: linear-gradient(180deg, #FF2E2E 0%, #4AFFF6 46.88%, #FEC1F2 84.37%);    
-  }
-
-  .image1 {
-    position: absolute;
-    width: 480px;
-    height: 480px;
-    left: 0px;
-    top: 28px;    
-  }
-
-  .image2 {
-    position: absolute;
-    width: 480px;
-    height: 480px;
-    left: 480px;
-    top: 508px;    
-  }
-
-  .image3 {
-    position: absolute;
-    width: 480px;
-    height: 480px;
-    left: 0px;
-    top: 988px;
-  }
-
-  .image4 {
-    position: absolute;
-    width: 216px;
-    height: 216px;
-    left: 571px;
-    bottom: 183px;
+    background: #000000;
   }
 
   .text1 {
     position: absolute;
-    width: 419px;
-    height: 200px;
-    left: 535px;
-    top: 28px;
-    
-    font-family: 'Knewave';
+    width: 625px;
+    height: 130px;
+    left: 38px;
+    top: 391px;
+
+    font-family: 'Asul';
     font-style: normal;
     font-weight: 400;
-    font-size: 100px;
-    line-height: 100%;
-    color: #CCCCCC;
+    font-size: 200px;
+    line-height: 100px;
+    /* or 50% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
   }
 
   .text2 {
     position: absolute;
-    width: 419px;
-    height: 200px;
-    left: 535px;
-    top: 237px;
-    
-    font-family: 'Knewave';
+    width: 800px;
+    height: 124px;
+    left: 38px;
+    top: 630px;
+
+    font-family: 'Asul';
     font-style: normal;
     font-weight: 400;
     font-size: 100px;
-    line-height: 100%;
+    line-height: 100px;
+    /* or 100% */
 
-    color: rgba(204, 204, 204, 0.54);
+    display: flex;
+    align-items: center;
+
+    color: #000000;
   }
 
   .text3 {
     position: absolute;
-    width: 411px;
-    height: 200px;
-    left: 34px;
-    top: 575px;
-    
-    font-family: 'K2D';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 100%;
+    width: 800px;
+    height: 56px;
+    left: 38px;
+    top: 918px;
 
-    color: #F4B2DB;
-    -webkit-text-stroke: 1px #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+
+    color: #000000;
   }
 
   .text4 {
     position: absolute;
-    width: 411px;
-    height: 40px;
-    left: 509px;
-    top: 1033px;
-    
-    font-family: 'K2D';
+    width: 772px;
+    height: 210px;
+    left: 38px;
+    top: 993px;
+
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
-    line-height: 100%;
-    color: #F4B2DB;
-    -webkit-text-stroke: 1px #000000;
+    font-size: 17px;
+    line-height: 21px;
+
+    color: #000000;
   }
 
   .text5 {
     position: absolute;
-    width: 830px;
-    height: 120px;
-    left: 1010px;
-    top: 126px;
-    
-    font-family: 'K2D';
+    width: 818px;
+    height: 180px;
+    left: 1032px;
+    top: 102px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 847px;
+    height: 252px;
+    left: 1032px;
+    top: 294px;
+
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+
+    color: #000000;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 801px;
+    height: 72px;
+    left: 1032px;
+    top: 606px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
     font-size: 30px;
-    line-height: 100%;
-    
-    text-align: right;
-    
-    color: #F4B2DB;
+    line-height: 36px;
+
+    color: #000000;
   }
 
-  .imagePlayButton {
+  .text8 {
     position: absolute;
-    width: 128px;
-    height: 128px;
-    left: 640px;
-    top: 1339px;
+    width: 830px;
+    height: 189px;
+    left: 1032px;
+    top: 695px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+
+    color: #000000;
   }
 
-  .imagePauseButton {
+  .text9 {
     position: absolute;
-    width: 128px;
-    height: 128px;
-    left: 795px;
-    top: 1339px;
+    width: 801px;
+    height: 108px;
+    left: 1032px;
+    top: 977px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
   }
 
-  a {
-    transition: 0.3s all;
-    cursor: pointer;
-    &:hover {
-      transition: 0.3s all;
-      transform: scale(1.1);
-    }
-  }
-
-  .imagePlayButton2 {
+  .text10 {
     position: absolute;
-    width: 128px;
-    height: 128px;
-    left: 1557px;
-    top: 273px;
+    width: 830px;
+    height: 126px;
+    left: 1032px;
+    top: 1097px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+
+    color: #000000;
   }
 
-  .imagePauseButton2 {
+  .line1 {
     position: absolute;
-    width: 128px;
-    height: 128px;
-    left: 1712px;
-    top: 273px;
+    height: 1497px;
+    width: 1px;
+    background: black;
+    left: 960px;
+    top: 0;
   }
 }

@@ -26,36 +26,30 @@ const Page7172 = () => (
       SEMI-RARE, EXCLUSIVE.
     </div>
     <div className={styles.text5}>Web3 wizards collectibles</div>
-    <div className={styles.text6}>HIMEX + TEchn0morph x f3m cc0 t-shirt</div>
-    <div className={styles.text7}>CC0 Streetwear Secret Drop hand drawn digital art piece</div>
+    <div className={styles.text6}>f3m I GROK ZERO KNOWLEDGE T-SHIRTS</div>
+    <div className={styles.text7}>f3m CYPHERPUNK PGP HOODIES</div>
 
     <div className={styles.image1}>
       <Image src={`${DIGIFIZZY_S3}/12/images/7172_image1.png`} width={866} height={243.9} />
     </div>
 
-    <div className={styles.text8}>Models of the Realms CC0 Collaborations Set</div>
+    <div className={styles.text8}>f3m WALLET SET UP LONG SLEEVE</div>
 
-    <div className={styles.text9}>CC0 CYPHERPUNK SERIES CYPHER SIGNET RING</div>
+    <div className={styles.text9}>DIFFUSION MODEL cyber scenes</div>
 
     <div className={styles.image2}>
-      <Image src={`${DIGIFIZZY_S3}/10/images/7172_image4.jpg`} width={355} height={354} />
+      <Image src={`${DIGIFIZZY_S3}/12/images/7172_image2.png`} width={821} height={274} />
     </div>
 
-    <div className={styles.image3}>
-      <Image src={`${DIGIFIZZY_S3}/10/images/7172_image3.jpg`} width={355} height={354} />
-    </div>
-    <div className={styles.image4}>
-      <Image src={`${DIGIFIZZY_S3}/10/images/7172_image4.jpg`} width={355} height={354} />
-    </div>
     <div className={styles.image5}>
-      <Image src={`${DIGIFIZZY_S3}/11/images/7172_image3.jpg`} width={837} height={217} />
+      <Image src={`${DIGIFIZZY_S3}/12/images/7172_image4.png`} width={519} height={260} />
     </div>
     <div className={styles.image6}>
-      <Image src={`${DIGIFIZZY_S3}/11/images/7172_image4.jpg`} width={270} height={266} />
+      <Image src={`${DIGIFIZZY_S3}/12/images/7172_image5.png`} width={660} height={395} />
     </div>
 
     <div className={styles.image7}>
-      <Image src={`${DIGIFIZZY_S3}/11/images/7172_image2.jpg`} width={401} height={306} />
+      <Image src={`${DIGIFIZZY_S3}/12/images/7172_image3.png`} width={528} height={264} />
     </div>
 
     <a className={styles.textWrapper} href="/unlockable/1/" target="_blank">
