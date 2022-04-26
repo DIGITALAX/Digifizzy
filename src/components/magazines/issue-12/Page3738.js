@@ -9,6 +9,7 @@ const Page3738 = () => {
       <video muted loop autoPlay className={styles.imageBackground}>
         <source src={`${DIGIFIZZY_S3}/12/videos/3738_video1.mp4`} type="video/mp4" />
       </video>
+      <div className={styles.overlap}></div>
 
       <a href="https://twitter.com/ChromaCatsNFT" target="_blank">
         <div className={styles.link1}>CHROMA CATS</div>

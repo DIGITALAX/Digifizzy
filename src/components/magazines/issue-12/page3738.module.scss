@@ -12,6 +12,16 @@
     object-fit: cover;
   }
 
+  .overlap {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(0, 0, 0, 0.54);
+  }
+
   .link1 {
     position: absolute;
     width: 638px;
