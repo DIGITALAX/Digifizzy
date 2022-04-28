@@ -1,7 +1,7 @@
 export const details = [
   [
     {
-      id: 51,
+      id: 52,
       title: 'Common Unlock',
       subTitle: [
         'Issue Twelve',
@@ -26,7 +26,7 @@ export const details = [
       amountAvailable: 700,
     },
     {
-      id: 52,
+      id: 53,
       title: 'Semi-Rare Unlock',
       subTitle: [
         'Issue Twelve',
@@ -57,7 +57,7 @@ export const details = [
       amountAvailable: 200,
     },
     {
-      id: 53,
+      id: 54,
       title: 'Exclusive Unlock',
       subTitle: [
         'Issue Twelve',
