@@ -27,7 +27,7 @@ const Page1314 = () => {
         community they are geared on.
         <br />
         <br />
-        The proliferation of NFTs and their novel derivatives are at their very basic core are memes
+        The proliferation of NFTs and their novel derivatives are at their very basic core memes
         that can endlessly be remixed to represent the cultural milieus we happen to live in, to
         express thoughts, to create art, and ultimately content. We’re only in it for the memes.
       </div>
