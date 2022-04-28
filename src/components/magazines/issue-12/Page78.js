@@ -9,7 +9,7 @@ const Page78 = () => (
     <div className={styles.text1}>A Year in Review</div>
     <div className={styles.text2}>12 Months of DIGIFIZZY</div>
     <div className={styles.text3}>
-      It’s been 12 months of since the launch of the first in-depth web3 metaverse zine. This time
+      It’s been 12 months since the launch of the first in-depth web3 metaverse zine. This time
       last year, we were all riding high on the first fitfull wave of NFT hype, no one knew what was
       to come.
       <br />
@@ -46,7 +46,7 @@ const Page78 = () => (
       Just like The Whole Earth Catalog, DIGIFIZZY to is for the hungry and foolish.
       <br />
       <br />
-      It’s for those that curious and compelled enough to big leaps into the unknown, while standing
+      It’s for those curious and compelled enough to take big leaps into the unknown, while standing
       on the frontlines of the fight for the freedom to create and the inherent right to self
       sovereignty made evermore evident by web3 networks, protocols, platforms and tooling.
       <br />
@@ -56,7 +56,7 @@ const Page78 = () => (
       <br />
       <br />
       To close this retrospective with some alpha, collectors of the DIGIFIZZY Bundles have many gms
-      to look forward too, not the least of which will be great morning when a native DIGIFIZZY DAO
+      to look forward too, not the least of which will be the great morning when a native DIGIFIZZY DAO
       rises into the metaversal scene.
       <br />
       <br />
