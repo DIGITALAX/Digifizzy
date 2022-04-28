@@ -67,8 +67,8 @@ const Page1920 = () => (
     </div>
     <div className={styles.text7}>
       Digital machines require digital inputs, knobs, and dials to operate through intuitive
-      interfaces. For that it’s often enough to mimic physical elements of industrial design in flat
-      2d graphical context. Networked machines that encode, exemplify, defend and amplify the
+      interfaces. For that, it’s often enough to mimic physical elements of industrial design in a
+      flat 2d graphical context. Networked machines that encode, exemplify, defend and amplify the
       self-sovereignty of users and beneficiaries of their products require something more.
       <br />
       <br />
@@ -76,7 +76,7 @@ const Page1920 = () => (
       <br />
       <br />
       Web3 could definitely use more love from human centered designers and pixel pushers in the
-      more obvious ways, from user onboarding to familiarization with critical practices of basic
+      more obvious ways, from user onboarding to familiarisation with critical practices of basic
       information security, but when it comes to alignment of user interests with streamlining the
       paths to intended action and direct user oriented benefits, web3 already delivers with flying
       colors. It turns out, when it comes to platform profitability and user interests alike,
@@ -85,7 +85,7 @@ const Page1920 = () => (
       <br />
       <br />
       The right question to ask from here on out is how we can do even better delivering functional
-      self-sovereignty to and between users of decentralized networks by continuing to streamline
+      self-sovereignty to and between users of decentralised networks by continuing to streamline
       speed of information retrieval, end to end interface and transmission security, scalability,
       and practicality of understanding in how to actually use web3 systems.
     </div>
