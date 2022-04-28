@@ -27,7 +27,7 @@ const Page2526 = () => {
       </div>
       <div className={styles.text2}>
         Everything needs to be appended. Such protocols ensure that communications are received only
-        by those authorize to handle it accordingly.
+        by those authorized to handle it accordingly.
         <br />
         <br />
         The new technologies being implemented in digital currencies are heavily drawn from the

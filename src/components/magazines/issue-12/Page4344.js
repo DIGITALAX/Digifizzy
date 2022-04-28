@@ -8,11 +8,7 @@ const Page4344 = () => (
     <div className={styles.imageBackground}>
       <Image src={`${DIGIFIZZY_S3}/12/images/4344_back.png`} width={1920} height={1497} />
     </div>
-    <a
-      className={styles.link1}
-      href="https://models.digitalax.xyz/models/Mona%20Vir/"
-      target="_blank"
-    >
+    <a className={styles.link1} href="https://models.digitalax.xyz/models/edit" target="_blank">
       EDIT
     </a>
     <div className={styles.text1}>

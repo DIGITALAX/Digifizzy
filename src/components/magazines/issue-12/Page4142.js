@@ -12,7 +12,7 @@ const Page4142 = () => (
     <div className={styles.image1}>
       <Image src={`${DIGIFIZZY_S3}/11/images/4142_image1.png`} width={518} height={76} />
     </div>
-    <a className={styles.link1} href="https://models.digitalax.xyz/models/vihka/" target="_blank">
+    <a className={styles.link1} href="https://models.digitalax.xyz/models/zero" target="_blank">
       ZERO
     </a>
     <div className={styles.text1}>
