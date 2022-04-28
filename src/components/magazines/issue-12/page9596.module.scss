@@ -2,10 +2,11 @@
 
 .wrapper {
   @include magazineWrapper();
-  background: #000000;
-  color: #ffffff;
+  background: #5e0b4b;
+  color: black;
 
   .imageBackground {
+    position: absolute;
     width: 1920px;
     height: 1497px;
     left: 0;
@@ -14,10 +15,47 @@
 
   .text1 {
     position: absolute;
+    width: 620px;
+    height: 375px;
+    left: 30px;
+    top: 1093px;
+
+    font-family: 'CF Punk Fashion PERSONAL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 100%;
+    /* or 120px */
+
+    color: #0400d6;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 488px;
+    height: 180px;
+    left: 1008px;
+    top: 76px;
+
+    font-family: 'Herculanum';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 100%;
+    /* or 60px */
+
+    color: #00fe66;
+
+    -webkit-text-stroke: 1px #000000;
+    box-sizing: border-box;
+  }
+
+  .text3 {
+    position: absolute;
     width: 863px;
     height: 951px;
-    left: 48px;
-    top: 82px;
+    left: 1012px;
+    top: 291px;
 
     font-family: 'Herculanum';
     font-style: italic;
@@ -30,70 +68,5 @@
 
     -webkit-text-stroke: 1px #ff5c00;
     box-sizing: border-box;
-  }
-
-  .text2 {
-    position: absolute;
-    width: 840px;
-    height: 39px;
-    left: 1024px;
-    top: 743px;
-
-    font-family: 'Akira Expanded';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 35px;
-    text-align: center;
-
-    color: #575757;
-  }
-
-  .text3 {
-    position: absolute;
-    width: 757px;
-    height: 84px;
-    right: 103px;
-    bottom: 549px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 42px;
-
-    color: #ffffff;
-  }
-
-  .text4 {
-    position: absolute;
-    width: 757px;
-    height: 461px;
-    right: 103px;
-    bottom: 64px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 25px;
-    /* or 139% */
-
-    color: #ffffff;
-
-    list-style: disc;
-
-    li {
-      margin-left: 20px;
-    }
-  }
-
-  .video1 {
-    position: absolute;
-    width: 960px;
-    height: 552px;
-    left: 960px;
-    top: 0px;
-    object-fit: cover;
   }
 }

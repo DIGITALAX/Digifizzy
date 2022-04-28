@@ -24,11 +24,6 @@ const Page6364 = () => (
       crypto.
     </div>
     <div className={styles.text2}>
-      Despite the SEC having no clear jurisdiction over Kwon or Terra, and Kwon already being
-      proactive in voluntary cooperation for the SEC’s investigation of Terra DAPP, Mirror Protocol,
-      the SEC once again showed it’s hunger to abuse power.
-    </div>
-    <div className={styles.text3}>
       Back in 2019 this was a pretty big deal, because choice was limited outside of USDT (which
       still to this day inspires a lot of question marks around it) and decentralised protocols like
       MakerDAO were still experimenting with the likes of DAI. Since then, Terra has expanded to
@@ -38,8 +33,13 @@ const Page6364 = () => (
       One of the more interesting moments unlong Do Kwon’s journey was the unexpected, very public
       subpoena handed to him at the Messari Mainnet conference last year.
     </div>
+    <div className={styles.text3}>
+      Despite the SEC having no clear jurisdiction over Kwon or Terra, and Kwon already being
+      proactive in voluntary cooperation for the SEC’s investigation of Terra DAPP, Mirror Protocol,
+      the SEC once again showed it’s hunger to abuse power.
+    </div>
     <div className={styles.text4}>
-      Kwon isn’t shying away however and has already has filed suit against the SEC. Which, frankly,
+      Kwon isn’t shying away however and has already filed suit against the SEC. Which, frankly,
       should be done a lot more often.
       <br />
       <br />

@@ -3,137 +3,96 @@ import Image from 'next/image';
 import { DIGIFIZZY_S3 } from '@constants/urls';
 import styles from './page99100.module.scss';
 
-const Page99100 = () => {
-  return (
-    <div className={styles.wrapper}>
-      <div className={styles.imageBackground}>
-        <Image src={`${DIGIFIZZY_S3}/11/images/99100_background.jpg`} width={1920} height={1497} />
-      </div>
-      <div className={styles.image1}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/7778_image1.png`} width={147} height={147} />
-      </div>
-      <div className={styles.image2}>
-        <Image src="/images/logo.jpg" width={147} height={147} />
-      </div>
-      <div className={styles.image3}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/7778_image1.png`} width={147} height={147} />
-      </div>
-      <div className={styles.image4}>
-        <Image src="/images/logo.jpg" width={147} height={147} />
-      </div>
-      <div className={styles.image5}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/7778_image1.png`} width={147} height={147} />
-      </div>
-      <div className={styles.image6}>
-        <Image src="/images/logo.jpg" width={147} height={147} />
-      </div>
-      <div className={styles.image7}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/7778_image1.png`} width={147} height={147} />
-      </div>
-      <div className={styles.image8}>
-        <Image src="/images/logo.jpg" width={147} height={147} />
-      </div>
-      <div className={styles.image9}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/7778_image1.png`} width={147} height={147} />
-      </div>
-      <div className={styles.image10}>
-        <Image src="/images/logo.jpg" width={147} height={147} />
-      </div>
-      <div className={styles.text1}>
-        This month DIGITALAX, GDN & Heat went live with the first fashion movement NFT Auction
-        collection.
-      </div>
-
-      <div className={styles.rect1} />
-      <div className={styles.text2}>
-        The collection was inspired by the Holy Mountain film, and mixed together real time motion
-        capture with 3D digital fashion.
-        <br />
-        <br />
-        What was really interesting about this collaboration was the opportunity to infuse a more
-        instant and tangible emptional feel to bodies and garments in motion.
-        <br />
-        <br />
-        As motion capture technology continues to develop, not only does the rich detail of what is
-        recognised and made possible get enhanced in the technical and user experience layers by a
-        full 6 degrees of freedom.
-        <br />
-        <br />
-        But also, personal freedom is enhanced by the increasing diversity and abundance in choice
-        in ownership, flexibility and beyond.
-        <br />
-        <br />
-        This is an essential part of self sovereignty. Owning what you can do with your own physical
-        movements and playing creatively with how that relates to the assets that make up everything
-        from what you wear to where you are surrounded by.
-      </div>
-      <div className={styles.text3}>
-        Check out the collection{' '}
-        <a href="" target="_blank">
-          here
-        </a>
-        .
-      </div>
-      <div className={styles.text4}>Toxic surrealism</div>
-      <div className={styles.text5}>
-        This garment was inspired by the movie “The Holy Mountain”. The mysterious, and almost toxic
-        print covering the surface of the suit invites one to dive into a world filled with
-        surrealism and everyone can visit it. The world that I offer you to explore allows to
-        understand the wonders, infinity and charm of this universe. The promise of this is that the
-        world will not let you change from the inside, but will provide you with new opportunities.
-      </div>
-      <div className={styles.text6}>Open your eyes</div>
-      <div className={styles.text7}>
-        Wearing fabric without accentuating the curves of our body like we learned to. Observing,
-        protected, in harmony with ourselves.
-      </div>
-      <div className={styles.text8}>ISEEYOU</div>
-      <div className={styles.text9}>
-        Wearing fabric without accentuating the curves of our body like we learned to. Observing,
-        protected, in harmony with ourselves.
-      </div>
-      <iframe
-        className={styles.video1}
-        src={`https://www.youtube.com/embed/yGuv5InB6yU`}
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-        title="Embedded youtube"
-      />
-      <iframe
-        className={styles.video2}
-        src={`https://www.youtube.com/embed/2bFsvfcm6es`}
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-        title="Embedded youtube"
-      />
-      <iframe
-        className={styles.video3}
-        src={`https://www.youtube.com/embed/u9J_DiLv4vk`}
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-        title="Embedded youtube"
-      />
-      <a href="" target="_blank">
-        <div className={styles.link1}>
-          <Image src={`${DIGIFIZZY_S3}/12/images/99100_image1.png`} width={136} height={136} />
-        </div>
-      </a>
-      <a href="" target="_blank">
-        <div className={styles.link2}>
-          <Image src={`${DIGIFIZZY_S3}/12/images/99100_image2.png`} width={136} height={136} />
-        </div>
-      </a>
-      <a href="" target="_blank">
-        <div className={styles.link3}>
-          <Image src={`${DIGIFIZZY_S3}/12/images/99100_image3.png`} width={136} height={136} />
-        </div>
-      </a>
-      <div className={styles.line1} />
+const Page99100 = () => (
+  <div className={styles.wrapper}>
+    <div className={styles.image1}>
+      <Image src={`${DIGIFIZZY_S3}/12/images/9798_image1.png`} width={960} height={733.58} />
     </div>
-  );
-};
+
+    <div className={styles.image2}>
+      <Image src={`${DIGIFIZZY_S3}/12/images/9798_image2.png`} width={960} height={256} />
+    </div>
+
+    <video autoPlay loop muted className={styles.video2}>
+      <source src={`${DIGIFIZZY_S3}/12/videos/9798_video1.mp4`} />
+    </video>
+    <video autoPlay loop muted className={styles.video3}>
+      <source src={`${DIGIFIZZY_S3}/12/videos/9798_video2.mp4`} />
+    </video>
+    <video autoPlay loop muted className={styles.video4}>
+      <source src={`${DIGIFIZZY_S3}/12/videos/9798_video3.mp4`} />
+    </video>
+    <video autoPlay loop muted className={styles.video5}>
+      <source src={`${DIGIFIZZY_S3}/12/videos/9798_video4.mp4`} />
+    </video>
+    <video autoPlay loop muted className={styles.video6}>
+      <source src={`${DIGIFIZZY_S3}/12/videos/9798_video5.mp4`} />
+    </video>
+
+    <div className={styles.text1}>
+      The Cypherpunk CC0 Streetwear Pop Up Series is co-hosted by DIGITALAX, Kinetic $pace DAO, CC0
+      DAO and a close knit alliance of additional DAOs and contributors. This series includes a
+      constellation of IRL and digital pop ups, on-site mints, immersive experiences and secret
+      drops taking place over the course of the Spring 2022.
+      <br />
+      <br />
+      The capstone event is Web3 Fashion Week, which rounds off the season.
+      <br />
+      <br />
+      The entire series spotlights self sovereign streetwear, zero knowledge, CC0 utility and the
+      cypherpunk keys to local creative production, with major highlights including pioneering music
+      x fashion NFTs, web3 fashion and model showcases by the Global Models Syndicate and Global
+      Designer Network, alongside immersive projective creator amplification labs.
+    </div>
+    <div className={styles.text2}>Cypher tier (1000 x $300)</div>
+    <div className={styles.text3}>Rare tier (100 x $3000)</div>
+    <div className={styles.text4}>Epic tier (30 x $10,000)</div>
+    <div className={styles.text5}>Mythic tier (10 x $30,000</div>
+    <div className={styles.text6}>Zero tier (3 x $100,000</div>
+
+    <a href="https://www.web3fashionweek.xyz/" target="_blank" className={styles.link1}>
+      Stay Up to Date
+    </a>
+
+    <a
+      href="https://patrons.digitalax.xyz/dao/W3FW%20&%20CypherPunk%20CC0%20Series/"
+      target="_blank"
+      className={styles.link2}
+    >
+      Sponsor
+    </a>
+
+    <a
+      href="https://patrons.digitalax.xyz/dao/W3FW%20&%20CypherPunk%20CC0%20Series/"
+      target="_blank"
+      className={styles.link2}
+    >
+      Sponsor
+    </a>
+
+    <a
+      href="https://patrons.digitalax.xyz/dao/W3FW%20&%20CypherPunk%20CC0%20Series/"
+      target="_blank"
+      className={styles.link3}
+    >
+      Sponsor
+    </a>
+
+    <a
+      href="https://patrons.digitalax.xyz/dao/W3FW%20&%20CypherPunk%20CC0%20Series/"
+      target="_blank"
+      className={styles.link4}
+    >
+      Sponsor
+    </a>
+    <a
+      href="https://patrons.digitalax.xyz/dao/W3FW%20&%20CypherPunk%20CC0%20Series/"
+      target="_blank"
+      className={styles.link5}
+    >
+      Sponsor
+    </a>
+  </div>
+);
 
 export default Page99100;

@@ -1,98 +1,71 @@
 import React from 'react';
 import Image from 'next/image';
+
 import { DIGIFIZZY_S3 } from '@constants/urls';
 import styles from './page9798.module.scss';
 
-const Page9798 = () => (
-  <div className={styles.wrapper}>
-    <div className={styles.image1}>
-      <Image src={`${DIGIFIZZY_S3}/12/images/9798_image1.png`} width={960} height={733.58} />
+const Page9798 = () => {
+  return (
+    <div className={styles.wrapper}>
+      <div className={styles.imageBackground}>
+        <Image src={`${DIGIFIZZY_S3}/12/images/9596_back.png`} width={1920} height={1497} />
+      </div>
+      <div className={styles.image1}>
+        <Image src={`${DIGIFIZZY_S3}/12/images/9798_image.png`} width={960} height={152} />
+      </div>
+      <div className={styles.image2}>
+        <Image src={`${DIGIFIZZY_S3}/12/images/9798_image.png`} width={960} height={152} />
+      </div>
+      <div className={styles.text1}>
+        CC0 means that the work can’t be cut off or choked by anyone in the market. it remains free,
+        accessible and open for all to use as essential base ingredients, to remix and derive from.
+        <br />
+        <br />
+        on-chain verification provides a clear transparent and time stamped history which allows for
+        far lower friction coordination between everyone involved in the creative process.
+        <br />
+        <br />
+        and finally, providing informative creative step by steps helps you’re customer base and
+        fellow creators better understand how to relate to and frame everything you are doing within
+        their broader world view.
+        <br />
+        <br />
+        it might all sound counter intuitive, where often anyone driven to create might focus first
+        on how to gain recognition for how much you've already done, but usually it's actually far
+        more direct to focus first on what we can give rather than what we are going to get.
+      </div>
+      <div className={styles.text2}>summer 2022 | june 20th - 23rd NYC</div>
+      <div className={styles.text3}>
+        Four days and nights of official events and immersive experiences to rock your self
+        sovereign world:
+      </div>
+      <ul className={styles.text4}>
+        <li>Grok zero knowledge</li>
+        <li>Amplify CC0 derivatives and surprise mints with the utility that matters most</li>
+        <li>
+          Settle the debate between which has more instant and long term $$$ worth: CC0 vs limited
+          rights
+        </li>
+        <li>Digital & physical apparel NFT pop ups throughout the city</li>
+        <li>Realm Runway #2: Cypherpunk Zeitgeist 2K</li>
+        <li>Iconographic keys to access, usage, and token governed coordination</li>
+        <li>
+          Local production workshops + open labs: from pattern printing to decentralised fabrication
+        </li>
+        <li>Music x fashion immersive audio sessions</li>
+        <li>
+          Show up during the week at select locations to solve a series of challenges, including
+          minting and amplifying cc0 derivatives, to gain access to the mint list for unique
+          membership tokens which allow you to participate in the second part of the extra special
+          public / private auction of a self sovereign CC0 collection with hidden contributors and
+          plenty of other obviously cool benefits
+        </li>
+      </ul>
+      <video autoPlay loop muted className={styles.video1}>
+        <source src={`${DIGIFIZZY_S3}/12/videos/9596_video1.mp4`} />
+      </video>
     </div>
-
-    <div className={styles.image2}>
-      <Image src={`${DIGIFIZZY_S3}/12/images/9798_image2.png`} width={960} height={256} />
-    </div>
-
-    <video autoPlay loop muted className={styles.video2}>
-      <source src={`${DIGIFIZZY_S3}/12/videos/9798_video1.mp4`} />
-    </video>
-    <video autoPlay loop muted className={styles.video3}>
-      <source src={`${DIGIFIZZY_S3}/12/videos/9798_video2.mp4`} />
-    </video>
-    <video autoPlay loop muted className={styles.video4}>
-      <source src={`${DIGIFIZZY_S3}/12/videos/9798_video3.mp4`} />
-    </video>
-    <video autoPlay loop muted className={styles.video5}>
-      <source src={`${DIGIFIZZY_S3}/12/videos/9798_video4.mp4`} />
-    </video>
-    <video autoPlay loop muted className={styles.video6}>
-      <source src={`${DIGIFIZZY_S3}/12/videos/9798_video5.mp4`} />
-    </video>
-
-    <div className={styles.text1}>
-      The Cypherpunk CC0 Streetwear Pop Up Series is co-hosted by DIGITALAX, Kinetic $pace DAO, CC0
-      DAO and a close knit alliance of additional DAOs and contributors. This series includes a
-      constellation of IRL and digital pop ups, on-site mints, immersive experiences and secret
-      drops taking place over the course of the Spring 2022.
-      <br />
-      <br />
-      The capstone event is Web3 Fashion Week, which rounds off the season.
-      <br />
-      <br />
-      The entire series spotlights self sovereign streetwear, zero knowledge, CC0 utility and the
-      cypherpunk keys to local creative production, with major highlights including pioneering music
-      x fashion NFTs, web3 fashion and model showcases by the Global Models Syndicate and Global
-      Designer Network, alongside immersive projective creator amplification labs.
-    </div>
-    <div className={styles.text2}>Cypher tier (1000 x $300)</div>
-    <div className={styles.text3}>Rare tier (100 x $3000)</div>
-    <div className={styles.text4}>Epic tier (30 x $10,000)</div>
-    <div className={styles.text5}>Mythic tier (10 x $30,000</div>
-    <div className={styles.text6}>Zero tier (3 x $100,000</div>
-
-    <a href="https://www.web3fashionweek.xyz/" target="_blank" className={styles.link1}>
-      Stay Up to Date
-    </a>
-
-    <a
-      href="https://patrons.digitalax.xyz/dao/W3FW%20&%20CypherPunk%20CC0%20Series/"
-      target="_blank"
-      className={styles.link2}
-    >
-      Sponsor
-    </a>
-
-    <a
-      href="https://patrons.digitalax.xyz/dao/W3FW%20&%20CypherPunk%20CC0%20Series/"
-      target="_blank"
-      className={styles.link2}
-    >
-      Sponsor
-    </a>
-
-    <a
-      href="https://patrons.digitalax.xyz/dao/W3FW%20&%20CypherPunk%20CC0%20Series/"
-      target="_blank"
-      className={styles.link3}
-    >
-      Sponsor
-    </a>
-
-    <a
-      href="https://patrons.digitalax.xyz/dao/W3FW%20&%20CypherPunk%20CC0%20Series/"
-      target="_blank"
-      className={styles.link4}
-    >
-      Sponsor
-    </a>
-    <a
-      href="https://patrons.digitalax.xyz/dao/W3FW%20&%20CypherPunk%20CC0%20Series/"
-      target="_blank"
-      className={styles.link5}
-    >
-      Sponsor
-    </a>
-  </div>
-);
+  );
+};
 
 export default Page9798;

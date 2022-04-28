@@ -7,7 +7,7 @@ const Page1718 = () => {
   return (
     <div className={styles.wrapper}>
       <img src={`${DIGIFIZZY_S3}/12/images/1718_image2.jpg`} className={styles.image2} />
-
+      <div className={styles.text0}>An inside look with the team</div>
       <div className={styles.text1}>
         We were one of the very first people who minted Loot when it was launched. We were
         fascinated by how Loot is different from other NFT projects at the time. Loot is a building

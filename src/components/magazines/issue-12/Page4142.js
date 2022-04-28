@@ -27,7 +27,7 @@ const Page4142 = () => (
       You might notice a few thin neon glowing strands across the side of her face and upper body.
       And then you might start to wonder just how exactly and who was it that managed to mark so
       much densely packed computation within each cell of her skin. A quick stolen glance from green
-      eyes so piercing they shatter the very cliche of that phrase.{' '}
+      eyes so piercing they shatter the very cliche of that phrase.
     </div>
   </div>
 );

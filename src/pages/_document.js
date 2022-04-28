@@ -889,6 +889,11 @@ class MyDocument extends Document {
             }
 
             @font-face {
+              font-family: 'Junge';
+              src: url("./fonts/Junge-Regular.ttf");
+            }
+
+            @font-face {
               font-family: 'Karla';
               src: url("./fonts/Karla-VariableFont_wght.ttf");
             }

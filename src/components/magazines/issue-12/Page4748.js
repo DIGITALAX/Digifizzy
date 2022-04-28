@@ -8,8 +8,8 @@ const Page4748 = () => (
     <div className={styles.text1}>SELF SOVEREIGNTY & WEB3</div>
     <div className={styles.rect1}></div>
     <div className={styles.text2}>
-      Anyone who has been around long enough crypto will possess some degree of political and
-      economic awakenness.
+      Anyone who has been around long enough in crypto will possess some degree of political and
+      economic awareness.
       <br />
       <br />
       Back at the turn of the 90s, visionary tech guys got giddy about the advent of the internet –
