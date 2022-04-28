@@ -26,8 +26,8 @@ const Page2526 = () => {
         that no one else can change the ledger or override transactions willy-nilly.
       </div>
       <div className={styles.text2}>
-        Everything needs to be appended. Such protocols ensures that communications are received
-        only by those authorize to handle it a accordingly.
+        Everything needs to be appended. Such protocols ensure that communications are received only
+        by those authorize to handle it accordingly.
         <br />
         <br />
         The new technologies being implemented in digital currencies are heavily drawn from the
@@ -38,10 +38,10 @@ const Page2526 = () => {
         <br />
         <br />
         Cryptographic advances offer an alternative path, as it were, towards a truly decentralized
-        identity protocol that enables individuals to reveal exactly how, when, where, and under
-        what circumstances can they show a particular piece of personal information to any entity
-        requesting for it – without trading back individual agency or personal privacy. Talk about
-        taking the power back.
+        identity protocol that enable individuals to reveal exactly how, when, where, and under what
+        circumstances they show a particular piece of personal information to any entity requesting
+        for it – without trading back individual agency or personal privacy. Talk about taking the
+        power back.
       </div>
     </div>
   );

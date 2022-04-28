@@ -14,84 +14,93 @@ const Page1516 = () => {
       </div>
       <div className={styles.text1}>Open Source Oasis</div>
       <div className={styles.text2}>
-        <b>Geo Web</b>
+        <b>DITTO LAB</b>
         <br />
-        When we think about the metaverse, gaming, blockchain, NFTs and web3, we often confine this
-        reality to only existing within the digital realms. But, the metaverse and web3 are nothing
-        more than the full suite of power tools that allow us
+        Before the NFT Boom of 2021, DeFi held the spotlight for all things mixing Ethereum, crypto
+        and community. And, for much of the market, it seemed as if the NFT hype wave would be
+        powered predominantly by DAPPs intertwining DeFi with
       </div>
       <div className={styles.text3}>
-        to engage with every aspect of human activity in a much higher fidelity— not just in digital
-        space, but also physical IRL. Geo Web is working towards enhacing the connective layer that
-        interwines the open digital and physical layers through developing an augmented, shared
-        reality layer that is guided by public good values rather than the corporate control of the
-        computer state.
+        NFTs. This didn’t pan out as expected, with most of the DeFi x NFT applications falling
+        short of market desires compared to the likes of PFP projects and play 2 earn. Ditto might
+        just be changing that however. Their protocol is bringing forth NFT future contracts where
+        interested buyers of an NFT can mint or buy a Future, called a Clone. We won’t hash out all
+        of the Smart Contract intricacies here, but the mechanics seem promising for bridging a new
+        wave of capital, liquidity and collectors into non-fungibles.
       </div>
       <div className={styles.text4}>L i b r e S o f t w a r e</div>
       <div className={styles.text5}>
-        <b>Ethereum on arm</b>
+        <b>ETHGANG RECORDS</b>
         <br />
-        As the rise of the sovereign individual continues to be the predominant driver of the web3
-        revolution, software open access alone is wildly insufficient. Easy and affordable hardware
-        access is also crtically essential.
+        Day by day the NFT music scene continues to grow in pace, reach and general artist driven
+        enthusiasm for leaving the trad industry behind. It’s no surprise that a bunch of web3
+        labels and management projects have been spinning up all over #CT. Some are certainly less
+        sincere than others and copy the same extractive “agent” model as in web2.
         <br />
         <br />
-        The team at Ethereum on Arm are working towards making this more of a reality, providing a
-        PnP Ubuntu server image for the Raspberry Pi 4 that runs Ethereum clients as a boot System
-        service and automatically turns the device into a full Ethereum 1.0/2.0 nodes. Keep
-        Decentralisation.
+        ETHGANG, however, seems to be taking a more authentic approach to the stage— they’ve been
+        hosting crypto voxel music shows for web3 native artists since 2020 and allocate a large
+        portion of their messaging and resources to educating upcoming web3 music explorers on the
+        deeper & vital, but often brushed past, aspects of what makes web3, web3— from Ethereum, to
+        IPFS & ENS.
       </div>
       <div className={styles.text6}>L i b r e S o f t w a r e</div>
       <div className={styles.text7}>L i b r e S o f t w a r e</div>
       <div className={styles.text8}>
-        <b>Otterscan</b>
+        <b>THE TOR PROJECT</b>
         <br />
-        Otterscan is an open-source, fast, local, laptop-friendly Ethereum block explorer that is
-        designed to be run locally with an Erigon archive node companion.
+        Not a new name for many, but certainly worth the mention with all that the application has
+        done for enabling stronger self sovereign infrastructure. The Tor Project’s mission couldn’t
+        ring more true— to advance human rights and freedoms by creating and deploying free and open
+        source anonymity and privacy technologies, supporting their unrestricted availability and
+        use, and furthering their scientific and popular understanding.
         <br />
         <br />
-        Holding true to the core principles and development practices of Cypherpunk, Otterscan
-        brings greater benefits for privacy, security, speed and decentralisation. Running locally
-        means that you are querying your own node and thus not sending your IP address or queries to
-        an external third-party node. Network roundtrips are also completely obsolete.
+        The network is more than just a more secure means for plugging into the internet in a world
+        filled with too often malicious corporate and state surveillance, but also, a lifeline for
+        those located in regions where government control through censorship and restrictions means
+        even some of the most basic access that we take for granted is cut off.
       </div>
       <div className={styles.text9}>L i b r e S o f t w a r e</div>
       <div className={styles.text10}>L i b r e S o f t w a r e</div>
       <div className={styles.text11}>
-        <b>FileVerse</b>
+        <b>ICE VISION</b>
         <br />
-        Fileverse provides token governed tooling that makes it super easy for individuals, teams,
-        communities, and DAOs, to upload, encrypt and share files with any number of ethereum
-        addresses, while storing it all on decentralised data storage protocols like IPFS.
+        If we strip back it all, blockchains are, after all, just timestamped blocks filled with
+        different kinds of information about the activity between members (human or not) within a
+        network. Web2 infrastructure also records this information, but it’s opaque and siloed. On a
+        blockchain, the sequence is continuous and connected for all parties, and, it’s also
+        completely transparent so that anyone can query the state of the network at anytime, past or
+        present. Trust through transparency not illusory obfuscation.
         <br />
         <br />
-        Open source peer 2 peer storage offers privacy through strong encryption and requires only a
-        wallet connection to work. No names, no emails and no “someone” who can censor your files.
-        Exactly how it was always meant to be.
+        Currently, quering the state of the blockchain, through apps like Etherscan, still can be
+        overwhelming and difficult for the average user. Ice Vision is a visual block explorer that
+        aims to make the state more intelligible so that anyone can easily peek right under the
+        hood.
       </div>
       <div className={styles.text12}>O p e n W e b</div>
       <div className={styles.text13}>
-        <b>Esteroids</b>
+        <b>ZK BLOCK</b>
         <br />
-        Search and rank of the web2 era has been most
+        Despite what people might think, project set up is often
       </div>
       <div className={styles.text14}>
-        prominently defined by Google. Their page rank algorithm has been revolutionary to so many
-        aspects of how we’ve connected and coordinated online over the past two decades. Not being
-        able to efficiently and intuitively sort through piles of internet data, websites and refine
-        our online rumaging to specifc keywords and topics would have made any potentiality of
-        building, producing, distributing and finding much of the content, products and
-        relationships we use and interact with today impossible.
+        what eats up most of a developers time when building a new DAPP. Often the biggest
+        challenges boil down to lack of interoperable and composable integration methods of
+        websockets, wallet integrations, required libraries and the latest web tech.
         <br />
         <br />
-        As we move into the metaverse and block by block replace the old centralised infrastructure
-        with open ramps, it’s exciting to think what decentralised search and discovery with new
-        multi-dimensional temporal-spatial coordinates will look like?
+        ZK Block is proposing the first ZK Boilerplate to support and accelerate the development of
+        ZK Dapps. It will include everything from support for the latest web tech such as Nextjs,
+        Typescript, and Material UI for design, support for the snarkjs library for browser based
+        proof generation, integration with major EVM chain wallets such ETH/Polygon, and upcoming
+        ZKEVMs such as ZkSync, set up for handling compile circuits, smart contracts and testnet
+        deployments and a sample ZK Dapp on Testnet for developers to play around with.
         <br />
         <br />
-        Esteroids is buidling the first community search engine for amplifying .ETH and other
-        decentralised websites built on ENS and IPFS. This is just the beginning, with more tooling
-        soon on its way.
+        This honestly couldn’t come at a better time as all things turn ZK and the next wave of web3
+        engineering radically gears up to make this a not too far distant reality.
       </div>
       <a href="https://twitter.com/ditto_lab" target="_blank">
         <img src={`${DIGIFIZZY_S3}/12/images/1516_image1.jpg`} className={styles.image1} />

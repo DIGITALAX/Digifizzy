@@ -27,18 +27,20 @@ const Page3738 = () => {
       <div className={styles.text4}>
         I also liked the name Chroma Cats Bc it kinda looks like Chrono Cross a videogame I loved in
         the 90s. Also Chroma Cats 0 = (CC0 for short.) there’s even a 1/1 legendary cat in the
-        collection names “Cici Zero.”
+        collection named “Cici Zero.”
         <br />
         <br />
         “Chroma Cats” is Y2K inspired, around when I started sharing art on the internet (I was
         about 10y/o.) so naturally there’s a lot of 1999/2000s inspired pop culture, skateboard
         brand influence, Emo and JRPG/anime visual DNA in there. These cats also display a wide
         variety of emotion & visual experimentation; important for storytelling with each piece.
-        There’s a thread of indie ethos in Chroma Cats, and Zine culture. Chroma Cats is about
-        having fun and making stuff with friends that says how we feel and what we’ve been through.
-        Chroma Cat artworks are 100% Creative Commons 0; so many many visual experiences can come
-        out of it. I will continue to build with Chroma Cats visual building blocks “forever”, if
-        not longer…
+        There’s a thread of indie ethos in Chroma Cats, and Zine culture.
+        <br />
+        <br />
+        Chroma Cats is about having fun and making stuff with friends that says how we feel and what
+        we’ve been through. Chroma Cat artworks are 100% Creative Commons 0; so many many visual
+        experiences can come out of it. I will continue to build with Chroma Cats visual building
+        blocks “forever”, if not longer…
       </div>
       <div className={styles.text5}>Contributing Artists</div>
       <div className={styles.text6}>Dylan Reed</div>

@@ -16,10 +16,10 @@ const Page6566 = () => (
     </a>
 
     <div className={styles.text1}>
-      For those that don’t, Manhwa has taken the world of online content distribution by storm. With
-      originally less dialogue and more colourful and detailed pictures than the Japanese Manga, it
-      has adapted extremely well to life online, particularly after the rise of mobile devices in
-      everyone’s pocket.
+      For those that don’t know, Manhwa has taken the world of online content distribution by storm.
+      With originally less dialogue and more colourful and detailed pictures than the Japanese
+      Manga, it has adapted extremely well to life online, particularly after the rise of mobile
+      devices in everyone’s pockets.
       <br />
       <br />
       It rose sharply in popularity thanks to free access and availability throughout the internet,
@@ -37,9 +37,9 @@ const Page6566 = () => (
       <br />
       <br />
       TooNFT is one of the first NFT webtoon DAPPs on the scene, developed within the popular
-      Toomics ecosystem. TooNFT will exist as a marketplace dedicated to webtoons as well as
-      incorporate more web3 compatible community tooling overtime. Are we about to see the first
-      webtoons DAO where the narrative is shaped in real time by the readers?
+      Toomics ecosystem. It will exist as a marketplace dedicated to webtoons as well as incorporate
+      more web3 compatible community tooling overtime. Are we about to see the first webtoons DAO
+      where the narrative is shaped in real time by the readers?
     </div>
     <div className={styles.text2}>
       Doubtful how decentralised this will be, but it’s nice to see the South Korean government
@@ -48,19 +48,21 @@ const Page6566 = () => (
     <div className={styles.text3}>
       South Korea has committed to spend at least $186.7 million, or 223.7 billion Korean won to
       spark the ecosystem creation. Here’s hoping that they learn the lesson very soon that there is
-      only one metaverse with many realms, rather than referring it it as one of our biggest pet
+      only one metaverse with many realms, rather than referring to it as one of our biggest pet
       peeves here at DIGIFIZZY, as a metaverse among many. As if that makes sense in any language to
       be referring to multiple internets, mutiple multiverses or multiple metaverses.
     </div>
     <div className={styles.text4}>
       There is just one big abstract Ocean with many islands, fish, grains of sand, grains of salt,
-      and people just need to quit with trying to own the entirety of reality. Ngmi. Side rant
-      aside, the South Korean government expects this new digital plan to produce at least 40, 000
-      new jobs and make the country the 5th largest metaverse focused market globally. We expect
-      that those numbers are on the conservative side, for the metaverse has a far more expansive
-      impact on primary production and derivative wealth generation than almost anyone can yet
-      imagine. It helps that the new president of South Korea campaigned on a pro crypto platform.
-      Excited for what’s to come!
+      and people just need to quit with trying to own the entirety of reality. Ngmi.
+      <br />
+      <br />
+      Side rant aside, the South Korean government expects this new digital plan to produce at least
+      40, 000 new jobs and make the country the 5th largest metaverse focused market globally. We
+      expect that those numbers are on the conservative side, for the metaverse has a far more
+      expansive impact on primary production and derivative wealth generation than almost anyone can
+      yet imagine. It helps that the new president of South Korea campaigned on a pro crypto
+      platform. Excited for what’s to come!
     </div>
   </div>
 );

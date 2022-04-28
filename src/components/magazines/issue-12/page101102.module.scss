@@ -2,7 +2,7 @@
 
 .wrapper {
   @include magazineWrapper();
-  background: #FFFFFF;
+  background: #ffffff;
 
   .imageBackground {
     position: absolute;
@@ -10,5 +10,372 @@
     height: 1497px;
     left: 0px;
     top: 0px;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 147px;
+    height: 147px;
+    left: 0px;
+    top: 0px;
+    border-radius: 50%;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 147px;
+    height: 147px;
+    left: 0px;
+    top: 155px;
+    border-radius: 50%;
+
+    img {
+      border-radius: 50%;
+    }
+  }
+
+  .image3 {
+    position: absolute;
+    width: 147px;
+    height: 147px;
+    left: 0px;
+    top: 310px;
+    border-radius: 50%;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 147px;
+    height: 147px;
+    left: 0px;
+    top: 465px;
+    border-radius: 50%;
+    img {
+      border-radius: 50%;
+    }
+  }
+
+  .image5 {
+    position: absolute;
+    width: 147px;
+    height: 147px;
+    left: 0px;
+    top: 620px;
+    border-radius: 50%;
+  }
+
+  .image6 {
+    position: absolute;
+    width: 147px;
+    height: 147px;
+    left: 0px;
+    top: 775px;
+    border-radius: 50%;
+    img {
+      border-radius: 50%;
+    }
+  }
+
+  .image7 {
+    position: absolute;
+    width: 147px;
+    height: 147px;
+    left: 0px;
+    top: 930px;
+    border-radius: 50%;
+  }
+
+  .image8 {
+    position: absolute;
+    width: 147px;
+    height: 147px;
+    left: 0px;
+    top: 1085px;
+    border-radius: 50%;
+    img {
+      border-radius: 50%;
+    }
+  }
+
+  .image9 {
+    position: absolute;
+    width: 147px;
+    height: 147px;
+    left: 0px;
+    top: 1240px;
+    border-radius: 50%;
+  }
+
+  .image10 {
+    position: absolute;
+    width: 147px;
+    height: 147px;
+    left: 0px;
+    top: 1395px;
+    border-radius: 50%;
+    img {
+      border-radius: 50%;
+    }
+  }
+
+  .text1 {
+    position: absolute;
+    width: 725px;
+    height: 293px;
+    left: 216px;
+    top: 11px;
+
+    font-family: 'Public Secret DEMO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 68px;
+    display: flex;
+    align-items: center;
+
+    color: #de4427;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 672px;
+    height: 1079px;
+    left: 216px;
+    top: 338px;
+
+    background: rgba(255, 0, 0, 0.47);
+  }
+
+  .text2 {
+    position: absolute;
+    width: 560px;
+    height: 968px;
+    left: 272px;
+    top: 388px;
+
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 40px;
+
+    color: #ffffff;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 545px;
+    height: 43px;
+    left: 1050px;
+    top: 62px;
+
+    font-family: 'Slackey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+
+    a {
+      color: white;
+      text-decoration: underline;
+    }
+  }
+
+  .text4 {
+    position: absolute;
+    width: 300px;
+    height: 43px;
+    left: 1050px;
+    top: 177px;
+
+    font-family: 'Slackey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 213px;
+    height: 288px;
+    left: 1664px;
+    top: 244px;
+
+    font-family: 'Sarpanch';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 295px;
+    height: 43px;
+    left: 1394px;
+    top: 609px;
+
+    font-family: 'Slackey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 182px;
+    height: 108px;
+    left: 1018px;
+    top: 672px;
+
+    font-family: 'Sarpanch';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .text8 {
+    position: absolute;
+    width: 157px;
+    height: 43px;
+    left: 1050px;
+    top: 1087px;
+
+    font-family: 'Slackey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 182px;
+    height: 108px;
+    left: 1680px;
+    top: 1157px;
+
+    font-family: 'Sarpanch';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .video1 {
+    position: absolute;
+    width: 431px;
+    height: 260px;
+    left: 1050px;
+    top: 244px;
+  }
+
+  .video2 {
+    position: absolute;
+    width: 431px;
+    height: 260px;
+    left: 1394px;
+    top: 672px;
+  }
+
+  .video3 {
+    position: absolute;
+    width: 431px;
+    height: 260px;
+    left: 1050px;
+    top: 1157px;
+  }
+
+  .link1 {
+    position: absolute;
+    width: 136px;
+    height: 136px;
+    left: 1505px;
+    top: 244px;
+    border-radius: 50%;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .link2 {
+    position: absolute;
+    width: 136px;
+    height: 136px;
+    left: 1229px;
+    top: 672px;
+    border-radius: 50%;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .link3 {
+    position: absolute;
+    width: 136px;
+    height: 136px;
+    left: 1513px;
+    top: 1157px;
+    border-radius: 50%;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .line1 {
+    position: absolute;
+    top: 0;
+    left: 960px;
+    width: 1px;
+    height: 100%;
+    background-color: black;
   }
 }

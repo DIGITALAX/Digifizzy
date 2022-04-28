@@ -43,7 +43,7 @@ const Page4950 = () => (
       YOU own your money.
       <br />
       <br />
-      YOU take full responsibility for your success or failure.
+      YOU can take full responsibility for your success or failure.
       <br />
       <br />
       Some individuals scoff at the notion that Big Tech cares about their interests and have no
@@ -51,16 +51,16 @@ const Page4950 = () => (
       day-to-day life.
       <br />
       <br />
-      Regardless of what side you’re on as far as giving a shit about decentralization Whether Those
-      who care about decentralization & those who don’t.
+      Regardless of what side you’re on as far as giving a shit about decentralization; Whether
+      Those who care about decentralization & those who don’t.
       <br />
       <br />
-      Some, on the other hand, see absolutely nothing wrong with handing over their digital lives
-      over to the next Big Tech gatekeeper or neurotic Silicon Valley CEO wannabe.
+      Some still, on the other hand, see nothing wrong (as of yet) with handing over their digital
+      lives over to the next Big Tech gatekeeper or neurotic Silicon Valley CEO wannabe.
       <br />
       <br />
-      The trouble is, many of the centralized platforms masquerading as “free” that we’ve come to be
-      dependent on are easily corrupted by the sheer volume of accumulated data that can be
+      The trouble is, many of the centralized platforms masquerading as “free”, that we’ve come to
+      be dependent on are easily corrupted by the sheer volume of accumulated data that can be
       weaponized to their advantage.
     </div>
   </div>

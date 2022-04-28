@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-
 import { DIGIFIZZY_S3 } from '@constants/urls';
 import styles from './page9596.module.scss';
 
@@ -8,56 +7,36 @@ const Page9596 = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.imageBackground}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/9596_back.png`} width={1920} height={1497} />
+        <Image src={`${DIGIFIZZY_S3}/12/images/9394_back.png`} width={1920} height={1497} />
       </div>
-      <div className={styles.text1}>
-        CC0 means that the work can’t be cut off or choked by anyone in the market. it remains free,
-        accessible and open for all to use as essential base ingredients, to remix and derive from.
-        <br />
-        <br />
-        on-chain verification provides a clear transparent and time stamped history which allows for
-        far lower friction coordination between everyone involved in the creative process.
-        <br />
-        <br />
-        and finally, providing informative creative step by steps helps you’re customer base and
-        fellow creators better understand how to related to and frame everything you are doing
-        within their broader world view.
-        <br />
-        <br />
-        it might all sound counter intuitive wher often anyone driven driven to create might focus
-        first on how to recognition for how much you've already done, but usually it's actually far
-        more direct to focus first on what we can give rather than what we are going to get.
-      </div>
-      <div className={styles.text2}>summer 2022 | june 20th - 23rd NYC</div>
+      <div className={styles.text1}>FASHION FOR THE METAVERSE</div>
+      <div className={styles.text2}>WEB3 FASHION and composability</div>
       <div className={styles.text3}>
-        Four days and nights of official events and immersive experiences to rock your self
-        sovereign world:
+        iT’S THE QUESTION THAT EVERY DESIGNER ASKS— WHERE DO I START AND HOW DO I GET STARTED?
+        <br />
+        <br />
+        AND, IT’S one of the biggest priorities of the DIGITALAX protocol— building out each of the
+        most essential composable elements that any designer needs to make their way in web3. it
+        means more than launching a digital mini mall or just listing some fashion nfts for sale.
+        <br />
+        <br />
+        like any designer unsatisfied with going shopping for clothing that others have made, as if
+        that were as good as buying the tools, materials, thread and every other tiny part necessary
+        to create their own clothing for themsleves, knows, composability matters.
+        <br />
+        <br />
+        the more fine grained the building blocks and techniques available to you are, the more
+        flexible that you can be in how well you create.
+        <br />
+        <br />
+        So, when diving into web3 fashion, how can you make better use of composability?
+        <br />
+        <br />
+        start by making your work into more readily useable ingredients for others.
+        <br />
+        <br />a mix of cc0, on-chain validation and giving people really clear samples of how you
+        reached the end output does this.
       </div>
-      <ul className={styles.text4}>
-        <li>Grok zero knowledge</li>
-        <li>Amplify CC0 derivatives and surprise mints with the utility that matters most</li>
-        <li>
-          Settle the debate between which has more instant and long term $$$ worth: CC0 vs limited
-          rights
-        </li>
-        <li>Digital & physical apparel NFT pop ups throughout the city</li>
-        <li>Realm Runway #2: Cypherpunk Zeitgeist 2K</li>
-        <li>Iconographic keys to access, usage, and token governed coordination</li>
-        <li>
-          Local production workshops + open labs: from pattern printing to decentralised fabrication
-        </li>
-        <li>Music x fashion immersive audio sessions</li>
-        <li>
-          Show up during the week at select locations to solve a series of challenges, including
-          minting and amplifying cc0 derivatives, to gain access to the mint list for unique
-          membership tokens which allow you to participate in the second part of the extra special
-          public / private auction of a self sovereign CC0 collection with hidden contributors and
-          plenty of other obviously cool benefits
-        </li>
-      </ul>
-      <video autoPlay loop muted className={styles.video1}>
-        <source src={`${DIGIFIZZY_S3}/12/videos/9596_video1.mp4`} />
-      </video>
     </div>
   );
 };

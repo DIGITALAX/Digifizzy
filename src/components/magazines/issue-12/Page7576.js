@@ -11,6 +11,7 @@ const Page7576 = () => {
       <div className={styles.back}>
         <Image src={`${DIGIFIZZY_S3}/12/images/7576_back.png`} width={1920} height={1497} />
       </div>
+      <div className={styles.back1}></div>
 
       <a href="https://twitter.com/nounsoup" target="_blank" className={styles.link1}>
         Nouns Soups with Project Founder Jeres

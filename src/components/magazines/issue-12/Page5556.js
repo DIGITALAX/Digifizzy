@@ -42,7 +42,7 @@ const Page5556 = () => (
         <li>Supported co-creative bricolage collections and releases between residents </li>
       </ul>
     </div>
-    <a href="" target="_blank" className={styles.link1}>
+    <a href="https://discord.com/invite/RWj3xrsMjb" target="_blank" className={styles.link1}>
       Join as a resident!
     </a>
     <div className={styles.text3}>Gatekeeper Gardens</div>

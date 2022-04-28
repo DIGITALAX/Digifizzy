@@ -83,7 +83,7 @@ const Page7374 = () => {
         ultimately offer fulfillment localized to the end consumer. It eliminates supply chain
         logistics, risk, and pain associated with fulfilling demand thousands of miles away,
         removing waste while giving creators access to digital quality, graphic capability, and
-        sustainable production practices with
+        sustainable production practices.
       </div>
 
       <div className={styles.rect1} />
