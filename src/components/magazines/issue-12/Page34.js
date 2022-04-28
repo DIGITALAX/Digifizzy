@@ -84,6 +84,7 @@ const Page34 = () => (
       Dylan Reed <br />
       Brenon jpg <br />
       Avie <br />
+      Play Oasis <br />
     </div>
     <div className={styles.text9}>
       nicooo.eth <br />
