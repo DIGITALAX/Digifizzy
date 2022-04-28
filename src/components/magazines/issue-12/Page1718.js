@@ -11,31 +11,31 @@ const Page1718 = () => {
       <div className={styles.text1}>
         We were one of the very first people who minted Loot when it was launched. We were
         fascinated by how Loot is different from other NFT projects at the time. Loot is a building
-        block that allows others to build on top of. While watching many projects build on top of
+        block that allows others to build on top of it. But, while watching many projects build on top of
         Loot, we realized that they all lack something – the arts. One of the challenges that we
         have seen in the Loot ecosystem is that many projects do not focus on visualizing the items
-        inside each Loot bag themselves because drawing all the different pieces and combinations is
-        a lot of work. On top of that, having compelling imagery that tells the story visually
+        inside each Loot bag themselves as drawing all the different pieces and combinations is
+        a tonne of work. Also, having compelling imagery that tells the story visually
         solves another major challenge with Loot: the language barrier for non-English speakers.
-        When we visualize those items inside Loot bags, we made Loot ecosystem compelling and easy
-        to understand for non-English speakers which we hope we can reach more users and expand the
+        When we visualize the items inside Loot bags, we make the Loot ecosystem compelling and easy
+        to understand globally, which of course then reaches more users and expands the
         Loot universe.
       </div>
       <div className={styles.text2}>
         We believe that CC0 is the closest thing to the idea of decentralization. Plus, HyperLoot is
-        meant to be a visualization layer on top of Loot and to allow others to utilize and build
-        apps on top of HyperLoot. We believe that public domain will maximize the creativity from
-        the community of what can be built on top of HyperLoot without worrying about license and
+        meant to be a visualization layer on top of Loot and a layer that allows others to utilize 
+        and build apps on top it. We believe that public domain will maximize the creativity from
+        the community of what can be built on top of the project without worrying about license and
         legal terms. We also decided to open source everything we build – from our source code all
         the way to Photoshop files and everything in-between. We want HyperLoot to be a public-good
-        project. If other builders can take our source code and files to extend into something else,
+        project. If other builders can take our source code and files and extend it into something else,
         we are more than happy to see it happen. Moreover, by us providing the source code to the
         public, it also means that down the road, the community can also contribute to the core
-        source code of the project and grow the ecosystem together.
+        of the project and grow the ecosystem together.
       </div>
       <div className={styles.text3}>
-        We were inspired by the CC0 movement from Blitmap and Nouns. We saw how the communities help
-        expand Blitmap and Nouns universe on their own instead of waiting for the creators to do
+        We were inspired by the CC0 movement from Blitmap and Nouns. We saw how the communities helped
+        expand the Blitmap and Nouns universe on their own, instead of waiting for the creators to do
         something. Plus, we took a look at the works that have already been in the public domain
         like Mona Lisa, Shakespeare, Dracula, Peter Pan, and King Arthur. We saw that the value of
         these works doesn’t decrease simply because Hollywood makes a movie about them, but in fact,
@@ -44,12 +44,12 @@ const Page1718 = () => {
         <br />
         <br />
         That is when we realized that just because someone else can utilize your work released in
-        public domain, it doesn’t mean that their value will go down but it can actually go up.
+        public domain, it doesn’t mean that the value will go down, instead it's the complete opposite.
       </div>
       <div className={styles.text4}>
         Even though we are a huge fan of public domain, we understand that there are pros and cons
         to every type of license and IP. There is no right or wrong answer. Creators should study
-        about the differences between each type of license and choose whatever they feel it’s best
+        about the differences between each type of license and choose whatever they feel is best
         for themselves and their community. Regardless of the what type of license the NFT has, if
         the work is good, it’s good.
       </div>
@@ -59,12 +59,12 @@ const Page1718 = () => {
         intercompatibility of each media. We expect to see more creativity being created at a rapid
         speed that we haven’t seen before. People can get creative without worrying about legal
         stuff anymore. Plus, when you build on top of an existing project or incorporate another
-        project into yours, the network effect can grow very fast. This would be the same with
+        project into yours, the network effects can grow very fast. This would be the same with
         digital-IRL realms. Brands would be able to cross over the digital media to IRL products and
         services faster. We already see this happening with Nouns.
       </div>
       <div className={styles.text6}>
-        Definitely. Since we want other people, projects, and companies to be able to utilize
+        Since we want other people, projects, and companies to be able to utilize
         HyperLoot, we will be spending a lot of time building the foundation of the HyperLoot
         ecosystem. Starting off with open sourcing our code and art-related files, then following
         with SDK, APIs, and tools for builders and creators to easily integrate HyperLoot into any
