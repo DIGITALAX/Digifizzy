@@ -1,0 +1,60 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: #000d39;
+  color: white;
+
+  .rect1 {
+    background: #7a9316;
+    position: absolute;
+    width: 472px;
+    height: 1497px;
+    left: 1168px;
+    top: 0px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 712px;
+    height: 1166px;
+    left: 158px;
+    top: 156px;
+
+    font-family: 'New Rocker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+
+    color: #ff8514;
+
+    -webkit-text-stroke: 1px #ff0000;
+  }
+
+  .video1 {
+    position: absolute;
+    width: 491px;
+    height: 354px;
+    left: 1246px;
+    top: 72px;
+  }
+
+  .video2 {
+    position: absolute;
+    width: 491px;
+    height: 354px;
+    left: 1246px;
+    top: 479px;
+  }
+
+  .video3 {
+    position: absolute;
+    width: 491px;
+    height: 354px;
+    left: 1246px;
+    top: 886px;
+  }
+}

@@ -1,6 +1,107 @@
 export const details = [
   [
     {
+      id: 55,
+      title: 'Common Unlock',
+      subTitle: [
+        'Issue Twelve',
+        'F3Manifesto I Grok Zero Knowledge Shirt Blue',
+        'F3Manifesto Wallet Set Up Long Sleeve Black',
+        'DDPM Generated Cypher Series #1',
+      ],
+      issueIndex: 'Issue Twelve',
+      url: [
+        '/images/nft/12/common/1.mp4',
+        '/images/nft/12/common/2.gif',
+        '/images/nft/12/common/3.gif',
+        '/images/nft/12/common/4.png',
+      ],
+      body: [
+        'DIGIFIZZY is the first of its kind. It’s architected for the metaverse, bringing together creators, anarchists, risk takers and dreamers across web3, fashion, gaming, art, music, crypto and NFTs, to prove out a completely new publishing distribution model. DIGIFIZZY is for the gatemakers. For the common unlockable ERC-998 bundle you can burn your 721 NFT to receive 1155 NFT treasures; F3Manifesto CC0 ZK IRL Shirt, F3Manifesto CC0 Wallet Set Up IRL Long Sleeve and DDPM generated cypher series art.',
+        'I Grok Zero Knowledge T-Shirt by F3Manifesto.  Stake the 721 NFT for $MONA yield. You’ll be sent an email upon purchase guiding you on how to process all shipment details. You’ll also be sent a 721 stackable version of the NFT upon placing the IRL order.',
+        'Wallet Set Up Long Sleeve by F3Manifesto.  Stake the 721 NFT for $MONA yield. You’ll be sent an email upon purchase guiding you on how to process all shipment details. You’ll also be sent a 721 stackable version of the NFT upon placing the IRL order.',
+        'AI generative models (DDPMs) craft futuristic cyberpunk worlds from written text.',
+      ],
+      price: 0.5,
+      amountAvailable: 700,
+    },
+    {
+      id: 56,
+      title: 'Semi-Rare Unlock',
+      subTitle: [
+        'Issue Twelve',
+        'DDPM Generated Cypher Series #1',
+        'F3Manifesto I Grok Zero Knowledge T-Shirt Grey',
+        'F3Manifesto Wallet Set Up Long Sleeve Black',
+        'F3Manifesto Cypherpunk Keys Hoodie Black',
+        'DDPM Generated Cypher Series #2',
+      ],
+      issueIndex: 'Issue Twelve',
+      url: [
+        '/images/nft/12/semi/1.mp4',
+        '/images/nft/12/common/4.png',
+        '/images/nft/12/semi/3.gif',
+        '/images/nft/12/common/3.gif',
+        '/images/nft/12/semi/5.gif',
+        '/images/nft/12/semi/6.png',
+      ],
+      body: [
+        'DIGIFIZZY is the first of its kind. It’s architected for the metaverse, bringing together creators, anarchists, risk takers and dreamers across web3, fashion, gaming, art, music, crypto and NFTs, to prove out a completely new publishing distribution model. DIGIFIZZY is for the gatemakers. For the semi-rare unlockable ERC-998 bundle you can burn your 721 NFT to receive 1155 NFT treasures; F3Manifesto CC0 ZK IRL Shirt, F3Manifesto CC0 Wallet Set Up IRL Long Sleeve, F3Manifesto CC0 Cypherpunk Keys IRL Long Sleeve and DDPM generated cypher series art.',
+        'AI generative models (DDPMs) craft futuristic cyberpunk worlds from written text.',
+        'I Grok Zero Knowledge T-Shirt by F3Manifesto.  Stake the 721 NFT for $MONA yield. You’ll be sent an email upon purchase guiding you on how to process all shipment details. You’ll also be sent a 721 stackable version of the NFT upon placing the IRL order.',
+        'Wallet Set Up Long Sleeve by F3Manifesto.  Stake the 721 NFT for $MONA yield. You’ll be sent an email upon purchase guiding you on how to process all shipment details. You’ll also be sent a 721 stackable version of the NFT upon placing the IRL order.',
+        'Cypherpunk Keys Hoodie by F3Manifesto.  Stake the 721 NFT for $MONA yield. You’ll be sent an email upon purchase guiding you on how to process all shipment details. You’ll also be sent a 721 stackable version of the NFT upon placing the IRL order.',
+        'AI generative models (DDPMs) craft futuristic cyberpunk worlds from written text.',
+      ],
+      price: 1,
+      amountAvailable: 200,
+    },
+    {
+      id: 57,
+      title: 'Exclusive Unlock',
+      subTitle: [
+        'Issue Twelve',
+        'DDPM Generated Cypher Series #1',
+        'DDPM Generated Cypher Series #2',
+        'F3Manifesto I Grok Zero Knowledge Shirt Black',
+        'F3Manifesto Cypherpunk Keys Hoodie White',
+        'F3Manifesto Wallet Set Up Long Sleeve White',
+        'Micah Zoltu',
+        'Trent McConaghy',
+        'William Schwab',
+        'Bokky Poobah',
+      ],
+      issueIndex: 'Issue Twelve',
+      url: [
+        '/images/nft/12/exc/1.mp4',
+        '/images/nft/12/common/4.png',
+        '/images/nft/12/semi/6.png',
+        '/images/nft/12/exc/4.gif',
+        '/images/nft/12/exc/5.gif',
+        '/images/nft/12/exc/6.gif',
+        '/images/nft/12/exc/7.png',
+        '/images/nft/12/exc/8.png',
+        '/images/nft/12/exc/9.png',
+        '/images/nft/12/exc/10.png',
+      ],
+      body: [
+        'DIGIFIZZY is the first of its kind. It’s architected for the metaverse, bringing together creators, anarchists, risk takers and dreamers across web3, fashion, gaming, art, music, crypto and NFTs, to prove out a completely new publishing distribution model. DIGIFIZZY is for the gatemakers. For the exclusive unlockable ERC-998 bundle you can burn your 721 NFT to receive 1155 NFT treasures; F3Manifesto CC0 ZK IRL Shirt, F3Manifesto CC0 Wallet Set Up IRL Long Sleeve, F3Manifesto CC0 Cypherpunk Keys IRL Long Sleeve, DDPM generated cypher series art and Web3 Wizards collectible series.',
+        'AI generative models (DDPMs) craft futuristic cyberpunk worlds from written text.',
+        'AI generative models (DDPMs) craft futuristic cyberpunk worlds from written text.',
+        'I Grok Zero Knowledge T-Shirt by F3Manifesto.  Stake the 721 NFT for $MONA yield. You’ll be sent an email upon purchase guiding you on how to process all shipment details. You’ll also be sent a 721 stackable version of the NFT upon placing the IRL order.',
+        'Cypherpunk Keys Hoodie by F3Manifesto.  Stake the 721 NFT for $MONA yield. You’ll be sent an email upon purchase guiding you on how to process all shipment details. You’ll also be sent a 721 stackable version of the NFT upon placing the IRL order.',
+        'Wallet Set Up Long Sleeve by F3Manifesto.  Stake the 721 NFT for $MONA yield. You’ll be sent an email upon purchase guiding you on how to process all shipment details. You’ll also be sent a 721 stackable version of the NFT upon placing the IRL order.',
+        'To pay homage to the often overlooked lionhearts within the web3 community— the devs— we are introducing Web3 Wizards; an ongoing series of on-chain NFT web3 dev characterisations; spotlighting new devs every issue, all designed and minted in-house by DIGITALAX. For this edition of Web3 Wizards we are spotlighting the devs, engineers and teams that are building at the heart of Ethereum and ensuring that this ecosystem stays just as web3 native and accessible as it has been for the better part of a decade so far. The Ethereum Evolutionaries.',
+        'To pay homage to the often overlooked lionhearts within the web3 community— the devs— we are introducing Web3 Wizards; an ongoing series of on-chain NFT web3 dev characterisations; spotlighting new devs every issue, all designed and minted in-house by DIGITALAX. For this edition of Web3 Wizards we are spotlighting the devs, engineers and teams that are building at the heart of Ethereum and ensuring that this ecosystem stays just as web3 native and accessible as it has been for the better part of a decade so far. The Ethereum Evolutionaries.',
+        'To pay homage to the often overlooked lionhearts within the web3 community— the devs— we are introducing Web3 Wizards; an ongoing series of on-chain NFT web3 dev characterisations; spotlighting new devs every issue, all designed and minted in-house by DIGITALAX. For this edition of Web3 Wizards we are spotlighting the devs, engineers and teams that are building at the heart of Ethereum and ensuring that this ecosystem stays just as web3 native and accessible as it has been for the better part of a decade so far. The Ethereum Evolutionaries.',
+        'To pay homage to the often overlooked lionhearts within the web3 community— the devs— we are introducing Web3 Wizards; an ongoing series of on-chain NFT web3 dev characterisations; spotlighting new devs every issue, all designed and minted in-house by DIGITALAX. For this edition of Web3 Wizards we are spotlighting the devs, engineers and teams that are building at the heart of Ethereum and ensuring that this ecosystem stays just as web3 native and accessible as it has been for the better part of a decade so far. The Ethereum Evolutionaries.',
+      ],
+      price: 2,
+      amountAvailable: 50,
+    },
+  ],
+  [
+    {
       id: 52,
       title: 'Common Unlock',
       subTitle: [
@@ -1283,6 +1384,11 @@ export const details = [
 ];
 
 export const info = [
+  {
+    image: '/images/nft/12/home.png',
+    id: 'THIRTEEN',
+    title: 'DIGIFIZZY',
+  },
   {
     image: '/images/nft/12/home.png',
     id: 'TWELVE',

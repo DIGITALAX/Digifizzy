@@ -1,0 +1,124 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  color: #ffffff;
+  display: flex;
+  position: relative;
+  background-color: #000000;
+
+  .text1 {
+    position: absolute;
+    width: 387px;
+    height: 150px;
+    left: 70px;
+    top: 35px;
+
+    font-family: 'Arthure';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 100%;
+    /* identical to box height, or 150px */
+
+    color: #ffffff;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 729px;
+    height: 1220px;
+    left: 1088px;
+    top: 124px;
+
+    font-family: 'Brygada 1918';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 100%;
+    /* or 35px */
+
+    color: #ffffff;
+  }
+
+  .circle1,
+  .circle2,
+  .circle3,
+  .circle4,
+  .circle5,
+  .circle6 {
+    border-radius: 50%;
+  }
+
+  .circle1 {
+    position: absolute;
+    width: 1174px;
+    height: 1174px;
+    left: -544px;
+    top: 210px;
+
+    border: 10px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 50px 10px #ff0000;
+  }
+
+  .circle2 {
+    position: absolute;
+    width: 234px;
+    height: 234px;
+    left: 290px;
+    top: 185px;
+
+    border: 10px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 50px 10px #ff0000;
+  }
+
+  .circle3 {
+    position: absolute;
+    width: 188px;
+    height: 188px;
+    left: 630px;
+    top: 199px;
+
+    border: 10px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 50px 10px #ff6b00;
+  }
+
+  .circle4 {
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    left: 388px;
+    top: 460px;
+
+    border: 10px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 50px 10px #ff0000;
+  }
+
+  .circle5 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 782px;
+    top: 788px;
+
+    border: 10px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 50px 10px #001aff;
+  }
+
+  .circle6 {
+    position: absolute;
+    width: 556px;
+    height: 556px;
+    left: 290px;
+    top: 901px;
+
+    border: 10px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 50px 10px #ff0000;
+  }
+}

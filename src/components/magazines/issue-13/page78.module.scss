@@ -1,0 +1,317 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  color: white;
+  display: flex;
+  position: relative;
+  background-color: #5bff93;
+
+  .rect1 {
+    position: absolute;
+    width: 1659px;
+    height: 1294px;
+    left: 131px;
+    top: 101px;
+
+    background: #f4f4f4;
+    border-radius: 373px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 793px;
+    height: 100px;
+    left: 56px;
+    top: 51px;
+
+    font-family: 'Gishella Morely';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+    /* identical to box height, or 100px */
+
+    color: #ffc700;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 690px;
+    height: 70px;
+    left: 86px;
+    top: 172px;
+
+    font-family: 'Gardena';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 100%;
+    /* identical to box height, or 70px */
+
+    color: #ffc700;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 629px;
+    height: 990px;
+    left: 227px;
+    top: 326px;
+
+    font-family: 'Nella Sue Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    /* or 30px */
+
+    color: #000000;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 555px;
+    height: 960px;
+    left: 1075px;
+    top: 246px;
+
+    font-family: 'Nella Sue Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    /* or 30px */
+
+    color: #000000;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 41px;
+    height: 100px;
+    left: 56px;
+    top: 1345px;
+
+    font-family: 'Gishella Morely';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+    /* identical to box height, or 100px */
+
+    color: #ffc700;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 59px;
+    height: 100px;
+    left: 164px;
+    top: 1345px;
+
+    font-family: 'Gishella Morely';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+    /* identical to box height, or 100px */
+
+    color: #ffc700;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 58px;
+    height: 100px;
+    left: 290px;
+    top: 1345px;
+
+    font-family: 'Gishella Morely';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+    /* identical to box height, or 100px */
+
+    color: #ffc700;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text8 {
+    position: absolute;
+    width: 62px;
+    height: 100px;
+    left: 415px;
+    top: 1345px;
+
+    font-family: 'Gishella Morely';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+    /* identical to box height, or 100px */
+
+    color: #ffc700;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 60px;
+    height: 100px;
+    left: 544px;
+    top: 1345px;
+
+    font-family: 'Gishella Morely';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+    /* identical to box height, or 100px */
+
+    color: #ffc700;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text10 {
+    position: absolute;
+    width: 60px;
+    height: 100px;
+    left: 671px;
+    top: 1345px;
+
+    font-family: 'Gishella Morely';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+    /* identical to box height, or 100px */
+
+    color: #ffc700;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text11 {
+    position: absolute;
+    width: 58px;
+    height: 100px;
+    left: 798px;
+    top: 1345px;
+
+    font-family: 'Gishella Morely';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+    /* identical to box height, or 100px */
+
+    color: #ffc700;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text12 {
+    position: absolute;
+    width: 58px;
+    height: 100px;
+    left: 923px;
+    top: 1345px;
+
+    font-family: 'Gishella Morely';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+    /* identical to box height, or 100px */
+
+    color: #ffc700;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text13 {
+    position: absolute;
+    width: 60px;
+    height: 100px;
+    left: 1048px;
+    top: 1345px;
+
+    font-family: 'Gishella Morely';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+    /* identical to box height, or 100px */
+
+    color: #ffc700;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text14 {
+    position: absolute;
+    width: 107px;
+    height: 100px;
+    left: 1175px;
+    top: 1345px;
+
+    font-family: 'Gishella Morely';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+    /* identical to box height, or 100px */
+
+    color: #ffc700;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text15 {
+    position: absolute;
+    width: 82px;
+    height: 100px;
+    left: 1349px;
+    top: 1345px;
+
+    font-family: 'Gishella Morely';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+    /* identical to box height, or 100px */
+
+    color: #ffc700;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text16 {
+    position: absolute;
+    width: 113px;
+    height: 100px;
+    left: 1498px;
+    top: 1345px;
+
+    font-family: 'Gishella Morely';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+    /* identical to box height, or 100px */
+
+    color: #43c7ff;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 141px;
+    height: 137px;
+    left: 1489px;
+    top: 1319px;
+
+    border: 4px solid #43c7ff;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,397 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: #de4427;
+
+  .image1 {
+    position: absolute;
+    width: 313px;
+    height: 313px;
+    left: 0px;
+    top: 0px;
+
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.04);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image2 {
+    position: absolute;
+    width: 133px;
+    height: 133px;
+    left: 393px;
+    top: 616px;
+
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.04);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image3 {
+    position: absolute;
+    width: 133px;
+    height: 133px;
+    left: 551px;
+    top: 616px;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.04);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image4 {
+    position: absolute;
+    width: 133px;
+    height: 133px;
+    left: 709px;
+    top: 616px;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.04);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .heat1 {
+    position: absolute;
+    width: 283px;
+    height: 343px;
+    left: 16px;
+    top: 287px;
+
+    font-family: 'Sofadi One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 117px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .heat2 {
+    position: absolute;
+    width: 283px;
+    height: 343px;
+    left: 16px;
+    top: 630px;
+
+    font-family: 'Sofadi One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 117px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .heat3 {
+    position: absolute;
+    width: 283px;
+    height: 343px;
+    left: 15px;
+    top: 973px;
+
+    font-family: 'Sofadi One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 117px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .heat4 {
+    position: absolute;
+    width: 283px;
+    height: 343px;
+    left: 15px;
+    top: 1316px;
+
+    font-family: 'Sofadi One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 117px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 560px;
+    height: 181px;
+    left: 356px;
+    top: 22px;
+
+    font-family: 'Sofadi One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 560px;
+    height: 181px;
+    left: 356px;
+    top: 203px;
+
+    font-family: 'Smokum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 560px;
+    height: 181px;
+    left: 356px;
+    top: 360px;
+
+    font-family: 'Slackside One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 81px;
+    height: 37px;
+    left: 419px;
+    top: 770px;
+
+    font-family: 'Smokum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 41px;
+    height: 37px;
+    left: 597px;
+    top: 770px;
+
+    font-family: 'Smokum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 48px;
+    height: 37px;
+    left: 755px;
+    top: 765px;
+
+    font-family: 'Smokum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 132px;
+    height: 285px;
+    left: 393px;
+    top: 825px;
+
+    font-family: 'Sofadi One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .text8 {
+    position: absolute;
+    width: 131px;
+    height: 304px;
+    left: 552px;
+    top: 829px;
+
+    font-family: 'Sofadi One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 132px;
+    height: 276px;
+    left: 713px;
+    top: 829px;
+
+    font-family: 'Sofadi One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .text10 {
+    position: absolute;
+    width: 560px;
+    height: 181px;
+    left: 356px;
+    top: 1188px;
+
+    font-family: 'Slackside One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .text11 {
+    position: absolute;
+    width: 761px;
+    height: 181px;
+    left: 1073px;
+    top: 121px;
+
+    font-family: 'Slackside One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .text12 {
+    position: absolute;
+    width: 761px;
+    height: 536px;
+    left: 1073px;
+    top: 923px;
+
+    font-family: 'Slackside One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .video1 {
+    position: absolute;
+    width: 540px;
+    height: 430px;
+    left: 1294px;
+    top: 324px;
+  }
+
+  .text13 {
+    position: absolute;
+    width: 882px;
+    height: 177px;
+    left: 1073px;
+    top: 648px;
+
+    font-family: 'Akira Expanded';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 115px;
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .line1 {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    top: 0;
+    left: 960px;
+    background: black;
+  }
+}

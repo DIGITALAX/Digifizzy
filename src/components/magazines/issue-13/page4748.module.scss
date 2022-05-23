@@ -1,0 +1,77 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: #8f00ff;
+
+  .text1 {
+    position: absolute;
+    width: 1503px;
+    height: 449px;
+    left: 46px;
+    top: 1450px;
+
+    font-family: 'Akira Expanded';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 140px;
+    line-height: 140px;
+    /* or 100% */
+
+    color: #ffffff;
+
+    transform: rotate(-90deg);
+    transform-origin: left top;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 804px;
+    height: 1255px;
+    left: 1032px;
+    top: 83px;
+
+    font-family: 'Akaya Telivigala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    /* or 100% */
+
+    color: #ffffff;
+  }
+
+  .rect1 {
+    position: absolute;
+    height: 1414px;
+    width: 40px;
+    left: 504px;
+    top: 36px;
+
+    background: white;
+  }
+
+  .image1 {
+    position: absolute;
+    height: 440px;
+    width: 246px;
+    left: 633px;
+    top: 40px;
+  }
+
+  .image2 {
+    position: absolute;
+    height: 440px;
+    width: 246px;
+    left: 633px;
+    top: 510px;
+  }
+
+  .image3 {
+    position: absolute;
+    height: 440px;
+    width: 246px;
+    left: 633px;
+    top: 980px;
+  }
+}

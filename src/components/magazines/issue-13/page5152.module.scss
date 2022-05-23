@@ -1,0 +1,40 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: #8f00ff;
+
+  .text1 {
+    position: absolute;
+    width: 804px;
+    height: 1255px;
+    left: 100px;
+    top: 83px;
+
+    font-family: 'Akaya Telivigala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    /* or 167% */
+
+    color: #ffffff;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 804px;
+    height: 1255px;
+    left: 1046px;
+    top: 33px;
+
+    font-family: 'Akaya Telivigala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    /* or 167% */
+
+    color: #ffffff;
+  }
+}

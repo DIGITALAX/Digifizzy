@@ -1,0 +1,96 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: black;
+  color: white;
+  display: flex;
+  position: relative;
+
+  .imageBackground {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+
+  a {
+    div {
+      cursor: pointer;
+      transition: 0.3s all;
+
+      &:hover {
+        transition: 0.3s all;
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  .text1 {
+    position: absolute;
+    width: 771px;
+    height: 133px;
+    left: 70px;
+    top: 1334px;
+
+    font-family: 'Sunflower';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    /* or 100% */
+
+    color: #ffffff;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 518px;
+    height: 76px;
+    left: 50px;
+    top: 44px;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 756px;
+    height: 88px;
+    left: 70px;
+    top: 103px;
+
+    font-family: 'Julietta Messie Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 110%;
+    /* identical to box height, or 88px */
+
+    color: #ffb68c;
+  }
+
+  .link1 {
+    position: absolute;
+    width: 139px;
+    height: 40px;
+    left: 70px;
+    top: 1282px;
+
+    font-family: 'Sansita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 33px;
+    /* or 82% */
+
+    color: #ffffff;
+
+    color: white;
+    transition: 0.3s all;
+    &:hover {
+      transition: 0.3s all;
+      color: white;
+      text-decoration: underline;
+    }
+  }
+}

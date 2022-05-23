@@ -1,0 +1,115 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: #000000;
+  color: #ffffff;
+
+  .imageBackground {
+    width: 1920px;
+    height: 1497px;
+    left: 0;
+    top: 0;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 988px;
+    height: 152px;
+    left: 0px;
+    top: 916px;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 988px;
+    height: 152px;
+    left: 0px;
+    top: 1133px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 863px;
+    height: 951px;
+    left: 48px;
+    top: 82px;
+
+    font-family: 'Herculanum';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    /* or 30px */
+
+    color: #ff5c00;
+
+    -webkit-text-stroke: 1px #ff5c00;
+    box-sizing: border-box;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 840px;
+    height: 39px;
+    left: 1024px;
+    top: 743px;
+
+    font-family: 'Akira Expanded';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #575757;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 757px;
+    height: 84px;
+    right: 103px;
+    bottom: 549px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+
+    color: #ffffff;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 757px;
+    height: 461px;
+    right: 103px;
+    bottom: 64px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    /* or 139% */
+
+    color: #ffffff;
+
+    list-style: disc;
+
+    li {
+      margin-left: 20px;
+    }
+  }
+
+  .video1 {
+    position: absolute;
+    width: 960px;
+    height: 552px;
+    left: 960px;
+    top: 0px;
+    object-fit: cover;
+  }
+}
