@@ -1202,6 +1202,36 @@ class MyDocument extends Document {
               src: url("./fonts/Antonio-Light.ttf");
               font-weight: 300;
             }
+
+            @font-face {
+              font-family: 'Anek Kannada';
+              src: url("./fonts/AnekKannada-VariableFont_wdth,wght.ttf");
+              font-weight: 300;
+            }
+
+            @font-face {
+              font-family: 'Sudo Var';
+              src: url("./fonts/Sudo-Regular.ttf");
+              font-weight: 300;
+            }
+
+            @font-face {
+              font-family: '04b_19';
+              src: url("./fonts/04B_19__.TTF");
+              font-weight: 300;
+            }
+
+            @font-face {
+              font-family: 'Khmer';
+              src: url("./fonts/Khmer-Regular.ttf");
+              font-weight: 300;
+            }
+
+            @font-face {
+              font-family: 'Strait';
+              src: url("./fonts/Strait-Regular.ttf");
+              font-weight: 300;
+            }
           
             @font-face {
               font-family: 'Anton';

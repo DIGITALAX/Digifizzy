@@ -17,65 +17,72 @@ const Page5152 = () => {
     setPlay(false);
   };
 
-  console.log('play: ', play);
-
   return (
     <div className={styles.wrapper}>
       <div className={styles.text1}>
-        Some individuals just want to be self-sovereign and take control of their own destiny.
         <br />
         <br />
-        Ultimately, no central authority is going to provide you a guardrail to lean on and gutter
-        when you fall. The cypherpunks didn’t fight for our online freedoms for nothing.
+        The Poly Network ($611m): In 2021, $611m worth of crypto assets were stolen from Poly
+        Network and transferred to three separate accounts. This includes $85m USDC, $253m worth of
+        Binance Smart Chain tokens and $273m worth of Ethereum. The hacker could access the smart
+        contract platform by unlocking the tokens on the platform protocol and not locking the
+        tokens corresponding to them on other blockchain platforms.
         <br />
         <br />
-        It’s cruel, but fair. But it’s exactly this same principle that makes web3 so enticing – the
-        prospect of agency coupled with open access to opportunity is indicative of how we ​​wished
-        technology was like, rather than the Orwellian shitshow it has morphed into.
+        However, after a public plea to the hacker, a promise of $500,000 and a job as a chief
+        security advisor, the hacker returned all but $33m of the stolen crypto assets, which were
+        blacklisted by Tether due to the attack.
         <br />
         <br />
-        We’ve never needed web3 and its principles of self-sovereignty more than we do right now.
+        The Ronin Network heist ($540m): Regarded by crypto analysts as the second biggest crypto
+        theft of all time, 25.5m USDC and 173,600 Ether tokens valued (at the time of the theft) at
+        $540m were lost to a hacker in March 2022.
+        <br />
+        As a result of the theft, Ronin blockchain’s coin, Ron, crashed by 20%, while AXS, Axie
+        Infinity’s token, crashed by 6%. According to reports, the hacker stole the private keys on
+        the Axie Infinity, an online gaming network, to authenticate the transactions.
         <br />
         <br />
-        Protecting the sanctity of both calls for integrity – the individuals in the frontlines of
-        this emergent movement are called to prove beyond a shadow of a doubt that web3 isn’t just
-        WAGMI cringe, but actual far-ranging community engagement and mobilize entire communities
-        under the good news of self-sovereignty.
+        Coincheck hack ($534m): In January 2018, Coincheck, a Japanese exchange platform, lost $534m
+        in crypto assets (523 million NEM) to cyberfraud. The direct effect of this loss was felt
+        when NEM crashed by 11%, Bitcoin by 3.4%, and Ripple coin by 9.9% within 24 hours of the
+        hack.
         <br />
         <br />
-        We are all witnesses to how these vibratory experimentations take place across web3
-        verticals, particularly in segments that allow them greater freedom to innovate and try new
-        things out.
+        This hack was caused by the storage of the crypto assets in an internet-linked crypto
+        wallet, which made it porous to hacks. As a result, a self-regulatory body was formed in
+        Japan by merging sixteen crypto exchange platforms in the country to prevent future
+        breaches.
+        <br />
+        <br />
+        Mt. Gox hack ($480m): This hack remains the biggest Bitcoin theft to date. In 2014, about
+        850,000 Bitcoins, accounting for 7% of available Bitcoin at the time, were stolen from Mt.
+        Gox. Created in 2010, the Japanese exchange platform was in charge of about 70% of Bitcoin
+        transactions at the time. As a result of the theft, the platform filed for bankruptcy in the
+        same year, leading to its collapse.
+        <br />
+        <br />
+        KuCoin ($285m): KuCoin, a cryptocurrency exchange platform based in Singapore, announced the
+        theft of $275 of cryptocurrency in 2020. According to Chainalysis, this includes 1,008 BTC,
+        11,543 Ether, $147m worth of ERC20, and $87m worth of Stellar tokens.
+        <br />
+        <br />
+        The hack was similar to the Coincheck theft. The hacker accessed the crypto assets in
+        KuCoin’s internet-linked wallets, referred to as ‘hot wallets.’ However, KuCoin recovered
+        most of its stolen tokens and eventually reimbursed all its customers. KuCoin first
+        recovered 78%, an additional 6%, while their insurance funded the remaining 16%.
+        <br />
+        <br />
+        Let these high-profile hacks serve as a reminder of how critical securing the industry –
+        crypto, web3, and the open metaverse, altogether – is to self-sovereignty as individuals in
+        the space.
+        <br />
+        <br />
+        Otherwise, web3 will be yet another tech bro pipe dream, just as the hippies of yesteryear
+        and their utopian world has proven to be. Not this way.
       </div>
-
-      <div className={styles.text2}>
-        <br />
-        <br />
-        Web3’s endgame is to magnify the scale of human mobilization without devolving power and
-        releasing control to a select handful of ecosystem VIPs.
-        <br />
-        <br />
-        It was never about handing the keys over to yet another bunch of suits.
-        <br />
-        <br />
-        It was always about providing an alternative option. One that values human self-sovereignty
-        above that of faceless corporate entities and markets, or above the sovereignty of the
-        monolith that is the state–the same one that seeks to enslave us.
-        <br />
-        <br />
-        One thing the VC-come-latelies don’t understand is that this isn’t some fantasy world where
-        they’re Jordan Belfort ready to rape and pillage a bizarro version of Wall Street in their
-        minds.
-        <br />
-        <br />
-        Web3 has always been about decentralization, unmatched security, true sovereignty of the
-        individual, CC0, and taking back agency and control over the data we own.
-        <br />
-        <br />
-        It’s time to take our power, agency, privacy, and dignity back.
-        <br />
-        <br />
-        It’s time for web3.
+      <div className={styles.image}>
+        <Image src={`${DIGIFIZZY_S3}/13/images/4950_right.png`} width={960} height={1497} />
       </div>
     </div>
   );

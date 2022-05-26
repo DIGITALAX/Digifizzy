@@ -6,62 +6,62 @@ import styles from './page4950.module.scss';
 const Page4950 = () => (
   <div className={styles.wrapper}>
     <div className={styles.text1}>
-      Decentralized Autonomous Organizations. Smart contracts. Self-sovereign identities.
-      Zero-knowledge proofs. zk-SNARKs.
+      POTUS Joseph Biden’s March 2022 executive order on digital currencies proffered a reminder of
+      how the market has mushroomed over recent months.
       <br />
       <br />
-      These tools and technologies were developed under the same assumptions that the cypherpunks
-      made with their teachings – key of which include the control over the information people
-      choose to reveal about themselves, and the elimination of any coercion or intrusion by any
-      entity – be it animal, vegetable, or mineral.
+      At the height of November 2021, the entire crypto market cap hit an all-time high of US$3
+      trillion, representing an astronomical 210x increase since 2016.
       <br />
       <br />
-      Self-sovereignty and self-ownership are inseparable from web3 – as is its focus on individual
-      agency, continuing education, and true digital ownership. Ultimately, the goal of web3 is to
-      decentralize the existing technology infrastructure from the clutches of big tech, while
-      preserving the sanctity of the right to privacy.
+      However, such exponential growth didn’t come without extreme turbulence and volatility. As of
+      this writing, the price of cryptocurrencies have careened off the cliff, triggering off a
+      massive sell-off into an extremely panicked, terrified, and head-spinning bear market after
+      permabulls and cringey NFT bros were smugly predicting how Bitcoin and Ethereum would hit
+      heights of $1,000,000 and $20,000, respectively, and how smart everyone was for buying ape
+      jpegs for $700,000. To the moon, broskis. Ugh.
       <br />
       <br />
-      It shouldn’t come as much of a surprise that like-minded individuals would gravitate to
-      technology that has the ability to circumvent, obstruct, and undermine efforts to protect what
-      is theirs from those that have the power to take it.
+      Just deserts? Delusions of grandeur brought on by a permanent state of financial psychedelia?
+      Your guess is as good as mine.
       <br />
       <br />
-      Education is the other side of the web3 coin next to self-sovereignty, because there are no
-      guardrails in open, decentralized ecosystems.
+      Worse, the industry’s reputation has taken a beating from a constant barrage of security
+      breaches and hacks – apart from outright rug pulls – that happen in the space almost on a
+      daily basis. Nothing is too big to fail, as evidenced by the stunning demise of LUNA and its
+      stablecoin TerraUSD, which sent the entire market into a tailspin. Talk about getting rekt.
+      <br />
+      <br />
+      Such debacles have attracted enhanced scrutiny from government and corporate carpetbaggers
+      moving into the space – web3 and metaverse included – and they are licking their lips at the
+      possibility of killing it once and for all. Janet Yellen is rubbing her hands in excitement.
+      <br />
+      <br />
+      The biggest and most high-profile crypto hacks thus far reveal an industry struggling to keep
+      up with the responsibility of implementing flawless security protocols for handling billions
+      of dollars of managing digital assets – which has been found to be severely lacking in either
+      accountability or ethics, or both.
+      <br />
+      <br />
+      As novel attack vectors emerge, including the old vectors of errors brought on by fat
+      fingering a button or two, the largest crypto hacks in recent memory remind us of the
+      herculean task of realigning security paradigms to secure the industry from corporate and
+      government surveillance, as well as VC bros wetting themselves at the possibility of
+      extracting more money out of the rubes brought on like lambs to the slaughter.
+      <br />
+      <br />
+      It’s an industry-wide security minefield just waiting to explode. A gaping hole, if you will,
+      that government entities, corporates, three-letter agencies, and the usual filth of snake oil
+      salesmen, serial rugpullers, and outright con artists are just waiting to fill.
+      <br />
+      <br />
+      The decentralized, permissionless environment that blockchain technology offers is a
+      double-edged sword, proving just as much to be as completely porous to hacks, theft, and fraud
+      as TradFi is – and here are 5 high-profile hacks from recent memory that might foreshadow the
+      intrusion of corporate and government interest in the field.
     </div>
-    <div className={styles.text2}>
-      Self-sovereignty means:
-      <br />
-      <br />
-      YOU own your data.
-      <br />
-      <br />
-      YOU own your identity.
-      <br />
-      <br />
-      YOU own your money.
-      <br />
-      <br />
-      YOU can take full responsibility for your success or failure.
-      <br />
-      <br />
-      Some individuals scoff at the notion that Big Tech cares about their interests and have no
-      problem with said tech conglomerates holding what are practically the keys to a person’s
-      day-to-day life.
-      <br />
-      <br />
-      Regardless of what side you’re on as far as giving a shit about decentralization; Whether
-      Those who care about decentralization & those who don’t.
-      <br />
-      <br />
-      Some still, on the other hand, see nothing wrong (as of yet) with handing over their digital
-      lives over to the next Big Tech gatekeeper or neurotic Silicon Valley CEO wannabe.
-      <br />
-      <br />
-      The trouble is, many of the centralized platforms masquerading as “free”, that we’ve come to
-      be dependent on are easily corrupted by the sheer volume of accumulated data that can be
-      weaponized to their advantage.
+    <div className={styles.image}>
+      <Image src={`${DIGIFIZZY_S3}/13/images/4950_right.png`} width={960} height={1497} />
     </div>
   </div>
 );

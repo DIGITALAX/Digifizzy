@@ -10,7 +10,7 @@
     left: 960px;
     top: 0px;
 
-    background: white;
+    background: #ff0000;
   }
 
   .rect2 {
@@ -39,7 +39,7 @@
     top: -2px;
   }
 
-  .text1 {
+  .text5 {
     position: absolute;
     width: 56px;
     height: 483px;
@@ -53,9 +53,9 @@
     line-height: 100%;
     /* or 80px */
 
-    color: #e8ff5b;
+    color: #5b7fff;
     word-break: break-all;
-    -webkit-text-stroke: 3px #e8ff5b;
+    -webkit-text-stroke: 3px #5b7fff;
 
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
       0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
@@ -63,7 +63,7 @@
     filter: blur(2px);
   }
 
-  .text2 {
+  .text6 {
     position: absolute;
     width: 718px;
     height: 185px;
@@ -98,45 +98,79 @@
 
   .image3 {
     position: absolute;
-    width: 1025px;
-    height: 1538px;
-    left: 960px;
-    top: 19px;
+    width: 1424px;
+    height: 882px;
+    left: 542px;
+    top: 636px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 676px;
+    height: 240px;
+    left: 1191px;
+    top: 33px;
+
+    font-family: 'Knife Princess';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100%;
+    /* or 80px */
+
+    text-align: right;
+
+    color: #ffffff;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 835px;
+    height: 711px;
+    left: 1032px;
+    top: 323px;
+
+    font-family: 'Khmer';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 100%;
+    /* or 25px */
+
+    color: #ffffff;
   }
 
   .text3 {
     position: absolute;
-    width: 573px;
-    height: 1227px;
-    left: 1157px;
-    top: 54px;
+    width: 531px;
+    height: 711px;
+    left: 1346px;
+    top: 678px;
 
-    font-family: 'Arbutus Slab';
+    font-family: 'Khmer';
     font-style: normal;
     font-weight: 400;
-    font-size: 27px;
-    line-height: 110%;
-    /* or 30px */
+    font-size: 25px;
+    line-height: 100%;
+    /* or 25px */
 
-    text-align: center;
-
-    color: #ff0000;
-
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
   }
 
   .text4 {
     position: absolute;
-    width: 452px;
-    height: 270px;
-    left: 1448px;
-    top: 695px;
+    width: 372px;
+    height: 373px;
+    left: 1505px;
+    top: 903px;
 
-    font-family: 'Knewave';
+    font-family: 'Khmer';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 100%;
-    color: #000000;
+    /* or 25px */
+
+    color: #ffffff;
   }
 }

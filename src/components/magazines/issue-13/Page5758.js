@@ -5,60 +5,49 @@ import styles from './page5758.module.scss';
 
 const Page5758 = () => (
   <div className={styles.wrapper}>
+    <div className={styles.right}>
+      <Image src={`${DIGIFIZZY_S3}/13/images/5758_gif.gif`} width={2400} height={1497} />
+    </div>
+    <div className={styles.leftBack} />
     <div className={styles.imageBackground}>
-      <Image src={`${DIGIFIZZY_S3}/12/images/5758_back.png`} width={1920} height={1497} />
+      <Image src={`${DIGIFIZZY_S3}/13/images/5758_left.png`} width={960} height={1497} />
     </div>
     <div className={styles.text1}>
-      Modding: The Proto Web3 Precursor, often hiding in plain sight.
+      Cryptic messages deciphered through fighting, running, gathering, in a portal shock gate
+      jumping world.
     </div>
     <div className={styles.text2}>
-      We’ve said it before, and we’ll say it again— the gaming industry wouldn’t even be half of
-      what it is today if it weren’t for modding and the rich mod communities across the internet.
+      Collect and unravel the keys to regain the lost empire. Discover and survive in a bitter-sweet
+      and closely connected world of unpredictable adversity and challengers. Become one of the many
+      world’s most legendary sovereigns.
       <br />
       <br />
-      And the funny thing is, that although the community right now is often hostile towards NFTs
-      (and that’s playing it down), if you trace back to the roots of the DIY, hacker, self
-      sovereign ethic of being able to modify the games that you own, modding culture has always
-      been a very clear and direct ancestor to the networks of self sovereign mechanisms that web3
-      finally delivers on.
+      It’s a pixelated microverse that evolves with players over time.
+      <br />
+      It’s all developed in-house by hand (F₃Manifesto) and entirely CC0. Including all sprites and
+      assets!
+      <br />
+      <br />
+      The game will switch between a platformer, runner, RPG elements and multiplayer fighters, all
+      with web3 connect and associated collectible and utility based NFTs.
     </div>
-    <div className={styles.text3}>Best Mod Recommendations</div>
-    <div className={styles.text4}>Best Mod Recommendations</div>
-    <div className={styles.text5}>Best Mod Recommendations</div>
-    <div className={styles.text6}>Best Mod Recommendations</div>
-    <a href="https://gamebanana.com/mods/302439" target="_blank">
-      <div className={styles.image1}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/5758_image1.png`} width={187} height={187} />
+    <div className={styles.text3}>
+      The game maintains a strong focus on being highly moddable— the wiki also has a dedicated
+      Modding Tools section where you can learn the ropes of how to mod and remix the game— from the
+      characters, scenes, physics and sound.
+    </div>
+    <div className={styles.image1}>
+      <Image src={`${DIGIFIZZY_S3}/13/images/5758_image1.png`} width={414} height={414} />
+    </div>
+    <a href="https://mypocketempire.xyz/" target="_blank">
+      <div className={styles.link1}>
+        <div className={styles.linkText1}>start training</div>
       </div>
     </a>
-    <a href="https://gamebanana.com/mods/302439" target="_blank">
-      <div className={styles.image2}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/5758_image2.png`} width={187} height={187} />
-      </div>
-    </a>
-    <a href="https://gamebanana.com/mods/302439" target="_blank">
-      <div className={styles.image3}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/5758_image6.png`} width={187} height={187} />
-      </div>
-    </a>
-    <a href="https://gamebanana.com/mods/302439" target="_blank">
-      <div className={styles.image4}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/5758_image4.png`} width={187} height={187} />
-      </div>
-    </a>
-    <a href="https://gamebanana.com/mods/302439" target="_blank">
-      <div className={styles.image5}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/5758_image7.png`} width={187} height={187} />
-      </div>
-    </a>
-    <a href="https://gamebanana.com/mods/302439" target="_blank">
-      <div className={styles.image6}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/5758_image5.png`} width={187} height={187} />
-      </div>
-    </a>
-    <a href="https://gamebanana.com/mods/302439" target="_blank">
-      <div className={styles.image7}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/5758_image3.png`} width={187} height={187} />
+    <a href="https://docs.mypocketempire.xyz/" target="_blank">
+      <div className={styles.link2}>
+        <div className={styles.linkText2}>GAME MODDING TOOLS</div>
+        <img src={`${DIGIFIZZY_S3}/13/images/5758_heart.png`} />
       </div>
     </a>
   </div>

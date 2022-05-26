@@ -2,66 +2,163 @@
 
 .wrapper {
   @include magazineWrapper();
-
+  background: white;
   .imageBackground {
     position: absolute;
     top: 0;
     left: 0;
-    width: 1920px;
+    width: 960px;
     height: 1497px;
+    z-index: 3;
+  }
+
+  .link1 {
+    position: absolute;
+    width: 266px;
+    height: 73px;
+    left: 997px;
+    top: 440px;
+    background: #fe146d;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.05);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .link2 {
+    position: absolute;
+    width: 405px;
+    height: 73px;
+    left: 997px;
+    top: 1368px;
+    background: #fe146d;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.05);
+      transition: all ease 0.3s;
+    }
+
+    .linkText2 {
+      position: absolute;
+      width: 305px;
+      height: 39px;
+      left: 23px;
+      top: 17px;
+
+      font-family: '04b_19';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 130%;
+      /* identical to box height, or 39px */
+
+      color: #ffffff;
+    }
+
+    img {
+      position: absolute;
+      width: 84px;
+      height: 77px;
+      left: 332px;
+      top: -2px;
+    }
+  }
+
+  .linkText1 {
+    position: absolute;
+    width: 219px;
+    height: 39px;
+    left: 30px;
+    top: 17px;
+
+    font-family: '04b_19';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 130%;
+    /* identical to box height, or 39px */
+
+    color: #ffffff;
+  }
+
+  .leftBack {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 960px;
+    height: 1497px;
+    z-index: 3;
+    background: white;
+  }
+
+  .right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2400px;
+    height: 1497px;
+    object-fit: cover;
+    transform: translateX(500px);
   }
 
   .text1 {
     position: absolute;
-    width: 818px;
-    height: 85px;
-    left: 1027px;
-    top: 42px;
+    width: 429px;
+    height: 88px;
+    top: 356px;
+    right: 488px;
 
-    font-family: 'Barriecito';
+    font-family: '04b_19';
     font-style: normal;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 20px;
     line-height: 110%;
-    /* or 55px */
+    /* or 22px */
 
-    text-align: right;
-
-    color: #ffffff;
+    color: #000000;
   }
 
   .text2 {
     position: absolute;
-    width: 818px;
-    height: 428px;
-    left: 1027px;
-    top: 232px;
+    width: 749px;
+    height: 264px;
+    top: 641px;
+    right: 26px;
 
-    font-family: '6809 Chargen';
+    font-family: '04b_19';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 110%;
-    /* or 28px */
+    /* or 22px */
 
-    color: #ffffff;
+    text-align: right;
+
+    color: #fe146d;
+
+    -webkit-text-stroke: 1px #000000;
   }
 
   .text3 {
     position: absolute;
-    width: 818px;
-    height: 116px;
-    left: 1072px;
-    top: 602px;
+    width: 812px;
+    height: 273px;
+    left: 997px;
+    top: 1146px;
 
-    font-family: '6809 Chargen';
+    font-family: '04b_19';
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
-    line-height: 110%;
-    /* or 44px */
-
-    text-align: center;
+    font-size: 30px;
+    line-height: 130%;
+    /* or 39px */
 
     color: #ffffff;
   }
@@ -125,18 +222,10 @@
 
   .image1 {
     position: absolute;
-    width: 187px;
-    height: 187px;
-    left: 1324px;
-    top: 830px;
-    border-radius: 50%;
-
-    transition: all ease 0.3s;
-
-    &:hover {
-      transform: scale(1.03);
-      transition: all ease 0.3s;
-    }
+    width: 414px;
+    height: 414px;
+    left: 974px;
+    top: -12px;
   }
 
   .image2 {

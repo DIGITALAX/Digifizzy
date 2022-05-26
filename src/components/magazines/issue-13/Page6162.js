@@ -12,42 +12,41 @@ const Page6162 = () => {
         <source src="./magazine/1/videos/moshed-05-02-1-15-28.mp4" type="video/mp4" />
       </video>
       <div className={styles.image1}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/6162_image3.png`} width={262} height={1640} />
+        <Image src={`${DIGIFIZZY_S3}/13/images/6162_image1.png`} width={262} height={1640} />
       </div>
-      <div className={styles.text1}>SOUTH KOREA</div>
-      <div className={styles.text2}> INTERNATIONAL PLAYERS</div>
+      <div className={styles.text5}>SWITZERLAND</div>
+      <div className={styles.text6}> INTERNATIONAL PLAYERS</div>
 
       <div className={styles.image3}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/6162_image2.png`} width={1025} height={1538} />
+        <Image src={`${DIGIFIZZY_S3}/13/images/6162_image2.png`} width={1424} height={882} />
       </div>
-      <div className={styles.image2}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/6162_image1.png`} width={484} height={1311} />
+      <div className={styles.text1}>Switzerland crypto regulation</div>
+      <div className={styles.text2}>
+        Switzerland is none other than home of the crypto valley in Zug, near Zurich. It’s known
+        internationally as one of the world’s leading centers for fostering decentralised projects,
+        activity, communities and cryptographic technology innovation.
+        <br />
+        <br />
+        Virtual currencies are classified as assets or property under Swiss Law, exchanges are fully
+        legal and overall the cryptocurrency regulation is remarkably progressive.
+        <br />
+        <br />
+        However, with all of that said, it’s not all as good as could be for the underlying bedrock
+        principles of self sovereignty and personal anonymity within web3. Unlike their historical
+        pattern of preserving privacy and secrecy,even in the most unconscionable of circumstances,
+        like with how far they went out of their way to hold and hide money,
       </div>
       <div className={styles.text3}>
-        The South Korean population, whilst only representing 0.6% of the world’s population, has
-        always been an early adopter of new technologies in the modern era. One of Asia’s fastest
-        growing economies in the post WW2 era, it’s no surprise that they have been eager in their
-        uptake of crypto and NFTs.
+        gold, art and other assets that the Nazis had plundered from mostly Jewish families
+        throughout WWII.
         <br />
         <br />
-        The relatively young population has been one of the most digitally native on the planet.
-        From video games to mobile banking, 37.1% of workers in their twenties were surveyed in 2021
-        to have owned crypto, and 49.8% for those ages between 30-39 years old.
-        <br />
-        <br />
-        It was back in March 2020, when the South Korean National Assembly passed new legislation
-        that paved the way for the regulation and legalization of cryptocurrencies and crypto
-        exchanges. And although this cracked down with harsher implementations of KYC and AML laws,
-        the country’s overall trajectory appears to be on the upswing now with the election of the
-        new vocally pro crypto president. Whilst other elements of his platform are certainly up for
-        debate, the active embrace of South Korea’s leading position in the further pioneering of
-        web3 is certainly to be encouraged.
-        <br />
-        <br />
-        The full policy menu is yet to be released, and, as always, actions speak louder than words
-        and the devil is in the details. Yet, at this point, it’s almost impossible to put the web3
-        genie back in the bottle without destroying the global economy. It will be interesting to
-        watch the next five years of this new presidency unfold within.
+        The Swiss regulatory approach to crypto has leaned surprisingly in the opposite extreme in
+        requiring excessive personal information for KYC, AML reporting.
+      </div>
+      <div className={styles.text4}>
+        It’s not clear whether this is a temporary transition as they adapt to new decentralised
+        realities or if it’s in keeping with
       </div>
     </div>
   );
