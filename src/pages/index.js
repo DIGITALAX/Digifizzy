@@ -49,9 +49,9 @@ const LandingPage = () => {
           <div className={styles.magazineWrapper}>
             <img
               className={styles.mainMagazine}
-              src="/images/nft/12/home.png"
+              src="/images/nft/13/home.png"
               onClick={() => {
-                router.push('/magazines/12');
+                router.push('/magazines/13');
               }}
             />
           </div>
