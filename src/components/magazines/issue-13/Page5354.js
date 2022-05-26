@@ -5,133 +5,146 @@ import styles from './page5354.module.scss';
 
 const Page5354 = () => (
   <div className={styles.wrapper}>
-    <a href="https://twitter.com/Synth0_0" target="_blank" className={styles.link1}>
-      SYNTH
+    <a href="https://cs.nyu.edu/~dodis/" target="_blank">
+      <div className={styles.image1}>
+        <Image src={`${DIGIFIZZY_S3}/13/images/5354_image1.png`} width={338} height={338} />
+      </div>
     </a>
-    <div className={styles.image1}>
-      <Image src={`${DIGIFIZZY_S3}/12/images/5354_image1.png`} width={212} height={214} />
-    </div>
+    <div className={styles.text3}>Yevgeniy Dodis</div>
+    <div className={styles.text4}>CRYPTOGRAPHY GROUP NYU</div>
+    <div className={styles.text5}>privacy & security</div>
     <div className={styles.text1}>
-      1. Can you start with giving us more of a background about your journey into the space? When
-      did you start to dive down the NFT and web3 rabbit hole, and was there anything in particular
-      that inspired your journey?
+      Do you believe privacy is an inherent right?
       <br />
-      <br />I had first heard about crypto in 2017. At the time I was just chasing hype and used
-      bitcoin to purchase some less than legal goods at the time. I was disappointed about the high
-      fees on the bitcoin network and lost interest after the bubble popped. Then in 2021, the price
-      action got me interested in crypto again. I rediscovered this video by 3blue1brown titled
-      <br />
-      <a href="https://youtube.com/watch?v=bBC-nXj3Ng4" target="_blank">
-        "But how does bitcoin actually work?"
-      </a>{' '}
-      and everything I had been hearing about blockchain started to click.
-      <br />
-      <br />
-      At first, I was pretty skeptical of the whole NFT craze. I was mostly just investing in
-      shitcoins and watching the market from the sidelines. I was seeing apes and punks sell for jaw
-      dropping figures, and struggled with the idea of highly prized digital ownership. I remember
-      this moment, though, when I saw a TikTok of an animation piece called{' '}
-      <a href="https://foundation.app/@SuperTrip64/foundation/6557" target="_blank">
-        Genesis
-      </a>{' '}
-      by Supertrip64 and I thought it would be really cool to own and display on VR. It was actually
-      minted as an NFT, to my surprise, and bought by RTKFT, who I was unaware of at the time. The
-      Metaverse was finally starting to make sense to me; the dream would be interoperable assets
-      that you could show off, trade, and sell across the internet. I still could never justify
-      spending a house on some JPEGs but I could finally understand why some would be interested in
-      doing so.
+      <br />I think so. There is a reason we feel more safe and secure in our personal home than
+      when being outside, and many people react angrily if their property boundaries are violated.
+      With the advancement of the internet, on-line shopping and social networks, many people did
+      not realize initially that the extra utility to do “cool things” often comes at the price of
+      privacy. There is a reason why most services offered by Google and Facebook are “free”: the
+      users’ pay with their personal information. And we are slowly going through a period where
+      everybody --- including the end users --- are starting to realize that privacy is something
+      they should care for and protect. Indeed, I am hoping that --- slowly but surely --- we are
+      moving to a world where people can surf the Internet, do on-line shopping, interact on social
+      networks, and play computer games without worrying that they will be tracked (or, worse,
+      hacked) by third parties they did not authorize.
       <br />
       <br />
-      2. Can you tell us more about SharkDAO and how you got involved? Can you tell us more about
-      what you're creating and the communities that you are part of?
-      <br />
-      <br />I would love to! In order to understand SharkDAO, you have to understand NounsDAO first.{' '}
-      <a href="http://nouns.wtf" target="_blank">
-        Nouns
-      </a>{' '}
-      is a novel NFT project that auctions one Noun a day *forever.* All proceeds from the auctions
-      go to a shared treasury governed by the DAO where each Noun = 1 vote in the DAO. Because Nouns
-      are super expensive (the first 100 Nouns sold for an average of over 100 ETH each), SharkDAO
-      came along to raise ETH in order to collects Nouns as a community, grow the NounsDAO
-      ecosystem, and partner with artists and developers to build some cool stuff like merch,
-      twitter Noun personalities like{' '}
-      <a href="https://twitter.com/bruce_noun" target="_blank">
-        Bruce
-      </a>
-      , and an upcoming NFT project.
+      The recent General Data Protection Regulation (GDPR) is a good step in this direction, but
+      much more needs to be done. New applications have to be developed with privacy built-in, as
+      opposed to added as an afterthought.
     </div>
     <div className={styles.text2}>
-      I was a lurker in a number of DAOs before I was able to gain the confidence to contribute to
-      SharkDAO. I cannot remember how I first heard about SharkDAO, but there was a thought that I
-      had around 6 months ago that someone had to be combining NFTs and DAOs and I was on a mission
-      to find it, and my desire led me to SharkDAO. Something about the super friendly members in
-      the discord (shoutout to Dropnerd) and the fresh start of SharkDAO (I joined on day 6) made me
-      want to jump right in and start contributing. Early on I helped a lot with governance,
-      tokenomics, onboarding, compensation and frequent viber in our legendary nft alpha degen
-      discord channel.
       <br />
       <br />
-      Outside of SharkDAO, I’ve contributed to Doodles as moderator and curator of alpha, written an
-      article for Juicebox (SharkDAO’s and ConstitutionDAO’s fundraising platform of choice), and
-      been an active voice in KeeperDAO’s governance process, townhalls, and vibe contributor.
+      What impact do you think the recent leak of the Supreme Court draft opinion on the right to
+      privacy will have on personal autonomy, relationship autonomy, and private communications in
+      the US and beyond?
       <br />
       <br />
-      3. What is it like creating for/collaborating with ecosystems that are fully cc0 in the kinds
-      of content that they support? Do you find it to be substantially different from development
-      cultures that have more rigid structures built in to every layer from NDAs, to copyright, to
-      patents? Do you notice a difference between scarcity and abundance mindsets?
-      <br /> CC0 blew my mind the when I first saw it tweeted by self proclaimed “CC0 maxi,”
-      <a href="https://twitter.com/nnnnicholas" target="_blank">
-        Nicholas
-      </a>
-      . It made a lot of sense to me because why shouldn’t the projects built on top of open source
-      protocols also be open source? Copyright freedom has since felt like the obvious conclusion to
-      me. Contributing to a CC0 project like Nouns is super freeing as well. You never have to be
-      worried about walking on eggshells or whether you’re in violation of a project or company’s
-      license. Knowing that no one is going to slap you with a lawsuit really helps contributors and
-      builders sleep at night too. I’ve seen some other projects in the space have the most obscure
-      rules when it comes to licensing that it’s such a headache to even comprehend. Another
-      downside to trying to protect your IP is that you’re going to be spending a lot of resources
-      trying to combat copycat projects. There’s an opportunity cost to every decision and I’d much
-      rather be spending time building rather than trying to cease and desist copcycats.
       <br />
       <br />
-      As far as difference in culture, the culture of CC0 culture feels like surfing, where you’re
-      riding waves instead of trying to swim against them. Nouns to me has also felt bottom up,
-      where the creators of Nouns (Nounders) are very open to the ideas that members of the
-      community pitch the DAO. Sometimes this lack of direction from the top is scary, but I think
-      it’ll sort itself out eventually.
+      This is a difficult question. As most progressive people, I really hope that the Supreme court
+      would come to its senses, and decide not to overturn Roe v. Wade. But your question is much
+      broader. Indeed, we have seen a general shift in the way the government treats personal
+      privacy. With some countries (e.g., Australia, China, and, to some extent, the United Kingdom)
+      being much worse offenders than others. The United States has been historically much more
+      conscious regarding the right for privacy of its citizens. E.g., the Health Insurance
+      Portability and Accountability Act (HIPAA) restricts how personal health information can be
+      handled and by whom, while the Family Educational Rights and Privacy Act (FERPA) does the same
+      for students’ private information. Still, the narrative has been definitely shifting starting
+      with the 9/11 (e.g., war on terrorism) and the internet boom of the early 2000s (“cool things”
+      trump privacy).
+      <br />
+      <br />I am optimistic, though, that cooler heads prevail, and the laws that we pass will
+      respect the human rights to make their own decisions and not be subject to any kind of mass
+      surveillance. I am personally interested in the recently renewed debate regarding End-to-End
+      (E2E) Encryption, and I have done a lot of recent work in the area. Very roughly, the heart of
+      the debate is whether any secure communication application should have a built-in backdoor,
+      which allows the content provider, or possibly law-enforcement authorities, the ability to
+      either monitor users’ communication, either on-line or at least access after the fact.
+      Oversimplifying, most politicians and law enforcement agents fail to understand something very
+      fundamental. There is no magic wand which allows one to magically ensure that exactly the
+      right people will get access to sensitive information, and exactly under the right
+      circumstances. Once you introduce the backdoor, you are opening a pandora box of unexpected
+      things happening.
+    </div>
+    <div className={styles.text6}>
       <br />
       <br />
-      In contrast, the top down approach where the founders maintain a tight control over a project
-      can definitely work, but i think the CC0 is the most sustainable solution in the long run.
-      Cultural property built to last. Only time will tell!
+      In what ways do the role of encryption and technology get taken for granted in protecting the
+      practical exercise of privacy rights?
       <br />
       <br />
-      4. How has open source impacted your path in this space? Have you thought about what it would
-      be like to engage with the web3 community without open access of information, code, culture?
-      Before crypto, I didn’t think much of open source but now I’ve a big fan of the “lego piece”
-      component of web3 that wouldn’t be possible without open source info and code. I see
-      collaboration between NFT projects sharing artwork and DeFi protocols integrating each others
-      tech on a daily basis. The threat of a “fork” of your project keeps devs and other
-      contributors hard at work to maintain competitive advantages like community, talent,
-      marketing/branding, that are difficult to copy exactly. The dedication that this creates from
-      teams, is exhilarating to watch and learn from. Web3 would surely a lot different without open
-      source being the default. While we do see some protocols opting to delay opens-sourcing like
-      Aave or Uniswap, overall I think open source web3 is alive and well and I plan on defending
-      that value as long as I’m around.
+      <br />
+      Your question is a great excuse to continue talking about E2E debate. As I mentioned,
+      everybody recognizes and agrees that sensitive information should be encrypted. The “secure
+      lock” on the web browser (i.e., using HTTPS instead of HTTP) was one of the first examples of
+      businesses able to effectively use encryption for a greater good. The relative ease of success
+      of HTTPS over HTTP, and more recently, the plethora of modern secure messaging applications
+      (such as WhatsApp, which encrypts everything even from the content provider!), give users a
+      false sense of security. Namely, privacy is easy: just encrypt everything sensitive. Of
+      course, in reality encryption is only as good as your secret key distribution (SKD). (Where,
+      recall, that the secret key is what is needed by a legitimate party to decrypt the content,
+      and which should never get to the “bad guys”.) And the latter problem is really the heart of
+      the difficulty. If done well, a good SKD solution will be done in the background so as not to
+      inconvenience the users. But this is a really difficult problem in general. Especially when we
+      start to go beyond pairwise communications, and expand the concept of private communication to
+      dynamically changing groups of users. And, even more difficult, if we attempt to implement the
+      dream of politicians and law enforcement agents to augment otherwise secure systems with
+      hidden backdoors.
       <br />
       <br />
-      5. Are there any exciting launches or projects coming up that you're working that you can give
-      us a taste of? Yes! So many DAOs I lurk and participate in are working on version 2.0s. The
-      resurgence in DAO interest is only a couple years old and the breakneck speed that many teams
-      are working on is incredibly admirable. Members of SharkDAO are hard at work creating an NFT
-      project to switch our ERC20 governance over to ERC721 (NFT governance) leaning into our
-      NounsDAO roots which is governed by NFTS. I’ve also been lurking and engaging with the
-      development of both Juicebox’s version 2.0 which will bring a lot more customizability to DAO
-      treasury management. Lastly, I’ve been watching the development of KeeperDAO’s Coordination
-      Game which will be an amazing protocol to execute trades, free of gas, and the user can
-      receive rewards generated from MEV. It’s going to be a jam packed 2022!
+      So I would agree with you that we --- as in general public and policy makers --- take the
+      encryption for granted, but fail to realize that it only solves part of the puzzle. By
+      reducing the problem of secure storage and communication of data to that of storing the
+      distributing secret keys. Which is basically as hard to get right.
+      <br />
+      <br />
+      <br />
+      <br />
+      How will zero knowledge proofs change the experience and use of private property, data, and
+      activity in technology and society?
+      <br />
+      <br />
+      <br />
+      <br />I think zero-knowledge proofs (ZKPs) are definitely part of the puzzle. For those not
+      familiar with the term, ZKPs allow a semi-paradoxical ability to prove precisely what needs to
+      be proven, without leaking an iota of unnecessary information. (For example, proving that you
+      have an unrevoked driver’s license without revealing anything else, or that encrypted message
+      complies with the company’s policy, without leaking anything about its content beyond the
+      fact.) Indeed, in the utopian future we could envision people using ZKPs to do electronic
+      commerce or medical institutions to do research on patients’ medical data. Hey, maybe we can
+      even pay taxes without leaking more information to the IRS beside the final amount we owe.
+      <br />
+      <br />
+      However, I personally feel that building reliable E2E solutions is probably an easier
+      intermediate goal, before we get to the much more advanced settings of collaborative computing
+      using ZKPs. I hope to be wrong, though, and that the efficiency, trust models, and the
+      simplicity of using ZKPs will improve enough to see their widespread adoption in the near
+      future. Some of my close friends are actually working on making this a reality.
+      <br />
+      <br />
+      <br />
+      <br />
+      What’s your perspective on web3 implementation of zero knowledge proofs and the importance of
+      incentives to cultures, policies, and laws that enshrine respect for privacy rights?
+      <br />
+      <br />I think this is a great area with a lot of potential. The blockchain technology is
+      growing at an enormous speed, and is taking the world by storm. I would still say that web3 is
+      still at its infancy, and we are still looking for a killer application beyond
+      crypto-currencies (such as ZCash and many others now), where advanced cryptography (such as
+      ZKPs) could be used ubiquitously. In fact, looking at the current state of web3 applications,
+      the problem of consensus, agreement, denial of service, decentralization, and fault-tolerance
+      are still the ones which require the most efforts to get right. Adding privacy is certainly a
+      fun (and fundamental!) challenge, and I would argue that all solutions to these problems
+      should not leave solving privacy to the end. But I personally feel that ZKPs (and privacy in
+      general) is not yet the bottleneck for the development of web3 technologies, as we are still
+      looking for more killer applications for decentralization. Adding proper incentives is
+      certainly part of the puzzle as well.
+      <br />
+      <br />
+      But everything is still in its infancy. So, I think we should buckle our seatbelts, enjoy the
+      ride, and see where it will take us.
     </div>
   </div>
 );

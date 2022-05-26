@@ -26,30 +26,30 @@ const Page7172 = () => (
       SEMI-RARE, EXCLUSIVE.
     </div>
     <div className={styles.text5}>Web3 wizards collectibles</div>
-    <div className={styles.text6}>f3m I GROK ZERO KNOWLEDGE T-SHIRTS</div>
-    <div className={styles.text7}>f3m CYPHERPUNK PGP HOODIES</div>
+    <div className={styles.text6}>f3m ENCRYPTED TREA[]URES OVERSIZED TEES</div>
+    <div className={styles.text7}>HIMEX EXCLUSIVE DIGITAL ART</div>
 
     <div className={styles.image1}>
-      <Image src={`${DIGIFIZZY_S3}/12/images/7172_image1.png`} width={866} height={243.9} />
+      <Image src={`${DIGIFIZZY_S3}/13/images/7172_image1.png`} width={838.87} height={233} />
     </div>
 
-    <div className={styles.text8}>f3m WALLET SET UP LONG SLEEVE</div>
+    <div className={styles.text8}>SHUFFLED NYC STREETWEAR RUNWAY NFTS</div>
 
-    <div className={styles.text9}>DIFFUSION MODEL cyber scenes</div>
+    <div className={styles.text9}>F3M WHEATPASTE + STICKER PACKS</div>
 
     <div className={styles.image2}>
-      <Image src={`${DIGIFIZZY_S3}/12/images/7172_image2.png`} width={821} height={274} />
+      <Image src={`${DIGIFIZZY_S3}/13/images/7172_image2.png`} width={821} height={274} />
     </div>
 
     <div className={styles.image5}>
-      <Image src={`${DIGIFIZZY_S3}/12/images/7172_image4.png`} width={519} height={260} />
+      <Image src={`${DIGIFIZZY_S3}/13/images/7172_image4.png`} width={779} height={260} />
     </div>
     <div className={styles.image6}>
-      <Image src={`${DIGIFIZZY_S3}/12/images/7172_image5.png`} width={660} height={395} />
+      <Image src={`${DIGIFIZZY_S3}/13/images/7172_image5.png`} width={478.15} height={317} />
     </div>
 
     <div className={styles.image7}>
-      <Image src={`${DIGIFIZZY_S3}/12/images/7172_image3.png`} width={528} height={264} />
+      <Image src={`${DIGIFIZZY_S3}/13/images/7172_image3.png`} width={365} height={373} />
     </div>
 
     <a className={styles.textWrapper} href="/unlockable/1/" target="_blank">

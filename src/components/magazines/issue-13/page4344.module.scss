@@ -15,8 +15,8 @@
     position: absolute;
     width: 139px;
     height: 40px;
-    left: 70px;
-    top: 1282px;
+    left: 30px;
+    top: 1354px;
 
     font-family: 'Sansita One';
     font-style: normal;
@@ -39,9 +39,9 @@
   .text1 {
     position: absolute;
     width: 771px;
-    height: 133px;
-    left: 70px;
-    top: 1334px;
+    height: 92px;
+    left: 28px;
+    top: 1402px;
 
     font-family: 'Sunflower';
     font-style: normal;
@@ -57,17 +57,19 @@
 
   .text2 {
     position: absolute;
-    width: 473px;
-    height: 34px;
-    left: 70px;
-    top: 1380px;
+    width: 527px;
+    height: 40px;
+    left: 28px;
+    top: 1428px;
 
-    font-family: 'Sunflower';
+    font-family: 'Sansita One';
     font-style: normal;
-    font-weight: 500;
-    font-size: 35px;
-    line-height: 16px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 33px;
+    /* or 82% */
+
     color: #ffffff;
-    -webkit-text-stroke: #ffffff;
+    -webkit-text-stroke: 0.5px #ffffff;
   }
 }

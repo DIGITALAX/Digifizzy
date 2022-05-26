@@ -2,15 +2,7 @@
 
 .wrapper {
   @include magazineWrapper();
-  color: white;
-  .imageBackground {
-    position: absolute;
-    width: 1920px;
-    height: 1497px;
-    left: 0px;
-    top: 0px;
-    object-fit: cover;
-  }
+  background-color: #85d5f5;
 
   .overlap {
     position: absolute;
@@ -24,21 +16,12 @@
 
   .link1 {
     position: absolute;
-    width: 638px;
-    height: 42px;
-    left: 48px;
-    top: 80px;
-
-    font-family: 'Sunflower';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 100px;
-    line-height: 30px;
-    /* or 30% */
-
-    color: #ffffff;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
     transition: ease all 0.3s;
-
+    transform-origin: center;
     &:hover {
       transform: scale(1.03);
       transition: ease all 0.3s;
@@ -47,243 +30,134 @@
 
   .text1 {
     position: absolute;
-    width: 659px;
-    height: 60px;
-    left: 48px;
-    top: 172px;
+    width: 376px;
+    height: 150px;
+    left: 377px;
+    top: 296px;
 
-    font-family: 'Sunflower';
+    font-family: 'Bentham';
     font-style: normal;
-    font-weight: 500;
-    font-size: 60px;
-    line-height: 30px;
-    /* or 50% */
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 150%;
+    /* identical to box height, or 150px */
 
-    color: #ffffff;
+    color: #000000;
   }
 
   .text2 {
     position: absolute;
-    width: 817px;
-    height: 160px;
-    left: 48px;
-    top: 248px;
+    width: 875px;
+    height: 270px;
+    left: 42px;
+    top: 517px;
 
-    font-family: 'Sunflower';
+    font-family: 'Bentham';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 20px;
-    line-height: 30px;
-    /* or 150% */
+    line-height: 150%;
+    /* or 30px */
 
-    color: #ffffff;
-    span {
-      color: #00c2ff;
-    }
+    color: #000000;
   }
 
   .text3 {
     position: absolute;
-    width: 852px;
-    height: 54px;
-    left: 48px;
-    top: 435px;
+    width: 875px;
+    height: 390px;
+    left: 42px;
+    top: 766px;
 
-    font-family: 'Sunflower';
+    font-family: 'Bentham';
     font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 40px;
-    /* or 100% */
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
 
-    color: #ffffff;
+    color: #000000;
   }
 
   .text4 {
     position: absolute;
-    width: 817px;
-    height: 400px;
-    left: 48px;
-    top: 516px;
+    width: 875px;
+    height: 270px;
+    left: 42px;
+    top: 1187px;
 
-    font-family: 'Sunflower';
+    font-family: 'Bentham';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 20px;
-    line-height: 30px;
-    /* or 150% */
+    line-height: 150%;
+    /* or 30px */
 
-    color: #ffffff;
+    color: #000000;
   }
   .text5 {
     position: absolute;
-    width: 426px;
-    height: 42px;
-    left: 48px;
-    top: 1127px;
+    width: 875px;
+    height: 840px;
+    left: 1001px;
+    top: 42px;
 
-    font-family: 'Sunflower';
+    font-family: 'Bentham';
     font-style: normal;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 30px;
-    /* or 60% */
-
-    color: #66ff09;
-  }
-
-  .text6 {
-    position: absolute;
-    width: 165px;
-    height: 42px;
-    left: 48px;
-    top: 1196px;
-
-    font-family: 'Sunflower';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 30px;
-    /* or 100% */
-
-    color: #ffffff;
-  }
-
-  .text7 {
-    position: absolute;
-    width: 165px;
-    height: 42px;
-    left: 269px;
-    top: 1196px;
-
-    font-family: 'Sunflower';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 30px;
-    /* or 100% */
-
-    color: #ffffff;
-  }
-
-  .text8 {
-    position: absolute;
-    width: 165px;
-    height: 42px;
-    left: 490px;
-    top: 1196px;
-
-    font-family: 'Sunflower';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 30px;
-    /* or 100% */
-
-    color: #ffffff;
-  }
-
-  .text9 {
-    position: absolute;
-    width: 165px;
-    height: 42px;
-    left: 711px;
-    top: 1196px;
-
-    font-family: 'Sunflower';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 30px;
-    /* or 100% */
-
-    color: #ffffff;
-  }
-
-  .text10 {
-    position: absolute;
-    width: 817px;
-    height: 697px;
-    left: 1051px;
-    top: 17px;
-
-    font-family: 'Sunflower';
-    font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 20px;
-    line-height: 30px;
-    /* or 150% */
+    line-height: 150%;
+    /* or 30px */
 
-    color: #ffffff;
+    color: #000000;
   }
 
   .image1 {
     position: absolute;
-    width: 192px;
-    height: 192px;
-    top: 1237px;
-    left: 50px;
-
-    transition: ease all 0.3s;
-
-    &:hover {
-      transform: scale(1.03);
-      transition: ease all 0.3s;
-    }
+    width: 197px;
+    height: 197px;
+    left: 720px;
+    top: 303px;
   }
 
   .image2 {
     position: absolute;
-    width: 192px;
-    height: 192px;
-    top: 1237px;
-    left: 269px;
-    transition: ease all 0.3s;
-
-    &:hover {
-      transform: scale(1.03);
-      transition: ease all 0.3s;
-    }
+    width: 210px;
+    height: 210px;
+    left: 1039px;
+    top: 970px;
   }
 
   .image3 {
     position: absolute;
-    width: 192px;
-    height: 192px;
-    top: 1237px;
-    left: 487px;
-    transition: ease all 0.3s;
-
-    &:hover {
-      transform: scale(1.03);
-      transition: ease all 0.3s;
-    }
+    width: 210px;
+    height: 210px;
+    left: 1298px;
+    top: 1187px;
   }
 
   .image4 {
     position: absolute;
-    width: 192px;
-    height: 192px;
-    top: 1237px;
-    left: 706px;
-    transition: ease all 0.3s;
-
-    &:hover {
-      transform: scale(1.03);
-      transition: ease all 0.3s;
-    }
+    width: 210px;
+    height: 210px;
+    left: 1508px;
+    top: 922px;
   }
 
-  .gif1 {
+  .image5 {
     position: absolute;
-    width: 302px;
-    height: 283px;
-    left: 1077px;
-    top: 603px;
+    width: 210px;
+    height: 210px;
+    left: 1666px;
+    top: 1238px;
+  }
 
-    border: 10px solid #ffe600;
-    box-sizing: border-box;
-    border-radius: 20px;
+  .image6 {
+    position: absolute;
+    width: 935px;
+    height: 626px;
+    left: 985px;
+    top: 882px;
   }
 
   .gif2 {

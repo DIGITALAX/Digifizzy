@@ -10,71 +10,75 @@ const Page5960 = () => {
         <Image src={`${DIGIFIZZY_S3}/12/images/5960_back.png`} width={1920} height={1497} />
       </div>
       <div className={styles.image1}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/5960_image1.png`} width={214} height={214} />
+        <Image src={`${DIGIFIZZY_S3}/13/images/5960_image1.png`} width={270.17} height={214} />
       </div>
       <div className={styles.image2}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/5960_image2.png`} width={400} height={245} />
+        <Image src={`${DIGIFIZZY_S3}/13/images/5960_image2.png`} width={243} height={243} />
       </div>
-      <div className={styles.text1}>B1T⁠</div>
+      <div className={styles.text1}>FLAKKED</div>
       <div className={styles.text2}>E-SPORTS RISING STAR OF THE MONTH</div>
       <div className={styles.text3}>
-        B1T first joined team Na'Vi Junior in 2019 when he was only 16 years old and quickly became
-        the standout player. Throughout 2021, he won the PGL Stockholm Major as his first time ever
-        playing in a major, won the Intel Grand Slam, the BLAST Premier World Final, and more. The
-        achievement list stands on its own for even a top tier veteran CS:GO player. For a rookie,
-        well, B1T simply has no equal.
+        21 year old Spanish rookie Flakked is proving himself on the virtual field round after round
+        this season. He’s currently a bot laner for G2 Esports, with League of Legends being his
+        go-to-play. One of his biggest wins came this April, with the G2 crew taking home first
+        prize at the LEC Spring 2022. Flakked doubled down, forging the path for his team to lock
+        down a perfect run through Group C, as the LEC champions dominated both Evil Geniuses and
+        ORDER in every match they had against each other.
       </div>
-      <div className={styles.text4}>metaverse ready score: 6</div>
-      <div className={styles.text5}>S1Mple</div>
+      <div className={styles.text4}>metaverse ready score: 4</div>
+      <div className={styles.text5}>ACHIEVED</div>
       <div className={styles.text6}>E-SPORTS PLAYER OF THE MONTH</div>
-      <div className={styles.text7}>metaverse ready score: 3</div>
+      <div className={styles.text7}>metaverse ready score: 8</div>
       <div className={styles.text8}>
-        Considered by many as the GOAT of CS:GO, s1mple, aka Oleksandr Kostyliev is a 23 year old
-        Ukrainian player for team Na'Vi.
-        <br />
-        <br />
-        He rose to fame back in 2016 by his absolutely insane 1 vs 2 AWP no scope clutch against
-        Fnatic at ESL One: Cologne. To this day, it might be one of the greatest moments in CS:GO
-        esports history— and he even got a shoulder tattoo of the moment to commerate it.
+        Rainbow Six Siege Player, Matthew Solomon— player name, Achieved— is currently ranked 7th
+        for top players of 2022. He is currently Captain for TSM, where the team dominated the Six
+        Invitational 2022 bringing back the number one spot and a $1 million cash prize. Known for
+        his Buck gameplay, Achieved has been chasing pro status since he first started gaming, with
+        Rainbow Six the only game he has pursued competitively.
       </div>
-      <div className={styles.text9}>INVICTUS GAMES INAUGURAL LAUNCH</div>
+      <div className={styles.text9}>BONDLY SUED BY G2 ESPORTS</div>
       <div className={styles.text10}>
-        The Invictus Games kicked off last week in The Hague, Netherlands for it’s 5th run. The
-        games, founded by Prince Harry, are composed of a series of competitive sporting events for
-        wounded, injured and sick servicemen and women, both serving and veterans.
+        European esports organisation G2 Esports reportedly filed a lawsuit on March 16th claiming
+        that NFT solutions provider Bondly misled its leadership and missed deliverable deadlines.
         <br />
         <br />
-        This year, Esports made its debut with featured games such as League of Legends, Rocket
-        League, Mario Kart, and simulation races.
+        The suit claims damages of over $5 million— a turn for the worst since the duo partnered up
+        back in June 2021, at the height of much of the NFT mayhem.
         <br />
         <br />
-        It’s always good to see further representation for esports, especially for a good cause.
-        And, even more so, it inspires further curiosity of just how powerful the metaverse and
-        digital arenas within it can be for providing new limitless ways for IRL physically hindered
-        people to get back their movement and more. It’s kind of like that scene in Avatar where
-        Jake can walk for the first time after who knows how many years of being stuck in his
-        wheelchair.
+        The story all seems a bit convoluted, with opaque announcements following since the initial
+        partnership and deleted press releases by G2.
+        <br />
+        <br />
+        Whatever the case, the story is still developing. Let’s hope that this move by G2 isn’t just
+        coming off the back of red market candles and there is more legitimacy to the claims.
+        <br />
+        <br />I guess we’ll find out?
       </div>
 
-      <div className={styles.text12}>ESPORTS AND IP</div>
+      <div className={styles.text12}>TWITCH BANS NFTS</div>
       <div className={styles.text13}>
-        There’s been quite a lot of media publications as of late around the muddled topics of IP in
-        relation to Esports. It’s an interesting topic because unlike in traditional IRL sports
-        where the IP rights underlying them are in fact in the public domain, in Esports, game
-        publishers and developers maintain strict control of the underlying titles— giving them
-        significant leverage to exert expansive control over just how those titles are used within
-        the arena.
+        Twitch recently announced the banning of NFT extensions from the platform under their latest
+        guidelines update.
         <br />
         <br />
-        If you trace the line back, ultimately, the publishers own the players and the teams. Since
-        they own or control the IP rights necessary to update and modify games, game publishers can
-        alter crucial dynamics and the rules of their games at their discretion— anything from
-        completely changing up a map to the configuration and abilities of characters.
+        Located under the Content Policy section, the new entry, 4.11, states: “Extensions may not
+        display, implement, include, or interact with any non-fungible token (NFT). Examples:
+        Extensions may not include off-site links or referral codes to NFT sites and may not
+        facilitate the creation, listing, trading, or redemption of NFTs.”
         <br />
         <br />
-        Esports brings the much needed amplification and community value to the underlying game,
-        just like mod culture, and yet, at the end of the day there is no active mechanism in place
-        for that value to be actively circulated and spread. Web3 solves this?
+        The move has been “well received” by self hating gamers that view NFTs as the ultimate
+        enemy...— to what? you might ask— to self sovereignty and self determination.
+        <br />
+        <br />
+        This action by the streaming site does come at a surprise however, especially given how much
+        ex-ceo Justin Kahn is diving into NFT related projects, with his most recent venture being
+        an NFT x metaverse gaming marketplace.
+        <br />
+        <br />
+        It’s one thing to remain neutral on native NFT integrations, but for the platform to go as
+        far as blocking extensions and links... well, another market opportunity just opened up!
       </div>
 
       <div className={styles.esportsText1}>E-SPORTS BUZZZZ</div>

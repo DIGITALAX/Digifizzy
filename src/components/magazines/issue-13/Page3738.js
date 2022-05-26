@@ -6,101 +6,106 @@ import styles from './page3738.module.scss';
 const Page3738 = () => {
   return (
     <div className={styles.wrapper}>
-      <video muted loop autoPlay className={styles.imageBackground}>
-        <source src={`${DIGIFIZZY_S3}/12/videos/3738_video1.mp4`} type="video/mp4" />
-      </video>
-      <div className={styles.overlap}></div>
-
-      <a href="https://twitter.com/ChromaCatsNFT" target="_blank">
-        <div className={styles.link1}>CHROMA CATS</div>
+      <a href="https://twitter.com/worldofnoun" target="_blank">
+        <div className={styles.link1}>
+          <Image src={`${DIGIFIZZY_S3}/13/images/3738_image1.png`} width={960} height={384} />
+        </div>
       </a>
-      <div className={styles.text1}>Diving in with Brenon.jpg</div>
       <div className={styles.text2}>
-        From Y2K to geocities, then tumblr to NFTs… I learned a lot growing up inside internet
-        culture. Some web3 stars that definitely inspired me early-on are NyanCat creator(Chris),
-        Gremplin, and now many many others. Oh and DeadFellaz; Psych& Betty, for sure.
-        <br />
-        <br />
-        <span>Chroma Cats Trajectory from Here... ?!!! </span>
+        I have always been fascinated by tech and digital art. I started coding at 14, and was made
+        aware of bitcoin soon after in 2011, immediately recognizing it as a paradigm shift. Online
+        payments were not common in Lebanon, and it was not easy convincing my parents at 15 that
+        they should invest in an 'internet currency'. I went on to acquire a bachelor's degree in
+        Software Engineering, joining a multinational fintech company right after. Ethereum was on
+        the rise, and as the world of NFTs was slowly forming, I stood by the sidelines observing
+        yet unaware of the real novelty there. Summer of 2021 I ended up quitting my job to pursue a
+        Master's degree in Amsterdam, as well as an opportunity to explore web3 development.
       </div>
-      <div className={styles.text3}>To the moon; or at least some nearby asteroid. 😻</div>
+      <div className={styles.text3}>
+        It wasn't until December of 2021 that one of my favorite Psychedelic artists, Chris Dyer,
+        revealed an NFT project that awoke the inner collector in me. I jumped into the discord,
+        started interacting with everyone and eventually got my first ever whitelist. Galaktic Gang
+        helped me understand very early on the value of a loving community, filled with like-minded
+        individuals.
+        <br />
+        <br />
+        At that point I had spent the last two years refining a psychedelic and generative art style
+        through a small art page on instagram, Tetrahedra, and wanted to move it to twitter. A
+        random interaction with DeezeFi lead to him gifting me a Foundation invite code, giving me
+        the opportunity to start crafting my first web3 brand. My first piece, 'Ego Dissolution',
+        was a collaboration with an artist I met, and was purchased an hour and a half into the
+        listing by Deeze. I will never forget the rush of excitement I felt that instant. My art,
+        which had always been secondary to my career, was being recognized and valued! That, in
+        addition to the friendship and amazing collaborative effort that was achieved through the
+        space made me extremely certain of wanting to build here full-time.
+      </div>
       <div className={styles.text4}>
-        I also liked the name Chroma Cats Bc it kinda looks like Chrono Cross a videogame I loved in
-        the 90s. Also Chroma Cats 0 = (CC0 for short.) there’s even a 1/1 legendary cat in the
-        collection named “Cici Zero.”
+        I was very active in Galaktic Gang, and frequently made fan art as it pushed me to get back
+        to designing. I continued using my skills to make fan art for a bunch communities which
+        earned me whitelist spots that paid to continue collecting and building.
         <br />
-        <br />
-        “Chroma Cats” is Y2K inspired, around when I started sharing art on the internet (I was
-        about 10y/o.) so naturally there’s a lot of 1999/2000s inspired pop culture, skateboard
-        brand influence, Emo and JRPG/anime visual DNA in there. These cats also display a wide
-        variety of emotion & visual experimentation; important for storytelling with each piece.
-        There’s a thread of indie ethos in Chroma Cats, and Zine culture.
-        <br />
-        <br />
-        Chroma Cats is about having fun and making stuff with friends that says how we feel and what
-        we’ve been through. Chroma Cat artworks are 100% Creative Commons 0; so many many visual
-        experiences can come out of it. I will continue to build with Chroma Cats visual building
-        blocks “forever”, if not longer…
+        <br />I was constantly interested in new projects and meeting new people, formed strong
+        friendships, and even was part of starting a lebanese NFT art community. I was always
+        intrigued about CC0 however. I knew of the toadz and nouns, and all the cc0 personas felt
+        extemely likable to me. CC0 threads felt like an RPG to me, and I loved it. I started by
+        joining the boneys, an amazing community and an awesome founder who gave me the platform to
+        release my first pixel art nft, Boney #656.
       </div>
-      <div className={styles.text5}>Contributing Artists</div>
-      <div className={styles.text6}>Dylan Reed</div>
-      <div className={styles.text7}>Brenon.jpg</div>
-      <div className={styles.text8}>Natebear</div>
-      <div className={styles.text9}>Tan</div>
-      <div className={styles.text10}>
-        I think CC0 is probably a fundamentally different approach than a copyright approach by
-        method of evolution. A more collectivist-spirit and a DIY-DNA within CC0, so it’s growth
-        comes from: accessibility & ease of use. This is really important for builders, the
-        audience, and everyone involved. This is why Chroma Cats is CC0; and I would expect many
-        other projects to launch as CC0 in the coming years for similar reasons.
+      <div className={styles.text5}>
+        I was always in love with the minimal pixel art of nouns, and was fascinated by their
+        treasury and proposition system. I loved all the nounish extensions, and I felt as though
+        the nouns lacked a story and a world around them, as well as more traits inspired by
+        mainstream blue chip projects. The power of CC0 was clear to me when I was able to download
+        the assets from nounsdao github and started tinkering away, worry free. I fell in love with
+        the first few iterations, and decided that I would dedicate however long it would take me to
+        fully design and deliver this project. That semester was pretty intense, but I couldn't stop
+        designing traits inspired by everything I loved in the space. I kept connecting with more
+        and more awesome creators who extended their help in collaborating and offering 1/1s for the
+        project. The collaborations and design iterations resulted in a beautiful line up of
+        legendaries. Working on World of Noun awoke an entrepreneurial spirit in me, one that was
+        dormant for years. Being part of the nounish ecosystem has been nothing but inspiring and
+        exciting.
         <br />
         <br />
-        I’ve seen amazing things happen because of artists who work hard & with purpose in the web3
-        space. This has been encouraging over and over again. There’s a certain amount of
-        sweat-equity in web3 that allows artists and builders alike to benefit from creative energy
-        spent here. This has awesome potential and lessens the friction for artists to start up a
-        project. Closing the gap between creators and community seems like a worthwhile effort, so I
-        love it.
+        At an early age, I developped a strong liking for filming and editing videos. That lead me
+        down a rabbit hole of digital design exploration, learning 3D software, VFX, and graphic
+        design tools, all in service of building my youtube page that I wanted to go viral. While I
+        never pursued education in the arts, I always maintained a connection with that side through
+        music production and synthesis, generative art, and hobbyist game development for fun. My
+        programming background also allowed me to easily pick up on new technologies and tools when
+        building an idea.
         <br />
         <br />
-        The technology will certainly become more obscured and less noticeable to the end user as
-        the web3 process gets easier to use. This along with more builders entering the space will
-        be a tipping point. Artists will have an opportunity to move very very fast and build things
-        they hadn’t yet dreamed possible before. Good news travels fast and so on. CC0 can
-        definitely be a huge piece of that. So make stuff, and have fun!
+        World of Noun started as a passion project promising no roadmap. That hasn't stopped the
+        release of a easter gift collection, a storyline that has lead to noun transformations,
+        rigged 3D models, and lots of collaborations. We deeply care about having fun, and creating
+        web3 experiences that people will remember, as well as art that we all connect with. We are
+        currently in the process of expanding our community and minting out, which would allow me to
+        shift my full-time to World of Noun. We've already onboarded a brilliant vfx artist, had
+        community members volunteer to help mod our discord, and we plan to continue to expand the
+        team. Our next steps include being ready for the metaverse (in all of its dimensions),
+        formalizing the story and universe of the World of Noun, and continue to build experiences
+        that people love.
       </div>
-      <a href="https://twitter.com/dylanreed" target="_blank">
-        <div className={styles.image1}>
-          <Image src={`${DIGIFIZZY_S3}/12/images/3738_image1.png`} width={192} height={192} />
-        </div>
-      </a>
-      <a href="https://twitter.com/brenonJPG" target="_blank">
-        <div className={styles.image2}>
-          <Image src={`${DIGIFIZZY_S3}/12/images/3738_image2.png`} width={192} height={192} />
-        </div>
-      </a>
-      <a href="https://twitter.com/natebear" target="_blank">
-        <div className={styles.image3}>
-          <Image src={`${DIGIFIZZY_S3}/12/images/3738_image3.png`} width={192} height={192} />
-        </div>
-      </a>
-      <a href="https://twitter.com/tanduyha" target="_blank">
-        <div className={styles.image4}>
-          <Image src={`${DIGIFIZZY_S3}/12/images/3738_image4.png`} width={192} height={192} />
-        </div>
-      </a>
+      <div className={styles.image1}>
+        <Image src={`${DIGIFIZZY_S3}/13/images/3738_image2.png`} width={197} height={197} />
+      </div>
+      <div className={styles.text1}>W/ zJMS</div>
+      <div className={styles.image2}>
+        <Image src={`${DIGIFIZZY_S3}/13/images/3738_image3.png`} width={210} height={210} />
+      </div>
+      <div className={styles.image3}>
+        <Image src={`${DIGIFIZZY_S3}/13/images/3738_image4.png`} width={210} height={210} />
+      </div>
+      <div className={styles.image4}>
+        <Image src={`${DIGIFIZZY_S3}/13/images/3738_image5.png`} width={210} height={210} />
+      </div>
 
-      <div className={styles.gif1}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/3738_gif1.gif`} width={302} height={283} />
+      <div className={styles.image5}>
+        <Image src={`${DIGIFIZZY_S3}/13/images/3738_image6.png`} width={210} height={210} />
       </div>
-      <div className={styles.gif2}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/3738_gif2.gif`} width={302} height={283} />
-      </div>
-      <div className={styles.gif3}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/3738_gif3.GIF`} width={302} height={283} />
-      </div>
-      <div className={styles.gif4}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/3738_gif4.GIF`} width={302} height={283} />
+      <div className={styles.image6}>
+        <Image src={`${DIGIFIZZY_S3}/13/images/3738_image7.png`} width={935} height={626} />
       </div>
     </div>
   );

@@ -3,39 +3,30 @@
 .wrapper {
   @include magazineWrapper();
 
-  background: #8f00ff;
+  background: white;
 
   .text1 {
     position: absolute;
-    width: 804px;
-    height: 1255px;
-    left: 109px;
-    top: 83px;
+    width: 680px;
+    height: 1326px;
+    left: 138px;
+    top: 77px;
 
-    font-family: 'Akaya Telivigala';
+    font-family: 'Anek Kannada';
     font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 50px;
-    /* or 167% */
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 30px;
+    /* or 176% */
 
-    color: #ffffff;
+    color: #ff6a00;
   }
 
-  .text2 {
+  .image {
     position: absolute;
-    width: 804px;
-    height: 1255px;
-    left: 1032px;
-    top: 83px;
-
-    font-family: 'Akaya Telivigala';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 50px;
-    /* or 167% */
-
-    color: #ffffff;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
+    top: 0px;
   }
 }

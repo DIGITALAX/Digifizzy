@@ -6,63 +6,91 @@ import styles from './page6566.module.scss';
 const Page6566 = () => (
   <div className={styles.wrapper}>
     <div className={styles.back}>
-      <Image src={`${DIGIFIZZY_S3}/12/images/6566_back.png`} width={1920} height={1497} />
+      <Image src={`${DIGIFIZZY_S3}/13/images/6566_back.png`} width={1920} height={1497} />
     </div>
 
-    <a href="https://twitter.com/TooNFT_official" target="_blank">
+    <a href="https://www.aktionariat.com/" target="_blank">
       <div className={styles.link1}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/6566_image1.png`} width={596} height={146} />
+        <Image src={`${DIGIFIZZY_S3}/13/images/6566_image1.png`} width={817} height={111} />
+      </div>
+    </a>
+    <a href="https://www.aktionariat.com/" target="_blank">
+      <div className={styles.link2}>
+        <Image src={`${DIGIFIZZY_S3}/13/images/6566_image1.png`} width={817} height={111} />
       </div>
     </a>
 
+    <div className={styles.image1}>
+      <Image src={`${DIGIFIZZY_S3}/13/images/6566_image2.png`} width={906} height={1016} />
+    </div>
+
     <div className={styles.text1}>
-      For those that don’t know, Manhwa has taken the world of online content distribution by storm.
-      With originally less dialogue and more colourful and detailed pictures than the Japanese
-      Manga, it has adapted extremely well to life online, particularly after the rise of mobile
-      devices in everyone’s pockets.
-      <br />
-      <br />
-      It rose sharply in popularity thanks to free access and availability throughout the internet,
-      and because, for creators it offered a way to get around otherwise very strict content censors
-      in South Korea.
-      <br />
-      <br />
-      It’s no surprise that webtoons are making a major transition into web3. The format is highly
-      native to decentralised and distributed instantly consumable media. Think memes, graphic
-      novels and pretty much anything that would be well suited to be an NFT.
-      <br />
-      <br />
-      Add in incredibly hyper engaged communities constantly leaping over each other to comment
-      first, last and frequently, and it’s a recipe set for web3 success.
-      <br />
-      <br />
-      TooNFT is one of the first NFT webtoon DAPPs on the scene, developed within the popular
-      Toomics ecosystem. It will exist as a marketplace dedicated to webtoons as well as incorporate
-      more web3 compatible community tooling overtime. Are we about to see the first webtoons DAO
-      where the narrative is shaped in real time by the readers?
+      Enjoy the benefits of a liquid share market without a costly IPO.
     </div>
-    <div className={styles.text2}>
-      Doubtful how decentralised this will be, but it’s nice to see the South Korean government
-      taking seriously the importance of funding heavily in what it takes to build the metaverse.
-    </div>
+    <div className={styles.text2}>That’s the slogan of Aktionariat.</div>
     <div className={styles.text3}>
-      South Korea has committed to spend at least $186.7 million, or 223.7 billion Korean won to
-      spark the ecosystem creation. Here’s hoping that they learn the lesson very soon that there is
-      only one metaverse with many realms, rather than referring to it as one of our biggest pet
-      peeves here at DIGIFIZZY, as a metaverse among many. As if that makes sense in any language to
-      be referring to multiple internets, mutiple multiverses or multiple metaverses.
+      The flexibility provided by interactive programming of secure decentralised assets i.e.
+      liquidity, is one of the major benefits of web3 tech.
     </div>
-    <div className={styles.text4}>
-      There is just one big abstract Ocean with many islands, fish, grains of sand, grains of salt,
-      and people just need to quit with trying to own the entirety of reality. Ngmi.
+    <div className={styles.text4}>NOT JUST LIQUIDITY IN CAPITAL, BUT IN INFORMATION AND CODE.</div>
+    <div className={styles.text5}>
+      MARK THESE WORDS— NOT TOO FAR FROM NOW, THE ABILITY TO LAUNCH A LIQUID MARKET WILL BE A
+      STANDARD FEATURE IN EVERY POCKET DEVICE.
+    </div>
+    <div className={styles.text6}>Unconventional Ways Zero Knowledge Shapes the Culture</div>
+    <div className={styles.text7}>
+      It’s been shown throughout history that increasing the speed on a computing platform by at
+      least 10x unlocks radically new applications, blowing up the scale of what’s possible in the
+      space surrounding it.
       <br />
       <br />
-      Side rant aside, the South Korean government expects this new digital plan to produce at least
-      40, 000 new jobs and make the country the 5th largest metaverse focused market globally. We
-      expect that those numbers are on the conservative side, for the metaverse has a far more
-      expansive impact on primary production and derivative wealth generation than almost anyone can
-      yet imagine. It helps that the new president of South Korea campaigned on a pro crypto
-      platform. Excited for what’s to come!
+      Funny that, because ZKs are the 10x, 100x and beyond for everything in web3, not just on the
+      technical layer but culturally, commercially and for the rights to privacy and personal
+      autonomy as well.
+      <br />
+      <br />
+      It’s often hard to comprehend how such mathematical wizardry can actually impact the you or
+      I’s or URIs of the world —— but that’s exactly what ZKs are doing.
+      <br />
+      <br />
+      It might be too obvious to be noticed, but everything in our world today is easily traced back
+      to how we communicate at light speed encoded in software sending bits of data whizzing around
+      the world. Can you really imagine what it was like before the telephone, internet, personal
+      computer and smartphone?
+      <br />
+      <br />
+      Every time you wanted to connect with someone it required physical relocation or sending a
+      very very slow message moving on a piece of paper.
+      <br />
+      <br />
+      With ZKs, we’ll not only be able to communicate more efficiently, but more securely. Just like
+      with the technical scale up of speed unlocks radical transformations, the social scale up in
+      speed of coordination and communication means where we are, when, and what we do with who
+      becomes exponentially more flexible and self determined.
+      <br />
+      <br />
+      In the messaging infrastructure of yesterday that is still too slowly being replaced, even in
+      the rare end-2-end encrypted web2 apps like Whatsapp, your messages are highly vulnerable to
+      being intercepted, forged, misconstrued, misused, or otherwise abused by unintended third
+      parties. Whether that is by them attacking the contents of the messages themselves, or, by
+      your overall patterns of use on centralised platforms that you are entirely dependent on.
+      <br />
+      <br />
+      What’s even worse is that most of the time it is intentionally architected this way by people
+      more interested in maximising your value as a product to be sold or with far more nefarious
+      state level control in mind.
+      <br />
+      <br />
+      The ZK enhanced and secured landscape ahead frees us from this, both by making high throughput
+      decentralised messaging commonplace and by enabling us to perform every imaginable
+      communication and economic relevant action with minimal proofs that what we claim to be or be
+      doing is true without having to show all of our cards.
+      <br />
+      <br />
+      Is that ace still up your sleeve?
+      <br />
+      <br />
+      It’s ok, you can keep it there. We’ve moved from “don’t be evil” to “can’t be evil”.
     </div>
   </div>
 );
