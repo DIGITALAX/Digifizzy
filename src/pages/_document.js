@@ -1667,8 +1667,88 @@ class MyDocument extends Document {
             }
 
             @font-face {
-              font-family: 'Iowan Old Style';
-              src: url("./fonts/Iowan Old Style Bold.otf");
+              font-family: 'KyivType Sans';
+              src: url("./fonts/Dmitry Rastvortsev - KyivType Sans Regular-.otf");
+            }
+
+            @font-face {
+              font-family: 'Kumbh Sans';
+              src: url("./fonts/KumbhSans-VariableFont_wght.ttf");
+            }
+
+            @font-face {
+              font-family: 'Geeza Pro';
+              src: url("./fonts/geeza-pro_bigfontsite.com.ttf");
+            }
+
+            @font-face {
+              font-family: 'Baloo Bhaina 2';
+              src: url("./fonts/BalooBhaina2-VariableFont_wght.ttf");
+            }
+
+            @font-face {
+              font-family: 'Dr Sugiyama';
+              src: url("./fonts/DrSugiyama-Regular.ttf");
+            }
+
+            @font-face {
+              font-family: 'Kiwi Maru';
+              src: url("./fonts/KiwiMaru-Regular.ttf");
+            }
+
+            @font-face {
+              font-family: 'Artifika';
+              src: url("./fonts/Artifika-Regular.ttf");
+            }
+
+            @font-face {
+              font-family: 'Imbue';
+              src: url("./fonts/Imbue-VariableFont_opsz,wght.ttf");
+            }
+
+            @font-face {
+              font-family: 'Skateparx Filled - Demo';
+              src: url("./fonts/Skateparx_Filled_Demo.otf");
+            }
+
+            @font-face {
+              font-family: 'Skateparx Filled - Demo';
+              src: url("./fonts/Skateparx_Filled_Demo.otf");
+            }
+
+            @font-face {
+              font-family: 'Reggae One';
+              src: url("./fonts/ReggaeOne-Regular.ttf");
+            }
+
+            @font-face {
+              font-family: 'Simonetta';
+              src: url("./fonts/Simonetta-Regular.ttf");
+            }
+
+            @font-face {
+              font-family: 'Summer Love';
+              src: url("./fonts/Summer Love.ttf");
+            }
+
+            @font-face {
+              font-family: 'Rose Cake - Personal Use';
+              src: url("./fonts/Rose Cake - Personal Use.otf");
+            }
+
+            @font-face {
+              font-family: 'Skateboard Unlimited';
+              src: url("./fonts/Skate Board Unlimited.ttf");
+            }
+
+            @font-face {
+              font-family: 'IBM Plex Mono';
+              src: url("./fonts/IBMPlexMono-Regular.ttf");
+            }
+
+            @font-face {
+              font-family: 'Berkeley Mono Trial';
+              src: url("./fonts/JetBrainsMono-Regular.ttf");
               font-weight: 700;
             }
 
