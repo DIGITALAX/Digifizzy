@@ -5,14 +5,31 @@
   color: white;
   display: flex;
   position: relative;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 
-  .image1 {
+  .image2 {
     position: absolute;
     width: 960px;
     height: 1497px;
     left: 960px;
-    top: 0px;    
+    top: 0px;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 748px;
+    height: 1057px;
+    left: 92px;
+    top: 233px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.25);
   }
 
   .text1 {
@@ -21,13 +38,15 @@
     height: 33px;
     left: 180px;
     top: 138px;
-    
-    font-family: Courier;
+
+    font-family: 'Courier';
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 27px;
     line-height: 120.53%;
-    color: #000000;        
+    /* identical to box height, or 33px */
+
+    color: #000000;
   }
 
   .text2 {
@@ -36,7 +55,7 @@
     height: 1133px;
     left: 180px;
     top: 185px;
-    
+
     font-family: Courier New;
     font-style: normal;
     font-weight: normal;
@@ -51,7 +70,7 @@
     height: 22px;
     left: 470px;
     top: 1334px;
-    
+
     font-family: Courier New;
     font-size: 18px;
     line-height: 120.53%;
@@ -64,11 +83,11 @@
     height: 181px;
     left: 1203px;
     top: 67px;
-    
+
     font-family: Nella Sue Demo;
     font-size: 150px;
     line-height: 120.53%;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   .text5 {
@@ -83,7 +102,7 @@
     line-height: 120.53%;
     text-align: center;
 
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   .text6 {
@@ -92,12 +111,12 @@
     height: 240px;
     left: 1460px;
     top: 299px;
-    
+
     font-family: Sweetly Broken;
     font-size: 40px;
     line-height: 120.53%;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   .text7 {
@@ -106,12 +125,12 @@
     height: 384px;
     left: 952px;
     top: 641px;
-    
+
     font-family: Sweetly Broken;
     font-size: 40px;
     line-height: 120.53%;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   .text8 {
@@ -120,12 +139,12 @@
     height: 336px;
     left: 1246px;
     top: 641px;
-    
+
     font-family: Sweetly Broken;
     font-size: 40px;
     line-height: 120.53%;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   .text9 {
@@ -134,12 +153,12 @@
     height: 288px;
     left: 1644px;
     top: 638px;
-    
+
     font-family: Sweetly Broken;
     font-size: 40px;
     line-height: 120.53%;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   .text10 {
@@ -148,12 +167,12 @@
     height: 264px;
     left: 952px;
     top: 1092px;
-    
+
     font-family: Sweetly Broken;
     font-size: 40px;
     line-height: 120.53%;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   .text11 {
@@ -162,12 +181,12 @@
     height: 288px;
     left: 1246px;
     top: 1092px;
-    
+
     font-family: Sweetly Broken;
     font-size: 40px;
     line-height: 120.53%;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   .text12 {
@@ -176,11 +195,11 @@
     height: 463px;
     left: 1533px;
     top: 1092px;
-    
+
     font-family: Sweetly Broken;
     font-size: 40px;
     line-height: 120.53%;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 }

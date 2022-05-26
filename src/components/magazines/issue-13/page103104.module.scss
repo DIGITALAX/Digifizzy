@@ -2,13 +2,115 @@
 
 .wrapper {
   @include magazineWrapper();
-  background: #FFFFFF;
+  background: black;
 
-  .imageBackground {
+  .text1 {
     position: absolute;
-    width: 1920px;
-    height: 1497px;
-    left: 0px;
-    top: 0px;
+    width: 781px;
+    height: 140px;
+    left: 97px;
+    top: 45px;
+
+    font-family: 'Akira Expanded';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 70px;
+    /* or 127% */
+
+    color: #ffffff;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 747px;
+    height: 1228px;
+    left: 97px;
+    top: 212px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    /* or 140% */
+
+    color: #ffffff;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 1119px;
+    height: 251px;
+    left: 878px;
+    top: 167px;
+
+    font-family: 'Akira Expanded';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 85px;
+    line-height: 80px;
+    /* or 94% */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 846px;
+    height: 96px;
+    left: 1015px;
+    top: 433px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    /* or 140% */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 846px;
+    height: 96px;
+    left: 1015px;
+    top: 1273px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    /* or 140% */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .video {
+    position: absolute;
+    width: 960px;
+    height: 554px;
+    left: 960px;
+    top: 621px;
+    object-fit: cover;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 960px;
+    height: 554px;
+    left: 960px;
+    top: 621px;
+
+    background: rgba(255, 239, 98, 0.7);
   }
 }

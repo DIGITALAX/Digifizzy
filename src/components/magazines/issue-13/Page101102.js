@@ -6,132 +6,105 @@ import styles from './page101102.module.scss';
 const Page101102 = () => {
   return (
     <div className={styles.wrapper}>
-      <div className={styles.imageBackground}>
-        <Image src={`${DIGIFIZZY_S3}/11/images/99100_background.jpg`} width={1920} height={1497} />
-      </div>
-      <div className={styles.image1}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/7778_image1.png`} width={147} height={147} />
-      </div>
-      <div className={styles.image2}>
-        <Image src="/images/logo.jpg" width={147} height={147} />
-      </div>
-      <div className={styles.image3}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/7778_image1.png`} width={147} height={147} />
-      </div>
-      <div className={styles.image4}>
-        <Image src="/images/logo.jpg" width={147} height={147} />
-      </div>
-      <div className={styles.image5}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/7778_image1.png`} width={147} height={147} />
-      </div>
-      <div className={styles.image6}>
-        <Image src="/images/logo.jpg" width={147} height={147} />
-      </div>
-      <div className={styles.image7}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/7778_image1.png`} width={147} height={147} />
-      </div>
-      <div className={styles.image8}>
-        <Image src="/images/logo.jpg" width={147} height={147} />
-      </div>
-      <div className={styles.image9}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/7778_image1.png`} width={147} height={147} />
-      </div>
-      <div className={styles.image10}>
-        <Image src="/images/logo.jpg" width={147} height={147} />
-      </div>
-      <div className={styles.text1}>
-        This month DIGITALAX, GDN & Heat went live with the first fashion movement NFT Auction
-        collection.
-      </div>
-
-      <div className={styles.rect1} />
-      <div className={styles.text2}>
-        The collection was inspired by the Holy Mountain film, and mixed together real time motion
-        capture with 3D digital fashion.
-        <br />
-        <br />
-        What was really interesting about this collaboration was the opportunity to infuse a more
-        instant and tangible emptional feel to bodies and garments in motion.
-        <br />
-        <br />
-        As motion capture technology continues to develop, not only does the rich detail of what is
-        recognised and made possible get enhanced in the technical and user experience layers, but
-        also by a full 6 degrees of freedom.
-        <br />
-        <br />
-        But also, personal freedom is enhanced by the increasing diversity and abundance in choice
-        in ownership, flexibility and beyond.
-        <br />
-        <br />
-        This is an essential part of self sovereignty. Owning what you can do with your own physical
-        movements and playing creatively with how that relates to the assets that make up everything
-        from what you wear to where you are surrounded by.
-      </div>
+      <div className={styles.text1}>KEYS TO WEB3</div>
+      <div className={styles.text2}>Composable machines</div>
       <div className={styles.text3}>
-        Check out the collection{' '}
-        <a href="" target="_blank">
-          here
-        </a>
-        .
+        The DIGITALAX protocol is geared towards a practical understanding of NFTs as unique keys to
+        production and stamps of status recognition, first and foremost.
+        <br />
+        <br />
+        Speaking plainly: NFTs are stamps, evolved. Now equipped with features previously reserved
+        for keys, digital displays, and time.
+        <br />
+        <br />
+        It is easy to forget how profound a simple stamp has been throughout all of history before
+        first, the internet, and now, web3. We’ll save the history review here, for the sake of time
+        and clarity.
+        <br />
+        <br />
+        All a creator, collector, or other interested person needs to know in order to make good use
+        of the ecosystem is that keys are simple seeming on/off switches of great power —— like
+        transistors likely powering the device allowing you to read this on a screen, projection, or
+        print out of some kind —— and stamps authorize passage of messages, transactions, people,
+        and things between times and places. Usually within the display of a pretty picture.
+        <br />
+        <br />
+        They can also be used to mark many things —— like affiliation to a group.
+        <br />
+        <br />
+        If this all sounds similar to how NFTs are used to gain access and signal status in a DAO,
+        that’s no accident.
+        <br />
+        <br />
+        The interesting question becomes: what do these keys unlock?
       </div>
-      <div className={styles.text4}>Toxic surrealism</div>
-      <div className={styles.text5}>
-        This garment was inspired by the movie “The Holy Mountain”. The mysterious, and almost toxic
-        print covering the surface of the suit invites one to dive into a world filled with
-        surrealism and everyone can visit it. The world that I offer you to explore allows to
-        understand the wonders, infinity and charm of this universe. The promise of this is that the
-        world will not let you change from the inside, but will provide you with new opportunities.
+      <div className={styles.text4}>
+        Instead of avoiding the risk of change in dark forests, NFTs within our ecosystem behave
+        like iconographic machines to transform high fidelity concepts into simple, repeatable, and
+        composable design patterns for common use.
+        <br />
+        <br />
+        Beyond the binary switch of keys to turn them on/off —— open/closed —— the ecosystem makes
+        use of standard reusable blocks of code composable in ways that can be explored at three
+        levels of abstraction:
+        <br />
+        <br />
+        <b>ATOMIC COMPOSABILITY</b>
+        <br />
+        <br />A simple concept wrapped in thick language, because systems fail and it isn’t often
+        obvious why. Simplification and abstraction of every part can reduce the likelihood of
+        failure when systems become larger and more complex.
+        <br />
+        <br />
+        In other words, for maximum flexibility within the ecosystem each part is composable.
+        Multiple objects, mechanisms, properties, and operations exist simultaneously as
+        interconnective building blocks.
+        <br />
+        <br />
+        Each retain their own identity, independence from each other, and a range of executable
+        actions they perform on their own.
+        <br />
+        <br />
+        When combined for a new purpose, they maintain their own interchangeability and range of
+        actions.
+        <br />
+        <br />
+        <b>MORPHOLOGICAL COMPOSABILITY</b>
+        <br />
+        <br />
+        New compositions made from composable parts are also composable. Composability is maintained
+        even while these mechanisms are used or background conditions change.
+        <br />
+        <br />
+        Compatibility within this diverse set of contexts requires collaboration and coordination on
+        interoperability standards, with deliberate preparation for shifts in dimensional
+        perspective. Real world conditions change and morph.
+        <br />
+        <br />
+        Composable mechanisms are designed to minimize how much can break when the ways they are
+        used are exposed to even the most simple of human behavior.
+        <br />
+        <br />
+        <b>NARRATIVE MACHINES</b>
+        <br />
+        <br />
+        Machines are what they do, and our stories give them power.
+        <br />
+        <br />
+        In order to tell a story well —— and move markets to action —— a rich set of building blocks
+        and flexible worldview are needed. Any individual not equipped with portable symbolic
+        mechanisms (i.e.: high narrative, utility, and status density NFTs) which carry abstract
+        intentions into repeatable action, is not prepared for the transformation of economies and
+        culture underway.
+        <br />
+        <br />
+        The machines we use to convert stories into reusable assets change the spatial, temporal,
+        and intersectional dimensions of everyday life in the process.
+        <br />
+        <br />
+        Fashion is, and has always been, a rich narrative medium for composable machines. Necessary
+        for survival and status signaling in dark forests of all kinds.
       </div>
-      <div className={styles.text6}>Open your eyes</div>
-      <div className={styles.text7}>
-        Wearing fabric without accentuating the curves of our body like we learned to. Observing,
-        protected, in harmony with ourselves.
-      </div>
-      <div className={styles.text8}>ISEEYOU</div>
-      <div className={styles.text9}>
-        Wearing fabric without accentuating the curves of our body like we learned to. Observing,
-        protected, in harmony with ourselves.
-      </div>
-      <iframe
-        className={styles.video1}
-        src={`https://www.youtube.com/embed/yGuv5InB6yU`}
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-        title="Embedded youtube"
-      />
-      <iframe
-        className={styles.video2}
-        src={`https://www.youtube.com/embed/2bFsvfcm6es`}
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-        title="Embedded youtube"
-      />
-      <iframe
-        className={styles.video3}
-        src={`https://www.youtube.com/embed/u9J_DiLv4vk`}
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-        title="Embedded youtube"
-      />
-      <a href="https://designers.digitalax.xyz/designers/Yauheni_k13/" target="_blank">
-        <div className={styles.link1}>
-          <Image src={`${DIGIFIZZY_S3}/12/images/99100_image1.png`} width={136} height={136} />
-        </div>
-      </a>
-      <a href="https://designers.digitalax.xyz/designers/Paola%20Olaguivel/" target="_blank">
-        <div className={styles.link2}>
-          <Image src={`${DIGIFIZZY_S3}/12/images/99100_image2.png`} width={136} height={136} />
-        </div>
-      </a>
-      <a href="https://designers.digitalax.xyz/designers/Alyona%20Briukhanova/" target="_blank">
-        <div className={styles.link3}>
-          <Image src={`${DIGIFIZZY_S3}/12/images/99100_image3.png`} width={136} height={136} />
-        </div>
-      </a>
-      <div className={styles.line1} />
     </div>
   );
 };

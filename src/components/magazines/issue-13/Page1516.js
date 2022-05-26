@@ -7,116 +7,100 @@ const Page1516 = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.leftImage}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/1516_left.jpg`} width={960} height={1497} />
+        <Image src={`${DIGIFIZZY_S3}/13/images/1516_back.png`} width={1920} height={1497} />
       </div>
-      <div className={styles.rightImage}>
-        <Image src={`${DIGIFIZZY_S3}/12/images/1516_right.jpg`} width={960} height={1497} />
-      </div>
-      <div className={styles.text1}>Open Source Oasis</div>
-      <div className={styles.text2}>
-        <b>DITTO LAB</b>
+      <a href="https://twitter.com/privatewoman777" target="_blank" rel="noreferrer">
+        <div className={styles.link1}>PRIVATEWOMAN.ETH</div>
+      </a>
+      <a href="https://twitter.com/privatewoman777" target="_blank" rel="noreferrer">
+        <div className={styles.link2}>PRIVATEWOMAN.ETH</div>
+      </a>
+      <a href="https://twitter.com/privatewoman777" target="_blank" rel="noreferrer">
+        <div className={styles.link3}>PRIVATEWOMAN.ETH</div>
+      </a>
+      <a href="https://twitter.com/privatewoman777" target="_blank" rel="noreferrer">
+        <div className={styles.link4}>PRIVATEWOMAN.ETH</div>
+      </a>
+      <div className={styles.text1}>
+        My interest in visual art didn’t really start until my freshman year at college. I started
+        out as an International Business major and took one non-major drawing course which lead me
+        to change my major the following semester to Fine Art. By the end of my senior year I found
+        myself focused mainly on metalworking and screen printing. I moved from Baltimore to Seattle
+        and ended up landing a job at a metal foundry where I worked as a production metal finisher
+        for precious metal jewelry. I worked a few jobs as an artist assistant and eventually found
+        myself back into screen printing. I spent most of my late 20s touring in bands and being
+        able to screen print came in handy. I would print a lot of the merchandise for the bands I
+        played in and eventually I ended up in a position as a contract screen printer for a
+        professional shop.
         <br />
-        Before the NFT Boom of 2021, DeFi held the spotlight for all things mixing Ethereum, crypto
-        and community. And, for much of the market, it seemed as if the NFT hype wave would be
-        powered predominantly by DAPPs intertwining DeFi with
+        <br />
+        To be totally honest, the pandemic forced me to take a major break from the grind of trying
+        to make it as a touring musician. Without access to that same energy flow I found myself
+        searching for creative fulfillment in new ways. As I continued to broaden my knowledge of
+        Photoshop through my work in screen printing I began to incorporate it back into my life as
+        a creative tool. I started creating visual art again and putting myself out there. I ended
+        up taking on a handful of commissions, doing album art and t-shirt designs. As of late, I’ve
+        been focusing more on creating visual art for the sake of art. I’ve been experimenting more
+        with different mediums. Incorporating any tool I have in front of me, whether it be pencil,
+        pen, paint, photo, scanner, or computer programs. For the future I hope to lean more into
+        fashion design!
+      </div>
+      <div className={styles.text2}>
+        Curiosity and a really supportive friend are what lead me to NFTs/web3. Well I should say it
+        was half that and half my unyielding quest for the perfect side hustle that will bring
+        abundance and fulfillment. I honestly had no idea what sort of world was about to open up to
+        me when I started asking questions and trying to get involved. The more I dug into it the
+        more I wanted to learn and the more I wanted to have hands-on experience navigating the
+        space. I had the incredible opportunity for Songcamp to be my intro into web3. The Songcamp
+        community has shown me what I always wished my tight knit creative community in Seattle was
+        like. I think what got me most excited to start building in this community was just feeding
+        off of the collective creative energy in itself and the intentional goal setting. I’m
+        realizing now that energy runs outside of Songcamp and through a lot of the people I’ve
+        connected with in the web3 community. I’m really excited to make more connections with
+        creative people in web3 and continue in the flow of conscious co-creation with the people
+        I’ve met!
       </div>
       <div className={styles.text3}>
-        NFTs. This didn’t pan out as expected, with most of the DeFi x NFT applications falling
-        short of market desires compared to the likes of PFP projects and play 2 earn. Ditto might
-        just be changing that however. Their protocol is bringing forth NFT future contracts where
-        interested buyers of an NFT can mint or buy a Future, called a Clone. We won’t hash out all
-        of the Smart Contract intricacies here, but the mechanics seem promising for bridging a new
-        wave of capital, liquidity and collectors into non-fungibles.
+        The main part of web3 that most resonates with me is the value I see being placed on
+        artist’s time, vision, talent, and creativity. I feel like in the day-to-day world it’s so
+        easy to be undervalued and unappreciated when it comes to being an artist especially living
+        in the U.S. I really feel as though art and music have not been supported in the ways they
+        should be and web3 really feels like a space of support for the creative community. I also
+        just love the idea of collaboration and creating with intention or a centralized vision. To
+        me the web3 space feels like pure potential to literally make of it whatever you want and to
+        get the support you need to make it happen!
+        <br />
+        <br />
+        My personal experience does not align with the mainstream narrative behind crypto and NFTs.
+        I hear a lot of my peers throwing around terms like “Ponzi scheme” and saying that NFTs are
+        the least punk thing you could do. I just don’t really see how that argument holds up and
+        especially for me and the way I’ve been involved in NFT projects. Obviously just like
+        anything that involves money, there’s always some negative side to it and there’s
+        manipulative people everywhere. I think there are absolutely ways to enter this space and
+        find like-minded people who are here to show up and build trusting communities where you
+        support each other. I just don’t know where else you can really find that right now and it
+        makes me kinda sad how quick people I know are to dismiss web3 as a possibility for
+        themselves.
       </div>
-      <div className={styles.text4}>L i b r e S o f t w a r e</div>
-      <div className={styles.text5}>
-        <b>ETHGANG RECORDS</b>
+      <div className={styles.text4}>
+        I think there’s a lot of hype and excitement around web3 projects and things move very
+        quick. I think if people within the community were to take a step back once in a while and
+        slow down a bit especially when involving new people to the community it would create a
+        space that invites people rather than scares them away. There’s so much lingo and knowledge
+        that is so particular to web3, I do wish I had some straight forward resources when I first
+        started getting involved that helped me feel less like an alien when I would get into
+        conversations with more experienced web3 people. The cool thing with DAOs and web3 projects,
+        everyone is seeking feedback constantly. I’m sure I could share this viewpoint with any
+        person I’ve been involved in a project with and they would take it to heart and figure out
+        ways to improve on it.
         <br />
-        Day by day the NFT music scene continues to grow in pace, reach and general artist driven
-        enthusiasm for leaving the trad industry behind. It’s no surprise that a bunch of web3
-        labels and management projects have been spinning up all over #CT. Some are certainly less
-        sincere than others and copy the same extractive “agent” model as in web2.
         <br />
-        <br />
-        ETHGANG, however, seems to be taking a more authentic approach to the stage— they’ve been
-        hosting crypto voxel music shows for web3 native artists since 2020 and allocate a large
-        portion of their messaging and resources to educating upcoming web3 music explorers on the
-        deeper & vital, but often brushed past, aspects of what makes web3, web3— from Ethereum, to
-        IPFS & ENS.
+        That past month I’ve been completely consumed by Camp Chaos and I’m excited to share that we
+        will be sharing a large series of visual/music NFTs with the world on June 3rd. Aside from
+        that I’m so excited about this amazing opportunity to contribute work for this CC0
+        fashion/music project with Emma-Jane and the Songcamp - Chaos team, I don’t have much
+        planned within web3 past that but I have a feeling more projects will present themselves! I
       </div>
-      <div className={styles.text6}>L i b r e S o f t w a r e</div>
-      <div className={styles.text7}>L i b r e S o f t w a r e</div>
-      <div className={styles.text8}>
-        <b>THE TOR PROJECT</b>
-        <br />
-        Not a new name for many, but certainly worth the mention with all that the application has
-        done for enabling stronger self sovereign infrastructure. The Tor Project’s mission couldn’t
-        ring more true— to advance human rights and freedoms by creating and deploying free and open
-        source anonymity and privacy technologies, supporting their unrestricted availability and
-        use, and furthering their scientific and popular understanding.
-        <br />
-        <br />
-        The network is more than just a more secure means for plugging into the internet in a world
-        filled with too often malicious corporate and state surveillance, but also, a lifeline for
-        those located in regions where government control through censorship and restrictions means
-        even some of the most basic access that we take for granted is cut off.
-      </div>
-      <div className={styles.text9}>L i b r e S o f t w a r e</div>
-      <div className={styles.text10}>L i b r e S o f t w a r e</div>
-      <div className={styles.text11}>
-        <b>ICE VISION</b>
-        <br />
-        If we strip back it all, blockchains are, after all, just timestamped blocks filled with
-        different kinds of information about the activity between members (human or not) within a
-        network. Web2 infrastructure also records this information, but it’s opaque and siloed. On a
-        blockchain, the sequence is continuous and connected for all parties, and, it’s also
-        completely transparent so that anyone can query the state of the network at anytime, past or
-        present. Trust through transparency not illusory obfuscation.
-        <br />
-        <br />
-        Currently, quering the state of the blockchain, through apps like Etherscan, still can be
-        overwhelming and difficult for the average user. Ice Vision is a visual block explorer that
-        aims to make the state more intelligible so that anyone can easily peek right under the
-        hood.
-      </div>
-      <div className={styles.text12}>O p e n W e b</div>
-      <div className={styles.text13}>
-        <b>ZK BLOCK</b>
-        <br />
-        Despite what people might think, project set up is often
-      </div>
-      <div className={styles.text14}>
-        what eats up most of a developers time when building a new DAPP. Often the biggest
-        challenges boil down to lack of interoperable and composable integration methods of
-        websockets, wallet integrations, required libraries and the latest web tech.
-        <br />
-        <br />
-        ZK Block is proposing the first ZK Boilerplate to support and accelerate the development of
-        ZK Dapps. It will include everything from support for the latest web tech such as Nextjs,
-        Typescript, and Material UI for design, support for the snarkjs library for browser based
-        proof generation, integration with major EVM chain wallets such ETH/Polygon, and upcoming
-        ZKEVMs such as ZkSync, set up for handling compile circuits, smart contracts and testnet
-        deployments and a sample ZK Dapp on Testnet for developers to play around with.
-        <br />
-        <br />
-        This honestly couldn’t come at a better time as all things turn ZK and the next wave of web3
-        engineering radically gears up to make this a not too far distant reality.
-      </div>
-      <a href="https://twitter.com/ditto_lab" target="_blank">
-        <img src={`${DIGIFIZZY_S3}/12/images/1516_image1.jpg`} className={styles.image1} />
-      </a>
-      <a href="https://twitter.com/ethgang" target="_blank">
-        <img src={`${DIGIFIZZY_S3}/12/images/1516_image2.jpg`} className={styles.image2} />
-      </a>
-      <a href="https://twitter.com/torproject" target="_blank">
-        <img src={`${DIGIFIZZY_S3}/12/images/1516_image3.jpg`} className={styles.image3} />
-      </a>
-      <a href="https://twitter.com/icevisionxyz" target="_blank">
-        <img src={`${DIGIFIZZY_S3}/12/images/1516_image4.jpg`} className={styles.image4} />
-      </a>
-      <a href="https://zkblock.app/" target="_blank">
-        <img src={`${DIGIFIZZY_S3}/12/images/1516_image5.jpg`} className={styles.image5} />
-      </a>
     </div>
   );
 };

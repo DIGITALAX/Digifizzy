@@ -7,68 +7,55 @@
 
   .image1 {
     position: absolute;
-    width: 960px;
-    height: 1022.34px;
-    left: 960px;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
     top: 0px;
   }
 
   .image2 {
     position: absolute;
-    width: 807px;
-    height: 1497px;
-    left: 556px;
-    top: 0px;
+    width: 654px;
+    height: 510px;
+    left: 1123px;
+    top: 809px;
   }
 
   .text1 {
     position: absolute;
-    width: 609px;
-    height: 1276px;
-    left: 139px;
-    top: 122px;
+    width: 767px;
+    height: 1274px;
+    left: 91px;
+    top: 111px;
 
-    font-family: 'Azeret Mono';
+    font-family: 'KyivType Sans';
     font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 100%;
-    /* or 30px */
+    font-weight: 350;
+    font-size: 28px;
+    line-height: 150%;
+    /* or 42px */
 
-    color: #000000;
+    color: #ff0000;
+
+    -webkit-text-stroke: 1.3px #ffffff;
   }
 
   .text2 {
     position: absolute;
-    width: 755px;
-    height: 270px;
-    left: 1062px;
-    top: 613px;
+    width: 767px;
+    height: 1274px;
+    left: 1066px;
+    top: 111px;
 
-    font-family: 'Azeret Mono';
+    font-family: 'KyivType Sans';
     font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 100%;
-    /* or 30px */
+    font-weight: 350;
+    font-size: 28px;
+    line-height: 150%;
+    /* or 42px */
 
-    color: #ffe5ac;
-  }
+    color: #ff0000;
 
-  .text3 {
-    position: absolute;
-    width: 787px;
-    height: 176px;
-    left: 1046px;
-    top: 1075px;
-
-    font-family: 'Azeret Mono';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 100%;
-    /* or 50px */
-
-    color: #000000;
+    -webkit-text-stroke: 1.3px #ffffff;
   }
 }

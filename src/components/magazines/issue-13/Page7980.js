@@ -5,65 +5,53 @@ import styles from './page7980.module.scss';
 
 const Page7980 = () => (
   <div className={styles.wrapper}>
-    <div className={styles.imageBackground}>
-      <Image src={`${DIGIFIZZY_S3}/12/images/7980_back.png`} width={1920} height={1497} />
+    <div className={styles.image1}>
+      <Image src={`${DIGIFIZZY_S3}/13/images/7980_image1.png`} width={256} height={256} />
     </div>
-    <div className={styles.text1}>MiddleMEN</div>
+    <div className={styles.image2}>
+      <Image src={`${DIGIFIZZY_S3}/13/images/7980_image2.png`} width={256} height={256} />
+    </div>
+    <div className={styles.image3}>
+      <Image src={`${DIGIFIZZY_S3}/13/images/7980_image3.png`} width={1261} height={482} />
+    </div>
+    <div className={styles.image4}>
+      <Image src={`${DIGIFIZZY_S3}/13/images/7980_image4.png`} width={668} height={408} />
+    </div>
+    <a href="https://www.digitalax.xyz/layer-x" target="_blank">
+      <div className={styles.text1}>LAYER X</div>
+    </a>
     <div className={styles.text2}>
-      In Virginia Postrel’s book, “The Fabric of Civilisation” she accounts, “A New York friend who
-      saw the opening-night show told me that the Lehmans had invented the middleman”.
-      <br />
-      <br />
-      Ignore the opening the night show, but did the Lehman Brother’s actually invent the middleman?
-      Well, even Virginia recalls that she’s not so sure about that. Middlemen have been a critical
-      part of civilisation since the dawn of economic activity.
+      DIGITALAX’s Open Composable Game Layer for the IRL Metaverse and Beyond.
     </div>
     <div className={styles.text3}>
-      They bridge the worlds of today and tomorrow and maintain the threadline of connectivity
-      between industries, capital, markets and culture.
+      In order to truly unlock the ownership of NFTs day to day in a way that massive multiplayer
+      markets of people actually understand, we have to build for where people already are, and the
+      economic and cultural behaviours that we all already engage in.
       <br />
       <br />
-      It has a well deserved negative connotation in web3. But perhaps it is more interesting to
-      think about it in the broader view of the historic transition from middlemen to middleware.
+      We all have super computer phones in our pockets everywhere we go.
+      <br />
+      <br />
+      It’s time to unlock their full potential to act as keys, transporting us into VIP experiences,
+      private galleries, secret drops, new means of media distribution and specialty DAOs that align
+      us with the people we both already explore our worlds with and those that we aspire to compete
+      and collaborate alongside with, as we all solve these vast real world social puzzles.
     </div>
     <div className={styles.text4}>
-      Web3 enables the comprehensive decentralisation of software programs of all kinds, from
-      automated market makers to ideographic keys storing and trading our most precious moments and
-      memories in cultural history.
-    </div>
-    <div className={styles.text5}>
-      The programmatic imperative becomes how do we actually reduce friction in the design of our
-      arbitrage or middleware mechanisms?
-    </div>
-    <div className={styles.text6}>
-      So, next time someone brings up how much middlemen suck, consider saying “well yes, but
-      really, what’s the point when middleware is already making middlemen a footnote of history?”
-    </div>
-    <div className={styles.text7}>
-      The time stamped sequencing of blocks of data message and transaction entries is itself a form
-      of efficient routing continuously seeking for more optimal results. Whether in Proof of Work
-      or Proof of Stake, miners, validators or any other verification incentivised player, the
-      competition is always on to gain greater rewards for more elegantly authenticating the
-      trustworthiness of each block and by extension the entire connected chain.
-    </div>
-    <div className={styles.text8}>
-      And this is ultimately already embedded into the foundational architecture of blockchains with
-      triple entry bookkeeping.
-    </div>
-    <div className={styles.text9}>
-      How do we make sure that those who are assigned to the middle role aren’t incentivised to
-      maximise friction so that they become not just the chokepoint but also the ultimate purpose to
-      be served?
+      The next phase of engineering is actively leading the architecture and engineering of core
+      game layer functionality necessary for that long overdue world to finally be available to
+      everyone.
       <br />
       <br />
-      In traditional systems that middle player is trying to eliminate the endpoints which is why so
-      much economic opportunity is lost and destroyed. It has been a tug of war between players
-      jumping in between transactions and trying to steal the wealth potential of free exchange.
+      This is essential for scaling the web3 fashion economy, so that digital {'<>'} physical
+      wardrobes, unlockable merch drops and the design of digital fashion moving beyond game skins
+      and metamask wallets to active use on the daily, can reach collectors, wearers and producers
+      everywhere.
       <br />
       <br />
-      In a mechanised or automated system properly programmed, the middleware is continuously
-      striving to be as obsolete as possible, reducing its footprint, reducing the friction in
-      favour of greater rates of exchange.
+      DIGITALAX is not alone for this endeavour, and is partnering up with select collaborators and
+      builders that share the same resolute dedication to the core principles of web3, open source
+      and cc0.
     </div>
   </div>
 );

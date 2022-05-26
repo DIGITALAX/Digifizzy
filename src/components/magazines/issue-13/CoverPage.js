@@ -6,7 +6,7 @@ import styles from './coverpage.module.scss';
 const CoverPage = () => (
   <div className={styles.wrapper}>
     <div className={styles.imageBackground}>
-      <Image src={`${DIGIFIZZY_S3}/12/images/FrontCover.png`} width={960} height={1497} />
+      <Image src={`${DIGIFIZZY_S3}/13/images/FrontCover.png`} width={960} height={1497} />
     </div>
   </div>
 );

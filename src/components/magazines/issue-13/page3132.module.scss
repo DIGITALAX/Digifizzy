@@ -16,7 +16,7 @@
     left: -1px;
     top: 0px;
 
-    background: rgba(255, 66, 66, 0.36);
+    background: rgba(255, 247, 66, 0.36);
   }
 
   .text1 {
@@ -45,7 +45,7 @@
     font-size: 100px;
     line-height: 115px;
 
-    color: #ff0fca;
+    color: #00ff19;
     display: flex;
     align-items: flex-end;
   }
@@ -61,7 +61,7 @@
     font-size: 200px;
     line-height: 266px;
 
-    color: #caffc6;
+    color: #762278;
   }
 
   .back {
@@ -92,29 +92,31 @@
 
   .text4 {
     position: absolute;
-    width: 728px;
-    height: 192px;
-    left: 25px;
-    top: 1151px;
+    width: 482px;
+    height: 94px;
+    left: 280px;
+    top: 1233px;
 
-    font-family: 'Geo';
+    font-family: 'Dr Sugiyama';
     font-style: normal;
-    font-weight: 500;
-    font-size: 80px;
+    font-weight: 400;
+    font-size: 100px;
     line-height: 120.53%;
-    /* or 96px */
+    /* or 121px */
 
-    color: #2ab9c4;
+    text-align: right;
+
+    color: #e50084;
   }
 
   .text5 {
     position: absolute;
-    width: 188px;
+    width: 183px;
     height: 36px;
-    left: 291px;
-    top: 1247px;
+    left: 43px;
+    top: 1262px;
 
-    font-family: 'Kavivanar';
+    font-family: 'Kiwi Maru';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -128,8 +130,8 @@
     position: absolute;
     width: 154px;
     height: 22px;
-    left: 285px;
-    top: 1296px;
+    left: 43px;
+    top: 1305px;
 
     font-family: 'Imprima';
     font-style: normal;
@@ -138,17 +140,15 @@
     line-height: 120.53%;
     /* or 24px */
 
-    text-align: right;
-
     color: #000000;
   }
 
   .text7 {
     position: absolute;
     width: 599px;
-    height: 190px;
-    left: 616px;
-    top: 319px;
+    height: 72px;
+    left: 809px;
+    top: 555px;
 
     font-family: 'Honey and Raspberries';
     font-style: normal;
@@ -157,188 +157,288 @@
     line-height: 120.53%;
     /* or 72px */
 
-    color: #ff0060;
-
-    transform: rotate(-90deg);
+    color: #0057ff;
   }
 
   .text8 {
     position: absolute;
-    width: 483px;
-    height: 178px;
-    left: 879px;
-    top: 387px;
-
-    font-family: 'Aubrey';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 100px;
-    line-height: 120.53%;
-    /* or 121px */
-
-    display: flex;
-    align-items: center;
-
-    color: #000000;
-
-    transform: rotate(-90deg);
-  }
-
-  .text9 {
-    position: absolute;
-    width: 183px;
+    width: 218px;
     height: 36px;
-    left: 1102px;
-    top: 605px;
+    left: 809px;
+    top: 622px;
 
-    font-family: 'Duru Sans';
+    font-family: 'Arimo';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 120.53%;
     /* or 36px */
 
-    text-align: right;
+    color: #000000;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 171px;
+    height: 20px;
+    left: 1104px;
+    top: 631px;
+
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120.53%;
+    /* or 24px */
 
     color: #000000;
-
-    transform: rotate(-90deg);
   }
 
   .gif1 {
     position: absolute;
-    width: 600px;
-    height: 600px;
-    left: 1244px;
-    top: 105px;
+    width: 366px;
+    height: 458px;
+    left: 1382px;
+    top: 17px;
   }
 
   .video1 {
     position: absolute;
-    width: 496px;
-    height: 515px;
-    left: 799px;
-    top: 767px;
+    width: 523px;
+    height: 525px;
+    left: 809px;
+    top: 17px;
+
     object-fit: cover;
   }
 
   .video2 {
     position: absolute;
-    width: 505px;
-    height: 481px;
-    left: 1349px;
-    top: 913px;
+    width: 1046px;
+    height: 395px;
+    left: 809px;
+    top: 1087px;
     object-fit: cover;
   }
 
   .text10 {
     position: absolute;
-    width: 488px;
-    height: 81px;
-    left: 806px;
-    top: 1297px;
+    width: 290px;
+    height: 120px;
+    left: 1382px;
+    top: 487px;
 
-    font-family: 'Atures 100 PERSONAL USE ONLY';
+    font-family: 'Artifika';
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
-    line-height: 26px;
-    /* or 52% */
+    line-height: 120.53%;
+    /* or 60px */
 
-    display: flex;
-    align-items: center;
-
-    color: #000000;
+    color: #ff0000;
   }
 
   .text11 {
     position: absolute;
-    width: 353px;
-    height: 26px;
-    left: 806px;
-    top: 1383px;
+    width: 218px;
+    height: 36px;
+    left: 1382px;
+    top: 612px;
 
-    font-family: 'Atures 100 PERSONAL USE ONLY';
+    font-family: 'Artifika';
     font-style: normal;
     font-weight: 400;
-    font-size: 50px;
-    line-height: 26px;
-    /* identical to box height, or 52% */
-
-    display: flex;
-    align-items: center;
+    font-size: 30px;
+    line-height: 120.53%;
+    /* or 36px */
 
     color: #000000;
   }
 
   .text12 {
     position: absolute;
-    width: 373px;
-    height: 26px;
-    left: 806px;
-    top: 1442px;
+    width: 171px;
+    height: 20px;
+    left: 1693px;
+    top: 622px;
 
-    font-family: 'Atures 100 PERSONAL USE ONLY';
+    font-family: 'Imprima';
     font-style: normal;
     font-weight: 400;
-    font-size: 50px;
-    line-height: 26px;
-    /* identical to box height, or 52% */
-
-    display: flex;
-    align-items: center;
+    font-size: 20px;
+    line-height: 120.53%;
+    /* or 24px */
 
     color: #000000;
   }
 
   .text13 {
     position: absolute;
-    width: 375px;
-    height: 60px;
-    left: 1353px;
-    top: 763px;
+    width: 1033px;
+    height: 96px;
+    top: 730px;
+    right: 80px;
 
-    font-family: 'Kavivanar';
+    font-family: 'Artisual Deco DEMO';
     font-style: normal;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 90px;
     line-height: 120.53%;
-    /* or 60px */
+    /* or 108px */
 
-    color: #ff48e2;
+    color: #000000;
   }
 
   .text14 {
     position: absolute;
-    width: 240px;
-    height: 60px;
-    left: 1353px;
-    top: 823px;
+    width: 273px;
+    height: 121px;
+    left: 809px;
+    top: 845px;
 
-    font-family: 'Kavivanar';
+    font-family: 'Arthure';
     font-style: normal;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 100px;
     line-height: 120.53%;
-    /* or 60px */
+    /* identical to box height, or 121px */
 
-    color: #ff48e2;
+    color: #00c938;
   }
 
   .text15 {
     position: absolute;
-    width: 258px;
-    height: 60px;
-    left: 1349px;
-    top: 1413px;
+    width: 273px;
+    height: 121px;
+    left: 1113px;
+    top: 845px;
 
-    font-family: 'Kavivanar';
+    font-family: 'Arthure';
     font-style: normal;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 100px;
     line-height: 120.53%;
-    /* or 60px */
+    /* identical to box height, or 121px */
 
-    color: #ff48e2;
+    color: #00c938;
+  }
+
+  .text16 {
+    position: absolute;
+    width: 273px;
+    height: 121px;
+    left: 1417px;
+    top: 845px;
+
+    font-family: 'Arthure';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 120.53%;
+    /* identical to box height, or 121px */
+
+    color: #00c938;
+  }
+
+  .text17 {
+    position: absolute;
+    width: 273px;
+    height: 121px;
+    left: 1721px;
+    top: 845px;
+
+    font-family: 'Arthure';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 120.53%;
+    /* identical to box height, or 121px */
+
+    color: #00c938;
+  }
+
+  .text18 {
+    position: absolute;
+    width: 273px;
+    height: 121px;
+    left: 809px;
+    top: 966px;
+
+    font-family: 'Arthure';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 120.53%;
+    /* identical to box height, or 121px */
+
+    color: #00c938;
+  }
+
+  .text19 {
+    position: absolute;
+    width: 273px;
+    height: 121px;
+    left: 1113px;
+    top: 966px;
+
+    font-family: 'Arthure';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 120.53%;
+    /* identical to box height, or 121px */
+
+    color: #00c938;
+  }
+
+  .text20 {
+    position: absolute;
+    width: 273px;
+    height: 121px;
+    left: 1417px;
+    top: 966px;
+
+    font-family: 'Arthure';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 120.53%;
+    /* identical to box height, or 121px */
+
+    color: #00c938;
+  }
+
+  .text21 {
+    position: absolute;
+    width: 273px;
+    height: 121px;
+    left: 1721px;
+    top: 966px;
+
+    font-family: 'Arthure';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 120.53%;
+    /* identical to box height, or 121px */
+
+    color: #00c938;
+  }
+
+  .text22 {
+    position: absolute;
+    width: 171px;
+    height: 20px;
+    left: 1635px;
+    top: 695px;
+
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120.53%;
+    /* or 24px */
+
+    color: #000000;
   }
 }

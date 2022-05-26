@@ -6,149 +6,57 @@
 
   .rect1 {
     position: absolute;
-    width: 961px;
-    height: 295px;
-    left: 0px;
-    top: 0px;
+    width: 661px;
+    height: 1161px;
+    left: 150px;
+    top: 198px;
+    z-index: 2;
 
-    background: rgba(130, 151, 70, 0.34);
-  }
-
-  .rect2 {
-    position: absolute;
-    width: 961px;
-    height: 351px;
-    left: 0px;
-    top: 319px;
-
-    background: rgba(130, 151, 70, 0.34);
-  }
-
-  .rect3 {
-    position: absolute;
-    width: 961px;
-    height: 268px;
-    left: 0px;
-    top: 693px;
-
-    background: rgba(130, 151, 70, 0.34);
-  }
-
-  .rect4 {
-    position: absolute;
-    width: 961px;
-    height: 51px;
-    left: 0px;
-    top: 1446px;
-
-    background: rgba(130, 151, 70, 0.34);
-  }
-
-  .rect5 {
-    position: absolute;
-    width: 961px;
-    height: 574px;
-    left: 961px;
-    top: 24px;
-
-    background: rgba(130, 151, 70, 0.34);
-  }
-
-  .rect6 {
-    position: absolute;
-    width: 959px;
-    height: 394px;
-    left: 961px;
-    top: 623px;
-
-    background: rgba(130, 151, 70, 0.34);
-  }
-
-  .rect7 {
-    position: absolute;
-    width: 959px;
-    height: 409px;
-    left: 961px;
-    top: 1051px;
-
-    background: rgba(130, 151, 70, 0.34);
-  }
-
-  .rect8 {
-    position: absolute;
-    width: 961px;
-    height: 427px;
-    left: 0px;
-    top: 991px;
-
-    background: rgba(130, 151, 70, 0.34);
+    background: #000000;
   }
 
   .link1 {
-    &:hover > div {
+    &:hover {
       transform: scale(1.03);
       transition: all ease 0.3s;
-      transform-origin: center;
     }
+    transition: all ease 0.3s;
 
-    .sub1 {
-      position: absolute;
-      width: 794px;
-      height: 82px;
-      left: 25px;
-      top: 65px;
+    position: absolute;
+    width: 237px;
+    height: 60px;
+    top: 23px;
+    left: 996px;
 
-      font-family: 'Newsreader';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 100px;
-      line-height: 100px;
-      display: flex;
-      align-items: center;
-      text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
 
-      color: #ffffff;
-    }
+    display: flex;
+    align-items: center;
 
-    .sub2 {
-      position: absolute;
-      width: 794px;
-      height: 82px;
-      left: 933px;
-      top: 171px;
-
-      font-family: 'Newsreader';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 100px;
-      line-height: 100px;
-      display: flex;
-      align-items: center;
-      text-align: right;
-
-      color: #ffffff;
-
-      transform: matrix(-1, 0, 0, 1, 0, 0);
-      transform-origin: left top;
-    }
+    color: #000000;
   }
 
   .text1 {
     position: absolute;
-    width: 612px;
-    height: 156px;
-    left: 318px;
-    top: 345px;
+    width: 817px;
+    height: 125px;
+    left: 72px;
+    top: 19px;
 
-    font-family: 'Gidugu';
+    font-family: 'Simonetta';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 20px;
-    /* or 100% */
+    font-size: 100px;
+    line-height: 125px;
+    display: flex;
+    align-items: center;
 
     color: #ffffff;
-    -webkit-text-stroke: 0.4px #000000;
   }
 
   .text2 {
@@ -169,57 +77,57 @@
   }
 
   .text3 {
+    z-index: 3;
     position: absolute;
-    width: 843px;
-    height: 225px;
-    left: 65px;
-    top: 713px;
+    width: 547px;
+    height: 1085px;
+    left: 207px;
+    top: 227px;
 
-    font-family: 'Gidugu';
+    font-family: 'Simonetta';
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
-    line-height: 25px;
-    /* or 100% */
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
-    color: #ff0000;
+    color: #ffffff;
   }
 
   .text4 {
     position: absolute;
-    width: 849px;
-    height: 64px;
-    left: 59px;
-    top: 1030px;
+    width: 347px;
+    height: 76px;
+    top: 95px;
+    right: 576px;
 
-    font-family: 'Gidugu';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 20px;
-    /* or 100% */
-
-    text-align: right;
-
-    color: #ffffff;
-
-    -webkit-text-stroke: 0.4px #000000;
-  }
-  .text5 {
-    position: absolute;
-    width: 819px;
-    height: 300px;
-    left: 89px;
-    top: 1109px;
-
-    font-family: 'Gidugu';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
-    line-height: 25px;
-    /* or 100% */
+    line-height: 38px;
+    align-items: center;
 
-    color: #ff0000;
+    color: #000000;
+  }
+  .text5 {
+    position: absolute;
+    width: 863px;
+    height: 1230px;
+    left: 998px;
+    top: 202px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
   }
 
   .text6 {
@@ -332,12 +240,9 @@
 
   .image1 {
     position: absolute;
-    width: 277px;
-    height: 277px;
-    left: 16px;
-    top: 355px;
-    border: 5px solid #ffffff;
-    box-sizing: border-box;
-    border-radius: 121px;
+    width: 1920px;
+    height: 1497px;
+    top: 0;
+    left: 0;
   }
 }

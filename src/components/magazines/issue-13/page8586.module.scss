@@ -4,145 +4,132 @@
   @include magazineWrapper();
   background-color: #ffef62;
 
-  .rect1 {
+  .back {
     position: absolute;
     width: 1920px;
     height: 1497px;
     left: 0px;
     top: 0px;
-
-    background: #ffaf37;
-  }
-
-  .rect2 {
-    position: absolute;
-    width: 960px;
-    height: 1497px;
-    left: 960px;
-    top: 0px;
-
-    background: rgba(123, 30, 0, 0.85);
-  }
-
-  .rect3 {
-    position: absolute;
-    width: 472px;
-    height: 472px;
-    left: 197px;
-    top: 62px;
-
-    background: #008a8a;
-  }
-
-  .rect4 {
-    position: absolute;
-    width: 472px;
-    height: 472px;
-    left: 323px;
-    top: 909px;
-
-    background: #93168e;
-  }
-
-  .rect5 {
-    position: absolute;
-    width: 0px;
-    height: 0px;
-    left: 595px;
-    top: 34px;
-
-    border-left: 116px solid transparent;
-    border-right: 116px solid transparent;
-    border-bottom: 222px solid #da2631;
-  }
-
-  .rect6 {
-    position: absolute;
-    width: 230px;
-    height: 230px;
-    left: 22px;
-    top: 852px;
-
-    background: #8c0202;
-    border-radius: 50%;
-  }
-
-  .rect7 {
-    position: absolute;
-    width: 230px;
-    height: 230px;
-    left: 699px;
-    top: 298px;
-
-    background: #8c0202;
-    border-radius: 50%;
-  }
-
-  .rect8 {
-    position: absolute;
-    width: 0px;
-    height: 0;
-    left: 0px;
-    top: 1035px;
-    border-left: 305px solid transparent;
-    border-right: 305px solid transparent;
-    border-bottom: 462px solid #ffd600;
   }
 
   .text1 {
     position: absolute;
-    width: 712px;
-    height: 279px;
-    left: 197px;
-    top: 590px;
+    width: 661px;
+    height: 226px;
+    left: 84px;
+    top: 61px;
 
-    font-family: 'Neucha';
+    font-family: 'Reggae One';
     font-style: normal;
     font-weight: 400;
     font-size: 80px;
-    line-height: 88px;
-    display: flex;
-    align-items: center;
+    line-height: 100%;
+    /* or 80px */
 
-    color: #fff621;
-    -webkit-text-stroke: 1px #000000;
+    color: #ffffff;
   }
 
   .text2 {
     position: absolute;
-    width: 712px;
-    height: 1166px;
-    left: 1108px;
-    top: 181px;
+    width: 661px;
+    height: 226px;
+    left: 299px;
+    top: 270px;
 
-    font-family: 'Neucha';
+    font-family: 'Reggae One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100%;
+    /* or 80px */
+
+    color: #ffffff;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 661px;
+    height: 226px;
+    left: 299px;
+    top: 496px;
+
+    font-family: 'Reggae One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100%;
+    /* or 80px */
+
+    color: #ffffff;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 661px;
+    height: 226px;
+    left: 299px;
+    top: 722px;
+
+    font-family: 'Reggae One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100%;
+    /* or 80px */
+
+    color: #ffffff;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 661px;
+    height: 226px;
+    left: 299px;
+    top: 948px;
+
+    font-family: 'Reggae One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100%;
+    /* or 80px */
+
+    color: #ffffff;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 925px;
+    height: 226px;
+    left: 35px;
+    top: 1137px;
+
+    font-family: 'Reggae One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 100%;
+    /* or 150px */
+
+    color: #ffffff;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 661px;
+    height: 1156px;
+    left: 1114px;
+    top: 145px;
+
+    font-family: 'Reggae One';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    line-height: 33px;
-    display: flex;
-    align-items: center;
+    line-height: 100%;
+    /* or 30px */
 
-    color: #ff8514;
+    text-align: center;
 
-    -webkit-text-stroke: 1px #ff0000;
-  }
-
-  .video1 {
-    position: absolute;
-    width: 491px;
-    height: 354px;
-    left: 72px;
-    top: 121px;
-    object-fit: cover;
-  }
-
-  .video2 {
-    position: absolute;
-    width: 491px;
-    height: 354px;
-    left: 392px;
-    top: 986px;
-    object-fit: cover;
+    color: #ffffff;
   }
 }

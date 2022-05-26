@@ -6,42 +6,54 @@ import styles from './page2526.module.scss';
 const Page2526 = () => {
   return (
     <div className={styles.wrapper}>
+      <div className={styles.image1}>
+        <Image src={`${DIGIFIZZY_S3}/13/images/2526_back.png`} width={1920} height={1497} />
+      </div>
       <div className={styles.text1}>
-        The excesses of siloed web2 giants such as Google and Facebook were symptomatic of the very
-        same illness that the cypherpunks were warning us about all along – there’s no such thing as
-        a free lunch when it’s your privacy on the menu. Everyone’s one contract breach away from
-        damnatio memoriae – expunged from memory, removed from the game.
+        During the Renaissance period, new methods of encoding information were also developed,
+        including a popular early method of binary encoding invented in 1623 by the noted polymath
+        Sir Francis Bacon.
+        <br />
+        In the 1790s, Thomas Jefferson described, but perhaps never built, a major breakthrough in
+        cryptography. His cypher wheel invention included 36 rings of letters on moving wheels that
+        could be used for complex encoding.
         <br />
         <br />
-        Cryptographic security is indispensable to crypto, which is par for the course for a
-        technology based as heavily as the space is in cryptography. As cryptoassets have now
-        reached a total market cap of around several trillion dollars, security has come at the
-        front and center of the industry – as the great equalizer against any entity that wishes to
-        challenge an individual’s true sovereignty.
+        This was such an advanced concept that it would serve as the foundation for American
+        military cryptography until the end of World War II.
         <br />
         <br />
-        Cryptographic protocols such as byzantine fault tolerant consensus algorithms, for instance,
-        ensure that most, if not all relevant stakeholders have cast their vote and authenticated
-        that any transaction is left on the blockchain. Immutability, on the other hand, ensures
-        that no one else can change the ledger or override transactions willy-nilly.
+        During World War II, the Enigma machine would be the perfect example of analogue
+        cryptography. This Axis device, like the wheel cypher, used rotating wheels to encode a
+        message, making it nearly impossible to read without another Enigma.
+        <br />
+        The earliest computer technologies were eventually employed to crack the Enigma cypher. To
+        this very day, the success with which the Allies were able to decrypt the Enigma cypher
+        remains venerated by the victors as a critical component of their eventual victory.
+        <br />
+        The 21st century heralded the advancement of cryptography far beyond its analogue
+        counterpart. Many sensitive devices and computer systems now use
       </div>
       <div className={styles.text2}>
-        Everything needs to be appended. Such protocols ensure that communications are received only
-        by those authorized to handle it accordingly.
+        128-bit mathematical encryption, which is far more powerful than any ancient or medieval
+        cypher.
         <br />
+        Beginning in 1990, computer scientists were working on an entirely new type of cryptography
+        known as quantum cryptography in the hopes of increasing the level of security provided by
+        modern encryption.
         <br />
-        The new technologies being implemented in digital currencies are heavily drawn from the
-        latest advancements in computer science, from self-sovereign identities (SSIs) that
-        disintermediate traditional ID verification systems using zero-knowledge proofs that provide
-        an added layer of privacy in the quest to solve the questions of anonymity and fungibility
-        in an era where sacred cows at the altar of privacy exist no further.
+        Cryptographic techniques have recently been used to make cryptocurrencies possible.
+        Cryptocurrencies use advanced cryptographic techniques such as hash functions, public-key
+        cryptography, and digital signatures. These methods are primarily used to secure data stored
+        on blockchains and to authenticate transactions. An Elliptical Curve Digital Signature
+        Algorithm (ECDSA) is a type of cryptography that forms the basis of Bitcoin, Ethereum and
+        other cryptocurrency systems in order to provide additional security and ensure that funds
+        are only used by their rightful owners.
         <br />
-        <br />
-        Cryptographic advances offer an alternative path, as it were, towards a truly decentralized
-        identity protocol that enable individuals to reveal exactly how, when, where, and under what
-        circumstances they show a particular piece of personal information to any entity requesting
-        for it – without trading back individual agency or personal privacy. Talk about taking the
-        power back.
+        Cryptography has advanced significantly over the last 4,000 years, and it is unlikely to
+        slow down anytime soon. Cryptography will continue to advance as long as sensitive data
+        needs to be protected. Although the cryptographic systems used in cryptocurrency blockchains
+        today are among the most advanced, they are also part of a long tradition.
       </div>
     </div>
   );

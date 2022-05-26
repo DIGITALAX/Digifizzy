@@ -7,37 +7,45 @@
   display: flex;
   position: relative;
 
+  .image1 {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    top: 0;
+    left: 0;
+  }
+
   .text1 {
     position: absolute;
-    width: 609px;
-    height: 1276px;
-    left: 139px;
-    top: 122px;
+    width: 767px;
+    height: 1274px;
+    left: 90px;
+    top: 111px;
 
-    font-family: 'Azeret Mono';
+    font-family: 'Kumbh Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    line-height: 100%;
-    /* or 30px */
+    line-height: 150%;
+    /* or 45px */
 
-    color: #000000;
+    color: #ffffff;
   }
 
   .text2 {
     position: absolute;
-    width: 609px;
-    height: 1276px;
-    left: 1151px;
-    top: 122px;
+    width: 767px;
+    height: 1274px;
+    left: 1074px;
+    top: 111px;
 
-    font-family: 'Azeret Mono';
+    font-family: 'Kumbh Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    line-height: 100%;
-    /* or 30px */
+    line-height: 150%;
+    /* or 45px */
 
-    color: #000000;
+    color: #ffffff;
   }
 }

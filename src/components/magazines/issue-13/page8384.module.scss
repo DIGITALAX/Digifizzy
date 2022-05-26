@@ -2,40 +2,12 @@
 
 .wrapper {
   @include magazineWrapper();
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 
   .imageBackground {
     width: 1920px;
     height: 1497px;
     left: 0;
     top: 0;
-  }
-
-  .rect1 {
-    position: absolute;
-    width: 835px;
-    height: 1135px;
-    left: 75px;
-    top: 59px;
-    
-    background: #000000;    
-  }
-
-  .text1 {
-    position: absolute;
-    width: 707px;
-    height: 1039px;
-    left: 139px;
-    top: 121px;
-    
-    font-family: 'Newsreader';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 30px;
-    text-align: center;
-    color: #FFFFFF;
-    
-    -webkit-text-stroke: 0.3px #844AFF;
   }
 }

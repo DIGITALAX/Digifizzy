@@ -16,45 +16,43 @@
 
   .text1 {
     position: absolute;
-    width: 712px;
-    height: 1166px;
-    left: 158px;
-    top: 156px;
+    width: 661px;
+    height: 1156px;
+    left: 150px;
+    top: 110px;
 
-    font-family: 'New Rocker';
+    font-family: 'Reggae One';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 37px;
-    display: flex;
-    align-items: center;
+    font-size: 32px;
+    line-height: 100%;
+    /* or 32px */
 
-    color: #ff8514;
+    text-align: center;
 
-    -webkit-text-stroke: 1px #ff0000;
+    color: #ffffff;
+
+    -webkit-text-stroke: 1px #000000;
   }
 
-  .video1 {
+  .text2 {
     position: absolute;
-    width: 491px;
-    height: 354px;
-    left: 1246px;
-    top: 72px;
-  }
+    width: 661px;
+    height: 1156px;
+    left: 1117px;
+    top: 106px;
 
-  .video2 {
-    position: absolute;
-    width: 491px;
-    height: 354px;
-    left: 1246px;
-    top: 479px;
-  }
+    font-family: 'Reggae One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 100%;
+    /* or 25px */
 
-  .video3 {
-    position: absolute;
-    width: 491px;
-    height: 354px;
-    left: 1246px;
-    top: 886px;
+    text-align: center;
+
+    color: #ffffff;
+
+    -webkit-text-stroke: 1px #000000;
   }
 }

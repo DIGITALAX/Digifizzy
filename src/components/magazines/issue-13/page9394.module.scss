@@ -2,8 +2,6 @@
 
 .wrapper {
   @include magazineWrapper();
-  background: #5e0b4b;
-  color: black;
 
   .imageBackground {
     position: absolute;
@@ -15,36 +13,50 @@
 
   .text1 {
     position: absolute;
-    width: 884px;
-    height: 232px;
-    left: 38px;
-    top: 24px;
+    width: 1191px;
+    height: 681px;
+    left: 65px;
+    top: -75px;
 
-    font-family: 'Imprima';
+    font-family: 'Summer Love';
     font-style: normal;
     font-weight: 400;
     font-size: 200px;
-    line-height: 232px;
-    /* identical to box height */
+    line-height: 230px;
+    display: flex;
+    align-items: center;
 
-    color: #ffffff;
+    color: #ea5722;
   }
 
-  .link1 {
+  .text2 {
     position: absolute;
-    width: 451px;
-    height: 116px;
-    left: 471px;
-    top: 232px;
+    width: 789px;
+    height: 397px;
+    left: 65px;
+    top: 550px;
 
-    font-family: 'Imprima';
+    font-family: 'Summer Love';
     font-style: normal;
     font-weight: 400;
-    font-size: 100px;
-    line-height: 116px;
-    /* identical to box height */
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
 
-    color: #ffffff;
+    color: #ff9c79;
+
+    -webkit-text-stroke: 0.5px #ffffff;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    left: 102px;
+    top: 994px;
+    border-radius: 50%;
+    border: 30px solid #e6e6c4;
     transition: all ease 0.3s;
 
     &:hover {
@@ -53,206 +65,116 @@
     }
   }
 
-  .text2 {
+  .image2 {
     position: absolute;
-    width: 695px;
-    height: 72px;
-    left: 48px;
-    top: 398px;
+    width: 225px;
+    height: 225px;
+    left: 548px;
+    top: 1183px;
+    border-radius: 50%;
+    border: 30px solid #e6e6c4;
+    transition: all ease 0.3s;
 
-    font-family: 'Junge';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-
-    color: #ffc46a;
-    -webkit-text-stroke: 1px #ffc36a;
-  }
-
-  .text3 {
-    position: absolute;
-    width: 764px;
-    height: 552px;
-    left: 48px;
-    top: 441px;
-
-    font-family: 'Junge';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-
-    color: #ffffff;
-
-    -webkit-text-stroke: 0.3px #ffc36a;
-
-    a {
-      text-decoration: underline;
-      color: white;
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
     }
   }
 
-  .text4 {
+  .image3 {
     position: absolute;
-    width: 695px;
-    height: 168px;
-    left: 48px;
-    top: 1105px;
+    width: 225px;
+    height: 225px;
+    left: 1095px;
+    top: 51px;
 
-    font-family: 'Junge';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
+    border-radius: 50%;
+    border: 30px solid #e6e6c4;
+    transition: all ease 0.3s;
 
-    color: #ffc46a;
-    -webkit-text-stroke: 1px #ffc36a;
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
   }
 
-  .text5 {
+  .image4 {
     position: absolute;
-    width: 764px;
-    height: 120px;
-    left: 50px;
-    top: 1305px;
+    width: 225px;
+    height: 225px;
+    left: 1336px;
+    top: 394px;
 
-    font-family: 'Junge';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
+    border-radius: 50%;
+    border: 30px solid #e6e6c4;
+    transition: all ease 0.3s;
 
-    color: #ffffff;
-    -webkit-text-stroke: 0.3px #ffc36a;
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
   }
 
-  .text6 {
+  .image5 {
     position: absolute;
-    left: 52.86%;
-    right: 24.01%;
-    top: -0.67%;
-    bottom: 79.83%;
+    width: 225px;
+    height: 225px;
+    left: 1244px;
+    top: 772px;
 
-    font-family: 'Junge';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
+    border-radius: 50%;
+    border: 30px solid #e6e6c4;
+    transition: all ease 0.3s;
 
-    color: #ffffff;
-
-    -webkit-text-stroke: 0.3px #ffc36a;
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
   }
 
-  .text7 {
+  .image6 {
     position: absolute;
-    width: 369px;
-    height: 144px;
-    left: 1140px;
-    top: 753px;
+    width: 225px;
+    height: 225px;
+    left: 1299px;
+    top: 1219px;
 
-    font-family: 'Junge';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
+    border-radius: 50%;
+    border: 30px solid #e6e6c4;
+    transition: all ease 0.3s;
 
-    color: #ffc46a;
-    -webkit-text-stroke: 1px #ffc36a;
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
   }
 
-  .text8 {
+  .image7 {
     position: absolute;
-    width: 319px;
-    height: 552px;
-    left: 1140px;
-    top: 911px;
+    width: 225px;
+    height: 225px;
+    left: 1658px;
+    top: 165px;
 
-    font-family: 'Junge';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
+    border-radius: 50%;
+    border: 30px solid #e6e6c4;
+    transition: all ease 0.3s;
 
-    color: #ffffff;
-    -webkit-text-stroke: 0.3px #ffc36a;
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
   }
 
-  .text9 {
+  .image8 {
     position: absolute;
-    width: 301px;
-    height: 120px;
-    left: 1575px;
-    top: 773px;
+    width: 225px;
+    height: 225px;
+    left: 1635px;
+    top: 956px;
 
-    font-family: 'Junge';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-
-    color: #ffc46a;
-    -webkit-text-stroke: 1px #ffc36a;
-  }
-
-  .text10 {
-    position: absolute;
-    width: 285px;
-    height: 96px;
-    left: 1575px;
-    top: 908px;
-
-    font-family: 'Junge';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-
-    color: #ffffff;
-    -webkit-text-stroke: 0.3px #ffc36a;
-  }
-
-  .text11 {
-    position: absolute;
-    width: 301px;
-    height: 72px;
-    left: 1575px;
-    top: 1034px;
-
-    font-family: 'Junge';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-
-    color: #ffc46a;
-    -webkit-text-stroke: 1px #ffc36a;
-  }
-
-  .text12 {
-    position: absolute;
-    width: 285px;
-    height: 144px;
-    left: 1575px;
-    top: 1121px;
-
-    font-family: 'Junge';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-
-    color: #ffffff;
-    -webkit-text-stroke: 0.3px #ffc36a;
-  }
-
-  .link2 {
-    position: absolute;
-    width: 232px;
-    height: 232px;
-    left: 1688px;
-    top: 0px;
+    border-radius: 50%;
+    border: 30px solid #e6e6c4;
     transition: all ease 0.3s;
 
     &:hover {

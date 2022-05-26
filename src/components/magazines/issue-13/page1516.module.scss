@@ -9,348 +9,157 @@
 
   .leftImage {
     position: absolute;
-    width: 960px;
+    width: 1920px;
     height: 1497px;
     left: 0px;
     top: 0px;
   }
 
-  .rightImage {
+  .link1,
+  .link2,
+  .link3,
+  .link4 {
+    transition: ease all 0.3s;
+
+    &:hover {
+      transform: scale(1.05);
+      transition: ease all 0.3s;
+    }
+  }
+
+  .link1 {
     position: absolute;
-    width: 960px;
-    height: 1496.91px;
-    left: 960px;
-    top: 0px;
+    width: 770px;
+    height: 64px;
+    left: 25px;
+    top: 28px;
+
+    font-family: 'Beth Ellen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 150%;
+    /* or 75px */
+
+    color: #ffffff;
+  }
+
+  .link2 {
+    position: absolute;
+    width: 770px;
+    height: 64px;
+    left: 190px;
+    top: 92px;
+
+    font-family: 'Beth Ellen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 150%;
+    /* or 75px */
+
+    color: #ffffff;
+  }
+
+  .link3 {
+    position: absolute;
+    width: 770px;
+    height: 64px;
+    left: 47px;
+    top: 155px;
+
+    font-family: 'Beth Ellen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 150%;
+    /* or 75px */
+
+    color: #ffffff;
+  }
+
+  .link4 {
+    position: absolute;
+    width: 770px;
+    height: 64px;
+    left: 47px;
+    top: 219px;
+
+    font-family: 'Beth Ellen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 150%;
+    /* or 75px */
+
+    color: #ffffff;
   }
 
   .text1 {
     position: absolute;
-    width: 547px;
-    height: 169px;
-    left: 1021px;
-    top: 45px;
+    width: 874px;
+    height: 310px;
+    left: 47px;
+    top: 358px;
 
-    font-family: 'Archie Websters';
+    font-family: 'Berkeley';
     font-style: normal;
     font-weight: 400;
-    font-size: 130px;
-    line-height: 110%;
-    /* or 143px */
+    font-size: 23px;
+    line-height: 80%;
+    /* or 18px */
 
-    color: #ffffff;
+    color: #000000;
   }
 
   .text2 {
     position: absolute;
-    width: 389px;
-    height: 98px;
-    left: 1138px;
-    top: 251px;
+    width: 874px;
+    height: 633px;
+    left: 43px;
+    top: 784px;
 
-    font-family: Mada;
-    font-size: 15px;
-    line-height: 16.5px;
+    font-family: 'Berkeley';
+    font-style: normal;
     font-weight: 400;
+    font-size: 40px;
+    line-height: 90%;
+    /* or 36px */
 
-    b {
-      font-family: 'Mad Galaxy Demo';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 17px;
-      line-height: 110%;
-    }
-
-    /* or 19px */
-
-    color: #ffffff;
+    color: #6100ff;
   }
 
   .text3 {
     position: absolute;
-    width: 506px;
-    height: 87px;
-    left: 1021px;
-    top: 337px;
+    width: 768px;
+    height: 310px;
+    left: 1062px;
+    top: 42px;
 
-    font-family: 'Mada';
+    font-family: 'Berkeley';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 110%;
-    /* or 17px */
+    font-size: 30px;
+    line-height: 80%;
+    /* or 24px */
 
     color: #ffffff;
   }
 
   .text4 {
     position: absolute;
-    width: 700px;
-    height: 66px;
-    left: 983px;
-    top: 487px;
+    width: 778px;
+    height: 310px;
+    left: 1068px;
+    top: 806px;
 
-    font-family: 'Archie Websters';
+    font-family: 'Berkeley';
     font-style: normal;
     font-weight: 400;
-    font-size: 100px;
-    line-height: 110%;
-    /* or 110px */
+    font-size: 35px;
+    line-height: 80%;
+    /* or 28px */
 
-    color: #ffffff;
-  }
-
-  .text5 {
-    position: absolute;
-    width: 423px;
-    height: 211px;
-    left: 1143px;
-    top: 643px;
-
-    font-family: Mada;
-    font-size: 15px;
-    line-height: 16.5px;
-    font-weight: 400;
-
-    b {
-      font-family: 'Mad Galaxy Demo';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 17px;
-      line-height: 110%;
-      /* or 19px */
-      text-transform: uppercase;
-    }
-
-    color: #ffffff;
-  }
-
-  .text6 {
-    position: absolute;
-    width: 700px;
-    height: 52px;
-    left: 983px;
-    top: 885px;
-
-    font-family: 'Archie Websters';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 100px;
-    line-height: 110%;
-    /* or 110px */
-
-    color: #ffffff;
-  }
-
-  .text7 {
-    position: absolute;
-    width: 700px;
-    height: 52px;
-    left: 1523px;
-    top: 885px;
-
-    font-family: 'Archie Websters';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 100px;
-    line-height: 110%;
-    /* or 110px */
-
-    color: #ffffff;
-  }
-
-  .text8 {
-    position: absolute;
-    width: 708px;
-    height: 164px;
-    left: 1168px;
-    top: 1007px;
-
-    font-family: Mada;
-    font-size: 15px;
-    line-height: 16.5px;
-    font-weight: 400;
-
-    b {
-      text-transform: uppercase;
-      font-family: 'Mad Galaxy Demo';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 17px;
-      line-height: 110%;
-      /* or 19px */
-    }
-
-    color: #ffffff;
-  }
-
-  .text9 {
-    position: absolute;
-    width: 700px;
-    height: 52px;
-    left: 983px;
-    top: 1183px;
-
-    font-family: 'Archie Websters';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 100px;
-    line-height: 110%;
-    /* or 110px */
-
-    color: #ffffff;
-  }
-
-  .text10 {
-    position: absolute;
-    width: 700px;
-    height: 52px;
-    left: 1522px;
-    top: 1183px;
-
-    font-family: 'Archie Websters';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 100px;
-    line-height: 110%;
-    /* or 110px */
-
-    color: #ffffff;
-  }
-
-  .text11 {
-    position: absolute;
-    width: 710px;
-    height: 152px;
-    left: 1168px;
-    top: 1314px;
-
-    font-family: Mada;
-    font-size: 15px;
-    line-height: 16.5px;
-    font-weight: 400;
-
-    b {
-      text-transform: uppercase;
-      font-family: 'Mad Galaxy Demo';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 17px;
-      line-height: 110%;
-      /* or 19px */
-    }
-
-    color: #ffffff;
-  }
-
-  .text12 {
-    position: absolute;
-    width: 23px;
-    height: 630px;
-    left: 1592px;
-    top: 46px;
-
-    font-family: 'Archie Websters';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 80px;
-    line-height: 110%;
-    /* or 88px */
-
-    color: #ffffff;
-  }
-
-  .text13 {
-    position: absolute;
-    width: 88px;
-    height: 113px;
-    left: 1781px;
-    top: 64px;
-    font-family: Mada;
-    font-size: 15px;
-    line-height: 16.5px;
-    font-weight: 400;
-
-    b {
-      text-transform: uppercase;
-      font-family: 'Mad Galaxy Demo';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 17px;
-      line-height: 110%;
-      /* or 19px */
-    }
-
-    color: #ffffff;
-  }
-
-  .text14 {
-    position: absolute;
-    width: 189px;
-    height: 696px;
-    left: 1675px;
-    top: 156px;
-
-    font-family: 'Mada';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 110%;
-    /* or 17px */
-
-    color: #ffffff;
-  }
-
-  .image1,
-  .image2,
-  .image3,
-  .image4,
-  .image5 {
-    border-radius: 50%;
-
-    transition: all ease 0.3s;
-    &:hover {
-      transform: scale(1.03);
-      transition: all ease 0.3s;
-    }
-  }
-
-  .image1 {
-    position: absolute;
-    width: 96px;
-    height: 96px;
-    left: 1024px;
-    top: 238px;
-  }
-
-  .image2 {
-    position: absolute;
-    width: 96px;
-    height: 96px;
-    left: 1021px;
-    top: 663px;
-  }
-
-  .image3 {
-    position: absolute;
-    width: 96px;
-    height: 96px;
-    left: 1021px;
-    top: 1019px;
-  }
-
-  .image4 {
-    position: absolute;
-    width: 96px;
-    height: 96px;
-    left: 1021px;
-    top: 1320px;
-  }
-
-  .image5 {
-    position: absolute;
-    width: 96px;
-    height: 96px;
-    left: 1675px;
-    top: 50px;
+    color: #000000;
   }
 }

@@ -6,7 +6,7 @@ import styles from './page2930.module.scss';
 const Page2930 = () => (
   <div className={styles.wrapper}>
     <video autoPlay muted loop className={styles.video1}>
-      <source src={`${DIGIFIZZY_S3}/12/videos/2930_video.mp4`} type="video/mp4" />
+      <source src={`${DIGIFIZZY_S3}/13/videos/2930_video.mp4`} type="video/mp4" />
     </video>
     <div className={styles.rect1} />
     <h1>SUSTAINABILITY PIONEERS</h1>
@@ -15,75 +15,82 @@ const Page2930 = () => (
     <div className={styles.middleLine2} />
 
     <div className={styles.image1}>
-      <Image src={`${DIGIFIZZY_S3}/12/images/2930_image1.png`} width={827} height={256} />
+      <Image src={`${DIGIFIZZY_S3}/13/images/2930_image1.png`} width={300} height={229} />
     </div>
     <div className={styles.image2}>
-      <Image src={`${DIGIFIZZY_S3}/12/images/2930_image1.png`} width={827} height={256} />
+      <Image src={`${DIGIFIZZY_S3}/13/images/2930_image1.png`} width={300} height={229} />
+    </div>
+    <div className={styles.image3}>
+      <Image src={`${DIGIFIZZY_S3}/13/images/2930_image1.png`} width={300} height={229} />
+    </div>
+    <div className={styles.image4}>
+      <Image src={`${DIGIFIZZY_S3}/13/images/2930_image1.png`} width={300} height={229} />
+    </div>
+    <div className={styles.image5}>
+      <Image src={`${DIGIFIZZY_S3}/13/images/2930_image1.png`} width={300} height={229} />
+    </div>
+    <div className={styles.image6}>
+      <Image src={`${DIGIFIZZY_S3}/13/images/2930_image1.png`} width={300} height={229} />
     </div>
 
-    <div className={styles.text1}>Sustainability in the Digital Age</div>
     <div className={styles.text2}>
-      For decades now, the ever encroaching concern of impending environmental catastrophe has been
-      widely ignored even while hotly debated.
+      Usually we dedicate these pages of the zine to focusing on protocols, projects and people
+      advancing some novel angle towards environmental sustainability. However, when you dig deeper
+      into the causes of climate, energy and natural resource impacts emerging from human activity,
+      economic sustainability is really the core driver of them all.
       <br />
       <br />
-      Sustainability has finally begun to become more than just a virtue signaling cause célèbre,
-      with the direct socioeconomic, military, and personal security benefits of independence from
-      fossil fuels being entirely obvious and the consequences of continue to bury our heads in the
-      hopes that everything will somehow work out on its own piling far too high.
+      It’s fitting in this light to discuss one of the biggest crypto project collapses since Mt Gox
+      and what this means for the space as a whole— Terra, UST and Kwon,
+      <br />
+      <br />
+      By now, you’ve all probably caught up on the news or even been impacted directly. In mid May
+      the worst fears for any uncollateralized stablecoin came to fruition with rapid radically
+      depegging and the collapse of its paired currency.
+      <br />
+      <br />
+      Both UST and LUNA entered a doom spiral as the vast majority of all holders ran for the exits.
+      Liquidity was pulled from all directions.
     </div>
     <div className={styles.text3}>
-      But, yet, still, far too often most of the talk about sustainability is just the same circles
-      repeating the same words around and around, with little new insight to be gained. Forget
-      actual improvements in emissions reductions.
+      So, what exactly <br />
+      went wrong?
     </div>
     <div className={styles.text4}>
-      One little talked about but actually novel way to look at sustainability is to consider the
-      footprints and wasteful byproducts we leave in our digital lives.
+      The main cause can easily be traced back to the massive ego and increasingly strange public
     </div>
     <div className={styles.text5}>
-      When talking about waste, we have to ask ourselves, what is it that something could be doing
-      or accomplishing for us that it currently isn’t. Waste, afterall, is a matter of perspective.
-      Like sawdust seen through more imaginative eyes becoming the entire charcoal industry and
-      every
+      behaviour of its core founder, Do Kwon. The amount of legitimate warnings that he received
+      about the possible structural weaknesses and vulnerabilities of UST were insurmountable since
+      launch. If you take a quick scroll through the self styled Master of Stablecoin’s twitter
+      feed, you’ll see petty little ad hominem attacks against anyone who dared to question him.
+      Now, just because Do Kwon has shown himself to be a total jerk in response to valid questions
     </div>
     <div className={styles.text6}>
-      lovely afternoon BBQ on a hot summer day that has enabled, what more could each item in our
-      digital lives be doing for us?
-      <br />
-      <br />
-      There is afterall a sizeable difference between a dress you buy and never wear, while it sits
-      there taking up space in a physical closet in what is likely if you live in an urban area, far
-      too cramped of an apartment, compared to an item
+      doesn’t mean his claims to architectural supremacy are wrong. But the total hypocrisy on
+      display, where he expected to have his claims judged fairly while he ignored the merits of
+      anyone else’s arguments, should have sent red flags flying everywhere. As we saw with the
+      sudden collapse of UST and Luna, it turned out his claims actually didn’t have merit either.
     </div>
     <div className={styles.text7}>
-      of clothing that you actually wear physically or digitally on a regular basis.
-      <br />
-      <br />
-      If each thing you buy
+      And what’s even more concerning is that the core message for UST/LUNA’s existence was that “a
+      decentralised economy needs decentralised money”.
     </div>
     <div className={styles.text8}>
-      literally does more for you by having more features, more functionalities embedded within it,
-      the value becomes obvious and the degree to which it generates waste becomes radically reduced
-      or offset entirely.
+      A core coinciding pillar of decentralisation is transparency— and when it comes to economic
+      sustainability, transparency is a feature that is entirely necessary for any project, no
+      matter how big or small, to be sustained. Kwon’s project had and still has none of this.
     </div>
     <div className={styles.text9}>
-      It’s no longer waste if it is being used for good purpose. So what are some great examples of
-      digital assets being used to great effect with near zero waste?
+      And it’s not just Kwon, it’s the entire traditional financial economy— from the never ending
+      printing of evermore USD, to the total opaqueness of how the regulatory environment is
+      actually meant to work for anyone, to how limited access to financial products and services
+      for social mobility is for those that need it most.
       <br />
       <br />
-      One of the best is if you look in your pocket or your decentralised wallet, would be literally
-      or figuratively whatever keys you always carry with you. What doors, offices, playgrounds,
-      personal gyms, secret clubs or treasure boxes do those keys open? What music festivals do they
-      get you back stage access to? Really, when we talk about sustainability in a web3 context.
-      What we’ve seen so far is just barely scratching the surface of how much can be imagined to
-      convert previously wasteful by products into entirely new industries of wealth generating
-      network effects.
-      <br />
-      <br />
-      And the coolest thing about it all, is that as holders of hyper useful web3 assets become more
-      economically empowered to vote with our wallets for broader solutions to sustainability issues
-      everywhere.
+      As we improve on more of these economic blockers to sustainability, our power to do something
+      meaningful and truly mitigate the impacts of human activity on a global scale will grow
+      tremendously.
     </div>
   </div>
 );

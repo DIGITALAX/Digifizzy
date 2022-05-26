@@ -1,79 +1,348 @@
 @import './styles.module.scss';
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro');
 
 .wrapper {
   @include magazineWrapper();
-  background-color: #000000;
-  color: black;
+  color: white;
   display: flex;
   position: relative;
+  background: black;
+
+  .leftImage {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
 
   .text1 {
     position: absolute;
-    width: 729px;
-    height: 1220px;
-    left: 121px;
-    top: 124px;
+    width: 547px;
+    height: 169px;
+    left: 1021px;
+    top: 45px;
 
-    font-family: 'Brygada 1918';
-    font-style: italic;
+    font-family: 'Archie Websters';
+    font-style: normal;
     font-weight: 400;
-    font-size: 35px;
-    line-height: 100%;
-    /* or 35px */
+    font-size: 130px;
+    line-height: 110%;
+    /* or 143px */
 
     color: #ffffff;
   }
 
-  .circle1 {
+  .text2 {
     position: absolute;
-    width: 817px;
-    height: 770px;
-    left: 1052px;
-    top: -337px;
+    width: 389px;
+    height: 98px;
+    left: 1138px;
+    top: 251px;
 
-    border: 10px solid #000000;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 50px 10px #ff0000;
-    border-radius: 50%;
+    font-family: Mada;
+    font-size: 15px;
+    line-height: 16.5px;
+    font-weight: 400;
+
+    b {
+      font-family: 'Mad Galaxy Demo';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 110%;
+    }
+
+    /* or 19px */
+
+    color: #ffffff;
   }
 
-  .circle2 {
+  .text3 {
     position: absolute;
-    width: 188px;
-    height: 188px;
-    left: 1130px;
-    top: 525px;
+    width: 506px;
+    height: 87px;
+    left: 1021px;
+    top: 337px;
 
-    border: 10px solid #000000;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 50px 10px #ff6b00;
-    border-radius: 50%;
+    font-family: 'Mada';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    /* or 17px */
+
+    color: #ffffff;
   }
 
-  .circle3 {
+  .text4 {
     position: absolute;
-    width: 636px;
-    height: 636px;
-    left: 1388px;
-    top: 573px;
+    width: 700px;
+    height: 66px;
+    left: 983px;
+    top: 487px;
 
-    border: 10px solid #000000;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 50px 10px #001aff;
-    border-radius: 50%;
+    font-family: 'Archie Websters';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 110%;
+    /* or 110px */
+
+    color: #ffffff;
   }
 
-  .circle4 {
+  .text5 {
     position: absolute;
-    width: 78px;
-    height: 78px;
-    left: 1768px;
-    top: 1334px;
+    width: 423px;
+    height: 211px;
+    left: 1143px;
+    top: 643px;
 
-    border: 10px solid #000000;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 50px 10px #ff6b00;
+    font-family: Mada;
+    font-size: 15px;
+    line-height: 16.5px;
+    font-weight: 400;
+
+    b {
+      font-family: 'Mad Galaxy Demo';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 110%;
+      /* or 19px */
+      text-transform: uppercase;
+    }
+
+    color: #ffffff;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 700px;
+    height: 52px;
+    left: 983px;
+    top: 885px;
+
+    font-family: 'Archie Websters';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 110%;
+    /* or 110px */
+
+    color: #ffffff;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 700px;
+    height: 52px;
+    left: 1523px;
+    top: 885px;
+
+    font-family: 'Archie Websters';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 110%;
+    /* or 110px */
+
+    color: #ffffff;
+  }
+
+  .text8 {
+    position: absolute;
+    width: 708px;
+    height: 164px;
+    left: 1168px;
+    top: 1007px;
+
+    font-family: Mada;
+    font-size: 15px;
+    line-height: 16.5px;
+    font-weight: 400;
+
+    b {
+      text-transform: uppercase;
+      font-family: 'Mad Galaxy Demo';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 110%;
+      /* or 19px */
+    }
+
+    color: #ffffff;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 700px;
+    height: 52px;
+    left: 983px;
+    top: 1183px;
+
+    font-family: 'Archie Websters';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 110%;
+    /* or 110px */
+
+    color: #ffffff;
+  }
+
+  .text10 {
+    position: absolute;
+    width: 700px;
+    height: 52px;
+    left: 1522px;
+    top: 1183px;
+
+    font-family: 'Archie Websters';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 110%;
+    /* or 110px */
+
+    color: #ffffff;
+  }
+
+  .text11 {
+    position: absolute;
+    width: 710px;
+    height: 152px;
+    left: 1168px;
+    top: 1314px;
+
+    font-family: Mada;
+    font-size: 15px;
+    line-height: 16.5px;
+    font-weight: 400;
+
+    b {
+      text-transform: uppercase;
+      font-family: 'Mad Galaxy Demo';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 110%;
+      /* or 19px */
+    }
+
+    color: #ffffff;
+  }
+
+  .text12 {
+    position: absolute;
+    width: 23px;
+    height: 630px;
+    left: 1592px;
+    top: 46px;
+
+    font-family: 'Archie Websters';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 110%;
+    /* or 88px */
+
+    color: #ffffff;
+  }
+
+  .text13 {
+    position: absolute;
+    width: 88px;
+    height: 113px;
+    left: 1781px;
+    top: 64px;
+    font-family: Mada;
+    font-size: 15px;
+    line-height: 16.5px;
+    font-weight: 400;
+
+    b {
+      text-transform: uppercase;
+      font-family: 'Mad Galaxy Demo';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 110%;
+      /* or 19px */
+    }
+
+    color: #ffffff;
+  }
+
+  .text14 {
+    position: absolute;
+    width: 189px;
+    height: 696px;
+    left: 1675px;
+    top: 156px;
+
+    font-family: 'Mada';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    /* or 17px */
+
+    color: #ffffff;
+  }
+
+  .image1,
+  .image2,
+  .image3,
+  .image4,
+  .image5 {
     border-radius: 50%;
+
+    transition: all ease 0.3s;
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image1 {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    left: 1024px;
+    top: 238px;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    left: 1021px;
+    top: 663px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    left: 1021px;
+    top: 1019px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    left: 1021px;
+    top: 1320px;
+  }
+
+  .image5 {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    left: 1675px;
+    top: 50px;
   }
 }

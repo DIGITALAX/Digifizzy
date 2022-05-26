@@ -5,46 +5,31 @@ import styles from './page8788.module.scss';
 
 const Page8788 = () => (
   <div className={styles.wrapper}>
-    <video autoPlay muted loop className={styles.back}>
-      <source src={`${DIGIFIZZY_S3}/12/videos/8788_video1.mp4`} />
-    </video>
-    <div className={styles.rect1}></div>
-    <div className={styles.rect2}></div>
-    <div className={styles.rect3}></div>
-    <div className={styles.rect4}></div>
-
-    <div className={styles.text1}>
-      Working conditions plummeted in factories as enterprising industrialists sought to cut costs
-      as much as they could to stay ahead of the competition. And in spite of the relative economic
-      gains, the gap between the rich and the poor, the working class and the industrialists, the
-      haves and have nots, has just widened and widened centuries after the fact.
-      <br />
-      <br />
-      For every story of economic, political, societal and cultural upheaval brought on by the first
-      industrial revolution, there have been countless consequences on the systems that supported
-      life as we knew it then, and pushing environmental effects to the very precipice of its
-      tolerance.
-      <br />
-      <br />
-      Nevertheless, it is now 2022 and we’re on the verge of yet another Industrial Revolution
-      coming to pass as web3 takes flight – taking capital, manufacturing, production, and
-      creativity traverses from the physical to the digital plane.
-      <br />
-      <br />
-      Creators are raising capital for their NFT projects on their own smart contracts – with zero
-      intermediation. Not beholden to any platform or algorithm cultism. No personal information, no
-      data mined whatsoever. Every physical or digital creation tokenized and put on an immutable
-      ledger, ensuring complete and total ownership. DAOs to enable the liquidity of the vast
-      resources – with content, capital, contracts, and creativity in their hands.
+    <div className={styles.left}>
+      <Image src={`${DIGIFIZZY_S3}/13/images/8788_left.png`} width={960} height={1497} />
+    </div>
+    <div className={styles.right}>
+      <Image src={`${DIGIFIZZY_S3}/13/images/8788_right.png`} width={960} height={1497} />
     </div>
 
-    <video autoPlay muted loop className={styles.video1}>
-      <source src={`${DIGIFIZZY_S3}/12/videos/8788_video1.mp4`} />
-    </video>
-
-    <video autoPlay muted loop className={styles.video2}>
-      <source src={`${DIGIFIZZY_S3}/12/videos/8788_video2.mp4`} />
-    </video>
+    <div className={styles.text1}>
+      Widespread adoption may accelerate since the great majority of users would no longer need to
+      interact with the base layer or L1s on a regular basis through rollups, since everything is
+      performed off-chain, while a series of nodes provides an abridged state update to the Ethereum
+      mainnet to reflect the rollup itself. This is akin to a signature representing up to thousands
+      of transactions “rolled up” within the rollup.
+      <br />
+      <br />
+      Plenty of the knocks on Ethereum’s scaling challenges can be expected to be largely addressed
+      by ZK-rollups, leading to an influx of capital returning to Ethereum – which isn’t just a drop
+      in the bucket, either – that had previously moved towards faster-performing and much more
+      affordable smart-chains.
+      <br />
+      <br />
+      ZK-rollups will definitely revive DeFi from doldrums. Priced-out users who could not or would
+      not transact on Ethereum’s base layer due to exorbitant gas fees will be able to participate
+      even during times of increased network activity.
+    </div>
   </div>
 );
 

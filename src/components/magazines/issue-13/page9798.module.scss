@@ -3,113 +3,156 @@
 .wrapper {
   @include magazineWrapper();
   background: #000000;
-  color: #ffffff;
-
-  .imageBackground {
-    width: 1920px;
-    height: 1497px;
-    left: 0;
-    top: 0;
-  }
 
   .image1 {
     position: absolute;
-    width: 988px;
-    height: 152px;
-    left: 0px;
-    top: 916px;
+    width: 244px;
+    height: 244px;
+    left: 38px;
+    top: 115px;
   }
 
   .image2 {
     position: absolute;
-    width: 988px;
-    height: 152px;
+    width: 244px;
+    height: 244px;
+    left: 358px;
+    top: 115px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 244px;
+    height: 244px;
+    left: 678px;
+    top: 115px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 244px;
+    height: 244px;
+    left: 998px;
+    top: 1159px;
+  }
+
+  .image5 {
+    position: absolute;
+    width: 244px;
+    height: 244px;
+    left: 1318px;
+    top: 1159px;
+  }
+
+  .image6 {
+    position: absolute;
+    width: 244px;
+    height: 244px;
+    left: 1638px;
+    top: 1159px;
+  }
+
+  .video1 {
+    position: absolute;
+    width: 960px;
+    height: 538px;
     left: 0px;
-    top: 1133px;
+    top: 468px;
+  }
+
+  .video2 {
+    position: absolute;
+    width: 960px;
+    height: 538px;
+    left: 960px;
+    top: 468px;
   }
 
   .text1 {
     position: absolute;
-    width: 863px;
-    height: 951px;
-    left: 48px;
-    top: 82px;
-
-    font-family: 'Herculanum';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 100%;
-    /* or 30px */
-
-    color: #ff5c00;
-
-    -webkit-text-stroke: 1px #ff5c00;
-    box-sizing: border-box;
-  }
-
-  .text2 {
-    position: absolute;
-    width: 840px;
-    height: 39px;
-    left: 1024px;
-    top: 743px;
+    width: 1119px;
+    height: 251px;
+    left: 65px;
+    top: 1069px;
 
     font-family: 'Akira Expanded';
     font-style: normal;
     font-weight: 800;
-    font-size: 30px;
-    line-height: 35px;
-    text-align: center;
+    font-size: 75px;
+    line-height: 130px;
+    /* or 173% */
 
-    color: #575757;
+    color: #ffffff;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 668px;
+    height: 178px;
+    left: 38px;
+    top: 1408px;
+
+    font-family: 'Berkeley Mono Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #ffffff;
   }
 
   .text3 {
     position: absolute;
-    width: 757px;
-    height: 84px;
-    right: 103px;
-    bottom: 549px;
+    width: 668px;
+    height: 178px;
+    left: 1009px;
+    top: 34px;
 
-    font-family: 'Poppins';
+    font-family: 'Berkeley Mono Trial';
     font-style: normal;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 42px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
 
     color: #ffffff;
   }
 
   .text4 {
     position: absolute;
-    width: 757px;
-    height: 461px;
-    right: 103px;
-    bottom: 64px;
+    width: 1119px;
+    height: 251px;
+    left: 1084px;
+    top: 198px;
 
-    font-family: 'Poppins';
+    font-family: 'Akira Expanded';
     font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 25px;
-    /* or 139% */
+    font-weight: 800;
+    font-size: 75px;
+    line-height: 130px;
+    /* or 173% */
 
     color: #ffffff;
-
-    list-style: disc;
-
-    li {
-      margin-left: 20px;
-    }
   }
 
-  .video1 {
+  .play {
     position: absolute;
-    width: 960px;
-    height: 552px;
-    left: 960px;
-    top: 0px;
-    object-fit: cover;
+    width: 75px;
+    height: 75px;
+    left: 16px;
+    top: 381px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+  }
+
+  .play1 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 1827px;
+    top: 1017px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
   }
 }

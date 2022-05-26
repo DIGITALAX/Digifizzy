@@ -7,63 +7,79 @@
   color: #ffffff;
   background-color: #000000;
 
-  .circle1 {
+  .background {
     position: absolute;
-    width: 163px;
-    height: 163px;
-    left: 1255px;
-    top: 445px;
-
-    border: 10px solid #000000;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 50px 10px #001aff;
-    border-radius: 50%;
-  }
-
-  .circle2 {
-    position: absolute;
-    width: 1300px;
-    height: 1300px;
-    left: 1326px;
-    top: 413px;
-
-    border: 10px solid #000000;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 50px 10px #ff0000;
-    border-radius: 50%;
+    width: 1920px;
+    height: 1497px;
+    left: 0;
+    top: 0;
   }
 
   .text1 {
     position: absolute;
-    width: 729px;
-    height: 1220px;
-    left: 121px;
-    top: 124px;
+    width: 374px;
+    height: 309px;
+    left: 1022px;
+    top: 46px;
 
-    font-family: 'Brygada 1918';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 100%;
-    /* or 35px */
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120.53%;
+    /* or 24px */
 
-    color: #ffffff;
+    color: #000000;
   }
 
   .text2 {
     position: absolute;
-    width: 729px;
-    height: 1220px;
-    left: 1085px;
-    top: 124px;
+    width: 562px;
+    height: 1451px;
+    left: 1022px;
+    top: 336px;
 
-    font-family: 'Brygada 1918';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 100%;
-    /* or 35px */
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120.53%;
+    /* or 24px */
 
-    color: #ffffff;
+    color: #000000;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 624px;
+    height: 255px;
+    left: 1022px;
+    top: 907px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120.53%;
+    /* or 24px */
+
+    color: #000000;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 288px;
+    height: 325px;
+    left: 1022px;
+    top: 1172px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 120.53%;
+    /* or 14px */
+
+    color: #000000;
   }
 }
