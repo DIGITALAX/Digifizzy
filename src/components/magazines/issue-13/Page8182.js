@@ -52,6 +52,9 @@ const Page8182 = () => (
     <div className={styles.image5}>
       <Image src={`${DIGIFIZZY_S3}/13/images/8182_image5.png`} width={279} height={279} />
     </div>
+    <video autoPlay loop muted playsInline webkit-playsInline className={styles.video3}>
+      <source src={`${DIGIFIZZY_S3}/13/videos/7778_video1.mp4`} type="video/mp4" />
+    </video>
   </div>
 );
 

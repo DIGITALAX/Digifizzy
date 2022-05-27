@@ -1267,6 +1267,18 @@ class MyDocument extends Document {
               src: url("./fonts/BellotaText-Bold.ttf");
               font-weight: 700;
             }
+
+            @font-face {
+              font-family: "Graduate";
+              src: url("./fonts/Graduate-Regular.ttf");
+              font-weight: 700;
+            }
+
+            @font-face {
+              font-family: "Geeza Pro";
+              src: url("./fonts/Geeza Pro.ttf");
+              font-weight: 700;
+            }
           
             @font-face {
               font-family: 'News Cycle';
