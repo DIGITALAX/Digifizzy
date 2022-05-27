@@ -1,0 +1,165 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  color: white;
+  display: flex;
+  position: relative;
+  background: black;
+
+  .leftImage {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .link1,
+  .link2,
+  .link3,
+  .link4 {
+    transition: ease all 0.3s;
+
+    &:hover {
+      transform: scale(1.05);
+      transition: ease all 0.3s;
+    }
+  }
+
+  .link1 {
+    position: absolute;
+    width: 770px;
+    height: 64px;
+    left: 25px;
+    top: 28px;
+
+    font-family: 'Beth Ellen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 150%;
+    /* or 75px */
+
+    color: #ffffff;
+  }
+
+  .link2 {
+    position: absolute;
+    width: 770px;
+    height: 64px;
+    left: 190px;
+    top: 92px;
+
+    font-family: 'Beth Ellen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 150%;
+    /* or 75px */
+
+    color: #ffffff;
+  }
+
+  .link3 {
+    position: absolute;
+    width: 770px;
+    height: 64px;
+    left: 47px;
+    top: 155px;
+
+    font-family: 'Beth Ellen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 150%;
+    /* or 75px */
+
+    color: #ffffff;
+  }
+
+  .link4 {
+    position: absolute;
+    width: 770px;
+    height: 64px;
+    left: 47px;
+    top: 219px;
+
+    font-family: 'Beth Ellen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 150%;
+    /* or 75px */
+
+    color: #ffffff;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 874px;
+    height: 310px;
+    left: 47px;
+    top: 358px;
+
+    font-family: 'Berkeley';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 80%;
+    /* or 18px */
+
+    color: #000000;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 874px;
+    height: 633px;
+    left: 43px;
+    top: 784px;
+
+    font-family: 'Berkeley';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 90%;
+    /* or 36px */
+
+    color: #6100ff;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 768px;
+    height: 310px;
+    left: 1062px;
+    top: 42px;
+
+    font-family: 'Berkeley';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 80%;
+    /* or 24px */
+
+    color: #ffffff;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 778px;
+    height: 310px;
+    left: 1068px;
+    top: 806px;
+
+    font-family: 'Berkeley';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 80%;
+    /* or 28px */
+
+    color: #000000;
+  }
+}

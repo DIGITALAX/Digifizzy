@@ -1,0 +1,259 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: white;
+  color: white;
+  display: flex;
+  position: relative;
+
+  .video1 {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 1973px;
+    height: 1517px;
+    left: -49px;
+    top: 1px;
+
+    background: rgba(0, 0, 0, 0.49);
+  }
+
+  h1 {
+    position: absolute;
+    width: 1331px;
+    height: 400px;
+    left: 294px;
+    top: 590px;
+
+    font-family: Heaven Wanders DEMO;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 200px;
+    line-height: 100%;
+    /* or 200px */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .imageEarth {
+    position: absolute;
+    width: 116px;
+    height: 423px;
+    left: 903px;
+    top: 1074px;
+  }
+
+  .middleLine1 {
+    position: absolute;
+    width: 0px;
+    height: 515px;
+    left: 960px;
+    top: 0px;
+
+    border: 1px solid #ffffff;
+  }
+
+  .middleLine2 {
+    position: absolute;
+    width: 0px;
+    height: 423px;
+    left: 960px;
+    top: 1074px;
+
+    border: 0.5px solid #ffffff;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 300px;
+    height: 229px;
+    left: -19px;
+    top: 1268px;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 300px;
+    height: 229px;
+    left: 247px;
+    top: 1268px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 300px;
+    height: 229px;
+    left: 517px;
+    top: 1268px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 300px;
+    height: 229px;
+    left: 1105px;
+    top: 1268px;
+  }
+
+  .image5 {
+    position: absolute;
+    width: 300px;
+    height: 229px;
+    left: 1371px;
+    top: 1268px;
+  }
+
+  .image6 {
+    position: absolute;
+    width: 300px;
+    height: 229px;
+    left: 1641px;
+    top: 1268px;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 879px;
+    height: 583px;
+    left: 44px;
+    top: 17px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 120.53%;
+    /* or 33px */
+
+    color: #ffffff;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 473px;
+    height: 307px;
+    left: 44px;
+    top: 620px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 120.53%;
+    /* or 96px */
+
+    color: #ffffff;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 654px;
+    height: 583px;
+    left: 44px;
+    top: 927px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 120.53%;
+    /* or 33px */
+
+    color: #ffffff;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 831px;
+    height: 583px;
+    left: 44px;
+    top: 997px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 120.53%;
+    /* or 33px */
+
+    color: #ffffff;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 879px;
+    height: 280px;
+    left: 1000px;
+    top: 32px;
+
+    font-family: 'Reem Kufi';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120.53%;
+    /* or 48px */
+
+    color: #ffffff;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 440px;
+    height: 836px;
+    left: 1440px;
+    top: 468px;
+
+    font-family: 'Revalia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120.53%;
+    /* or 36px */
+
+    color: #ffffff;
+  }
+
+  .text8 {
+    position: absolute;
+    width: 591px;
+    height: 375px;
+    left: 1289px;
+    top: 780px;
+
+    font-family: 'Revalia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 120.53%;
+    /* or 30px */
+
+    color: #ffffff;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 838px;
+    height: 360px;
+    left: 1047px;
+    top: 1064px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120.53%;
+    /* or 24px */
+
+    color: #ffffff;
+  }
+}

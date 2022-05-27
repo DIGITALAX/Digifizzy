@@ -1,0 +1,53 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+
+  .imageBackground {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+    object-fit: cover;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 680px;
+    height: 300px;
+    left: 29px;
+    top: 39px;
+
+    font-family: 'Anek Kannada';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 150px;
+    line-height: 100px;
+    /* or 67% */
+
+    color: #ff6a00;
+
+    -webkit-text-stroke: 0.1px #000000;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 680px;
+    height: 300px;
+    left: 259px;
+    top: 1197px;
+
+    font-family: 'Anek Kannada';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 150px;
+    line-height: 100px;
+    /* or 67% */
+
+    text-align: right;
+
+    color: #ff6a00;
+    -webkit-text-stroke: 0.1px #000000;
+  }
+}

@@ -1,0 +1,85 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  color: #ffffff;
+  display: flex;
+  position: relative;
+  background-color: #000000;
+
+  .background {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0;
+    top: 0;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 374px;
+    height: 230px;
+    left: 1008px;
+    top: 63px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120.53%;
+    /* or 24px */
+
+    color: #ffffff;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 405px;
+    height: 207px;
+    left: 1008px;
+    top: 192px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120.53%;
+    /* or 24px */
+
+    color: #ffffff;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 585px;
+    height: 700px;
+    left: 1008px;
+    top: 380px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120.53%;
+    /* or 24px */
+
+    color: #ffffff;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 374px;
+    height: 403px;
+    left: 1008px;
+    top: 1044px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120.53%;
+    /* or 24px */
+
+    color: #ffffff;
+  }
+}

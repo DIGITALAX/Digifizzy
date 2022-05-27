@@ -1,0 +1,248 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: white;
+
+  .rect1 {
+    position: absolute;
+    width: 661px;
+    height: 1161px;
+    left: 150px;
+    top: 198px;
+    z-index: 2;
+
+    background: #000000;
+  }
+
+  .link1 {
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
+    transition: all ease 0.3s;
+
+    position: absolute;
+    width: 237px;
+    height: 60px;
+    top: 23px;
+    left: 996px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 817px;
+    height: 125px;
+    left: 72px;
+    top: 19px;
+
+    font-family: 'Simonetta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 125px;
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 597px;
+    height: 200px;
+    left: 318px;
+    top: 455px;
+
+    font-family: 'Gidugu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    /* or 100% */
+
+    color: #ff0000;
+  }
+
+  .text3 {
+    z-index: 3;
+    position: absolute;
+    width: 547px;
+    height: 1085px;
+    left: 207px;
+    top: 227px;
+
+    font-family: 'Simonetta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 347px;
+    height: 76px;
+    top: 95px;
+    right: 576px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    align-items: center;
+
+    color: #000000;
+  }
+  .text5 {
+    position: absolute;
+    width: 863px;
+    height: 1230px;
+    left: 998px;
+    top: 202px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 844px;
+    height: 55px;
+    left: 1029px;
+    top: 49px;
+
+    font-family: 'Gidugu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 100% */
+
+    color: #ffffff;
+    -webkit-text-stroke: 0.4px #000000;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 850px;
+    height: 200px;
+    left: 1029px;
+    top: 116px;
+
+    font-family: 'Gidugu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    /* or 100% */
+
+    color: #ff0000;
+  }
+
+  .text8 {
+    position: absolute;
+    width: 814px;
+    height: 55px;
+    left: 1029px;
+    top: 670px;
+
+    font-family: 'Gidugu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 100% */
+
+    text-align: right;
+
+    color: #ffffff;
+
+    -webkit-text-stroke: 0.4px #000000;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 819px;
+    height: 225px;
+    left: 1029px;
+    top: 736px;
+
+    font-family: 'Gidugu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    /* or 100% */
+
+    color: #ff0000;
+  }
+
+  .text10 {
+    position: absolute;
+    width: 814px;
+    height: 55px;
+    left: 1029px;
+    top: 1084px;
+
+    font-family: 'Gidugu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 100% */
+
+    color: #ffffff;
+    -webkit-text-stroke: 0.4px #000000;
+  }
+
+  .text11 {
+    position: absolute;
+    width: 819px;
+    height: 297px;
+    left: 1029px;
+    top: 1137px;
+
+    font-family: 'Gidugu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    /* or 100% */
+
+    color: #ff0000;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    top: 0;
+    left: 0;
+  }
+}

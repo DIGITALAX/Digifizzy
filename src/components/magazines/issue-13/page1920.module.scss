@@ -1,0 +1,178 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: #ffffff;
+  display: flex;
+  position: relative;
+
+  .rect1 {
+    position: absolute;
+    width: 883px;
+    height: 1420px;
+    left: 29px;
+    top: 38px;
+
+    background: #69529a;
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 883px;
+    height: 1420px;
+    left: 1007px;
+    top: 38px;
+
+    background: #69529a;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 851px;
+    height: 662px;
+    left: -165px;
+    top: 29px;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 873px;
+    height: 873px;
+    left: 45px;
+    top: 285px;
+  }
+
+  h1 {
+    position: absolute;
+    width: 1051px;
+    height: 165px;
+    left: -44px;
+    top: 960px;
+
+    font-family: PLAYPULL;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 130px;
+    line-height: 150%;
+    /* or 195px */
+
+    text-align: center;
+
+    color: #ecbe1d;
+
+    .impact1 {
+      font-family: Rugsnatcher DEMO;
+      color: #da283e;
+    }
+
+    .impact2 {
+      color: #da283e;
+    }
+
+    .impact3 {
+      font-family: Rugrats;
+      color: #f2ea27;
+    }
+  }
+
+  .text1 {
+    position: absolute;
+    width: 193px;
+    height: 102px;
+    left: 706px;
+    top: 151px;
+
+    font-family: 'Nella Sue Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 120.53%;
+    /* or 34px */
+
+    color: #ffffff;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 657px;
+    height: 52px;
+    left: 29px;
+    top: 1115px;
+
+    font-family: Mervale Script;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+
+    color: #000000;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 405px;
+    height: 120px;
+    left: 405px;
+    top: 1204px;
+
+    font-family: Beth Ellen;
+    font-size: 17px;
+    line-height: 150%;
+    color: #ffffff;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 826px;
+    height: 90px;
+    left: 1037px;
+    top: 87px;
+
+    font-family: Nella Sue Demo;
+    font-size: 75px;
+    line-height: 120.53%;
+    text-align: left;
+
+    color: #ffffff;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 812px;
+    height: 241px;
+    left: 1043px;
+    top: 185px;
+
+    font-family: Jockey One;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 348px;
+    height: 960px;
+    left: 1072px;
+    top: 484px;
+
+    font-family: Jacques Francois;
+    font-size: 15px;
+    line-height: 150%;
+    color: #ffffff;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 348px;
+    height: 967px;
+    left: 1477px;
+    top: 485px;
+
+    font-family: Jacques Francois;
+    font-size: 15px;
+    line-height: 150%;
+    color: #ffffff;
+  }
+}

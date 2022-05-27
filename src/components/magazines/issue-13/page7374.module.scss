@@ -1,0 +1,134 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: white;
+
+  .image1 {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .video1 {
+    position: absolute;
+    width: 454px;
+    height: 258px;
+    left: 1375px;
+    top: 260px;
+
+    object-fit: cover;
+  }
+
+  .video2 {
+    position: absolute;
+    width: 454px;
+    height: 258px;
+    left: 1309px;
+    top: 674px;
+    object-fit: cover;
+  }
+
+  .video3 {
+    position: absolute;
+    width: 454px;
+    height: 258px;
+    left: 1435px;
+    top: 1045px;
+
+    object-fit: cover;
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 1920px;
+    height: 131px;
+    left: 0px;
+    top: 1366px;
+
+    background: #000000;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 473px;
+    height: 1500px;
+    left: 51px;
+    top: 0px;
+
+    font-family: 'Sunflower';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 50px;
+    /* or 167% */
+
+    display: flex;
+    align-items: center;
+
+    color: #00501e;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 594px;
+    height: 100px;
+    left: 1255px;
+    top: 70px;
+
+    font-family: 'Sunflower';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 50px;
+    /* or 167% */
+
+    display: flex;
+    align-items: center;
+
+    color: #00501e;
+  }
+
+  .link {
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.05);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .link1 {
+    position: absolute;
+    width: 211px;
+    height: 68px;
+    left: 854px;
+    top: 1400px;
+
+    background: #00501e;
+    border-radius: 27px;
+
+    .linkText {
+      position: absolute;
+      width: 198px;
+      height: 19px;
+      left: 7px;
+      top: 26px;
+
+      font-family: 'Sunflower';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 16px;
+      /* or 50% */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      color: #ffffff;
+    }
+  }
+}

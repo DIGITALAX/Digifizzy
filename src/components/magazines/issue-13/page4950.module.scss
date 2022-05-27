@@ -1,0 +1,32 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+
+  background: white;
+
+  .text1 {
+    position: absolute;
+    width: 680px;
+    height: 1326px;
+    left: 138px;
+    top: 77px;
+
+    font-family: 'Anek Kannada';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 30px;
+    /* or 176% */
+
+    color: #ff6a00;
+  }
+
+  .image {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
+    top: 0px;
+  }
+}

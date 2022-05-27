@@ -1,0 +1,413 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: #91b02b;
+  display: flex;
+  position: relative;
+
+  .image1 {
+    position: absolute;
+    width: 960px;
+    height: 1497px;
+    left: 960px;
+    top: 0px;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 298px;
+    height: 298px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 185px;
+    height: 185px;
+    left: 1699px;
+    top: 29px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 304.5px;
+    height: 406px;
+    left: 1211px;
+    top: 1051px;
+  }
+
+  .image5 {
+    position: absolute;
+    width: 305px;
+    height: 406px;
+    left: 1564px;
+    top: 1051px;
+  }
+
+  .image6 {
+    position: absolute;
+    width: 304.5px;
+    height: 406px;
+    top: 748px;
+    right: 237.5px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 246px;
+    height: 50px;
+    left: 335px;
+    top: 29px;
+
+    font-family: 'Baloo Chettan 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 100%;
+    /* identical to box height, or 50px */
+
+    color: #d2f370;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 501px;
+    height: 70px;
+    left: 335px;
+    top: 112px;
+
+    font-family: 'Baloo Bhaina 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 100%;
+    /* identical to box height, or 70px */
+
+    color: #d2f370;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 501px;
+    height: 70px;
+    left: 428px;
+    top: 187px;
+
+    font-family: 'Baloo Bhaina 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 100%;
+    /* identical to box height, or 70px */
+
+    color: #d2f370;
+  }
+
+  .link1 {
+    position: absolute;
+    width: 390px;
+    height: 90px;
+    top: 20px;
+    left: 980px;
+
+    font-family: 'Krungthep';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 100%;
+    /* identical to box height, or 90px */
+
+    text-align: center;
+
+    color: #ffb800;
+    &:hover {
+      transform: scale(1.05);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .text4 {
+    position: absolute;
+    width: 501px;
+    height: 70px;
+    left: 284px;
+    top: 256px;
+
+    font-family: 'Baloo Bhaina 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 100%;
+    /* identical to box height, or 70px */
+
+    color: #d2f370;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 816px;
+    height: 58px;
+    left: 78px;
+    top: 346px;
+
+    font-family: 'Baloo Chettan 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #eeffe6;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 816px;
+    height: 116px;
+    left: 78px;
+    top: 418px;
+
+    font-family: 'Baloo Chettan 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #eeffe6;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 816px;
+    height: 87px;
+    left: 78px;
+    top: 560px;
+
+    font-family: 'Baloo Chettan 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #eeffe6;
+  }
+
+  .text8 {
+    position: absolute;
+    width: 816px;
+    height: 145px;
+    left: 78px;
+    top: 623px;
+
+    font-family: 'Baloo Chettan 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #eeffe6;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 816px;
+    height: 58px;
+    left: 78px;
+    top: 769px;
+
+    font-family: 'Baloo Chettan 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #eeffe6;
+  }
+
+  .text10 {
+    position: absolute;
+    width: 816px;
+    height: 145px;
+    left: 78px;
+    top: 795px;
+
+    font-family: 'Baloo Chettan 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #eeffe6;
+  }
+
+  .text11 {
+    position: absolute;
+    width: 816px;
+    height: 58px;
+    left: 78px;
+    top: 945px;
+
+    font-family: 'Baloo Chettan 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #eeffe6;
+  }
+
+  .text12 {
+    position: absolute;
+    width: 816px;
+    height: 174px;
+    left: 78px;
+    top: 971px;
+
+    font-family: 'Baloo Chettan 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #eeffe6;
+  }
+
+  .text13 {
+    position: absolute;
+    width: 816px;
+    height: 116px;
+    left: 78px;
+    top: 1142px;
+
+    font-family: 'Baloo Chettan 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #eeffe6;
+  }
+
+  .text14 {
+    position: absolute;
+    width: 816px;
+    height: 174px;
+    left: 78px;
+    top: 1237px;
+
+    font-family: 'Baloo Chettan 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #eeffe6;
+  }
+
+  .text15 {
+    position: absolute;
+    width: 224px;
+    height: 50px;
+    left: 1476px;
+    top: 29px;
+
+    font-family: 'Graduate';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 100%;
+    /* identical to box height, or 50px */
+
+    color: #ffffff;
+  }
+
+  .text16 {
+    position: absolute;
+    width: 678px;
+    height: 160px;
+    left: 995px;
+    top: 106px;
+
+    font-family: 'Baloo Chettan 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    /* or 20px */
+
+    color: #ffffff;
+  }
+
+  .text17 {
+    position: absolute;
+    width: 909px;
+    height: 460px;
+    left: 991px;
+    top: 266px;
+
+    font-family: 'Baloo Chettan 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 100%;
+    /* or 20px */
+
+    color: #ffffff;
+  }
+
+  .text18 {
+    position: absolute;
+    width: 311px;
+    height: 220px;
+    left: 991px;
+    top: 748px;
+
+    font-family: 'Baloo Chettan 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    /* or 20px */
+
+    color: #ffffff;
+  }
+
+  .imagePlayButton {
+    position: absolute;
+    width: 144px;
+    height: 144px;
+    left: 296px;
+    top: 908px;
+
+    img,
+    div {
+      transition: 0.3s all;
+      cursor: pointer;
+
+      &:hover {
+        transition: 0.3s all;
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  .imagePauseButton {
+    position: absolute;
+    width: 144px;
+    height: 144px;
+    left: 519px;
+    top: 908px;
+
+    img,
+    div {
+      transition: 0.3s all;
+      cursor: pointer;
+
+      &:hover {
+        transition: 0.3s all;
+        transform: scale(1.05);
+      }
+    }
+  }
+}

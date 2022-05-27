@@ -1,0 +1,185 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+
+  .imageBackground {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0;
+    top: 0;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 1191px;
+    height: 681px;
+    left: 65px;
+    top: -75px;
+
+    font-family: 'Summer Love';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 230px;
+    display: flex;
+    align-items: center;
+
+    color: #ea5722;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 789px;
+    height: 397px;
+    left: 65px;
+    top: 550px;
+
+    font-family: 'Summer Love';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+
+    color: #ff9c79;
+
+    -webkit-text-stroke: 0.5px #ffffff;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    left: 102px;
+    top: 994px;
+    border-radius: 50%;
+    border: 30px solid #e6e6c4;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image2 {
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    left: 548px;
+    top: 1183px;
+    border-radius: 50%;
+    border: 30px solid #e6e6c4;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image3 {
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    left: 1095px;
+    top: 51px;
+
+    border-radius: 50%;
+    border: 30px solid #e6e6c4;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image4 {
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    left: 1336px;
+    top: 394px;
+
+    border-radius: 50%;
+    border: 30px solid #e6e6c4;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image5 {
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    left: 1244px;
+    top: 772px;
+
+    border-radius: 50%;
+    border: 30px solid #e6e6c4;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image6 {
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    left: 1299px;
+    top: 1219px;
+
+    border-radius: 50%;
+    border: 30px solid #e6e6c4;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image7 {
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    left: 1658px;
+    top: 165px;
+
+    border-radius: 50%;
+    border: 30px solid #e6e6c4;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image8 {
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    left: 1635px;
+    top: 956px;
+
+    border-radius: 50%;
+    border: 30px solid #e6e6c4;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
+  }
+}

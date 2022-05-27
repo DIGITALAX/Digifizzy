@@ -1,0 +1,116 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: black;
+
+  .imageBackground {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 1936px;
+    height: 42px;
+    left: -8px;
+    top: 187px;
+
+    font-family: 'Internal Rainbows';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 450px;
+    line-height: 42px;
+    /* identical to box height, or 9% */
+
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 779px;
+    height: 88px;
+    left: 54px;
+    top: 457px;
+
+    font-family: 'Berkeley Mono Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #ffffff;
+
+    -webkit-text-stroke: 1px #ffffff;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 551px;
+    height: 827px;
+    left: 54px;
+    top: 553px;
+
+    font-family: 'Berkeley Mono Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+
+    color: #ffffff;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 868px;
+    height: 547px;
+    left: 1006px;
+    top: 385px;
+
+    font-family: 'Berkeley Mono Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+
+    color: #ffffff;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 256px;
+    height: 256px;
+    left: 637px;
+    top: 530px;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 256px;
+    height: 256px;
+    left: 671px;
+    top: 710px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 1261px;
+    height: 482px;
+    left: 659px;
+    top: 1015px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 668px;
+    height: 408px;
+    left: 1260px;
+    top: 988px;
+  }
+}

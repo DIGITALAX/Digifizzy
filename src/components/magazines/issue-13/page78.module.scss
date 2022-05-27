@@ -1,0 +1,87 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  color: white;
+  display: flex;
+  position: relative;
+  background-color: #5bff93;
+
+  .background {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0;
+    top: 0;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 439px;
+    height: 108px;
+    left: 1005px;
+    top: 26px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 120.53%;
+    /* or 84px */
+
+    color: #ff0000;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 85px;
+    height: 24px;
+    left: 1005px;
+    top: 276px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120.53%;
+    /* or 24px */
+
+    color: #ff0000;
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 570px;
+    height: 664px;
+    left: 1005px;
+    top: 336px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120.53%;
+    /* or 36px */
+
+    color: #ff0000;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 374px;
+    height: 1316px;
+    left: 1005px;
+    top: 1046px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120.53%;
+    /* or 36px */
+
+    color: #ff0000;
+  }
+}

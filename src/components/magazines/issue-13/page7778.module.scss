@@ -1,0 +1,154 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: #ff6a31;
+
+  .image1 {
+    position: absolute;
+    width: 456px;
+    height: 307px;
+    left: 493px;
+    bottom: 0px;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 456px;
+    height: 307px;
+    left: 1492px;
+    top: 0px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 133px;
+    height: 133px;
+    left: 551px;
+    top: 616px;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.04);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image4 {
+    position: absolute;
+    width: 133px;
+    height: 133px;
+    left: 709px;
+    top: 616px;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.04);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .text1 {
+    position: absolute;
+    width: 662px;
+    height: 115px;
+    left: 57px;
+    top: 67px;
+
+    font-family: 'SFD' !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 115px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+    -webkit-text-stroke: 3px #ffffff;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 659px;
+    height: 230px;
+    left: 1070px;
+    top: 195px;
+
+    font-family: 'SFD' !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 115px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+    -webkit-text-stroke: 3px #ffffff;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 704px;
+    height: 240px;
+    left: 1150px;
+    top: 502px;
+
+    font-family: 'SFD' !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 511px;
+    height: 506px;
+    left: 1433px;
+    top: 886px;
+
+    font-family: 'SFD' !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 115px;
+    color: transparent;
+    -webkit-text-stroke: 3px #ffffff;
+
+    & > div {
+      color: #000000;
+    }
+  }
+
+  .video1 {
+    position: absolute;
+    width: 797px;
+    height: 459px;
+    left: 57px;
+    top: 289px;
+  }
+
+  .video2 {
+    position: absolute;
+    width: 797px;
+    height: 459px;
+    left: 57px;
+    top: 806px;
+  }
+
+  .video3 {
+    position: absolute;
+    width: 330px;
+    height: 580px;
+    left: 1039px;
+    top: 806px;
+    object-fit: cover;
+  }
+}

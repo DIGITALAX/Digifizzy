@@ -1,0 +1,74 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: black;
+
+  .text1 {
+    position: absolute;
+    width: 791px;
+    height: 130px;
+    left: 81px;
+    top: 50px;
+
+    font-family: 'Akira Expanded';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 75px;
+    line-height: 130px;
+    /* identical to box height, or 173% */
+
+    color: #ffffff;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 781px;
+    height: 140px;
+    left: 1057px;
+    top: 45px;
+
+    font-family: 'Akira Expanded';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 70px;
+    /* or 127% */
+
+    color: #ffffff;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 768px;
+    height: 1458px;
+    left: 83px;
+    top: 204px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 42px;
+    /* or 210% */
+
+    color: #ffffff;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 747px;
+    height: 1458px;
+    left: 1057px;
+    top: 227px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    /* or 153% */
+
+    color: #ffffff;
+  }
+}

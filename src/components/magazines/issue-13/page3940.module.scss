@@ -1,0 +1,274 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+
+  .imageBackground {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .image1,
+  .image2,
+  .image3 {
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.04);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image1 {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    left: 38px;
+    top: 70px;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 324px;
+    height: 447px;
+    left: 59px;
+    top: 986px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 370px;
+    height: 528px;
+    left: 429px;
+    top: 802px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 417px;
+    height: 75px;
+    left: 295px;
+    top: 90px;
+
+    font-family: 'Belgrano';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 150%;
+    /* identical to box height, or 75px */
+
+    color: #ffffff;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 417px;
+    height: 75px;
+    left: 295px;
+    top: 150px;
+
+    font-family: 'Belgrano';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 150%;
+    /* identical to box height, or 75px */
+
+    color: #ffffff;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 417px;
+    height: 75px;
+    left: 295px;
+    top: 205px;
+
+    font-family: 'Belgrano';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 150%;
+    /* identical to box height, or 75px */
+
+    color: #ffffff;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 664px;
+    height: 274px;
+    left: 1256px;
+    top: 1277px;
+
+    font-family: 'MUSICNET';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+    /* or 100px */
+
+    color: #ffffff;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 652px;
+    height: 75px;
+    left: 1011px;
+    top: 36px;
+
+    font-family: 'Belgrano';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 150%;
+    /* identical to box height, or 75px */
+
+    text-decoration-line: underline;
+
+    color: #ffffff;
+  }
+
+  .imagePlayButton {
+    position: absolute;
+    width: 152px;
+    height: 152px;
+    left: 1710px;
+    top: 58px;
+
+    transition: ease all 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: ease all 0.3s;
+    }
+  }
+
+  .rect1 {
+    position: absolute;
+    width: 718px;
+    height: 404px;
+    left: 81px;
+    top: 344px;
+
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 651px;
+    height: 404px;
+    left: 1011px;
+    top: 127px;
+
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .rect3 {
+    position: absolute;
+    width: 651px;
+    height: 234px;
+    left: 1012px;
+    top: 555px;
+
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .rect4 {
+    position: absolute;
+    width: 443px;
+    height: 427px;
+    left: 1012px;
+    top: 832px;
+
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .image4 {
+    position: absolute;
+    width: 389px;
+    height: 340px;
+    left: 1492px;
+    top: 869px;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 677px;
+    height: 338px;
+    left: 102px;
+    top: 362px;
+
+    font-family: 'Belgrano';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    /* or 22px */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 617px;
+    height: 338px;
+    left: 1027px;
+    top: 159px;
+
+    font-family: 'Belgrano';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    /* or 22px */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .text8 {
+    position: absolute;
+    width: 617px;
+    height: 153px;
+    left: 1027px;
+    top: 604px;
+
+    font-family: 'Belgrano';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    /* or 22px */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 377px;
+    height: 246px;
+    left: 1045px;
+    top: 852px;
+
+    font-family: 'Belgrano';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    /* or 22px */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+}

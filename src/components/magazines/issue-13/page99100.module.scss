@@ -1,0 +1,127 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: #282828;
+
+  .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1497px;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 275px;
+    height: 429px;
+    left: 1525px;
+    top: 154px;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.04);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image2 {
+    position: absolute;
+    width: 391px;
+    height: 266px;
+    left: 1467px;
+    top: 973px;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.04);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .text1 {
+    position: absolute;
+    width: 803px;
+    height: 150px;
+    left: 60px;
+    top: 38px;
+
+    font-family: 'Internal Rainbows';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 150px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 262px;
+    height: 164px;
+    left: 60px;
+    top: 188px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 35px;
+    /* or 130% */
+
+    color: #ffffff;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 751px;
+    height: 438px;
+    left: 60px;
+    top: 1001px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 35px;
+    /* or 130% */
+
+    color: #ffffff;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 262px;
+    height: 164px;
+    left: 1532px;
+    top: 52px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 35px;
+    /* or 130% */
+
+    color: #ffffff;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 262px;
+    height: 164px;
+    left: 1612px;
+    top: 720px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 35px;
+    /* or 130% */
+
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,444 @@
+@import './styles.module.scss';
+// @import url('https://fonts.googleapis.com/css2?family=Astloch');
+// @import url('https://fonts.googleapis.com/css2?family=Alef');
+
+.wrapper {
+  @include magazineWrapper();
+  color: white;
+  display: flex;
+  position: relative;
+  background-color: #ffffff;
+
+  .rect1 {
+    position: absolute;
+    width: 779px;
+    height: 268px;
+    left: -1px;
+    top: 0px;
+
+    background: rgba(255, 247, 66, 0.36);
+  }
+
+  .text1 {
+    position: absolute;
+    width: 1190px;
+    height: 151px;
+    left: -206px;
+    top: 17px;
+
+    font-family: Artypa;
+    font-size: 80px;
+    line-height: 104px;
+    text-align: center;
+
+    color: #001e25;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 398px;
+    height: 141px;
+    left: 75px;
+    top: 98px;
+
+    font-family: The ART;
+    font-size: 100px;
+    line-height: 115px;
+
+    color: #00ff19;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 333px;
+    height: 178px;
+    left: 427px;
+    top: 90px;
+
+    font-family: Arthure;
+    font-size: 200px;
+    line-height: 266px;
+
+    color: #762278;
+  }
+
+  .back {
+    position: relative;
+    width: 1920px;
+    height: 1497px;
+    top: 0;
+    left: 0;
+  }
+
+  .path2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .path1 {
+    position: absolute;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 735px;
+    height: 841px;
+    left: 25px;
+    top: 290px;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 482px;
+    height: 94px;
+    left: 280px;
+    top: 1233px;
+
+    font-family: 'Dr Sugiyama';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 120.53%;
+    /* or 121px */
+
+    text-align: right;
+
+    color: #e50084;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 183px;
+    height: 36px;
+    left: 43px;
+    top: 1262px;
+
+    font-family: 'Kiwi Maru';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120.53%;
+    /* or 36px */
+
+    color: #000000;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 154px;
+    height: 22px;
+    left: 43px;
+    top: 1305px;
+
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120.53%;
+    /* or 24px */
+
+    color: #000000;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 599px;
+    height: 72px;
+    left: 809px;
+    top: 555px;
+
+    font-family: 'Honey and Raspberries';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 120.53%;
+    /* or 72px */
+
+    color: #0057ff;
+  }
+
+  .text8 {
+    position: absolute;
+    width: 218px;
+    height: 36px;
+    left: 809px;
+    top: 622px;
+
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120.53%;
+    /* or 36px */
+
+    color: #000000;
+  }
+
+  .text9 {
+    position: absolute;
+    width: 171px;
+    height: 20px;
+    left: 1104px;
+    top: 631px;
+
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120.53%;
+    /* or 24px */
+
+    color: #000000;
+  }
+
+  .gif1 {
+    position: absolute;
+    width: 366px;
+    height: 458px;
+    left: 1382px;
+    top: 17px;
+  }
+
+  .video1 {
+    position: absolute;
+    width: 523px;
+    height: 525px;
+    left: 809px;
+    top: 17px;
+
+    object-fit: cover;
+  }
+
+  .video2 {
+    position: absolute;
+    width: 1046px;
+    height: 395px;
+    left: 809px;
+    top: 1087px;
+    object-fit: cover;
+  }
+
+  .text10 {
+    position: absolute;
+    width: 290px;
+    height: 120px;
+    left: 1382px;
+    top: 487px;
+
+    font-family: 'Artifika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 120.53%;
+    /* or 60px */
+
+    color: #ff0000;
+  }
+
+  .text11 {
+    position: absolute;
+    width: 218px;
+    height: 36px;
+    left: 1382px;
+    top: 612px;
+
+    font-family: 'Artifika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120.53%;
+    /* or 36px */
+
+    color: #000000;
+  }
+
+  .text12 {
+    position: absolute;
+    width: 171px;
+    height: 20px;
+    left: 1693px;
+    top: 622px;
+
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120.53%;
+    /* or 24px */
+
+    color: #000000;
+  }
+
+  .text13 {
+    position: absolute;
+    width: 1033px;
+    height: 96px;
+    top: 730px;
+    right: 80px;
+
+    font-family: 'Artisual Deco DEMO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 120.53%;
+    /* or 108px */
+
+    color: #000000;
+  }
+
+  .text14 {
+    position: absolute;
+    width: 273px;
+    height: 121px;
+    left: 809px;
+    top: 845px;
+
+    font-family: 'Arthure';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 120.53%;
+    /* identical to box height, or 121px */
+
+    color: #00c938;
+  }
+
+  .text15 {
+    position: absolute;
+    width: 273px;
+    height: 121px;
+    left: 1113px;
+    top: 845px;
+
+    font-family: 'Arthure';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 120.53%;
+    /* identical to box height, or 121px */
+
+    color: #00c938;
+  }
+
+  .text16 {
+    position: absolute;
+    width: 273px;
+    height: 121px;
+    left: 1417px;
+    top: 845px;
+
+    font-family: 'Arthure';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 120.53%;
+    /* identical to box height, or 121px */
+
+    color: #00c938;
+  }
+
+  .text17 {
+    position: absolute;
+    width: 273px;
+    height: 121px;
+    left: 1721px;
+    top: 845px;
+
+    font-family: 'Arthure';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 120.53%;
+    /* identical to box height, or 121px */
+
+    color: #00c938;
+  }
+
+  .text18 {
+    position: absolute;
+    width: 273px;
+    height: 121px;
+    left: 809px;
+    top: 966px;
+
+    font-family: 'Arthure';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 120.53%;
+    /* identical to box height, or 121px */
+
+    color: #00c938;
+  }
+
+  .text19 {
+    position: absolute;
+    width: 273px;
+    height: 121px;
+    left: 1113px;
+    top: 966px;
+
+    font-family: 'Arthure';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 120.53%;
+    /* identical to box height, or 121px */
+
+    color: #00c938;
+  }
+
+  .text20 {
+    position: absolute;
+    width: 273px;
+    height: 121px;
+    left: 1417px;
+    top: 966px;
+
+    font-family: 'Arthure';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 120.53%;
+    /* identical to box height, or 121px */
+
+    color: #00c938;
+  }
+
+  .text21 {
+    position: absolute;
+    width: 273px;
+    height: 121px;
+    left: 1721px;
+    top: 966px;
+
+    font-family: 'Arthure';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 120.53%;
+    /* identical to box height, or 121px */
+
+    color: #00c938;
+  }
+
+  .text22 {
+    position: absolute;
+    width: 171px;
+    height: 20px;
+    left: 1635px;
+    top: 695px;
+
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120.53%;
+    /* or 24px */
+
+    color: #000000;
+  }
+}

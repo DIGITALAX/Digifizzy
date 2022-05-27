@@ -1,0 +1,173 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: black;
+
+  .image1 {
+    position: absolute;
+    width: 247px;
+    height: 321px;
+    left: 668px;
+    top: 20px;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 761px;
+    height: 701px;
+    left: 223px;
+    top: 697px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 676px;
+    height: 148px;
+    top: 98px;
+    left: 54px;
+
+    font-family: 'Skateboard Unlimited';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 50px;
+    /* or 33% */
+
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 874px;
+    height: 440px;
+    top: 365px;
+    left: 54px;
+    font-family: 'Skateboard Unlimited';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    /* or 133% */
+
+    color: #ffffff;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 216px;
+    height: 780px;
+    top: 693px;
+    left: 54px;
+
+    font-family: 'Skateboard Unlimited';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    color: #ffffff;
+  }
+
+  .rect2 {
+    position: absolute;
+    width: 960px;
+    left: 960px;
+    height: 1497px;
+    top: 0px;
+    background: #5ba7ff;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 456px;
+    height: 80px;
+    left: 1014px;
+    top: 50px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 100%;
+    /* identical to box height, or 80px */
+
+    color: #000000;
+    box-sizing: border-box;
+
+    -webkit-text-stroke: 4px #ffffff;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 819px;
+    height: 120px;
+    left: 1071px;
+    top: 146px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    /* or 30px */
+
+    color: #000000;
+    box-sizing: border-box;
+    -webkit-text-stroke: 1.5px #ffffff;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 779px;
+    height: 160px;
+    left: 1179px;
+    top: 1238px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 100%;
+    /* or 80px */
+
+    color: #000000;
+    -webkit-text-stroke: 4px #ffffff;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 279px;
+    height: 279px;
+    left: 1102px;
+    top: 914px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 279px;
+    height: 279px;
+    left: 1301px;
+    top: 914px;
+  }
+
+  .image5 {
+    position: absolute;
+    width: 279px;
+    height: 279px;
+    left: 1441px;
+    top: 914px;
+  }
+
+  .video3 {
+    position: absolute;
+    width: 771px;
+    height: 528px;
+    left: 1055px;
+    top: 341px;
+  }
+}

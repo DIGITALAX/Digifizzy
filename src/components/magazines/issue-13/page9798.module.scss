@@ -1,0 +1,158 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: #000000;
+
+  .image1 {
+    position: absolute;
+    width: 244px;
+    height: 244px;
+    left: 38px;
+    top: 115px;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 244px;
+    height: 244px;
+    left: 358px;
+    top: 115px;
+  }
+
+  .image3 {
+    position: absolute;
+    width: 244px;
+    height: 244px;
+    left: 678px;
+    top: 115px;
+  }
+
+  .image4 {
+    position: absolute;
+    width: 244px;
+    height: 244px;
+    left: 998px;
+    top: 1159px;
+  }
+
+  .image5 {
+    position: absolute;
+    width: 244px;
+    height: 244px;
+    left: 1318px;
+    top: 1159px;
+  }
+
+  .image6 {
+    position: absolute;
+    width: 244px;
+    height: 244px;
+    left: 1638px;
+    top: 1159px;
+  }
+
+  .video1 {
+    position: absolute;
+    width: 960px;
+    height: 538px;
+    left: 0px;
+    top: 468px;
+  }
+
+  .video2 {
+    position: absolute;
+    width: 960px;
+    height: 538px;
+    left: 960px;
+    top: 468px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 1119px;
+    height: 251px;
+    left: 65px;
+    top: 1069px;
+
+    font-family: 'Akira Expanded';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 75px;
+    line-height: 130px;
+    /* or 173% */
+
+    color: #ffffff;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 668px;
+    height: 178px;
+    left: 38px;
+    top: 1408px;
+
+    font-family: 'Berkeley Mono Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #ffffff;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 668px;
+    height: 178px;
+    left: 1009px;
+    top: 34px;
+
+    font-family: 'Berkeley Mono Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #ffffff;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 1119px;
+    height: 251px;
+    left: 1084px;
+    top: 198px;
+
+    font-family: 'Akira Expanded';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 75px;
+    line-height: 130px;
+    /* or 173% */
+
+    color: #ffffff;
+  }
+
+  .play {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 16px;
+    top: 381px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+  }
+
+  .play1 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 1827px;
+    top: 1017px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+  }
+}

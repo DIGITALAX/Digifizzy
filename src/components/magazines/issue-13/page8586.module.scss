@@ -1,0 +1,135 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background-color: #ffef62;
+
+  .back {
+    position: absolute;
+    width: 1920px;
+    height: 1497px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 661px;
+    height: 226px;
+    left: 84px;
+    top: 61px;
+
+    font-family: 'Reggae One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100%;
+    /* or 80px */
+
+    color: #ffffff;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 661px;
+    height: 226px;
+    left: 299px;
+    top: 270px;
+
+    font-family: 'Reggae One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100%;
+    /* or 80px */
+
+    color: #ffffff;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 661px;
+    height: 226px;
+    left: 299px;
+    top: 496px;
+
+    font-family: 'Reggae One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100%;
+    /* or 80px */
+
+    color: #ffffff;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 661px;
+    height: 226px;
+    left: 299px;
+    top: 722px;
+
+    font-family: 'Reggae One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100%;
+    /* or 80px */
+
+    color: #ffffff;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 661px;
+    height: 226px;
+    left: 299px;
+    top: 948px;
+
+    font-family: 'Reggae One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100%;
+    /* or 80px */
+
+    color: #ffffff;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 925px;
+    height: 226px;
+    left: 35px;
+    top: 1137px;
+
+    font-family: 'Reggae One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 100%;
+    /* or 150px */
+
+    color: #ffffff;
+  }
+
+  .text7 {
+    position: absolute;
+    width: 661px;
+    height: 1156px;
+    left: 1114px;
+    top: 145px;
+
+    font-family: 'Reggae One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    /* or 30px */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+}

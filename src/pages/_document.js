@@ -779,7 +779,7 @@ class MyDocument extends Document {
             }
             
             @font-face {
-              font-family: 'Rose Cake-Personal Use';
+              font-family: 'Rose Cake - Personal Use';
               src: url("./fonts/Rose Cake - Personal Use.woff");
             }
             
@@ -1202,6 +1202,36 @@ class MyDocument extends Document {
               src: url("./fonts/Antonio-Light.ttf");
               font-weight: 300;
             }
+
+            @font-face {
+              font-family: 'Anek Kannada';
+              src: url("./fonts/AnekKannada-VariableFont_wdth,wght.ttf");
+              font-weight: 300;
+            }
+
+            @font-face {
+              font-family: 'Sudo Var';
+              src: url("./fonts/Sudo-Regular.ttf");
+              font-weight: 300;
+            }
+
+            @font-face {
+              font-family: '04b_19';
+              src: url("./fonts/04B_19__.TTF");
+              font-weight: 300;
+            }
+
+            @font-face {
+              font-family: 'Khmer';
+              src: url("./fonts/Khmer-Regular.ttf");
+              font-weight: 300;
+            }
+
+            @font-face {
+              font-family: 'Strait';
+              src: url("./fonts/Strait-Regular.ttf");
+              font-weight: 300;
+            }
           
             @font-face {
               font-family: 'Anton';
@@ -1236,6 +1266,18 @@ class MyDocument extends Document {
               font-family: 'Bellota Text';
               src: url("./fonts/BellotaText-Bold.ttf");
               font-weight: 700;
+            }
+
+            @font-face {
+              font-family: "Graduate";
+              src: url("./fonts/Graduate-Regular.ttf");
+              font-weight: 700;
+            }
+
+            @font-face {
+              font-family: "Geeza Pro";
+              src: url("./fonts/Geeza Pro.ttf");
+              font-weight: 400;
             }
           
             @font-face {
@@ -1667,8 +1709,78 @@ class MyDocument extends Document {
             }
 
             @font-face {
-              font-family: 'Iowan Old Style';
-              src: url("./fonts/Iowan Old Style Bold.otf");
+              font-family: 'KyivType Sans';
+              src: url("./fonts/Dmitry Rastvortsev - KyivType Sans Regular-.otf");
+            }
+
+            @font-face {
+              font-family: 'Kumbh Sans';
+              src: url("./fonts/KumbhSans-VariableFont_wght.ttf");
+            }
+
+            @font-face {
+              font-family: 'Baloo Bhaina 2';
+              src: url("./fonts/BalooBhaina2-VariableFont_wght.ttf");
+            }
+
+            @font-face {
+              font-family: 'Dr Sugiyama';
+              src: url("./fonts/DrSugiyama-Regular.ttf");
+            }
+
+            @font-face {
+              font-family: 'Kiwi Maru';
+              src: url("./fonts/KiwiMaru-Regular.ttf");
+            }
+
+            @font-face {
+              font-family: 'Artifika';
+              src: url("./fonts/Artifika-Regular.ttf");
+            }
+
+            @font-face {
+              font-family: 'Imbue';
+              src: url("./fonts/Imbue-VariableFont_opsz,wght.ttf");
+            }
+
+            @font-face {
+              font-family: 'SFD';
+              src: url("./fonts/Skateparx_Filled_Demo.otf");
+            }
+
+            @font-face {
+              font-family: 'Reggae One';
+              src: url("./fonts/ReggaeOne-Regular.ttf");
+            }
+
+            @font-face {
+              font-family: 'Simonetta';
+              src: url("./fonts/Simonetta-Regular.ttf");
+            }
+
+            @font-face {
+              font-family: 'Summer Love';
+              src: url("./fonts/Summer Love.ttf");
+            }
+
+            @font-face {
+              font-family: 'RCPU';
+              src: url("./fonts/Rose Cake - Personal Use.otf");
+            }
+
+            @font-face {
+              font-family: 'Skateboard Unlimited';
+              src: url("./fonts/Skate Board Unlimited.ttf");
+            }
+
+            @font-face {
+              font-family: 'IBM Plex Mono';
+              src: url("./fonts/IBMPlexMono-Regular.ttf");
+            }
+
+            @font-face {
+              font-family: 'Berkeley Mono Trial';
+              src: url("./fonts/JetBrainsMono-Regular.ttf");
               font-weight: 700;
             }
 
@@ -1784,6 +1896,12 @@ class MyDocument extends Document {
               font-family: 'Astral Groove';
               font-weight: 400;
               src: url("./fonts/Astral Groove.ttf");
+            }
+
+            @font-face {
+              font-family: 'Berkeley';
+              font-weight: 400;
+              src: url("./fonts/BerkeleyMonoTrial-Regular.ttf");
             }
 
             @font-face {

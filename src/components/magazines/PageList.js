@@ -10,6 +10,7 @@ import issue9PageList from './issue-9/PageList';
 import issue10PageList from './issue-10/PageList';
 import issue11PageList from './issue-11/PageList';
 import issue12PageList from './issue-12/PageList';
+import issue13PageList from './issue-13/PageList';
 
 const issueList = {
   1: issue1PageList,
@@ -24,6 +25,7 @@ const issueList = {
   10: issue10PageList,
   11: issue11PageList,
   12: issue12PageList,
+  13: issue13PageList,
 };
 
 const getPageList = (issueId) => issueList[issueId];

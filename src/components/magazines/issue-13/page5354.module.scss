@@ -1,0 +1,119 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: #ffffff;
+
+  background: linear-gradient(180deg, #d5eb95 18.02%, #b1e5e8 44.52%, #f9788f 78.98%);
+
+  .text1 {
+    position: absolute;
+    width: 825px;
+    height: 315px;
+    left: 69px;
+    top: 446px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #000000;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 828px;
+    height: 504px;
+    left: 66px;
+    top: 831px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #000000;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 326px;
+    height: 16px;
+    left: 412px;
+    top: 97px;
+
+    font-family: 'Sunflower';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 16px;
+    /* identical to box height, or 32% */
+
+    text-decoration-line: underline;
+
+    color: #000000;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 482px;
+    height: 38px;
+    left: 412px;
+    top: 164px;
+
+    font-family: 'Sudo Var';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 16px;
+    /* or 32% */
+
+    text-decoration-line: underline;
+
+    color: #000000;
+  }
+  .text5 {
+    position: absolute;
+    width: 482px;
+    height: 38px;
+    left: 412px;
+    top: 226px;
+
+    font-family: 'Sudo Var';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 16px;
+    /* or 32% */
+
+    text-decoration-line: underline;
+
+    color: #000000;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 765px;
+    height: 1365px;
+    left: 1048px;
+    top: 62px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #000000;
+  }
+  .image1 {
+    position: absolute;
+    width: 338px;
+    height: 338px;
+    left: 42px;
+    top: 33px;
+  }
+}

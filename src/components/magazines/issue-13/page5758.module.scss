@@ -1,0 +1,320 @@
+@import './styles.module.scss';
+
+.wrapper {
+  @include magazineWrapper();
+  background: white;
+  .imageBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 960px;
+    height: 1497px;
+    z-index: 3;
+  }
+
+  .link1 {
+    position: absolute;
+    width: 266px;
+    height: 73px;
+    left: 997px;
+    top: 440px;
+    background: #fe146d;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.05);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .link2 {
+    position: absolute;
+    width: 405px;
+    height: 73px;
+    left: 997px;
+    top: 1368px;
+    background: #fe146d;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.05);
+      transition: all ease 0.3s;
+    }
+
+    .linkText2 {
+      position: absolute;
+      width: 305px;
+      height: 39px;
+      left: 23px;
+      top: 17px;
+
+      font-family: '04b_19';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 130%;
+      /* identical to box height, or 39px */
+
+      color: #ffffff;
+    }
+
+    img {
+      position: absolute;
+      width: 84px;
+      height: 77px;
+      left: 332px;
+      top: -2px;
+    }
+  }
+
+  .linkText1 {
+    position: absolute;
+    width: 219px;
+    height: 39px;
+    left: 30px;
+    top: 17px;
+
+    font-family: '04b_19';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 130%;
+    /* identical to box height, or 39px */
+
+    color: #ffffff;
+  }
+
+  .leftBack {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 960px;
+    height: 1497px;
+    z-index: 3;
+    background: white;
+  }
+
+  .right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2400px;
+    height: 1497px;
+    object-fit: cover;
+    transform: translateX(500px);
+  }
+
+  .text1 {
+    position: absolute;
+    width: 429px;
+    height: 88px;
+    top: 356px;
+    right: 488px;
+
+    font-family: '04b_19';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 110%;
+    /* or 22px */
+
+    color: #000000;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 749px;
+    height: 264px;
+    top: 641px;
+    right: 26px;
+
+    font-family: '04b_19';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 110%;
+    /* or 22px */
+
+    text-align: right;
+
+    color: #fe146d;
+
+    -webkit-text-stroke: 1px #000000;
+  }
+
+  .text3 {
+    position: absolute;
+    width: 812px;
+    height: 273px;
+    left: 997px;
+    top: 1146px;
+
+    font-family: '04b_19';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 130%;
+    /* or 39px */
+
+    color: #ffffff;
+  }
+
+  .text4 {
+    position: absolute;
+    width: 818px;
+    height: 116px;
+    left: 1147px;
+    top: 642px;
+
+    font-family: '6809 Chargen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 110%;
+    /* or 44px */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .text5 {
+    position: absolute;
+    width: 818px;
+    height: 116px;
+    left: 1104px;
+    top: 688px;
+
+    font-family: '6809 Chargen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 110%;
+    /* or 44px */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .text6 {
+    position: absolute;
+    width: 818px;
+    height: 116px;
+    left: 1102px;
+    top: 729px;
+
+    font-family: '6809 Chargen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 110%;
+    /* or 44px */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .image1 {
+    position: absolute;
+    width: 414px;
+    height: 414px;
+    left: 974px;
+    top: -12px;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 187px;
+    height: 187px;
+    left: 1641px;
+    top: 804px;
+    border-radius: 50%;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image3 {
+    position: absolute;
+    width: 187px;
+    height: 187px;
+    left: 1097px;
+    top: 1013px;
+    border-radius: 50%;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image4 {
+    position: absolute;
+    width: 187px;
+    height: 187px;
+    left: 1520px;
+    top: 1027px;
+    border-radius: 50%;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image5 {
+    position: absolute;
+    width: 187px;
+    height: 187px;
+    left: 997px;
+    top: 1258px;
+    border-radius: 50%;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image6 {
+    position: absolute;
+    width: 187px;
+    height: 187px;
+    left: 1346px;
+    top: 1228px;
+    border-radius: 50%;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
+  }
+
+  .image7 {
+    position: absolute;
+    width: 187px;
+    height: 187px;
+    left: 1672px;
+    top: 1280px;
+    border-radius: 50%;
+    transition: all ease 0.3s;
+
+    &:hover {
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
+  }
+}
