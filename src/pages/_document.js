@@ -779,7 +779,7 @@ class MyDocument extends Document {
             }
             
             @font-face {
-              font-family: 'Rose Cake-Personal Use';
+              font-family: 'Rose Cake - Personal Use';
               src: url("./fonts/Rose Cake - Personal Use.woff");
             }
             
@@ -1277,7 +1277,7 @@ class MyDocument extends Document {
             @font-face {
               font-family: "Geeza Pro";
               src: url("./fonts/Geeza Pro.ttf");
-              font-weight: 700;
+              font-weight: 400;
             }
           
             @font-face {
@@ -1719,11 +1719,6 @@ class MyDocument extends Document {
             }
 
             @font-face {
-              font-family: 'Geeza Pro';
-              src: url("./fonts/geeza-pro_bigfontsite.com.ttf");
-            }
-
-            @font-face {
               font-family: 'Baloo Bhaina 2';
               src: url("./fonts/BalooBhaina2-VariableFont_wght.ttf");
             }
@@ -1746,11 +1741,6 @@ class MyDocument extends Document {
             @font-face {
               font-family: 'Imbue';
               src: url("./fonts/Imbue-VariableFont_opsz,wght.ttf");
-            }
-
-            @font-face {
-              font-family: 'Skateparx Filled - Demo';
-              src: url("./fonts/Skateparx_Filled_Demo.otf");
             }
 
             @font-face {

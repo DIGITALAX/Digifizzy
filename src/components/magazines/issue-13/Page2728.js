@@ -97,6 +97,8 @@ const Page2728 = () => {
       </div>
 
       <div className={styles.text17}>
+        <br />
+        <br />
         <b>
           How'd you start getting more involved with NFTs and what was the "ah-ha" moment where you
           realised the connection between this new tech and creating more access for street art?
