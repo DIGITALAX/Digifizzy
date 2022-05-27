@@ -1744,7 +1744,7 @@ class MyDocument extends Document {
             }
 
             @font-face {
-              font-family: 'Skateparx Filled - Demo';
+              font-family: 'SFD';
               src: url("./fonts/Skateparx_Filled_Demo.otf");
             }
 
@@ -1764,7 +1764,7 @@ class MyDocument extends Document {
             }
 
             @font-face {
-              font-family: 'Rose Cake - Personal Use';
+              font-family: 'RCPU';
               src: url("./fonts/Rose Cake - Personal Use.otf");
             }
 
