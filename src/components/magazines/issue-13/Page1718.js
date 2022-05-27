@@ -6,84 +6,96 @@ import styles from './page1718.module.scss';
 const Page1718 = () => {
   return (
     <div className={styles.wrapper}>
-      <video autoPlay loop muted className={styles.video}>
-        <source src={`${DIGIFIZZY_S3}/13/videos/1718_video.mp4`} type="video/mp4" />
-      </video>
-      <div className={styles.text0}>An inside look with the team</div>
-      <div className={styles.text1}>
-        We were one of the very first people who minted Loot when it was launched. We were
-        fascinated by how Loot is different from other NFT projects at the time. Loot is a building
-        block that allows others to build on top of it. But, while watching many projects build on
-        top of Loot, we realized that they all lack something – the arts. One of the challenges that
-        we have seen in the Loot ecosystem is that many projects do not focus on visualizing the
-        items inside each Loot bag themselves as drawing all the different pieces and combinations
-        is a tonne of work. Also, having compelling imagery that tells the story visually solves
-        another major challenge with Loot: the language barrier for non-English speakers. When we
-        visualize the items inside Loot bags, we make the Loot ecosystem compelling and easy to
-        understand globally, which of course then reaches more users and expands the Loot universe.
+      <div className={styles.background}>
+        <Image src={`${DIGIFIZZY_S3}/13/images/1718_image1.png`} width={1618} height={1497} />
       </div>
-      <div className={styles.text2}>
-        We believe that CC0 is the closest thing to the idea of decentralization. Plus, HyperLoot is
-        meant to be a visualization layer on top of Loot and a layer that allows others to utilize
-        and build apps on top it. We believe that public domain will maximize the creativity from
-        the community of what can be built on top of the project without worrying about license and
-        legal terms. We also decided to open source everything we build – from our source code all
-        the way to Photoshop files and everything in-between. We want HyperLoot to be a public-good
-        project. If other builders can take our source code and files and extend it into something
-        else, we are more than happy to see it happen. Moreover, by us providing the source code to
-        the public, it also means that down the road, the community can also contribute to the core
-        of the project and grow the ecosystem together.
-      </div>
-      <div className={styles.text3}>
-        We were inspired by the CC0 movement from Blitmap and Nouns. We saw how the communities
-        helped expand the Blitmap and Nouns universe on their own, instead of waiting for the
-        creators to do something. Plus, we took a look at the works that have already been in the
-        public domain like Mona Lisa, Shakespeare, Dracula, Peter Pan, and King Arthur. We saw that
-        the value of these works doesn’t decrease simply because Hollywood makes a movie about them,
-        but in fact, their value increases as the exposure and the popularity of the original work
-        increase when there are more derivatives being built based on it.
-        <br />
-        <br />
-        That is when we realized that just because someone else can utilize your work released in
-        public domain, it doesn’t mean that the value will go down, instead it's the complete
-        opposite.
-      </div>
+      <div className={styles.text1}>MXVOID</div>
+      <div className={styles.text2}>MXVOID</div>
+      <div className={styles.text3}>MXVOID</div>
       <div className={styles.text4}>
-        Even though we are a huge fan of public domain, we understand that there are pros and cons
-        to every type of license and IP. There is no right or wrong answer. Creators should study
-        about the differences between each type of license and choose whatever they feel is best for
-        themselves and their community. Regardless of the what type of license the NFT has, if the
-        work is good, it’s good.
-      </div>
-      <div className={styles.text5}>
-        We are fascinated by the intercompatibility and the bottom-up approach of NFTs, gaming, and
-        web3. Together with the CC0 movement, we believe that public domain will speed up
-        intercompatibility of each media. We expect to see more creativity being created at a rapid
-        speed that we haven’t seen before. People can get creative without worrying about legal
-        stuff anymore. Plus, when you build on top of an existing project or incorporate another
-        project into yours, the network effects can grow very fast. This would be the same with
-        digital-IRL realms. Brands would be able to cross over the digital media to IRL products and
-        services faster. We already see this happening with Nouns.
-      </div>
-      <div className={styles.text6}>
-        Since we want other people, projects, and companies to be able to utilize HyperLoot, we will
-        be spending a lot of time building the foundation of the HyperLoot ecosystem. Starting off
-        with open sourcing our code and art-related files, then following with SDK, APIs, and tools
-        for builders and creators to easily integrate HyperLoot into any idea they have. We will
-        also be building a game using these tools as well.
+        Like nearly every artist that got into NFTs in March 2021, it was Beeple's Everydays that
+        got me interested in NFTs. Also, the unexpected turning point that persuaded me to
+        participate was a Planet Money podcast episode from around that time that described the
+        specifics of what NFTs are and how they work. The idea of royalties from secondary sales is
+        what really tipped the scales for me.
+        <br />
+        <br />I wanted to fight the widespread perception that NFTs are just "expensive pfps." I
+        also wanted to create a large, inexpensive, and open-edition series that I could use to
+        onboard friends, family, and acquaintances into NFTs, to airdrop to collectors, and to offer
+        to other people to collect and share, all in-line with gifting culture. Additionally, I
+        wanted to curate and celebrate CC0 and public domain works, especially those that I may want
+        to remix in the future!
+        <br />
+        <br />I release my work with a mix of CC0 and CC-BY (and rarely CC-BY-SA if I use ShareAlike
+        media in a remix). I support artists releasing their works with whatever terms they
+        like—whether that's the full legal protection of copyright, CC0, or anything in between. CC0
+        is valuable for making works totally free, open, and meme-able, but also comes with the
+        relinquishment of the creator's moral rights, which is why I'm selective about which works I
+        CC0. CC-BY preserves my moral rights and requires attribution—it's the most permissive
+        license option while also preserving those rights, which is why it's my default license
+        option. Ultimately, I see the power of CC0 as bringing the issues of IP to the forefront of
+        artists' and collectors' minds, and showing viable and remix culture-friendly alternatives
+        to the highly restrictive nature of copyright.
         <br />
         <br />
-        We have built HyperLoot’s website as a platform to be able to become the entry point for any
-        ideas being built on top of HyperLoot. Our community will be taking a huge role in defining
-        HyperLoot’s future and we will all be building together.
+        Self-sovereignty as an artist has been extremely important to me! My creative approach is
+        heavy on experimentation and exploration, which doesn't work when someone else is dictating
+        the terms of my work, be it a client or employer. I've never had a successful commission,
+        and personally, I find commission work to drain all the fun out of making art. I've also
+        tried to get compensation for my art with all the other pre-NFT channels—selling physical
+        pieces, micropayments, crowdfunding, etc.—and none of them worked well for me, either. Since
+        the majority of my work is digital, NFTs—a digitally-native format of distributing art—have
+        been the best fit for me and my work. I'm far from making a living from my art, but making
+        cryptoart has brought me more compensation, by orders of magnitude, than everything else
+        I've tried.
+        <br />
+        <br />
+        In my opinion, event tickets and passes will be the next turning point to widen the adoption
+        of Web3 and NFTs. Looking ahead, I think the CC0 community (and the ethos from the
+        gifting/free/open/remix cultures it represents) will shape the NFT space for the better. In
+        fact, the first cryptoartists were working in the CC0 milieu before they formally recognized
+        what they were doing as CC0, so it's part of the idea space woven into the very fabric of
+        NFTs. CC0 has always been there, and it always will be.
       </div>
       <a
         className={styles.link1}
-        href="https://twitter.com/hyperloot_"
+        href="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/18213777350840045628186174046519911781917879366610239382278114219047748894721"
         target="_blank"
         rel="noreferrer"
       >
-        <img src={`${DIGIFIZZY_S3}/13/images/1718_link1.png`} />
+        <img src={`${DIGIFIZZY_S3}/13/images/1718_image2.png`} />
+      </a>
+      <a
+        className={styles.link2}
+        href="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/18213777350840045628186174046519911781917879366610239382278114093703423328257"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img src={`${DIGIFIZZY_S3}/13/images/1718_image3.png`} />
+      </a>
+      <a
+        className={styles.link3}
+        href="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/18213777350840045628186174046519911781917879366610239382278114186062400061441"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img src={`${DIGIFIZZY_S3}/13/images/1718_image4.png`} />
+      </a>
+      <a
+        className={styles.link4}
+        href="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/18213777350840045628186174046519911781917879366610239382278114213550190755841"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img src={`${DIGIFIZZY_S3}/13/images/1718_image5.png`} />
+      </a>
+      <a
+        className={styles.link5}
+        href="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/18213777350840045628186174046519911781917879366610239382278114194858493083649"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img src={`${DIGIFIZZY_S3}/13/images/1718_image6.png`} />
       </a>
       <div className={styles.leftSideFrame} />
       <div className={[styles.animationFrame, styles.leftSideImageWrapper].join(' ')}>

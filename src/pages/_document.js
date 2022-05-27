@@ -1897,6 +1897,12 @@ class MyDocument extends Document {
             }
 
             @font-face {
+              font-family: 'Berkeley';
+              font-weight: 400;
+              src: url("./fonts/BerkeleyMonoTrial-Regular.ttf");
+            }
+
+            @font-face {
               font-family: 'HamburgerHeaven';
               font-weight: 400;
               src: url("./fonts/HAMBH___.TTF");
