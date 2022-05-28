@@ -34,11 +34,11 @@ const Page6162 = () => {
         However, with all of that said, it’s not all as good as could be for the underlying bedrock
         principles of self sovereignty and personal anonymity within web3. Unlike their historical
         pattern of preserving privacy and secrecy,even in the most unconscionable of circumstances,
-        like with how far they went out of their way to hold and hide money,
+        like with how far they went out of their way to hold and hide money, gold, art and other assets that the Nazis
+        had plundered
       </div>
       <div className={styles.text3}>
-        gold, art and other assets that the Nazis had plundered from mostly Jewish families
-        throughout WWII.
+        from mostly Jewish families throughout WWII.
         <br />
         <br />
         The Swiss regulatory approach to crypto has leaned surprisingly in the opposite extreme in
