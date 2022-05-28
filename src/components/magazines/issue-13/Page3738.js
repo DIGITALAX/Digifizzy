@@ -31,7 +31,7 @@ const Page3738 = () => {
         <br />
         At that point I had spent the last two years refining a psychedelic and generative art style
         through a small art page on instagram, Tetrahedra, and wanted to move it to twitter. A
-        random interaction with DeezeFi lead to him gifting me a Foundation invite code, giving me
+        random interaction with DeezeFi led to him gifting me a Foundation invite code, giving me
         the opportunity to start crafting my first web3 brand. My first piece, 'Ego Dissolution',
         was a collaboration with an artist I met, and was purchased an hour and a half into the
         listing by Deeze. I will never forget the rush of excitement I felt that instant. My art,
@@ -84,7 +84,7 @@ const Page3738 = () => {
         shift my full-time to World of Noun. We've already onboarded a brilliant vfx artist, had
         community members volunteer to help mod our discord, and we plan to continue to expand the
         team. Our next steps include being ready for the metaverse (in all of its dimensions),
-        formalizing the story and universe of the World of Noun, and continue to build experiences
+        formalizing the story and universe of the World of Noun, and continuing to build experiences
         that people love.
       </div>
       <div className={styles.image1}>
