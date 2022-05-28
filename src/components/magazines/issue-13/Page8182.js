@@ -14,14 +14,14 @@ const Page8182 = () => (
     <div className={styles.text1}>ZK SKATE</div>
     <div className={styles.text2}>
       Zero Knowledge Skate is the latest amateur skate series to come out of NYC— bringing the world
-      of skate culture to web3, NFT streetwear, ZKs and more.
+      of skate culture to web three, NFT streetwear, ZKs and more.
       <br />
       <br />
-      It’s led in collaboration with F3M and the core of the local skate community here in NY, from
-      90s legends to new up and comers.
+      It’s led in collaboration with <a className={styles.f3m}>F3M</a> and the core of the local skate community here in NY, from
+      nineties legends to new up and comers.
     </div>
     <div className={styles.text3}>
-      The series will combine a mix between jams and runs across skates parks in all 5 boroughs +
+      The series will combine a mix between jams and runs across skates parks in all five boroughs +
       Long Island, before expanding globally.
       <br />
       <br />
@@ -29,8 +29,8 @@ const Page8182 = () => (
       of culture shapers.
       <br />
       <br />
-      F3M is the champion streetwear provider, with DIGITALAX as a core infrastructure partner,
-      alongside other local skateshop + web3 native DAO sponsors.
+      <a className={styles.f3m}>F3M</a> is the champion streetwear provider, with DIGITALAX as a core infrastructure partner,
+      alongside other local skateshop + web three native DAO sponsors.
       <br />
       <br />
       The first event will take place this summer, mid July… more details and sign ups to be
