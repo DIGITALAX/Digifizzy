@@ -13,14 +13,14 @@ const Page9394 = () => {
       <div className={styles.text1}>CCO SUMMER</div>
       <div className={styles.text2}>
         We’re almost here, a few more days till the long awaited #cc0summer kicks off. We’ve seen
-        explosive growth in the number of CC0 projects building on Ethereum/L2s… and the list seems
+        explosive growth in the number of CC0 projects building on Ethereum & L2s… and the list seems
         to just keep getting longer and longer every day.
         <br />
         <br />
         One of the most exciting parts about it all is that CC0, despite what some may think, is a
         fundamental layer for the maximal acceleration, amplification and distribution of content
         and culture into as many lives as possible, which is ultimately why we create in the first
-        place. Not all to get all soapboxey about it here, but copyright has ultimately failed to
+        place. Not to get all soapboxey about it here, but copyright has ultimately failed to
         deliver on the commercial incentive part of its promised idea.
         <br />
         <br />
