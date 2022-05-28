@@ -64,7 +64,7 @@ const Page6566 = () => (
       <br />
       <br />
       With ZKs, we’ll not only be able to communicate more efficiently, but more securely. Just like
-      with the technical scale up of speed unlocks radical transformations, the social scale up in
+      how the technical scale up of speed unlocks radical transformations, the social scale up in
       speed of coordination and communication means where we are, when, and what we do with who
       becomes exponentially more flexible and self determined.
       <br />
