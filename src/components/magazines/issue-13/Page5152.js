@@ -36,11 +36,9 @@ const Page5152 = () => {
         <br />
         The Ronin Network heist ($540m): Regarded by crypto analysts as the second biggest crypto
         theft of all time, 25.5m USDC and 173,600 Ether tokens valued (at the time of the theft) at
-        $540m were lost to a hacker in March 2022.
-        <br />
-        As a result of the theft, Ronin blockchain’s coin, Ron, crashed by 20%, while AXS, Axie
-        Infinity’s token, crashed by 6%. According to reports, the hacker stole the private keys on
-        the Axie Infinity, an online gaming network, to authenticate the transactions.
+        $540m were lost to a hacker in March 2022. As a result of the theft, Ronin blockchain’s coin, Ron, crashed by 20%, while AXS, Axie
+        Infinity’s token, crashed by 6%. According to reports, the hacker compromised one of the private keys
+        to Axie Infinity in order to authenticate the transactions.
         <br />
         <br />
         Coincheck hack ($534m): In January 2018, Coincheck, a Japanese exchange platform, lost $534m
@@ -63,14 +61,14 @@ const Page5152 = () => {
         <br />
         <br />
         KuCoin ($285m): KuCoin, a cryptocurrency exchange platform based in Singapore, announced the
-        theft of $275 of cryptocurrency in 2020. According to Chainalysis, this includes 1,008 BTC,
+        theft of $285m of cryptocurrency in 2020. According to Chainalysis, this includes 1,008 BTC,
         11,543 Ether, $147m worth of ERC20, and $87m worth of Stellar tokens.
         <br />
         <br />
         The hack was similar to the Coincheck theft. The hacker accessed the crypto assets in
         KuCoin’s internet-linked wallets, referred to as ‘hot wallets.’ However, KuCoin recovered
         most of its stolen tokens and eventually reimbursed all its customers. KuCoin first
-        recovered 78%, an additional 6%, while their insurance funded the remaining 16%.
+        recovered 78%, whilst their insurance funded the remainder.
         <br />
         <br />
         Let these high-profile hacks serve as a reminder of how critical securing the industry –
