@@ -90,7 +90,7 @@ const Page3940 = () => {
         being paid as part of the smart contract split)
       </div>
       <div className={styles.text8}>
-        Yes very much so, 77 artists including myself joined a band and will release a big project
+        77 artists including myself joined a band and will release a big project
         on June 3rd. This band is called Headless Chaos, and features insanely talented musicians of
         all different genres and styles, we will release our 45 songs in packs of 4 (at random) and
         sell 5000 of these packs. This experiment has been incredibly rewarding and fun. I also
