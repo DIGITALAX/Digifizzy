@@ -28,12 +28,12 @@ const Page6768 = () => (
     </a>
     <a
       className={styles.image7}
-      href="https://www.youtube.com/playlist?list=PLhQjrBD2T383f9scHRNYJkior2VvYjpSL"
+      href="https://medium.com/react-in-depth"
       target="_blank"
     >
       <Image src={`${DIGIFIZZY_S3}/13/images/6768_image7.png`} width={220} height={220} />
     </a>
-    <a className={styles.image6} href="https://medium.com/react-in-depth" target="_blank">
+    <a className={styles.image6} href="https://www.youtube.com/playlist?list=PLhQjrBD2T383f9scHRNYJkior2VvYjpSL" target="_blank">
       <Image src={`${DIGIFIZZY_S3}/13/images/6768_image6.png`} width={220} height={220} />
     </a>
     <a
