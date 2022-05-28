@@ -41,11 +41,11 @@ const Page2930 = () => (
       <br />
       <br />
       It’s fitting in this light to discuss one of the biggest crypto project collapses since Mt Gox
-      and what this means for the space as a whole— Terra, UST and Kwon,
+      and what this means for the space as a whole— Terra, UST and Kwon.
       <br />
       <br />
       By now, you’ve all probably caught up on the news or even been impacted directly. In mid May
-      the worst fears for any uncollateralized stablecoin came to fruition with rapid radically
+      the worst fears for any uncollateralised stablecoin came to fruition with rapid radical
       depegging and the collapse of its paired currency.
       <br />
       <br />
