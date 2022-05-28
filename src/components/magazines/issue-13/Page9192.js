@@ -56,7 +56,7 @@ const Page9192 = () => (
       <br />
       <br />
       No this isn’t another fear fest about impending bear cataclysms or a paean about the collapse
-      of Luna. It’s a deeper look at one of the leading projects to spearhead the adoption of zero
+      of Luna. It’s a deeper look at one of the leading projects to pioneer the adoption of zero
       knowledge proofs as much needed EVM scaling solutions.
       <br />
       <br />
@@ -81,7 +81,7 @@ const Page9192 = () => (
       called small fields and recursive FRI.
       <br />
       <br />
-      The Goldilocks Field does it appears— it overcomes the trade off for a just right fit.
+      The Goldilocks Field does as it appears— it overcomes the trade off for a just right fit.
       Previously ZK solutions had to compromise between either being fast and small or slow and
       large. But how do you get to fast and large?
       <br />
