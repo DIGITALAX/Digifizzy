@@ -66,7 +66,7 @@ const Page1516 = () => {
         easy to be undervalued and unappreciated when it comes to being an artist especially living
         in the U.S. I really feel as though art and music have not been supported in the ways they
         should be and web3 really feels like a space of support for the creative community. I also
-        just love the idea of collaboration and creating with intention or a centralized vision. To
+        just love the idea of collaboration and creating with intention & vision. To
         me the web3 space feels like pure potential to literally make of it whatever you want and to
         get the support you need to make it happen!
         <br />
@@ -95,11 +95,11 @@ const Page1516 = () => {
         ways to improve on it.
         <br />
         <br />
-        That past month I’ve been completely consumed by Camp Chaos and I’m excited to share that we
+        This past month I’ve been completely consumed by Camp Chaos and I’m excited to share that we
         will be sharing a large series of visual/music NFTs with the world on June 3rd. Aside from
         that I’m so excited about this amazing opportunity to contribute work for this CC0
         fashion/music project with Emma-Jane and the Songcamp - Chaos team, I don’t have much
-        planned within web3 past that but I have a feeling more projects will present themselves! I
+        planned within web3 past that but I have a feeling more projects will present themselves!
       </div>
     </div>
   );
