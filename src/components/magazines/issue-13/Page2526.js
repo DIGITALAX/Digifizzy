@@ -13,7 +13,8 @@ const Page2526 = () => {
         During the Renaissance period, new methods of encoding information were also developed,
         including a popular early method of binary encoding invented in 1623 by the noted polymath
         Sir Francis Bacon.
-        <br />
+      <br />
+      <br />
         In the 1790s, Thomas Jefferson described, but perhaps never built, a major breakthrough in
         cryptography. His cypher wheel invention included 36 rings of letters on moving wheels that
         could be used for complex encoding.
@@ -25,22 +26,22 @@ const Page2526 = () => {
         <br />
         During World War II, the Enigma machine would be the perfect example of analogue
         cryptography. This Axis device, like the wheel cypher, used rotating wheels to encode a
-        message, making it nearly impossible to read without another Enigma.
-        <br />
-        The earliest computer technologies were eventually employed to crack the Enigma cypher. To
+        message, making it nearly impossible to read without another Enigma. The earliest computer 
+        technologies were eventually employed to crack the Enigma cypher. To
         this very day, the success with which the Allies were able to decrypt the Enigma cypher
-        remains venerated by the victors as a critical component of their eventual victory.
-        <br />
-        The 21st century heralded the advancement of cryptography far beyond its analogue
-        counterpart. Many sensitive devices and computer systems now use
+        remains venerated by the victors as a critical component of their eventual victory. The 21st 
+        century heralded the advancement of cryptography far beyond its analogue counterpart. Many 
+        sensitive devices and computer systems now use
       </div>
       <div className={styles.text2}>
         128-bit mathematical encryption, which is far more powerful than any ancient or medieval
         cypher.
         <br />
+        <br />
         Beginning in 1990, computer scientists were working on an entirely new type of cryptography
         known as quantum cryptography in the hopes of increasing the level of security provided by
         modern encryption.
+        <br />
         <br />
         Cryptographic techniques have recently been used to make cryptocurrencies possible.
         Cryptocurrencies use advanced cryptographic techniques such as hash functions, public-key
@@ -49,6 +50,7 @@ const Page2526 = () => {
         Algorithm (ECDSA) is a type of cryptography that forms the basis of Bitcoin, Ethereum and
         other cryptocurrency systems in order to provide additional security and ensure that funds
         are only used by their rightful owners.
+        <br />
         <br />
         Cryptography has advanced significantly over the last 4,000 years, and it is unlikely to
         slow down anytime soon. Cryptography will continue to advance as long as sensitive data

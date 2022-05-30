@@ -11,7 +11,7 @@ const Page1112 = () => (
     <div className={styles.text1}>
       Thus far, we’ve seen L2 solutions like Bitcoin’s own Lightning Network, Polygon (Matic) and
       its PoS blockchain, Ethereum Plasma and Arbitrum, to name the most well-known ones, perform
-      transactions off the base layer and transmitting validated transactions back to the main
+      transactions off the base layer and transmit validated transactions back to the main
       chain.
       <br />
       <br />

@@ -50,7 +50,7 @@ const Page0910 = () => (
       <br />
       <br />
       Most scaling solutions are require complex hardware and software requirements – thus,
-      oftentimes, it takes some time for their network effects to trickle down to the base layer.
+      often, it takes some time for their network effects to trickle down to the base layer.
     </div>
   </div>
 );

@@ -51,7 +51,7 @@ const Page6364 = () => (
       collection.
       <br />
       <br />
-      How do NFTs change open up these notoriously hidden away storehouses of the world’s great art?
+      How do NFTs open up these notoriously hidden away storehouses of the world’s great art?
       <br />
       <br />
       SwissNFTs is a relatively new project on the block, with the aim to revolutionise the Swiss

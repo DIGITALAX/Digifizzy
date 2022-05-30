@@ -75,12 +75,12 @@ const Page1920 = () => (
       with capital or principles.
       <br />
       <br />
-      Regardless of all of the noise, what is clear here is that Zagabond actively mislead the
+      Regardless of all of the noise, what is clear here is that Zagabond actively misled the
       community about the core principles plastered all over the Azuki website.
       <br />
       <br />
       If you’re building out in the open in a true web3 way, and everything else that you claim
-      along those lines, then be up front about your past activity due— especially if it’s some
+      along those lines, then be up front about your past activity dude— especially if it’s some
       shady shit, like it’s been in this case.
       <br />
       <br />

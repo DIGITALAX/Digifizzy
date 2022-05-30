@@ -14,7 +14,7 @@ const Page1718 = () => {
       <div className={styles.text3}>MXVOID</div>
       <div className={styles.text4}>
         Like nearly every artist that got into NFTs in March 2021, it was Beeple's Everydays that
-        got me interested in NFTs. Also, the unexpected turning point that persuaded me to
+        got me interested in the space. Also, the unexpected turning point that persuaded me to
         participate was a Planet Money podcast episode from around that time that described the
         specifics of what NFTs are and how they work. The idea of royalties from secondary sales is
         what really tipped the scales for me.

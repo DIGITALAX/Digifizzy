@@ -92,7 +92,7 @@ const Page2728 = () => {
         <br />I guess I have painted walls since I was a child all over my house, later as a
         teenager is when I fell in love with wondering the streets of different cities and leaving
         my art, the memories that I kept from all those nights out and how the public creates their
-        own memory about the work you do , that dialogue I wold have to say is the most special
+        own memory about the work you do, that dialogue I would have to say is the most special
         aspect of street art to me.
       </div>
 
@@ -105,25 +105,25 @@ const Page2728 = () => {
         </b>
         <br />
         <br />
-        Early 2021 I started getting into the space, I really liked the crypto punks , the
-        aesthetics and the whole story behind them ,as I saw people do derivatives of the punks I
+        Early 2021 I started getting into the space, I really liked the Crypto Punks, the
+        aesthetics and the whole story behind them, as I saw people do derivatives of the Punks I
         had the idea of doing "street punks" a series of my interpretations of crypto punks on the
-        streets, this work got a lil traction and I joined the crypto punks discord starting
-        communicating with the holders , I noticed some of the holders liked the project , and
+        streets, this work got a lil traction and I joined the crypto punks discord, started
+        communicating with the holders. I noticed some of the holders liked the project, and I
         finally got commissioned to create one in NYC. From there on it was like a snowball, next
-        Cryptopainter a OG ape holder started commissioned me to do his bored ape. In the folowing
-        months these murals became popular in twitter and I realized how mush power a picture of the
-        pops in real life had as a onboarding tool for outsiders and as a community tool that
-        brought people together inside the space Months later I created Another Flex on the Wall, by
-        painting a wall in a central part of Brooklyn and involving different pfp communities it
-        became a wall that now represents the space
+        Cryptopainter an OG ape holder started to commission me to do his bored ape. In the folowing
+        months these murals became popular on twitter and I realized how mush power a picture of the
+        pfps in real life had as a onboarding tool for outsiders and as a community tool that
+        brought people together inside the space. Months later I created Another Flex on the Wall, by
+        painting a wall in a central part of Brooklyn and involving different pfp communities— it's
+        become a wall that now represents so much for the space.
         <br />
         <br />
         <b>Are there any cool projects that you're working on?</b>
         <br />
         <br />
-        Another flex on the wall would be a project I would have to highlight, I think its so
-        amazing to mint graffiti!
+        I've done a bunch all around NYC. No project in particular, but I think that the point of minting graffit
+        is super cool in and of itself!
       </div>
       <div className={styles.text18}>
         <b>
@@ -131,8 +131,9 @@ const Page2728 = () => {
           get more involved with NFTs but don't know where to start?{' '}
         </b>
         <br />
-        <br />I would suggest to really study the technology and try to bridge it with your art ,
-        there’s a lot of conceptual space yet to be explored.
+        <br />I would suggest to really study the technology and look more at why an NFT is an NFT first— the punk origins
+        behind why blockchain first came into existence and why web3 is important. Then try to bridge it with your art,
+        there’s a lot of conceptual space yet to be explored!
       </div>
     </div>
   );

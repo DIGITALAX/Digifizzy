@@ -31,11 +31,7 @@ const Page8586 = () => {
         <br />
         <br />
         The TL;DR version of ZK-rollups is as simple as this: within rollups, everything works just
-        as on the Ethereum mainnet, only cheaper, faster, transparent, and private for every user.
-        <br />
-        <br />
-        Therefore, ZK-rollups offer existing service providers maximum flexibility to service
-        providers as far as handling fees are concerned.
+        as on the Ethereum mainnet, only cheaper, faster, transparent, and more private for every user.
         <br />
         <br />
         The layer of privacy and scalability rollups inherently possess make them extremely

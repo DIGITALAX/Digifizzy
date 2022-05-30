@@ -46,12 +46,12 @@ const Page5960 = () => {
         back in June 2021, at the height of much of the NFT mayhem.
         <br />
         <br />
-        The story all seems a bit convoluted, with opaque announcements following since the initial
-        partnership and deleted press releases by G2.
+        The story is all a bit hard to follow, with opaque announcements, deleted press releases by G2 and who knows what else
+        behind the scenes.
         <br />
         <br />
-        Whatever the case, the story is still developing. Let’s hope that this move by G2 isn’t just
-        coming off the back of red market candles and there is more legitimacy to the claims.
+        Whatever the case, let’s hope that this move by G2 isn’t just
+        coming off the back of red market candles and general anti-web3 fud.
         <br />
         <br />I guess we’ll find out?
       </div>

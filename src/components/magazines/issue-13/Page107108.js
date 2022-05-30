@@ -39,9 +39,9 @@ const Page107108 = () => {
         with concentrated centralised factory production that had gotten cozy mass producing low
         quality crap under tight regimes of tyranny.
         <br />
-        <br />A smarter take on what’s happening underneath all of the media noiseabout all of the
-        economies that we participate in is that baseline economic demand is far outpacing
-        production capacity. And this is going to be true for years as hundreds of billion of
+        <br />A smarter take on what’s happening underneath all of the media noise about all of the
+        economies that we participate in, is that baseline economic demand is far outpacing
+        production capacity. And this is going to be true for years as hundreds of billions of
         dollars, euros and equivalent are poured like cement for reinforced steel structures into
         catching up with all of that demand.
         <br />

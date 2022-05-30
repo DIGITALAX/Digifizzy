@@ -15,7 +15,7 @@ const Page78 = () => (
       <br />
       <br />
       Not just those derived from fossil fuels, but also those coming from using the Ethereum
-      network, say, to mint them jpegs or finalizing DeFi transactions.
+      network, say, to mint them jpegs or for finalizing DeFi transactions.
       <br />
       <br />
       The issue of scalability has long been the chink in Ethereum’s armor.
