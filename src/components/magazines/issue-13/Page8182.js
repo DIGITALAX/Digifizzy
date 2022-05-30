@@ -17,8 +17,8 @@ const Page8182 = () => (
       of skate culture to web three, NFT streetwear, ZKs and more.
       <br />
       <br />
-      It’s led in collaboration with <a className={styles.f3m}>F3M</a> and the core of the local skate community here in NY, from
-      nineties legends to new up and comers.
+      It’s led in collaboration with <a className={styles.f3m}>F3M</a> and the core of the local
+      skate community here in NY, from nineties legends to new up and comers.
     </div>
     <div className={styles.text3}>
       The series will combine a mix between jams and runs across skates parks in all five boroughs +
@@ -29,8 +29,8 @@ const Page8182 = () => (
       of culture shapers.
       <br />
       <br />
-      <a className={styles.f3m}>F3M</a> is the champion streetwear provider, with DIGITALAX as a core infrastructure partner,
-      alongside other local skateshop + web three native DAO sponsors.
+      <a className={styles.f3m}>F3M</a> is the champion streetwear provider, with DIGITALAX as a
+      core infrastructure partner, alongside other local skateshop + web three native DAO sponsors.
       <br />
       <br />
       The first event will take place this summer, mid July… more details and sign ups to be
@@ -54,7 +54,7 @@ const Page8182 = () => (
     </div>
     <iframe
       className={styles.video3}
-      src="https://www.youtube.com/watch?v=cbMw7H51ZE0?autoplay=1&mute=1&controls=0&loop=1"
+      src="https://www.youtube.com/embed/cbMw7H51ZE0?autoplay=1&mute=1&controls=0&loop=1"
       frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     />
