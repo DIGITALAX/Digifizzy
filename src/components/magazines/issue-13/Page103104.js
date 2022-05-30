@@ -30,12 +30,6 @@ const Page103104 = () => {
         relationships.
       </div>
       <div className={styles.text3}>DIMENSIONAL WORKSHOP</div>
-      <div className={styles.f3m}>F</div>
-      <div className={styles.f3m2}>3</div>
-      <div className={styles.f3m3}>Manifesto</div>
-      <div className={styles.guerilla}>A Guerilla Streetwear Handbook for those looking to make it in web3, make money and not lose their soul.</div>
-      <a className={styles.collect}></a>
-      <div href="https://market.f3manifesto.xyz/product/148/1/0/" className={styles.nft} target="_blank" rel="noreferrer">View NFT</div>
       <div className={styles.text4}>
         AN ONGOING CURATION OF EXHIBITS OF NFTS MINTED ON THE DIGITALAX MARKETPLACES AND REALMS THAT
         SHOWCASE HOW TO MAKE IT IN WEB3.
@@ -45,6 +39,22 @@ const Page103104 = () => {
         <source src={`${DIGIFIZZY_S3}/13/videos/103104_video.mp4`} />
       </video>
       <div className={styles.rect1} />
+      <div className={styles.f3m}>F</div>
+      <div className={styles.f3m2}>3</div>
+      <div className={styles.f3m3}>Manifesto</div>
+      <div className={styles.guerilla}>
+        A Guerilla Streetwear Handbook for those looking to make it in web3, make money and not lose
+        their soul.
+      </div>
+      <a className={styles.collect}></a>
+      <a
+        href="https://market.f3manifesto.xyz/product/148/1/0/"
+        className={styles.nft}
+        target="_blank"
+        rel="noreferrer"
+      >
+        View NFT
+      </a>
     </div>
   );
 };
