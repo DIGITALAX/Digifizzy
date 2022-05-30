@@ -7,7 +7,7 @@ const Page5354 = () => (
   <div className={styles.wrapper}>
     <a href="https://cs.nyu.edu/~dodis/" target="_blank">
       <div className={styles.image1}>
-        <Image src={`${DIGIFIZZY_S3}/13/images/5354_image1.png`} width={338} height={338} />
+        <Image src={`${DIGIFIZZY_S3}/13/images/5354_image1.jpeg`} width={338} height={338} />
       </div>
     </a>
     <div className={styles.text3}>Yevgeniy Dodis</div>
