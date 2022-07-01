@@ -6,10 +6,10 @@ import styles from './page2930.module.scss';
 const Page5354 = () => (
   <div className={styles.wrapper}>
     <div className={styles.imageBackground}>
-      <Image src={`${DIGIFIZZY_S3}/14/images/Artboard 53.png`} width={960} height={1497} />
+      <Image src={`${DIGIFIZZY_S3}/14/images/Artboard 52.png`} width={960} height={1497} />
     </div>
     <div className={styles.imageBackground2}>
-      <Image src={`${DIGIFIZZY_S3}/14/images/Artboard 54.png`} width={960} height={1497} />
+      <Image src={`${DIGIFIZZY_S3}/14/images/Artboard 53.png`} width={960} height={1497} />
     </div>
   </div>
 );

@@ -65,7 +65,7 @@ const magazineIssues = [
   },
   {
     issueId: '14',
-    freePageCount: 68,
+    freePageCount: 69,
     hiddenPageCount: 0,
   },
 ];

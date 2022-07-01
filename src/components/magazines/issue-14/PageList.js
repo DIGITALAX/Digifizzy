@@ -35,6 +35,7 @@ const Page6162 = loadable(() => import('./Page6162'));
 const Page6364 = loadable(() => import('./Page6364'));
 const Page6566 = loadable(() => import('./Page6566'));
 const Page6768 = loadable(() => import('./Page6768'));
+const Page6970 = loadable(() => import('./Page6970'));
 const Backcover = loadable(() => import('./Backcover'));
 const PageList = [
   <CoverPage />,
@@ -72,6 +73,7 @@ const PageList = [
   <Page6364 />,
   <Page6566 />,
   <Page6768 />,
+  <Page6970 />,
   <Backcover />,
 ];
 
