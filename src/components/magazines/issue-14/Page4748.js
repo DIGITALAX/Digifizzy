@@ -9,7 +9,7 @@ const Page4748 = () => (
       <Image src={`${DIGIFIZZY_S3}/14/images/Artboard 45.png`} width={960} height={1497} />
     </div>
     <div className={styles.imageBackground2}>
-      <Image src={`${DIGIFIZZY_S3}/14/images/ Artboard 46.png`} width={960} height={1497} />
+      <Image src={`${DIGIFIZZY_S3}/14/images/Artboard 46.png`} width={960} height={1497} />
     </div>
   </div>
 );
