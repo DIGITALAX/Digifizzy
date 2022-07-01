@@ -1319,6 +1319,101 @@ const mapList = [
       },
     ],
   },
+  {
+    issueId: '14',
+    content: [
+      {
+        pageNum: 0,
+        x: '55',
+        y: '10',
+        rotate: '10',
+      },
+      {
+        pageNum: 3,
+        x: '10',
+        y: '25',
+        rotate: '0',
+      },
+      {
+        pageNum: 9,
+        x: '7',
+        y: '78',
+        rotate: '-15',
+      },
+      {
+        pageNum: 13,
+        x: '27',
+        y: '10',
+        rotate: '20',
+      },
+      {
+        pageNum: 17,
+        x: '42',
+        y: '24',
+        rotate: '-5',
+      },
+      {
+        pageNum: 23,
+        x: '59',
+        y: '35',
+        rotate: '0',
+      },
+      {
+        pageNum: 29,
+        x: '78',
+        y: '22',
+        rotate: '-12',
+      },
+      {
+        pageNum: 33,
+        x: '55',
+        y: '72',
+        rotate: '-10',
+      },
+      {
+        pageNum: 37,
+        x: '85',
+        y: '45',
+        rotate: '-20',
+      },
+      {
+        pageNum: 44,
+        x: '15',
+        y: '62',
+        rotate: '-10',
+      },
+      {
+        pageNum: 50,
+        x: '88',
+        y: '10',
+        rotate: '15',
+      },
+      {
+        pageNum: 54,
+        x: '25',
+        y: '42',
+        rotate: '22',
+      },
+      {
+        pageNum: 59,
+        x: '32',
+        y: '70',
+        rotate: '-17',
+      },
+      {
+        pageNum: 62,
+        x: '45',
+        y: '52',
+        rotate: '9',
+      },
+      {
+        pageNum: 66,
+        x: '85',
+        y: '72',
+        rotate: '11',
+      },
+    ],
+  },
 ];
 
 const MapViewer = forwardRef((props, ref) => {
