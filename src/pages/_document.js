@@ -789,6 +789,11 @@ class MyDocument extends Document {
             }
 
             @font-face {
+              font-family: 'Chathura';
+              src: url("./fonts/Chathura-Regular.ttf");
+            }
+
+            @font-face {
               font-family: 'Minecrafter';
               src: url("./fonts/Minecrafter.Reg.ttf");
             }
