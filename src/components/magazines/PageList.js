@@ -27,7 +27,7 @@ const issueList = {
   11: issue11PageList,
   12: issue12PageList,
   13: issue13PageList,
-  14: issue14PageList,
+  14: issue14PageList
 };
 
 const getPageList = (issueId) => issueList[issueId];
