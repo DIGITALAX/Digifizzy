@@ -67,7 +67,7 @@ const magazineIssues = [
     issueId: '14',
     freePageCount: 69,
     hiddenPageCount: 0,
-  },
+  }
 ];
 
 export default magazineIssues;
