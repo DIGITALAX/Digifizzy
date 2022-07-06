@@ -12,6 +12,7 @@ export const details = [
       ],
       issueIndex: 'Issue Fourteen',
       url: [
+        '/images/nft/13/common/commonover.png',
         '/images/nft/13/common/Artboard Copy 3 2.png',
         '/images/nft/13/common/Artboard Copy 3.png',
         '/images/nft/13/common/Artboard Copy 2.png',
@@ -41,6 +42,7 @@ export const details = [
       ],
       issueIndex: 'Issue Fourteen',
       url: [
+        '/images/nft/13/semi/semiover.png',
         '/images/nft/13/semi/Artboard Copy 2.png',
         '/images/nft/13/semi/Artboard Copy 3 2.png',
         '/images/nft/13/semi/Artboard Copy 4.png',
@@ -78,6 +80,7 @@ export const details = [
       ],
       issueIndex: 'Issue Fourteen',
       url: [
+        '/images/nft/13/exc/excover.png',
         '/images/nft/13/exc/Artboard Copy 2 3.png',
         '/images/nft/13/exc/Artboard Copy 3 2.png',
         '/images/nft/13/exc/Artboard Copy 3 3.png',
