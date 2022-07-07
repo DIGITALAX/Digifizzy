@@ -15,7 +15,7 @@ export const details = [
         '/images/nft/14/common/commonover.mp4',
         '/images/nft/14/common/Artboard Copy 3 2.png',
         '/images/nft/14/common/Artboard Copy 3.png',
-        '/images/nft/14/common/Artboard Copy 2.png',
+        '/images/nft/14/common/Artboard Copy 2 2.png',
         '/images/nft/14/common/Artboard Copy 2.png',
       ],
       body: [
