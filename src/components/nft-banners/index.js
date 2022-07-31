@@ -210,13 +210,13 @@ const NftBanners = () => (
           <a className={s.viewBundles}> VIEW BUNDLES </a>
         </Link>
       </div>
-      <img src="images/nft/13/2.png" />
-      <img src="images/nft/13/3.png" />
-      <img src="images/nft/13/4.png" />
-      <img src="images/nft/13/5.png" />
-      <img src="images/nft/13/6.png" />
-      <img src="images/nft/13/7.png" />
-      <img src="images/nft/13/8.png" />
+      <img src="images/nft/15/2.png" />
+      <img src="images/nft/15/3.png" />
+      <img src="images/nft/15/4.png" />
+      <img src="images/nft/15/5.png" />
+      <img src="images/nft/15/6.png" />
+      <img src="images/nft/15/7.png" />
+      <img src="images/nft/15/8.png" />
     </Carousel>
   </div>
 );
