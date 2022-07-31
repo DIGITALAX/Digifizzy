@@ -1535,7 +1535,7 @@ const MapViewer = forwardRef((props, ref) => {
                 issueId={issueId}
                 onClick={() => {
                   onClickItem(item.pageNum);
-                }}
+                }} 
               />
             ))}
         </div>
